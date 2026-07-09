@@ -9,8 +9,10 @@ class Country(Base):
 
     id = Column(Integer, primary_key=True)
 
-    name = Column(String, unique=True, nullable=False)
+    name = Column(String(100), nullable=False, unique=True)
 
     iso_code = Column(String(3), unique=True)
 
     acts = relationship("Act", back_populates="country")
+
+    regulators = relationship("Regulator", back_populates="country")

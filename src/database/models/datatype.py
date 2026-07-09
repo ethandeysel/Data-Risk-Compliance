@@ -2,12 +2,12 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
 from src.database.base import Base
-from .associations import obligation_sectors
+from .associations import obligation_data_types
 
 
-class Sector(Base):
+class DataType(Base):
 
-    __tablename__ = "sectors"
+    __tablename__ = "data_types"
 
     id = Column(Integer, primary_key=True)
 
@@ -15,6 +15,6 @@ class Sector(Base):
 
     obligations = relationship(
         "Obligation",
-        secondary=obligation_sectors,
-        back_populates="sectors",
+        secondary=obligation_data_types,
+        back_populates="data_types",
     )
