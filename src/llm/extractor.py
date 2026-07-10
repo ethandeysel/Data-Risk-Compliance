@@ -6,7 +6,6 @@ import json
 import re
 import time
 
-from google.genai import types
 
 from .gemini_client import client, MODEL
 from .prompt import SYSTEM_PROMPT, build_prompt
@@ -63,26 +62,37 @@ def parse_json(text):
 
 def call_gemini(prompt):
 
-    response = client.models.generate_content(
+    response = client.chat(
 
         model=MODEL,
 
-        contents=prompt,
+        messages=[
 
-        config=types.GenerateContentConfig(
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT
+            },
 
-            temperature=0,
+            {
+                "role": "user",
+                "content": prompt
+            }
 
-            response_mime_type="application/json",
+        ],
 
-            system_instruction=SYSTEM_PROMPT
+        options={
 
-        )
+            "temperature": 0,
+
+            "num_ctx": 32768
+
+        },
+
+        format="json"
 
     )
 
-    return response.text
-
+    return response.message.content
 
 # --------------------------------------------------------
 # Normalise Gemini output
@@ -140,7 +150,11 @@ def extract_batch(
     for attempt in range(retries):
 
         try:
-
+            print("=" * 70)
+            print("Sending prompt to Ollama")
+            print(f"Characters: {len(prompt):,}")
+            print(f"Approx tokens: {len(prompt)//4:,}")
+            print("=" * 70)
             parsed = parse_json(
                 call_gemini(prompt)
             )

@@ -55,7 +55,13 @@ for country_dir in countries:
             desc="Gemini",
             leave=False
         ):
-
+            print()
+            print(
+                f"Batch sections: "
+                f"{section_batch[0]['identifier']} "
+                f"to "
+                f"{section_batch[-1]['identifier']}"
+            )
             result = extract_batch(
                 section_batch,
                 document["country"],

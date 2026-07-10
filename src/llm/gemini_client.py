@@ -1,25 +1,14 @@
 """
-Gemini API client.
+Ollama client.
 
-Loads the API key and creates a reusable client.
+Kept as gemini_client.py so the rest of the
+project does not need to change.
 """
 
-import os
+from ollama import Client
 
-from dotenv import load_dotenv
-from google import genai
+MODEL = "qwen3:8b"
 
-load_dotenv()
-
-API_KEY = os.getenv("GEMINI_API_KEY")
-
-if not API_KEY:
-    raise RuntimeError(
-        "GEMINI_API_KEY not found in .env"
-    )
-
-MODEL = "gemini-2.5-flash"
-
-client = genai.Client(
-    api_key=API_KEY
+client = Client(
+    host="http://localhost:11434"
 )
