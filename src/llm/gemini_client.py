@@ -1,14 +1,8 @@
 """
-Ollama client.
+Backward-compatibility shim.
 
-Kept as gemini_client.py so the rest of the
-project does not need to change.
+The client now lives in client.py and supports multiple providers.
+This module is kept so older imports keep working.
 """
 
-from ollama import Client
-
-MODEL = "qwen3:8b"
-
-client = Client(
-    host="http://localhost:11434"
-)
+from .client import MODEL, generate  # noqa: F401

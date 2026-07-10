@@ -1,0 +1,333 @@
+{
+  "country": "South Africa",
+  "document": "Joint Standard 2 of 2024  Cybersecurity & Cyber resilience Requirements",
+  "generated": "2026-07-10T17:49:27",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "Definitions and interpretation",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 6,
+      "primary_category": "Definitions",
+      "summary": "Defines key terms including financial institutions, cyber incident, cybersecurity, and related concepts for the Joint Standard.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Definitions"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [],
+      "source_quote": "Definitions and interpretation"
+    },
+    {
+      "section": "3",
+      "heading": "Application",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Application",
+      "summary": "Specifies which financial institutions must comply with the Joint Standard and ensures risks from juristic persons and branches are mitigated.",
+      "dtia_summary": "Financial institutions must address cybersecurity risks from local and foreign juristic persons and branches.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Application"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A financial institution that is a bank, or a controlling company must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) and branches structured under the bank or the controlling company, including all relevant subsidiaries approved in terms of section 52 of the Banks Act, 1990, are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A financial institution that is an insurer or the controlling company of an insurance group must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) structured under the insurer or the insurance group designated under section 10 of the Insurance Act, 2017, are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3.2 A financial institution that is a bank, or a controlling company must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) and branches structured under the bank or the controlling company, including all relevant subsidiaries approved in terms of section 52 of the Banks Act, 1990, are catered for and mitigated in the application of the requirements of this Joint Standard."
+    },
+    {
+      "section": "4",
+      "heading": "Roles and responsibilities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Governance",
+      "summary": "Assigns responsibility for cybersecurity strategy and framework to the governing body and senior management.",
+      "dtia_summary": "Governing body must ensure cybersecurity strategy and framework is established and maintained with senior management.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The governing body is ultimately responsible for ensuring that the financial institution complies with the requirements set out in this Joint Standard.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The governing body must together with senior management, ensure that a sound and robust cybersecurity strategy and framework is established, implemented and maintained.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The governing body must require management to co-operate with other stakeholders, as relevant and appropriate, in order to enable financial sector cyber resilience.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The governing body must ensure that roles and responsibilities for security are clearly defined in the contract or Service Level Agreement with third-party service providers.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4.1 The governing body is ultimately responsible for – ensuring that the financial institution complies with the requirements set out in this Joint Standard; and the oversight of cyber risk management, but may delegate primary oversight activities to an existing or new committee."
+    },
+    {
+      "section": "5",
+      "heading": "Governance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Governance",
+      "summary": "Requires clear roles, responsibilities, and independent oversight for cyber risk management within governance structures.",
+      "dtia_summary": "Financial institutions must define roles, ensure cyber risk management is integrated into governance, and establish a dedicated function with direct reporting to the governing body.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "clearly define the roles and responsibilities of all management functions (including lines of defence) as well as committees established for the purposes of exercising oversight of cyber risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ensure cyber risk management is incorporated into the governance and risk management structures, processes and procedures of a financial institution. Direct reporting line to the governing body should be established in terms of the governance framework; ensure that a function(s) responsible for cyber and information security is established with adequate resources and appropriate authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ensure that the oversight of the function(s) referred to in subparagraph 5.1.3 above, including control functions, has access to the governing body and is structured in a manner that ensures adequate segregation of duties and avoids any potential conflicts of interest",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5.1.1 clearly define the roles and responsibilities of all management functions (including lines of defence) as well as committees established for the purposes of exercising oversight of cyber risks"
+    },
+    {
+      "section": "6",
+      "heading": "Cybersecurity strategy and framework",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Cybersecurity strategy and framework",
+      "summary": "Requires financial institutions to establish, maintain, and review cybersecurity strategies and frameworks aligned with business objectives.",
+      "dtia_summary": "Financial institutions must establish and maintain a cybersecurity strategy approved by the governing body, review it annually, and align it with enterprise risk management.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cybersecurity strategy and framework"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "establish and maintain a cybersecurity strategy that is approved by the governing body and aligned with its overall business strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "review the cybersecurity strategy regularly, but at least annually, to address changes in the cyber threat landscape, allocate resources, identify and remediate gaps, and incorporate lessons learnt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "establish a cybersecurity framework to manage cyber risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "align its cybersecurity framework with its enterprise risk management framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "establish cybersecurity policies, standards, processes and procedures that are informed by industry standards and best practices to manage cyber risks and safeguard IT systems and information assets, taking into consideration the evolving technology and cyber threat landscape",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "define and reassess regularly business risk tolerance relative to cybersecurity and ensure that it is consistent with the business strategy and risk appetite",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "establish metrics to track and manage cybersecurity risks and to inform related reporting from both a technical and business context",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6.1.1 establish and maintain a cybersecurity strategy that is approved by the governing body and aligned with its overall business strategy"
+    },
+    {
+      "section": "7",
+      "heading": "Cybersecurity and cyber resilience fundamentals",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "Financial institutions must implement adaptive cyber resilience capabilities that evolve with cyber threats.",
+      "dtia_summary": "Requires continuous learning and adaptation to cyber threats through incident lessons and technological developments.",
+      "authority": "Financial institutions",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Learning and Evolving"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "implement adaptive cyber resilience capability that learns and evolves with dynamic nature of cyber risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "systematically identify and distil key lessons from cyber incidents to advance resilience capabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "actively monitor technological developments and keep abreast of new cyber risk management processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ensure cyber risk management practices go beyond reactive controls to include proactive protection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Implement an adaptive cyber resilience capability that learns and evolves with the dynamic nature of cyber risks"
+    },
+    {
+      "section": "8",
+      "heading": "Cybersecurity hygiene practices",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 17,
+      "primary_category": "Security",
+      "summary": "Financial institutions must implement access control policies, regular reviews, user access management, segregation of duties, least privilege, periodic access reviews, and similar security practices for IT systems and information assets.",
+      "dtia_summary": "Requires access control policies, regular reviews, user access management, segregation of duties, least privilege, and periodic access reviews for IT systems and information assets.",
+      "authority": "Authorities",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Access Control",
+        "User Access Management",
+        "Segregation of Duties",
+        "Least Privilege"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "establish a security access control policy and a process to enforce strong password security controls for users' access to IT systems and information assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ensure that the security access control policy is reviewed regularly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "establish a user access management process to provision, change and revoke access rights to IT systems and information assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "apply the principles of ‘segregation of duties' and ‘least privilege' when granting user access to IT systems and information assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ensure appropriate parties perform periodic user access reviews to verify the appropriateness of privileges granted to users",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "subject third-party service providers and contractors with access to financial institution's IT systems to the same monitoring and access restrictions as employees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Cybersecurity hygiene practices 8.1 (a) establish a security access control policy and a process to enforce strong password security controls for users' access to IT systems and information assets"
+    },
+    {
+      "section": "9",
+      "heading": "Notifications and regulatory reporting",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Incident Reporting",
+      "summary": "Financial institutions must notify the responsible authority of material cyber incidents or information security compromises within specified timeframes.",
+      "dtia_summary": "Requires financial institutions to notify the responsible authority of material cyber incidents or information security compromises.",
+      "authority": "Authorities",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A financial institution must notify the responsible authority in the form and manner determined by the Authorities after classifying the following as a material incident – cyber incidents; or information security compromise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A financial institution must report such information related to the requirements in this Joint Standard to the Authorities as may be determined by the Authorities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Notifications and regulatory reporting 9.1 A financial institution must notify the responsible authority in the form and manner determined by the Authorities, after classifying the following as a material incident – cyber incidents; or information security compromise."
+    },
+    {
+      "section": "10",
+      "heading": "Short title and commencement",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "This Joint Standard is titled 'Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024' and comes into effect on a date to be determined by the Authorities.",
+      "dtia_summary": "",
+      "authority": "Authorities",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Short title and commencement 10.1 This Joint Standard is called Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024 and comes into effect on the date indicated in paragraph 10.2 below."
+    }
+  ]
+}

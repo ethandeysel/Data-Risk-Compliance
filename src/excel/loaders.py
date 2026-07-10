@@ -1,460 +1,200 @@
+"""
+Loads the extracted compliance JSON (stage 04) into the datasets the
+Excel exporter needs: one flat row per section (with page references for
+citation), plus per-act / per-regulator / per-topic rollups and the
+value lists used for the Query sheet dropdowns.
+"""
+
 from pathlib import Path
 import json
+
 import pandas as pd
 
 
+# Column order for the Compliance Database / Query result.  Kept
+# query-friendly: identity first, then the fields a DTIA answer cites.
+COLUMNS = [
+    "Country", "Act", "Section", "Heading", "Pages", "Category",
+    "Financial Relevance", "Confidence", "Topics", "Data Types",
+    "Authority", "Summary", "DTIA Summary", "Requirements",
+    "Source Quote",
+]
+
+
+def _pages(section):
+    start = section.get("page_start")
+    end = section.get("page_end")
+    if start is None:
+        return ""
+    if end and end != start:
+        return f"{start}–{end}"
+    return str(start)
+
+
+def _requirements_text(section):
+    parts = []
+    for req in section.get("requirements", []):
+        if isinstance(req, dict):
+            text = req.get("text", "")
+            otype = req.get("obligation_type", "")
+            parts.append(f"[{otype}] {text}" if otype else text)
+        else:
+            parts.append(str(req))
+    return "\n\n".join(p for p in parts if p)
+
+
 class DataLoader:
-    """
-    Loads all extracted compliance JSON files and builds
-    datasets used throughout the exporter.
-    """
 
     def __init__(self, extracted_folder="data/extracted"):
-
         self.folder = Path(extracted_folder)
-
         self.rows = []
-
         self.acts = {}
-
         self.regulators = {}
-
         self.topics = {}
-
         self.data_types = {}
-
+        self.categories = {}
         self.countries = set()
 
-    # ---------------------------------------------------------
-    # Main
-    # ---------------------------------------------------------
+    # -----------------------------------------------------------------
 
     def load(self):
-
         if not self.folder.exists():
-            raise FileNotFoundError(
-                f"{self.folder} does not exist."
-            )
+            raise FileNotFoundError(f"{self.folder} does not exist.")
 
-        country_dirs = sorted(
-            d for d in self.folder.iterdir()
-            if d.is_dir()
-        )
+        for path in sorted(self.folder.rglob("*.json")):
+            self._load_document(path)
 
-        for country_dir in country_dirs:
-
-            self._load_country(country_dir)
-
-        self.df = pd.DataFrame(self.rows)
-
+        self.df = pd.DataFrame(self.rows, columns=COLUMNS)
         if not self.df.empty:
-
             self.df.sort_values(
-
-                [
-
-                    "Country",
-
-                    "Act",
-
-                    "Section"
-
-                ],
-
-                inplace=True
-
+                ["Country", "Act", "Section"], inplace=True,
+                key=lambda col: col.map(_natural_key)
+                if col.name == "Section" else col,
             )
-
         return self
 
-    # ---------------------------------------------------------
-    # Country
-    # ---------------------------------------------------------
+    # -----------------------------------------------------------------
 
-    def _load_country(self, country_dir):
-
-        country = country_dir.name
-
-        self.countries.add(country)
-
-        print(f"Loading {country}")
-
-        for file in sorted(country_dir.glob("*.json")):
-
-            self._load_document(
-
-                country,
-
-                file
-
-            )
-
-    # ---------------------------------------------------------
-    # Document
-    # ---------------------------------------------------------
-
-    def _load_document(
-
-        self,
-
-        country,
-
-        path
-
-    ):
-
-        with open(
-
-            path,
-
-            encoding="utf-8"
-
-        ) as f:
-
+    def _load_document(self, path):
+        with open(path, encoding="utf-8") as f:
             document = json.load(f)
 
-        act = document["document"]
-
-        act_key = (
-
-            country,
-
-            act
-
-        )
-
-        if act_key not in self.acts:
-
-            self.acts[act_key] = {
-
-                "Country": country,
-
-                "Act": act,
-
-                "Sections": 0,
-
-                "Regulators": set(),
-
-                "Topics": set(),
-
-                "Data Types": set(),
-
-                "Financial Relevance": ""
-
-            }
-
-        for section in document["sections"]:
-
-            self._process_section(
-
-                country,
-
-                act,
-
-                section
-
-            )
-
-    # ---------------------------------------------------------
-    # Section
-    # ---------------------------------------------------------
-
-    def _process_section(
-
-        self,
-
-        country,
-
-        act,
-
-        section
-
-    ):
-
-        act_key = (
-
-            country,
-
-            act
-
-        )
-
-        self.acts[act_key]["Sections"] += 1
-
-        authority = section.get(
-
-            "authority",
-
-            ""
-
-        )
-
-        if authority:
-
-            self.acts[act_key][
-
-                "Regulators"
-
-            ].add(authority)
-
-            if authority not in self.regulators:
-
-                self.regulators[authority] = {
-
-                    "Country": set(),
-
-                    "Acts": set()
-
-                }
-
-            self.regulators[authority][
-
-                "Country"
-
-            ].add(country)
-
-            self.regulators[authority][
-
-                "Acts"
-
-            ].add(act)
-
-        relevance = section.get(
-
-            "financial_relevance",
-
-            ""
-
-        )
-
-        if relevance:
-
-            self.acts[act_key][
-
-                "Financial Relevance"
-
-            ] = relevance
-
-        topics = section.get(
-
-            "topics",
-
-            []
-
-        )
-
-        for topic in topics:
-
-            self.acts[act_key][
-
-                "Topics"
-
-            ].add(topic)
-
-            self.topics[topic] = (
-
-                self.topics.get(topic, 0)
-
-                + 1
-
-            )
-
-        dtypes = section.get(
-
-            "data_types",
-
-            []
-
-        )
-
-        for dtype in dtypes:
-
-            self.acts[act_key][
-
-                "Data Types"
-
-            ].add(dtype)
-
-            self.data_types[dtype] = (
-
-                self.data_types.get(dtype, 0)
-
-                + 1
-
-            )
-
-        requirements = section.get(
-
-            "requirements",
-
-            []
-
-        )
-
-        requirement_text = ""
-
-        if requirements:
-
-            parts = []
-
-            for req in requirements:
-
-                if isinstance(req, dict):
-
-                    parts.append(
-
-                        req.get(
-
-                            "text",
-
-                            ""
-
-                        )
-
-                    )
-
-                else:
-
-                    parts.append(
-
-                        str(req)
-
-                    )
-
-            requirement_text = "\n\n".join(parts)
-
-        self.rows.append({
-
-            "Country":
-
-                country,
-
-            "Act":
-
-                act,
-
-            "Section":
-
-                section.get(
-
-                    "section",
-
-                    ""
-
-                ),
-
-            "Heading":
-
-                section.get(
-
-                    "heading",
-
-                    ""
-
-                ),
-
-            "Authority":
-
-                authority,
-
-            "Summary":
-
-                section.get(
-
-                    "summary",
-
-                    ""
-
-                ),
-
-            "Requirements":
-
-                requirement_text,
-
-            "Topics":
-
-                ", ".join(topics),
-
-            "Data Types":
-
-                ", ".join(dtypes),
-
-            "Financial Relevance":
-
-                relevance,
-
-            "Confidence":
-
-                section.get(
-
-                    "confidence",
-
-                    ""
-
-                ),
-
-            "Source Quote":
-
-                section.get(
-
-                    "source_quote",
-
-                    ""
-
-                )
-
+        country = document.get("country", "Unknown")
+        act = document.get("document", path.stem)
+        self.countries.add(country)
+
+        act_key = (country, act)
+        act_row = self.acts.setdefault(act_key, {
+            "Country": country, "Act": act, "Sections": 0,
+            "Regulators": set(), "Topics": set(), "Data Types": set(),
+            "Financial Relevance": "",
         })
 
-    # ---------------------------------------------------------
-    # Summary
-    # ---------------------------------------------------------
+        for section in document.get("sections", []):
+            self._process_section(country, act, act_row, section)
+
+    # -----------------------------------------------------------------
+
+    def _process_section(self, country, act, act_row, section):
+        act_row["Sections"] += 1
+
+        authority = section.get("authority", "")
+        if authority:
+            act_row["Regulators"].add(authority)
+            reg = self.regulators.setdefault(
+                authority, {"Country": set(), "Acts": set()}
+            )
+            reg["Country"].add(country)
+            reg["Acts"].add(act)
+
+        relevance = section.get("financial_relevance", "")
+        if relevance and relevance not in ("None", "Unknown"):
+            # Keep the highest relevance seen for the act.
+            act_row["Financial Relevance"] = _max_relevance(
+                act_row["Financial Relevance"], relevance
+            )
+
+        category = section.get("primary_category", "")
+        if category:
+            self.categories[category] = self.categories.get(category, 0) + 1
+
+        topics = section.get("topics", []) or []
+        for topic in topics:
+            act_row["Topics"].add(topic)
+            self.topics[topic] = self.topics.get(topic, 0) + 1
+
+        dtypes = section.get("data_types", []) or []
+        for dtype in dtypes:
+            act_row["Data Types"].add(dtype)
+            self.data_types[dtype] = self.data_types.get(dtype, 0) + 1
+
+        self.rows.append({
+            "Country": country,
+            "Act": act,
+            "Section": section.get("section", ""),
+            "Heading": section.get("heading", ""),
+            "Pages": _pages(section),
+            "Category": category,
+            "Financial Relevance": relevance,
+            "Confidence": section.get("confidence", ""),
+            "Topics": ", ".join(topics),
+            "Data Types": ", ".join(dtypes),
+            "Authority": authority,
+            "Summary": section.get("summary", ""),
+            "DTIA Summary": section.get("dtia_summary", ""),
+            "Requirements": _requirements_text(section),
+            "Source Quote": section.get("source_quote", ""),
+        })
+
+    # -----------------------------------------------------------------
 
     def summary(self):
-
         return {
-
-            "countries":
-
-                len(self.countries),
-
-            "acts":
-
-                len(self.acts),
-
-            "regulators":
-
-                len(self.regulators),
-
-            "topics":
-
-                len(self.topics),
-
-            "rows":
-
-                len(self.rows)
-
+            "countries": len(self.countries),
+            "acts": len(self.acts),
+            "regulators": len(self.regulators),
+            "topics": len(self.topics),
+            "rows": len(self.rows),
         }
-
-    # ---------------------------------------------------------
-    # Lists used for dropdowns
-    # ---------------------------------------------------------
 
     @property
     def country_list(self):
-
         return sorted(self.countries)
 
     @property
     def topic_list(self):
-
         return sorted(self.topics.keys())
 
     @property
     def regulator_list(self):
-
         return sorted(self.regulators.keys())
 
     @property
     def datatype_list(self):
-
         return sorted(self.data_types.keys())
+
+    @property
+    def category_list(self):
+        return sorted(self.categories.keys())
+
+    @property
+    def relevance_list(self):
+        order = ["High", "Medium", "Low", "None"]
+        return [r for r in order if any(
+            row["Financial Relevance"] == r for row in self.rows
+        )]
+
+
+# ---------------------------------------------------------------------
+
+_RELEVANCE_RANK = {"": 0, "None": 0, "Low": 1, "Medium": 2, "High": 3}
+
+
+def _max_relevance(a, b):
+    return a if _RELEVANCE_RANK.get(a, 0) >= _RELEVANCE_RANK.get(b, 0) else b
+
+
+def _natural_key(value):
+    """Zero-pad numbers so identifiers sort naturally (2 < 10 < 10A)."""
+    import re
+    return re.sub(r"\d+", lambda m: m.group().zfill(6), str(value))
