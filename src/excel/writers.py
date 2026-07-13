@@ -35,6 +35,7 @@ class ExcelWriter:
         self.write_acts()
         self.write_regulators()
         self.write_topics()
+        self.write_engine()
         self.write_query()
         self.write_home()
 
@@ -133,9 +134,15 @@ class ExcelWriter:
                 target.value = ""
             target.fill = HEADER_FILL
 
-        # Live results — a single dynamic-array FILTER that spills.
-        ws["A12"] = "Matching sections (scroll / widen columns to read):"
+        # Results: classic INDEX/MATCH pulled from the hidden Engine sheet
+        # (works in every Excel version — no dynamic arrays).
+        n = len(self.loader.df)
+        last = n + 1  # data rows on Compliance Database / Engine: 2..n+1
+
+        ws["A12"] = f"Matching sections (of {n} total):"
         ws["A12"].font = Font(bold=True)
+        ws["C12"] = f"=Engine!$D$1"          # live match count
+        ws["C12"].font = Font(bold=True)
 
         headers = list(self.loader.df.columns)
         for idx, name in enumerate(headers, start=1):
@@ -143,33 +150,61 @@ class ExcelWriter:
             c.fill = HEADER_FILL
             c.font = HEADER_FONT
 
-        ws["A14"] = self._filter_formula()
+        for r in range(14, 14 + n):
+            k = r - 13  # this row shows the k-th matching section
+            match = f"MATCH({k},Engine!$C$2:$C${last},0)"
+            for idx in range(1, len(headers) + 1):
+                col = get_column_letter(idx)
+                # IF/ISNA/INDEX/MATCH only — no functions newer than 2003.
+                ws.cell(r, idx).value = (
+                    f'=IF(ISNA({match}),"",'
+                    f"INDEX('Compliance Database'!${col}$2:${col}${last},"
+                    f"{match}))"
+                )
+                if headers[idx - 1] in WRAP_COLUMNS:
+                    ws.cell(r, idx).alignment = WRAP
 
-        ws.column_dimensions["A"].width = 22
-        for letter in ("B", "C", "D"):
-            ws.column_dimensions[letter].width = 24
+        for idx, name in enumerate(headers, start=1):
+            width = 45 if name in WRAP_COLUMNS else 18
+            ws.column_dimensions[get_column_letter(idx)].width = width
+        ws.column_dimensions["A"].width = 16
         ws.freeze_panes = "A14"
 
-    def _filter_formula(self):
-        t = "ComplianceTable"
-        # Each line: "All"/blank matches everything, otherwise exact match
-        # (or substring for the comma-joined list columns and keyword).
-        criteria = (
-            f'((B4="All")+({t}[Country]=B4))*'
-            f'((B5="All")+({t}[Category]=B5))*'
-            f'((B6="All")+ISNUMBER(SEARCH(B6,{t}[Topics])))*'
-            f'((B7="All")+ISNUMBER(SEARCH(B7,{t}[Data Types])))*'
-            f'((B8="All")+({t}[Financial Relevance]=B8))*'
-            f'((B9="All")+({t}[Authority]=B9))*'
-            f'((B10="")+ISNUMBER(SEARCH(B10,'
-            f'{t}[Heading]&" "&{t}[Summary]&" "&{t}[DTIA Summary]&" "&'
-            f'{t}[Requirements]&" "&{t}[Source Quote])))'
-        )
-        return (
-            f'=IFERROR(FILTER({t},{criteria},'
-            f'"No matching sections - broaden your filters"),'
-            f'"No matching sections - broaden your filters")'
-        )
+    # =================================================================
+    # ENGINE (hidden) — per-row match flag + running rank
+    # =================================================================
+
+    def write_engine(self):
+        ws = self.wb["Engine"]
+        n = len(self.loader.df)
+        last = n + 1
+        db = "'Compliance Database'"
+
+        ws["A1"] = "match"
+        ws["B1"] = "rank"
+        ws["C1"] = "rankval"
+        ws["D1"] = f'=SUM($A$2:$A${last})'   # total matches (shown on Query)
+
+        for i in range(2, last + 1):
+            # Column map on Compliance Database:
+            # A Country F Category G FinRelevance I Topics J DataTypes
+            # K Authority ; keyword searches D,L,M,N,O.
+            ws.cell(i, 1).value = (
+                "=IF(AND("
+                f'OR(Query!$B$4="All",{db}!$A{i}=Query!$B$4),'
+                f'OR(Query!$B$5="All",{db}!$F{i}=Query!$B$5),'
+                f'OR(Query!$B$6="All",ISNUMBER(SEARCH(Query!$B$6,{db}!$I{i}))),'
+                f'OR(Query!$B$7="All",ISNUMBER(SEARCH(Query!$B$7,{db}!$J{i}))),'
+                f'OR(Query!$B$8="All",{db}!$G{i}=Query!$B$8),'
+                f'OR(Query!$B$9="All",{db}!$K{i}=Query!$B$9),'
+                f'OR(Query!$B$10="",ISNUMBER(SEARCH(Query!$B$10,'
+                f'{db}!$D{i}&" "&{db}!$L{i}&" "&{db}!$M{i}&" "&'
+                f'{db}!$N{i}&" "&{db}!$O{i})))'
+                "),1,0)"
+            )
+            # Running rank of matches; C mirrors it as a number for MATCH.
+            ws.cell(i, 2).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),"")'
+            ws.cell(i, 3).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),0)'
 
     # =================================================================
     # HOME

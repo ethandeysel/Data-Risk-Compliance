@@ -146,14 +146,46 @@ def _gemini_generate(system: str, prompt: str) -> str:
 # Dispatch
 # ----------------------------------------------------------------------
 
+# The provider can change at runtime: if Gemini runs out of quota we
+# fall back to local Ollama for the rest of the run.
+_active_provider = PROVIDER
+
+
+def _is_quota_error(exc) -> bool:
+    text = f"{type(exc).__name__} {exc}".lower()
+    return any(
+        s in text for s in (
+            "429", "403", "resource_exhausted", "quota",
+            "rate limit", "rate_limit", "exhausted", "permission",
+        )
+    )
+
+
 def generate(system: str, prompt: str) -> str:
-    """Send one system+user prompt to the configured provider."""
-    if PROVIDER == "gemini":
-        return _gemini_generate(system, prompt)
+    """Send one system+user prompt to the active provider.
+
+    When the active provider is Gemini and it fails (quota/rate limit, or
+    any error), we switch to local Ollama for the remainder of the run so
+    an unsupervised job keeps making progress instead of stalling.
+    """
+    global _active_provider
+
+    if _active_provider == "gemini":
+        try:
+            return _gemini_generate(system, prompt)
+        except Exception as exc:
+            reason = "quota/rate limit" if _is_quota_error(exc) else \
+                f"{type(exc).__name__}"
+            print(
+                f"[client] Gemini unavailable ({reason}); "
+                f"switching to local Ollama ({MODEL}) for the rest of the run."
+            )
+            _active_provider = "ollama"
+
     return _ollama_generate(system, prompt)
 
 
 def describe() -> str:
     if PROVIDER == "gemini":
-        return f"gemini:{GEMINI_MODEL}"
+        return f"gemini:{GEMINI_MODEL} (falls back to ollama:{MODEL})"
     return f"ollama:{MODEL}"

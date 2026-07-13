@@ -179,7 +179,15 @@ def main():
         out_dir = OUTPUT_DIR / country_dir.name
         out_dir.mkdir(parents=True, exist_ok=True)
 
-        for act_file in sorted(country_dir.glob("*.json")):
+        # Smallest acts first, so an interrupted / time-limited run
+        # completes as many whole acts as possible.
+        act_files = sorted(
+            country_dir.glob("*.json"),
+            key=lambda p: len(json.loads(p.read_text(encoding="utf-8"))
+                              .get("sections", [])),
+        )
+
+        for act_file in act_files:
             out_file = out_dir / act_file.name
 
             if out_file.exists() and not FORCE:

@@ -39,8 +39,16 @@ def create_workbook():
     wb.create_sheet("Topics")
 
     lists = wb.create_sheet("Lists")
-
     lists.sheet_state = "hidden"
+
+    # Hidden calculation sheet backing the Query engine (match flag +
+    # running rank per section).  Keeps the query working in every Excel
+    # version — no dynamic-array functions.
+    engine = wb.create_sheet("Engine")
+    engine.sheet_state = "hidden"
+
+    # Recalculate on open so the query reflects the current selections.
+    wb.calculation.fullCalcOnLoad = True
 
     return wb
 
