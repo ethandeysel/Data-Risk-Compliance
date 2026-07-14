@@ -37,6 +37,8 @@ class ExcelWriter:
         self.write_topics()
         self.write_engine()
         self.write_query()
+        self.write_transfer_engine()
+        self.write_transfer()
         self.write_home()
 
     # =================================================================
@@ -207,6 +209,125 @@ class ExcelWriter:
             ws.cell(i, 3).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),0)'
 
     # =================================================================
+    # DATA TRANSFER  —  cross-border view over two countries
+    # =================================================================
+
+    def write_transfer(self):
+        """Pick two countries; list every section from either one.
+
+        A transfer between A and B is governed by both A's (outbound) and
+        B's (inbound) rules, so the result is the union of the two
+        countries' sections — grouped by country because the underlying
+        data is sorted Country → Act → Section.
+        """
+        ws = self.wb["Data Transfer"]
+        ws.sheet_view.showGridLines = False
+
+        ws["A1"] = "Cross-Border Data Transfer"
+        ws["A1"].font = TITLE_FONT
+        ws["A1"].fill = TITLE_FILL
+        ws.merge_cells("A1:D1")
+
+        ws["A3"] = ("Pick the two countries involved in the transfer. "
+                    "Every relevant act/section from either country is "
+                    "listed below; add a keyword to narrow it.")
+        ws["A3"].font = Font(italic=True)
+
+        # Country dropdowns use the Lists Country column minus the leading
+        # "All" (rows 3..last), so both pickers hold real countries.
+        n_countries = len(self.loader.country_list)
+        country_range = f"Lists!$A$3:$A${n_countries + 2}"
+
+        pickers = [
+            ("Country A (from)", "B4", country_range),
+            ("Country B (to)", "B5", country_range),
+            ("Keyword (free text)", "B6", None),
+        ]
+        for label, cell, rng in pickers:
+            row = int(cell[1:])
+            ws.cell(row, 1, label).font = Font(bold=True)
+            target = ws[cell]
+            if rng:
+                dv = DataValidation(type="list", formula1=rng,
+                                    allow_blank=True)
+                ws.add_data_validation(dv)
+                dv.add(target)
+            else:
+                target.value = ""
+            target.fill = HEADER_FILL
+
+        # Default to the first two countries so the sheet is populated on
+        # open (leaving Country B blank simply shows Country A alone).
+        countries = self.loader.country_list
+        ws["B4"] = countries[0] if countries else ""
+        ws["B5"] = countries[1] if len(countries) > 1 else ""
+
+        n = len(self.loader.df)
+        last = n + 1
+
+        ws["A8"] = f"Matching sections (of {n} total):"
+        ws["A8"].font = Font(bold=True)
+        ws["C8"] = "='Transfer Engine'!$D$1"
+        ws["C8"].font = Font(bold=True)
+
+        headers = list(self.loader.df.columns)
+        for idx, name in enumerate(headers, start=1):
+            c = ws.cell(9, idx, name)
+            c.fill = HEADER_FILL
+            c.font = HEADER_FONT
+
+        for r in range(10, 10 + n):
+            k = r - 9  # k-th matching section
+            match = f"MATCH({k},'Transfer Engine'!$C$2:$C${last},0)"
+            for idx in range(1, len(headers) + 1):
+                col = get_column_letter(idx)
+                ws.cell(r, idx).value = (
+                    f'=IF(ISNA({match}),"",'
+                    f"INDEX('Compliance Database'!${col}$2:${col}${last},"
+                    f"{match}))"
+                )
+                if headers[idx - 1] in WRAP_COLUMNS:
+                    ws.cell(r, idx).alignment = WRAP
+
+        for idx, name in enumerate(headers, start=1):
+            width = 45 if name in WRAP_COLUMNS else 18
+            ws.column_dimensions[get_column_letter(idx)].width = width
+        ws.column_dimensions["A"].width = 18
+        ws.freeze_panes = "A10"
+
+    # =================================================================
+    # TRANSFER ENGINE (hidden) — union-of-two-countries match flag
+    # =================================================================
+
+    def write_transfer_engine(self):
+        ws = self.wb["Transfer Engine"]
+        n = len(self.loader.df)
+        last = n + 1
+        db = "'Compliance Database'"
+        q = "'Data Transfer'"
+
+        ws["A1"] = "match"
+        ws["B1"] = "rank"
+        ws["C1"] = "rankval"
+        ws["D1"] = f'=SUM($A$2:$A${last})'
+
+        for i in range(2, last + 1):
+            # Row kept if its Country (Compliance Database col A) is either
+            # selected country, and the optional keyword hits its text
+            # (cols D Heading, L Summary, M DTIA Summary, N Requirements,
+            # O Source Quote).
+            ws.cell(i, 1).value = (
+                "=IF(AND("
+                f'OR({db}!$A{i}={q}!$B$4,{db}!$A{i}={q}!$B$5),'
+                f'OR({q}!$B$6="",ISNUMBER(SEARCH({q}!$B$6,'
+                f'{db}!$D{i}&" "&{db}!$L{i}&" "&{db}!$M{i}&" "&'
+                f'{db}!$N{i}&" "&{db}!$O{i})))'
+                "),1,0)"
+            )
+            ws.cell(i, 2).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),"")'
+            ws.cell(i, 3).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),0)'
+
+    # =================================================================
     # HOME
     # =================================================================
 
@@ -239,7 +360,10 @@ class ExcelWriter:
             "Financial Relevance or Authority — or type a keyword.",
             "3. Matching sections appear below, each with its Act and "
             "page reference for the source document.",
-            "4. The Compliance Database sheet holds every extracted "
+            "4. The Data Transfer sheet answers cross-border questions: "
+            "pick two countries and see every relevant act/section from "
+            "either side of the transfer.",
+            "5. The Compliance Database sheet holds every extracted "
             "section; Acts / Regulators / Topics summarise them.",
         ]
         for i, step in enumerate(steps, start=11):

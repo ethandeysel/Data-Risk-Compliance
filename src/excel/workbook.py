@@ -30,6 +30,8 @@ def create_workbook():
 
     wb.create_sheet("Query")
 
+    wb.create_sheet("Data Transfer")
+
     wb.create_sheet("Compliance Database")
 
     wb.create_sheet("Acts")
@@ -46,6 +48,11 @@ def create_workbook():
     # version — no dynamic-array functions.
     engine = wb.create_sheet("Engine")
     engine.sheet_state = "hidden"
+
+    # Second hidden engine backing the Data Transfer sheet (union of two
+    # countries + optional keyword), same INDEX/MATCH approach.
+    transfer_engine = wb.create_sheet("Transfer Engine")
+    transfer_engine.sheet_state = "hidden"
 
     # Recalculate on open so the query reflects the current selections.
     wb.calculation.fullCalcOnLoad = True
