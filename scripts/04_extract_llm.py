@@ -33,7 +33,7 @@ except (AttributeError, ValueError):
     pass
 
 from src.llm.client import BATCH_TOKENS, describe, estimate_tokens
-from src.llm.extractor import extract_batch
+from src.llm.extractor import extract_batch, extract_large_section, is_oversized
 from src.llm.prompt import CATEGORIES, DATA_TYPES, TOPICS
 
 # Lower-cased lookups so we can keep only controlled-vocabulary values
@@ -122,11 +122,23 @@ def merge_section(parsed, llm):
 
 
 def extract_document(document):
-    """Run every batch of one act and return the merged section list."""
-    sections = document["sections"]
-    batches = list(pack_batches(sections))
-    extracted = []
+    """Run one act and return the merged section list.
 
+    Normal sections are packed into token-budgeted batches; oversized
+    sections (a whole document the parser failed to split, a 30-page
+    schedule, …) are chunked separately so they never overflow the context
+    window and silently return nothing.
+    """
+    sections = document["sections"]
+    country = document["country"]
+    act = document["document"]
+
+    normal = [s for s in sections if not is_oversized(s)]
+    large = [s for s in sections if is_oversized(s)]
+
+    lookup = {}
+
+    batches = list(pack_batches(normal))
     for i, section_batch in enumerate(batches, 1):
         print(
             f"  batch {i}/{len(batches)} "
@@ -135,23 +147,26 @@ def extract_document(document):
             f"{section_batch[-1]['identifier']})",
             flush=True,
         )
+        result = extract_batch(section_batch, country, act)
+        for item in result.get("extractions", []):
+            lookup[str(item.get("section", ""))] = item
 
-        result = extract_batch(
-            section_batch,
-            document["country"],
-            document["document"],
+    for j, section in enumerate(large, 1):
+        ktok = estimate_tokens(section.get("text", "")) // 1000
+        print(
+            f"  large section {j}/{len(large)}: {section['identifier']} "
+            f"(~{ktok}k tokens, chunking)",
+            flush=True,
+        )
+        lookup[str(section["identifier"])] = extract_large_section(
+            section, country, act
         )
 
-        lookup = {
-            str(item.get("section", "")): item
-            for item in result.get("extractions", [])
-        }
-
-        for parsed in section_batch:
-            llm = lookup.get(str(parsed["identifier"]), {})
-            extracted.append(merge_section(parsed, llm))
-
-    return extracted
+    # Rebuild in the document's original section order.
+    return [
+        merge_section(s, lookup.get(str(s["identifier"]), {}))
+        for s in sections
+    ]
 
 
 def main():

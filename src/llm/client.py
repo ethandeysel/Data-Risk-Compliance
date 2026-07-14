@@ -10,7 +10,7 @@ Select with LLM_PROVIDER.  All other knobs are environment variables so
 the pipeline can be tuned without editing code:
 
     LLM_PROVIDER     "ollama" (default) or "gemini"
-    LLM_MODEL        Ollama model tag (default "qwen3:4b")
+    LLM_MODEL        Ollama model tag (default "qwen3:8b")
     LLM_HOST         Ollama host (default http://localhost:11434)
     LLM_THINK        "1" to allow qwen3 chain-of-thought (default off)
     LLM_KEEP_ALIVE   how long Ollama keeps the model resident (default 30m)
@@ -34,7 +34,10 @@ except ImportError:
 PROVIDER = os.getenv("LLM_PROVIDER", "ollama").lower()
 
 # ---- Ollama settings -------------------------------------------------
-MODEL = os.getenv("LLM_MODEL", "qwen3:4b")
+# qwen3:8b by default now that extraction runs on a GPU — richer summaries
+# and requirements than the 4b that CPU speed forced.  Override with
+# LLM_MODEL.  Needs `ollama pull qwen3:8b`.
+MODEL = os.getenv("LLM_MODEL", "qwen3:8b")
 HOST = os.getenv("LLM_HOST", "http://localhost:11434")
 
 # qwen3 is a hybrid reasoning model.  Its <think> pass roughly triples

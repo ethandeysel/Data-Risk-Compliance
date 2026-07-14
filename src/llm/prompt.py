@@ -1,11 +1,11 @@
 """
 Prompt for legislative compliance extraction (DTIA knowledge base).
 
-Streamlined for a CPU-bound local model: generation is the bottleneck
-(~2-3 tok/s), so the output schema is kept to the fields that actually
-drive DTIA querying and citation.  Removed vs. the original: actors,
-keywords, per-requirement booleans, trigger and applies_to — none of
-which were surfaced in the workbook.
+The output schema is kept to the fields that actually drive DTIA querying
+and citation.  Removed vs. the original: actors, keywords, per-requirement
+booleans, trigger and applies_to — none of which were surfaced in the
+workbook.  Summaries and requirements are asked for in full (not clipped
+for speed) since extraction now runs on a GPU.
 
 Controlled vocabularies are kept (compressed) so categories, topics and
 data types stay consistent enough to filter on.
@@ -61,13 +61,13 @@ Return VALID JSON ONLY, no markdown or commentary, in this exact shape:
 Field rules:
 - section: the section identifier given to you.
 - primary_category: EXACTLY ONE of: {", ".join(CATEGORIES)}.
-- summary: <=40 words, the legal effect only.
-- dtia_summary: <=40 words, why this section matters for a DTIA (explicit requirements/safeguards only). "" if not relevant.
+- summary: 2-4 complete sentences (roughly 40-90 words) stating what the section actually does — the specific obligations, prohibitions, permissions and conditions it creates, and who they apply to. Be concrete and self-contained; do NOT merely restate the heading or write "this section deals with X".
+- dtia_summary: 1-3 sentences on why this section matters for a Data Transfer Impact Assessment — the specific safeguards, conditions or restrictions bearing on transferring, storing or processing data across borders or with third parties. "" only if genuinely irrelevant to a DTIA.
 - financial_relevance: ONE of High | Medium | Low | None. High = directly regulates financial institutions, banking, insurance, payments, AML/CFT or financial customer data.
 - confidence: High (explicit) | Medium (minor interpretation) | Low (ambiguous).
 - topics: only topics the section SUBSTANTIVELY addresses (usually 1-4), not everything tangentially mentioned. Only from: {", ".join(TOPICS)}.
 - data_types: only data types the section actually governs, only from: {", ".join(DATA_TYPES)}.
-- requirements: one object per legally operative statement (obligation, prohibition, permission, condition, notification, safeguard, record-keeping or cross-border condition). Do not merge statements. obligation_type is ONE of: {", ".join(OBLIGATION_TYPES)}. [] if none.
+- requirements: list EVERY legally operative statement as its own object — each obligation, prohibition, permission, condition, notification duty, safeguard, record-keeping rule or cross-border condition. Be exhaustive: a substantive section usually yields several. Do NOT merge distinct statements, and do NOT pad with non-operative narration. Each text is a clear, self-contained paraphrase (or short quote) of the rule. obligation_type is ONE of: {", ".join(OBLIGATION_TYPES)}. Use [] only when the section is purely definitional or narrative with no operative rule.
 - authority: explicitly named regulator/authority only, else "".
 - source_quote: shortest supporting passage, verbatim, <=40 words.
 

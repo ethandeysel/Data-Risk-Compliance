@@ -96,18 +96,30 @@ It reads the **filtered** sections (stage 03), **skips acts already in
 `data/extracted`** (so an interrupted run resumes), and packs batches by
 token budget.
 
+Oversized sections (a whole document the parser failed to split, a long
+schedule) would overflow the context window and silently return nothing,
+so any section above `LLM_CHUNK_TOKENS` is split into overlapping chunks,
+each extracted, and the requirements/summaries merged back into one row.
+When the model still can't produce valid JSON, the section is written with
+a visible flag (`confidence = "Extraction failed"`, or `"Partial…"` for a
+section too large to fully cover) rather than a blank Low-confidence row —
+so gaps show up in the workbook instead of looking like real empty data.
+
 ### Configuration (environment variables)
 
 | Var | Default | Purpose |
 |-----|---------|---------|
 | `LLM_PROVIDER` | `ollama` | `ollama` or `gemini` |
-| `LLM_MODEL` | `qwen3:4b` | Ollama model tag |
+| `LLM_MODEL` | `qwen3:8b` | Ollama model tag (needs `ollama pull qwen3:8b`) |
 | `LLM_HOST` | `http://localhost:11434` | Ollama host |
 | `LLM_THINK` | `0` | `1` re-enables qwen3 chain-of-thought (much slower) |
 | `LLM_KEEP_ALIVE` | `30m` | Keep the model resident between batches |
 | `LLM_NUM_GPU` | *(auto)* | GPU layers to offload. Unset = Ollama auto-detects; `999` forces the whole model onto the GPU |
 | `LLM_NUM_CTX_MAX` | `16384` | Context-window ceiling |
 | `LLM_BATCH_TOKENS` | `6000` | Token budget per batch |
+| `LLM_CHUNK_TOKENS` | `3000` | Sections larger than this are chunked instead of sent whole (avoids context-window truncation) |
+| `LLM_CHUNK_OVERLAP` | `200` | Token overlap between chunks so a rule split across the boundary is still seen intact |
+| `LLM_MAX_CHUNKS` | `20` | Cap on chunks per section; a section beyond this is flagged as partially processed |
 | `LLM_FORCE` | `0` | `1` re-extracts acts even if output exists |
 | `LLM_MAX_SECTIONS` | `0` | Skip acts larger than this (0 = no limit). Do the quick acts first, big ones overnight |
 | `LLM_MAX_ACTS` | `0` | Process only the N smallest acts per country (0 = no limit). Used by `run_test` for a fast smoke test |

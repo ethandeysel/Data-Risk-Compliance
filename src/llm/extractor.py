@@ -10,11 +10,24 @@ comes from three things handled here and in client.py:
 """
 
 import json
+import os
 import re
 import time
+from collections import Counter
 
-from .client import generate
+from .client import generate, estimate_tokens
 from .prompt import SYSTEM_PROMPT, build_prompt
+
+# A section whose text exceeds this many tokens is processed in chunks
+# rather than sent whole, so it never overflows the context window (which
+# silently truncates the prompt and yields empty extractions).
+SECTION_TOKEN_LIMIT = int(os.getenv("LLM_CHUNK_TOKENS", "3000"))
+# Overlap between consecutive chunks so a rule split across the boundary is
+# still seen intact by at least one chunk.
+CHUNK_OVERLAP_TOKENS = int(os.getenv("LLM_CHUNK_OVERLAP", "200"))
+# Safety cap so a pathologically large "section" (a whole document the
+# parser failed to split) cannot spawn hundreds of calls.
+MAX_CHUNKS = int(os.getenv("LLM_MAX_CHUNKS", "20"))
 
 
 # --------------------------------------------------------
@@ -76,23 +89,29 @@ def normalise_output(result):
 # Fallback (all retries exhausted)
 # --------------------------------------------------------
 
-def _empty_extractions(sections):
+def _flagged_empty(identifier, reason):
+    """A visibly-flagged placeholder for a section the model could not
+    process, so gaps are obvious in the workbook instead of masquerading
+    as a genuinely empty (Low-confidence) section."""
+    return {
+        "section": identifier,
+        "primary_category": "Other",
+        "summary": f"[extraction failed: {reason}]",
+        "dtia_summary": "",
+        "financial_relevance": "Unknown",
+        "confidence": "Extraction failed",
+        "topics": [],
+        "data_types": [],
+        "requirements": [],
+        "authority": "",
+        "source_quote": "",
+    }
+
+
+def _empty_extractions(sections, reason="model returned no valid JSON"):
     return {
         "extractions": [
-            {
-                "section": s["identifier"],
-                "primary_category": "Other",
-                "summary": "",
-                "dtia_summary": "",
-                "financial_relevance": "Unknown",
-                "confidence": "Low",
-                "topics": [],
-                "data_types": [],
-                "requirements": [],
-                "authority": "",
-                "source_quote": "",
-            }
-            for s in sections
+            _flagged_empty(s["identifier"], reason) for s in sections
         ]
     }
 
@@ -124,3 +143,135 @@ def extract_batch(sections, country, act, retries=3):
 
     print(f"  ! {act}: giving up on batch, writing empty extractions")
     return _empty_extractions(sections)
+
+
+# --------------------------------------------------------
+# Oversized sections — chunk, extract each, merge
+# --------------------------------------------------------
+
+def is_oversized(section) -> bool:
+    return estimate_tokens(section.get("text", "")) > SECTION_TOKEN_LIMIT
+
+
+def _chunk_text(text, max_chars, overlap_chars, max_chunks):
+    """Split text into overlapping windows, preferring newline boundaries.
+
+    Returns (chunks, truncated) where truncated is True if the section was
+    too large to cover within max_chunks.
+    """
+    chunks = []
+    start, n = 0, len(text)
+    while start < n and len(chunks) < max_chunks:
+        end = min(start + max_chars, n)
+        if end < n:
+            # Prefer to cut on a newline in the back half of the window.
+            nl = text.rfind("\n", start + max_chars // 2, end)
+            if nl != -1:
+                end = nl
+        chunks.append(text[start:end])
+        if end >= n:
+            return chunks, False
+        start = max(end - overlap_chars, start + 1)
+    return chunks, start < n
+
+
+def _merge_requirements(parts):
+    reqs, seen = [], set()
+    for p in parts:
+        for r in (p.get("requirements") or []):
+            if not isinstance(r, dict):
+                continue
+            key = r.get("text", "").strip().lower()
+            if key and key not in seen:
+                seen.add(key)
+                reqs.append(r)
+    return reqs
+
+
+def _merge_list(parts, field):
+    out, seen = [], set()
+    for p in parts:
+        for v in (p.get(field) or []):
+            if v and v not in seen:
+                seen.add(v)
+                out.append(v)
+    return out
+
+
+def _dedup_join(values, limit):
+    out, seen = [], set()
+    for v in values:
+        v = (v or "").strip()
+        k = v.lower()
+        if v and k not in seen:
+            seen.add(k)
+            out.append(v)
+    return " ".join(out)[:limit]
+
+
+_RELEVANCE_ORDER = {"None": 0, "Unknown": 0, "Low": 1, "Medium": 2, "High": 3}
+
+
+def _merge_extractions(identifier, parts, truncated):
+    """Combine the per-chunk extractions of one oversized section into a
+    single extraction (one row per section keeps the data model clean)."""
+    parts = [p for p in parts if isinstance(p, dict)]
+    if not parts:
+        return _flagged_empty(identifier, "no output from any chunk")
+
+    cats = Counter(
+        p.get("primary_category", "") for p in parts
+        if p.get("primary_category") and p.get("primary_category") != "Other"
+    )
+    category = cats.most_common(1)[0][0] if cats else "Other"
+
+    relevance = max(
+        (p.get("financial_relevance", "") for p in parts),
+        key=lambda r: _RELEVANCE_ORDER.get(r, 0), default="Unknown",
+    ) or "Unknown"
+
+    note = ("Partial (oversized section - only the first part was processed)"
+            if truncated else "Medium (merged from chunks)")
+
+    return {
+        "section": identifier,
+        "primary_category": category,
+        "summary": _dedup_join((p.get("summary", "") for p in parts), 1200),
+        "dtia_summary": _dedup_join(
+            (p.get("dtia_summary", "") for p in parts), 600),
+        "financial_relevance": relevance,
+        "confidence": note,
+        "topics": _merge_list(parts, "topics"),
+        "data_types": _merge_list(parts, "data_types"),
+        "requirements": _merge_requirements(parts),
+        "authority": next(
+            (p.get("authority", "") for p in parts if p.get("authority")), ""),
+        "source_quote": next(
+            (p.get("source_quote", "") for p in parts if p.get("source_quote")),
+            ""),
+    }
+
+
+def extract_large_section(section, country, act):
+    """Extract one oversized section by chunking its text and merging the
+    per-chunk results.  Always returns a single extraction dict."""
+    max_chars = SECTION_TOKEN_LIMIT * 4
+    overlap = CHUNK_OVERLAP_TOKENS * 4
+    chunks, truncated = _chunk_text(
+        section.get("text", ""), max_chars, overlap, MAX_CHUNKS)
+
+    parts = []
+    for i, chunk in enumerate(chunks, 1):
+        print(f"    chunk {i}/{len(chunks)} of section {section['identifier']}",
+              flush=True)
+        sub = dict(section)
+        sub["text"] = chunk
+        result = extract_batch([sub], country, act)
+        extractions = result.get("extractions", [])
+        if extractions:
+            parts.append(extractions[0])
+
+    if truncated:
+        print(f"    ! section {section['identifier']} exceeds {MAX_CHUNKS} "
+              f"chunks; flagged as partially processed")
+    return _merge_extractions(section["identifier"], parts, truncated)
