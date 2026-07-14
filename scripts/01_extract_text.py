@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import os
 
 from src.pdf.detect_pdf import needs_ocr
 from src.pdf.extract_text import extract_pdf_text
@@ -8,6 +9,10 @@ from src.pdf.ocr import ocr_pdf
 
 ACTS_FOLDER = Path("data/acts")
 OUTPUT_FOLDER = Path("data/raw_text")
+
+# OCR is slow, so already-extracted PDFs are skipped and a re-run only
+# processes newly added acts/countries.  Set OCR_FORCE=1 to redo everything.
+FORCE = os.getenv("OCR_FORCE", "0") == "1"
 
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
@@ -21,6 +26,12 @@ for country in countries:
     out_country.mkdir(exist_ok=True)
 
     for pdf in country.glob("*.pdf"):
+
+        outfile = out_country / f"{pdf.stem}.json"
+
+        if outfile.exists() and not FORCE:
+            info(f"{pdf.name} -- already extracted, skipping")
+            continue
 
         info(pdf.name)
         try:
@@ -49,8 +60,6 @@ for country in countries:
             "document": pdf.stem,
             "pages": pages
         }
-
-        outfile = out_country / f"{pdf.stem}.json"
 
         with open(outfile, "w", encoding="utf8") as f:
 

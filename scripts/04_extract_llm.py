@@ -61,6 +61,12 @@ FORCE = os.getenv("LLM_FORCE", "0") == "1"
 # picks them up).  0 = no limit.
 MAX_SECTIONS = int(os.getenv("LLM_MAX_SECTIONS", "0"))
 
+# Process only the N smallest acts per country — a fast smoke test of the
+# whole chain (especially for a newly added country) before committing to
+# the full run.  Already-extracted acts inside that set are still skipped,
+# so re-running only fills in what is missing.  0 = no limit.
+MAX_ACTS = int(os.getenv("LLM_MAX_ACTS", "0"))
+
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -186,6 +192,11 @@ def main():
             key=lambda p: len(json.loads(p.read_text(encoding="utf-8"))
                               .get("sections", [])),
         )
+
+        # Test mode: keep only the N smallest acts for this country.
+        if MAX_ACTS:
+            act_files = act_files[:MAX_ACTS]
+            print(f"  (test mode: {MAX_ACTS} smallest acts only)")
 
         for act_file in act_files:
             out_file = out_dir / act_file.name

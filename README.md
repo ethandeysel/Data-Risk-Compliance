@@ -22,7 +22,45 @@ country: `data/<stage>/<Country>/<act>.json`.
 | 04 | `scripts/04_extract_llm.py` | `data/filtered_sections` → `data/extracted` | LLM structured extraction (Ollama) |
 | 05 | `scripts/05_export_excel.py` | `data/extracted` → `DTIA_Compliance_Database.xlsx` | Build the query workbook |
 
-Run each stage from the repo root, e.g. `python -m scripts.04_extract_llm`.
+Run each stage from the repo root, e.g. `python -m scripts.04_extract_llm`,
+or run the **whole pipeline** in one command:
+
+```
+python -m scripts.run_pipeline           # stages 01 -> 05
+python -m scripts.run_pipeline --from 04 # just 04 and 05
+```
+
+Every stage is idempotent (01 skips already-extracted PDFs, 04 skips
+already-extracted acts), so a re-run only does outstanding work.
+
+**Smoke test first.** To sanity-check the chain (especially a newly added
+country) before the full multi-hour run, process just the 5 smallest acts
+per country into a separate `_TEST` workbook:
+
+```
+python -m scripts.run_test
+```
+
+Stages 01–03 still process everything (they're cheap); only the LLM stage
+is capped, and already-extracted acts are skipped, so a fresh country gets
+a quick 5-act sample while finished countries produce nothing new.
+
+### Adding another country
+
+Drop the PDFs under `data/acts/<Country>/` (e.g. `data/acts/Nigeria/`) and
+run `python -m scripts.run_pipeline`. The new country flows all the way
+through to the workbook; existing countries are skipped, not reprocessed.
+Note that new PDFs must go through 01→03 before 04 sees them — running only
+04/05 will not pick up a country that hasn't been text-extracted and
+filtered yet, which is why the single command runs the full chain.
+
+### New machine setup
+
+1. Install [Ollama](https://ollama.com) and pull the model:
+   `ollama pull qwen3:4b`
+2. `pip install -r requirements.txt`
+3. (OCR only — needed if any PDFs are scanned) install Tesseract + Ghostscript.
+4. Run `python -m scripts.run_pipeline`.
 
 ## Stage 02 — section parser
 
@@ -67,29 +105,47 @@ token budget.
 | `LLM_HOST` | `http://localhost:11434` | Ollama host |
 | `LLM_THINK` | `0` | `1` re-enables qwen3 chain-of-thought (much slower) |
 | `LLM_KEEP_ALIVE` | `30m` | Keep the model resident between batches |
+| `LLM_NUM_GPU` | *(auto)* | GPU layers to offload. Unset = Ollama auto-detects; `999` forces the whole model onto the GPU |
 | `LLM_NUM_CTX_MAX` | `16384` | Context-window ceiling |
 | `LLM_BATCH_TOKENS` | `6000` | Token budget per batch |
 | `LLM_FORCE` | `0` | `1` re-extracts acts even if output exists |
 | `LLM_MAX_SECTIONS` | `0` | Skip acts larger than this (0 = no limit). Do the quick acts first, big ones overnight |
+| `LLM_MAX_ACTS` | `0` | Process only the N smallest acts per country (0 = no limit). Used by `run_test` for a fast smoke test |
 | `GEMINI_API_KEY` | — | Required for `LLM_PROVIDER=gemini` (read from `.env`) |
 | `GEMINI_MODEL` | `gemini-2.0-flash` | Gemini model |
 
 ### Performance notes
 
-Inference runs on **CPU** here (AMD Ryzen 7 5800HS, no Ollama-usable GPU)
-at roughly **2–3 tokens/sec**, and generation dominates the cost. Levers
-applied: thinking disabled, a **trimmed output schema**, a smaller default
-model (`qwen3:4b`), context sized to the prompt, high-recall filtering,
-and resume. A full local rebuild still takes hours — run it overnight (it
-resumes) or use the Gemini backend for a fast rebuild:
+Generation dominates the cost, so tokens/sec is the number that matters.
+
+**On a GPU machine**, Ollama offloads the model to the card automatically —
+you do not have to configure anything; the speedup is just there. Confirm
+it is actually on the GPU while a run is going with `ollama ps` (the
+`PROCESSOR` column should read `100% GPU`). If it shows CPU or a partial
+split, the model did not fit — either the card is too small for the model,
+or force the issue and watch it fail loudly with `LLM_NUM_GPU=999`. With
+headroom to spare you can also afford a larger model (`LLM_MODEL=qwen3:8b`)
+or re-enable reasoning (`LLM_THINK=1`) for higher-quality extraction.
+
+On **CPU only** (e.g. the original AMD Ryzen 7 5800HS box) it runs at
+roughly **2–3 tokens/sec** and a full rebuild takes hours — run it
+overnight (it resumes) or use the Gemini backend. Levers already applied:
+thinking disabled, a **trimmed output schema**, a smaller default model
+(`qwen3:4b`), context sized to the prompt, high-recall filtering, resume.
 
 ```
-# fast local iteration
+# GPU box: full model on the card, run everything
+LLM_NUM_GPU=999 python -m scripts.run_pipeline
+
+# fast local iteration on stage 04 only
 LLM_MODEL=qwen3:4b python -m scripts.04_extract_llm
 
 # fast full rebuild via cloud (sends legal text to Google)
 LLM_PROVIDER=gemini python -m scripts.04_extract_llm
 ```
+
+> On Windows PowerShell, set env vars first: `$env:LLM_NUM_GPU=999` then run
+> the command on the next line (the inline `VAR=value cmd` form is bash-only).
 
 ## Stage 05 — Excel workbook
 

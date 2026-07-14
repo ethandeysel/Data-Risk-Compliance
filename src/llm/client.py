@@ -16,6 +16,8 @@ the pipeline can be tuned without editing code:
     LLM_KEEP_ALIVE   how long Ollama keeps the model resident (default 30m)
     LLM_NUM_CTX_MAX  hard ceiling for the context window (default 16384)
     LLM_BATCH_TOKENS token budget per batch of sections (default 6000)
+    LLM_NUM_GPU      GPU layers to offload (unset = Ollama auto-detects;
+                     999 forces the whole model onto the GPU)
 
     GEMINI_API_KEY   API key (read from environment or .env)
     GEMINI_MODEL     Gemini model (default "gemini-2.0-flash")
@@ -42,6 +44,13 @@ THINK = os.getenv("LLM_THINK", "0") == "1"
 
 # Keep the model resident between batches so it is not reloaded.
 KEEP_ALIVE = os.getenv("LLM_KEEP_ALIVE", "30m")
+
+# GPU layer offload.  Ollama already offloads as many layers as fit the
+# card automatically, so this is left unset by default.  Set it to force a
+# specific count — e.g. LLM_NUM_GPU=999 to push the whole model onto the
+# GPU (fails loudly if it does not fit, which is what you want to know).
+_num_gpu = os.getenv("LLM_NUM_GPU")
+NUM_GPU = int(_num_gpu) if _num_gpu not in (None, "") else None
 
 # The KV cache is allocated for the whole context window, so an oversized
 # num_ctx wastes memory and slows prompt processing.  We size the window
@@ -94,13 +103,17 @@ def _ollama_generate(system: str, prompt: str) -> str:
         estimate_tokens(system) + estimate_tokens(prompt)
     )
 
+    options = {"temperature": 0, "num_ctx": num_ctx}
+    if NUM_GPU is not None:
+        options["num_gpu"] = NUM_GPU
+
     response = _ollama_client.chat(
         model=MODEL,
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": prompt},
         ],
-        options={"temperature": 0, "num_ctx": num_ctx},
+        options=options,
         format="json",
         think=THINK,
         keep_alive=KEEP_ALIVE,
