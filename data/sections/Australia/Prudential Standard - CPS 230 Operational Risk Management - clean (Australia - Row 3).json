@@ -1,0 +1,616 @@
+{
+  "country": "Australia",
+  "document": "Prudential Standard - CPS 230 Operational Risk Management - clean (Australia - Row 3)",
+  "sections": [
+    {
+      "identifier": "1",
+      "heading": "This Prudential Standard is made under:",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "text": "1. \nThis Prudential Standard is made under: \n(a) \nsection 11AF of the Banking Act 1959 (Banking Act); \n(b) \nsection 32 of the Insurance Act 1973 (Insurance Act);  \n(c) \nsection 230A of the Life Insurance Act 1995 (Life Insurance Act); \n(d) \nsection 92 of the Private Health Insurance (Prudential Supervision) Act \n2015 (PHIPS Act); and \n(e) \nsection 34C of the Superannuation Industry (Supervision) Act 1993 \n(SIS Act). \nApplication and commencement"
+    },
+    {
+      "identifier": "2",
+      "heading": "This Prudential Standard applies to all APRA-regulated entities defined as:",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "text": "2. \nThis Prudential Standard applies to all APRA-regulated entities defined as: \n(a) \nauthorised deposit-taking institutions (ADIs), including foreign ADIs, \nand non-operating holding companies authorised under the Banking Act \n(authorised banking NOHCs); \n(b) \ngeneral insurers, including Category C insurers, non-operating holding \ncompanies authorised under the Insurance Act (authorised insurance \nNOHCs) and parent entities of Level 2 insurance groups; \n(c) \nlife companies, including friendly societies, eligible foreign life \ninsurance companies (EFLICs) and registered NOHCs; \n(d) \nprivate health insurers registered under the PHIPS Act; and \n(e) \nregistrable superannuation entity licensees (RSE licensees) under the SIS \nAct in respect of their business operations.1"
+    },
+    {
+      "identifier": "3",
+      "heading": "The obligations imposed by this Prudential Standard on, or in relation to, a foreign",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "text": "3. \nThe obligations imposed by this Prudential Standard on, or in relation to, a foreign \nADI, a Category C insurer and an EFLIC apply only in relation to the Australian \nbranch operations of that entity."
+    },
+    {
+      "identifier": "4",
+      "heading": "Where an APRA-regulated entity is the Head of a group,2 it must comply with a",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "text": "4. \nWhere an APRA-regulated entity is the Head of a group,2 it must comply with a \nrequirement of this Prudential Standard: \n \n\nRSE licensee has the meaning given in subsection 10(1) of the SIS Act. For the purposes of this \nPrudential Standard, an RSE licensee's business operations includes all activities of an RSE \nlicensee, including the activities of each RSE of which it is the licensee, and all other activities of \nthe RSE licensee to the extent that they are relevant to, or may impact on, its activities as an RSE \nlicensee. \n\nWhere a Level 2 group operates within a Level 3 group, a requirement expressed as applying to a \nHead of a group is to be read as applying to the Level 3 Head.\n\nJuly 2026 \n \nCPS 230 – 3 \n(a) \nin its capacity as an APRA-regulated entity; \n(b) \nby ensuring that the requirement is applied appropriately throughout the \ngroup,3 including in relation to entities that are not APRA-regulated; and \n(c) \non a group basis."
+    },
+    {
+      "identifier": "5",
+      "heading": "In applying the requirements of this Prudential Standard on a group basis,",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "5. \nIn applying the requirements of this Prudential Standard on a group basis, \nreferences to an APRA-regulated entity are to be read as ‘Head of a group' and \nreferences to entity are to be read as ‘group'."
+    },
+    {
+      "identifier": "6",
+      "heading": "This Prudential Standard commences on 1 July 2026.",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "6. \nThis Prudential Standard commences on 1 July 2026. \nInterpretation"
+    },
+    {
+      "identifier": "7",
+      "heading": "Terms that are defined in Prudential Standard CPS 001 Defined terms (CPS 001)",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "7. \nTerms that are defined in Prudential Standard CPS 001 Defined terms (CPS 001) \nappear in bold the first time they are used in this Prudential Standard."
+    },
+    {
+      "identifier": "8",
+      "heading": "In this Prudential Standard, unless the contrary intention appears, a reference to",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "8. \nIn this Prudential Standard, unless the contrary intention appears, a reference to \nan Act, Regulation or Prudential Standard is a reference to the Act, Regulation or \nPrudential Standard as in force from time to time."
+    },
+    {
+      "identifier": "9",
+      "heading": "Where this Prudential Standard provides for APRA to exercise a power or",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "9. \nWhere this Prudential Standard provides for APRA to exercise a power or \ndiscretion, the power or discretion is to be exercised in writing. \nAdjustments and exclusions"
+    },
+    {
+      "identifier": "10",
+      "heading": "APRA may adjust or exclude a specific prudential requirement in this Prudential",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "10. \nAPRA may adjust or exclude a specific prudential requirement in this Prudential \nStandard in relation to an APRA-regulated entity.4 \nKey principles"
+    },
+    {
+      "identifier": "11",
+      "heading": "An APRA-regulated entity must:",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "text": "11. \nAn APRA-regulated entity must: \n(a) \neffectively manage its operational risks, and set and maintain appropriate \nstandards for conduct and compliance; \n(b) \nmaintain its critical operations within tolerance levels through severe \ndisruptions; and \n \n\nGroup means a Level 2 group, Level 3 group or a group comprising the RSE licensee and all \nconnected entities (as defined in subsection 10(1) of the SIS Act) and all related bodies corporate \n(with the meaning given in section 50 of the Corporations Act 2001) of the RSE licensee, as \nrelevant. Level 2 group means the entities that comprise Level 2 (for ADIs) or Level 2 insurance \ngroups (for general insurers). For the avoidance of doubt, group includes a group as defined in \nCPS 001 and, for an RSE licensee, where the RSE licensee is part of a corporate group. \n\nRefer to subsection 11AF(2) of the Banking Act, subsection 32(3D) of the Insurance Act, \nsubsection 230A(4) of the Life Insurance Act, subsection 92(4) of the PHIPS Act and subsection \n34C(5) of the SIS Act.\n\nJuly 2026 \n \nCPS 230 – 4 \n(c) \nmanage the risks associated with the use of service providers."
+    },
+    {
+      "identifier": "12",
+      "heading": "An APRA-regulated entity must identify, assess and manage operational risks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "12. \nAn APRA-regulated entity must identify, assess and manage operational risks \nthat may result from inadequate or failed internal processes or systems, the actions \nor inactions of people or external drivers and events. Operational risk is inherent \nin all products, activities, processes and systems."
+    },
+    {
+      "identifier": "13",
+      "heading": "An APRA-regulated entity must, to the extent practicable, prevent disruption to",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "13. \nAn APRA-regulated entity must, to the extent practicable, prevent disruption to \ncritical operations, adapt processes and systems to continue to operate within \ntolerance levels in the event of a disruption and return to normal operations \npromptly once a disruption is over."
+    },
+    {
+      "identifier": "14",
+      "heading": "An APRA-regulated entity must not rely on a service provider unless it can ensure",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "14. \nAn APRA-regulated entity must not rely on a service provider unless it can ensure \nthat in doing so it can continue to meet its prudential obligations in full and \neffectively manage the associated risks. \nRisk management framework"
+    },
+    {
+      "identifier": "15",
+      "heading": "As part of its risk management framework required under Prudential Standard",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "15. \nAs part of its risk management framework required under Prudential Standard \nCPS 220 Risk Management (CPS 220) and Prudential Standard SPS 220 Risk \nManagement (SPS 220), an APRA-regulated entity must develop and maintain: \n(a) \ngovernance arrangements for the oversight of operational risk; \n(b) \nan assessment of its operational risk profile, with a defined risk appetite \nsupported by indicators, limits and tolerance levels; \n(c) \ninternal controls that are designed and operating effectively for the \nmanagement of operational risks; \n(d) \nappropriate monitoring, analysis and reporting of operational risks and \nescalation processes for operational incidents and events; \n(e) \nbusiness continuity plan(s) (BCPs) that set out how the entity would \nidentify, manage and respond to a disruption within tolerance levels and are \nregularly tested with severe but plausible scenarios; and \n(f) \nprocesses for the management of service provider arrangements."
+    },
+    {
+      "identifier": "16",
+      "heading": "As part of the required reviews of the risk management framework under CPS 220",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "16. \nAs part of the required reviews of the risk management framework under CPS 220 \nand SPS 220, an APRA-regulated entity must review its operational risk \nmanagement.5 The reviews must cover those aspects of operational risk \nmanagement set out in paragraph 15."
+    },
+    {
+      "identifier": "17",
+      "heading": "Operational risk management must be integrated into an APRA-regulated entity's",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "text": "17. \nOperational risk management must be integrated into an APRA-regulated entity's \noverall risk management framework and processes. Business continuity planning \n \n\nRefer to CPS 220 and SPS 220 for the requirement to undertake a review of the risk management \nframework.\n\nJuly 2026 \n \nCPS 230 – 5 \nmust be consistent with, and not conflict or undermine, an APRA-regulated \nentity's recovery and exit planning.6"
+    },
+    {
+      "identifier": "18",
+      "heading": "Where APRA considers that an APRA-regulated entity's operational risk",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "18. \nWhere APRA considers that an APRA-regulated entity's operational risk \nmanagement has material weaknesses, APRA may: \n(a) \nrequire an independent review of the entity's operational risk management; \n(b) \nrequire the entity to develop a remediation program; \n(c) \nrequire the entity to hold additional capital, as relevant;7 \n(d) \nimpose conditions on the entity's licence; and \n(e) \ntake other actions required in the supervision of this Prudential Standard. \nRoles and responsibilities"
+    },
+    {
+      "identifier": "19",
+      "heading": "The Board of an APRA-regulated entity is ultimately accountable for oversight",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "19. \nThe Board of an APRA-regulated entity is ultimately accountable for oversight \nof an entity's operational risk management. This includes business continuity and \nthe management of service provider arrangements.8"
+    },
+    {
+      "identifier": "20",
+      "heading": "The Board must ensure that the APRA-regulated entity sets clear roles and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "20. \nThe Board must ensure that the APRA-regulated entity sets clear roles and \nresponsibilities for senior managers9 for operational risk management, including \nbusiness continuity and the management of service provider arrangements."
+    },
+    {
+      "identifier": "21",
+      "heading": "The Board must:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "text": "21. \nThe Board must: \n(a) \noversee operational risk management and the effectiveness of key internal \ncontrols in maintaining the entity's operational risk profile within risk \nappetite. The Board must be provided with regular updates on the APRA-\nregulated entity's operational risk profile and ensure senior management \ntakes action as required to address any areas of concern; \n(b) \napprove the BCP and tolerance levels for disruptions to critical operations, \nreview the results of testing and oversee the execution of any findings; and \n(c) \napprove the service provider management policy, and review risk and \nperformance reporting on material service providers. \n \n\nRefer to Prudential Standard CPS 190 Recovery and Exit Planning. \n\nFor an RSE licensee, APRA may require an RSE licensee to meet an ORFR target amount \ndetermined by APRA under Prudential Standard SPS 114 Operational Risk Financial \nRequirement. \n\nFor an RSE licensee, a reference to the Board is to be read as a reference to the Board of directors \nor group of individual trustees of an RSE licensee, as applicable. ‘Group of individual trustees' \nhas the meaning given in subsection 10(1) of the SIS Act. A reference to the Board in the case of \na foreign ADI is a reference to the senior officer outside Australia. \n\nSenior manager in relation to life insurers has the meaning given in the Life Insurance Act, and \nin relation to RSE licensees has the meaning given in Prudential Standard SPS 520 Fit and \nProper.\n\nJuly 2026 \n \nCPS 230 – 6"
+    },
+    {
+      "identifier": "22",
+      "heading": "Senior management of an APRA-regulated entity must provide clear and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "22. \nSenior management of an APRA-regulated entity must provide clear and \ncomprehensive information to the Board on the expected impacts on the entity's \ncritical operations when the Board is making decisions that could affect the \nresilience of critical operations. \nOperational risk management"
+    },
+    {
+      "identifier": "23",
+      "heading": "An APRA-regulated entity must manage its full range of operational risks,",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "23. \nAn APRA-regulated entity must manage its full range of operational risks, \nincluding but not limited to legal risk, regulatory risk, compliance risk, conduct \nrisk, technology risk, data risk and change management risk. Senior management \nare responsible for operational risk management across the end-to-end process for \nall business operations."
+    },
+    {
+      "identifier": "24",
+      "heading": "An APRA-regulated entity must maintain appropriate and sound information and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "24. \nAn APRA-regulated entity must maintain appropriate and sound information and \ninformation technology (IT) capability to meet its current and projected business \nrequirements and to support its critical operations and risk management. In \nmanaging technology risks, an APRA-regulated entity must monitor the age and \nhealth of its information assets and meet the requirements for information security \nin Prudential Standard CPS 234 Information Security (CPS 234). \nOperational risk profile and assessment"
+    },
+    {
+      "identifier": "25",
+      "heading": "An APRA-regulated entity must assess the impact of its business and strategic",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "25. \nAn APRA-regulated entity must assess the impact of its business and strategic \ndecisions on its operational risk profile and operational resilience, as part of its \nbusiness and strategic planning processes.10 This must include an assessment of \nthe impact of new products, services, geographies and technologies on its \noperational risk profile."
+    },
+    {
+      "identifier": "26",
+      "heading": "An APRA-regulated entity must maintain a comprehensive assessment of its",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "26. \nAn APRA-regulated entity must maintain a comprehensive assessment of its \noperational risk profile. As part of this, an APRA-regulated entity must: \n(a) \nmaintain appropriate and effective information systems to monitor \noperational risk, compile and analyse operational risk data and facilitate \nreporting to the Board and senior management; \n(b) \nidentify and document the processes and resources needed to deliver critical \noperations, including people, technology, information, facilities and service \nproviders, the interdependencies across them, and the associated risks, \nobligations, key data and controls; and \n(c) \nundertake scenario analysis to identify and assess the potential impact of \nsevere operational risk events, test its operational resilience and identify the \nneed for new or amended controls and other mitigation strategies."
+    },
+    {
+      "identifier": "27",
+      "heading": "An APRA-regulated entity must conduct a comprehensive risk assessment before",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "text": "27. \nAn APRA-regulated entity must conduct a comprehensive risk assessment before \nproviding a material service to another party, to ensure that the APRA-regulated \n \n\nRefer to Prudential Standard SPS 515 Strategic Planning and Member Outcomes for \nrequirements applying to an RSE licensee with respect to strategic objectives and business \nplanning.\n\nJuly 2026 \n \nCPS 230 – 7 \nentity is able to continue to meet its prudential obligations after entering into the \narrangement. APRA may require an APRA-regulated entity to review and \nstrengthen internal controls or processes where APRA considers there to be \nheightened prudential risks in such circumstances. \nOperational risk controls"
+    },
+    {
+      "identifier": "28",
+      "heading": "An APRA-regulated entity must design, implement and embed internal controls",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "28. \nAn APRA-regulated entity must design, implement and embed internal controls \nto mitigate its operational risks in line with its risk appetite and meet its \ncompliance obligations."
+    },
+    {
+      "identifier": "29",
+      "heading": "An APRA-regulated entity must regularly monitor, review and test controls for",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "29. \nAn APRA-regulated entity must regularly monitor, review and test controls for \ndesign and operating effectiveness, the frequency of which must be \ncommensurate with the materiality of the risks being controlled. The results of \ntesting must be reported to senior management and any gaps or deficiencies in \nthe control environment must be rectified in a timely manner."
+    },
+    {
+      "identifier": "30",
+      "heading": "An APRA-regulated entity must remediate material weaknesses in its operational",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "30. \nAn APRA-regulated entity must remediate material weaknesses in its operational \nrisk management, including control gaps, weaknesses and failures. This \nremediation must be supported by clear accountabilities and assurance and \naddress the root causes of weaknesses in a timely manner. An APRA-regulated \nentity must include identified control gaps, weaknesses and failures in its \noperational risk profile until such matters are remediated. \nOperational risk incidents"
+    },
+    {
+      "identifier": "31",
+      "heading": "An APRA-regulated entity must ensure that operational risk incidents and near",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "31. \nAn APRA-regulated entity must ensure that operational risk incidents and near \nmisses are identified, escalated, recorded and addressed in a timely manner. An \nAPRA-regulated entity must take incidents and near misses into account in its \nassessment of its operational risk profile and control effectiveness in a timely \nmanner."
+    },
+    {
+      "identifier": "32",
+      "heading": "An APRA-regulated entity must notify APRA as soon as possible, and not later",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "32. \nAn APRA-regulated entity must notify APRA as soon as possible, and not later \nthan 72 hours, after becoming aware of an operational risk incident that it \ndetermines to be likely to have a material financial impact or a material impact \non the ability of the entity to maintain its critical operations.11 \nBusiness continuity"
+    },
+    {
+      "identifier": "33",
+      "heading": "An APRA-regulated entity must:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "text": "33. \nAn APRA-regulated entity must: \n(a) \ndefine, identify and maintain a register of its critical operations; \n(b) \ntake reasonable steps to minimise the likelihood and impact of disruptions \nto its critical operations; \n \n\nA notification of an information security incident reported under CPS 234 does not need to be \nseparately reported under the notification requirements of this Prudential Standard.\n\nJuly 2026 \n \nCPS 230 – 8 \n(c) \nmaintain a credible BCP that sets out how it would maintain its critical \noperations within tolerance levels through disruptions, including disaster \nrecovery planning for critical information assets;12 \n(d) \nactivate its BCP if needed in the event of a disruption; and \n(e) \nreturn to normal operations promptly after a disruption is over. \nCritical operations and tolerance levels"
+    },
+    {
+      "identifier": "34",
+      "heading": "Critical operations are processes undertaken by an APRA-regulated entity or its",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "34. \nCritical operations are processes undertaken by an APRA-regulated entity or its \nservice provider which, if disrupted beyond tolerance levels, would have a \nmaterial adverse impact on its depositors, policyholders, beneficiaries or other \ncustomers, or its role in the financial system."
+    },
+    {
+      "identifier": "35",
+      "heading": "An APRA-regulated entity must, at a minimum, classify the following business",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "35. \nAn APRA-regulated entity must, at a minimum, classify the following business \noperations as critical operations, unless it can justify otherwise: \n(a) \nfor an ADI: payments, deposit-taking and management, custody, \nsettlements and clearing; \n(b) \nfor an insurer (general, life, private health): claims processing; \n(c) \nfor an RSE licensee: investment management and fund administration; and \n(d) \nfor all APRA-regulated entities: customer enquiries and the systems and \ninfrastructure needed to support critical operations."
+    },
+    {
+      "identifier": "36",
+      "heading": "APRA may require an APRA-regulated entity, or a class of APRA-regulated",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "36. \nAPRA may require an APRA-regulated entity, or a class of APRA-regulated \nentities, to classify a business operation as a critical operation."
+    },
+    {
+      "identifier": "37",
+      "heading": "For each critical operation, an APRA-regulated entity must establish tolerance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "37. \nFor each critical operation, an APRA-regulated entity must establish tolerance \nlevels for: \n(a) \nthe maximum period of time the entity would tolerate a disruption to the \noperation; \n(b) \nthe maximum extent of data loss the entity would accept as a result of a \ndisruption; and \n(c) \nminimum service levels the entity would maintain while operating under \nalternative arrangements during a disruption."
+    },
+    {
+      "identifier": "38",
+      "heading": "APRA may require an APRA-regulated entity to review and change its tolerance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "text": "38. \nAPRA may require an APRA-regulated entity to review and change its tolerance \nlevels for a critical operation. APRA may set tolerance levels for an APRA-\nregulated entity, or a class of APRA-regulated entities, where it identifies a \nheightened risk or material weakness. \n \n\nAn entity may have a number of BCPs. A BCP may include separate crisis management plans and \ndisaster recovery plans.\n\nJuly 2026 \n \nCPS 230 – 9 \nBusiness continuity plan"
+    },
+    {
+      "identifier": "39",
+      "heading": "An APRA-regulated entity's BCP must include:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "39. \nAn APRA-regulated entity's BCP must include: \n(a) \nthe register of critical operations and associated tolerance levels; \n(b) \ntriggers to identify a disruption and prompt activation of the plan, and \narrangements to direct resources in the event of activation; \n(c) \nactions it would take to maintain its critical operations within tolerance \nlevels through disruptions; \n(d) \nan assessment of the execution risks, required resources, preparatory \nmeasures, including key internal and external dependencies needed to \nsupport the effective implementation of the BCP actions; and \n(e) \na communications strategy to support execution of the plan."
+    },
+    {
+      "identifier": "40",
+      "heading": "An APRA-regulated entity must maintain the capabilities required to execute the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "40. \nAn APRA-regulated entity must maintain the capabilities required to execute the \nBCP, including access to people, resources and technology.13 An APRA-\nregulated entity must monitor compliance with its tolerance levels and report any \nfailure to meet tolerance levels, together with a remediation plan, to the Board."
+    },
+    {
+      "identifier": "41",
+      "heading": "An APRA-regulated entity must notify APRA as soon as possible, and not later",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "41. \nAn APRA-regulated entity must notify APRA as soon as possible, and not later \nthan 24 hours after, if it has suffered a disruption to a critical operation  outside \ntolerance. The notification must cover the nature of the disruption, the action \ntaken, the likely impact on the entity's business operations and the timeframe for \nreturning to normal operations. \nTesting and review"
+    },
+    {
+      "identifier": "42",
+      "heading": "An APRA-regulated entity must have a systematic testing program for its BCP",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "42. \nAn APRA-regulated entity must have a systematic testing program for its BCP \nthat covers all critical operations and includes an annual business continuity \nexercise. The program must test the effectiveness of the entity's BCP and its \nability to meet tolerance levels in a range of severe but plausible scenarios."
+    },
+    {
+      "identifier": "43",
+      "heading": "The testing program must be tailored to the material risks of the APRA-regulated",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "43. \nThe testing program must be tailored to the material risks of the APRA-regulated \nentity and include a range of severe but plausible scenarios, including disruptions \nto services provided by material service providers and scenarios where \ncontingency arrangements are required. APRA may require the inclusion of an \nAPRA-determined scenario in a business continuity exercise for an APRA-\nregulated entity, or a class of APRA-regulated entities."
+    },
+    {
+      "identifier": "44",
+      "heading": "An APRA-regulated entity must update, as necessary, its BCP on an annual basis",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "text": "44. \nAn APRA-regulated entity must update, as necessary, its BCP on an annual basis \nto reflect any changes in legal or organisational structure, business mix, strategy \n \n\nCapabilities required to execute the BCP may be maintained within the APRA-regulated entity or \nvia an agreement with another party. For the avoidance of doubt, such agreements with other \nparties must meet the requirements for management of service providers arrangements in this \nPrudential Standard.\n\nJuly 2026 \n \nCPS 230 – 10 \nor risk profile or for shortcomings identified as a result of the review and testing \nof the BCP."
+    },
+    {
+      "identifier": "45",
+      "heading": "An APRA-regulated entity's internal audit function must periodically review the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "text": "45. \nAn APRA-regulated entity's internal audit function must periodically review the \nentity's BCP and provide assurance to the Board that the BCP sets out a credible \nplan for how the entity would maintain its critical operations within tolerance \nlevels through severe disruptions and that testing procedures are adequate and \nhave been conducted satisfactorily. \nManagement of service provider arrangements"
+    },
+    {
+      "identifier": "46",
+      "heading": "An APRA-regulated entity must maintain a comprehensive service provider",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "text": "46. \nAn APRA-regulated entity must maintain a comprehensive service provider \nmanagement policy. The policy must cover how the entity will identify material \nservice providers and manage service provider arrangements, including the \nmanagement of material risks associated with the arrangements."
+    },
+    {
+      "identifier": "47",
+      "heading": "The policy must include:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "text": "47. \nThe policy must include: \n(a) \nthe entity's approach to entering into, monitoring, substituting and exiting \nagreements with material service providers; \n(b) \nthe entity's approach to managing the risks associated with material service \nproviders; and \n(c) \nthe entity's approach to managing the risks associated with any fourth \nparties that material service providers rely on to deliver a critical operation \nto the APRA-regulated entity.14 \nMaterial service providers"
+    },
+    {
+      "identifier": "48",
+      "heading": "An APRA-regulated entity must identify and maintain a register of its material",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "text": "48. \nAn APRA-regulated entity must identify and maintain a register of its material \nservice providers and manage the material risks associated with using these \nproviders. Material service providers are those on which the entity relies to \nundertake a critical operation or that expose it to material operational risk.15 \nMaterial arrangements are those on which the entity relies to undertake a critical \noperation or that expose it to material operational risk."
+    },
+    {
+      "identifier": "49",
+      "heading": "An APRA-regulated entity must, at a minimum, classify a provider of the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "text": "49. \nAn APRA-regulated entity must, at a minimum, classify a provider of the \nfollowing services as a material service provider, unless it can justify otherwise: \n(a) \nfor an ADI: credit assessment, funding and liquidity management and \nmortgage brokerage; \n \n\nA fourth party is a party that a service provider relies on in delivering services to an APRA-\nregulated entity. \n\nA material service provider may be a third party, related party or connected entity. A service \nprovider may be identified as material as a result of an individual arrangement or multiple \narrangements with an APRA-regulated entity.\n\nJuly 2026 \n \nCPS 230 – 11 \n(b) \nfor an insurer (general, life, private health): underwriting, claims \nmanagement, insurance brokerage and reinsurance; \n(c) \nfor an RSE licensee: fund administration, custodial services, investment \nmanagement and arrangements with promoters and financial planners; and \n(d) \nfor all APRA-regulated entities: risk management, core technology services \nand internal audit."
+    },
+    {
+      "identifier": "50",
+      "heading": "An APRA-regulated entity must submit its register of material service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "text": "50. \nAn APRA-regulated entity must submit its register of material service providers \nto APRA on an annual basis."
+    },
+    {
+      "identifier": "51",
+      "heading": "APRA may require an APRA-regulated entity, or a class of APRA-regulated",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "text": "51. \nAPRA may require an APRA-regulated entity, or a class of APRA-regulated \nentities, to classify a service provider, type of service provider or service provider \narrangement as material. \nService provider agreements"
+    },
+    {
+      "identifier": "52",
+      "heading": "Before entering into or materially modifying a material arrangement, an APRA-",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "text": "52. \nBefore entering into or materially modifying a material arrangement, an APRA-\nregulated entity must: \n(a) \nundertake appropriate due diligence, including an appropriate selection \nprocess and an assessment of the ability of the service provider to provide \nthe service on an ongoing basis; and \n(b) \nassess the financial and non-financial risks from reliance on the service \nprovider, including risks associated with geographic location or \nconcentration of the service provider(s) or parties the service provider relies \non in providing the service."
+    },
+    {
+      "identifier": "53",
+      "heading": "For all material arrangements, an APRA-regulated entity must maintain a formal",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "text": "53. \nFor all material arrangements, an APRA-regulated entity must maintain a formal \nlegally binding agreement (formal agreement). The formal agreement must, at a \nminimum: \n(a) \nspecify the services covered by the agreement and associated service levels; \n(b) \nset out the rights, responsibilities and expectations of each party to the \nagreement, including in relation to the ownership of assets, ownership and \ncontrol of data, dispute resolution, audit access, liability and indemnity; \n(c) \ninclude provisions to ensure the ability of the entity to meet its legal and \ncompliance obligations; \n(d) \nrequire notification by the service provider of its use of other material \nservice providers that it materially relies upon in providing the service to \nthe APRA-regulated entity through sub-contracting or other arrangements; \n(e) \nrequire the liability for any failure on the part of any sub-contractor to be \nthe responsibility of the service provider;\n\nJuly 2026 \n \nCPS 230 – 12 \n(f) \ninclude a force majeure provision indicating those parts of the contract that \nwould continue in the case of a force majeure event; and \n(g) \ntermination provisions including, but not limited to, the right to terminate \nboth the arrangement in its entirety or parts of the arrangement. For an RSE \nlicensee, termination provisions must include the ability for the RSE \nlicensee to terminate the arrangement where to continue the arrangement \nwould be inconsistent with the RSE licensee's duty to act in the best \nfinancial interests of beneficiaries (refer to subsection 52(2)(c) of the SIS \nAct)."
+    },
+    {
+      "identifier": "54",
+      "heading": "The formal agreement must also include provisions that:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "text": "54. \nThe formal agreement must also include provisions that: \n(a) \nallow APRA access to documentation, data and any other information \nrelated to the provision of the service; \n(b) \nallow APRA the right to conduct an on-site visit to the service provider; \nand \n(c) \nensure the service provider agrees not to impede APRA in fulfilling its \nduties as prudential regulator."
+    },
+    {
+      "identifier": "55",
+      "heading": "For each material arrangement an APRA-regulated entity must:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "text": "55. \nFor each material arrangement an APRA-regulated entity must: \n(a) \nidentify and manage risks that could affect the ability of the service provider \nto provide the service on an ongoing basis; \n(b) \nidentify and manage risks to the APRA-regulated entity that could result \nfrom the arrangement, such as step-in risk or contagion risk; \n(c) \nensure it can execute its BCP if needed; and \n(d) \nensure it can conduct an orderly exit from the arrangement if needed."
+    },
+    {
+      "identifier": "56",
+      "heading": "APRA may require an APRA-regulated entity to review and make changes to a",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "text": "56. \nAPRA may require an APRA-regulated entity to review and make changes to a \nservice provider arrangement where it identifies heightened prudential concerns."
+    },
+    {
+      "identifier": "57",
+      "heading": "An APRA-regulated entity need not comply with the requirements in paragraphs",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "text": "57. \nAn APRA-regulated entity need not comply with the requirements in paragraphs \n53, 54, 55(d), 59(a) and 59(c) for a material arrangement if: \n(a) \nthe arrangement is with a service provider that falls within a category listed \nin the Attachment to this Prudential Standard; and \n(b) \nthe arrangement uses standardised terms or is not documented in a formal \nagreement.  \nFor the purposes of this paragraph, ‘standardised terms' refers to the terms \nprepared by a service provider where a regulated entity has no, or substantially \nno, ability to negotiate or amend rights and obligations relating to matters covered \nby this Prudential Standard.\n\nJuly 2026 \n \nCPS 230 – 13"
+    },
+    {
+      "identifier": "58",
+      "heading": "APRA may, by written notice to an APRA-regulated entity, exempt an",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "text": "58. \nAPRA may, by written notice to an APRA-regulated entity, exempt an \narrangement with a service provider that does not satisfy the conditions set out in \nparagraphs 57(a) or 57(b) from the requirements in paragraphs 53, 54, 55(d), \n59(a) and 59(c).  \nMonitoring, notifications and review"
+    },
+    {
+      "identifier": "59",
+      "heading": "An APRA-regulated entity must monitor and ensure that senior management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "text": "59. \nAn APRA-regulated entity must monitor and ensure that senior management \nreceive reporting on material arrangements commensurate with the nature and \nusage of the service. This monitoring must include a regular assessment of: \n(a) \nperformance under the service agreement with reference to agreed service \nlevels; \n(b) \nthe effectiveness of controls to manage the risks associated with the use of \nthe service provider; and \n(c) \ncompliance of both parties with the service provider agreement."
+    },
+    {
+      "identifier": "60",
+      "heading": "An APRA-regulated entity must notify APRA:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "text": "60. \nAn APRA-regulated entity must notify APRA: \n(a) \nas soon as possible and not more than 20 business days after entering into \nor materially changing an agreement for the provision of a service on which \nthe entity relies to undertake a critical operation; and \n(b) \nprior to entering into any material offshoring arrangement,16 or when there \nis a significant change proposed to the arrangement, including in \ncircumstances where data or personnel relevant to the service being \nprovided will be located offshore."
+    },
+    {
+      "identifier": "61",
+      "heading": "An APRA-regulated entity's internal audit function must review any proposed",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "text": "61. \nAn APRA-regulated entity's internal audit function must review any proposed \nmaterial arrangement involving the outsourcing of a critical operation. The \ninternal audit function must regularly report to the Board or Board Audit \nCommittee on compliance of such arrangements with the entity's service provider \nmanagement policy. \nAttachment  – Categories of exempt service providers  \n \nCategory \nDescription \nGovernment agencies \nPublic sector bodies established to administer legislation or deliver public functions \non behalf of government, including administrative or service delivery roles, but \ndoes not include government business enterprises. \n \n\nMaterial offshoring arrangement means a material arrangement where the service provided is \nundertaken outside Australia. Offshoring includes arrangements where the service provider is \nincorporated in Australia, but the physical location of the service being provided is undertaken \noutside Australia. Offshoring does not include arrangements where the physical location of a \nservice is performed within Australia, but the service provider is not incorporated in Australia.\n\nJuly 2026 \n \nCPS 230 – 14 \nCategory \nDescription \nRegulators \nStatutory authorities established under legislation to supervise, regulate or enforce \ncompliance within the financial system. \nCentral banks \nPublic authorities responsible for monetary policy, financial system stability and \noperation of core infrastructure, including settlement, liquidity, banking services to \ngovernment and financial institutions. \nFinancial market exchanges \nEntities that are licensed market operators under Part 7.2 of the Corporations Act, \nand comparable overseas financial market exchanges subject to equivalent \nregulatory oversight, that provide a facility for the regular making or acceptance of \noffers to acquire or dispose of financial products. \nOperators of clearing and settlement \nfacilities \nEntities that operate, or provide services through, a licensed clearing and settlement \nfacility under Part 7.3 of the Corporations Act, and comparable overseas entities \nsubject to equivalent regulatory oversight, including facilities that clear, net, novate, \nor settle transactions in financial products by interposing themselves between \ncounterparties and managing counterparty, credit, liquidity, and settlement risk. \nThis category includes superannuation clearing houses listed on the Australian Tax \nOffice's SuperStream Product register. \nOperators of payment systems and \nschemes \nNon-sovereign organisations that operate, control, or govern a formally recognised \npayment system, scheme or infrastructure under an established regulatory oversight \nframework. \nFinancial messaging infrastructures \nInfrastructures that provide secure, standardised messaging services to support \nexchange of payment, clearing, settlement instructions. This category includes \nproviders which operate a gateway to route SuperStream messages within the \nSuperannuation Transaction Network and have signed an application under a \nMemorandum of Understanding with the Gateway Network Governance Body Ltd."
+    }
+  ]
+}

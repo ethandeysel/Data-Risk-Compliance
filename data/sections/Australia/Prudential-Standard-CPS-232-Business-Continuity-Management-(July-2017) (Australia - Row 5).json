@@ -1,0 +1,416 @@
+{
+  "country": "Australia",
+  "document": "Prudential-Standard-CPS-232-Business-Continuity-Management-(July-2017) (Australia - Row 5)",
+  "sections": [
+    {
+      "identifier": "1",
+      "heading": "This Prudential Standard is made under:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "1. \nThis Prudential Standard is made under:  \n(a) \nsection 11AF of the Banking Act 1959 (Banking Act); \n(b) \nsection 32 of the Insurance Act 1973 (Insurance Act); and \n(c) \nsection 230A of the Life Insurance Act 1995 (Life Insurance Act). \nApplication"
+    },
+    {
+      "identifier": "2",
+      "heading": "This Prudential Standard applies to all ‘APRA-regulated institutions',1 defined",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "2. \nThis Prudential Standard applies to all ‘APRA-regulated institutions',1 defined \nas: \n(a) \nall authorised deposit-taking institutions (ADIs), including foreign \nADIs, and non-operating holding companies authorised under the \nBanking Act (authorised banking NOHCs); \n(b) \nall general insurers, including Category C insurers, non-operating \nholding companies authorised under the Insurance Act (authorised \ninsurance NOHCs) and parent entities of Level 2 insurance groups; and \n(c) \nall life companies, including friendly societies and eligible foreign life \ninsurance companies (EFLICs), and non-operating holding companies \nregistered under the Life Insurance Act (registered life NOHCs)."
+    },
+    {
+      "identifier": "3",
+      "heading": "All APRA-regulated institutions have to comply with this Prudential Standard in",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "3. \nAll APRA-regulated institutions have to comply with this Prudential Standard in \nits entirety, unless otherwise expressly indicated. The obligations imposed by this \nPrudential Standard on, or in relation to, a foreign ADI, a Category C insurer or \nan EFLIC apply only in relation to the Australian branch operations of that \ninstitution."
+    },
+    {
+      "identifier": "4",
+      "heading": "Where an APRA-regulated institution is the ‘Head of a group',2 it must comply",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "text": "4. \nWhere an APRA-regulated institution is the ‘Head of a group',2 it must comply \nwith a requirement of this Prudential Standard: \n(a) \nin its capacity as an APRA-regulated institution;  \n(b) \nby ensuring that the requirement is applied appropriately throughout the \ngroup, including in relation to institutions that are not APRA-regulated; and \n(c) \non a group basis. \nIn applying the requirements of this Prudential Standard on a group basis, \nreferences in paragraphs 17 to 40 to an ‘APRA-regulated institution' should be \nread as ‘Head of a group' and references to ‘institution' should be read as ‘group'. \n                                                 \n\nNote, for the purposes of this Prudential Standard, an RSE licensee is not treated as an ‘APRA-\nregulated institution'. Refer to Prudential Standard SPS 232 Business Continuity Management \n(SPS 232) for requirements relating to business continuity management for an RSE licensee. \n\nWhere a Level 2 group operates within a Level 3 group, a requirement expressed as applying to \na Head of a group is to be read as applying to the Level 3 Head.\n\nJuly 2017 \n \nCPS 232 - 4"
+    },
+    {
+      "identifier": "5",
+      "heading": "This Prudential Standard applies whether or not activities are outsourced to",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "5. \nThis Prudential Standard applies whether or not activities are outsourced to \nrelated bodies corporate or third-party service providers. This Prudential \nStandard also applies to arrangements where the service provider is located \noutside Australia or the functions are performed outside Australia."
+    },
+    {
+      "identifier": "6",
+      "heading": "Nothing in this Prudential Standard prevents an APRA-regulated institution from",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "6. \nNothing in this Prudential Standard prevents an APRA-regulated institution from \nadopting and applying a group policy used by a related body corporate, provided \nthat the policy has been approved by the Board3 of the regulated institution and \nmeets the requirements of this Prudential Standard."
+    },
+    {
+      "identifier": "7",
+      "heading": "This Prudential Standard commences on 1 July 2017.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "7. \nThis Prudential Standard commences on 1 July 2017. \nInterpretation"
+    },
+    {
+      "identifier": "8",
+      "heading": "Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "8. \nTerms that are defined in Prudential Standard 3PS 001 Definitions, Prudential \nStandard APS 001 Definitions (APS 001), Prudential Standard GPS 001 \nDefinitions (GPS 001) or Prudential Standard LPS 001 Definitions appear in bold \nthe first time they are used in this Prudential Standard."
+    },
+    {
+      "identifier": "9",
+      "heading": "Where this Prudential Standard provides for APRA to exercise a power or",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "9. \nWhere this Prudential Standard provides for APRA to exercise a power or \ndiscretion, this power or discretion is to be exercised in writing."
+    },
+    {
+      "identifier": "10",
+      "heading": "For the purposes of this Prudential Standard:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "10. \nFor the purposes of this Prudential Standard:  \n‘group' means a Level 2 group or a Level 3 group, as relevant; \n‘Head of a group' means a Level 2 Head or Level 3 Head, as relevant; \n‘Level 2 group' means the entities that comprise: \n(a) \nLevel 2 as defined in APS 001; or \n(b) \na Level 2 insurance group as defined in GPS 001; \n‘Level 2 Head' means: \n(a) \nwhere an ADI that is a member of a Level 2 group is not a subsidiary of an \nauthorised banking NOHC or another ADI, that ADI; \n(b) \nwhere an ADI that is a member of a Level 2 group is a subsidiary of an \nauthorised banking NOHC, that authorised banking NOHC; or \n(c) \nthe parent entity of a Level 2 insurance group as defined in GPS 001. \nAdditional requirements of the Head of a group"
+    },
+    {
+      "identifier": "11",
+      "heading": "The Head of a group must maintain business continuity management (BCM) for",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "text": "11. \nThe Head of a group must maintain business continuity management (BCM) for \nthe group (see paragraphs 20 to 22) including a BCM policy for the group (see \nparagraphs 23 to 25). \n                                                 \n\nA reference to the Board in the case of a foreign ADI is a reference to the senior officer outside \nAustralia.\n\nJuly 2017 \n \nCPS 232 - 5"
+    },
+    {
+      "identifier": "12",
+      "heading": "The Head of a group must apply BCM to risk assessments and risk processes at a",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "12. \nThe Head of a group must apply BCM to risk assessments and risk processes at a \nfunctional level in the group, where appropriate."
+    },
+    {
+      "identifier": "13",
+      "heading": "The Board of the Head of a group must:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "13. \nThe Board of the Head of a group must: \n(a) \nensure that the group's BCM is appropriate to the nature and scale of its \noperations and is consistent with the group's risk management strategy \nand  risk management framework; \n(b) \noversee the appropriateness of BCM across the group; and \n(c) \nensure that the group's business continuity plan (BCP) is reviewed at least \nannually by responsible senior management of the Head of the group."
+    },
+    {
+      "identifier": "14",
+      "heading": "The Head of a group must notify APRA in accordance with paragraph 36 if the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "14. \nThe Head of a group must notify APRA in accordance with paragraph 36 if the \ninstitution experiences a major disruption that has the potential to have a material \nimpact on the institution's risk profile, or affect its financial soundness, except \nwhere an APRA-regulated institution within the group has otherwise notified \nAPRA of that information."
+    },
+    {
+      "identifier": "15",
+      "heading": "The group internal audit function, or an appropriate external expert, must",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "15. \nThe group internal audit function, or an appropriate external expert, must \nperiodically review the group BCP and provide an assurance to the Board of the \nHead of the group, or delegated management, on the matters in paragraph 38 on \na group basis."
+    },
+    {
+      "identifier": "16",
+      "heading": "Where an institution within the group that is not an APRA-regulated institution",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "16. \nWhere an institution within the group that is not an APRA-regulated institution \nundertakes business operations critical to the group, the Head of the group must \nensure that those business operations are undertaken in a way that complies with \nthe group BCM policy. \nThe role of the Board and senior management"
+    },
+    {
+      "identifier": "17",
+      "heading": "An APRA-regulated institution must identify, assess, manage, mitigate and report",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "17. \nAn APRA-regulated institution must identify, assess, manage, mitigate and report \non potential business continuity risks to ensure that the institution is able to meet \nits financial and service obligations to its depositors, policyholders and other \nstakeholders."
+    },
+    {
+      "identifier": "18",
+      "heading": "The Board is ultimately responsible for the business continuity of the institution.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "text": "18. \nThe Board is ultimately responsible for the business continuity of the institution. \nThe Board remains ultimately responsible for BCM of the institution whether or \nnot business operations are outsourced or are part of a corporate group.4"
+    },
+    {
+      "identifier": "19",
+      "heading": "The Board must ensure that the business continuity risks and controls are taken",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "text": "19. \nThe Board must ensure that the business continuity risks and controls are taken \ninto account as part of the institution's risk management strategy and when \ncompleting a risk management declaration required to be provided to APRA.5 \n                                                 \n\nRefer to Prudential Standard CPS 231 Outsourcing (CPS 231) for further information on \nrequirements relating to outsourcing. \n\nFor details of the risk management framework for regulated institutions refer to Prudential \nStandard CPS 220 Risk Management.\n\nJuly 2017 \n \nCPS 232 - 6 \nBusiness continuity management"
+    },
+    {
+      "identifier": "20",
+      "heading": "BCM is a whole-of-business approach that includes policies, standards and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "20. \nBCM is a whole-of-business approach that includes policies, standards and \nprocedures for ensuring that critical business operations can be maintained or \nrecovered in a timely fashion, in the event of a disruption. Its purpose is to \nminimise the financial, legal, regulatory, reputational and other material \nconsequences arising from a disruption."
+    },
+    {
+      "identifier": "21",
+      "heading": "Critical business operations are the business functions, resources and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "21. \nCritical business operations are the business functions, resources and \ninfrastructure that may, if disrupted, have a material impact on the institution's \nbusiness functions, reputation, profitability, depositors and/or policyholders."
+    },
+    {
+      "identifier": "22",
+      "heading": "BCM must, at a minimum, include:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "22. \nBCM must, at a minimum, include: \n(a) \na BCM policy in accordance with paragraphs 23 to 25;  \n(b) \na business impact analysis (BIA) including risk assessment in accordance \nwith paragraphs 26 and 27; \n(c) \nrecovery objectives and strategies; in accordance with paragraphs 28 and \n29; \n(d) \na BCP in accordance with paragraphs 30 to 33; and \n(e) \nprograms for:  \n(i) \nreview and testing of the BCP in accordance with paragraphs 34 and \n35; and \n(ii) \ntraining and ensuring awareness of staff in relation to BCM.  \nBusiness continuity management policy"
+    },
+    {
+      "identifier": "23",
+      "heading": "The Board must approve the institution's BCM policy.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "23. \nThe Board must approve the institution's BCM policy."
+    },
+    {
+      "identifier": "24",
+      "heading": "The BCM policy must be up-to-date, documented and must set out the objectives",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "24. \nThe BCM policy must be up-to-date, documented and must set out the objectives \nand approach in relation to BCM."
+    },
+    {
+      "identifier": "25",
+      "heading": "The BCM policy must clearly state the roles, responsibilities and authorities to",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "25. \nThe BCM policy must clearly state the roles, responsibilities and authorities to \nact in relation to the BCM policy. \nBusiness impact analysis"
+    },
+    {
+      "identifier": "26",
+      "heading": "A BIA involves identifying all critical business functions, resources and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "26. \nA BIA involves identifying all critical business functions, resources and \ninfrastructure of the institution and assessing the impact of a disruption on these."
+    },
+    {
+      "identifier": "27",
+      "heading": "When conducting the BIA, the APRA-regulated institution must consider:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "text": "27. \nWhen conducting the BIA, the APRA-regulated institution must consider: \n(a) \nplausible disruption scenarios over varying periods of time; \n(b) \nthe period of time for which the institution could not operate without each \nof its critical business operations;\n\nJuly 2017 \n \nCPS 232 - 7 \n(c) \nthe extent to which a disruption to the critical business operations might \nhave a material impact on the interests of depositors and/or policyholders \nof the institution; and \n(d) \nthe financial, legal, regulatory and reputational impact of a disruption to the \ninstitution's critical business operations over varying periods of time. \nRecovery objectives and strategies"
+    },
+    {
+      "identifier": "28",
+      "heading": "Recovery objectives are pre-defined goals for recovering critical business",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "28. \nRecovery objectives are pre-defined goals for recovering critical business \noperations to a specified level of service (recovery level) within a defined period \n(recovery time) following a disruption."
+    },
+    {
+      "identifier": "29",
+      "heading": "An APRA-regulated institution must identify and document appropriate recovery",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "29. \nAn APRA-regulated institution must identify and document appropriate recovery \nobjectives and implementation strategies based on the results of the BIA and the \nsize and complexity of the institution. \nBusiness continuity planning"
+    },
+    {
+      "identifier": "30",
+      "heading": "An APRA-regulated institution must maintain at all times a documented BCP for",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "30. \nAn APRA-regulated institution must maintain at all times a documented BCP for \nthe institution that meets the objectives of the institution's BCM policy.6"
+    },
+    {
+      "identifier": "31",
+      "heading": "The BCP must document procedures and information that enable the institution",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "31. \nThe BCP must document procedures and information that enable the institution \nto: \n(a) \nmanage an initial business disruption (crisis management); and \n(b) \nrecover critical business operations."
+    },
+    {
+      "identifier": "32",
+      "heading": "The BCP must reflect the specific requirements of the institution and must",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "text": "32. \nThe BCP must reflect the specific requirements of the institution and must \nidentify:  \n(a) \ncritical business operations; \n(b) \nrecovery levels and time targets for each critical business operation; \n(c) \nrecovery strategies for each critical business operation; \n(d) \ninfrastructure and resources required to implement the BCP; \n(e) \nroles, responsibilities and authorities to act in relation to the BCP; and \n(f) \ncommunication plans with staff and external stakeholders."
+    },
+    {
+      "identifier": "33",
+      "heading": "Where material business activities are outsourced, an APRA-regulated institution",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "text": "33. \nWhere material business activities are outsourced, an APRA-regulated institution \nmust satisfy itself as to the adequacy of the outsourced service provider's BCP \nand must consider any dependencies between the two BCPs. \n                                                 \n\nA reference to a ‘BCP' includes a reference to more than one BCP where appropriate. An \ninstitution may have a number of BCPs. A BCP may include a separate crisis management plan \nand disaster recovery plan.\n\nJuly 2017 \n \nCPS 232 - 8 \nReview and testing of the Business Continuity Plan"
+    },
+    {
+      "identifier": "34",
+      "heading": "An APRA-regulated institution must review and test the institution's BCP at least",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "34. \nAn APRA-regulated institution must review and test the institution's BCP at least \nannually, or more frequently if there are material changes to business operations, \nto ensure that the BCP can meet the BCM objectives. The results of the testing \nmust be formally reported to the Board or to delegated management.7"
+    },
+    {
+      "identifier": "35",
+      "heading": "The BCP must be updated if shortcomings are identified as a result of the review",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "35. \nThe BCP must be updated if shortcomings are identified as a result of the review \nand testing required under paragraph 34. \nNotification requirements"
+    },
+    {
+      "identifier": "36",
+      "heading": "An APRA-regulated institution must notify APRA as soon as possible and no",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "36. \nAn APRA-regulated institution must notify APRA as soon as possible and no \nlater than 24 hours after the institution experiences a major disruption that has the \npotential to have a material impact on the institution's risk profile, or affect its \nfinancial soundness. The APRA-regulated institution must explain to APRA the \nnature of the disruption, the action being taken, the likely effect and the timeframe \nfor returning to normal operations. The APRA-regulated institution must notify \nAPRA when normal operations resume."
+    },
+    {
+      "identifier": "37",
+      "heading": "The information or notifications required by this Prudential Standard must be",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "37. \nThe information or notifications required by this Prudential Standard must be \ngiven in such form, if any, and by such procedures, if any, as APRA determines \nand publishes on its website from time to time. \nAudit arrangements"
+    },
+    {
+      "identifier": "38",
+      "heading": "An institution's internal audit function, or an appropriate external expert, must",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "38. \nAn institution's internal audit function, or an appropriate external expert, must \nperiodically review the BCP and provide an assurance to the Board or to delegated \nmanagement that:  \n(a) \nthe BCP is in accordance with the institution's BCM policy and addresses \nthe risks it is designed to control; and \n(b) \ntesting procedures are adequate and have been conducted satisfactorily."
+    },
+    {
+      "identifier": "39",
+      "heading": "APRA may request the external auditor of the institution, or another appropriate",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "39. \nAPRA may request the external auditor of the institution, or another appropriate \nexternal expert, to provide an assessment of the institution's BCM arrangements. \nAny such report must be paid for by the institution and must be made available \nto APRA.8 \nAdjustments and exclusions"
+    },
+    {
+      "identifier": "40",
+      "heading": "APRA may adjust or exclude a specific requirement in this Prudential Standard",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "text": "40. \nAPRA may adjust or exclude a specific requirement in this Prudential Standard \nin relation to an APRA-regulated institution.9 \n                                                 \n\nA material change to business operations includes a change in a material outsourcing arrangement. \nRefer to CPS 231 for further information on outsourcing. \n\nRefer to Prudential Standard 3PS 310 Audit and Related Matters, Prudential Standard APS 310 \nAudit and Related Matters, Prudential Standard GPS 310 Audit and Related Matters and \nPrudential Standard LPS 310 Audit and Related Matters. \n\nRefer to subsection 11AF(2) of the Banking Act, subsection 32(3D) of the Insurance Act and \nsubsection 230A(4) of the Life Insurance Act.\n\nJuly 2017 \n \nCPS 232 - 9 \nDeterminations made under previous prudential standards"
+    },
+    {
+      "identifier": "41",
+      "heading": "An exercise of APRA's discretion (such as an approval, waiver or direction)",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "text": "41. \nAn exercise of APRA's discretion (such as an approval, waiver or direction) \nunder a previous version of this Prudential Standard continues to have effect as \nthough exercised pursuant to a corresponding power (if any) exercisable by \nAPRA under this Prudential Standard. For the purposes of this paragraph, ‘a \nprevious version of this Prudential Standard' includes any versions of: \n(a) \nPrudential Standard APS 232 Business Continuity Management (including \nGuidance Note AGN 232.1 Risk Assessment and Business Continuity \nManagement);  \n(b) \nPrudential Standard GPS 222 Business Continuity Management (including \nGuidance Note GGN 222.1 Risk Assessment and Business Continuity \nManagement);  \n(c) \nPrudential Standard LPS 232 Business Continuity Management; and \n(d) \nPrudential Standard GPS 221 Risk Management: Level 2 Insurance Groups \n(GPS 221), to the extent that GPS 221 related to business continuity \nmanagement."
+    }
+  ]
+}

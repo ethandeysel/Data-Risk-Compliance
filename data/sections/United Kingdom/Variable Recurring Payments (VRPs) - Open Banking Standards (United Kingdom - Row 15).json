@@ -1,0 +1,366 @@
+{
+  "country": "United Kingdom",
+  "document": "Variable Recurring Payments (VRPs) - Open Banking Standards (United Kingdom - Row 15)",
+  "sections": [
+    {
+      "identifier": "1",
+      "heading": "Executive Summary",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "text": "1. Executive Summary\nSearch\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n1 of 24\n7/13/2026, 9:19 AM\n\nautomation, improved end-user experiences, and greater levels of consumer transparency and control.\nASPSPs and PISPs are beginning to use their API channels to engage in VRP activities through bespoke\nVRP APIs. To date, this activity has been conducted within the FCA's regulatory sandbox on open\nbanking VRPs.\nBy creating a standard for VRPs, the Open Banking Implementation Entity (\"OBIE\") will establish a uniform\ninterface for VRP that:\n• Reduces the cost for firms delivering and using VRP APIs.\n• Is compatible with the regulatory treatment of VRP.\n• Adequately controls risk and protects consumers.\n• Establishes a consistent and suitable VRP customer experience across the UK market.\nThe Revised Roadmap for Open Banking requires the OBIE to develop a VRP Standard as a non-\nmandatory Standard (Roadmap Item A2(b)(i)). Separately, Roadmap Item A10 requires the OBIE to\nevaluate how to deliver Sweeping.  If the conclusion of the Sweeping Evaluation is that VRPs are required\nin order to deliver Sweeping, VRPs could become a mandatory requirement of the CMA9 for the\npurposes of Sweeping only.\nThis document provides an analysis of VRPs from a regulatory, risk, and product perspective. Finally, this\ndocument distils a set of requirements upon which the materials for a VRP Standard will be based.\nThe purpose of this paper is to form the basis of the OBIE Variable Recurring Payments Standard.\nThe CMA Order \"Agreed Timetable and Project Plan\" (see Notice of proposed changes to the open\nbanking roadmap CMA May 2020) published on May 15, 2020, requires the OBIE to develop VRP\nStandards, specifically:\nA2(b)(i) – Variable Recurring Payment, VRP Standards Development: Including functional specifications,\nCustomer Experience Guidelines, consumer protection framework, and dispute management.\nVRPs are defined as a series of payments initiated by a PISP using a long-held consent (\"VRP Consent\"),\nwhere:"
+    },
+    {
+      "identifier": "2",
+      "heading": "Introduction",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "text": "2. Introduction\n2.1 Purpose of this paper"
+    },
+    {
+      "identifier": "3",
+      "heading": "VRP Concepts",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "text": "3. VRP Concepts\n3.1 Definition of Variable Recurring Payments (VRPs)\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n2 of 24\n7/13/2026, 9:19 AM"
+    },
+    {
+      "identifier": "1",
+      "heading": "the VRP Consent must be authorised by the Payment Service User (\"PSU\") via Strong Customer",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "1. the VRP Consent must be authorised by the Payment Service User (\"PSU\") via Strong Customer\nAuthentication (\"SCA\") at their ASPSP (\"VRP Consent Setup\"), however, each individual payment\ninstructed (\"VRP Payment\") using the VRP Consent does not require SCA of the PSU by the ASPSP;"
+    },
+    {
+      "identifier": "2",
+      "heading": "the timing or amount of each payment need not be fixed during the VRP Consent Setup but is",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "text": "2. the timing or amount of each payment need not be fixed during the VRP Consent Setup but is\ninstead subject to the constraints of certain parameters (\"VRP Consent Parameters\"), agreed\nbetween the PISP and the PSU, which are enforced by the ASPSP; and"
+    },
+    {
+      "identifier": "3",
+      "heading": "the VRP Consent Parameters are included within the VRP Consent and are therefore subject to SCA",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "text": "3. the VRP Consent Parameters are included within the VRP Consent and are therefore subject to SCA\nof the PSU by the ASPSP as part of the VRP Consent Setup.\nFrom an open banking perspective, there are two different ways of managing SCA under VRP:\nVRPs with an SCA exemption is defined as \"VRP Payments instructed under a VRP Consent with Consent\nParameters that qualify for an SCA Exemption such that, following successful VRP Consent Setup,\nsubsequent individual VRP Payments can be made without further authorisation from the PSU.\"\nASPSPs are allowed not to apply SCA provided that there is an available SCA exemption\nWe recognise there may be instances where an ASPSP may require SCA, even if the payment is made\ncould qualify for an exemption, for example, suspicion of fraud. However, it is expected that the ASPSP\nwould only do so in exceptional circumstances with an objective approach and in line with the\nproportionality requirements of the PSRs.\nVRPs with delegated SCA is defined as \"VRP Payments that are initiated by the PISP and do not rely on\nthe application of an SCA exemption by the ASPSP, but rather the application of delegated SCA to each\nindividual VRP Payment.\" This will provide explicit consent for each payment instruction, dynamically\nlinking the amount and a payee, allowing for flexibility on the VRP Consent Parameters provided that the\napplicable SCA requirements are met.\nThe existing OBIE Standard already allows for an ASPSP to delegate SCA to another party to support\nuse cases such as allowing the AISP to re-authenticate the PSU every 90 days (please see https://\nopenbankinguk.github.io/read-write-api-site3/v3.1.6/profiles/read-write-data-api-\nprofile.html#consent-re-authentication).\nVRP Consent Parameters are a set of constraints included within a VRP Consent that restrict the way in\nwhich it can be used to make payments. The restrictions are enforced both by the ASPSP and the PISP.\nExamples of VRP Consent Parameters are:\n• Name of the payee\n• Payee account identification details\n3.1.1 VRP Payments with an SCA exemption\n[1].\n3.1.2 VRP Payments with delegated SCA\n3.2 How VRP Consent Parameters Work\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n3 of 24\n7/13/2026, 9:19 AM\n\n• The maximum cumulative value of payments initiated under the VRP Consent.\n• The maximum cumulative number of payments initiated under the VRP Consent.\n• The maximum payment value per payment\n• The maximum cumulative payment value per time window\n• The maximum frequency of payments per time window\n• Expiry Date of the VRP Consent\nVRP Consent Parameters can be used by PISPs to minimise risk exposure by tailoring constraints on the\nVRP Consent to the specific minimal needs of a given activity and to create transparency for the\ncustomer on the extent of risk associated with granting a given consent.\nPlease see section 4.2.1 below for details of how VRP Consent Parameters must be applied when relying\non an SCA exemption.\nSweeping is a generic term for the automatic movement of funds between accounts.  For the purpose of\nthe CMA Order, OBIE has proposed a specific definition, limited to the movement of a customer's own\nfunds between accounts owned by them.  Payments made to other individuals or other\ncompanies, e.g. paying for goods or services, would be excluded under this definition.   \nFor a VRP transaction to be able to meet the definition of \"Sweeping\" it needs to meet the following\ncriteria:"
+    },
+    {
+      "identifier": "1",
+      "heading": "The source account needs to be a PCA or BCA.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "1. The source account needs to be a PCA or BCA.\n(PCAs or BCAs which require multi-authorisation are explicitly excluded from the definition. Joint\naccounts typically do not require multi-authorisation as both parties have full authority to make\npayments and so would be included in the definition.)"
+    },
+    {
+      "identifier": "2",
+      "heading": "The destination account is an account into which a domestic payment can be made by",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "2. The destination account is an account into which a domestic payment can be made by\nthe payer's bank's direct channel."
+    },
+    {
+      "identifier": "3",
+      "heading": "Both accounts are UK sterling accounts.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "3. Both accounts are UK sterling accounts."
+    },
+    {
+      "identifier": "4",
+      "heading": "The payment can be an unattended payment, not requiring any interaction by or presence of the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "4. The payment can be an unattended payment, not requiring any interaction by or presence of the\nPSU at the time of making the payment."
+    },
+    {
+      "identifier": "5",
+      "heading": "The transaction is between two accounts belonging to the same person or legal entity.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "text": "5. The transaction is between two accounts belonging to the same person or legal entity.\nFootnote\nThrough the FCA Sandbox, Open Banking has developed the following understanding of the regulatory\ntreatment of VRP:\n3.3 Definition of Sweeping\na \nb\nc"
+    },
+    {
+      "identifier": "4",
+      "heading": "Regulatory treatment of VRP",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "text": "4. Regulatory treatment of VRP\n4.1 VRP classification as PISP activity\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n4 of 24\n7/13/2026, 9:19 AM\n\nVRP is a regulated PISP activity. A PISP is able to initiate VRP Payments provided that the PSU has given\ntheir ‘explicit consent'. From a PSRs perspective the PSU can give their explicit consent for VRP Payments\neither through:\n• VRP Consent Parameters (e.g., payee, maximum amount, frequency of payments and duration)\nstrongly authenticated by the ASPSP during the VRP Consent Setup, allowing for an SCA exemption\nfor individual VRP Payments, or;\n• Delegated SCA of the PSU by the PISP or another party for individual VRP Payments.\nThe PSU should be able to cancel a VRP Consent at any time, through either the PISP or the ASPSP.\nPSR, Regulation, 69(2) requires ‘explicit consent' for the instruction of payment orders. Under VRP,\nexplicit consent for payment instructions can be achieved in two ways:\nOnce the Initial VRP Consent Setup is successfully complete, which includes the application of SCA\ncovering the VRP Consent Parameters, the PISP may initiate, on the PSU's behalf, a series of VRP\nPayments within those VRP Consent Parameters and without the PSU being required to authenticate\nagain.\nThese payments must rely on the application of an available exemption. The type of exemption that an\nASPSP may choose to apply will be largely dependent on the payment attributes. For example, where\nthe payee in a VRP Consent remains the same, the ASPSP will likely rely on the Article 13 exemption set\nout in the SCA-RTS (by setting up the payee as a trusted beneficiary) or another available exemption\n(e.g., Transaction Risk Analysis or low value).\nThe customer can be treated as having given explicit consent for each VRP Payment under a VRP\nConsent, provided that:\na)     the payee is fixed;\nb)     the number and/or frequency of payments is fixed (or capped); and\nc)     although the amount cannot be fixed in advance, there are clear parameters around the permitted\nvalue, such as maximum individual payment amount, maximum total value in a month or year etc.\nOnce the VRP is set up and the appropriate exemption applied, the application of the wider PSR\nframework, together with FCA regulation of PISPs and ASPSPs, ensures appropriate provisions are in\nplace to govern every single immediate payment that is made under the VRP Consent.\nPSRs, Reg 69(3)(h) states that a PISP is not permitted to \"change the amount, the payee or any other\nfeature of a transaction notified to it by the payer\". In the context of VRP, the ‘amount' referred to should\nbe treated as the cap or range agreed to by the payer in the original VRP Consent. The PISP cannot\nchange or exceed this value, and the payee and frequency (or maximum number) of transactions are\nfixed.\n4.2 Explicit consent\n4.2.1 VRP Payments with an SCA exemption\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n5 of 24\n7/13/2026, 9:19 AM\n\nOnce the Initial VRP Consent Setup is successfully complete, the PISP can initiate, on the PSU's behalf, a\nseries of VRP Payments within the VRP Consent Parameters with the application of delegated SCA for\neach individual VRP Payment. This provides explicit consent for each payment instruction and\ndynamically links the amount and a payee, providing flexibility on the VRP Consent Parameters provided\nthat the applicable SCA requirements are met.\nThis method is designed to enable smoother customer experience and increased innovation and has\nreceived significant interest from several large TPPs and merchants. However, delegated SCA requires\nsome form of contract between the ASPSP and PISP and, to date, there have been no reported examples\nof delegated SCA being implemented.\nHowever, delegating SCA under a VRP Consent offers several distinct advantages to delating SCA\nwithout a VRP Consent, specifically:\na)     the VRP Consent can contain one or more VRP Consent Parameters, which the ASPSP can use to\nlimit/mitigate risk (e.g., frequency and amount of payments);\nb)     the flexibility of using these VRP Consent Parameters in different combinations can meet a wide\nnumber of different use cases; and\nc)     the PSU will have full visibility and control in the case they need to view and potentially revoke\naccess at the ASPSP.\nTherefore, this category of VRP is more likely to gain traction with ASPSPs and PISPs who wish to offer\ndelegated SCA.\nVRP is considered a PISP activity and consequently, the PSRs liability framework applies.\nThis topic is covered in more detail in section 6.6 \"Liability and Dispute management.\"\nVRP has applications across many different use cases. The following is a list of example use cases that\ndemonstrate the wide applicability of VRP:\n\nAs a homeowner, I want to allow my electricity provider to automatically take payments from my\nbank account but only up to a maximum of £100 per month.\n\nAs the user of a social network, I want to connect my bank account so that I can make quick and\n4.2.2 VRP Payments with delegated SCA\n4.3 Liability model of PSD2 in relation to VRP"
+    },
+    {
+      "identifier": "5",
+      "heading": "VRP Use Cases",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "text": "5. VRP Use Cases\nID\nUse case description\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n6 of 24\n7/13/2026, 9:19 AM\n\neasy in-app authentication of payments to my friends and be able to easily disconnect it from an\naccess dashboard with my bank if I change my mind.\n\nAs a new customer of a subscription service, I want to set up my subscription payments such that\nit expires after 6 months so that I don't get caught in a subscription trap.\n\nAs a ride-hailing app customer, I want to connect my bank account so that payment is made\nautomatically on my behalf as I arrive at my destination with a maximum payment size of £45.\n\nAs a customer using an online marketplace, I want to do a one-time payment setup for one-click\npayments offered by the marketplace to enable a quick checkout process.\n\nAs a customer looking to earn more interest, I want to use a third-party smart saving app that\nmoves money from my bank accounts to my own saving account on a flexible/variable basis so\nthat I can save money.\n\nAs a customer looking to avoid unnecessary fees, I want to use a third-party service that monitors\nmy account to maintain a threshold balance in my account or avoid overdraft fees and moves\nfunds as and when required between my accounts.\n\nAs a customer in financial difficulty, I want convenient short-term credit to avoid going overdrawn,\nand then to automate repayments so that I minimise both my overdraft fees and borrowing costs.\nTo date, while the OBIE specification supports a wide variety of payments, PISPs in the UK have mostly\nengaged in this regulated activity using the Single Immediate Payment (SIP) APIs standardised by Open\nBanking, in which each payment undergoes SCA of the PSU by the ASPSP.\nAs a novel PISP activity, VRPs introduce a new set of challenges with regard to risk and liability. This is\nbecause, unlike the existing SIPs, subsequent VRPs do not undergo SCA of the PSU by the ASPSP. When\ninstructing payments under the VRP model, the PISP will either:\n• Make a decision to instruct the payment order on behalf of the customer without SCA by reliance on\nan available exemption (\"unattended payments\"). This activity is classified as a VRP payment with\nan SCA exemption (Section 4.2.1), or;\n• Carry out SCA of the PSU either themselves or via another party to whom the ASPSP has delegated\nthe responsibility for SCA (\"customer in session\"). This activity is classified as a VRP payment with\ndelegated SCA (Section 4.2.2).\nID\nUse case description"
+    },
+    {
+      "identifier": "6",
+      "heading": "Risks & Mitigations in VRP Activity",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "text": "6. Risks & Mitigations in VRP Activity\n6.1 Introduction\n6.2 Customer Protection Framework\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n7 of 24\n7/13/2026, 9:19 AM\n\nGiven that VRP is a regulated PISP activity, the market can derive assurance on PISPs ability to control\nrisk, and appropriately protect customers, through the regulatory oversight afforded to it as a regulated\nactivity.\nAs a regulated financial institution, PISPs are required to have appropriate risk controls in place for the\nactivities they engage in, and this is assured to market through their regulatory supervision.\nUnder supervision, PISPs will ensure that adequate consumer protections and other risk controls are in\nplace to cover their VRP activities, and this would be guided under the FCA's Principles for Business.\nPISPs that do not sufficiently protect consumers or control risk will be detected and corrected through\nthe regulator's monitoring and supervision of PISP activity, as well as, through dispute mechanisms like\nthe FOS, which are available to their customers.\nThis model allows PISPs to adopt risk controls suited to their specific activities whilst regulatory\nsupervision provides assurance that consumers remain adequately protected and risks are sufficiently\ncontrolled.\nFCA Principles for businesses that regulated firms must adhere to"
+    },
+    {
+      "identifier": "1",
+      "heading": "Integrity",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "1. Integrity\nA firm must conduct its business with integrity."
+    },
+    {
+      "identifier": "2",
+      "heading": "Skill, care and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "2. Skill, care and\ndiligence\nA firm must conduct its business with due skill, care and diligence."
+    },
+    {
+      "identifier": "3",
+      "heading": "Management and",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "3. Management and\ncontrol\nA firm must take reasonable care to organise and control its affairs\nresponsibly and effectively, with adequate risk management systems."
+    },
+    {
+      "identifier": "4",
+      "heading": "Financial prudence",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "4. Financial prudence\nA firm must maintain adequate financial resources."
+    },
+    {
+      "identifier": "5",
+      "heading": "Market conduct",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "5. Market conduct\nA firm must observe proper standards of market conduct."
+    },
+    {
+      "identifier": "6",
+      "heading": "Customers'",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "6. Customers'\ninterests\nA firm must pay due regard to the interests of its customers and treat them\nfairly."
+    },
+    {
+      "identifier": "7",
+      "heading": "Communications",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "7. Communications\nwith clients\nA firm must pay due regard to the information needs of its clients and\ncommunicate information to them in a way which is clear, fair and not\nmisleading."
+    },
+    {
+      "identifier": "8",
+      "heading": "Conflicts of interest",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "8. Conflicts of interest\nA firm must manage conflicts of interest fairly, both between itself and its\ncustomers and between a customer and another client."
+    },
+    {
+      "identifier": "9",
+      "heading": "Customers:",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "text": "9. Customers:\nrelationships of trust\nA firm must take reasonable care to ensure the suitability of its advice and\ndiscretionary decisions for any customer who is entitled to rely upon its\njudgment."
+    },
+    {
+      "identifier": "10",
+      "heading": "Clients' assets",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "text": "10. Clients' assets\nA firm must arrange adequate protection for clients' assets when it is\nresponsible for them.\nPrinciple\nDescription\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n8 of 24\n7/13/2026, 9:19 AM"
+    },
+    {
+      "identifier": "11",
+      "heading": "Relations with",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 13,
+      "text": "11. Relations with\nregulators\nA firm must deal with its regulators in an open and cooperative way and must\ndisclose to the appropriate regulator appropriately anything relating to the\nfirm of which that regulator would reasonably expect notice.\nPISPs should ensure consumers are aware of the terms of the consumer protections afforded to them\nunder contract. PISPs should mitigate any risk that customers mistakenly assume consumer protections\nfrom other existing payment methods apply.\nOur analysis has identified some key factors affecting the levels of risk associated with different types of\nVRP use case, which PISPs will need to address through their risk controls:\nIf the use case requires that the customer is \"not in session\" for the instruction of an individual VRP\npayment (i.e., does not perform SCA of the PSU and relies on the application of an available SCA\nexemption), then there is an increased risk of customer dispute because the PISP may instruct a payment\non behalf of the PSU which the PSU would dispute. We note that this risk factor does not apply to VRP\nPayments with delegated SCA.\nThe more permissive a given VRP Consent's. consent parameters are, the greater the risk associated with\nmanaging that VRP Consent, for example:\n• a large maximum amount per payment\n• a very distant expiry date (or no expiry date at all)\nPISPs should ensure that the consent parameters they negotiate with the PSU are not unnecessarily or\nunreasonably permissive. Consent parameters that are unreasonably permissive would be inappropriate\nfor VRP Payments with an SCA exemption (Section 4.2.1) since that would compromise the PISP's ability\nto treat each payment as if it had explicit consent from the PSU.\nVRP Payments to a counterparty (i.e., where the payer is different from the payee) involve counterparty\nrisks and therefore increased likelihood for dispute. This is particularly true for \"consumer payment\" use\ncases, where contracts should set out terms to both parties and establish a suitable dispute process with\nsufficient protections.\nPrinciple\nDescription\n6.3 Factors that impact risk in VRP use cases\n6.3.1 Customer presence for VRP payment\n6.3.2 Permissiveness of consent parameters\n6.3.3 Payments to a counterparty\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n9 of 24\n7/13/2026, 9:19 AM\n\nIf the destination account of the VRP Payment carries with it more difficulty in recovering funds (e.g., long\nterm savings accounts), then the increased challenge in reversing the flow of funds for payments made in\nerror represents an increased risk.\nPISPs are regulated financial institutions and are obligated to control all MLTF risks relating to their\nregulated activities.\nThe risk is that a PSU loses awareness of a VRP Consent or is unable to manage it appropriately over\ntime. This forms part of a PISP's duty of care to customers, and they should ensure:\n• PSUs are notified appropriately of VRP Payments (before and/or after, dependent on use case).\n• PSUs are offered appropriate mechanisms for managing the VRP Consent over time (e.g., by\noffering the consent dashboard interface defined in the OBIE VRP Standard).\nThe risk that the ownership of the destination account is misattributed, a payment is made to an account\nthat is not in the name of the recipient intended by the PSU, and the potential for customer detriment to\narise as a result. Failing to control for this risk could facilitate APP scams. PISPs must develop risk controls\nthat appropriately mitigate these risks as part of their duty of care to the customer.\nUnder the VRP model, there are several levers available to control risks associated with different types of\nVRP use case:\nBecause VRP is a regulated PISP activity, PSD2/ PSRs provides a base liability framework.\nThe VRP consent that is granted by the PSU to the PISP can include a set of agreed parameters that\nconstrain the use of the consent (e.g., specifying the destination account, limiting the amount, expiry\ndate, etc). This provides transparency and assurance to the PSU by allowing them to agree to payments\nwithin specific limitations.\n6.3.4 Recoverability of funds\n6.3.5 Money Laundering and Terrorist Financing (MLTF)\n6.3.6 Erosion of PSU consent over time\n6.3.7 Misattribution of destination account ownership & APP scams\n6.4 Available risk control mechanisms in VRP\n6.4.1 PSD2 liability model\n6.4.2 Consent parameters\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n10 of 24\n7/13/2026, 9:19 AM\n\nA service contract between the PISP and PSU can provide additional protections and assurances to\ncustomers on top of the PSD2 liability model.\nA framework contract between the ASPSP and PSU can provide additional protections and assurances to\ncustomers.\nA contract between ASPSP and PISP can establish terms of liability, risk controls, consumer protection\nrules, and dispute processes (see Section 6.6 for more on dispute management).\nThe VRP standard requires PISPs and ASPSPs to sign their API requests and responses. Message signing\nprovides PISPs and ASPSPs with cryptographic attestation and proof of their interactions, which acts as a\nrisk control by establishing non-repudiation between ASPSP and PISP throughout the VRP consent setup\nand individual VRP payments.\nWhen making a VRP Payment, PISPs can attest to the nature of the payment. This signalling helps assure\nASPSPs that the nature of the activity is as agreed under the terms of access granted to the PISP.\nPSUs are granted full visibility and control over all the variable recurring payment access given by the PSU\nto all PISPs on the access dashboard. This enables the PSU to review and revoke specific access given to\nPISPs.\nPSUs are granted full visibility and control over all VRP Consents given to an individual PISP at one or\nmore ASPSPs on the consent dashboards. This enables the PSU to review and revoke specific VRP\nconsents given at different ASPSPs.\n6.4.3 PISP-PSU contract\n6.4.4 ASPSP-PSU contract\n6.4.5 ASPSP-PISP contract\n6.4.6 Non-repudiation between ASPSP and PISP for granting of\nconsent and individual payments\n6.4.7 PISP attestations to the nature of individual payment\n6.4.8 PSU revocation of access at the ASPSP\n6.4.9 PSU revocation of consent at the TPP\n6.4.10 Arbitration and dispute processes\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n11 of 24\n7/13/2026, 9:19 AM\n\nPISPs can establish processes that define how arbitration and dispute are managed for VRP Payments\nthat involve counterparty risk. Consumer protections should be included in these processes and afforded\nby the PISP to PSUs under contract.\nPISPs should monitor for VRP Consents that are dormant and remain unused. When a dormant consent is\nidentified, PISPs should make a risk-based decision about whether to notify the customer and/or revoke\nthe consent.\nTo address the potential erosion of PSU consent over time, PSUs should be offered \"dashboards\" to\nreview and manage VRP activities associated with their account. More specifically:\n• ASPSPs should offer the PSU an access dashboard to manage all VRP access to accounts.\n• PISPs should offer the PSU a consent dashboard to manage the VRP Consents granted to the PISP.\nPISPs should notify the PSU of VRP Payments once they have been initiated. Notifications must be issued\nafter a VRP Payment is initiated and can also be issued prior to initiation to keep the PSU informed.\nIn order to mitigate the risk that the ownership of the destination account is misattributed, PISPs should\ntake reasonable steps to ensure that the ownership of the destination account is in line with the\nexpectations of the PSU.\nWhilst the VRP standard will set out how VRP Consents are setup and VRP Payments are initiated, it does\nnot set out to prescribe the terms of the access by which PISPs may access a given ASPSP's VRP API.\nWe have identified three main types of VRP access that may be afforded to PISPs:\nBilateral\ncontractual\naccess\nA bilateral agreement between each\nPISP and ASPSP that can define terms\nof VRP access including:\n• Liability shifts\n• Consumer protection rules\nA contract can establish liability shift from\nASPSP to PISP in addition to PSD2 liability\nmodel when the VRP activity is high enough\nrisk to require that.\nASPSP duty of care to customer provides\n6.4.11 Monitoring for dormant consents\n6.4.12 Consent and Access Dashboards\n6.4.13 Notification of VRP Payments to PSU\n6.4.14 Validation of destination account ownership\n6.5 Types of VRP access\nDescription\nImpact on liability and risk\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n12 of 24\n7/13/2026, 9:19 AM\n\n• Dispute processes\n• Commercial model\nadditional assurance on quality of customer\nprotections determined in the contract.\nMultilateral\ncontractual\naccess\nA multilateral contract between one\nor more ASPSPs and one or more\nPISPs that can define terms of access\nVRP including:\n• Liability shifts\n• Consumer protection rules\n• Dispute processes\n• Commercial model\nThe same as above, but including:\nA predefined set of terms across all\nparticipants.\nTerms can establish standardised set of\nconsumer protections and liabilities across\nall participants.\nRegulated\nnon-\ncontractual\naccess\nAccess afforded to a PISP as a\nregulatory right that does not require\na contractual basis for access.\nWithout a contract in place the standard\nPSD2 liability model applies.\nVRP is a PISP activity and falls into the PSRs liability framework. PISPs and ASPSPs engaging in VRPs will\nalso need to ensure that their dispute resolution procedures for their customers are designed to both\nidentify and address specific VRP disputes in order to offer their customers appropriate protections. For\nexample, if the customer claims that the transaction was unauthorised, they would be entitled to a refund\n(and if applicable the additional funds to restore their account state it would have been had the\nunauthorised transactions not taken place) provided the requirements are met from their ASPSP. The\nASPSP would then have a right of recourse against the PISP for the losses incurred and the amount they\nhave compensated to the customer.\n In addition to the customer protections available in the PSRs and DISP rules, it is also recommended that\nASPSPs and PISPs create their own innovative and robust customer protections within VRP contractual\nagreements with each other. This is seen as a key driver in encouraging adoption and driving competition\nwithin the variable recurring payment landscape.\nOBIE also is the facilitator of Dispute Management System (DMS), which is a unique platform that\nprovides an end-to-end case management tool that enables Account Servicing Payment Service\nProviders (ASPSPs) and Third-Party Providers (TPPs) to connect and share information securely and\nsafely for the purpose of answering customer enquiries, disputes or complaints. DMS currently supports a\nwide range of categorisations of potential customer disputes and complaints that could arise from open\nbanking products and services. These categorisations could be extended to support VRP disputes, as\nwell as, expanded to capture any new categorisations that may emerge as a result of VRPs.\nDescription\nImpact on liability and risk\n6.6 Liability and Dispute management"
+    },
+    {
+      "identifier": "7",
+      "heading": "Example Customer Journey",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "text": "7. Example Customer Journey\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n13 of 24\n7/13/2026, 9:19 AM\n\nThe following wireframes demonstrate how VRP could be applied to setting up recurring bill payments for\na mobile phone contract:\nThe following wireframes demonstrate ongoing bill payment made with the above VRP Consent when the\ncustomer is not \"in session\":\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n14 of 24\n7/13/2026, 9:19 AM\n\nThese are stated as requirements of the OBIE solution to provide a standard for VRP.\nRequirements marked as ‘M'(Must) are in the scope of the OBIE solution. All other requirements are listed\nfor future consideration.\nAll requirements below are ‘optional' for implementation by ASPSPs and/or TPPs for non-sweeping use\ncases. However, for sweeping, in the event any CMA9 is mandated to implement VRPs, these\nrequirements are ‘conditional' for implementation, as they will be ‘mandatory' for in scope CMA Order\n(e.g., PCA and BCA) accounts and ‘optional' for other accounts. These terms are defined in the document\n\"Categorisation of requirements for standards and implementation\".\n\nThe OBIE's Solution(s) must allow the PISP to\ntransmit and confirm the PSU's VRP Consent\nto the ASPSP.\nM\nOptional\n Conditional\n\nThe OBIE's Solution(s) must define identifiers\nand semantics for the following VRP Consent\nParameters that may be included in a VRP\nConsent:\n• Payee Account Name.\n• Payee Account Identification details (e.g.,\naccount number and sort code or additionally\nroll number or full IBAN).\n• The maximum amount of each VRP\nPayment\n• The maximum cumulative amount per time\nwindow*\n• Expiry Date\n• Consent Reference (Remittance\nInformation)\n*time window – Day/Week/Fortnight/Month/\nHalf Year/ Year\nNote: ASPSP should support all the time\nwindow enumerations for VRP.\nM\n Optional\n Conditional\n\nThe OBIE Solution(s) must allow the PISPs to\ninitiate domestic payments with the VRP\nConsent.\nM\n Optional\nConditional"
+    },
+    {
+      "identifier": "8",
+      "heading": "Requirements for the VRP Standards",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 19,
+      "text": "8. Requirements for the VRP Standards\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor non-sweeping\nCMA9\nimplementation\nfor sweeping\n11.2(3)\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n15 of 24\n7/13/2026, 9:19 AM\n\nThe OBIE's Solution(s) must allow the ASPSP\nto apply SCA during VRP Consent Setup.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable\nthe ASPSP to apply any relevant SCA\nexemption when the PISP initiates a VRP\nPayment within the VRP consent parameters.\nM\n Optional\nConditional\n\nThe OBIE's Solution(s) must enable the PSU\nto select the payment account directly with\nthe ASPSP as part of theVRP consent set up\nprocess if not already provided via the PISP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the\nASPSP to return to the PISP, as part of VRP\nConsent Setup, the payment account if the\nPSU has selected one with the ASPSP.\nM\nOptional\n Conditional\n\nThe OBIE's Solution(s) must enable the PISP\nto transmit the following for each VRP\nPayment:\n• Reference to identify the VRP consent (VRP\nConsent ID)\n• InstructionIdentification\n• Amount.Currency\n• Reference (Remittance Information)\n• Date.\n• Type of transaction* (customer in an active\nsession OR customer not in active session).\n• Indicator to show whether the customer is in\nsession or out of session.\nNote:\n*Customer not in active session: when the\nPSU is not in an active session of the PISP\nand the PISP has initiated the payment on\nbehalf of the customer.\nCustomer in an active session: PSU was in an\nactive session of the PISP service and has\nperformed a Call to action to initiate the\npayment.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the PISP\nM\n Optional\n Conditional\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor non-sweeping\nCMA9\nimplementation\nfor sweeping\n11.2(2)\n11.2(3)\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n16 of 24\n7/13/2026, 9:19 AM\n\nto indicate whether the customer is present in\nthe session or out of session for each VRP\npayment initiated as part of a VRP Consent.\n\nThe OBIE's Solution(s) must enable the PISP\nto provide additional evidence to the ASPSP\nof customer attestation for specific VRP\npayment.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must require the\nASPSP to reject a VRP Payment if the\npayment would exceed the VRP Consent\nParameters.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must require the\nASPSPs to provide accurate and structured\nerror message when payment initiated by\nPISP is outside the VRP consent parameters,\nindicating the parameter that was breached\nand reason.\nM\nOptional\n Conditional\n\nThe OBIE's Solution(s) must allow ASPSPs to\nprovide a specific error message when a VRP\nPayment cannot be instructed because it has\nbeen deemed to require SCA.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the PISP\nto return a confirmation of successful\ninitiation to the PSU and hence this must also\nenable the ASPSP to return this confirmation\nto the PISP (e.g., where this happens at some\ntime after the receipt of the VRP payment).\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the PSU\nto setup multiple VRP Consents, with varying\nConsent Parameters, for the same PISP at an\nASPSP.\n Optional\n Conditional\n\nThe OBIE's Solution(s) must provide guidance\nto PISPs on notifying the PSU either prior or\npost-initiation of a VRP.Note: This could vary\nbased on the use case or bilateral between\nthe PISP and the PSU.\nM\n Optional\nConditional\n\nThe OBIE's Solution(s) must enable PISPs and\nASPSPs to refund the PSU the amount\nM\n Optional\n Conditional\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor non-sweeping\nCMA9\nimplementation\nfor sweeping\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n17 of 24\n7/13/2026, 9:19 AM\n\ndisputed by the PSUs.\n\nThe OBIE's Solution(s) must enable the PSU\nto revoke a VRP Consent via the PISP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the PSU\nto revoke Variable Recurring Payment access\ndirectly with the ASPSP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must allow the PISP to\nattest to the ASPSP about the types of\nactivity the VRP Consent is intended to be\nused for.\nM\n Optional\nConditional\n\nThe OBIE's Solution(s) must allow the ASPSP\nto send a specific message to the PISP in\nresponse to an access request that they can\nno longer access if the account(s) has been\nfully switched to another ASPSP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must allow the ASPSP\nto enable the above functionality\n(requirement #21) for all VRP consents given\nby the PSU to a PISP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable PISPs to\nreceive, with a single API call (aggregated\npolling), specific messages of the account\nswitch status for multiple PSUs with a specific\nASPSP during a specific period.Note: MVP is\nto support status ‘Account switch\ncompleted'.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must enable the\nASPSP to notify the PISP when access is\nrevoked by the PSU directly at the ASPSP.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must allow ASPSPs to\nprovide MI on metrics and adoption as per\nsection 10.1 below.\nM\n Optional\nConditional\n\nThe OBIE's Solution(s) must allow the PISP to\nprovide the ASPSP with multiple indicators to\nindicate the types of VRP payments.\nM\n Optional\n Conditional\n\nThe OBIE's Solution(s) must allow PISPs the\nM\nOptional\n Conditional\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor non-sweeping\nCMA9\nimplementation\nfor sweeping\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n18 of 24\n7/13/2026, 9:19 AM\n\nability to attach arbitrary metadata to VRP\nConsents.\n\nThe OBIE's Solution(s) must allow PISPs the\nability to attach arbitrary metadata to VRP\nPayments.\nM\nOptional\n Conditional\n\nThe OBIE's Solution(s) must require the\nASPSP to enable the functionality for Single &\nJoint accounts (this excludes multi-\nauthorisation accounts).\nM\nOptional\nConditional\nOBIE is establishing a standardised form of VRP access intended for sweeping activities (\"Sweeping\nAccess\") as per the recommendation contained in the sweeping consultation document.\nThe requirements for standardised sweeping access build on top of the above VRP standards\nrequirements by introducing the following additional constraints:"
+    },
+    {
+      "identifier": "1",
+      "heading": "Require the PISP to attest that the activity meets the standardised definition of sweeping.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "text": "1. Require the PISP to attest that the activity meets the standardised definition of sweeping."
+    },
+    {
+      "identifier": "2",
+      "heading": "Require the use of a specific set of consent parameters.",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "text": "2. Require the use of a specific set of consent parameters."
+    },
+    {
+      "identifier": "3",
+      "heading": "Require the application of",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "text": "3. Require the application of"
+    },
+    {
+      "identifier": "1",
+      "heading": "the Trusted Beneficiary SCA exemption by the ASPSP for each Sweeping Payment. OR",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "text": "1. the Trusted Beneficiary SCA exemption by the ASPSP for each Sweeping Payment. OR"
+    },
+    {
+      "identifier": "2",
+      "heading": "the ‘Transfer to Self' SCA exemption by the ASPSP for each sweeping payment within the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "text": "2. the ‘Transfer to Self' SCA exemption by the ASPSP for each sweeping payment within the\nsame ASPSP.\nThis standardised sweeping access is mandatory under the CMA Order and includes the implementation\nof Requirements for the VRP Standard, as well as Requirements for Sweeping Access, by the CMA9.\nFor simplicity, we will use \"Sweeping Consents\" and \"Sweeping Payments\" to refer to VRP Consents and\nVRP Payments under Sweeping Access.\n\nThe OBIE Solution(s) must require a Sweeping\nConsent includes the following VRP Consent\nParameters:\n• Payee Account Name.\n• Payee Account Identification details (e.g.,\nM\nn/a\n Conditional\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor non-sweeping\nCMA9\nimplementation\nfor sweeping"
+    },
+    {
+      "identifier": "9",
+      "heading": "Requirements for VRP Sweeping Access",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 21,
+      "text": "9. Requirements for VRP Sweeping Access\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor  non-\nsweeping\nCMA9\nImplementation\nfor sweeping\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n19 of 24\n7/13/2026, 9:19 AM\n\naccount number and sort code or additionally\nroll number or full IBAN).\n• The maximum cumulative amount per time\nwindow*\n• The maximum amount of each Sweeping\nPayment.\n*time window – Day/Week/Fortnight/Month/\nHalf Year/ Year\nNote: ASPSP must support all the time window\nenumerations.\n\nThe OBIE's Solution(s) must ensure the ASPSP\ninforms the PSU that the payee will be added\nto their Trusted Beneficiary list.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require the ASPSP\nto add the payee to the PSU's Trusted\nBeneficiary list once the Sweeping Consent\nSetup is complete.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require the ASPSP\napply the Trusted Beneficiary SCA exemption*\nwhen the PISP initiates a Sweeping Payment\nwithin the Sweeping consent parameters. The\nASPSP may choose not to apply the exemption\nin exceptional circumstances with an objective\napproach in line with the proportionality\nrequirements of the PSRs.\n*Note: The ASPSP may apply a ‘Transfer to\nSelf' exemption if the PISP initiates a Sweeping\npayment to an account held at the same\nASPSP.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must allow the ASPSP to\nprovide a specific error indicator to the PISP in\nresponse to a Sweeping Payment under a\nSweeping Consent where the trusted\nbeneficiary has been removed from the trusted\nbeneficiary list and exemption can no longer be\napplied to Sweeping Payments.\nM\n n/a\n Conditional\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor  non-\nsweeping\nCMA9\nImplementation\nfor sweeping\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n20 of 24\n7/13/2026, 9:19 AM\n\nThe OBIE's Solution(s) must require ASPSPs to\nprovide MI on metrics and adoption as per\nsection 10.2 below.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require the PISP to\nattest to the ASPSP that the VRP Consent is a\nSweeping Consent.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require ASPSPs to\nprovide non-discriminatory access to Sweeping\nConsent Setup.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require ASPSPs to\nprovide non-discriminatory access to instruct\nSweeping Payment within the Sweeping\nConsent Parameters.\nM\n n/a\n Conditional\n\nThe OBIE's Solution(s) must require the ASPSP\nto enable the functionality for Single & Joint\naccounts (this excludes multi-authorisation\naccounts).\nM\nOptional\nConditional\n• The total number of PISPs that have setup VRP Consent for the first time.\n• The total volume of VRP Consent set up through a PISP for non-sweeping.\n• The total volume of successfully setup VRP Consent via PISPs for non-sweeping.\n• The total volume of VRPs that failed to be authorised by the PSU for non-sweeping.\n• The total volume of Variable Recurring Payment access that was cancelled by PSU at the ASPSP for\nnon-sweeping.\n• The total volume of successful VRP payments for non-sweeping.\n• The total volume of failed VRP payments for non-sweeping.\n• The total number of PISPs that have setup Sweeping Consent for the first time.\nID\nDescription\nMoSCoW\nASPSP\nimplementation\nfor  non-\nsweeping\nCMA9\nImplementation\nfor sweeping"
+    },
+    {
+      "identifier": "10",
+      "heading": "Measuring VRP usage",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "text": "10. Measuring VRP usage\n10.1 Optional MI for VRP Standards\n10.2 Required MI for Sweeping Access\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n21 of 24\n7/13/2026, 9:19 AM\n\n• The total volume of Sweeping Consent set up through a PISP.\n• The total volume of successfully setup Sweeping Consent via PISPs.\n• The total volume of Sweeping VRPs that failed to be authorised by the PSU.\n• The total volume of Sweeping Variable Recurring Payment access that was cancelled by PSU at the\nASPSP.\n• The total volume of successful VRP payments for Sweeping.\n• The total volume of failed VRP payments for Sweeping.\n• The total volume of VRP payments for sweeping where the ASPSP decided the Trusted Beneficiary\nExemption could not be applied.\nThe following are extracts referencing the scope of VRP & Sweeping taken ‘as-is' from the published\nroadmap:\nhttps://openbankinguk.github.io/read-write-api-site3/v3.1.6/profiles/payment-initiation-api-\nprofile.html#identifier-fields\n\nEndToEndIdentification\nMerchant/\nPISP Sent in\nAPI Payload\nThe EndToEndIdentification reference is a reference that\ncan be populated by the debtor (or merchant in the\necommerce space). This reference is important to the\ndebtor (could be an internal reference Id against the\ntransaction), it Is NOT the reference information that will\nbe primarily populated on the statement of the creditor"
+    },
+    {
+      "identifier": "11",
+      "heading": "Appendix",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "text": "11. Appendix\n11.1 Roadmap item reference\n11.2 Identifier reference\nID\nIdentifier\nGenerated\nBusiness Description\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n22 of 24\n7/13/2026, 9:19 AM\n\n(beneficiary).\n\nInstructionIdentification\nMerchant/\nPISP Sent in\nAPI Payload\nThe PISP generates the InstructionIdentification which is a\nunique transaction Id and passes it to the ASPSP (this is\nmandatory), but this does not have to go any further in\nthe payment flow. The flow of this identifier needs to align\nwith payment scheme rules.\nThe expectation is that this is unique indefinitely across all\ntime periods. The PISP can ensure this is indefinitely\nunique by including a date or date-time element to the\nfield, or by inserting a unique Id.\n\nRemittanceInformation\nMerchant/\nPISP Sent in\nAPI Payload\nThe RemittanceInformation is the reference information\nthat the creditor (or beneficiary) will need to reconcile\n(e.g., Invoice 123).\nv1\n25 Mar\n\nOBIE API Delivery\nTeam\nFinal version – approved by IESG with no changes\nv1.1\n13 Aug\n\nOBIE API Delivery\nTeam\nNew Section 3.3. – Definition of sweeping definition\nSection 9 – ID #1 – added consent expiry attribute.\nSection 9 #ID29 & Section 10 #10 – To explicitly scope out\nmulti auth.\nv1.2\n29 Sept\n\nOBIE API Delivery\nTeam\nSection 8 – ID #1 – removed consent parameter frequency\nper time window as an errata fix.\nID\nIdentifier\nGenerated\nBusiness Description"
+    },
+    {
+      "identifier": "12",
+      "heading": "Version control",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "text": "12. Version control\nVersion\nDate\nAuthors\nComments\nBack to Top\n© Copyright Open Banking Limited 2024.\nRegistered in England. Company Number: 10440081\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n23 of 24\n7/13/2026, 9:19 AM\n\nRegistered office: 8th Floor, 100 Bishopsgate, London EC2N 4AG United Kingdom\nAbout us\nAbout the OBL\nOBL leadership team\nCareers\nDelivering the Roadmap\nExternal Engagement\nWhat is open banking?\nOpen finance\nOpen Banking in Action\nFind a regulated provider\nApp store\nAPI performance\nParticipants\nAccount providers (ASPSPs)\nFintechs (TPPs)\nTechnical Service Providers (TSPs)\nRegulatory\nResources\nNews and press releases\nInsights\nOpen banking events archive\nGlossary\nFAQs\nDocument library\nSolutions\nDirectory\nCrown Dependencies Directory\nVariable Recurring Payments (VRPs)\nContact Us\nDirectory enrolment\nOpen data API provider enrolment\nEthics and transparency\nJROC and the future entity\nStrategic Working Group\nTerms & Conditions\nPrivacy Policy\nCookies\nAccessibility\nOpen licence\nVariable Recurring Payments (VRPs) - Open Banking Standards\nhttps://standards.openbanking.org.uk/get-started/propositions/p26/\n24 of 24\n7/13/2026, 9:19 AM"
+    }
+  ]
+}
