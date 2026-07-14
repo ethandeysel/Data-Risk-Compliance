@@ -1,0 +1,66 @@
+{
+  "country": "Kenya",
+  "document": "GUIDANCE-NOTE-ON-CYBERSECURITY-FOR-THE-BANKING-SECTOR",
+  "generated": "2026-07-14T11:06:24",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "PART II Statement of Policy",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "Defines policy sections for cybersecurity in banking sector including purpose, scope, responsibility, and cyber risk examples.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "PART II Statement of Policy 2.1 Purpose 2.2 Scope 2:3 Responsibility 2.4 Examples of Sources of Cyber Risk"
+    },
+    {
+      "section": "3",
+      "heading": "PART III Specific Requirements",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 14,
+      "primary_category": "Governance",
+      "summary": "Board and senior management must establish cybersecurity strategy, policies, and frameworks; ensure oversight, budget allocation, and regular reviews of cybersecurity readiness.",
+      "dtia_summary": "Requires institutions to define cybersecurity governance structures, risk ownership, and accountability for cyber threats within banking operations.",
+      "authority": "Central Bank of Kenya (CBK)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board of Directors must oversee cybersecurity strategy, risk appetite, and strategic direction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must review cybersecurity preparedness against cyber risks annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management must implement cybersecurity strategy and ensure business continuity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CISO must report cybersecurity status quarterly to CEO",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Board of Directors must oversee cultivation of ethical governance culture, establish cyber risk appetite, allocate cybersecurity budget, and review cybersecurity preparedness annually."
+    }
+  ]
+}

@@ -10,11 +10,24 @@ Legal documents here use two very different numbering conventions:
     unnumbered line above it (the Joint Standards, directives, the
     cybersecurity policy framework).
 
+  * Style C — the number sits *alone on its own line* with the heading on
+    the next line (UK/Australia legislation.gov.uk exports):
+
+        1
+        Unauthorised access to computer material.
+        (1) A person is guilty of an offence if…
+
+    This matches neither A (no "1. " on one line) nor B (no decimals), so
+    these documents previously parsed to zero sections and vanished from
+    the pipeline.  Style C splits on the bare, sequential section numbers.
+
 The style is detected per document.  Style-A documents use the original,
 well-tested logic unchanged.  Style-B documents previously matched only
 their table-of-contents lines and dumped the whole body into one giant
 "section"; they now get running headers + TOC lines stripped and are
-split on their decimal numbering.
+split on their decimal numbering.  Detection is ordered B → C → A, and
+each of B/C only wins when it clearly out-matches A, so the acts that
+already parse correctly are untouched.
 
 Page numbers are tracked per page so every section keeps an accurate
 page reference for DTIA citation.
@@ -32,6 +45,11 @@ STYLE_A = re.compile(r"(?m)^(\d+)\.\s+([^\n]+)")
 
 # "12.1" decimal subsection at the start of a line.
 DECIMAL = re.compile(r"(?m)^\s*(\d+)\.(\d+)\b")
+
+# A whole line that is just a section number, optionally with a letter
+# suffix (Style C): "1", "17", "3A", "12ZB".  legislation.gov.uk amendment
+# markers like "F1" are rejected because they start with a letter.
+BARE_NUMBER = re.compile(r"^\s*(\d{1,3}[A-Z]{0,2})\s*$")
 
 # A line that opens a numbered item (used to reject it as a heading).
 NUMBERED_LINE = re.compile(r"^\s*(\d+[.)]|\(\w+\))")
@@ -53,6 +71,8 @@ class SectionParser:
 
         if self._is_decimal_style(cleaned):
             sections = self._parse_decimal(document["pages"], cleaned)
+        elif self._is_bare_number_style(cleaned):
+            sections = self._parse_style_c(document["pages"], cleaned)
         else:
             sections = self._parse_style_a(document["pages"], cleaned)
 
@@ -71,6 +91,106 @@ class SectionParser:
         a = len(STYLE_A.findall(text))
         b = len(DECIMAL.findall(text))
         return b >= 10 and b > 1.5 * a
+
+    def _is_bare_number_style(self, cleaned_pages):
+        """Style C: many sequential bare-number section headers."""
+        lines = "\n".join(cleaned_pages).split("\n")
+        starts = self._find_bare_starts(lines)
+        a = len(STYLE_A.findall("\n\n".join(cleaned_pages)))
+        # Only take over when there is a clear run of bare-number sections
+        # and Style A does not already explain the document.
+        return len(starts) >= 5 and len(starts) > a
+
+    # -----------------------------------------------------------------
+    # Style C — bare number on its own line, heading on the next line.
+    # -----------------------------------------------------------------
+
+    def _find_bare_starts(self, lines):
+        """Return [(line_index, identifier, heading), …] for Style C.
+
+        A section starts at a line that is only a number (optionally with a
+        letter suffix), whose number continues the running sequence, and
+        which is followed by a plausible heading line.  Requiring the
+        heading keeps stray bare numbers (page numbers, cross-references)
+        from being mistaken for sections.
+        """
+        # Forward gaps happen (repealed sections leave holes, inserts like
+        # "3A" repeat an integer); only backward or wild-forward jumps
+        # signal a stray number (a leftover page number, a cross-reference).
+        GAP = 12
+
+        starts = []
+        last_int = None
+        for i, line in enumerate(lines):
+            m = BARE_NUMBER.match(line)
+            if not m:
+                continue
+            token = m.group(1)
+            num = int(re.match(r"\d+", token).group())
+
+            # Sequence gate: start near 1, then stay monotonic (allowing a
+            # repeated integer for letter-suffixed inserts) within a small
+            # forward gap.
+            if last_int is None:
+                if num > 3:
+                    continue
+            elif num < last_int or num > last_int + GAP:
+                continue
+
+            # Heading = next non-empty line, unless it is itself numbered,
+            # parenthesised, another bare number, or too long to be a title.
+            heading = ""
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                cand = lines[j].strip()
+                if (not NUMBERED_LINE.match(cand)
+                        and not BARE_NUMBER.match(cand)
+                        and not cand.startswith("(")
+                        and len(cand) <= 120):
+                    heading = cand
+
+            # Only a numbered line with a real heading counts as a section
+            # start; advance the sequence so later sections stay anchored.
+            if heading:
+                last_int = num
+                starts.append((i, token, heading))
+        return starts
+
+    def _parse_style_c(self, pages, cleaned):
+        headers = self._repeated_lines(cleaned)
+
+        full_text = ""
+        page_map = []
+        for page, page_text in zip(pages, cleaned):
+            kept = [
+                line for line in page_text.split("\n")
+                if not (line.strip() and line.strip() in headers)
+                and not DOT_LEADER.search(line)
+            ]
+            page_map.append((len(full_text), page["page"]))
+            full_text += "\n".join(kept).strip() + "\n\n"
+
+        lines = full_text.split("\n")
+        offsets, pos = [], 0
+        for line in lines:
+            offsets.append(pos)
+            pos += len(line) + 1
+
+        starts = self._find_bare_starts(lines)
+        if len(starts) < 3:
+            return self._parse_style_a(pages, cleaned)
+
+        sections = []
+        for k, (line_idx, identifier, heading) in enumerate(starts):
+            start = offsets[line_idx]
+            end = (offsets[starts[k + 1][0]]
+                   if k + 1 < len(starts) else len(full_text))
+            sections.append(self._section(
+                identifier, heading, full_text, start, end, page_map,
+            ))
+        return sections
 
     # -----------------------------------------------------------------
     # Style A — original logic (unchanged), preserved for the 16 acts

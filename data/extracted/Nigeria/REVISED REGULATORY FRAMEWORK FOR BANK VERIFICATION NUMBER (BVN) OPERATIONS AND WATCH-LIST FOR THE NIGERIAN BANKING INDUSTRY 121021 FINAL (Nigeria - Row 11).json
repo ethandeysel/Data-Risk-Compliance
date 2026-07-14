@@ -1,0 +1,42 @@
+{
+  "country": "Nigeria",
+  "document": "REVISED REGULATORY FRAMEWORK FOR BANK VERIFICATION NUMBER (BVN) OPERATIONS AND WATCH-LIST FOR THE NIGERIAN BANKING INDUSTRY 121021 FINAL (Nigeria - Row 11)",
+  "generated": "2026-07-14T11:41:56",
+  "sections": [
+    {
+      "section": "3",
+      "heading": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "Defines roles and responsibilities of participants in BVN system and Watch-list for Nigerian banking industry to combat fraud and enhance public confidence.",
+      "dtia_summary": "Requires banks to link customer BVNs to accounts within 24 hours, report breaches to Watch-list within 1 business day, and enforce sanctions for non-compliance with BVN operations.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Banks must link customer BVNs to accounts within 24 hours of NIBSS making BVN available",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report BVNs of individuals in breach to NIBSS for Watch-list update within 1 business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enforce sanctions on customers with Watch-listed BVNs including restricting electronic channels",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Banks shall ensure all operated accounts/wallets (except Tier 1) ... are linked with the signatories' BVNs within 24 hours of NIBSS making BVN available."
+    }
+  ]
+}

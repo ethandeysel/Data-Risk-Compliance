@@ -1,0 +1,136 @@
+{
+  "country": "Singapore",
+  "document": "FEAT Principles Updated 7 Feb 19 (Singapore - Row 15)",
+  "sections": [
+    {
+      "identifier": "10",
+      "heading": "Data subjects are provided with channels to enquire about, submit appeals for and",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "10. Data subjects are provided with channels to enquire about, submit appeals for and \nrequest reviews of AIDA-driven decisions that affect them."
+    },
+    {
+      "identifier": "11",
+      "heading": "Verified and relevant supplementary data provided by data subjects are taken into",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "11. Verified and relevant supplementary data provided by data subjects are taken into \naccount when performing a review of AIDA-driven decisions. \nTransparency"
+    },
+    {
+      "identifier": "12",
+      "heading": "To increase public confidence, use of AIDA is proactively disclosed to data subjects as",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "12. To increase public confidence, use of AIDA is proactively disclosed to data subjects as \npart of general communication."
+    },
+    {
+      "identifier": "13",
+      "heading": "Data subjects are provided, upon request, clear explanations on what data is used to",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "text": "13. Data subjects are provided, upon request, clear explanations on what data is used to \nmake AIDA-driven decisions about the data subject and how the data affects the \ndecision."
+    },
+    {
+      "identifier": "14",
+      "heading": "Data subjects are provided, upon request, clear explanations on the consequences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "text": "14. Data subjects are provided, upon request, clear explanations on the consequences \nthat AIDA-driven decisions may have on them. \n \n*********************\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n5 \nFairness  \n5.1 \nIt is important that AIDA-driven decisions do not disadvantage any particular \nindividual or groups of individuals without justification. Today, offering differential \ntreatment to different groups of people is an existing practice and part of current business \nmodels. While the use of AIDA could enable analysis based on segmentation and \nclustering of data, this also means that differentiation between groups could take place \nat a greater scale and faster speed. The use of AIDA may also create the ability to identify \nor analyse new types of differentiation that could not previously be done. This could \nperpetuate cases of unjustified differentiation at a systemic level if not properly managed.  \n5.2 \nAIDA Firms may have internal governance frameworks in place to assess and set \nstandards of appropriate levels of justifications behind AIDA-driven decisions, including \nuse of specific data attributes. Such internal governance frameworks may also have \nprocesses which assess data and models used for AIDA-driven decisions for accuracy, and \nmay be calibrated based on the materiality of the decisions.  \n5.3 \nThe principles of Fairness focus on two key aspects – firstly, the justifiability and \nsecondly, the accuracy and bias of AIDA-driven decisions.  \nJustifiability"
+    },
+    {
+      "identifier": "2",
+      "heading": "Use of personal attributes as input factors for AIDA-driven decisions is",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "text": "2. Use of personal attributes as input factors for AIDA-driven decisions is \njustified. \n5.4 \nIllustration 1: An AIDA Firm uses AIDA to decide whether to approve an increase \nin a customer's credit card limit, based on a variety of factors. The Firm provides \njustifications to internal approving authorities for the rationale for using each factor \naccording to their internal governance framework. The Firm also justifies how each factor \nor combinations of different factors with varying weightages may affect the decision. \nBased on these justifications, some customers may receive approvals for an increase in \ntheir credit card limits while others may not.  \n5.5 \nIllustration 2: An AIDA Firm uses AIDA for customer segmentation to provide \nmore relevant product offerings for different customer groups. This may include using a \ncustomer's age, a personal attribute, as an input factor to decide whether to offer \nretirement-related financial services and products. Based on the AIDA Firm's internal \ngovernance framework, the use of age as an input factor for this AIDA-driven decision may \nbe justified, given the relationship between age and retirement.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\nAccuracy and Bias"
+    },
+    {
+      "identifier": "4",
+      "heading": "AIDA-driven decisions are regularly reviewed so that models behave as",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "text": "4. AIDA-driven decisions are regularly reviewed so that models behave as \ndesigned and intended.  \n \n5.6 \nIllustration 3: Based on an internal governance framework, an AIDA Firm puts in \nplace requirements for model validation exercises and testing for errors or unintentional \nbiases. The frequency of exercises or tests depends on the materiality of the decision and \nthe complexity of the model. For particularly material and complex deep learning models, \nan AIDA Firm requires more frequent validation and testing. Conversely, for less material \nand more straightforward models, quarterly, annual or even less frequent validations and \ntests suffice.  \n5.7 \nIllustration 4: In addition to periodic reviews, the AIDA Firm's internal governance \nframework also identifies specific triggers for review, including unexpected changes that \ninvalidate basic model assumptions. For example, an unexpected court decision on \nwhether an entity has defaulted on its debts might trigger a review of credit risk \nparameters to see if the parameters need to be revised.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n6 \nEthics \n6.1 \nAll firms using AIDA or not operate in line with their ethical standards. These \nethical standards are expressed through many ways, including company values, codes of \nconduct and mission statements, and may vary across firms and geographies. Adherence \nto these ethical standards applies equally to the use of AIDA."
+    },
+    {
+      "identifier": "6",
+      "heading": "AIDA-driven decisions are held to at least the same ethical standards as",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "text": "6. AIDA-driven decisions are held to at least the same ethical standards as \nhuman driven decisions. \n6.2 \nIllustration 5: An AIDA Firm's human resource department has existing \nrecruitment rules that specify that gender should not be a consideration in making hiring \ndecisions, in alignment with their overall company policy on diversity and fair \nemployment. The AIDA Firm decides to implement a model or algorithm to assist in their \nfiltering and shortlisting of potential employment candidates. Under the AIDA Firm's \ninternal governance framework, to maintain the same ethical standards as human driven \ndecisions, the model or algorithm does not use gender as an input or derived attribute.  \n6.3 \nIllustration 6: An AIDA Firm does not have a clear authority that oversees and \nmaintains its ethical standards, and thus decides to establish an organisation-wide ethical \nreview board. In addition, the AIDA Firm also considers setting up project-specific cross-\nfunctional ethical review boards comprising stakeholders of relevant expertise and \nindependent representatives, which report into the organisation-wide ethical review \nboard.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n7 \nAccountability \n7.1 \nIt is important that there is clear responsibility for and ownership of AIDA-driven \ndecisions within an AIDA firm, with appropriate internal approving authorities for the use \nof AIDA. Such accountability applies to all uses of AIDA, whether internally developed or \nexternally sourced.  \n7.2 \nAIDA-driven decisions, especially those that could significantly affect data \nsubjects, need to be based on as accurate an understanding of the data subject as \npossible. Data subjects could provide accurate information about themselves through \nchannels that aim to facilitate communication and seek recourse.   \n7.3 \nThe principle of Accountability thus focuses on two key aspects – firstly, internal \naccountability, which is concerned with the AIDA Firm's internal governance, and \nsecondly, external accountability, which is concerned with the AIDA Firm's responsibility \nto data subjects.  \nInternal Accountability"
+    },
+    {
+      "identifier": "9",
+      "heading": "Firms using AIDA proactively raise management and Board awareness of their",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "text": "9. Firms using AIDA proactively raise management and Board awareness of their \nuse of AIDA. \n7.4 \nIllustration 7: A Firm currently has internal approval structures in place for \ndecision-making, which it chooses to rely on when setting approval authorities for AIDA-\ndriven decision-making. For example, currently the Head of Financial Markets approves \nall decisions related to the trading function. If the function is looking to introduce an AIDA \nmodel for the execution of trades, the Head of Financial Markets would similarly approve \nthe use of this model in line with the AIDA Firm's internal governance framework.   \n7.5 \nIllustration 8: When setting approving authorities for AIDA-driven decisions, the \nFirm's internal governance framework takes into account materiality and complexity of \nthe decision. The Firm sets approving levels at Chief Executive Officer or Board levels for \nhighly-material decisions, with proper due diligence so that approving authorities have \nsufficient understanding of the data and model logic used for decision-making.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n7.6 \nIllustration 9: An AIDA Firm updates the Board on the use of AIDA within the Firm \non a periodic basis, so that that the Board maintains a central view of all material AIDA-\ndriven decisions. As a good-to-have, the Firm organises regular Staff Town-halls to raise \nawareness of the use of AIDA within the Firm, which may include department case studies, \nor sharing of learning points.  \nExternal Accountability"
+    },
+    {
+      "identifier": "10",
+      "heading": "Data subjects are provided with channels to enquire about, submit appeals",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "text": "10. Data subjects are provided with channels to enquire about, submit appeals \nfor and request reviews of AIDA-driven decisions that affect them."
+    },
+    {
+      "identifier": "11",
+      "heading": "Verified and relevant supplementary data provided by data subjects are taken",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "text": "11. Verified and relevant supplementary data provided by data subjects are taken \ninto account when performing a review of AIDA-driven decisions. \n \n7.7 \nIllustration 10: When informing a data subject of a AIDA-driven decision, the AIDA \nFirm includes a contact number and email address so that data subjects can enquire about \nthe decision and provide a reasonable basis for review. The Firm adapts existing \nframeworks for handling customer enquiries, to assess the materiality of the issue at \nhand, and the practicality of responding to such requests.  \n7.8 \nIllustration 11: The AIDA Firm provides the data subject with online data \nmanagement tools such as privacy or personal data dashboards. Through these \ndashboards, data subjects may opt to review, update or edit their information for \naccuracy and relevance.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n8 \nTransparency \n8.1 \nWhile increased transparency in AIDA Firms' use of AIDA could improve public \nunderstanding and confidence in AIDA, excessive transparency could create confusion or \nunintended opportunities for individuals to exploit or manipulate AIDA models. It is \nimportant to balance these considerations in determining the appropriate level of \ntransparency in the use of AIDA. In determining levels of transparency, the materiality of \nthe decision is also relevant.  \n8.2 \nData subjects may seek clear explanations about data used for decision-making, \nhow data affects the decision and the consequences on data subjects. Clear explanations \ndo not necessitate exposure of intellectual property or publishing of proprietary source \ncodes. Clear explanations could instead focus on facilitating the data subject's \nunderstanding of the Firms' use of AIDA."
+    },
+    {
+      "identifier": "13",
+      "heading": "Data subjects are provided, upon request, clear explanations on what data is",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "text": "13. Data subjects are provided, upon request, clear explanations on what data is \nused to make AIDA-driven decisions about the data subject and how the data \naffects the decision."
+    },
+    {
+      "identifier": "14",
+      "heading": "Data subjects are provided, upon request, clear explanations on the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 15,
+      "text": "14. Data subjects are provided, upon request, clear explanations on the \nconsequences that AIDA-driven decisions may have on them. \n \n8.3 \nIllustration 12: An AIDA Firm offering car insurance informs customers that they \nwill be using data on driving patterns to review customer premiums.  The Firm explains \nhow certain driving patterns may affect premiums. The Firm provides illustrative diagrams \nand charts to explain the patterns identified and the impact on different customer groups. \nThe Firm also develops a user interface to allow customers to vary potential inputs to get \na sense of the impact on premium outcomes. A customer who is charged a higher \npremium can approach the Firm for a meaningful explanation on the reasons for the \nincrease. The AIDA Firm shares with the customer which customer group he falls into and \nthe corresponding impact on premiums. The AIDA Firm also broadly shares with the \ncustomer what data is used to analyse his driving patterns and provide an avenue for the \ncustomer to provide more accurate or updated information. In the long term, the \ncustomer may choose to change his behaviour and cultivate good driving habits to ensure \nthat his premiums do not increase.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n8.4 \nIllustration 13: An AIDA Firm considers the materiality of the AIDA-driven \ndecision when determining appropriate levels of transparency. For example, the AIDA \nFirm uses AIDA models for fraud detection and to identify possible \"red flags\". Given \nmateriality considerations and concerns of model manipulation or exploitation, an AIDA \nFirm decides not to share about the AIDA model used, or provide explanations relating to \nthis area. On the other hand, the AIDA Firm deploys an AI phone operator to handle \ncustomer calls and engage directly with customers. In this case, the AIDA Firm opts to \nbegin the conversation by informing the data subject that they are interacting with an AI \nphone operator.\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore \n\n9 \nAcknowledgements \n \nMAS would like to express our appreciation to the FEAT Committee, for their key role \nin the creation and development of the FEAT Principles.  \nHsieh Fu Hua (Co-Chair), Co-Founder and Advisor, PrimePartners \nV K Rajah (Special Advisor), Senior Counsel and Member of Essex Court Chambers \nDuxton (Singapore Group Practice)  \nTeo Swee Lian (Advisor), Non-executive Independent Director, SingTel and Non-\nexecutive Independent Director, Avanda Investment Management  \nRaymond Au, Chief Data Scientist and Head of Asia Lab, Allianz \nPaul Cobban, Chief Data & Transformation Officer, DBS \nShameek Kundu, Chief Data Officer, Standard Chartered Bank \nRichard Lowe, Chief Data Officer, UOB \nDonald MacDonald, Head of Group Customer Analytics & Decisioning, OCBC Bank \n \nMAS would like to express our appreciation to the following contributors, for providing \nvaluable inputs and feedback to the FEAT Principles. \n(In alphabetical order) \nAmazon Web Services \nAmerican Express Int'l Inc \nAsia Cloud Computing Association \nAviva Ltd \nBarclays Bank PLC \nCFA Institute \nCFA Society Singapore \nCitibank NA \nCredit Suisse AG \nDeutsche Bank AG Singapore \nEtiqa Insurance Pte Ltd \nGreat Eastern General Insurance Ltd \nGreat Eastern Life Assurance Co Ltd  \nHSBC \nInvestment Management Association \nof Singapore  \nKristal Advisors \nLife Insurance Association, Singapore  \nLloyd's of London (Asia) Pte Ltd \nLu International \nMastercard \n \n \nMicrosoft \nNetwork for Electronic Payments \n(Singapore) Pte Ltd \nOliver Wyman \nOCBC Bank \nPrudential Assurance Company \nSingapore (Pte) Limited \nScotiabank \nSecurities Association of Singapore \nSingapore Exchange \nSingapore FinTech Association \nStandard Chartered Bank \nThe Association of Banks in Singapore  \nThe Stephen J.R. Smith School of \nBusiness at Canada's Queen's University \nTokio Marine Life Insurance Singapore \nLtd \nUnited Overseas Bank Limited \nYair Zick, National University of \nSingapore\n\nPrinciples to Promote FEAT in the Use of AI and Data Analytics in Singapore's Financial Sector \n \nMonetary Authority of Singapore"
+    }
+  ]
+}

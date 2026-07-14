@@ -1,7 +1,7 @@
 {
   "country": "South Africa",
   "document": "PA Directive",
-  "generated": "2026-07-10T17:52:35",
+  "generated": "2026-07-14T11:48:49",
   "sections": [
     {
       "section": "1",
@@ -12,17 +12,16 @@
       "page_start": 1,
       "page_end": 2,
       "primary_category": "Cloud Services",
-      "summary": "PA clarifies policy on cloud computing and offshoring data for banks, noting existing practices and increasing cloud adoption.",
-      "dtia_summary": "PA requires banks to define cloud computing and offshoring data policies aligned with risk appetite and regulatory obligations.",
+      "summary": "PA clarifies policy on cloud computing and offshoring data for banks, defining cloud computing as shared pool of configurable computing resources.",
+      "dtia_summary": "Defines cloud computing for DTIA purposes; specifies PA's regulatory stance on cloud use and data offshoring.",
       "authority": "Prudential Authority (PA)",
-      "financial_relevance": "High",
+      "financial_relevance": "Medium",
       "confidence": "High (explicit)",
       "topics": [
-        "Cloud Services",
-        "Data Offshoring"
+        "Cloud Services"
       ],
       "data_types": [
-        "Customer Data"
+        "Personal Information"
       ],
       "requirements": [
         {
@@ -41,19 +40,16 @@
       "page_start": 2,
       "page_end": 4,
       "primary_category": "Cloud Services",
-      "summary": "PA mandates banks to implement risk-based approaches for cloud computing and data offshoring, with specific compliance requirements.",
-      "dtia_summary": "Banks must have data strategy, governance framework, risk assessments, and documented agreements for cloud/offshoring activities to ensure regulatory compliance.",
+      "summary": "PA requires banks to follow risk-based approach for cloud computing and data offshoring, with specific compliance obligations.",
+      "dtia_summary": "Banks must have data strategy, governance framework, risk assessment, and compliance with local/international laws for cloud/offshoring activities.",
       "authority": "Prudential Authority (PA)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Cloud Services",
-        "Data Offshoring",
-        "Risk Management",
-        "Governance"
+        "Cloud Services"
       ],
       "data_types": [
-        "Customer Data"
+        "Personal Information"
       ],
       "requirements": [
         {
@@ -120,22 +116,22 @@
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "Banks must provide PA with copies of the directive to their independent auditors for acknowledgment of receipt.",
-      "dtia_summary": "Banks must acknowledge receipt of the directive by returning signed copies to PA for compliance tracking.",
+      "summary": "Banks must provide PA with copies of cloud/offshoring arrangements to auditors for compliance verification.",
+      "dtia_summary": "Banks must submit documentation to PA for cloud/offshoring arrangements to ensure compliance with regulatory requirements.",
       "authority": "Prudential Authority (PA)",
-      "financial_relevance": "Low",
+      "financial_relevance": "Medium",
       "confidence": "High (explicit)",
-      "topics": [
-        "Record Keeping"
+      "topics": [],
+      "data_types": [
+        "Personal Information"
       ],
-      "data_types": [],
       "requirements": [
         {
-          "text": "Kindly ensure that a copy of this directive is made available to your institution's independent auditors. The attached acknowledgement of receipt duly completed and signed by both the chief executive officer of the institution and the said auditors should be returned to the PA at the earliest convenience of the aforementioned signatories.",
+          "text": "Kindly ensure that a copy of this directive is made available to your institution's independent auditors.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Kindly ensure that a copy of this directive is made available to your institution's independent auditors."
+      "source_quote": "3.1 Kindly ensure that a copy of this directive is made available to your institution's independent auditors."
     }
   ]
 }

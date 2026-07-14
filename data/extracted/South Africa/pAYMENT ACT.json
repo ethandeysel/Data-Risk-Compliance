@@ -1,0 +1,187 @@
+{
+  "country": "South Africa",
+  "document": "pAYMENT ACT",
+  "generated": "2026-07-14T11:48:28",
+  "sections": [
+    {
+      "section": "16",
+      "heading": "Short title",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 16,
+      "primary_category": "Definitions",
+      "summary": "Defines key terms related to payment systems, including 'bank', 'Reserve Bank', 'clearing', 'settlement', and other payment system components.",
+      "dtia_summary": "Provides definitions critical for understanding payment system operations and data flows in cross-border contexts.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless the context otherwise indicates-",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "'bank' means a bank as defined in section 1 of the Banks Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Banks Act' means the Banks Act, 1990 (Act 94 of 1990)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'branch of a foreign institution' means a branch by means of which a foreign institution conducts the business of a bank in the Republic in terms of a written authorisation granted by the Registrar of Banks in terms of section 18A of the Banks Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'clear' or 'clearing' means the exchange of payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'clearing, netting and settlement agreements' means written agreements with regard to clearing, netting or settlement, concluded between clearing system participants or settlement system participants",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'clearing system participant' means a bank, a mutual bank, a co-operative bank, a branch of a foreign institution or designated clearing system participant that clears in the manner contemplated in section 4 (2) (d) (i)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Companies Act' means the Companies Act, 1973 (Act 61 of 1973)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'co-operative bank' has the meaning assigned to it in section 1 of the Co-operative Banks Act, 2007",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Co-operative Banks Act' means the Co-operative Banks Act, 2.007",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'designated clearing system participant' means a person specified in the notice referred to in section 6 (3) (a)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'designated settlement system' means a settlement system designated in terms of section 4A",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'designated settlement system operator' means the person specified in the notice referred to in section 4A (5) as the operator of that system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'designated settlement system participant' means a person that is a participant in the designated settlement system in accordance with the rules governing the operation of the system or a person that is an operator of the designated settlement system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'money' means a banknote or coin issued by the Reserve Bank in terms of section 10 (1) (a) (iii), read with section 14 of the South African Reserve Bank Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'mutual bank' means a mutual bank as defined in section 1 of the Mutual Banks Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Mutual Banks Act' means the Mutual Banks Act, 1993 (Act 124 of 1993)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'netting' means the determination of the nett payment obligations between two or more clearing system participants within a payment clearing house or the determination of the nett settlement obligations between two or more settlement system participants within a settlement system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'payment clearing house (PCH)' means an arrangement between two or more clearing system participants and Reserve Bank settlement system participants, excluding a designated settlement system operator, governing the clearing or netting of payment instructions between those clearing system participants and Reserve Bank settlement system participants",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'payment instruction' means an instruction to transfer funds or make a payment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'payment obligation' means an indebtedness that is owed by one clearing system participant or settlement system participant to another clearing system participant or settlement system participant as a result of the clearing of one or more payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'payment system' means a system that enables payments to be effected or facilitates the circulation of money and includes any instruments and procedures that relate to the system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'payment system management body' means a body recognised by the Reserve Bank in terms of section 3 (1)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'PCH system operator' means a person, other than a designated settlement system operator, that clears on behalf of any two or more Reserve Bank settlement system participants",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'person' includes a trust",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Reserve Bank' means the South African Reserve Bank referred to in section 2 of the South African Reserve Bank Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Reserve Bank settlement system' means a settlement system established and operated by, or under the control of, the Reserve Bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Reserve Bank settlement system participant' means the Reserve Bank, a bank, a mutual bank, a co-operative bank or a branch of a foreign institution, or a designated settlement system operator",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'secondary co-operative bank' means a secondary co-operative bank as defined in section 1 of the Co-operative Banks Act, 2007",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'settlement' means the discharge of settlement obligations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'settlement instruction' means an instruction given to a settlement system by a settlement system participant or by a PCH system operator on behalf of a Reserve Bank settlement system participant to effect settlement",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'settlement obligation' means an indebtedness that is owed by one settlement system participant to another as a result of one or more settlement instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'settlement system' means a system for the discharge of payment or settlement obligations or the discharge of payment and settlement obligations between participants in that system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'settlement system participant' means a Reserve Bank settlement system participant or a designated settlement system participant",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'South African Reserve Bank Act' means the South African Reserve Bank Act, 1989 (Act 90 of 1989)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'system operator' means a person, other than a designated settlement system operator, authorised in terms of section 4 (2) (c) to provide services to any two or more persons in respect of payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'systemic risk' means the risk that failure of one or more settlement system participants, for whatever reason, to meet their payment obligations, including the payment obligations of clearing system participants, or their settlement obligations may result in any or all of the other settlement system participants being unable to meet their respective payment or settlement obligations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'tertiary co-operative bank' means a tertiary co-operative bank as defined in section 1 of the Co-operative Banks Act, 2007",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "In this Act, unless the context otherwise indicates-"
+    }
+  ]
+}

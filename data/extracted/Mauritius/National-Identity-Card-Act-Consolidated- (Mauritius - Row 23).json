@@ -1,0 +1,230 @@
+{
+  "country": "Mauritius",
+  "document": "National-Identity-Card-Act-Consolidated- (Mauritius - Row 23)",
+  "generated": "2026-07-14T11:41:04",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "Defines key terms including biometric information, digital wallet, identity card, Minister, Mobile ID, MNIC System, NIC number, register, Registrar, and Unit.",
+      "dtia_summary": "Defines critical terms for data processing and security, including biometric information and MNIC System.",
+      "authority": "Prime Minister's Office",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "There shall be, under the purview of the Prime Minister's Office, a National Identity Card Unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "There shall be a Head of the National Identity Card Unit who shall be responsible for the operational management of the Unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of the Unit shall, in the discharge of his functions and exercise of his powers, consult the Registrar as and when required in matters relating to the civil status of a person.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall ensure the formulation and implementation of adequate security measures for all aspects of and related to the MNIC System.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall keep under periodic review the organisational and security measures implemented in relation to all aspects of and related to the MNIC System.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall cause independent security audits of the MNIC System to be carried out by an independent body.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall implement the recommendations made by the independent body having carried out the independent security audit of the MNIC System.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. Interpretation In this Act— \"biometric information\", in relation to an individual, means data about his external characteristics, including his fingerprints; ..."
+    },
+    {
+      "section": "11",
+      "heading": "Designation of office",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "States that data collection and processing under this Act are subject to the Data Protection Act.",
+      "dtia_summary": "Data collection and processing under this Act must comply with the Data Protection Act.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Collection and processing of data to be subject to Data Protection Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Designation of office 12 Collection and processing of data to be subject to Data Protection Act"
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 3,
+      "primary_category": "Definitions",
+      "summary": "Defines key terms including biometric information, digital wallet, identity card, Minister, Mobile ID, MNIC System, NIC number, register, Registrar, and Unit.",
+      "dtia_summary": "Defines critical terms for data processing and security, including biometric information and MNIC System.",
+      "authority": "Prime Minister's Office",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "There shall be, under the purview of the Prime Minister's Office, a National Identity Card Unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "There shall be a Head of the National Identity Card Unit who shall be responsible for the operational management of the Unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of the Unit shall, in the discharge of his functions and exercise of his powers, consult the Registrar as and when required in matters relating to the civil status of a person.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall ensure the formulation and implementation of adequate security measures for all aspects of and related to the MNIC System.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall keep under periodic review the organisational and security measures implemented in relation to all aspects of and related to the MNIC System.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall cause independent security audits of the MNIC System to be carried out by an independent body.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Unit shall implement the recommendations made by the independent body having carried out the independent security audit of the MNIC System.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. Interpretation In this Act— \"biometric information\", in relation to an individual, means data about his external characteristics, including his fingerprints; ..."
+    },
+    {
+      "section": "4",
+      "heading": "Duty to be registered",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Data Collection",
+      "summary": "Citizens must apply for an identity card within 6 months of turning 18, with exceptions for non-residents or those with serious illness.",
+      "dtia_summary": "Mandates identity card application within 6 months of 18, with biometric data collection.",
+      "authority": "Head of the Unit",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Biometric Data",
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Every person who is a citizen of Mauritius shall, within 6 months of attaining the age of 18 and on such form as may be prescribed, apply for an identity card at any office designated by the Head of the Unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where a person is not a resident of Mauritius or is unable to comply with paragraph (a) on account of serious illness, he may apply for an identity card in such manner and within such period as the Head of the Unit may determine.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every person who applies for an identity card shall produce his birth certificate or certificate of registration or naturalisation as a citizen of Mauritius.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every person who applies for an identity card shall allow his fingerprints and other biometric information to be taken and recorded.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Duty to be registered (1) (a) Subject to paragraph (b), every person who is a citizen of Mauritius shall, within 6 months of attaining the age of 18 and on such form as may be prescribed, apply for an identity card at any office designated by the Head of the Unit."
+    },
+    {
+      "section": "6",
+      "heading": "Change of residence",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Data Storage",
+      "summary": "Individuals must notify the Head of the Unit within 28 days of changing residence.",
+      "dtia_summary": "Requires residence change notification within 28 days to maintain data accuracy.",
+      "authority": "Head of the Unit",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Where any person issued with an identity card changes his residence, he shall, within 28 days of the occurrence, notify the change at any office designated by the Head of the Unit or in such manner as may be prescribed.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Change of residence (1) Where any person issued with an identity card changes his residence, he shall, within 28 days of the occurrence, notify the change at any office designated by the Head of the Unit or in such manner as may be prescribed."
+    },
+    {
+      "section": "12",
+      "heading": "Collection and processing of data to be subject to Data Protection Act",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Data Collection",
+      "summary": "Data collection and processing under this Act must comply with the Data Protection Act.",
+      "dtia_summary": "All data collected under this Act is subject to the Data Protection Act.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12. Collection and processing of data to be subject to Data Protection Act The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act."
+    }
+  ]
+}

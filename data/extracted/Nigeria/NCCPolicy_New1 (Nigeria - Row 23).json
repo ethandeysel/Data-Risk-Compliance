@@ -1,0 +1,73 @@
+{
+  "country": "Nigeria",
+  "document": "NCCPolicy_New1 (Nigeria - Row 23)",
+  "generated": "2026-07-14T11:43:29",
+  "sections": [
+    {
+      "section": "23",
+      "heading": "KEY REGULATORY INSTRUMENTS FOR THE ACTUALIZATION OF CLOUD",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Cloud Services",
+      "summary": "Section : 23.0 defines key regulatory instruments for cloud actualization.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "KEY REGULATORY INSTRUMENTS FOR THE ACTUALIZATION OF CLOUD",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "KEY REGULATORY INSTRUMENTS FOR THE ACTUALIZATION OF CLOUD 23.0"
+    },
+    {
+      "section": "24",
+      "heading": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 33,
+      "primary_category": "Cloud Services",
+      "summary": "This policy promotes cloud computing adoption for Nigerian public institutions and SMEs through a 'cloud-first' approach, aiming to reduce costs, improve service delivery, and foster local cloud service provider growth.",
+      "dtia_summary": "Requires public institutions and SMEs to prioritize cloud services for procurement, with specific data classification and security requirements for cloud migration.",
+      "authority": "NITDA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Public Institutions shall prioritize procurement of cloud-based ICT solutions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data classification framework must be implemented for cloud migration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud service providers must comply with security certifications",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Public Institutions shall prioritize procurement of cloud-based information and communication technologies (ICTs), whenever possible."
+    }
+  ]
+}
