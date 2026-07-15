@@ -69,6 +69,13 @@ MAX_SECTIONS = int(os.getenv("LLM_MAX_SECTIONS", "0"))
 # so re-running only fills in what is missing.  0 = no limit.
 MAX_ACTS = int(os.getenv("LLM_MAX_ACTS", "0"))
 
+# Allowlist: process only acts whose filename contains one of these
+# comma-separated substrings (case-insensitive).  Empty = all acts.  Use it
+# to re-extract a specific set (e.g. docs deleted after a parser fix)
+# without re-running everything; it overrides LLM_MAX_ACTS.
+ONLY = [s.strip().lower() for s in os.getenv("LLM_ONLY", "").split(",")
+        if s.strip()]
+
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -214,8 +221,15 @@ def main():
                               .get("sections", [])),
         )
 
-        # Test mode: keep only the N smallest acts for this country.
-        if MAX_ACTS:
+        # Allowlist overrides the smallest-N test cap.
+        if ONLY:
+            act_files = [
+                f for f in act_files
+                if any(sub in f.name.lower() for sub in ONLY)
+            ]
+            if act_files:
+                print(f"  (allowlist: {len(act_files)} matching act(s))")
+        elif MAX_ACTS:
             act_files = act_files[:MAX_ACTS]
             print(f"  (test mode: {MAX_ACTS} smallest acts only)")
 

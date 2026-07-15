@@ -35,10 +35,18 @@ page reference for DTIA citation.
 
 import collections
 import json
+import os
 import re
 from pathlib import Path
 
 from .cleaner import clean_page
+
+# Any single section longer than this many characters is split, on page
+# boundaries, into page-referenced sub-sections.  This catches documents
+# whose real structure the style parsers miss — a schedule/annexure with
+# foreign numbering, or a whole act (e.g. the 666-page Criminal Code) that
+# collapses into one section — so nothing reaches the LLM as a giant blob.
+MAX_SECTION_CHARS = int(os.getenv("PARSER_MAX_SECTION_CHARS", "9000"))
 
 # "12. Heading" (original Style-A pattern — unchanged behaviour).
 STYLE_A = re.compile(r"(?m)^(\d+)\.\s+([^\n]+)")
@@ -108,7 +116,7 @@ class SectionParser:
             heading = next(
                 (l.strip() for l in page_text.split("\n") if l.strip()), ""
             )[:100]
-            sections.append(self._section(
+            sections.extend(self._make_sections(
                 f"p{page['page']}", heading, full_text, start, end, page_map,
             ))
         return sections
@@ -218,7 +226,7 @@ class SectionParser:
             start = offsets[line_idx]
             end = (offsets[starts[k + 1][0]]
                    if k + 1 < len(starts) else len(full_text))
-            sections.append(self._section(
+            sections.extend(self._make_sections(
                 identifier, heading, full_text, start, end, page_map,
             ))
         return sections
@@ -242,7 +250,7 @@ class SectionParser:
         for i, match in enumerate(matches):
             start = match.start()
             end = matches[i + 1].start() if i + 1 < len(matches) else len(full_text)
-            sections.append(self._section(
+            sections.extend(self._make_sections(
                 match.group(1), match.group(2).strip(),
                 full_text, start, end, page_map,
             ))
@@ -318,7 +326,7 @@ class SectionParser:
         sections = []
         for k, (start, identifier, heading) in enumerate(starts):
             end = starts[k + 1][0] if k + 1 < len(starts) else len(full_text)
-            sections.append(self._section(
+            sections.extend(self._make_sections(
                 identifier, heading, full_text, start, end, page_map,
             ))
         return sections
@@ -336,6 +344,36 @@ class SectionParser:
         return {line for line, n in counts.items() if n >= 3}
 
     # -----------------------------------------------------------------
+
+    def _make_sections(self, identifier, heading, text, start, end, page_map):
+        """One or more section dicts for the [start:end] range, splitting an
+        oversized range on page boundaries so no section is a giant blob
+        that overflows an LLM call.  Sub-parts keep page-accurate refs."""
+        if end - start <= MAX_SECTION_CHARS:
+            return [self._section(identifier, heading, text, start, end,
+                                  page_map)]
+
+        # Offsets where a new page begins inside this range.
+        cuts = [start]
+        cuts += [off for off, _ in page_map if start < off < end]
+        cuts.append(end)
+
+        windows = []
+        win_start = start
+        for cut in cuts[1:]:
+            if cut - win_start >= MAX_SECTION_CHARS:
+                windows.append((win_start, cut))
+                win_start = cut
+        if win_start < end:
+            windows.append((win_start, end))
+
+        out = []
+        for k, (s, e) in enumerate(windows, 1):
+            sub_id = identifier if k == 1 else f"{identifier} (part {k})"
+            sub_head = heading if k == 1 else (
+                f"{heading} (cont.)" if heading else "(continued)")
+            out.append(self._section(sub_id, sub_head, text, s, e, page_map))
+        return out
 
     def _section(self, identifier, heading, text, start, end, page_map):
         return {
