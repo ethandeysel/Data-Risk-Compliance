@@ -76,11 +76,42 @@ class SectionParser:
         else:
             sections = self._parse_style_a(document["pages"], cleaned)
 
+        # Unstructured documents (guidance web pages, ASIC/APRA notes) carry
+        # no section numbering and yield nothing above.  Rather than drop the
+        # whole document, fall back to one section per page so its content is
+        # still filtered and extracted, with page references intact.
+        if not sections:
+            sections = self._parse_fallback(document["pages"], cleaned)
+
         return {
             "country": document["country"],
             "document": document["document"],
             "sections": sections,
         }
+
+    def _parse_fallback(self, pages, cleaned):
+        """One section per page — last resort for documents with no
+        recognisable section structure."""
+        full_text = ""
+        page_map = []
+        for page, page_text in zip(pages, cleaned):
+            page_map.append((len(full_text), page["page"]))
+            full_text += page_text + "\n\n"
+
+        sections = []
+        for k, (page, page_text) in enumerate(zip(pages, cleaned)):
+            if len(page_text.strip()) < 50:
+                continue
+            start = page_map[k][0]
+            end = (page_map[k + 1][0] if k + 1 < len(page_map)
+                   else len(full_text))
+            heading = next(
+                (l.strip() for l in page_text.split("\n") if l.strip()), ""
+            )[:100]
+            sections.append(self._section(
+                f"p{page['page']}", heading, full_text, start, end, page_map,
+            ))
+        return sections
 
     # -----------------------------------------------------------------
     # Style detection

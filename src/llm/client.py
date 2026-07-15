@@ -48,6 +48,12 @@ THINK = os.getenv("LLM_THINK", "0") == "1"
 # Keep the model resident between batches so it is not reloaded.
 KEEP_ALIVE = os.getenv("LLM_KEEP_ALIVE", "30m")
 
+# Per-request timeout (seconds).  Without this a single hung or runaway
+# generation stalls the whole run indefinitely; with it the call raises,
+# the batch is retried, and if it keeps failing the section is flagged and
+# the run moves on.  Generous by default so legitimate slow calls survive.
+TIMEOUT = int(os.getenv("LLM_TIMEOUT", "300"))
+
 # GPU layer offload.  Ollama already offloads as many layers as fit the
 # card automatically, so this is left unset by default.  Set it to force a
 # specific count — e.g. LLM_NUM_GPU=999 to push the whole model onto the
@@ -79,10 +85,12 @@ def context_window(prompt_tokens: int) -> int:
     """Pick a power-of-two context window that fits prompt + output.
 
     Structured extraction output roughly tracks input length, so we
-    reserve at least the prompt size again (min 2048) as headroom.  Too
-    small a window truncates the JSON and forces a retry.
+    reserve at least the prompt size again (min 3072) as headroom.  Too
+    small a window truncates the JSON and forces a retry — which, with the
+    exhaustive-requirements prompt, is a real failure mode, so headroom is
+    deliberately generous.
     """
-    needed = prompt_tokens + max(2048, prompt_tokens // 2)
+    needed = prompt_tokens + max(3072, prompt_tokens)
     window = NUM_CTX_MIN
     while window < needed and window < NUM_CTX_MAX:
         window *= 2
@@ -100,7 +108,8 @@ def _ollama_generate(system: str, prompt: str) -> str:
     global _ollama_client
     if _ollama_client is None:
         from ollama import Client
-        _ollama_client = Client(host=HOST)
+        # timeout so a single hung/runaway request cannot stall the run.
+        _ollama_client = Client(host=HOST, timeout=TIMEOUT)
 
     num_ctx = context_window(
         estimate_tokens(system) + estimate_tokens(prompt)

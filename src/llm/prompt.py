@@ -63,7 +63,7 @@ Field rules:
 - primary_category: EXACTLY ONE of: {", ".join(CATEGORIES)}.
 - summary: 2-4 complete sentences (roughly 40-90 words) stating what the section actually does — the specific obligations, prohibitions, permissions and conditions it creates, and who they apply to. Be concrete and self-contained; do NOT merely restate the heading or write "this section deals with X".
 - dtia_summary: 1-3 sentences on why this section matters for a Data Transfer Impact Assessment — the specific safeguards, conditions or restrictions bearing on transferring, storing or processing data across borders or with third parties. "" only if genuinely irrelevant to a DTIA.
-- financial_relevance: ONE of High | Medium | Low | None. High = directly regulates financial institutions, banking, insurance, payments, AML/CFT or financial customer data.
+- financial_relevance: ONE of High | Medium | Low | None. High = directly concerns financial institutions, banks, insurers, payment providers, investment firms/funds, securities, capital markets, AML/CFT, or the handling or taxation of financial or customer-financial data. Medium = applies to business generally but has clear financial-sector implications. Low = only incidental. None = no financial angle at all.
 - confidence: High (explicit) | Medium (minor interpretation) | Low (ambiguous).
 - topics: only topics the section SUBSTANTIVELY addresses (usually 1-4), not everything tangentially mentioned. Only from: {", ".join(TOPICS)}.
 - data_types: only data types the section actually governs, only from: {", ".join(DATA_TYPES)}.
