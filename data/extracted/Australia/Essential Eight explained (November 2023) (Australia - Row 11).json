@@ -1,0 +1,97 @@
+{
+  "country": "Australia",
+  "document": "Essential Eight explained (November 2023) (Australia - Row 11)",
+  "generated": "2026-07-15T14:20:20",
+  "sections": [
+    {
+      "section": "p1",
+      "heading": "Essential Eight explained",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "The Essential Eight is a set of eight prioritised cyber security mitigation strategies developed by the Australian Signals Directorate (ASD) to protect organisations' internet-connected information technology networks from cyber threats. These strategies include patching applications and operating systems, multi-factor authentication, restricting administrative privileges, application control, restricting Microsoft Office macros, user application hardening, and regular backups. The Essential Eight maturity model provides a framework for implementing these strategies based on ASD's cyber threat intelligence and incident response experience.",
+      "dtia_summary": "",
+      "authority": "Australian Signals Directorate (ASD)",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Essential Eight has been designed to protect organisations' internet-connected information technology networks.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Essential Eight maturity model supports the implementation of the Essential Eight.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Essential Eight has been designed to protect organisations' internet-connected information technology networks."
+    },
+    {
+      "section": "p2",
+      "heading": "Essential Eight explained",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "Organisations should conduct assessments against the Essential Eight using the Essential Eight assessment process guide. Additional information on the Essential Eight maturity model and implementation is available through the Essential Eight maturity model FAQ publication. Contact details for inquiries include a phone number (1300 CYBER1) and email (cyber.gov.au).",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessments against the Essential Eight should be conducted using the Essential Eight assessment process guide.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Assessments against the Essential Eight should be conducted using the Essential Eight assessment process guide."
+    },
+    {
+      "section": "p3",
+      "heading": "Disclaimer",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This document includes a disclaimer stating that the material is of general nature and not legal advice, and the Commonwealth accepts no responsibility for damage or loss resulting from reliance on the information. The document is provided under a Creative Commons Attribution 4.0 International licence with specific conditions for use.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The material in this guide is of a general nature and should not be regarded as legal advice or relied on for assistance in any particular circumstance or emergency situation.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The material in this guide is of a general nature and should not be regarded as legal advice or relied on for assistance in any particular circumstance or emergency situation."
+    }
+  ]
+}

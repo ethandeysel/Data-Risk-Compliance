@@ -1,0 +1,722 @@
+{
+  "country": "India",
+  "document": "guidelines-on-cyber-security-and-cyber-resilience-for-regulated-entities-in-ifscs-1-10032025064412 (India - Row 5)",
+  "generated": "2026-07-15T14:40:01",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "As the IFSC continues to evolve as a global ϐinancial hub, the sophistication of cyber",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Governance",
+      "summary": "This section establishes that financial entities operating in the GIFT IFSC must maintain robust cybersecurity to protect against threats targeting financial transactions, data breaches, and critical infrastructure disruptions. It emphasizes that cybersecurity is foundational for the stability and credibility of financial services in the jurisdiction and outlines that the International Financial Services Centres Authority (IFSCA) will set expectations for regulated entities (REs), which include any entity licensed, recognized, registered, or authorized by IFSCA. Implementation must follow proportionality based on operational scale, activity nature, ecosystem interconnectedness, and cyber risks.",
+      "dtia_summary": "This section sets the foundational cybersecurity expectations for financial entities in the IFSC, requiring robust measures to protect against cross-border threats and ensure resilience, which directly impacts data transfer and processing security in international financial operations.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The REs shall include any entity which is licensed, recognised, registered or authorised by IFSCA.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The implementation of these Guidelines shall be undertaken in accordance with the principle of proportionality, after taking into due consideration the scale and complexity of operations, the nature of the activity the entity is engaged in, its interconnectedness with the financial ecosystem and the corresponding cyber risks the entity is exposed to.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "As the IFSC continues to evolve as a global financial hub, the sophistication of cyber threats targeting financial entities is also expected to grow. In such an international jurisdiction, where institutions cater to a diverse global client base, maintaining robust cyber security becomes fundamental."
+    },
+    {
+      "section": "2",
+      "heading": "The key components of the Guidelines are categorized into:",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Governance",
+      "summary": "This section categorizes the key components of the Guidelines into five areas: Governance, Cyber Security and Cyber Resilience Framework, Third Party Risk Management, Communication & Awareness, and Audit. It specifies that the Governance component involves establishing oversight mechanisms for cyber risk management.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The key components of the Guidelines are categorized into: Governance, Cyber security and cyber resilience framework, Third party risk management, Communication & awareness, Audit.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The key components of the Guidelines are categorized into: Governance, Cyber security and cyber resilience framework, Third party risk management, Communication & awareness, Audit."
+    },
+    {
+      "section": "3",
+      "heading": "The REs shall have adequate governance mechanisms, with a clear set of roles and",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Governance",
+      "summary": "This section mandates that regulated entities (REs) must have adequate governance mechanisms with clear roles and responsibilities for cyber risk management. The Oversight Body, which may include the Governing Board, senior management personnel such as the Managing Director, Chief Executive Officer, Chief Information Security Officer, Chief Technology Officer, and designated committees, collectively manages cyber risk within the entity.",
+      "dtia_summary": "",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The REs shall have adequate governance mechanisms, with a clear set of roles and responsibilities to manage cyber risk.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The set of stakeholders involved in the governance of an RE's cyber risk management mechanism shall collectively be referred to as the 'Oversight Body' of the RE and may include one or more of the following: Governing Board, Senior management personnel which include the Managing Director (MD), Chief Executive Officer (CEO), Chief Information Security Officer (CISO), Chief Technology Officer (CTO), Principal of officer, Compliance of officer, or Committee(s) involving/ designated by any of the above for the purpose of technology or cyber risk management of the RE.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The REs shall have adequate governance mechanisms, with a clear set of roles and responsibilities to manage cyber risk."
+    },
+    {
+      "section": "4",
+      "heading": "The REs shall ensure that their Governing Board and the senior management possesses",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Governance",
+      "summary": "This section requires that the Governing Board and senior management of regulated entities (REs) must possess sufficient expertise and knowledge to effectively understand and manage cyber risk. It mandates that they set the tone at the highest levels and cultivate a strong culture of cyber risk management and awareness across all levels of staff within the entity.",
+      "dtia_summary": "",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The REs shall ensure that their Governing Board and the senior management possesses sufficient expertise and knowledge to effectively understand and manage cyber risk.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Governing Board and senior management shall set the tone at the highest levels and cultivate a strong culture of cyber risk management and awareness at all levels of staff within the entity.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The REs shall ensure that their Governing Board and the senior management possesses sufficient expertise and knowledge to effectively understand and manage cyber risk."
+    },
+    {
+      "section": "5",
+      "heading": "The REs shall appoint a CISO or alternatively, designate a senior employee/",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Governance",
+      "summary": "This section mandates that regulated entities (REs) must appoint a Chief Information Security Officer (CISO) or designate a senior employee/management personnel to assess, identify and reduce cyber security risks, respond to incidents, establish appropriate standards and controls, and direct the establishment and implementation of processes and procedures as approved by the Oversight Body of the RE.",
+      "dtia_summary": "",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The REs shall appoint a CISO or alternatively, designate a senior employee/ management personnel to assess, identify and reduce cyber security risks, respond to incidents, establish appropriate standards and controls, and direct the establishment and implementation of processes and procedures as approved by the Oversight Body of the RE.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The REs shall appoint a CISO or alternatively, designate a senior employee/ management personnel to assess, identify and reduce cyber security risks, respond to incidents, establish appropriate standards and controls, and direct the establishment and implementation of processes and procedures as approved by the Oversight Body of the RE."
+    },
+    {
+      "section": "6",
+      "heading": "The CISO or senior employee/ management personnel so designated shall henceforth",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Governance",
+      "summary": "This section designates the CISO or senior employee/management personnel appointed under Section 5 as the 'Designated Officer' for the purpose of overseeing cyber risk management activities within the regulated entity.",
+      "dtia_summary": "",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The CISO or senior employee/ management personnel so designated shall henceforth be referred to as the 'Designated Officer'.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The CISO or senior employee/ management personnel so designated shall henceforth be referred to as the 'Designated Officer'."
+    },
+    {
+      "section": "7",
+      "heading": "The REs shall formulate the Cyber Security and Cyber Resilience Framework to",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "Regulated entities (REs) must create a Cyber Security and Cyber Resilience Framework to ensure confidentiality, integrity, and availability of their IT assets. This framework must include objectives for anticipating and recovering from cyber-attacks, comprehensive threat assessments covering third-party risks, defined cyber risk appetite, detailed people/process/technology requirements for risk management, clear roles during incidents, and periodic reviews to maintain relevance.",
+      "dtia_summary": "This section mandates a comprehensive framework for managing cyber risks across borders, requiring REs to address third-party vulnerabilities and incident response protocols critical for cross-border data transfers.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Third Party Processing",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The REs shall formulate the Cyber Security and Cyber Resilience Framework to maintain the Confidentiality, Integrity and Availability of their IT assets.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall aim to maintain and promote the RE's ability to anticipate, withstand, contain, and recover from cyber-attacks.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall take an integrated and comprehensive view of the potential cyber threats, including third party risks that the RE faces.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall define the RE's cyber risk appetite and cyber resilience objectives.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall outline the RE's people, process and technology requirements for managing cyber risks.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall establish the roles and responsibilities of the Oversight Body, the Designated Officer, the employees and other stakeholders, including clear communication lines to be adhered to, during a cyber incident.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The said framework, inter alia, shall be reviewed and updated periodically to ensure that the framework stays relevant.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7. The REs shall formulate the Cyber Security and Cyber Resilience Framework to maintain the Confidentiality, Integrity and Availability of their IT assets."
+    },
+    {
+      "section": "9",
+      "heading": "The REs shall formulate an Information Security (IS) Policy as part of their cyber",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Regulated entities must develop an Information Security (IS) Policy as part of their cyber security framework. This policy requires maintaining detailed IT asset inventories, conducting risk assessments to classify assets by business criticality and sensitivity, identifying critical business functions, implementing security controls aligned with international standards like NIST and ISO 27000, enforcing access controls based on least privilege and segregation of duties, ensuring physical security, conducting annual vulnerability assessments, establishing recovery policies, and defining incident management procedures including reporting obligations.",
+      "dtia_summary": "This section establishes foundational security controls critical for data transfers, including asset classification, access controls, and incident response protocols that impact cross-border data handling.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Access Control",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The REs shall maintain a detailed inventory of IT assets, including both logical (data, software) and physical (hardware) components, including system configurations, their interconnections with internal and external systems, with distinct and clear identification of the assets.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall carry out a risk assessment of those assets and classify the assets based on their business criticality, sensitivity of data they hold, and potential impact on other systems if compromised.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall identify and classify their business functions and supporting processes based on their criticality to overall operations and potential impact on performance.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall implement appropriate security controls, aligned with international best practices and cyber security and cyber resilience standards like NIST, ISO 27000, etc, to minimize the likelihood and impact of cyber-attacks on critical business functions, IT assets, and data.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall manage access rights to IT assets and their supporting systems on a ‘need-to-know' basis, following the principle of ‘least privilege' and principle of ‘segregation of duties'.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall enforce authentication methods that are sufficiently robust to adequately and effectively ensure that access control policies and procedures are complied with.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs need to ensure adequate physical security of their IT assets, using measures such as secure location of critical data, restricted access to data centers, server rooms etc.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall conduct Vulnerability Assessment and Penetration Testing (VAPT) to detect vulnerabilities in the IT environment for all critical systems, infrastructure components and other IT systems. The VAPT shall be conducted at least once a year.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall have recovery policies and procedures to maximise their ability to provide services on an ongoing basis and to limit losses in the event of severe business disruption.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The IS Policy of the REs shall clearly define the term 'cyber incident'. The REs shall develop and implement processes for preventing, detecting, analysing and responding to cyber incidents.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall also establish mechanisms to fulfill the disclosure and reporting requirements, as specified by IFSCA, during and after a cyber incident.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall ensure that audit trail exists for IT assets, such that it satisfies the entity's business continuity and recovery needs, regulatory and legal obligations, facilitates audit and serves as forensic evidence when required, and assists in dispute resolution.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. The REs shall formulate an Information Security (IS) Policy as part of their cyber security and cyber resilience framework with the following basic principles."
+    },
+    {
+      "section": "10",
+      "heading": "The REs shall adopt a collaborative security approach with their third-party",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Third Party Processing",
+      "summary": "Regulated entities must collaborate with third-party vendors by clearly outlining shared expectations for data security, incident reporting, and adherence to relevant security standards to mitigate third-party cyber risks.",
+      "dtia_summary": "This section requires explicit communication protocols with third parties for data security and incident reporting, directly impacting cross-border data transfer safeguards.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The REs shall adopt a collaborative security approach with their third-party vendors/external partners, by clearly outlining shared expectations for data security, incident reporting and adherence to relevant security standards.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. The REs shall adopt a collaborative security approach with their third-party vendors/external partners, by clearly outlining shared expectations for data security, incident reporting and adherence to relevant security standards."
+    },
+    {
+      "section": "11",
+      "heading": "The REs shall adopt a risk-based approach for periodic review of third-party",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Third Party Processing",
+      "summary": "Regulated entities must conduct risk-based periodic reviews of third-party vendors, identifying critical dependencies and performing vulnerability assessments every six months for core operations, with flexible review frequencies for other third parties.",
+      "dtia_summary": "This section mandates regular third-party risk assessments critical for ensuring the security of data transferred via third parties, especially for cross-border contexts.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The REs shall identify the third-party service providers which it is dependent on for its core operations or to whom it has granted access to its critical systems.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For all such third-party service providers, the REs shall carry out an assessment for detecting vulnerabilities or compliance gaps through audit, review or feedback every six months.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For other third-parties, the REs shall have the flexibility to determine the appropriate frequency for periodic review.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "11. The REs shall adopt a risk-based approach for periodic review of third-party vendors/external partners."
+    },
+    {
+      "section": "12",
+      "heading": "The REs should establish clear communication channels and escalation procedures",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Incident Reporting",
+      "summary": "Regulated entities must establish clear communication channels and escalation procedures for promptly addressing risks or non-compliance with partners, ensuring timely resolution of issues.",
+      "dtia_summary": "This section ensures effective communication protocols for third-party incidents, which is critical for timely breach notifications and cross-border data transfer compliance.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The REs should establish clear communication channels and escalation procedures for addressing any identified risks or non-compliance with partners, promptly and effectively.",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "12. The REs should establish clear communication channels and escalation procedures for addressing any identified risks or non-compliance with partners, promptly and effectively."
+    },
+    {
+      "section": "13",
+      "heading": "The ultimate responsibility to mitigate the cyber risks arising from the third parties",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Third Party Processing",
+      "summary": "Regulated entities bear ultimate responsibility for mitigating cyber risks arising from third parties, ensuring accountability for third-party security incidents.",
+      "dtia_summary": "This section clarifies that regulated entities are ultimately liable for third-party cyber risks, which is critical for cross-border data transfer impact assessments involving third parties.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The ultimate responsibility to mitigate the cyber risks arising from the third parties shall be on the REs.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. The ultimate responsibility to mitigate the cyber risks arising from the third parties shall be on the REs."
+    },
+    {
+      "section": "14",
+      "heading": "The REs shall provide regular training to its employees on topics pertaining to cyber",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "Regulated entities must conduct regular cybersecurity training for employees covering phishing awareness, social engineering, password hygiene, and incident reporting procedures. This training is mandatory to ensure staff can identify and respond to cyber threats effectively. The training must be ongoing and address specific technical and behavioral aspects of cybersecurity.",
+      "dtia_summary": "This section requires regular employee training on cybersecurity, which is critical for DTIA as it ensures staff are equipped to handle incidents and reduce vulnerabilities during data transfers or processing activities.",
+      "authority": "IFSCA",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The REs shall provide regular training to its employees on topics pertaining to cyber security, including but not limited to, phishing awareness, social engineering, password hygiene and incident reporting procedures.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. The REs shall provide regular training to its employees on topics pertaining to cyber security, including but not limited to, phishing awareness, social engineering, password hygiene and incident reporting procedures."
+    },
+    {
+      "section": "15",
+      "heading": "The REs shall establish clear and accessible channels for employees to report",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "Regulated entities must establish clear and accessible channels for employees to report suspicious activity, vulnerabilities, and potential cyber incidents. This ensures timely identification and mitigation of security risks within the organization. Employees can report issues directly to the entity without barriers.",
+      "dtia_summary": "This section mandates internal reporting channels for cyber incidents, which is essential for DTIA as it ensures rapid response to breaches and timely data handling during cross-border transfers.",
+      "authority": "IFSCA",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The REs shall establish clear and accessible channels for employees to report suspicious activity, vulnerabilities, and potential cyber incidents.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15. The REs shall establish clear and accessible channels for employees to report suspicious activity, vulnerabilities, and potential cyber incidents."
+    },
+    {
+      "section": "16",
+      "heading": "The aim of the audit is to provide an independent assurance of the effectiveness of",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Regulated entities must undergo periodic cybersecurity audits by a certified auditor to ensure their security measures are effective. The auditor must be certified by CERT-In or possess specific cybersecurity credentials, and the audit must assess alignment with the entity's cyber risks. The audit report must be submitted to the Governing Board and senior management.",
+      "dtia_summary": "This section requires independent cybersecurity audits, which are critical for DTIA as they validate the effectiveness of security controls before data transfers or processing across borders.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The aim of the audit is to provide an independent assurance of the effectiveness of RE's measures to its Governing Board and the senior management.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The governance, systems and processes established by the REs for managing their cyber risks shall be audited on a periodic basis by either of the following: a. a CERT-In empanelled auditor, b. an independent auditor possessing the following certifications: i. Certified Information Security Auditor (CISA) or ii. Certified Information Security Manager (CISM) or iii. GIAC Systems and Network Auditor (GSNA) or iv. Certified Information Systems Security Professional (CISSP) or c. an auditor having prior experience in conducting cybersecurity audit of entities with similar business activity as that of the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The auditor shall also certify if the security controls implemented by the entity are aligned with the risks faced by the RE.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16. The aim of the audit is to provide an independent assurance of the effectiveness of RE's measures to its Governing Board and the senior management. Towards this effect, the governance, systems and processes established by the REs for managing their cyber risks shall be audited on a periodic basis by either of the following: a. a CERT-In empanelled auditor, b. an independent auditor possessing the following certifications: i. Certified Information Security Auditor (CISA) or ii. Certified Information Security Manager (CISM) or iii. GIAC Systems and Network Auditor (GSNA) or iv. Certified Information Systems Security Professional (CISSP) or c. an auditor having prior experience in conducting cybersecurity audit of entities with similar business activity as that of the RE"
+    },
+    {
+      "section": "17",
+      "heading": "The auditor engaged by an RE shall not have any conϐlict of interest with the RE. The",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Regulated entities must ensure auditors have no conflict of interest and submit annual audit reports to IFSCA within 90 days of the financial year-end. The audit frequency may be higher than annual based on the entity's cyber risk profile and system criticality. This ensures timely oversight and accountability for cybersecurity measures.",
+      "dtia_summary": "This section mandates annual audit reporting to IFSCA, which is vital for DTIA as it ensures regulatory oversight of security controls before data transfers or processing across borders.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The auditor engaged by an RE shall not have any conflict of interest with the RE.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The audit shall be conducted annually and a report in this regard shall be submitted to IFSCA by the REs within 90 days from the end of the financial year.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The REs shall submit the audit report to the corresponding IFSCA Department/ Division in charge of the supervision of the RE.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "17. The auditor engaged by an RE shall not have any conflict of interest with the RE. The audit shall be conducted annually and a report in this regard shall be submitted to IFSCA by the REs within 90 days from the end of the financial year."
+    },
+    {
+      "section": "18",
+      "heading": "In case the RE is registered with IFSCA as a Broker Dealer/Bullion Trading Member,",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Broker Dealers, Bullion Trading Members, Clearing Members, and Depository Participants may submit their cybersecurity audit reports to IFSCA within 7 days of submitting to a Market Infrastructure Institution or Bullion Exchange. This streamlines reporting for entities with specific regulatory obligations.",
+      "dtia_summary": "This section allows for streamlined reporting of cybersecurity audits for specific financial entities, which is relevant for DTIA as it ensures timely oversight of security controls for cross-border data transfers.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In case the RE is registered with IFSCA as a Broker Dealer/Bullion Trading Member, Clearing Member/Bullion Clearing Member or as a Depository Participant, and is required to submit cyber security audit report to a recognised Market Infrastructure Institution/Bullion Exchange, such REs may submit the same audit report to IFSCA within 7 days of submission of the audit report to the Market Infrastructure Institution/Bullion Exchange.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "18. In case the RE is registered with IFSCA as a Broker Dealer/Bullion Trading Member, Clearing Member/Bullion Clearing Member or as a Depository Participant, and is required to submit cyber security audit report to a recognised Market Infrastructure Institution/Bullion Exchange, such REs may submit the same audit report to IFSCA within 7 days of submission of the audit report to the Market Infrastructure Institution/Bullion Exchange."
+    },
+    {
+      "section": "19",
+      "heading": "In case of occurrence of any cyber incident, the REs are required to report the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Incident Reporting",
+      "summary": "Regulated entities must report cyber incidents to IFSCA within six hours of detection, including details of the incident. This ensures rapid response to breaches and timely regulatory oversight. The report must be sent to the Authority on cyber-incidents@ifsca.gov.in with a copy to CISO, IFSCA.",
+      "dtia_summary": "This section requires immediate incident reporting to IFSCA, which is critical for DTIA as it ensures timely notification of breaches affecting data transfers or processing across borders.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In case of occurrence of any cyber incident, the REs are required to report the particulars of the incident to the Authority on cyber-incidents@ifsca.gov.in with a copy to CISO, IFSCA, not later than six (6) hours from the detection of the incident.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "19. In case of occurrence of any cyber incident, the REs are required to report the particulars of the incident to the Authority on cyber-incidents@ifsca.gov.in with a copy to CISO, IFSCA, not later than six (6) hours from the detection of the incident."
+    },
+    {
+      "section": "20",
+      "heading": "Additionally, the REs shall submit the interim report within 3 days followed by a",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Incident Reporting",
+      "summary": "Regulated entities (REs) must submit an interim report within 3 days of an incident and a detailed root cause analysis report within 30 days. REs must implement mitigation measures for the incident within 7 days. These obligations apply to all REs operating in International Financial Services Centres (IFSCs) under the guidelines.",
+      "dtia_summary": "This section mandates timely incident reporting and root cause analysis, requiring REs to document and address incidents within strict timeframes. These requirements impact data transfer impact assessments by necessitating clear incident response protocols and documentation for cross-border data handling.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall submit the interim report within 3 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall submit a detailed root cause analysis report within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall take mitigation measures for the incident within 7 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "20. Additionally, the REs shall submit the interim report within 3 days followed by a detailed root cause analysis report within 30 days. The REs shall take mitigation measures for the same within 7 days."
+    },
+    {
+      "section": "21",
+      "heading": "The following categories of REs are exempted from the requirements mentioned in",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Exemptions",
+      "summary": "Certain regulated entities (REs) are exempt from the guidelines' requirements: those operating as branches of regulated Indian or foreign entities, providing services to group entities only (e.g., Global In-House Centres), having fewer than 10 employees, and foreign universities established in IFSCs. These exemptions apply to REs operating within International Financial Services Centres (IFSCs).",
+      "dtia_summary": "This section identifies specific REs exempt from the guidelines, which may affect data transfer impact assessments by reducing compliance burdens for certain entities but requiring careful assessment of exemption conditions.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs operating in the form of a branch of a regulated Indian or foreign entity",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "REs providing services to their group entities only e.g. Global In-House Centres (GICs)",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "REs which have less than 10 employees",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "Foreign universities set up in IFSCs",
+          "obligation_type": "Exemption"
+        }
+      ],
+      "source_quote": "21. The following categories of REs are exempted from the requirements mentioned in these Guidelines: a. The REs operating in the form of a branch of a regulated Indian or foreign entity. b. The REs providing services to their group entities only e.g. Global In-House Centres (GICs). c. The REs which have less than 10 employees. d. Foreign universities set up in IFSCs."
+    },
+    {
+      "section": "22",
+      "heading": "The exemptions to the REs provided vide para 21, are subject to fulϐilment of the",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Exemptions",
+      "summary": "Exemptions granted under Section 21 are conditional on REs adopting the parent entity's Cyber Security and Cyber Resilience framework, designating the parent entity's CISO as the Designated Officer, ensuring the parent entity is regulated by a financial-sector regulator, and submitting certification of compliance within 90 days of the financial year-end. These exemptions are valid for three years from the guidelines' issuance date.",
+      "dtia_summary": "This section outlines conditions for maintaining exemptions, including framework adoption, regulatory oversight, and periodic compliance certifications, which are critical for data transfer impact assessments involving exempted entities.",
+      "authority": "IFSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall adopt the Cyber Security and Cyber Resilience framework and IS Policy of its parent entity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The CISO of the parent entity shall act as the Designated Officer for the REs in IFSC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The parent entity of REs, in India or overseas, shall be regulated by a financial-sector regulator in its home jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The parent entity's cyber security and cyber resilience framework shall include REs in IFSC within its scope",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Designated Officer of the RE shall certify that all necessary systems/processes have been put in place within 90 days of the end of each financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The undertaking shall be submitted to the respective Department/Division of IFSCA responsible for supervision of the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exemptions are valid for a period of three years from the date of issuance of these guidelines",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "22. The exemptions to the REs provided vide para 21, are subject to fulϐilment of the following conditions: a. REs shall adopt the Cyber Security and Cyber Resilience framework and IS Policy of its parent entity. b. The CISO of the parent entity shall act as the Designated Officer for the REs in IFSC. c. The parent entity of REs, in India or overseas, shall be regulated by a financial-sector regulator in its home jurisdiction and cyber security and cyber resilience framework of the parent entity shall include within its scope, the REs in IFSC."
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "country": "South Africa",
+  "document": "Directive in respect of cybersecurity and cyber-resilisnce within the national payment system",
+  "generated": "2026-07-15T15:58:26",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Definitions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 5,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used throughout the directive, including critical service providers, cyber-attacks, cyber-incidents, cyber-resilience, cybersecurity, cyber-threats, information assets, information systems, information technology systems, multi-factor authentication, payment institutions, payment system financial market infrastructure, operators, senior management, sensitive information, and vulnerability assessments. These definitions establish the foundational terminology for understanding the cybersecurity and cyber-resilience requirements applicable to payment institutions and systems within South Africa's national payment system.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "critical service provider means a service provider that provides critical services to a payment institution in the NPS",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "compromise means a violation of the security of an information technology (IT) system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-attack means malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt or gain unauthorised access to assets",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-event means any observable occurrence in an information system. Cyber-events sometimes provide an indication that a cyber-incident is actually occurring",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-incident means a cyber-event that adversely affects the cybersecurity of an information system and/or the information that the system processes, stores or transmits, or which violates the security policies, security procedures and/or acceptable use policies of the payment institution, whether resulting from malicious activity or not",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-resilience means the ability of a payment institution or an operator to continue carrying out its mission by anticipating and adapting to cyber-threats and other relevant changes in the environment and by withstanding, containing and rapidly recovering from cyber-incidents",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-risk means the combination of the probability of cyber-incidents occurring and their impact",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cybersecurity means the preservation of confidentiality, integrity and availability of information and/or information systems through the cyber-medium",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "cyber-threat means a circumstance with the potential to exploit one or more vulnerabilities that adversely affects cybersecurity",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "information asset means any piece of data, device or other component of the environment that supports information-related activities",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "information system means a set of applications, services, information technology assets or other information-handling components, which includes the operating environment and networks",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "information technology system means a set of hardware, software, network or other information technology components which is part of an IT infrastructure",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "multi-factor authentication means the use of two or more authentication factors to verify the identity of a user or system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment institution means persons designated, authorised, registered or regulated under the National Payment System Act 78 of 1998 (NPS Act), including but not limited to clearing system participants, settlement system participants, third-party payment providers and system operators",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment system Financial Market Infrastructure means a multilateral system among payment system participants, including the operator of the system, used for the purposes of clearing, settling or recording payments, and includes a systemically important payment, clearing or settlement system and a prominent payment, clearing or settlement system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "operator means an operator of a payment system, including payment clearing house system operators, operators of settlement systems and the operator(s) of payment system financial market infrastructures (FMIs)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "senior management means the chief executive officer or the person who is in charge of a payment institution",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "sensitive information means information where loss, misuse, or unauthorised access to or modification could adversely affect the public interest, a payment institution or the privacy to which individuals are entitled",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "vulnerability assessment means a systematic examination of an IT system, including its controls and processes, to determine the adequacy of security measures, identify security deficiencies, provide data from which to predict the effectiveness of proposed security measures and confirm the adequacy of such measures after implementation",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Definitions 1.1.1 to 1.1.19"
+    },
+    {
+      "section": "2",
+      "heading": "Background",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 7,
+      "primary_category": "Definitions",
+      "summary": "This section provides background information on the South African Reserve Bank's (SARB) role in regulating payment systems, the scope of the national payment system (NPS), and the evolving payment landscape with digital technologies. It explains how the NPS functions as a critical component of South Africa's monetary and financial system and highlights the increased cyber-risks associated with digitization and financial technology (fintech) in the payment sector.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "In terms of section 10(1)(c) of the South African Reserve Bank Act 90 of 1989, as amended (SARB Act), the South African Reserve Bank (SARB) is required to perform such functions, implement such rules and procedures, and, in general, take such steps as may be necessary to establish, conduct, monitor and supervise payment, clearing and settlement systems",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The NPS encompasses the entire payment process, from payer to beneficiary, and includes settlement between banks. The process includes all the tools, systems, instruments, mechanisms, institutions, agreements, procedures, rules or laws applied or utilised to effect payment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "In terms of section 12 of the NPS Act, the SARB is empowered to issue directives, after consultation with the payment system management body (PSMB), to any person regarding a payment system or the application of the provisions of the NPS Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The payment landscape has evolved significantly over the past two decades, with digitisation, financial technology (fintech), automation and artificial intelligence (AI) changing the manner in which payments are effected",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The rapid growth in digitisation and automation has introduced alternative payment solutions that are faster, more cost-effective and more efficient. However, these technologies also increase cyber-risk in the NPS as payment institutions become more dependent on computer networks and third-party IT service providers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Cybersecurity and cyber-resilience contribute positively to the operational resilience of payment institutions, operators, as well as payment, clearing and settlement systems and payment system FMIs, and further contribute to the overall resilience of the broader NPS",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Background 2.1 to 2.6"
+    },
+    {
+      "section": "3",
+      "heading": "Purpose",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section states that the South African Reserve Bank (SARB) issues the directive to impose cybersecurity and cyber-resilience requirements on payment institutions, payment, clearing and settlement systems, payment system financial market infrastructures, and operators within the national payment system (NPS). The purpose is to ensure the safety, efficiency, and resiliency of the NPS through enhanced cybersecurity measures.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "The SARB, acting pursuant to its powers in terms of section 12 of the NPS Act, hereby issues this directive to impose cybersecurity and cyber-resilience requirements on payment institutions; payment, clearing and settlement systems; payment system FMIs; and operators within the NPS",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Purpose 3.1"
+    },
+    {
+      "section": "5",
+      "heading": "Directive",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 16,
+      "primary_category": "Security",
+      "summary": "Payment institutions and operators must establish written cyber-governance arrangements that define cybersecurity objectives, outline people/processes/technology requirements, and mandate board/senior management responsibilities including cyber-risk tolerance determination, policy approval, framework oversight, annual reviews, alignment with operational risk management, adherence to standards, risk identification, and appointment of skilled executives. These arrangements must also ensure information sharing with SARB and industry stakeholders. Payment institutions must conduct extensive due diligence on third parties' cyber-resilience measures, assess criticality of outsourced processes before contracting, obtain independent security attestation reports, and implement business continuity testing with third parties. For cloud service providers, they must comply with SARB's regulatory requirements on jurisdiction risk mitigation and maintain accountability for data security.",
+      "dtia_summary": "This section mandates comprehensive cybersecurity governance that directly impacts data transfer security by requiring robust frameworks for identifying critical assets, implementing protective controls, and ensuring timely incident response—critical for assessing cross-border data transfer risks in payment systems. Requires specific due diligence and testing for third-party relationships, with explicit cloud service provider compliance obligations that impact data transfer security and accountability in cross-border contexts.",
+      "authority": "SARB",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Processing",
+        "Incident Reporting",
+        "Breach Notification",
+        "Cloud Services",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that define cybersecurity and cyber-resilience objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that outline people, processes and technology requirements for protecting information systems, managing cyber-risks, and providing timely communication and effective responses to, and recovery from, cyber-attacks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the board of directors or senior management determine cyber-risk tolerance levels of the payment institution, operator, payment, clearing or settlement system, or payment system FMI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the board of directors or senior management approve cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the board of directors or senior management oversee the development and implementation of cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the board of directors or senior management conduct annual reviews of cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the cybersecurity and cyber-resilience framework is aligned to the operational risk management framework, operational resilience plan and business continuity plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the cybersecurity and cyber-resilience framework is based on industry standards and international best practices, and complies with legislative and regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the cybersecurity and cyber-resilience framework clearly articulates the identification of cyber-risks and the required controls to manage and mitigate the cyber-risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure the appointment of a senior executive and technical experts with relevant skills, expertise and experience accountable for cybersecurity and cyber-resilience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions and operators must ensure that the cybersecurity and cyber-resilience framework makes provision for information sharing and collaboration with SARB and other relevant payment industry stakeholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct extensive due diligence to evaluate cyber-resilience measures of relevant third parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess criticality of processes that may be outsourced prior to entering into outsourcing contracts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Obtain independent security attestation reports from third parties as an additional layer of assurance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement and test business continuity plans and ensure coordination with third-party service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure compliance with SARB regulatory requirements for cloud computing and data offshoring in the NPS",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify, monitor and mitigate jurisdiction risk relating to data transmitted, stored and processed in the cloud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Remain accountable for data stored and processed, and for overall security and resilience of cloud solutions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Payment institutions and operators must develop and maintain cybersecurity and cyber-resilience frameworks that include the following: 5.1.1 Cyber-governance"
+    },
+    {
+      "section": "6",
+      "heading": "Supervision and compliance monitoring",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "This section outlines the SARB's authority to conduct supervisory inspections on payment institutions and operators, including the procedures for notifications, entry into premises, document access, and the handling of evidence during inspections. It specifies the conditions under which SARB representatives may enter premises without prior consent, the requirements for warrants, and the rights of SARB representatives to access documents and systems during inspections.",
+      "dtia_summary": "",
+      "authority": "South African Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "The SARB may at any time conduct a supervisory onsite or offsite inspection on payment institutions or operators, in a form and manner that the SARB may determine, to promote compliance with this directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subject to subparagraph 6.4.3, the SARB must provide written notification to the payment institution or operator whose business premises will be inspected, prior to conducting the supervisory onsite inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The supervisory onsite inspection notification will specify: date(s) of the intended supervisory onsite inspection; names of the SARB representatives; the period under review; and any other information/documentation required for inspection purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Each SARB representative must produce a letter of authority and identity document upon entry at the premises of a payment institution or operator, which officials must view for verification purposes and are prohibited to produce copies thereof",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The SARB representatives may enter any premises without prior consent in the case of business premises operated by payment institutions or operators",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives may enter any premises with prior consent in the case of a private residence, where the business of the payment institution is reasonably believed to be conducted at the private residence",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives may enter any premises without prior consent and without prior notice to any payment institution or operator if the entry is authorised by a warrant in terms of paragraph 6.10",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives may enter any premises without prior consent and without prior notice to any payment institution or operator with the prior authority of a senior staff member of the SARB, if the senior staff member on reasonable grounds believes that a warrant will be issued if applied for, in terms of paragraph 6.10",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives may enter any premises without prior consent and without prior notice to any payment institution or operator with the prior authority of a senior staff member of the S. A. R. B., if the senior staff member on reasonable grounds believes that the delay in obtaining the warrant is likely to defeat the purpose for which entry of the premises is sought",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives may enter any premises without prior consent and without prior notice to any payment institution or operator with the prior authority of a senior staff member of the S. A. R. B., if it is necessary to enter the premises to conduct the inspection and search the premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: open or cause to be opened any strongroom, safe, cabinet or other container in which the SARB representatives reasonably suspects there is a document or item that may be relevant to the inspection",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: examine, make extracts from and copy any document on the premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: question any person on the premises to find out information relevant to the inspection",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: require a person on the premises to produce to the SARB representatives any document or item that is relevant to the inspection and is in the possession or under the control of the person",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: require a person on the premises to operate any computer or similar system or available through the premises to search any information in or available through that system",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: require a person on the premises to operate any computer or similar system or available through the premises to produce a record of that information in any format that the SARB representatives reasonably requires",
+          "obligation_type": "May"
+        },
+        {
+          "text": "While on the premises, the SARB representatives have the right of access to any part of the premises and to any document or item on the premises, and may do any of the following: take possession of, and take from the premises, a copy of any document or item that may afford evidence of a contravention of this directive or may be relevant to the inspection",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The SARB representatives must give the person apparently in charge of the premises a written and signed receipt for the copies of documents or items taken as mentioned in paragraph 6.5",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A payment institution or operator from whose premises a document or item was taken as mentioned in paragraph 6.5, or its authorised representative, may, during normal office hours and under the supervision of the representatives of the SARB, examine, copy and make extracts from a document or item",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A person who is questioned, or required to produce a document or information, during a supervisory onsite inspection contemplated may object to answering the question or to producing the document or the information on the grounds that the answer, the contents of the document or the information may tend to incriminate the person",
+          "obligation_type": "May"
+        },
+        {
+          "text": "On such an objection, the SARB representative conducting the supervisory onsite inspection may require the question to be answered or the document or information to be produced, in which case the person must answer the question or produce the document",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The judge or magistrate may issue a warrant in terms of this paragraph: on written application by the SARB setting out under oath or affirmation why it is necessary to enter and inspect the premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A warrant issued in terms of this paragraph must be produced on reasonable demand by any person on the premises",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Supervision and compliance monitoring 6.1 to 7.3"
+    },
+    {
+      "section": "7",
+      "heading": "Effective date and non-compliance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "This section states that the directive will be effective three months after publication, the SARB reserves the right to amend requirements, and payment institutions or operators must comply with the directive. Contravention of the directive is an offence under section 12(8) of the NPS Act.",
+      "dtia_summary": "",
+      "authority": "South African Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "This directive will be effective three months after its publication. The SARB reserves the right to amend any requirements in this directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions or operators must comply with the requirements or conditions as stipulated in this directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contravention of this directive is an offence in terms of section 12(8) of the NPS Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Effective date and non-compliance 7.1 to 7.3"
+    }
+  ]
+}

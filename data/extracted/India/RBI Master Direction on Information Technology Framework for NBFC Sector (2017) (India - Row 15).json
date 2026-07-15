@@ -1,0 +1,71 @@
+{
+  "country": "India",
+  "document": "RBI Master Direction on Information Technology Framework for NBFC Sector (2017) (India - Row 15)",
+  "generated": "2026-07-15T14:37:32",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "As you are aware, the Income Declaration Scheme, 2016 (the Scheme)   has",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section acknowledges the implementation of the Income Declaration Scheme, 2016 starting June 1, 2016, and notes that some declarants may wish to pay tax dues in cash. It highlights that banks are hesitant to accept large cash deposits for government accounts under this scheme.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "As you are aware, the Income Declaration Scheme, 2016 (the Scheme) has come into effect from June 1, 2016",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "some declarants may like to pay their tax dues in cash",
+          "obligation_type": "Information"
+        }
+      ],
+      "source_quote": "2. As you are aware, the Income Declaration Scheme, 2016 (the Scheme) has come into effect from June 1, 2016 and some declarants may like to pay their tax dues in cash."
+    },
+    {
+      "section": "3",
+      "heading": "We advise that banks must invariably accept cash, irrespective of amount, over",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "Banks must accept cash deposits of any amount from declarants at counters, including those under the Income Declaration Scheme via challan ITNS-286. Banks must also comply with Know Your Customer (KYC) requirements for all customers and walk-in customers as per the Master Direction on KYC.",
+      "dtia_summary": "",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "banks must invariably accept cash, irrespective of amount, over the counters from all declarants who desire to deposit cash at the counters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "including deposits under the above Scheme through challan ITNS-286",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "banks shall comply with the Know Your Customer requirements for customers and walk-in customers as contained in Master Direction – Know Your Customer Withdrawn Direction, 2016",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3. We advise that banks must invariably accept cash, irrespective of amount, over the counters from all declarants who desire to deposit cash at the counters, including deposits under the above Scheme through challan ITNS-286."
+    }
+  ]
+}

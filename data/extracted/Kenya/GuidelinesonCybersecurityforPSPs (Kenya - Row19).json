@@ -1,0 +1,375 @@
+{
+  "country": "Kenya",
+  "document": "GuidelinesonCybersecurityforPSPs (Kenya - Row19)",
+  "generated": "2026-07-15T14:43:26",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "PART II STATEMENT OF POLICY",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "This section outlines the policy framework for Payment Service Providers (PSPs) in Kenya, specifying the purpose, scope, sources of cyber risk, responsibilities, and the cybersecurity program. It establishes the foundational principles that guide the implementation of cybersecurity measures across PSPs, ensuring alignment with national cybersecurity objectives and regulatory expectations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Part II Statement of Policy",
+          "obligation_type": "Other"
+        }
+      ],
+      "source_quote": "PART II STATEMENT OF POLICY 2.1 Purpose 2.2 Scope 2.3 Sources of Cyber Risk 2.4 Responsibility 2.5 Cybersecurity Program"
+    },
+    {
+      "section": "3",
+      "heading": "PART III SPECIFIC REQUIREMENTS",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Governance",
+      "summary": "This section details specific governance requirements for Payment Service Providers, including board responsibilities, senior management roles, the Chief Information Systems Officer, cybersecurity strategy development, risk management protocols, incident response, vulnerability assessments, outsourcing contracts, and regular independent assessments. It mandates structured oversight and accountability mechanisms to ensure robust cybersecurity practices within PSPs.",
+      "dtia_summary": "",
+      "authority": "CBK",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Incident Reporting",
+        "Breach Notification",
+        "Outsourcing",
+        "Cloud Services"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "3.1 Governance of Payment Service Providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.1.1 Board of Directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.1.2 Senior Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.1.3 Chief Information Systems Officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.1.4 Cybersecurity Strategy, Frameworks and Policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2 Risk Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2.1 Risk Assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2.2 General Risk Management Requirements for Payment Service Providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2.3 Dependency Risk Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2.4 Incident Response and Cyber Resilience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.2.5 Vulnerability Assessments and Penetration Testing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.3 Additional Requirements for Systemically Important Payment Systems and System-wide Important Payment Systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.4 Outsourcing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.4.1 Outsourcing Contracts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.4.2 Notification to CBK",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.5 Regular Independent Assessment and Testing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.5.1 Role of Risk Management Function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.5.2 Role of Internal Audit function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.5.3 Role of External Audit function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "3.6 Training and Awareness",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "PART III SPECIFIC REQUIREMENTS 3.1 Governance of Payment Service Providers 3.1.1 Board of Directors 3.1.2 Senior Management 3.1.3 Chief Information Systems Officer 3.1.4 Cybersecurity Strategy, Frameworks and Policies 3.2 Risk Management 3.2.1 Risk Assessment 3.2.2 General Risk Management Requirements for Payment Service Providers 3.2.3 Dependency Risk Management 3.2.4 Incident Response and Cyber Resilience 3.2.5 Vulnerability Assessments and Penetration Testing 3.3 Additional Requirements for Systemically Important Payment Systems and System-wide Important Payment Systems 3.4 Outsourcing 3.4.1 Outsourcing Contracts 3.4.2 Notification to CBK 3.5 Regular Independent Assessment and Testing 3.5.1 Role of Risk Management Function 3.5.2 Role of Internal Audit function 3.5.3 Role of External Audit function 3.6 Training and Awareness"
+    },
+    {
+      "section": "4",
+      "heading": "",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 24,
+      "primary_category": "Security",
+      "summary": "This section defines key terms used throughout the Guidelines on Cybersecurity for Payment Service Providers (PSPs) in Kenya. It specifies what constitutes Business Continuity, Business Continuity Management, Critical Information Infrastructure (CII), Cybersecurity Incidents, Critical Assets, Cyber Assets, Critical Cyber Assets, Cybercrime, Cybersecurity, Cyber risk, Cyberspace, Data, Designated Payment Instruments, Designated Payment Systems, Endpoints, Endpoint Hardware, External Dependency Management Strategy (EDMS), Internal Dependency Management Strategy (IDMS), IT Infrastructure, Operators, Participants, Payment Service Providers (PSPs), Retail Payment Systems, Social Engineering, Systemically Important Payment Systems (SIPS), System-Wide Important Payment Systems (SWIPS), and Third Party Service Providers. These definitions establish the foundational terminology for cybersecurity compliance in Kenya's payment systems. This section identifies specific sources of cybercrime activities for payment service providers (PSPs), including unauthorized account access, phishing attacks, interconnected institutional vulnerabilities, internal system risks, and poor authentication control",
+      "dtia_summary": "This section highlights critical cybersecurity risks that must be assessed during Data Transfer Impact Assessments, particularly regarding unauthorized access, phishing vulnerabilities, and internal system weaknesses that could compromise data security across borders. It requires PSPs to implement strong authentication controls and incident response mechanisms to mitigate cross-border data transfer risks. This section directly impacts DTIAs by requiring PSPs to validate disaster recovery capabilities and ensure business continuity through tested plans, which are critical for maintaining data a",
+      "authority": "Central Bank of Kenya (CBK)",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "‘Business Continuity' is a state of continued and uninterrupted operation of business.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Business Continuity Management' is a holistic business approach that includes policies, standards, frameworks and procedures for ensuring that specific operations can be maintained or recovered in a timely manner in the event of disruption.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Business Continuity Plan' is a comprehensive, documented plan of action that sets out procedures and establishes the processes and systems necessary to continue or restore the operation of an organization in the event of a disruption.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘CISO' is an acronym referring to the Chief Information Security Officer.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Critical Information Infrastructure (CII)' refers to interconnected information systems and networks, the disruption of which would have serious impact on the economic well-being of customers, or on the effective functioning of payment service providers and the economy.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cybersecurity Incident' is a cyber event that: i. jeopardizes the cyber security of an information system or the information the system processes, stores or transmits; or ii. violates the security policies, security procedures or acceptable use policies, iii. whether resulting from malicious activity or not.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Critical Asset' means facilities, systems, and equipment which, if destroyed, degraded, or otherwise rendered unavailable, would affect the reliability or operability of an institution.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cyber Asset' means programmable electronic devices and communication networks including Hardware, Software and Data.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Critical Cyber Asset' means programmable electronic devices and communication networks including Hardware, Software and Data that are essential to the reliable operations of critical assets.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cybercrime' refers to a harmful activity executed through computers, Information Technology (IT) systems and/or the internet using a computer device as the tool to commit the offence, and targeting the computers, IT infrastructure or internet presence of another person or entity.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cybersecurity' means preservation of confidentiality, integrity and availability of information and/or information systems through the cyber medium.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cyber risk' is the combination of the probability of cyber incidents occurring and their impact.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Cyberspace' is a global domain within the information environment consisting of the independent network of information systems infrastructures including the internet, telecommunications networks, computer systems, and embedded processors and controllers.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Data' means any representation of facts, information or concepts in a form suitable for processing in a computer system, including a program suitable to cause a computer system to perform a function.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Designated Payment Instrument' means any payment instrument that is of widespread use as a means of making payment and may affect the payment systems of Kenya and it is thus designated to protect the interest of the public or in the interest of the integrity of the payment instrument.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Designated Payment System' means any system that poses systemic risk or that is designated to protect the interest of the public or the interest of the integrity of the payment system.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Endpoint' means a point in place and time at which payment instruction information is exchanged between two parties in the ecosystem, such as between a messaging network and a participant in the network, a payment system and a participant in the system or a payment system and a messaging network.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Endpoint Hardware' may include mobile devices, laptop or desktop personal computers (PCs) and other equipment such as servers and network devices that may or may not be controlled directly by the operator of a payment system or messaging network.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘External Dependency Management Strategy (EDMS)' is the strategy which provides for the protection and sustainment of the PSP's services and assets that are dependent on the actions of external actors e.g. technology vendors, suppliers, shared public infrastructure, and other external services that supports the PSP.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Internal Dependency Management Strategy (IDMS) is the strategy which ensures that the PSP is able to identify and deal with cyber risks associated with its internal business environment e.g. workforce, data, technology, facilities etc. upon which the PSP depends to deliver services to its customers.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘IT Infrastructure' refers to the hardware, software, network resources and services required for the existence, operation and management of an enterprise IT environment.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Operator' means a person, other than a designated payment system operator, authorized in terms of section 8 (2) (c) of the National Payment Systems Act, 2011 to provide services to any two or more persons in respect of payment instructions.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Participant' means a bank or institution approved by Central Bank of Kenya to participate in the Kenya wholesale payment system.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Payment Service Provider (PSP)' as defined in the National Payment Systems Act, 2011 means: i) A person, company or organization acting as provider in relation to sending, receiving, storing or processing of payments or the provision of other services in relation to payment services through any electronic system; ii) A person, company or organization which owns, possesses, operates, manages or controls a public switched network for the provision of payment services; or iii) Any other person, company or organization that processes or stores data on behalf of such payment service providers or users of such payment services.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Retail Payment Systems' means a funds transfer system that typically handles a large volume of relatively low-value payments in such forms as cheques, credit transfers, direct debits and card payment transactions.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Social Engineering' is a general term for trying to deceive people into revealing information or performing certain actions.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Systemically Important Payment System (SIPS)' means a funds transfer system that typically handles large-value and high-priority payments. These are typically Wholesale or Large Value Payment System (LVPS). A failure of these systems could potentially endanger the operation of the whole economy.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘System-Wide Important Payment Systems (SWIPS)' means retail payment systems which are of importance to the economy as a whole due to the high volumes, low values of transactions they process, but which are unlikely to generate or transmit financial shocks if they fail.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Third Party Service Provider' means a person/entity that (i) is not an affiliate of the PSP, (ii) provides services to the PSP, and (iii) maintains, processes or otherwise is permitted access to confidential information through its provision of services to the PSP.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Unauthorized access to privileged accounts could control the entire system by hiding criminal acts through modifying or deleting log files or disabling detection mechanisms.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "People-related attacks like phishing, malware introduced through social engineering can gain privileged access to critical systems.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Interconnectedness of institutions could lead to compromise in entry points through service providers.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal IT systems can be a source of cyber risk, such as data replication arrangements transferring malware or corrupted data to backup systems.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Poor authentication controls to protect customer data, transactions and systems.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure the roles and responsibilities of managing cyber risks, including in emergency or crisis decision-making, are clearly defined, documented and communicated to relevant staff.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Put in place BCP and disaster recovery test plans to ensure that the PSP can continue to function and meet its regulatory obligations in the event of an unforeseen attack through cyber-crime.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessing the overall effectiveness of the PSP's cybersecurity program.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Periodically reporting on the organization's cybersecurity posture to senior management, board and audit committee.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish processes for secure offline storage of critical records, including financial records of the PSP using defined data standards to allow for restoration of the records after a disruption.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct testing that addresses a disruptive, destructive, corruptive or any other cyber event that could affect the ability to service customers and avoid incurring significant downtime that would affect the business operations of customers.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The cybersecurity program for each PSP shall include monitoring and testing, developed in accordance with the PSP's Risk Assessment, designed to assess the effectiveness of the PSP's cybersecurity program.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the absence of effective continuous monitoring, PSPs shall conduct quarterly vulnerability scans of all critical cyber assets.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs shall conduct annual Penetration Testing of the PSP that cover, at a minimum, the critical cyber assets as determined each given year based on the Risk Assessment.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs shall conduct bi-annual vulnerability assessments, including systematic scans or reviews of Information Systems to identify publicly known cybersecurity vulnerabilities.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must review their cybersecurity strategy, policy, and framework annually based on each PSP's threat and vulnerability assessment.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must submit Cybersecurity Policy, Strategies and Frameworks to CBK by December 31, 2019.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commercial banks licensed under the Banking Act are exempt and follow the Guidance Note on Cybersecurity (August 2017).",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "PSPs must notify CBK within 24 hours and SWIPS/SIPS within 2 hours of any cybersecurity incident with significant impact on services, reputation, or financial condition.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must submit a comprehensive report on incidents within 24 hours of notification.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must provide quarterly reports on cybersecurity incidents to CBK by the 10th day after the end of each quarter.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "1.4 Definitions – The acronyms and some of terms used in this Guideline are defined below: 1.4.1 ‘Business Continuity' is a state of continued and uninterrupted operation of business."
+    }
+  ]
+}

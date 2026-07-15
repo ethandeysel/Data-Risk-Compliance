@@ -37,7 +37,7 @@ PROVIDER = os.getenv("LLM_PROVIDER", "ollama").lower()
 # qwen3:8b by default now that extraction runs on a GPU — richer summaries
 # and requirements than the 4b that CPU speed forced.  Override with
 # LLM_MODEL.  Needs `ollama pull qwen3:8b`.
-MODEL = os.getenv("LLM_MODEL", "qwen3:8b")
+MODEL = os.getenv("LLM_MODEL", "qwen3:4b")
 HOST = os.getenv("LLM_HOST", "http://localhost:11434")
 
 # qwen3 is a hybrid reasoning model.  Its <think> pass roughly triples

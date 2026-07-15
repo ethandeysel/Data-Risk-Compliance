@@ -1,0 +1,140 @@
+{
+  "country": "United Kingdom",
+  "document": "computer misuse act (United Kingdom - Row 2)",
+  "generated": "2026-07-15T16:01:11",
+  "sections": [
+    {
+      "section": "13",
+      "heading": "Proceedings in Scotland.",
+      "chapter": "CHAPTER 18",
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "A sheriff in Scotland may exercise jurisdiction over computer misuse offences if the accused was within the sheriffdom at the time of the unauthorized computer activity or if the computer containing the unauthorized program or data was within the sheriffdom at that time. This applies to offences under sections 1, 2, 3, 3ZA, and 3A. The jurisdictional conditions also extend to cases where the accused is acquitted of an offence but could have been found guilty under section 1, and the offence may be prosecuted in a sheriff court district in Scotland where the person is apprehended or in custody, or as directed by the Lord Advocate.",
+      "dtia_summary": "This section establishes jurisdictional conditions for computer misuse offences in Scotland, relevant to cross-border data processing where the computer activity occurs outside the jurisdiction but the accused is within Scotland. It affects DTIA by defining when Scottish courts can exercise jurisdiction over offences involving unauthorized computer access.",
+      "authority": "Sheriff",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 1 or 2 if the accused was in the sheriffdom at the time when he did the act which caused the computer to perform the function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 1 or 2 if any computer containing any program or data to which the accused by doing that act secured or intended to secure unauthorized access was in the sheriffdom at that time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3 if the accused was in the sheriffdom at the time when he did the unauthorized act (or caused it to be done)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3 if the unauthorized act was done in relation to a computer in the sheriffdom",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3ZA if the accused was in the sheriffdom at the time when he did the unauthorized act (or caused it to be done)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3ZA if the computer in relation to which the unauthorized act was done was in the sheriffdom at that time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3A if the accused was in the sheriffdom at the time when he made, adapted, supplied or offered to supply the article intending it to be used as mentioned in subsection (1) of that section",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3A if the accused was in the sheriffdom at the time when he supplied or offered to supply the article believing that it would be used as mentioned in subsection (2) of that section",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3A if the accused was in the sheriffdom at the time when he obtained the article intending to use it, or with a view to its being supplied for use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sheriff shall have jurisdiction in respect of an offence under section 3A if any computer as mentioned in subsection (1)(b), (2)(b) or (2A)(b) of this section was in the sheriffdom at the time the accused carried out the act constituting the offence under section 3A",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where an offence under section 1, 3, 3ZA or 3A is committed outside Scotland, the person committing the offence may be prosecuted, tried and punished for the offence in any sheriff court district in Scotland in which the person is apprehended or is in custody",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where an offence under section 1, 3, 3ZA or 3A is committed outside Scotland, the person committing the offence may be prosecuted, tried and punished for the offence in such sheriff court district as the Lord Advocate may direct",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where an offence under section 1, 3, 3ZA or 3A is committed outside Scotland, the offence is deemed to have been committed in that district for all purposes incidental to or consequential on the trial or punishment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A sheriff shall have jurisdiction in respect of an offence under section 1 or 2 if the accused was in the sheriffdom at the time when he did the act which caused the computer to perform the function or any computer containing any program or data to which the accused by doing that act secured or intended to secure unauthorised access was in the sheriffdom at that time."
+    },
+    {
+      "section": "17",
+      "heading": "Interpretation.",
+      "chapter": "CHAPTER 18",
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "This section defines key terms for interpreting the Computer Misuse Act, including how a person secures access to computer programs or data, what constitutes using a program, how output is defined, what constitutes unauthorized access, and the scope of references to computers and programs. It clarifies that unauthorized access occurs when a person is not entitled to control access or lacks consent from someone entitled to control access.",
+      "dtia_summary": "This section provides critical definitions for unauthorized computer access, which is essential for DTIA as it clarifies when data transfers or processing activities constitute unauthorized access across jurisdictions, impacting cross-border data handling compliance.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person secures access to any program or data held in a computer if by causing a computer to perform any function he alters or erases the program or data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person secures access to any program or data held in a computer if by causing a computer to perform any function he copies or moves it to any storage medium other than that in which it is held",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person secures access to any program or data held in a computer if by causing a computer to perform any function he uses it",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person secures access to any program or data held in a computer if by causing a computer to perform any function he has it output from the computer in which it is held",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of subsection (2)(c) a person uses a program if the function he causes the computer to perform causes the program to be executed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of subsection (2)(c) a person uses a program if the function he causes the computer to perform is itself a function of the program",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Access of any kind by any person to any program or data held in a computer is unauthorized if he is not himself entitled to control access of the kind in question to the program or data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Access of any kind by any person to any program or data held in a computer is unauthorized if he does not have consent to access by him of the kind in question to the program or data from any person who is so entitled",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person secures access to any program or data held in a computer if by causing a computer to perform any function he alters or erases the program or data, copies or moves it to any storage medium other than that in which it is held, uses it, or has it output from the computer in which it is held."
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "country": "Nigeria",
+  "document": "circular on the regulatory framework on open banking in nigeria (Nigeria - Row 8)",
+  "generated": "2026-07-15T15:37:18",
+  "sections": [
+    {
+      "section": "10",
+      "heading": "Risk Management……………………………………………….14",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 19,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section establishes risk management frameworks for open banking in Nigeria, defining data and service categories with associated risk ratings (PIST: Low, MIT: Moderate, PIFT: High, PAST: High & Sensitive). It mandates tiered access levels based on regulatory maturity (Tier 0-3) with specific requirements for onboarding, risk assessments, and registry registration. The framework requires participants to implement technical standards for API design, data specifications, security, and operational rules to ensure safe data exchange while balancing financial innovation and risk mitigation. This section outlines specific responsibilities for participants in open banking, including Providers, API Users, Fintechs, and the Developer Community. Providers must publish APIs, define data services, conduct Know Your Partner (KYP) due diligence, share responsibility for end-user losses, obtain explicit consent, and maintain monitoring systems. API Users must adhere to provider guidelines, obtain end-user consent, and ensure annual re-validation of agreements. Fintechs must leverage interoperable APIs and comply with data privacy laws. The Central Bank of Nigeria oversees framework implementa",
+      "dtia_summary": "This section defines risk-based data access tiers and service categories critical for DTIAs, particularly for cross-border data transfers involving financial services. It mandates tiered access levels and security requirements for high-risk data (PIFT/PAST) that directly impact data transfer safeguards and international processing compliance. This section mandates comprehensive risk management practices for data transfers across open banking ecosystems, requiring participants to conduct KYP due diligence, establish shared liability for end-user losses, implement real-time monitoring systems, a",
+      "authority": "Central Bank of Nigeria",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Tier 0 Participants shall be on-boarded by sponsoring Tier 2 or Tier 3 participants and registered on the Open Banking Registry within 3 working days of on-boarding.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sponsoring Tier 2 or Tier 3 participants shall seek registration of Tier 0 participants on the Open Banking Registry with a comprehensive risk assessment report signed by the Chief Risk Officer.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 1 Participants must be admitted into the CBN regulatory sandbox cohort.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 Participants must hold a valid CBN licence and undergo a risk assessment report from at least two partner participants covering KYP, financial strength, control environment, and risk management.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 3 Participants must hold a valid CBN licence and undergo a risk assessment report from at least two partner participants covering KYP, financial strength, control environment, and risk management.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All participants must be listed on the Open Banking Registry.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "API design models must align with data and service risk ratings, with enhanced security for PIFT and PAST categories.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data and service categories must be classified as PIST (Low risk), MIT (Moderate risk), PIFT (High risk), or PAST (High & Sensitive risk).",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Publish the APIs and define requirements and technical guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define the data and services accessible through the APIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish Data Access Agreement and Service Level Agreements with other participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Carry out Know Your Partner (KYP) due diligence on partner participants which shall include a comprehensive risk assessment on the partner participant duly signed off by the Chief Risk Officer before executing agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Share responsibility with the partner participant for any loss to the end-user which did not arise from the wilful negligence or fraudulent act of the end-user",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure that the partner participant that owns the customer interface obtains consent of the end-user based on agreed protocols",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certify that the partner participants define to the end-user in explicit terms the implication of granting consents to it and give the end-user the option to choose access rights to data granted the partner participant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Carry out regular monitoring of the control environment of the partner participants and revalidate the agreements on an annual basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subscribe to a common industry initiative for regular monitoring and validation of participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Deploy and implement automated monitoring system for evaluation of the vulnerability of its systems and environment to partner participants and for the management of fraud or related risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain logs on adoption and usage and other metrics on performance of APIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify risk metrics and thresholds, the breach of which could lead to a review of the relationship with partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify the partner participant of intention to terminate relationship within 48 hours of breaching the risk thresholds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify the Bank of any terminated relationships with partner participants within 3 business days to update information in the Open Banking Registry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with data privacy laws and regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain customer service/complaint desk on 24 hours/7 days a week basis for financial institutions to resolve complaints of end-users",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Execute a Data Access Agreement and Service Level Agreement with Provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adhere to the requirements and guidelines set by the Provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify to the end-user the implications of the consent to be given and the actions that may be performed on the account of the end-user",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Obtain consent of the end-user on each action that may be performed on the account of the end user as specified by the provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cooperate with the Provider for the regular monitoring of its control environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure an annual re-validation of the Data Access Agreement and Service Level Agreement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement any remedial actions as may be indicated by the Provider based on vulnerabilities discovered through the monitoring of its control environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collaborate effectively with the Provider to investigate any breach or fraud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with data privacy laws and all consumer protection regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Take all reasonable steps to ensure that the end user/customer understands the implication and risk of his/her data to be shared",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure that it leverages API to innovate products and solutions that are interoperable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Avoid alteration of APIs published by provider without consent of the providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any Modification of published APIs shall be based on the provisions of Data Access Agreement or where necessary an addendum to the agreement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adhere to the provisions of this framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with the provisions of this framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designate a Chief Risk Officer who shall be responsible for implementing effective internal control and risk management practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain updated API Risk catalogues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain API Process Control Mapping and Risk Control Matrix",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Align incident management processes and procedures with partner institutions clearly outlining responsibilities of each party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agree risk management metrics and measurement procedures for APIs operations and deploy appropriate technology to monitor and report on the metrics to partners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Submit to risk assessment by partner participants as provided in the agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Avail the Bank with risk assessment report on partner participants and provide the Bank with reports on the assessments of its control environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collaborate with partner participants to ensure compliance with data privacy laws and regulation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain updated data footprint mapping in conjunction with partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement fraud monitoring systems and promptly exchange fraud intelligence with partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collaborate with partner participants on cyber risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Promptly implement remedial measures to prevent, detect and manage cyberattacks and frauds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The agreements presented to the customer by the participant shall be simple, explicit and in the customer's preferred language",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The agreement shall be presented to the customer's preferred form including written, electronic, video or audio",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customer's consent shall be obtained in the same form the agreement was presented and a copy of the consent of the customer shall be made available to the customer and preserved by the participant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The specific rights which the customer will be granting to the participant and the implication of granting those rights to the participant shall be listed for the customer to consent to separately for each right to be given to the participant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent of the customer shall be re-validated annually and where the customer had not used the service of the partner for 180 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The responsibility of the customer for his/her protection shall be clearly communicated to the customer at the on-boarding stage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The participant shall avail the customer with security updates regularly in his/her preferred form and language to help him or her conduct transactions safely",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The customer shall adhere to procedures for authenticating transactions and ensure that login and authentication details are not compromised through negligence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The customer shall comply with preventive protocols and security advice provided by the participant and report any observed discrepancy in his/her accounts or assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participant and its partner shall be jointly responsible and bear liability for any loss to the customer, except where the participant can prove wilful negligence or fraudulent act against the customer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Risk Management……………………………………………….14"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "country": "United Kingdom",
+  "document": "Privacy and Electronic Communications Regulations (PECR) 2003 (United Kingdom - Row 18)",
+  "generated": "2026-07-15T16:00:35",
+  "sections": [
+    {
+      "section": "2003",
+      "heading": "Document Generated: 2026-02-10",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section mandates that electronic communications service providers must offer users a method to disable calling line identification on a per-call basis and subscribers a method to disable it on a per-line basis. It also requires providers to offer specific facilities for presenting connected line identification or calling line identification when available. The regulation is subject to regulations 15 and 16, which address tracing malicious calls and emergency services.",
+      "dtia_summary": "This section establishes requirements for controlling calling line identification, which may impact data transfer assessments when handling telecommunications data across borders, particularly regarding user consent mechanisms and data minimization.",
+      "authority": "Regulation 10",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A provider of a public electronic communications service must provide users with a means of preventing the presentation of calling line identification on a call-by-call basis.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A provider of a public electronic communications service must provide subscribers with a means of preventing the presentation of such identification on a per-line basis.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A provider of a public electronic communications service must provide subscribers with certain facilities where facilities enabling the presentation of connected line identification or calling line identification are available.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Regulation 10 requires a provider of a public electronic communications service to provide users of the service with a means of preventing the presentation of calling line identification on a call-by-call basis, and to provide subscribers to the service with a means of preventing the presentation of such identification on a per-line basis."
+    }
+  ]
+}

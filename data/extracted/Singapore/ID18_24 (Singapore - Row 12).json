@@ -1,0 +1,48 @@
+{
+  "country": "Singapore",
+  "document": "ID18_24 (Singapore - Row 12)",
+  "generated": "2026-07-15T15:43:29",
+  "sections": [
+    {
+      "section": "p1",
+      "heading": "Circular No: ID 18/24",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section introduces the Monetary Authority of Singapore's (MAS) information paper on AI model risk management, targeting licensed insurers and Lloyd's Asia Scheme. It outlines good practices observed during a thematic review of financial institutions' AI model risk management, with emphasis on governance, oversight, key risk management systems, and AI development/deployment processes. The document encourages financial institutions to adopt these practices when implementing AI solutions.",
+      "dtia_summary": "This section establishes foundational guidance for AI model risk management that may impact data transfer considerations when deploying AI systems across borders, particularly for financial institutions handling customer data through generative AI.",
+      "authority": "Monetary Authority of Singapore (MAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Governance"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "MAS has published an information paper on 'Artificial Intelligence (AI) Model Risk Management'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The information paper is based on a thematic review of banks' AI (including Generative AI) model risk management practices in mid-2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This information paper sets out good practices for AI model risk management that were observed during the review, focusing on governance and oversight, key risk management systems and processes, and development and deployment of AI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MAS encourages all financial institutions to reference these good practices when developing and deploying AI",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Circular No: ID 18/24\n5 December 2024\nTo Chief Executives\nAll Licensed Insurers and Lloyd's Asia Scheme"
+    }
+  ]
+}
