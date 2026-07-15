@@ -120,10 +120,21 @@ def _empty_extractions(sections, reason="model returned no valid JSON"):
 # Batch extraction
 # --------------------------------------------------------
 
-def extract_batch(sections, country, act, retries=3):
+def _looks_like_timeout(exc) -> bool:
+    text = f"{type(exc).__name__} {exc}".lower()
+    return "timeout" in text or "timed out" in text
+
+
+def extract_batch(sections, country, act, retries=2):
     """
     Extract one batch of sections.  Always returns a dict with an
     "extractions" list — never raises — so the caller can keep going.
+
+    On failure a multi-section batch is split in half and each half retried
+    (recursing down to single sections), so one problematic section is
+    isolated and flagged instead of losing the whole batch.  A timeout is
+    treated as "batch too big": we split immediately rather than re-sending
+    the same oversized prompt only to time out again.
     """
 
     prompt = build_prompt(sections, country, act)
@@ -136,13 +147,29 @@ def extract_batch(sections, country, act, retries=3):
                 f"  ! {act}: attempt {attempt}/{retries} "
                 f"failed ({type(e).__name__}: {e})"
             )
-            # Failures here are malformed JSON from a local model, not
-            # API rate limits — a short pause and retry is enough.
+            if _looks_like_timeout(e):
+                break  # bigger prompt won't parse faster — split instead
             if attempt < retries:
-                time.sleep(2)
+                time.sleep(1)
 
-    print(f"  ! {act}: giving up on batch, writing empty extractions")
-    return _empty_extractions(sections)
+    if len(sections) > 1:
+        mid = len(sections) // 2
+        print(
+            f"  {act}: splitting failed batch of {len(sections)} sections "
+            f"({mid}+{len(sections) - mid}) and retrying smaller"
+        )
+        left = extract_batch(sections[:mid], country, act, retries)
+        right = extract_batch(sections[mid:], country, act, retries)
+        return {
+            "extractions": left.get("extractions", [])
+            + right.get("extractions", [])
+        }
+
+    print(
+        f"  ! {act}: section {sections[0]['identifier']} could not be "
+        f"extracted, flagging"
+    )
+    return _empty_extractions(sections, reason="model output unparseable")
 
 
 # --------------------------------------------------------

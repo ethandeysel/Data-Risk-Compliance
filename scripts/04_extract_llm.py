@@ -32,7 +32,9 @@ try:
 except (AttributeError, ValueError):
     pass
 
-from src.llm.client import BATCH_TOKENS, describe, estimate_tokens
+from src.llm.client import (
+    BATCH_SECTIONS, BATCH_TOKENS, describe, estimate_tokens,
+)
 from src.llm.extractor import extract_batch, extract_large_section, is_oversized
 from src.llm.prompt import CATEGORIES, DATA_TYPES, TOPICS
 
@@ -71,11 +73,14 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def pack_batches(sections):
-    """Group sections into batches that fit the per-prompt token budget."""
+    """Group sections into batches within the token budget AND the section
+    cap (whichever is hit first), so no single prompt asks the model for
+    too many extractions at once."""
     batch, budget = [], 0
     for section in sections:
         cost = estimate_tokens(section.get("text", "")) + 100
-        if batch and budget + cost > BATCH_TOKENS:
+        if batch and (budget + cost > BATCH_TOKENS
+                      or len(batch) >= BATCH_SECTIONS):
             yield batch
             batch, budget = [], 0
         batch.append(section)

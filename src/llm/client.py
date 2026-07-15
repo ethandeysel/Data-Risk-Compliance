@@ -68,9 +68,14 @@ NUM_CTX_MAX = int(os.getenv("LLM_NUM_CTX_MAX", "16384"))
 NUM_CTX_MIN = 2048
 
 # Approximate token budget for a single batch prompt (excluding the
-# shared system prompt).  Batches are packed up to this size instead of
-# a fixed section count.
+# shared system prompt).  Batches are packed up to this size...
 BATCH_TOKENS = int(os.getenv("LLM_BATCH_TOKENS", "6000"))
+
+# ...but also capped at this many sections, whichever comes first.  A batch
+# of many small sections makes the model emit one very large JSON response
+# (all their summaries + requirements), which is slow and error-prone —
+# packing 15-20 sections was timing out where 5 succeeded.
+BATCH_SECTIONS = int(os.getenv("LLM_BATCH_SECTIONS", "6"))
 
 # ---- Gemini settings -------------------------------------------------
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
@@ -85,12 +90,11 @@ def context_window(prompt_tokens: int) -> int:
     """Pick a power-of-two context window that fits prompt + output.
 
     Structured extraction output roughly tracks input length, so we
-    reserve at least the prompt size again (min 3072) as headroom.  Too
-    small a window truncates the JSON and forces a retry — which, with the
-    exhaustive-requirements prompt, is a real failure mode, so headroom is
-    deliberately generous.
+    reserve the prompt size again (min 3072) as headroom.  Batches are
+    capped at BATCH_SECTIONS so output stays bounded; an oversized window
+    only lets the model run longer and risk the request timeout.
     """
-    needed = prompt_tokens + max(3072, prompt_tokens)
+    needed = prompt_tokens + max(3072, prompt_tokens // 2)
     window = NUM_CTX_MIN
     while window < needed and window < NUM_CTX_MAX:
         window *= 2
