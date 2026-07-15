@@ -1,0 +1,155 @@
+{
+  "country": "Nigeria",
+  "document": "REVISED REGULATORY FRAMEWORK FOR BANK VERIFICATION NUMBER (BVN) OPERATIONS AND WATCH-LIST FOR THE NIGERIAN BANKING INDUSTRY 121021 FINAL (Nigeria - Row 11)",
+  "generated": "2026-07-15T18:41:11",
+  "sections": [
+    {
+      "section": "3",
+      "heading": "",
+      "title": "BVN system participants and their roles in banking operations",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 11,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines the regulatory framework for Bank Verification Number (BVN) operations and Watch-list in Nigeria. It specifies the roles and responsibilities of Central Bank of Nigeria (CBN), Nigeria Inter-Bank Settlement System Plc (NIBSS), banks, other financial institutions, and customers. Participants must link customer accounts to BVNs within specified timeframes, report breaches to NIBSS, and ensure BVN data is stored within Nigeria. The framework establishes procedures for enrollment, identification, verification, and linking of customer BVNs to accounts while restricting BVN use to banking purposes only.",
+      "dtia_summary": "This section establishes Nigeria's BVN system with strict data residency requirements (BVN data stored within Nigeria), participant obligations for linking accounts to BVNs, and restrictions on BVN use to prevent cross-border data transfers. It mandates that BVN data must not be routed across borders without CBN consent, directly impacting data transfer impact assessments for financial institutions.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants include Central Bank of Nigeria (CBN), Nigeria Inter-Bank Settlement System Plc (NIBSS), Banks, Other Financial Institutions (OFIs), and Customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must link all accounts/wallets (except Tier 1) to BVNs within 24 hours of NIBSS making BVN available",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must enroll mobile money wallets (except Tier 1) on BVN database within 180 days of this framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must report BVNs of individuals in breach to NIBSS within 1 business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must report BVNs of confirmed deceased customers to NIBSS within 24 hours",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "BVN data shall be stored within Nigeria and not routed across borders without CBN consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "BVN use shall be restricted only to purposes specified by CBN",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure BVN information is treated as confidential",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "BVN data shall be stored within the shores of Nigeria and shall not be routed across borders without the consent of the CBN."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "(continued)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3 (part 3)",
+      "heading": "(continued)",
+      "title": "Penalties for BVN watch-list breaches",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 23,
+      "primary_category": "Enforcement",
+      "summary": "Participants failing to meet BVN framework obligations face penalties from the Central Bank of Nigeria. Customers with watch-listed BVNs are prohibited from new relationships, restricted electronic access, and barred from credit facilities. Repeat offenders face extended penalties and consecutive periods on the watch-list. Penalties apply to all accounts linked to watch-listed BVNs except Tier 1 accounts.",
+      "dtia_summary": "Penalties for BVN watch-list breaches directly impact data transfer restrictions and financial sanctions when moving data across borders involving watch-listed individuals.",
+      "authority": "Central Bank of Nigeria",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any participant who fails to perform its stipulated responsibilities shall be penalised by the Central Bank of Nigeria.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "They shall not be allowed to enter new relationship with any participant.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A participant may choose not to continue business relationship with account/wallet (except Tier 1) holder on the Watch-list.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Where a participant chooses to continue an existing business relationship with holders of account/wallets (except Tier 1) on the watch-list, the account/wallet (except Tier 1) holder shall be prohibited from all electronic channels such as but not limited to ATM, POS, Internet Banking, Mobile Banking, USSD including issuance of third-party cheques.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "However, inflows may be allowed, provided these are from legitimate sources.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A customer with watch-listed BVN shall not reference accounts, access or guarantee credit facilities.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A customer shall remain on the Watch-list for a period as specified in 'Table 2: Watch-list Penalties' below.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of a recurrence of breach, the penalty period shall run consecutively.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subject to the provision of Section 1.9, penalties associated with a watch-listed BVN shall apply to all accounts/wallets (except Tier 1) the BVN is linked to.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any participant who fails to perform its stipulated responsibilities shall be penalised by the Central Bank of Nigeria."
+    }
+  ]
+}

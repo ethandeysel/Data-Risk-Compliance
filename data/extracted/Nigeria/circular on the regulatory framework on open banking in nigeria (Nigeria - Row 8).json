@@ -1,0 +1,113 @@
+{
+  "country": "Nigeria",
+  "document": "circular on the regulatory framework on open banking in nigeria (Nigeria - Row 8)",
+  "generated": "2026-07-15T18:40:17",
+  "sections": [
+    {
+      "section": "10",
+      "heading": "Risk Management……………………………………………….14",
+      "title": "Risk management framework for open banking participants",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "This section establishes risk management maturity levels for open banking participants, defining access levels based on data categories. It mandates risk assessment reports, onboarding procedures, and registry registration for Tier 0-3 participants. The framework requires providers to implement robust security, conduct regular monitoring, and maintain detailed records of API interactions to ensure compliance with data privacy standards and consumer protection requirements.",
+      "dtia_summary": "This section defines risk-based access controls for data sharing across open banking participants, requiring tiered security measures for different data categories (PIST, MIT, PIFT, PAST) and mandating regular risk assessments to ensure data protection during cross-participant data exchanges.",
+      "authority": "Central Bank of Nigeria",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants shall be assigned risk maturity levels (Tier 0-3) based on regulatory status and data access requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 0 participants must be registered with Central Bank of Nigeria within 3 working days of onboarding",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 and Tier 3 participants must submit risk assessment reports signed by Chief Risk Officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must publish APIs with technical guidelines and define accessible data/services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must carry out Know Your Partner (KYP) due diligence on partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must maintain logs of API adoption and usage metrics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must notify partner participants of relationship termination within 48 hours of breaching risk thresholds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must notify Central Bank within 3 business days of terminated relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "API Users must obtain end-user consent for each action on their accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent must be revalidated annually and re-validated if 180 days have passed without service use",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Central Bank of Nigeria shall regulate the development of a common Banking Industry API standard with technical design standard, data standard, information security standard and operational rules."
+    },
+    {
+      "section": "10 (part 2)",
+      "heading": "Risk Management……………………………………………….14 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 10,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "10 (part 3)",
+      "heading": "Risk Management……………………………………………….14 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 17,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}
