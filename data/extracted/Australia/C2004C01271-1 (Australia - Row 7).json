@@ -1,7 +1,7 @@
 {
   "country": "Australia",
   "document": "C2004C01271-1 (Australia - Row 7)",
-  "generated": "2026-07-14T11:00:44",
+  "generated": "2026-07-14T12:41:44",
   "sections": [
     {
       "section": "7",
@@ -12,15 +12,56 @@
       "page_start": 3,
       "page_end": 11,
       "primary_category": "Other",
-      "summary": "This Act amends the Taxation Laws to provide income tax deductions for shares in film licensed investment companies (FLICs) issued during the period the FLIC's concessional capital licence is in force.",
+      "summary": "Section 7 amends the Taxation Laws to provide income tax deductions for investments in film licensed investment companies (FLICs). It inserts new Subdivision 375-H, which outlines deductions for shares in FLICs, special tax rules for FLICs, and conditions for claiming deductions. The deductions apply to shares issued during the period the FLIC's concessional capital licence is in force, which cannot be in force after 30 June 2000.",
       "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High (explicit)",
+      "authority": "Arts Minister, Commissioner",
+      "financial_relevance": "None",
+      "confidence": "High",
       "topics": [],
       "data_types": [],
-      "requirements": [],
-      "source_quote": "An Act to provide income tax deductions for investment in film licensed investment companies, and for related purposes [Assented to 7 December 1998]"
+      "requirements": [
+        {
+          "text": "You can deduct money you pay for shares in a film licensed investment company (FLIC) if the shares are issued to you by the FLIC during the period the FLIC's concessional capital licence is in force.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A film licensed investment company is a company that has been granted a licence to raise concessional capital under the Film Licensed Investment Company Act 1998.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If you pay for the shares in an income year and the shares are issued in the same income year, you get the deduction for that income year.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If you pay for the shares in an income year but the shares are not issued until a later income year, you get the deduction for the later income year.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "You lose your entitlement to the deduction if the Arts Minister decides to remove the concessional status of your shares.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "You also lose your entitlement to the deduction if the Commissioner is satisfied that the FLIC in which you hold shares has breached a condition imposed on it under the Film Licensed Investment Company Act 1998.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "If the Commissioner is satisfied of the matters set out in subsection (2), the Commissioner must, within 28 days, give written notice to the Arts Minister about the loss of entitlement that has occurred under subsection (2).",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A FLIC cannot transfer to another company a tax loss or a net capital loss for an income year if the FLIC's concessional capital licence is in force during some or all of that income year.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company cannot transfer to a FLIC a tax loss or a net capital loss for an income year if the FLIC's concessional capital licence is in force during some or all of that income year.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "If a FLIC has spent an amount of FLIC concessional capital in respect of a film, the FLIC cannot deduct the amount under this Act.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "You can deduct amounts you have paid for shares issued to you by a film licensed investment company (FLIC). The deduction does not apply to shares issued after 1 July 2000."
     }
   ]
 }

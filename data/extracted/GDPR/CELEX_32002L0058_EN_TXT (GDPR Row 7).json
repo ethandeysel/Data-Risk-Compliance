@@ -1,7 +1,7 @@
 {
   "country": "GDPR",
   "document": "CELEX_32002L0058_EN_TXT (GDPR Row 7)",
-  "generated": "2026-07-14T09:29:09",
+  "generated": "2026-07-14T13:01:31",
   "sections": [
     {
       "section": "1",
@@ -11,25 +11,26 @@
       "condition": null,
       "page_start": 6,
       "page_end": 7,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
+      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
     },
     {
       "section": "3",
@@ -39,25 +40,26 @@
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "1",
@@ -67,25 +69,26 @@
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
+      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
     },
     {
       "section": "2",
@@ -95,25 +98,25 @@
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "1",
@@ -123,25 +126,26 @@
       "condition": null,
       "page_start": 7,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
+      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
     },
     {
       "section": "3",
@@ -151,25 +155,26 @@
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "2",
@@ -179,25 +184,25 @@
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "3",
@@ -207,25 +212,26 @@
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "4",
@@ -236,17 +242,18 @@
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Data Sharing",
-      "summary": "Service providers must inform subscribers of traffic data types and processing duration for billing and marketing purposes.",
-      "dtia_summary": "Service providers must inform subscribers of traffic data types and processing duration for billing and marketing purposes.",
+      "summary": "This section requires the service provider to inform the subscriber or user of the types of traffic data processed and the duration of such processing for the purposes mentioned in paragraphs 2 and 3, prior to obtaining consent.",
+      "dtia_summary": "This section mandates that service providers must inform subscribers about the types and duration of traffic data processing, which is relevant for assessing data sharing and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Sharing",
+        "Data Residency",
+        "Data Storage",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
           "text": "The service provider must inform the subscriber or user of the types of traffic data which are processed and of the duration of such processing for the purposes mentioned in paragraph 2 and, prior to obtaining consent, for the purposes mentioned in paragraph 3.",
@@ -264,17 +271,18 @@
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Data Sharing",
-      "summary": "Traffic data processing must be restricted to persons authorized for billing, traffic management, fraud detection, marketing, or value-added services.",
-      "dtia_summary": "Traffic data processing must be restricted to authorized personnel for billing, traffic management, fraud detection, marketing, or value-added services.",
+      "summary": "This section restricts the processing of traffic data to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of traffic data to necessary purposes and authorised persons, which is relevant for assessing data sharing and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Sharing",
+        "Data Residency",
+        "Data Storage",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
           "text": "Processing of traffic data, in accordance with paragraphs 1, 2, 3 and 4, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
@@ -291,25 +299,25 @@
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "1",
@@ -319,25 +327,26 @@
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
+      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
     },
     {
       "section": "2",
@@ -347,25 +356,25 @@
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "3",
@@ -375,25 +384,26 @@
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "1",
@@ -403,25 +413,26 @@
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
+      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Consent"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
     },
     {
       "section": "2",
@@ -431,25 +442,25 @@
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "3",
@@ -459,25 +470,26 @@
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "3",
@@ -487,25 +499,26 @@
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Data Sharing",
-      "summary": "Location data processing must be restricted to authorized personnel for value-added services.",
-      "dtia_summary": "Location data processing must be restricted to authorized personnel for value-added services.",
+      "primary_category": "Other",
+      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
+      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
-        "Data Sharing"
+        "Data Residency",
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service.",
+          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of location data other than traffic data in accordance with paragraphs 1 and 2 must be restricted to persons acting under the authority of the provider of the public communications network or publicly available communications service or of the third party providing the value added service, and must be restricted to what is necessary for the purposes of providing the value added service."
+      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "2",
@@ -515,25 +528,25 @@
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     },
     {
       "section": "2",
@@ -543,25 +556,25 @@
       "condition": null,
       "page_start": 11,
       "page_end": 11,
-      "primary_category": "Data Sharing",
-      "summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
-      "dtia_summary": "Subscribers must be informed about directory purposes and usage before inclusion in public directories.",
+      "primary_category": "Other",
+      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
+      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
       "authority": "",
-      "financial_relevance": "None",
-      "confidence": "High (explicit)",
+      "financial_relevance": "Low",
+      "confidence": "High",
       "topics": [
+        "Data Residency",
+        "Data Storage",
         "Data Sharing"
       ],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory.",
+          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in public directories, about the purposes and usage of the directory."
+      "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
     }
   ]
 }
