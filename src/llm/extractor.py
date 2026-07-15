@@ -95,6 +95,7 @@ def _flagged_empty(identifier, reason):
     as a genuinely empty (Low-confidence) section."""
     return {
         "section": identifier,
+        "title": "",
         "primary_category": "Other",
         "summary": f"[extraction failed: {reason}]",
         "dtia_summary": "",
@@ -262,6 +263,7 @@ def _merge_extractions(identifier, parts, truncated):
 
     return {
         "section": identifier,
+        "title": next((p.get("title", "") for p in parts if p.get("title")), ""),
         "primary_category": category,
         "summary": _dedup_join((p.get("summary", "") for p in parts), 1200),
         "dtia_summary": _dedup_join(

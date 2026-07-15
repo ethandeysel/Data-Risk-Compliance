@@ -106,6 +106,7 @@ def merge_section(parsed, llm):
     return {
         "section": str(parsed["identifier"]),
         "heading": parsed.get("heading", ""),
+        "title": llm.get("title", ""),
         "chapter": parsed.get("chapter", ""),
         "part": parsed.get("part", ""),
         "condition": parsed.get("condition", ""),

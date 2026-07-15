@@ -164,9 +164,12 @@ LLM_PROVIDER=gemini python -m scripts.04_extract_llm
 `DTIA_Compliance_Database.xlsx` with:
 
 - **Query** — the DTIA query engine: dropdowns (Country, Category, Topic,
-  Data Type, Financial Relevance, Authority) plus a keyword box, over a
-  live `FILTER()` that returns matching sections **with Act and page
-  reference**. Requires Excel 365 (dynamic arrays).
+  Data Type, Financial Relevance, Authority) plus a keyword box, returning
+  matching sections **with Act, page reference, a scannable model-written
+  heading, and a clickable "Open PDF" link to the source act** so any
+  result can be verified against the original text.
+- **Data Transfer** — pick two countries; see every relevant section from
+  either side of the transfer (same columns and PDF links as Query).
 - **Compliance Database** — every extracted section, one row each.
 - **Acts / Regulators / Topics** — rollups.
 

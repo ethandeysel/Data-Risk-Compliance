@@ -23,6 +23,17 @@ WRAP_COLUMNS = {
 }
 
 
+def _result_formula(header, match, col, last):
+    """The formula for one result cell, pulled from the Compliance Database
+    by the given MATCH.  The Source column becomes a clickable PDF link;
+    everything else is a plain INDEX (IF/ISNA/INDEX/MATCH only — no
+    functions newer than 2003)."""
+    index = f"INDEX('Compliance Database'!${col}$2:${col}${last},{match})"
+    if header == "Source":
+        return f'=IF(ISNA({match}),"",HYPERLINK({index},"Open PDF"))'
+    return f'=IF(ISNA({match}),"",{index})'
+
+
 class ExcelWriter:
 
     def __init__(self, workbook, loader):
@@ -92,6 +103,16 @@ class ExcelWriter:
                 for cell in ws[letter][1:]:
                     cell.alignment = WRAP
 
+        # Turn the Source path column into clickable "Open PDF" links.
+        if "Source" in columns:
+            letter = get_column_letter(columns.index("Source") + 1)
+            for cell in ws[letter][1:]:
+                if cell.value:
+                    cell.hyperlink = cell.value
+                    cell.value = "Open PDF"
+                    cell.font = Font(color="0563C1", underline="single")
+            ws.column_dimensions[letter].width = 12
+
     # =================================================================
     # QUERY ENGINE
     # =================================================================
@@ -157,11 +178,8 @@ class ExcelWriter:
             match = f"MATCH({k},Engine!$C$2:$C${last},0)"
             for idx in range(1, len(headers) + 1):
                 col = get_column_letter(idx)
-                # IF/ISNA/INDEX/MATCH only — no functions newer than 2003.
-                ws.cell(r, idx).value = (
-                    f'=IF(ISNA({match}),"",'
-                    f"INDEX('Compliance Database'!${col}$2:${col}${last},"
-                    f"{match}))"
+                ws.cell(r, idx).value = _result_formula(
+                    headers[idx - 1], match, col, last
                 )
                 if headers[idx - 1] in WRAP_COLUMNS:
                     ws.cell(r, idx).alignment = WRAP
@@ -281,10 +299,8 @@ class ExcelWriter:
             match = f"MATCH({k},'Transfer Engine'!$C$2:$C${last},0)"
             for idx in range(1, len(headers) + 1):
                 col = get_column_letter(idx)
-                ws.cell(r, idx).value = (
-                    f'=IF(ISNA({match}),"",'
-                    f"INDEX('Compliance Database'!${col}$2:${col}${last},"
-                    f"{match}))"
+                ws.cell(r, idx).value = _result_formula(
+                    headers[idx - 1], match, col, last
                 )
                 if headers[idx - 1] in WRAP_COLUMNS:
                     ws.cell(r, idx).alignment = WRAP

@@ -17,7 +17,7 @@ COLUMNS = [
     "Country", "Act", "Section", "Heading", "Pages", "Category",
     "Financial Relevance", "Confidence", "Topics", "Data Types",
     "Authority", "Summary", "DTIA Summary", "Requirements",
-    "Source Quote",
+    "Source Quote", "Source",
 ]
 
 
@@ -132,7 +132,9 @@ class DataLoader:
             "Country": country,
             "Act": act,
             "Section": section.get("section", ""),
-            "Heading": section.get("heading", ""),
+            # Prefer the model's plain-language title; fall back to the raw
+            # parsed heading (which is blank/uninformative for many docs).
+            "Heading": section.get("title") or section.get("heading", ""),
             "Pages": _pages(section),
             "Category": category,
             "Financial Relevance": relevance,
@@ -144,6 +146,9 @@ class DataLoader:
             "DTIA Summary": section.get("dtia_summary", ""),
             "Requirements": _requirements_text(section),
             "Source Quote": section.get("source_quote", ""),
+            # Relative path to the source PDF (workbook lives at the repo
+            # root, alongside data/).  Rendered as a clickable link.
+            "Source": f"data/acts/{country}/{act}.pdf",
         })
 
     # -----------------------------------------------------------------

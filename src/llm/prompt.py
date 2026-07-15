@@ -56,10 +56,11 @@ Convert each legislative section into structured JSON. Rules:
 - Ignore page headers, indexes, tables of contents, editorial/historical notes and repealed provisions. Do NOT ignore definitions.
 
 Return VALID JSON ONLY, no markdown or commentary, in this exact shape:
-{{"extractions":[{{"section":"","primary_category":"","summary":"","dtia_summary":"","financial_relevance":"","confidence":"","topics":[],"data_types":[],"requirements":[{{"text":"","obligation_type":""}}],"authority":"","source_quote":""}}]}}
+{{"extractions":[{{"section":"","title":"","primary_category":"","summary":"","dtia_summary":"","financial_relevance":"","confidence":"","topics":[],"data_types":[],"requirements":[{{"text":"","obligation_type":""}}],"authority":"","source_quote":""}}]}}
 
 Field rules:
 - section: the section identifier given to you.
+- title: a concise plain-language description (6-12 words) of what this section actually covers, suitable as a scannable heading in a results table. Describe the substance, not the section number; not a full sentence. E.g. "Cross-border transfer of personal data: adequacy and safeguards".
 - primary_category: EXACTLY ONE of: {", ".join(CATEGORIES)}.
 - summary: 2-4 complete sentences (roughly 40-90 words) stating what the section actually does — the specific obligations, prohibitions, permissions and conditions it creates, and who they apply to. Be concrete and self-contained; do NOT merely restate the heading or write "this section deals with X".
 - dtia_summary: 1-3 sentences on why this section matters for a Data Transfer Impact Assessment — the specific safeguards, conditions or restrictions bearing on transferring, storing or processing data across borders or with third parties. "" only if genuinely irrelevant to a DTIA.
