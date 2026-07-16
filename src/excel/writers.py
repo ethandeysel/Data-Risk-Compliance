@@ -75,15 +75,19 @@ class ExcelWriter:
         override = os.getenv("EXCEL_ROW_HEIGHT")
         if override:
             return min(int(override), _EXCEL_MAX_ROW_HEIGHT)
-        counts = [1]
+        chars = 95  # approx chars per line at the Requirements column width
+        line_counts = [1]
         if "Requirements" in self.loader.df.columns:
-            counts += [
-                str(t).count("\n") + 1
-                for t in self.loader.df["Requirements"] if t
-            ]
-        counts.sort()
-        lines = counts[int(0.9 * (len(counts) - 1))]
-        return min(15 * lines + 8, 240)
+            for text in self.loader.df["Requirements"]:
+                if not text:
+                    continue
+                line_counts.append(sum(
+                    max(1, math.ceil(len(line) / chars))
+                    for line in str(text).split("\n")
+                ))
+        line_counts.sort()
+        lines = line_counts[int(0.9 * (len(line_counts) - 1))]
+        return min(15 * lines + 8, 260)
 
     def build(self):
         self.write_lists()

@@ -41,9 +41,10 @@ def _pages(section):
     return str(start)
 
 
-# Keep each requirement to roughly one line at the Requirements column
-# width, so the checklist stays scannable and rows stay a sane height.
-_REQ_MAX_CHARS = int(os.getenv("REQUIREMENT_MAX_CHARS", "100"))
+# Safety cap on a single requirement's length — high enough that real
+# requirements show in full and only a pathologically long one is trimmed
+# (the prompt already asks for concise, ~20-word requirements).
+_REQ_MAX_CHARS = int(os.getenv("REQUIREMENT_MAX_CHARS", "350"))
 
 
 def _one_line(text):
