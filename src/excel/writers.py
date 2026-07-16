@@ -21,12 +21,24 @@ from openpyxl.worksheet.datavalidation import DataValidation
 _EXCEL_MAX_ROW_HEIGHT = 409
 
 from .workbook import finish_sheet
-from .styles import TITLE_FONT, TITLE_FILL, HEADER_FILL, HEADER_FONT, WRAP
+from .styles import (
+    TITLE_FONT, TITLE_FILL, HEADER_FILL, HEADER_FONT, WRAP, THIN_BORDER,
+)
 
 WRAP_COLUMNS = {
     "Heading", "Topics", "Data Types", "Summary", "DTIA Summary",
     "Requirements", "Source Quote",
 }
+
+
+def _col_width(name):
+    """Display width per column — Requirements is widest so each one-line
+    requirement fits without wrapping."""
+    if name == "Requirements":
+        return 100
+    if name in WRAP_COLUMNS:
+        return 45
+    return 18
 
 
 def _result_formula(header, match, col, last):
@@ -54,24 +66,24 @@ class ExcelWriter:
         )
 
     def _result_row_height(self):
-        """Row height (pts) that shows the full requirements list of the
-        section with the most requirements — capped at Excel's 409pt limit.
-        Override with EXCEL_ROW_HEIGHT."""
+        """Uniform result-row height (pts).  Every result row is the same
+        height (a dynamic query can't auto-fit per row), so we size to the
+        90th-percentile requirements list — one line per requirement — so
+        most rows show fully while the rare huge section (read it in full on
+        the Compliance Database sheet) clips instead of making every row
+        enormous.  Override with EXCEL_ROW_HEIGHT."""
         override = os.getenv("EXCEL_ROW_HEIGHT")
         if override:
             return min(int(override), _EXCEL_MAX_ROW_HEIGHT)
-        chars = 62  # approx chars per line at the Requirements column width
-        max_lines = 1
+        counts = [1]
         if "Requirements" in self.loader.df.columns:
-            for text in self.loader.df["Requirements"]:
-                if not text:
-                    continue
-                lines = sum(
-                    max(1, math.ceil(len(line) / chars))
-                    for line in str(text).split("\n")
-                )
-                max_lines = max(max_lines, lines)
-        return min(15 * max_lines + 6, _EXCEL_MAX_ROW_HEIGHT)
+            counts += [
+                str(t).count("\n") + 1
+                for t in self.loader.df["Requirements"] if t
+            ]
+        counts.sort()
+        lines = counts[int(0.9 * (len(counts) - 1))]
+        return min(15 * lines + 8, 240)
 
     def build(self):
         self.write_lists()
@@ -131,7 +143,7 @@ class ExcelWriter:
         for idx, name in enumerate(columns, start=1):
             if name in WRAP_COLUMNS:
                 letter = get_column_letter(idx)
-                ws.column_dimensions[letter].width = 45
+                ws.column_dimensions[letter].width = _col_width(name)
                 for cell in ws[letter][1:]:
                     cell.alignment = WRAP
 
@@ -203,6 +215,7 @@ class ExcelWriter:
             c = ws.cell(13, idx, name)
             c.fill = HEADER_FILL
             c.font = HEADER_FONT
+            c.border = THIN_BORDER
 
         row_height = self._result_row_height()
         for r in range(14, 14 + n):
@@ -210,18 +223,19 @@ class ExcelWriter:
             match = f"MATCH({k},Engine!$C$2:$C${last},0)"
             for idx in range(1, len(headers) + 1):
                 col = get_column_letter(idx)
-                ws.cell(r, idx).value = _result_formula(
+                cell = ws.cell(r, idx)
+                cell.value = _result_formula(
                     headers[idx - 1], match, col, last
                 )
+                cell.border = THIN_BORDER
                 if headers[idx - 1] in WRAP_COLUMNS:
-                    ws.cell(r, idx).alignment = WRAP
+                    cell.alignment = WRAP
             # Formula cells do not auto-fit height, so size each result row
             # to the busiest requirements list (capped at Excel's limit).
             ws.row_dimensions[r].height = row_height
 
         for idx, name in enumerate(headers, start=1):
-            width = 45 if name in WRAP_COLUMNS else 18
-            ws.column_dimensions[get_column_letter(idx)].width = width
+            ws.column_dimensions[get_column_letter(idx)].width = _col_width(name)
         ws.column_dimensions["A"].width = 16
         ws.freeze_panes = "A14"
 
@@ -334,6 +348,7 @@ class ExcelWriter:
             c = ws.cell(9, idx, name)
             c.fill = HEADER_FILL
             c.font = HEADER_FONT
+            c.border = THIN_BORDER
 
         row_height = self._result_row_height()
         for r in range(10, 10 + n):
@@ -341,16 +356,17 @@ class ExcelWriter:
             match = f"MATCH({k},'Transfer Engine'!$C$2:$C${last},0)"
             for idx in range(1, len(headers) + 1):
                 col = get_column_letter(idx)
-                ws.cell(r, idx).value = _result_formula(
+                cell = ws.cell(r, idx)
+                cell.value = _result_formula(
                     headers[idx - 1], match, col, last
                 )
+                cell.border = THIN_BORDER
                 if headers[idx - 1] in WRAP_COLUMNS:
-                    ws.cell(r, idx).alignment = WRAP
+                    cell.alignment = WRAP
             ws.row_dimensions[r].height = row_height
 
         for idx, name in enumerate(headers, start=1):
-            width = 45 if name in WRAP_COLUMNS else 18
-            ws.column_dimensions[get_column_letter(idx)].width = width
+            ws.column_dimensions[get_column_letter(idx)].width = _col_width(name)
         ws.column_dimensions["A"].width = 18
         ws.freeze_panes = "A10"
 

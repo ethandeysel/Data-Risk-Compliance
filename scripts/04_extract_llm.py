@@ -32,8 +32,10 @@ try:
 except (AttributeError, ValueError):
     pass
 
+from concurrent.futures import ThreadPoolExecutor
+
 from src.llm.client import (
-    BATCH_SECTIONS, BATCH_TOKENS, describe, estimate_tokens,
+    BATCH_SECTIONS, BATCH_TOKENS, CONCURRENCY, describe, estimate_tokens,
 )
 from src.llm.extractor import extract_batch, extract_large_section, is_oversized
 from src.llm.prompt import CATEGORIES, DATA_TYPES, TOPICS
@@ -148,32 +150,40 @@ def extract_document(document):
 
     normal = [s for s in sections if not is_oversized(s)]
     large = [s for s in sections if is_oversized(s)]
-
-    lookup = {}
-
     batches = list(pack_batches(normal))
-    for i, section_batch in enumerate(batches, 1):
+
+    # One unit of work per batch and per oversized section; each returns an
+    # {"extractions": [...]} dict.  Units are independent, so with
+    # LLM_CONCURRENCY > 1 they run in parallel to use the GPU better.
+    def run_batch(section_batch):
         print(
-            f"  batch {i}/{len(batches)} "
-            f"({len(section_batch)} sections, "
-            f"{section_batch[0]['identifier']}–"
-            f"{section_batch[-1]['identifier']})",
+            f"  batch ({len(section_batch)} sections, "
+            f"{section_batch[0]['identifier']}–{section_batch[-1]['identifier']})",
             flush=True,
         )
-        result = extract_batch(section_batch, country, act)
-        for item in result.get("extractions", []):
-            lookup[str(item.get("section", ""))] = item
+        return extract_batch(section_batch, country, act)
 
-    for j, section in enumerate(large, 1):
+    def run_large(section):
         ktok = estimate_tokens(section.get("text", "")) // 1000
         print(
-            f"  large section {j}/{len(large)}: {section['identifier']} "
+            f"  large section {section['identifier']} "
             f"(~{ktok}k tokens, chunking)",
             flush=True,
         )
-        lookup[str(section["identifier"])] = extract_large_section(
-            section, country, act
-        )
+        return {"extractions": [extract_large_section(section, country, act)]}
+
+    units = [(run_batch, b) for b in batches] + [(run_large, s) for s in large]
+
+    if CONCURRENCY > 1 and len(units) > 1:
+        with ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
+            results = list(pool.map(lambda u: u[0](u[1]), units))
+    else:
+        results = [fn(arg) for fn, arg in units]
+
+    lookup = {}
+    for result in results:
+        for item in result.get("extractions", []):
+            lookup[str(item.get("section", ""))] = item
 
     # Rebuild in the document's original section order.
     return [

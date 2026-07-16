@@ -41,9 +41,21 @@ def _pages(section):
     return str(start)
 
 
+# Keep each requirement to roughly one line at the Requirements column
+# width, so the checklist stays scannable and rows stay a sane height.
+_REQ_MAX_CHARS = int(os.getenv("REQUIREMENT_MAX_CHARS", "100"))
+
+
+def _one_line(text):
+    text = " ".join(text.split())  # collapse any internal newlines/spaces
+    if len(text) > _REQ_MAX_CHARS:
+        text = text[:_REQ_MAX_CHARS - 1].rstrip() + "…"
+    return text
+
+
 def _requirements_text(section):
-    """Render a section's requirements as a bulleted checklist, one per
-    line, so multiple requirements read as a list rather than a blob."""
+    """Render a section's requirements as a bulleted checklist, one line
+    each (truncated to keep rows manageable)."""
     parts = []
     for req in section.get("requirements", []):
         if isinstance(req, dict):
@@ -51,9 +63,10 @@ def _requirements_text(section):
             otype = req.get("obligation_type", "").strip()
             if not text:
                 continue
-            parts.append(f"• [{otype}] {text}" if otype else f"• {text}")
+            prefix = f"• [{otype}] " if otype else "• "
+            parts.append(prefix + _one_line(text))
         elif str(req).strip():
-            parts.append(f"• {str(req).strip()}")
+            parts.append("• " + _one_line(str(req).strip()))
     return "\n".join(parts)
 
 

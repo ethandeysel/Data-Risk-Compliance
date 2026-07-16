@@ -24,6 +24,7 @@ the pipeline can be tuned without editing code:
 """
 
 import os
+import threading
 
 try:
     from dotenv import load_dotenv
@@ -53,6 +54,11 @@ KEEP_ALIVE = os.getenv("LLM_KEEP_ALIVE", "30m")
 # the batch is retried, and if it keeps failing the section is flagged and
 # the run moves on.  Generous by default so legitimate slow calls survive.
 TIMEOUT = int(os.getenv("LLM_TIMEOUT", "300"))
+
+# How many batches to send to Ollama at once.  1 = serial (default).
+# Higher values use an idle GPU better and cut wall-clock — set the Ollama
+# server's OLLAMA_NUM_PARALLEL to at least this, or the requests just queue.
+CONCURRENCY = max(1, int(os.getenv("LLM_CONCURRENCY", "1")))
 
 # GPU layer offload.  Ollama already offloads as many layers as fit the
 # card automatically, so this is left unset by default.  Set it to force a
@@ -106,14 +112,17 @@ def context_window(prompt_tokens: int) -> int:
 # ----------------------------------------------------------------------
 
 _ollama_client = None
+_ollama_lock = threading.Lock()
 
 
 def _ollama_generate(system: str, prompt: str) -> str:
     global _ollama_client
     if _ollama_client is None:
-        from ollama import Client
-        # timeout so a single hung/runaway request cannot stall the run.
-        _ollama_client = Client(host=HOST, timeout=TIMEOUT)
+        with _ollama_lock:
+            if _ollama_client is None:
+                from ollama import Client
+                # timeout so one hung request cannot stall the whole run.
+                _ollama_client = Client(host=HOST, timeout=TIMEOUT)
 
     num_ctx = context_window(
         estimate_tokens(system) + estimate_tokens(prompt)
