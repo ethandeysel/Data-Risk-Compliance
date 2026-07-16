@@ -7,8 +7,18 @@ value lists used for the Query sheet dropdowns.
 
 from pathlib import Path
 import json
+import os
+import urllib.parse
 
 import pandas as pd
+
+# Base URL the Source link points at.  Defaults to the GitHub copy so the
+# link works even when the workbook is not on the machine that holds the
+# PDFs; override with PDF_BASE_URL (e.g. a local "file:///…/" path).
+PDF_BASE_URL = os.getenv(
+    "PDF_BASE_URL",
+    "https://github.com/ethandeysel/Data-Risk-Compliance/blob/main/",
+)
 
 
 # Column order for the Compliance Database / Query result.  Kept
@@ -32,15 +42,25 @@ def _pages(section):
 
 
 def _requirements_text(section):
+    """Render a section's requirements as a bulleted checklist, one per
+    line, so multiple requirements read as a list rather than a blob."""
     parts = []
     for req in section.get("requirements", []):
         if isinstance(req, dict):
-            text = req.get("text", "")
-            otype = req.get("obligation_type", "")
-            parts.append(f"[{otype}] {text}" if otype else text)
-        else:
-            parts.append(str(req))
-    return "\n\n".join(p for p in parts if p)
+            text = req.get("text", "").strip()
+            otype = req.get("obligation_type", "").strip()
+            if not text:
+                continue
+            parts.append(f"• [{otype}] {text}" if otype else f"• {text}")
+        elif str(req).strip():
+            parts.append(f"• {str(req).strip()}")
+    return "\n".join(parts)
+
+
+def _source_url(country, act):
+    """Link to the source PDF (GitHub by default; see PDF_BASE_URL)."""
+    rel = f"data/acts/{country}/{act}.pdf"
+    return PDF_BASE_URL + urllib.parse.quote(rel)
 
 
 class DataLoader:
@@ -146,9 +166,7 @@ class DataLoader:
             "DTIA Summary": section.get("dtia_summary", ""),
             "Requirements": _requirements_text(section),
             "Source Quote": section.get("source_quote", ""),
-            # Relative path to the source PDF (workbook lives at the repo
-            # root, alongside data/).  Rendered as a clickable link.
-            "Source": f"data/acts/{country}/{act}.pdf",
+            "Source": _source_url(country, act),
         })
 
     # -----------------------------------------------------------------

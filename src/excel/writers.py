@@ -183,6 +183,9 @@ class ExcelWriter:
                 )
                 if headers[idx - 1] in WRAP_COLUMNS:
                     ws.cell(r, idx).alignment = WRAP
+            # Formula cells do not auto-fit height, so give each result row
+            # enough room to show several wrapped requirement lines.
+            ws.row_dimensions[r].height = 54
 
         for idx, name in enumerate(headers, start=1):
             width = 45 if name in WRAP_COLUMNS else 18
@@ -304,6 +307,7 @@ class ExcelWriter:
                 )
                 if headers[idx - 1] in WRAP_COLUMNS:
                     ws.cell(r, idx).alignment = WRAP
+            ws.row_dimensions[r].height = 54
 
         for idx, name in enumerate(headers, start=1):
             width = 45 if name in WRAP_COLUMNS else 18
