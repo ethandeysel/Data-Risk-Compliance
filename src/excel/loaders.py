@@ -24,7 +24,7 @@ PDF_BASE_URL = os.getenv(
 # Column order for the Compliance Database / Query result.  Kept
 # query-friendly: identity first, then the fields a DTIA answer cites.
 COLUMNS = [
-    "Country", "Act", "Section", "Heading", "Pages", "Category",
+    "Country", "Act", "Section", "Heading", "Pages",
     "Financial Relevance", "Confidence", "Topics", "Data Types",
     "Authority", "Summary", "DTIA Summary", "Requirements",
     "Source Quote", "Source",

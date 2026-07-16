@@ -40,6 +40,13 @@ class ExcelWriter:
         self.wb = workbook
         self.loader = loader
 
+    def _col(self, name):
+        """Compliance Database column letter for a field, by name — so the
+        Engine formulas never depend on a hardcoded column position."""
+        return get_column_letter(
+            list(self.loader.df.columns).index(name) + 1
+        )
+
     def build(self):
         self.write_lists()
         self.write_database()
@@ -63,7 +70,6 @@ class ExcelWriter:
         self._list_ranges = {}
         columns = [
             ("Country", self.loader.country_list),
-            ("Category", self.loader.category_list),
             ("Topic", self.loader.topic_list),
             ("Data Type", self.loader.datatype_list),
             ("Financial Relevance", self.loader.relevance_list),
@@ -132,12 +138,11 @@ class ExcelWriter:
         # Filter label -> (input cell, Lists header or None for free text)
         filters = [
             ("Country", "B4", "Country"),
-            ("Category", "B5", "Category"),
-            ("Topic", "B6", "Topic"),
-            ("Data Type", "B7", "Data Type"),
-            ("Financial Relevance", "B8", "Financial Relevance"),
-            ("Authority", "B9", "Authority"),
-            ("Keyword (free text)", "B10", None),
+            ("Topic", "B5", "Topic"),
+            ("Data Type", "B6", "Data Type"),
+            ("Financial Relevance", "B7", "Financial Relevance"),
+            ("Authority", "B8", "Authority"),
+            ("Keyword (free text)", "B9", None),
         ]
 
         for label, cell, list_header in filters:
@@ -208,21 +213,27 @@ class ExcelWriter:
         ws["C1"] = "rankval"
         ws["D1"] = f'=SUM($A$2:$A${last})'   # total matches (shown on Query)
 
+        C = self._col
         for i in range(2, last + 1):
-            # Column map on Compliance Database:
-            # A Country F Category G FinRelevance I Topics J DataTypes
-            # K Authority ; keyword searches D,L,M,N,O.
+            keyword = '&" "&'.join(
+                f"{db}!${C(name)}{i}" for name in (
+                    "Heading", "Summary", "DTIA Summary",
+                    "Requirements", "Source Quote",
+                )
+            )
+            # Filters: B4 Country, B5 Topic, B6 Data Type,
+            # B7 Financial Relevance, B8 Authority, B9 keyword.
             ws.cell(i, 1).value = (
                 "=IF(AND("
-                f'OR(Query!$B$4="All",{db}!$A{i}=Query!$B$4),'
-                f'OR(Query!$B$5="All",{db}!$F{i}=Query!$B$5),'
-                f'OR(Query!$B$6="All",ISNUMBER(SEARCH(Query!$B$6,{db}!$I{i}))),'
-                f'OR(Query!$B$7="All",ISNUMBER(SEARCH(Query!$B$7,{db}!$J{i}))),'
-                f'OR(Query!$B$8="All",{db}!$G{i}=Query!$B$8),'
-                f'OR(Query!$B$9="All",{db}!$K{i}=Query!$B$9),'
-                f'OR(Query!$B$10="",ISNUMBER(SEARCH(Query!$B$10,'
-                f'{db}!$D{i}&" "&{db}!$L{i}&" "&{db}!$M{i}&" "&'
-                f'{db}!$N{i}&" "&{db}!$O{i})))'
+                f'OR(Query!$B$4="All",{db}!${C("Country")}{i}=Query!$B$4),'
+                f'OR(Query!$B$5="All",ISNUMBER(SEARCH(Query!$B$5,'
+                f'{db}!${C("Topics")}{i}))),'
+                f'OR(Query!$B$6="All",ISNUMBER(SEARCH(Query!$B$6,'
+                f'{db}!${C("Data Types")}{i}))),'
+                f'OR(Query!$B$7="All",'
+                f'{db}!${C("Financial Relevance")}{i}=Query!$B$7),'
+                f'OR(Query!$B$8="All",{db}!${C("Authority")}{i}=Query!$B$8),'
+                f'OR(Query!$B$9="",ISNUMBER(SEARCH(Query!$B$9,{keyword})))'
                 "),1,0)"
             )
             # Running rank of matches; C mirrors it as a number for MATCH.
@@ -331,17 +342,22 @@ class ExcelWriter:
         ws["C1"] = "rankval"
         ws["D1"] = f'=SUM($A$2:$A${last})'
 
+        C = self._col
+        country = C("Country")
         for i in range(2, last + 1):
-            # Row kept if its Country (Compliance Database col A) is either
-            # selected country, and the optional keyword hits its text
-            # (cols D Heading, L Summary, M DTIA Summary, N Requirements,
-            # O Source Quote).
+            keyword = '&" "&'.join(
+                f"{db}!${C(name)}{i}" for name in (
+                    "Heading", "Summary", "DTIA Summary",
+                    "Requirements", "Source Quote",
+                )
+            )
+            # Row kept if its Country is either selected country and the
+            # optional keyword hits its text.
             ws.cell(i, 1).value = (
                 "=IF(AND("
-                f'OR({db}!$A{i}={q}!$B$4,{db}!$A{i}={q}!$B$5),'
-                f'OR({q}!$B$6="",ISNUMBER(SEARCH({q}!$B$6,'
-                f'{db}!$D{i}&" "&{db}!$L{i}&" "&{db}!$M{i}&" "&'
-                f'{db}!$N{i}&" "&{db}!$O{i})))'
+                f'OR({db}!${country}{i}={q}!$B$4,'
+                f'{db}!${country}{i}={q}!$B$5),'
+                f'OR({q}!$B$6="",ISNUMBER(SEARCH({q}!$B$6,{keyword})))'
                 "),1,0)"
             )
             ws.cell(i, 2).value = f'=IF($A{i}=1,SUM($A$2:$A{i}),"")'
