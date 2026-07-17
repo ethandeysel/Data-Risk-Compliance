@@ -24,6 +24,10 @@ from .workbook import finish_sheet
 from .styles import (
     TITLE_FONT, TITLE_FILL, HEADER_FILL, HEADER_FONT, WRAP, THIN_BORDER,
 )
+from .loaders import SOURCE_LINK
+
+# Link text for the Source column — matches where the link points.
+_SOURCE_LABEL = "Open PDF" if SOURCE_LINK == "pdf" else "Go to Act"
 
 WRAP_COLUMNS = {
     "Heading", "Topics", "Data Types", "Summary", "DTIA Summary",
@@ -48,7 +52,7 @@ def _result_formula(header, match, col, last):
     functions newer than 2003)."""
     index = f"INDEX('Compliance Database'!${col}$2:${col}${last},{match})"
     if header == "Source":
-        return f'=IF(ISNA({match}),"",HYPERLINK({index},"Open PDF"))'
+        return f'=IF(ISNA({match}),"",HYPERLINK({index},"{_SOURCE_LABEL}"))'
     return f'=IF(ISNA({match}),"",{index})'
 
 
@@ -151,15 +155,17 @@ class ExcelWriter:
                 for cell in ws[letter][1:]:
                     cell.alignment = WRAP
 
-        # Turn the Source path column into clickable "Open PDF" links.
+        # Make the Source column clickable WITHOUT changing its value — the
+        # Query INDEXes this column, so the cell must still hold the real
+        # link target (overwriting it with "Open PDF" is what broke the
+        # Query links).
         if "Source" in columns:
             letter = get_column_letter(columns.index("Source") + 1)
             for cell in ws[letter][1:]:
                 if cell.value:
                     cell.hyperlink = cell.value
-                    cell.value = "Open PDF"
                     cell.font = Font(color="0563C1", underline="single")
-            ws.column_dimensions[letter].width = 12
+            ws.column_dimensions[letter].width = 22
 
     # =================================================================
     # QUERY ENGINE
@@ -203,6 +209,14 @@ class ExcelWriter:
             else:
                 target.value = ""
             target.fill = HEADER_FILL
+
+        # Yes/No toggle to hide sections with "None" financial relevance.
+        ws.cell(10, 1, "Hide non-financial (None)").font = Font(bold=True)
+        ws["B10"] = "No"
+        dv = DataValidation(type="list", formula1='"Yes,No"', allow_blank=True)
+        ws.add_data_validation(dv)
+        dv.add(ws["B10"])
+        ws["B10"].fill = HEADER_FILL
 
         # Results: classic INDEX/MATCH pulled from the hidden Engine sheet
         # (works in every Excel version — no dynamic arrays).
@@ -278,7 +292,9 @@ class ExcelWriter:
                 f'OR(Query!$B$7="All",'
                 f'{db}!${C("Financial Relevance")}{i}=Query!$B$7),'
                 f'OR(Query!$B$8="All",{db}!${C("Authority")}{i}=Query!$B$8),'
-                f'OR(Query!$B$9="",ISNUMBER(SEARCH(Query!$B$9,{keyword})))'
+                f'OR(Query!$B$9="",ISNUMBER(SEARCH(Query!$B$9,{keyword}))),'
+                f'OR(Query!$B$10<>"Yes",'
+                f'{db}!${C("Financial Relevance")}{i}<>"None")'
                 "),1,0)"
             )
             # Running rank of matches; C mirrors it as a number for MATCH.

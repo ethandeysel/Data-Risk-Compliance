@@ -183,7 +183,10 @@ def extract_document(document):
     lookup = {}
     for result in results:
         for item in result.get("extractions", []):
-            lookup[str(item.get("section", ""))] = item
+            # The model occasionally emits a bare string instead of an
+            # object; skip it rather than crash the whole run.
+            if isinstance(item, dict):
+                lookup[str(item.get("section", ""))] = item
 
     # Rebuild in the document's original section order.
     return [

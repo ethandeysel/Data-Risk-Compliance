@@ -3,22 +3,38 @@ Loads the extracted compliance JSON (stage 04) into the datasets the
 Excel exporter needs: one flat row per section (with page references for
 citation), plus per-act / per-regulator / per-topic rollups and the
 value lists used for the Query sheet dropdowns.
+
+Post-processing (all on by default, toggle with env vars) cleans the raw
+4b output before it reaches the workbook:
+  * POST_FIN_FLOOR  — a section with a financial topic/keyword can't stay
+                      financial_relevance "None"
+  * POST_DEDUP      — drop content-identical duplicate rows within an act
+                      (the parser's page-split parts often extract the same)
+  * POST_DROP_NOISE — drop sections with no topics, requirements, DTIA
+                      summary or authority (definitions / stray page text)
 """
 
 from pathlib import Path
 import json
 import os
+import re
 import urllib.parse
 
 import pandas as pd
 
-# Base URL the Source link points at.  Defaults to the GitHub copy so the
-# link works even when the workbook is not on the machine that holds the
-# PDFs; override with PDF_BASE_URL (e.g. a local "file:///…/" path).
+# Where the Source link points.  "acts" (default) = an internal link to the
+# section's row on the Acts sheet (always works, wherever the workbook
+# lives).  "pdf" = the GitHub copy of the source PDF (see PDF_BASE_URL).
+SOURCE_LINK = os.getenv("SOURCE_LINK", "acts").lower()
 PDF_BASE_URL = os.getenv(
     "PDF_BASE_URL",
     "https://github.com/ethandeysel/Data-Risk-Compliance/blob/main/",
 )
+
+# Post-processing toggles.
+POST_FIN_FLOOR = os.getenv("POST_FIN_FLOOR", "1") == "1"
+POST_DEDUP = os.getenv("POST_DEDUP", "1") == "1"
+POST_DROP_NOISE = os.getenv("POST_DROP_NOISE", "1") == "1"
 
 
 # Column order for the Compliance Database / Query result.  Kept
@@ -29,6 +45,13 @@ COLUMNS = [
     "Authority", "Summary", "DTIA Summary", "Requirements",
     "Source Quote", "Source",
 ]
+
+# Topics that make a section financially relevant on their own.
+_FIN_TOPICS = {"Financial Data", "KYC", "AML", "Customer Information"}
+_FIN_KEYWORDS = re.compile(
+    r"\b(bank|insur|payment|financ|invest|securit|taxation|credit|"
+    r"monetary|deposit|lending)", re.IGNORECASE,
+)
 
 
 def _pages(section):
@@ -42,8 +65,7 @@ def _pages(section):
 
 
 # Safety cap on a single requirement's length — high enough that real
-# requirements show in full and only a pathologically long one is trimmed
-# (the prompt already asks for concise, ~20-word requirements).
+# requirements show in full and only a pathologically long one is trimmed.
 _REQ_MAX_CHARS = int(os.getenv("REQUIREMENT_MAX_CHARS", "350"))
 
 
@@ -71,10 +93,25 @@ def _requirements_text(section):
     return "\n".join(parts)
 
 
-def _source_url(country, act):
-    """Link to the source PDF (GitHub by default; see PDF_BASE_URL)."""
+def _pdf_url(country, act):
     rel = f"data/acts/{country}/{act}.pdf"
     return PDF_BASE_URL + urllib.parse.quote(rel)
+
+
+def _financial_signal(row):
+    """'topic' if the section carries a financial topic, 'keyword' if only
+    its text hints financial, else None."""
+    topics = {t.strip() for t in row["Topics"].split(",") if t.strip()}
+    if topics & _FIN_TOPICS:
+        return "topic"
+    blob = f"{row['Heading']} {row['Summary']} {row['Requirements']}"
+    return "keyword" if _FIN_KEYWORDS.search(blob) else None
+
+
+def _signal_score(row):
+    """How many of topics/requirements/DTIA-summary/authority are present."""
+    return sum(bool(str(row[c]).strip()) for c in
+               ("Topics", "Requirements", "DTIA Summary", "Authority"))
 
 
 class DataLoader:
@@ -86,8 +123,8 @@ class DataLoader:
         self.regulators = {}
         self.topics = {}
         self.data_types = {}
-        self.categories = {}
         self.countries = set()
+        self.raw_rows = 0
 
     # -----------------------------------------------------------------
 
@@ -97,6 +134,11 @@ class DataLoader:
 
         for path in sorted(self.folder.rglob("*.json")):
             self._load_document(path)
+
+        self.raw_rows = len(self.rows)
+        self._postprocess()
+        self._build_rollups()
+        self._set_source_links()
 
         self.df = pd.DataFrame(self.rows, columns=COLUMNS)
         if not self.df.empty:
@@ -115,73 +157,109 @@ class DataLoader:
 
         country = document.get("country", "Unknown")
         act = document.get("document", path.stem)
-        self.countries.add(country)
-
-        act_key = (country, act)
-        act_row = self.acts.setdefault(act_key, {
-            "Country": country, "Act": act, "Sections": 0,
-            "Regulators": set(), "Topics": set(), "Data Types": set(),
-            "Financial Relevance": "",
-        })
-
         for section in document.get("sections", []):
-            self._process_section(country, act, act_row, section)
+            self._process_section(country, act, section)
 
-    # -----------------------------------------------------------------
-
-    def _process_section(self, country, act, act_row, section):
-        act_row["Sections"] += 1
-
-        authority = section.get("authority", "")
-        if authority:
-            act_row["Regulators"].add(authority)
-            reg = self.regulators.setdefault(
-                authority, {"Country": set(), "Acts": set()}
-            )
-            reg["Country"].add(country)
-            reg["Acts"].add(act)
-
-        relevance = section.get("financial_relevance", "")
-        if relevance and relevance not in ("None", "Unknown"):
-            # Keep the highest relevance seen for the act.
-            act_row["Financial Relevance"] = _max_relevance(
-                act_row["Financial Relevance"], relevance
-            )
-
-        category = section.get("primary_category", "")
-        if category:
-            self.categories[category] = self.categories.get(category, 0) + 1
-
+    def _process_section(self, country, act, section):
         topics = section.get("topics", []) or []
-        for topic in topics:
-            act_row["Topics"].add(topic)
-            self.topics[topic] = self.topics.get(topic, 0) + 1
-
         dtypes = section.get("data_types", []) or []
-        for dtype in dtypes:
-            act_row["Data Types"].add(dtype)
-            self.data_types[dtype] = self.data_types.get(dtype, 0) + 1
-
         self.rows.append({
             "Country": country,
             "Act": act,
             "Section": section.get("section", ""),
             # Prefer the model's plain-language title; fall back to the raw
-            # parsed heading (which is blank/uninformative for many docs).
+            # parsed heading (blank/uninformative for many docs).
             "Heading": section.get("title") or section.get("heading", ""),
             "Pages": _pages(section),
-            "Category": category,
-            "Financial Relevance": relevance,
+            "Financial Relevance": section.get("financial_relevance", ""),
             "Confidence": section.get("confidence", ""),
             "Topics": ", ".join(topics),
             "Data Types": ", ".join(dtypes),
-            "Authority": authority,
+            "Authority": section.get("authority", ""),
             "Summary": section.get("summary", ""),
             "DTIA Summary": section.get("dtia_summary", ""),
             "Requirements": _requirements_text(section),
             "Source Quote": section.get("source_quote", ""),
-            "Source": _source_url(country, act),
+            "Source": "",
         })
+
+    # -----------------------------------------------------------------
+    # Post-processing
+    # -----------------------------------------------------------------
+
+    def _postprocess(self):
+        if POST_FIN_FLOOR:
+            for r in self.rows:
+                if str(r["Financial Relevance"]).strip() in (
+                        "", "None", "Unknown"):
+                    sig = _financial_signal(r)
+                    if sig == "topic":
+                        r["Financial Relevance"] = "Medium"
+                    elif sig == "keyword":
+                        r["Financial Relevance"] = "Low"
+
+        if POST_DEDUP:
+            seen, kept = set(), []
+            for r in self.rows:
+                summ, req = r["Summary"].strip(), r["Requirements"].strip()
+                key = (r["Country"], r["Act"], summ, req)
+                if (summ or req) and key in seen:
+                    continue
+                seen.add(key)
+                kept.append(r)
+            self.rows = kept
+
+        if POST_DROP_NOISE:
+            self.rows = [r for r in self.rows if _signal_score(r) > 0]
+
+    def _build_rollups(self):
+        """Rebuild per-act / regulator / topic rollups from the *kept* rows
+        so the Acts sheet and counts match what's actually in the DB."""
+        self.acts, self.regulators = {}, {}
+        self.topics, self.data_types, self.countries = {}, {}, set()
+        for r in self.rows:
+            country, act = r["Country"], r["Act"]
+            self.countries.add(country)
+            a = self.acts.setdefault((country, act), {
+                "Country": country, "Act": act, "Sections": 0,
+                "Regulators": set(), "Topics": set(), "Data Types": set(),
+                "Financial Relevance": "",
+            })
+            a["Sections"] += 1
+
+            auth = r["Authority"].strip()
+            if auth:
+                a["Regulators"].add(auth)
+                reg = self.regulators.setdefault(
+                    auth, {"Country": set(), "Acts": set()})
+                reg["Country"].add(country)
+                reg["Acts"].add(act)
+
+            rel = str(r["Financial Relevance"]).strip()
+            if rel and rel not in ("None", "Unknown"):
+                a["Financial Relevance"] = _max_relevance(
+                    a["Financial Relevance"], rel)
+
+            for t in (x.strip() for x in r["Topics"].split(",") if x.strip()):
+                a["Topics"].add(t)
+                self.topics[t] = self.topics.get(t, 0) + 1
+            for d in (x.strip() for x in r["Data Types"].split(",")
+                      if x.strip()):
+                a["Data Types"].add(d)
+                self.data_types[d] = self.data_types.get(d, 0) + 1
+
+    def _set_source_links(self):
+        """Fill the Source column with the link target for each row."""
+        if SOURCE_LINK == "pdf":
+            for r in self.rows:
+                r["Source"] = _pdf_url(r["Country"], r["Act"])
+            return
+        # Internal link to the act's row on the Acts sheet (built in the
+        # same order write_acts iterates self.acts, so the rows line up).
+        act_row = {key: i + 2 for i, key in enumerate(self.acts)}
+        for r in self.rows:
+            row = act_row.get((r["Country"], r["Act"]))
+            r["Source"] = f"#'Acts'!A{row}" if row else ""
 
     # -----------------------------------------------------------------
 
@@ -192,6 +270,7 @@ class DataLoader:
             "regulators": len(self.regulators),
             "topics": len(self.topics),
             "rows": len(self.rows),
+            "raw_rows": self.raw_rows,
         }
 
     @property
@@ -211,10 +290,6 @@ class DataLoader:
         return sorted(self.data_types.keys())
 
     @property
-    def category_list(self):
-        return sorted(self.categories.keys())
-
-    @property
     def relevance_list(self):
         order = ["High", "Medium", "Low", "None"]
         return [r for r in order if any(
@@ -224,7 +299,8 @@ class DataLoader:
 
 # ---------------------------------------------------------------------
 
-_RELEVANCE_RANK = {"": 0, "None": 0, "Low": 1, "Medium": 2, "High": 3}
+_RELEVANCE_RANK = {"": 0, "None": 0, "Unknown": 0, "Low": 1, "Medium": 2,
+                   "High": 3}
 
 
 def _max_relevance(a, b):
@@ -233,5 +309,4 @@ def _max_relevance(a, b):
 
 def _natural_key(value):
     """Zero-pad numbers so identifiers sort naturally (2 < 10 < 10A)."""
-    import re
     return re.sub(r"\d+", lambda m: m.group().zfill(6), str(value))
