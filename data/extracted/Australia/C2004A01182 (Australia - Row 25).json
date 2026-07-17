@@ -1,51 +1,108 @@
 {
   "country": "Australia",
   "document": "C2004A01182 (Australia - Row 25)",
-  "generated": "2026-07-14T12:40:46",
+  "generated": "2026-07-16T13:25:25",
   "sections": [
     {
       "section": "4",
       "heading": "Vocational Education and Training Funding Act 1992",
+      "title": "Amendment of Vocational Education and Training Funding Act 1992",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "Section 4 of the Australian National Training Authority Amendment Act 2003 establishes the short title of the Act and outlines its commencement dates. It specifies that Sections 1 to 3 and any other provisions not covered by the commencement table commence on 14 October 2003, while Schedule 1 commences on 14 April 2004 and Schedule 2 on 1 January 2004. The Act amends and repeals provisions of the Australian National Training Authority Act 1992.",
+      "summary": "This section amends the Australian National Training Authority Act 1992 by altering membership requirements and definitions within the Australian National Training Authority (ANTA) Agreement. It specifies changes to the number of members, the structure of the agreement, and the procedures for presenting and publishing the agreement to Parliament. The amendments aim to update the ANTA Agreement to replace the 2001-2003 version with a new agreement framework effective from 2004.",
       "dtia_summary": "",
-      "authority": "Commonwealth Minister",
+      "authority": "",
       "financial_relevance": "None",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table.",
+          "text": "Omit '5', substitute '7' in paragraph 24(1)(c)",
           "obligation_type": "Must"
         },
         {
-          "text": "The day on which this Act receives the Royal Assent is 14 October 2003.",
+          "text": "Omit '3', substitute '4' in subsection 24(2)",
           "obligation_type": "Must"
         },
         {
-          "text": "Schedule 1 commences on a single day to be fixed by Proclamation, but no later than 14 April 2004.",
+          "text": "Omit '4 members', substitute '5 members' in subsections 36(3) and (5)",
           "obligation_type": "Must"
         },
         {
-          "text": "Schedule 2 commences on 1 January 2004.",
+          "text": "Omit '4', substitute '5' in section 38",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commonwealth Minister must cause a copy of the agreement and any amendment to the agreement to be laid before each House of the Parliament within 15 sitting days of that House after the agreement is made or amended.",
+          "text": "Repeal the definition of Agreement, substitute a new definition",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commonwealth Minister must cause the Authority to publish the agreement or any amendment of the agreement on its website within 15 sitting days of either House of the Parliament after the agreement is made or amended.",
+          "text": "Insert subsection 18A: Present agreement to Parliament within 15 sitting days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insert subsection 18B: Publish agreement on website within 15 sitting days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Repeal Schedule 1",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Savings provisions for Ministerial Council actions and decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Before 'ANTA agreement', insert 'applicable' in subsection 9AB(1)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Repeal subsection 9AB(3), substitute new definition of applicable ANTA agreement",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Act may be cited as the Australian National Training Authority Amendment Act 2003."
+      "source_quote": "Australian National Training Authority Amendment Act 2003, 2003"
     }
   ]
 }

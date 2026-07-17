@@ -1,0 +1,382 @@
+{
+  "country": "Nigeria",
+  "document": "Framework and Guidelines on Mobile Money Services in Nigeria - July 2021 (Nigeria - Row 5)",
+  "generated": "2026-07-16T18:31:54",
+  "sections": [
+    {
+      "section": "16",
+      "heading": "",
+      "title": "Mobile Money Service Models and Participant Roles",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section defines two operational models for mobile money services in Nigeria: bank-led (where banks or bank consortia act as lead initiators) and non-bank-led (where licensed corporate organizations serve as lead initiators). It specifies the roles and responsibilities of six participant categories including regulators, mobile money operators, infrastructure providers, other service providers, consumers, and mobile money agents. The framework mandates that mobile money operators must provide infrastructure, business continuity plans, 99.99% system availability, and connect to the National Central Switch for interoperability.",
+      "dtia_summary": "This section establishes the foundational operational models and participant responsibilities for mobile money services, which directly impact cross-border data transfer considerations through the definition of data handling entities and their interconnections within Nigeria's mobile payment ecosystem.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Mobile Money Operators must provide infrastructure (hardware, software, switching and security) for mobile money services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile Money Operators must provide business continuity and disaster recovery plans to ensure services are always available",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile Money Operators must ensure 99.99% system availability and compliance with signed-on participating institutions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile Money Operators must connect to the National Central Switch (NCS) for interoperability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Lead Initiators must be legally responsible and accountable to the Central Bank of Nigeria and end users",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All advertisements and public pronouncements on mobile money schemes must emanate from the Lead Initiator only",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must verify, approve and account for credibility and integrity of partner organizations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-bank Mobile Money Operators must provide technology for mobile payment services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-bank Mobile Money Operators must provide agent networks to extend services to the marketplace",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Mobile Money Operators are required to provide: a. The infrastructure (hardware, software, switching and security) for mobile money services; b. Business continuity and disaster recovery plans, to ensure services are always available at all times. c. 99.99% system availability and ensure all signed-on participating institutions follow same rule."
+    },
+    {
+      "section": "16 (part 2)",
+      "heading": "(continued)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 8,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "17",
+      "heading": "be put in place.",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 10,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "27",
+      "heading": "26",
+      "title": "Mobile Money Operator licensing and operational requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 13,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Mobile Money Operators (MMOs) must be licensed by the Central Bank of Nigeria (CBN), registered with unique identifiers from NIBSS and NCC, and comply with KYC requirements. They must maintain insured balances, avoid prohibited activities like lending or foreign currency deposits, and ensure secure transaction processing with specific data elements. MMOs must also establish settlement accounts with deposit money banks and adhere to strict operational protocols for transactions and user management.",
+      "dtia_summary": "MMOs must implement robust transaction logging, secure channels, and settlement mechanisms to ensure cross-border data transfers comply with Nigerian financial regulations. This section mandates specific technical and operational safeguards for mobile money services, critical for DTIA assessments involving international transactions.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "MMOs must be licensed by CBN on terms and conditions as the Bank may determine",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must be issued a unique Scheme Code by NIBSS for interoperability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must be issued unique short codes by NCC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must ensure telecommunication equipment is type-approved by NCC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must register users based on technology standards and these Guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must ensure registration processes fulfill KYC requirements specified in these Guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Total outstanding mobile money balance must be insured up to applicable NDIC coverage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must not grant loans, advances, or guarantees (directly or indirectly)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not accept foreign currency deposits",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not deal in foreign exchange market except as prescribed in CBN guidelines",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not engage in insurance underwriting",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not accept closed scheme electronic value (e.g. airtime) as deposit or payment",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not establish subsidiaries",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not undertake transactions not prescribed by these Guidelines",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must not engage in activities prohibited by CBN",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Mobile money transactions must have unique transaction reference with payer/payee phone numbers, amount, date/time, and other details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile money transactions must not deduct airtime for transaction charges",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "MMOs must notify CBN of changes to settlement bank arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All transaction obligations must settle into settlement accounts with deposit money banks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MMOs must maintain separate accounts for other business activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile money transactions must be bank-account based, card-account based, or stored value based",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All Mobile Money Operators (MMOs) shall: Be licensed by the CBN on such terms and conditions as the Bank may determine from time to time."
+    },
+    {
+      "section": "27 (part 2)",
+      "heading": "26 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 20,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "27 (part 3)",
+      "heading": "26 (cont.)",
+      "title": "Mobile Money Settlement and Security Requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 26,
+      "page_end": 32,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Mobile Money Operators must deploy settlement processes compliant with defined standards. They must ensure their infrastructure meets clearing and settlement rules for finality. Daily reconciliation with bankers is required for settlement positions. Inter-scheme settlements must route through the Nigeria Inter-bank Settlement System. Settlement information must be preserved for seven years. Minimum shareholder funds of N2 billion must be maintained unimpaired.",
+      "dtia_summary": "Settlement infrastructure requirements mandate specific routing, reconciliation, and preservation of transaction data for seven years. Minimum capital requirements ensure financial stability during cross-scheme transactions.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Mobile Money Operators shall ensure settlement processes comply with settlement standards defined in these Guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile Money Operators shall ensure mobile money infrastructure fully complies with clearing and settlement rules for finality of settlement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Scheme operator shall request settlement positions from bankers daily for reconciliation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All inter scheme settlements shall be routed through the inter-bank settlement system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Scheme operator shall preserve settlement information for minimum seven years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Scheme operator shall maintain minimum shareholder funds of N2 billion unimpaired by losses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall provide net settlement positions of all Inter-Scheme service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall effect final settlement using CBN RTGS on T+1 cycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall provide statistical reports to regulatory bodies as prescribed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall maintain audit trail and transaction log of all transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall provide infrastructure to link all inter scheme providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall provide business continuity/disaster recovery plans",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall provide 99.99% system reliability and availability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall facilitate MMO connection to National Central Switch",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NIBSS shall ensure mobile payments system interoperates with different MNOs and networks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The settlement process to be deployed by Mobile Money Operators shall ensure compliance with the settlement standards and requirements defined in these Guidelines."
+    },
+    {
+      "section": "27 (part 4)",
+      "heading": "26 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 32,
+      "page_end": 39,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "27 (part 5)",
+      "heading": "26 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 39,
+      "page_end": 40,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

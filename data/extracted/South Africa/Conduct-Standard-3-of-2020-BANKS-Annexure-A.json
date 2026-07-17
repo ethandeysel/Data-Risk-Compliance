@@ -1,87 +1,154 @@
 {
   "country": "South Africa",
   "document": "Conduct-Standard-3-of-2020-BANKS-Annexure-A",
-  "generated": "2026-07-10T17:12:29",
+  "generated": "2026-07-16T18:51:31",
   "sections": [
     {
       "section": "4",
       "heading": "Design, suitability and performance requirements for financial products and financial",
+      "title": "Design, suitability and performance requirements for financial products",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Other",
-      "summary": "",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "This section mandates that banks design financial products and services with due regard to financial customers' interests. It requires that relevant personnel possess necessary skills and knowledge, and that banks establish ongoing oversight mechanisms to monitor product suitability and performance. The requirements apply to banks providing financial products and services to customers.",
+      "dtia_summary": "This section establishes baseline requirements for financial product design and oversight that impact cross-border data transfers involving financial products, particularly regarding customer suitability and performance metrics.",
+      "authority": "Financial Sector Conduct Authority",
       "financial_relevance": "High",
-      "confidence": "Low",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "Design, suitability and performance requirements for financial products and financial"
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A bank must design its financial products and financial services with due regard to the interests of its financial customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A bank must ensure relevant personnel responsible for design possess necessary skills, knowledge and expertise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A bank must establish and implement ongoing oversight arrangements to monitor and review financial product design and suitability",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A bank must design its financial products and financial services, Including the related models utilised for the advertising, distribution and provision of these financial products and financial services, with due regard to the interests of Its financial customers."
     },
     {
       "section": "5",
       "heading": "Additlonal requirements in respect of retail financial CUStOMETS ........::ssccsessssereareees 10",
+      "title": "Additional requirements for retail financial customers",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Other",
-      "summary": "",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "This section specifies additional obligations for banks providing financial products to retail customers. It requires banks to assess customer needs, ensure products remain appropriate over time, provide flexibility for changing customer needs, and ensure contractual terms are not unfair. The requirements apply specifically to retail financial customers and their contracts.",
+      "dtia_summary": "This section establishes requirements for retail financial products that impact data transfer assessments, particularly regarding customer suitability, ongoing product relevance, and contractual fairness.",
+      "authority": "Financial Sector Conduct Authority",
       "financial_relevance": "High",
-      "confidence": "Low",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "Additlonal requirements in respect of retail financial CUStOMETS ........::ssccsessssereareees"
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A bank must assess customer needs and characteristics when designing financial products for retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A bank must ensure financial products remain appropriate to meet target customer needs over time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A bank must ensure reasonable flexibility in financial product design to address changing customer needs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A bank must ensure contractual terms and conditions are not unfair to retail customers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A bank that provides financial products or financial services to retail financial customers must ... ensure that the terms, conditions and requirements in a contract between the bank and its retail financial customer, relating to a financial product or financial service, Including fees and charges, are not unfair."
     },
     {
       "section": "10",
       "heading": "Termination, closure or switching of financlal products or financlal services by the",
+      "title": "Refusal and termination of financial products",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Other",
-      "summary": "",
-      "dtia_summary": "",
+      "summary": "Banks must document processes for refusing or terminating financial products/services, provide reasonable notice before termination, and disclose reasons for refusal or termination. Banks may terminate without notice if legally compelled, suspected of illegal use, or required to report to authorities.",
+      "dtia_summary": "Refusal and termination processes impact data transfer assessments by requiring clear communication and documentation of data handling changes, which affects data retention and deletion procedures.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "Low",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "Termination, closure or switching of financlal products or financlal services by the"
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Banks must document processes for refusing or terminating financial products/services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must provide reasonable prior notice before termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must disclose reasons for refusal or termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks may terminate without notice if legally compelled",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Banks may terminate without notice if suspected of illegal use",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Banks may terminate without notice if required to report to authorities",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A bank must, subject to other applicable regulatory requirements, document, adopt and implement processes and procedures relating to the refusal to provide a financial product or render a financial service to one or more financial customers."
     },
     {
       "section": "11",
       "heading": "Short title ANG COMMENCOMEONE.......:::ssescccccsccssssssscccnsssesseuserenecsenenscessnssasseoooserssessessensss 23",
+      "title": "Short title and commencement",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 5,
-      "primary_category": "Definitions",
-      "summary": "",
+      "primary_category": "Other",
+      "summary": "This section provides the short title and commencement details for the Conduct Standard. It does not contain substantive obligations but establishes the legal framework for the standard's application.",
       "dtia_summary": "",
-      "authority": "Financial Sector Conduct Authority",
+      "authority": "",
       "financial_relevance": "None",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "In this Conduct Standard, \"the Act\" means the Financial Sector Regulation Act, 2017 ()"
+      "source_quote": "Short title ANG COMMENCOMEONE.......:::ssescccccsccssssssscccnsssesseuserenecsenenscessnssasseoooserssessessensss"
     },
     {
       "section": "2",
       "heading": "Application and general obligations",
+      "title": "",
       "chapter": null,
       "part": "part t",
       "condition": null,
@@ -90,171 +157,192 @@
       "primary_category": "Other",
       "summary": "",
       "dtia_summary": "",
-      "authority": "Financial Sector Conduct Authority",
-      "financial_relevance": "High",
-      "confidence": "Medium",
-      "topics": [
-        "Fair treatment of financial customers"
-      ],
-      "data_types": [
-        "Financial Data"
-      ],
-      "requirements": [
-        {
-          "text": "A bank must conduct Its business in a manner that prioritises the fair treatment of financial customers.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "A bank must conduct Its business in a manner that prioritises the fair treatment of financial customers."
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
     },
     {
       "section": "3",
       "heading": "Culture and governance",
+      "title": "",
       "chapter": null,
       "part": "part t",
       "condition": null,
       "page_start": 7,
-      "page_end": 22,
-      "primary_category": "Governance",
-      "summary": "Banks must maintain integrity, honesty, and transparency in business practices and ensure fair treatment of financial customers through governance arrangements.",
-      "dtia_summary": "Banks must implement governance structures to ensure fair customer treatment and compliance with conduct standards through oversight mechanisms.",
-      "authority": "Financial Sector Conduct Authority (FSCA)",
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "Culture and governance (cont.)",
+      "title": "Advertising standards for financial products",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Banks must advertise financial products to customers in a clear, fair, and non-misleading manner. This includes ensuring factual accuracy, avoiding fraudulent statements, using plain language for retail customers, and maintaining responsibility for third-party advertising activities. Banks must also correct inconsistent advertising promptly and retain records for at least five years.",
+      "dtia_summary": "Advertising standards require banks to ensure transparency and accuracy in communications, which impacts how data is shared with customers through marketing channels. This affects data transfer compliance as advertising practices influence customer data collection and consent mechanisms.",
+      "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Governance",
-        "Risk Management",
-        "Compliance",
-        "Internal Controls"
-      ],
+      "topics": [],
       "data_types": [
-        "Financial Data",
-        "Customer Information"
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "A bank must at all times conduct its business with integrity",
+          "text": "Banks must ensure advertising is clear, fair, and not misleading",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must act honestly, fairly, with due skill, care and diligence, and in a manner that does not bring the financial sector into disrepute",
+          "text": "Banks must ensure advertisements are factually correct",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must organise and manage its affairs responsibly and efficiently",
+          "text": "Banks must not contain fraudulent, untrue, or misleading statements in advertisements",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Banks must use plain language for retail customer advertising",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must avoid or, where avoidance is not possible, manage and mitigate actual or potential conflicts of interest",
+          "text": "Banks must ensure third-party advertising complies with this standard",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must deal with the Authority in an open and cooperative manner",
+          "text": "Banks must correct inconsistent advertising promptly",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must conduct its business transparently and with due regard to the Information needs of its financial customers",
+          "text": "Banks must notify persons who relied on inconsistent advertising",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank must document, adopt, implement and monitor the effectiveness of appropriate governance arrangements that are reasonably necessary to ensure adherence to the requirements in section 2(4) and 3(1)",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must be proportionate to the nature, scale and complexity of the bank's activities and business model",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must describe how the bank will comply with this section through appropriate policies and procedures",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address roles and responsibilities of the governing body and key persons",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address remuneration, compensation and incentive practices",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address conflicts of interest",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address disclosure of interests in related and inter-related parties",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address record keeping",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address communication with the Authority",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address decision making and management procedures, including delegation of authority arrangements",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address risk management, compliance and internal control procedures, including segregation of duties and functions",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must address security, integrity, privacy and confidentiality of information",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governance arrangements must provide for regular risk-based monitoring and evaluation of the adequacy and effectiveness of the bank's systems, processes, procedures and internal control mechanisms",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The monitoring and evaluation must consider systems, processes, procedures and internal control mechanisms to ensure compliance with this Conduct Standard and other applicable legislation",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The monitoring and evaluation must consider systems, processes, procedures and internal control mechanisms to ensure the effectiveness of the bank's practices in relation to fair treatment of financial customers",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The governing body of a bank is accountable for the approval, establishment, embedment, ongoing review of, and continued compliance with the bank's governance arrangements to reasonably ensure fair treatment of financial customers",
+          "text": "Banks must retain advertising records for at least five years",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A bank must at all times conduct Its business with integrity; act honestly, fairly, with due skill, care and diligence, and in a manner that does not bring the financial sector into disrepute; organise and manage its affairs responsibly and efficiently; avoid or, where avoidance is not possible, manage and mitigate actual or potential conflicts of interest; deal with the Authority in an open and cooperative manner; and conduct Its business transparently and with due regard to the Information needs of its financial customers."
+      "source_quote": "A bank must ensure that its financial products and financial services are advertised to financial customers in a way that is clear, fair and not misleading."
+    },
+    {
+      "section": "3 (part 3)",
+      "heading": "Culture and governance (cont.)",
+      "title": "Complaints management framework requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "Banks must establish and maintain a complaints management framework that is proportionate to their business, includes fair treatment of complainants, and covers internal escalation processes. The framework must categorize complaints, record data, and report to the governing body. Banks must also ensure transparency in complaint handling and provide clear communication to complainants.",
+      "dtia_summary": "Complaints management frameworks impact data transfer assessments by requiring banks to handle customer data complaints transparently and securely, which affects data sharing practices and third-party data processing.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Banks must establish an adequate and effective complaints management framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must regularly review complaints management frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must categorize reportable complaints into specific categories",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must record and report on complaint categories",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must maintain records of complaints including details, evidence, categorization, and progress",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must analyze complaints data to manage conduct risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must provide clear communication to complainants about complaint progress",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must ensure complaints processes are transparent and accessible",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A bank must establish, maintain and operate an adequate and effective complaints management framework to ensure the fair treatment of complainants."
     },
     {
       "section": "10",
       "heading": "(3)",
+      "title": "Refusal and termination of financial products",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 22,
       "page_end": 23,
-      "primary_category": "Customer Information",
-      "summary": "Banks must disclose reasons for refusal, withdrawal, termination or closure of financial products/services to customers.",
-      "dtia_summary": "Banks must disclose reasons for refusal, withdrawal, termination or closure of financial products/services to customers.",
+      "primary_category": "Other",
+      "summary": "Banks must document processes for refusing or terminating financial products/services, provide reasonable notice before termination, and disclose reasons for refusal or termination. Banks may terminate without notice if legally compelled, suspected of illegal use, or required to report to authorities.",
+      "dtia_summary": "Refusal and termination processes impact data transfer assessments by requiring clear communication and documentation of data handling changes, which affects data retention and deletion procedures.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Customer Information",
-        "Termination"
-      ],
+      "topics": [],
       "data_types": [
-        "Customer Information"
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "When taking actions referred to in subsection (1), a bank must disclose reasons for refusal, withdrawal, termination or closure to the financial customer.",
+          "text": "Banks must document processes for refusing or terminating financial products/services",
           "obligation_type": "Must"
         },
         {
-          "text": "A bank may take actions without providing prior notice or reasons if compelled by law, has reasonable suspicion of illegal use, or has made necessary reports to authority.",
+          "text": "Banks must provide reasonable prior notice before termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must disclose reasons for refusal or termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks may terminate without notice if legally compelled",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Banks may terminate without notice if suspected of illegal use",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Banks may terminate without notice if required to report to authorities",
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Subject to subsection (4), a bank must, when it takes any of the actions referred to in subsection (1), disclose to the financial customer the reasons for the refusal, withdrawal, termination or closure."
+      "source_quote": "A bank must, subject to other applicable regulatory requirements, document, adopt and implement processes and procedures relating to the refusal to provide a financial product or render a financial service to one or more financial customers."
     }
   ]
 }

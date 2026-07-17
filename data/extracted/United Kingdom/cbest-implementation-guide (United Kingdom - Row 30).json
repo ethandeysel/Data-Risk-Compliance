@@ -1,0 +1,453 @@
+{
+  "country": "United Kingdom",
+  "document": "cbest-implementation-guide (United Kingdom - Row 30)",
+  "generated": "2026-07-16T19:06:40",
+  "sections": [
+    {
+      "section": "4",
+      "heading": "4: CBEST process",
+      "title": "CBEST process framework for financial institutions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "This section outlines the CBEST (Cybersecurity Best Practices for Financial Services) assessment process framework for UK financial institutions and market infrastructures. It details four distinct phases: Initiation, Threat Intelligence, Penetration Testing, and Closure. The framework requires collaboration between regulators, the firm/FMI, Threat Intelligence service providers, and Penetration Testing service providers. It mandates specific roles including a Control Group with a Co-ordinator, and establishes minimum criteria for accredited service providers to ensure the assessment is conducted securely and effectively.",
+      "dtia_summary": "This section provides the procedural framework for conducting CBEST assessments, which are critical for evaluating cyber resilience. It specifies the four-phase process, stakeholder responsibilities, and requirements for service providers to ensure assessments are conducted with appropriate security controls and threat intelligence integration.",
+      "authority": "Bank of England, Prudential Regulation Authority (PRA), Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CBEST assessment must be conducted when firm/FMI meets specific criteria including regulatory request, internal initiative, or post-incident remediation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulator must provide guidance and oversight throughout CBEST assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must appoint a Co-ordinator responsible for coordination, governance, quality assurance, and project management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must ensure CBEST minimum criteria are met during implementation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Threat Intelligence service provider must be CBEST accredited and complete specific tasks including threat intelligence assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penetration Testing service provider must be CBEST accredited and complete specific tasks including penetration testing execution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CBEST assessment must follow a risk-controlled process with documented risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secrecy of CBEST assessment must be preserved throughout duration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Scope of assessment must represent firm/FMI's important business services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CG must ensure effective coordination and communication with external parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "CBEST is a targeted assessment that allows regulators and firms to better understand weaknesses and vulnerabilities and take remedial actions, thereby improving the resilience of systemically important firms and by extension, the wider financial system."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4 (part 3)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "CBEST timeline and risk management for financial assessments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 24,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The CBEST process requires a collaborative approach from all parties with significant overlap between phases. The regulator-led assessment involves the Control Group organizing activities including regulatory meetings and engagement with Threat Intelligence Service Providers (TISP) and Penetration Testing Service Providers (PTSP). The average project duration is 9-12 months, with specific phases including Initiation (~6 weeks), Threat Intelligence (~10 weeks), Penetration Testing (~14 weeks), and Closure (~4 weeks). The Control Group must identify, analyze, and manage risks throughout the assessment to ensure technical and operational control, with specific attention to live testing risks and mitigation measures.",
+      "dtia_summary": "This section outlines the timeline and risk management framework for CBEST assessments, emphasizing the need for a controlled, collaborative approach with specific phase durations and risk mitigation strategies to ensure secure and effective cross-border financial system testing.",
+      "authority": "UK Regulators (PRA/BoE/FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CBEST process requires collaborative approach from all parties with significant overlap between phase stages",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group organizes regulatory meetings and engagement with TISP and PTSP throughout all phases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Average CBEST project duration is 9-12 months with specific phase estimates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must identify, analyze, and manage risks that could negatively impact CBEST assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must plan and implement mitigating actions for identified risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must ensure risks are reduced through advanced planning, clear scope definition, and predefined escalation procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must complete dedicated CBEST risk assessment prior to assessment commencement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must regularly review and update mitigating measures throughout the process",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must maintain technical and operational control of CBEST throughout all phases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control Group must assign project code name unrelated to organization name for confidentiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CBEST deliverables must not contain sensitive information like personally identifiable information or technical details",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "CBEST process requires a collaborative approach from all parties and, in practice, there is often a significant overlap between the phase stages. Although CBEST is a regulator-led assessment, the CG organises all activities including regulatory meetings and engagement with the TISP and PTSP throughout all phases and ensures the agenda aligns with all the guidelines set in this Implementation Guide."
+    },
+    {
+      "section": "4 (part 4)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "CBEST service provider accreditation and certification requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 28,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The CBEST process requires accredited service providers who must be members of CREST and hold specific certifications. For Threat Intelligence Service Providers (TISP), CREST Certified Threat Intelligence Managers (CCTIM) are required, while Penetration Testing Service Providers (PTSP) must employ CREST Certified Simulated Attack Managers (CCSAM) and Specialists (CCSAS). These certifications ensure technical competence and adherence to strict codes of conduct. Service providers must report any manipulation of the CBEST process to regulators or CREST, and the participant firm must verify provider accreditation and compliance with legal requirements.",
+      "dtia_summary": "This section specifies the accreditation and certification requirements for CBEST service providers, ensuring technical competence and adherence to strict codes of conduct to maintain the integrity of cross-border financial system assessments.",
+      "authority": "CREST",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CBEST service providers must be accredited by the Bank of England",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must be members of CREST",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must abide by strict and enforceable codes of conduct",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must report any manipulation of the CBEST process to CREST for investigation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participant firms must alert regulators if service providers lose CBEST-supplier status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must report to regulators if they suspect manipulation by the participant firm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP must employ CREST Certified Threat Intelligence Managers (CCTIM)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PTSP must employ CREST Certified Simulated Attack Managers (CCSAM) and Specialists (CCSAS)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certified individuals sign off all major activities and deliverables on behalf of service providers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "CBEST service providers are professional cyber security services suppliers that will have gone through an accreditation process that is undertaken by the Bank of England. Service providers must be accredited in order to conduct the threat intelligence, penetration testing and reporting elements of the CBEST."
+    },
+    {
+      "section": "4 (part 5)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "CBEST threat intelligence phase requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 34,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section details the Threat Intelligence phase of the CBEST process, where the Threat Intelligence Service Provider (TISP) collects, analyzes, and disseminates intelligence to develop threat scenarios. The phase involves targeting exercises, threat intelligence gathering, scenario development, and handover to the Penetration Testing Service Provider (PTSP). The TISP produces a Threat Intelligence Report and Targeting Report, which inform the Penetration Test Plan. The regulator facilitates a Validation workshop to review and finalize these reports before proceeding to the Penetration Testing phase.",
+      "dtia_summary": "This phase establishes threat intelligence requirements that must be met before penetration testing, ensuring realistic scenarios are developed for cross-border data security assessments. It mandates specific intelligence gathering and scenario development steps to validate vulnerabilities before testing.",
+      "authority": "CBEST (UK)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "TISP produces an IBS-focused Threat Intelligence Plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP develops threat scenarios based on real-world threat actors and open-source intelligence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP creates a Targeting Report identifying attack surfaces across the firm/FMI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP produces a Threat Intelligence Report summarizing key threats and potential scenarios",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PTSP transforms threat scenarios into a draft Penetration Test Plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP and PTSP collaborate to map attack paths using frameworks like MITRE ATT&CK",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulator facilitates a Validation workshop to review reports and draft Penetration Test Plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "TISP and PTSP agree on operationalization of scenarios before handover",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The TISP produces an IBS-focused Threat Intelligence Plan produced by the TISP. The TI plan is delivered to the firm/FMI who will then refer to it when discussing scheduling matters with the regulator."
+    },
+    {
+      "section": "4 (part 6)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4 (part 7)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "Threat Intelligence Maturity Assessment for Cyber Security",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 44,
+      "primary_category": "Security",
+      "summary": "The section describes a Threat Intelligence Maturity Assessment (TIMA) conducted by the Threat Intelligence Service Provider (TISP) to evaluate a firm's internal cyber threat intelligence capabilities. The assessment must be completed after a penetration test and involves self-assessment by the firm, use of the CREST Threat Intelligence Maturity Assessment Tool, and review by the TISP. The TIMA feeds into the CBEST Review workshop to inform remediation planning and provides insights into the firm's cyber security maturity. The process ensures objective evaluation without self-certification and is part of a broader cyber security capability assessment.",
+      "dtia_summary": "This section mandates a formal assessment of a firm's threat intelligence maturity using standardized tools, ensuring objective evaluation of cyber security capabilities before penetration testing. It requires evidence-based self-assessment and independent review to identify gaps in threat intelligence functions, directly impacting how data transfers and processing are evaluated across borders for security compliance.",
+      "authority": "CBEST (2024g)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The firm must identify staff best suited to answer TIMA assessment questions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The firm may draw in third-party staff of appropriate seniority and expertise if TI functions are outsourced",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The TISP must provide a CREST Certified Threat Intelligence Manager (CCTIM) to conduct the assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The firm must self-assess capability for each Capability Indicator (CI) and gather supporting evidence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The TISP must review and challenge firm scores based on expected maturity for similar firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The TISP must provide an Intelligence Assessment Report summarizing findings and recommendations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The outcomes must be discussed in the final CBEST Review workshop",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The TISP must provide an accredited CREST Certified Threat Intelligence Manager (CCTIM) (CREST (2024a)) resource to undertake the assessment and validate the evidence presented and the final scores."
+    },
+    {
+      "section": "4 (part 8)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "Detection and Response Capability Assessment for Cyber Security",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 50,
+      "primary_category": "Security",
+      "summary": "This section outlines the Detection and Response Capability Assessment (D&R Assessment) conducted by the Penetration Testing Service Provider (PTSP) to evaluate a firm's ability to respond to cyber threats following penetration testing. The assessment involves post-testing interviews with the firm's SOC and Incident Response Team, uses the CREST Certified Simulated Attack Manager (CCSAM), and must be completed within two weeks of the penetration test. The D&R Assessment feeds into the CBEST Review workshop to inform remediation planning and provides insights into the firm's incident response capabilities.",
+      "dtia_summary": "This section requires a formal assessment of a firm's detection and response capabilities post-penetration testing, ensuring objective evaluation of incident response functions. It directly impacts how data transfers and processing are evaluated across borders by mandating evidence-based assessments of security response mechanisms.",
+      "authority": "CBEST (2024i)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The firm must identify staff best suited to answer D&R assessment questions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The PTSP must provide a CREST Certified Simulated Attack Manager (CCSAM) to conduct the assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The D&R Assessment must be completed and returned to the regulator within two weeks of penetration test completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The PTSP must conduct post-testing interviews with the firm's SOC and Incident Response Team",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The D&R Assessment must be delivered to the firm and regulator simultaneously",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The output of this activity is the Detection & Response Capability Assessment produced by the PTSP for simultaneous delivery to the firm/FMI."
+    },
+    {
+      "section": "4 (part 9)",
+      "heading": "4: CBEST process (cont.)",
+      "title": "Post-CBEST thematic analysis report compilation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 59,
+      "primary_category": "Other",
+      "summary": "The regulator compiles a periodic thematic report based on CBEST assessments, integrating findings from PT reports, Threat Intelligence assessments, Threat Intelligence Maturity Assessments, and Detection & Response Capability Assessments. The report is jointly prepared by the PRA and FCA with input from the NCSC. This anonymized report is shared with non-CBEST participant firms and financial market infrastructure providers to enhance industry-wide cyber resilience through lessons learned from assessments.",
+      "dtia_summary": "This section matters for DTIAs as it outlines how thematic analysis of CBEST assessments informs industry-wide cyber resilience improvements, potentially identifying cross-border data handling patterns that require attention in international data transfers.",
+      "authority": "PRA, Bank of England",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulator compiles periodic thematic report based on CBEST assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report includes thematic analysis from CBEST assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report highlights common themes from PT reports, Threat Intelligence assessments, Threat Intelligence Maturity Assessments, and Detection & Response Capability Assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report is compiled jointly by PRA and FCA with input from NCSC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Anonymized report shared with non-CBEST participant firms and FMIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report aims to improve industry-level cyber resilience through lessons learned",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The regulator analyses all CBEST assessments and compiles a periodic thematic report based on the thematic findings of all the CBESTs carried out in the relevant period. The report includes a thematic analysis derived from CBEST assessments and highlights any common themes that arise from PT reports, Threat Intelligence assessments, Threat Intelligence Maturity Assessments and Detection & Response Capability Assessments."
+    }
+  ]
+}

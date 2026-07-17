@@ -1,52 +1,113 @@
 {
   "country": "South Africa",
   "document": "Joint Standard 1 of 2023 - IT Governance and Risk Management",
-  "generated": "2026-07-12T12:28:03",
+  "generated": "2026-07-16T18:57:07",
   "sections": [
     {
       "section": "3",
       "heading": "Definitions and interpretation",
+      "title": "Definitions of key terms for financial institutions",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 5,
       "primary_category": "Definitions",
-      "summary": "Defines key terms including financial institutions, Authorities, fit and proper, and IT-related concepts for the Joint Standard.",
+      "summary": "This section defines critical terms used throughout the Joint Standard, including 'financial institution', 'fit and proper', 'governing body', and specific IT-related terms like 'IT system' and 'material incident'. It clarifies the scope of the standard by specifying which entities and concepts are covered, particularly financial institutions and their regulatory frameworks. The definitions are contextualized within South Africa's financial sector laws to ensure alignment with existing legislation.",
       "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "3. Definitions and interpretation"
-    },
-    {
-      "section": "4",
-      "heading": "Application",
-      "chapter": null,
-      "part": "part o",
-      "condition": null,
-      "page_start": 5,
-      "page_end": 5,
-      "primary_category": "Processing",
-      "summary": "Specifies that financial institutions must mitigate IT risks for all related entities, including foreign branches and subsidiaries, and align requirements with their risk profile.",
-      "dtia_summary": "Financial institutions must address IT risks for all local and foreign entities under their control, including subsidiaries, to ensure compliance with the Joint Standard.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [
+        "Personal Information",
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution that is a bank, or a controlling company must ensure that any risks relating to IT risk from juristic persons and branches structured under the bank or the controlling company (both local and foreign), including all relevant subsidiaries approved in terms of section 52 of the Banks Act, 1990, are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "text": "‘the Act' means the Financial Sector Regulation Act, 2017",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘Authorities' means the Prudential Authority and Financial Sector Conduct Authority",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘financial institution' includes banks, mutual banks, insurers, and other specified entities",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘fit and proper' means compliance with applicable requirements",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘fit and proper requirements' include honesty, good standing, and competence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘FSP' means financial services provider as defined in the FAIS Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘governing body' refers to the entity responsible for oversight",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘IT system' means the integration of IT assets within the IT environment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘material incident' means a disruption with severe impact on operations",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "3.1 In this Joint Standard, ‘the Act' means the Financial Sector Regulation Act, 2017 () and any word or expression to which a meaning has been assigned in the Act bears the meaning so assigned to it, unless the context indicates otherwise-"
+    },
+    {
+      "section": "4",
+      "heading": "Application",
+      "title": "Application scope and risk coverage",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section specifies which financial institutions must comply with the Joint Standard and mandates that banks and insurers must address IT risks across all local and foreign branches, subsidiaries, and related entities. It requires financial institutions to tailor their risk management practices to their size, complexity, and risk profile, ensuring alignment with relevant financial sector laws. The standard emphasizes the need for continuous assessment of risk-related requirements.",
+      "dtia_summary": "This section establishes the scope of application for financial institutions, requiring them to address IT risks across all branches and subsidiaries, both local and foreign, which is critical for data transfer impact assessments involving cross-border operations.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "This Joint Standard applies to financial institutions as defined",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution that is an insurer or a controlling company of an insurance group must ensure that any risks relating to IT from juristic persons structured under the insurer or the controlling company (both local and foreign) and from the insurance group designated under section 10 of the Insurance Act, 2017 are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "text": "Banks and controlling companies must mitigate IT risks for all local and foreign branches and subsidiaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insurers and controlling companies must mitigate IT risks for all local and foreign branches and subsidiaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Minimum requirements must reflect the nature, size, complexity, and risk profile of the financial institution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implementation of requirements must consider the nature, size, complexity, and risk profile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Joint Standard must be read with relevant financial sector laws",
           "obligation_type": "Must"
         }
       ],
@@ -55,32 +116,35 @@
     {
       "section": "5",
       "heading": "Roles and responsibilities",
+      "title": "Governance responsibilities for IT risk management",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 5,
       "page_end": 6,
       "primary_category": "Governance",
-      "summary": "Governing body is ultimately responsible for IT compliance, must establish a sound IT risk management framework, and define roles and responsibilities.",
-      "dtia_summary": "Governing body must ensure IT risk management framework and define roles for IT risk oversight.",
+      "summary": "This section outlines the roles and responsibilities of the governing body and senior management in ensuring IT risk management compliance. It mandates that the governing body must establish a robust IT risk management framework, define roles and responsibilities, and work with senior management to maintain effective oversight. The section emphasizes accountability and the integration of IT risk management into the institution's overall governance structure.",
+      "dtia_summary": "This section clarifies the governance responsibilities for IT risk management, ensuring that the governing body and senior management are accountable for IT risk oversight, which is essential for data transfer impact assessments involving governance structures.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Governance"
+      ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "The governing body is ultimately responsible for ensuring that the financial institution complies with the requirements as set out in this Joint Standard.",
+          "text": "The governing body is ultimately responsible for ensuring compliance with the Joint Standard",
           "obligation_type": "Must"
         },
         {
-          "text": "The governing body must ensure, together with senior management, that a sound and robust IT risk management framework and IT strategy is established and maintained.",
+          "text": "The governing body must ensure a sound and robust IT risk management framework and IT strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "The governing body must clearly define the roles and responsibilities of all management, execution, oversight and control functions as well as committees established for the purpose of exercising oversight of IT risks.",
+          "text": "The governing body must clearly define roles and responsibilities of all management, execution, oversight, and control functions",
           "obligation_type": "Must"
         }
       ],
@@ -89,14 +153,15 @@
     {
       "section": "6",
       "heading": "IT strategy",
+      "title": "IT strategy development and review",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "Financial institutions must have IT strategy approved by governing body, aligned with business strategy, and reviewed annually.",
-      "dtia_summary": "IT strategy must be approved by governing body, aligned with business strategy, and reviewed at least annually.",
+      "summary": "This section requires financial institutions to develop and maintain an IT strategy that is approved by the governing body and aligned with business strategy. It mandates regular review of the IT strategy at least annually to account for market, industry, technology, and other relevant developments. The strategy must include action plans, monitoring processes, and notification mechanisms for deviations that could contravene the Joint Standard or financial sector laws.",
+      "dtia_summary": "This section ensures that IT strategies are aligned with business objectives and subject to regular review, which is critical for data transfer impact assessments to ensure strategies accommodate evolving data transfer needs.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -106,11 +171,23 @@
       ],
       "requirements": [
         {
-          "text": "A financial institution must ensure that its IT strategy is approved by the governing body and aligned with its overall business strategy.",
+          "text": "IT strategy must be approved by the governing body and aligned with business strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT strategy of a financial institution must be reviewed regularly, but at least annually, in consideration of market, industry, technology and other relevant developments.",
+          "text": "IT strategy must be reviewed at least annually for market, industry, technology, and other developments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Action plans must be communicated to staff and reviewed at least quarterly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processes must be established to monitor and measure IT strategy effectiveness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authorities must be notified when deviations from IT strategy contravene the Joint Standard or financial sector laws",
           "obligation_type": "Must"
         }
       ],
@@ -119,14 +196,15 @@
     {
       "section": "7",
       "heading": "IT risk management framework",
+      "title": "IT risk management framework requirements",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "Financial institutions must establish an IT risk management framework approved by governing body, incorporating policies, risk identification, and monitoring processes.",
-      "dtia_summary": "Financial institutions must establish an IT risk management framework that includes risk identification, assessment, and monitoring processes.",
+      "summary": "This section mandates the establishment of an IT risk management framework that must be approved by the governing body and reviewed annually. The framework must include policies, procedures for risk identification and assessment, roles and responsibilities, IT asset identification, threat assessment, risk mitigation strategies, and periodic updates to risk registers. It emphasizes the need for continuous monitoring and adaptation to evolving risks and regulatory requirements.",
+      "dtia_summary": "This section details the comprehensive requirements for an IT risk management framework, which is critical for data transfer impact assessments to ensure robust risk management practices across borders.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -136,35 +214,55 @@
       ],
       "requirements": [
         {
-          "text": "A financial institution must establish an IT risk management framework to manage IT risks in a systematic and consistent manner.",
+          "text": "IT risk management framework must be approved by the governing body and reviewed annually",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework of a financial institution must be approved by the governing body and reviewed regularly, but at least annually.",
+          "text": "Framework must incorporate policies, standards, and procedures for managing IT risks",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework of a financial institution must, at a minimum, incorporate policies, standards and procedures in managing IT risks and safeguarding IT assets.",
+          "text": "Framework must identify, assess, and manage all material risks with proportionality",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework must include identification and prioritisation of IT assets.",
+          "text": "Policies must be independently reviewed and updated by relevant business areas",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework must include identification and assessment of impact and likelihood of current and emerging threats, risks and vulnerabilities.",
+          "text": "Roles and responsibilities must be defined for governing body and senior management",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework must include implementation of appropriate practices and controls to manage risks.",
+          "text": "IT assets must be identified, recorded, and protected from unauthorized access",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework must include periodic updates and monitoring of risk assessments.",
+          "text": "Criticality and sensitivity of IT assets must be identified to develop protection plans",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT risk management framework must include people management measures for staff, service providers and contractors.",
+          "text": "Impact and likelihood of threats, risks, and vulnerabilities must be assessed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk mitigation strategies must be developed for each identified risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain a risk register for monitoring and reporting high-severity risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT risk metrics must be developed to identify high-risk systems and infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Staff, service providers, and contractors must be fit and proper and have technical knowledge",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Training programs must be conducted and reviewed at least annually",
           "obligation_type": "Must"
         }
       ],
@@ -173,24 +271,31 @@
     {
       "section": "8",
       "heading": "Oversight of IT risk management",
+      "title": "Oversight mechanisms for IT risk management",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Other",
-      "summary": "Oversight of IT risk management must be incorporated into governance structures and reporting lines to the governing body.",
-      "dtia_summary": "Oversight of IT risk management must be part of governance structures with reporting lines to the governing body.",
+      "primary_category": "Governance",
+      "summary": "This section requires that oversight of IT risk management be integrated into the financial institution's governance and risk management structures, including clear reporting lines to the governing body. It ensures that the governing body maintains accountability for IT risk oversight, which is essential for maintaining regulatory compliance and effective risk management practices.",
+      "dtia_summary": "This section ensures that oversight mechanisms for IT risk management are properly integrated into governance structures, which is critical for data transfer impact assessments to ensure accountability and transparency.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Governance"
+      ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "Oversight of IT risk management must be incorporated into the governance and risk management structures, processes and procedures of a financial institution, including provisions relating to reporting lines to the governing body.",
+          "text": "Oversight of IT risk management must be incorporated into governance and risk management structures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provisions relating to reporting lines to the governing body must be included",
           "obligation_type": "Must"
         }
       ],
@@ -199,134 +304,177 @@
     {
       "section": "9",
       "heading": "IT operations",
+      "title": "IT operations management framework requirements",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "Financial institutions must implement robust IT service management policies, change management, incident handling, and backup procedures.",
-      "dtia_summary": "Financial institutions must implement IT service management policies, change management, incident handling, and backup procedures.",
+      "summary": "Financial institutions must develop and maintain a robust IT service management framework that includes governance structures for change management, software release management, incident and problem management, and capacity management. This framework must be documented, implemented, and regularly updated to ensure system stability, monitor operations, and maintain an up-to-date IT asset inventory. The framework must also include specific procedures for managing critical IT operations, logging and monitoring critical activities, configuration management, performance planning, backup and restoration, change management, and incident/problem resolution.",
+      "dtia_summary": "This section establishes foundational IT operations controls that impact data transfer by requiring robust change management, incident handling, and backup procedures which affect data integrity and availability during cross-border transfers.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [
+        "Personal Information",
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution must develop a robust set of IT service management policies, standards, processes and procedures (framework) which is essential for supporting IT systems, services and operations, managing changes, incidents and problems as well as ensuring the stability of the production IT environment.",
+          "text": "Financial institutions must develop a robust set of IT service management policies, standards, processes and procedures for supporting IT systems and services.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT service management framework must comprise a governance structure for change management, software release management, incident and problem management as well as capacity management.",
+          "text": "IT service management framework must include governance structures for change management, software release management, incident and problem management, and capacity management.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must manage its IT operations based on documented and implemented policies, processes and procedures.",
+          "text": "Financial institutions must manage IT operations based on documented and implemented policies, processes and procedures that define operations, monitoring and control of information systems.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must maintain efficiency of its IT operations, including, but not limited to the need to consider how to minimise potential incidents arising from the execution of manual tasks.",
+          "text": "Financial institutions must maintain an up-to-date IT asset inventory and register of critical IT operations.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must implement appropriate logging and monitoring procedures for critical IT operations to allow the detection, analysis and correction of incidents.",
+          "text": "Financial institutions must implement logging and monitoring procedures for critical IT operations to detect, analyze and correct incidents.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must store the configuration of the IT assets and the links and interdependencies between the different IT assets, to enable an appropriate configuration management process.",
+          "text": "Financial institutions must store configuration of IT assets and interdependencies to enable configuration management.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must implement performance, capacity planning and monitoring processes to prevent, detect and respond to important performance issues of IT systems and IT capacity shortages in a timely manner.",
+          "text": "Financial institutions must implement performance, capacity planning and monitoring processes to prevent, detect and respond to performance issues.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must define and implement IT system backup and restoration procedures to ensure recovery of IT systems as required.",
+          "text": "Financial institutions must define and implement IT system backup and restoration procedures to ensure recovery of IT systems.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must establish and implement an effective IT change management process to ensure that all changes to IT systems are recorded, tested, assessed, approved, implemented and verified in a controlled manner.",
+          "text": "Financial institutions must establish and implement an effective IT change management process for recording, testing, assessing, approving, implementing and verifying changes.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must establish and implement a problem and incident management process to identify, track (including timing), log, categorise and classify incidents according to priority, based on business criticality.",
+          "text": "Financial institutions must establish and implement a problem and incident management process to identify, track, log, categorize and classify incidents based on business criticality.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure problem management can analyze and solve root causes behind incidents.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Backup frequency must align with business recovery requirements and criticality of data and systems evaluated through risk assessment.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Backup and restoration procedures must be tested at least annually.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must implement appropriate segregation of duties between development, testing and operations environments.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "9.1 A financial institution must develop a robust set of IT service management policies, standards, processes and procedures (framework) which is essential for supporting IT systems, services and operations, managing changes, incidents and problems as well as ensuring the stability of the production IT environment."
+      "source_quote": "A financial institution must develop a robust set of IT service management policies, standards, processes and procedures (framework) which is essential for supporting IT systems, services and operations, managing changes, incidents and problems as well as ensuring the stability of the production IT environment."
     },
     {
       "section": "10",
       "heading": "Handling of sensitive or confidential information",
+      "title": "Sensitive information handling and protection measures",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 10,
-      "primary_category": "Other",
-      "summary": "Financial institutions must protect sensitive information, implement access controls, and ensure data accuracy and compliance with legislation.",
-      "dtia_summary": "Financial institutions must protect sensitive information, implement access controls, and ensure data accuracy and compliance with legislation.",
+      "primary_category": "Security",
+      "summary": "Financial institutions must define and implement measures to protect sensitive customer information, mitigate IT risks, and ensure information accuracy and reliability. This includes establishing identity and access management procedures with monitoring controls, addressing risks of data theft and loss, ensuring data accuracy, and conducting independent reviews of compliance with security measures. The requirements also mandate adherence to all applicable data protection legislation, including the Protection of Personal Information Act, 2013.",
+      "dtia_summary": "This section requires specific security controls for sensitive data handling that directly impact data transfer by mandating robust access controls and data protection measures for cross-border transfers of customer information.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Access Control"
+      ],
       "data_types": [
+        "Personal Information",
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution must define, document and implement appropriate measures to protect sensitive or confidential information such as customer personal account and transaction data.",
+          "text": "Financial institutions must define, document and implement measures to protect sensitive or confidential information such as customer personal account and transaction data.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must define, document and implement procedures for logical access control (identity and access management).",
+          "text": "Financial institutions must define, document and implement procedures for logical access control (identity and access management) that are enforced, monitored and periodically reviewed.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must implement appropriate measures to address risks of data theft, data loss and data leakage from endpoint devices, customer service locations and call centres.",
+          "text": "Financial institutions must implement measures to address risks of data theft, data loss and data leakage from endpoint devices, customer service locations and call centres.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that information processed, stored or transmitted between itself and its customers is accurate, reliable and complete.",
+          "text": "Financial institutions must ensure information processed, stored or transmitted between itself and customers is accurate, reliable and complete.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must conduct independent reviews to assess compliance with the measures implemented.",
+          "text": "Financial institutions must conduct independent reviews to assess compliance with implemented measures and identify vulnerabilities in compliance processes.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that all personal information is processed in accordance with the requirements of all applicable legislation, including the Protection of Personal Information Act, 2013.",
+          "text": "Financial institutions must ensure all personal information is processed in accordance with all applicable legislation, including the Protection of Personal Information Act, 2013.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "10.1 A financial institution must define, document and implement appropriate measures to - (a) protect sensitive or confidential information such as customer personal account and transaction data which are stored and processed in systems; and (b) mitigate IT risks and protect information assets in accordance with its sensitivity classification."
+      "source_quote": "A financial institution must define, document and implement appropriate measures to - (a) protect sensitive or confidential information such as customer personal account and transaction data which are stored and processed in systems; and (b) mitigate IT risks and protect information assets in accordance with its sensitivity classification."
     },
     {
       "section": "11",
       "heading": "Risks associated with financial products and financial services",
+      "title": "Financial product and service risk management",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Financial Data",
-      "summary": "Financial institutions must identify IT risks for financial products/services and implement security controls, system availability, and recovery capabilities proportional to risk exposure.",
-      "dtia_summary": "Requires financial institutions to assess IT risks for financial products/services and implement proportional security controls, system availability, and recovery capabilities.",
-      "authority": "Financial institutions",
+      "primary_category": "Security",
+      "summary": "Financial institutions must identify IT risks associated with financial products and services, and implement security controls, system availability and recovery capabilities commensurate with risk exposure. This includes evaluating security requirements for internet-facing systems, adopting encryption algorithms aligned with international standards, establishing security monitoring systems to detect IT risks, and implementing measures to protect online users and ensure customer awareness of security measures.",
+      "dtia_summary": "This section mandates security controls for financial products and services that affect data transfer by requiring encryption standards and security monitoring for cross-border data flows.",
+      "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Security"
+        "Encryption"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution must clearly identify IT risks associated with the types of financial products or financial services being offered, and formulate security controls, system availability and recovery capabilities, which are commensurate with the level of risk exposure for all operations, including the internet-facing operations.",
+          "text": "Financial institutions must clearly identify IT risks associated with financial products or services and formulate security controls, system availability and recovery capabilities commensurate with risk exposure.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must properly evaluate security requirements for internet-facing systems and adopt encryption algorithms aligned with well-established practices and international standards.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must establish security monitoring systems to detect or monitor IT risk exposure in relation to financial services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must implement measures to plan and track capacity utilisation and guard against online attacks.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must implement reasonable measures to protect IT users, including customers, who use online systems to interact with financial institutions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure customer awareness of security measures to protect customers in an online environment.",
           "obligation_type": "Must"
         }
       ],
@@ -335,14 +483,15 @@
     {
       "section": "12",
       "heading": "IT programme and/or project management",
+      "title": "IT programme and project management framework",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 11,
-      "primary_category": "Financial Data",
-      "summary": "Financial institutions must develop IT programme/project management frameworks with governance, risk management, and change control processes, ensuring security requirements are independent and approved.",
-      "dtia_summary": "Requires financial institutions to establish IT programme/project management frameworks with governance, risk assessment, and change control, ensuring security requirements are independent and approved.",
+      "primary_category": "Other",
+      "summary": "Financial institutions must develop an IT programme and project management framework that includes governance structures, policies, stakeholder engagement, risk management, change control, integration, cost and benefit realization. This framework must incorporate security requirements that are analyzed and approved by an independent function, identify and mitigate risks from interdependencies between projects, ensure functional and non-functional requirements are defined and approved, implement testing methodologies for systems before production deployment, and maintain comprehensive documentation of IT systems.",
+      "dtia_summary": "This section establishes IT project management requirements that impact data transfer by mandating comprehensive documentation and testing of systems before deployment, which affects data integrity and security during cross-border transfers.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -352,47 +501,51 @@
       ],
       "requirements": [
         {
-          "text": "A financial institution must develop a framework and approach for IT programme and/or project management that incorporates the governance structures, policies and processes, stakeholder engagement, risks and issues management, change control, integration, and cost and benefit realisation.",
+          "text": "Financial institutions must develop a framework and approach for IT programme and project management that incorporates governance structures, policies and processes, stakeholder engagement, risks and issues management, change control, integration, and cost and benefit realization.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must establish and implement an IT programme and project management policies, procedures and processes that includes, as a minimum - IT programme and project objectives; roles and responsibilities, including governance and decision-making structures; IT programme and project risk assessment; IT programme and project plan, timeframe and steps; key milestones; and change management requirements.",
+          "text": "Financial institutions must establish IT programme and project management policies, procedures and processes that include objectives, roles and responsibilities, risk assessment, project plans, key milestones, and change management requirements.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that its IT programme and project management policy confirms that IT security requirements are analysed and approved by a function that is independent from the development function.",
+          "text": "Financial institutions must ensure IT security requirements are analyzed and approved by a function independent from the development function.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must identify, monitor and mitigate risks deriving from its portfolio of IT programmes and projects, considering risks that may result from interdependencies between different IT programmes and projects and from dependencies of multiple programmes and projects utilising the same resources and/or expertise.",
+          "text": "Financial institutions must identify, monitor and mitigate risks from interdependencies between IT programmes and projects.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that before any acquisition or development of IT systems takes place, the functional and non-functional requirements (including information security requirements) are clearly defined and approved by the relevant governance structure.",
+          "text": "Financial institutions must ensure functional and non-functional requirements (including information security) are clearly defined and approved by relevant governance structures before system acquisition or development.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must follow its methodology for testing and approval of IT systems prior to implementation into the production environment. This methodology must consider the criticality of business processes and assets. The testing must ensure that new IT systems perform as intended. It must also use test environments that adequately reflect the production environment.",
+          "text": "Financial institutions must follow a methodology for testing and approval of IT systems prior to implementation into production environments.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must implement controls in the IT environment to ensure adequate segregation of duties between the pre-production environment that is a mirror of the production environment to mitigate the impact of risks introduced to the production systems.",
+          "text": "Financial institutions must implement controls to ensure adequate segregation of duties between pre-production and production environments.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must implement appropriate measures to protect the integrity of the source codes of IT systems that are developed in-house. In addition, a financial institution must document the development, implementation, operation and/or configuration of the IT systems comprehensively to reduce any unnecessary dependency on subject matter experts.",
+          "text": "Financial institutions must implement measures to protect the integrity of source codes for in-house developed IT systems.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that the documentation of the IT system contains, where applicable, user documentation, technical system documentation and operating procedures.",
+          "text": "Financial institutions must document the development, implementation, operation and configuration of IT systems comprehensively.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must ensure that processes for acquisition and development of IT systems applied by the department(s) responsible for IT must also apply to IT systems acquired by business functions outside the IT department, using a risk-based approach.",
+          "text": "Financial institutions must ensure documentation includes user documentation, technical system documentation and operating procedures.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must maintain a register of the critical applications, business functions and processes.",
+          "text": "Financial institutions must ensure processes for acquisition and development of IT systems apply to business functions outside the IT department using a risk-based approach.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain a register of critical applications, business functions and processes.",
           "obligation_type": "Must"
         }
       ],
@@ -401,14 +554,15 @@
     {
       "section": "13",
       "heading": "IT resilience and business continuity",
+      "title": "IT resilience and business continuity planning",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 11,
       "page_end": 13,
-      "primary_category": "Financial Data",
-      "summary": "Financial institutions must define recovery priorities, establish disaster recovery sites, implement IT resilience plans, and conduct business impact assessments for critical business functions.",
-      "dtia_summary": "Requires financial institutions to define recovery priorities, establish disaster recovery sites, implement IT resilience plans, and conduct business impact assessments for critical business functions.",
+      "primary_category": "Other",
+      "summary": "Financial institutions must define system recovery and business resumption priorities with specific Service Level Objectives including RTOs and RPOs for critical services. They must establish disaster recovery sites geographically separate from primary sites, implement IT resilience management processes to maximize service continuity during disruptions, conduct business impact assessments to analyze exposure to severe disruptions, develop IT resilience plans that consider risks to systems and services, and test and review these plans annually to ensure effectiveness.",
+      "dtia_summary": "This section mandates business continuity planning requirements that directly impact data transfer by requiring disaster recovery sites and testing of data recovery procedures across borders.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -418,67 +572,63 @@
       ],
       "requirements": [
         {
-          "text": "A financial institution must define system recovery and business resumption priorities and establish specific Service Level Objectives including RTOs and RPOs for critical services and business processes.",
+          "text": "Financial institutions must define system recovery and business resumption priorities and establish Service Level Objectives including RTOs and RPOs for critical services and business processes.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must identify and establish a disaster recovery site(s) that is geographically separate from the primary site to enable the recovery of critical systems and continuation of business operations, should a disruption occur at the primary site.",
+          "text": "Financial institutions must identify and establish a disaster recovery site geographically separate from the primary site to enable recovery of critical systems.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must establish a sound IT resilience management process to maximise its abilities to provide services on an ongoing basis and to limit losses in the event of severe business disruption in line with any existing requirements issued in terms of a financial sector law and applicable to financial institutions.",
+          "text": "Financial institutions must establish a sound IT resilience management process to maximize service continuity and limit losses during severe business disruption.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must conduct a business impact assessment by analysing its exposure to severe business disruptions and assessing its potential impacts (including on confidentiality, integrity and availability), quantitatively and qualitatively, using internal and/or external data and scenario analysis.",
+          "text": "Financial institutions must conduct a business impact assessment analyzing exposure to severe disruptions and potential impacts on confidentiality, integrity and availability.",
           "obligation_type": "Must"
         },
         {
-          "text": "A business impact assessment referred to in paragraph 13.2 above must also consider the criticality of the identified and classified business functions, supporting processes, third parties and IT assets, and their interdependencies.",
+          "text": "Financial institutions must ensure business impact assessments consider criticality of business functions, supporting processes, third parties and IT assets and their interdependencies.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must develop a sound IT resilience plan.",
+          "text": "Financial institutions must develop a sound IT resilience plan that specifically considers risks impacting IT systems and services.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must specifically consider risks that could adversely impact IT systems and services.",
+          "text": "Financial institutions must ensure the IT resilience plan supports protection and re-establishment of confidentiality, integrity and availability of business functions.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must support the objective to protect and, if necessary, re-establish the confidentiality, integrity and availability of its business functions, supporting processes and IT assets.",
+          "text": "Financial institutions must ensure the IT resilience plan supports critical business functions, processes, IT assets and interdependencies.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must support critical business functions, business processes, IT assets and its interdependencies (including those provided by third parties, where applicable).",
+          "text": "Financial institutions must ensure the IT resilience plan enables return to normalcy in the event of severe business disruption.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must cater for processes to enable the return to a state of normality in the event of severe business disruption.",
+          "text": "Financial institutions must align the IT resilience plan with the business impact assessment.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must be aligned to the business impact assessment referred to in paragraph 13.2 above, for example, with redundancy of certain critical components to prevent disruptions caused by events impacting those components.",
+          "text": "Financial institutions must test the IT resilience plan regularly, but at least annually, covering various scenarios including total shutdown of primary sites.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must be tested regularly, but at least annually. Various scenarios, including total shutdown or incapacitation of the primary site as well as component failure at the individual system or application cluster level, must be covered in IT resilience tests.",
+          "text": "Financial institutions must review the IT resilience plan regularly, but at least annually, based on testing results, threat intelligence and lessons learned.",
           "obligation_type": "Must"
         },
         {
-          "text": "The IT resilience plan must be reviewed regularly, but at least annually. The review must be based on, amongst others, testing results, current threat intelligence and lessons learnt from previous events.",
+          "text": "Financial institutions must assess redundancy and fault tolerance in electrical power, air conditioning, fire suppression and data communications.",
           "obligation_type": "Must"
         },
         {
-          "text": "To achieve data centre resilience, a financial institution must assess the redundancy and fault tolerance in areas such as electrical power, air conditioning, fire suppression and data communications, to the extent applicable.",
+          "text": "Financial institutions must define, document and implement physical security measures to protect premises, data centres and sensitive areas.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must define, document and implement physical security measures to protect its premises, data centres and sensitive areas from unauthorised access and from environmental hazards.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "A financial institution must test the recovery dependencies between systems. Bilateral or multilateral recovery testing must be conducted where networks and systems are linked to specific service providers, where applicable.",
+          "text": "Financial institutions must test recovery dependencies between systems and conduct bilateral or multilateral recovery testing where networks and systems are linked to service providers.",
           "obligation_type": "Must"
         }
       ],
@@ -487,14 +637,15 @@
     {
       "section": "14",
       "heading": "IT assurance",
+      "title": "IT assurance and compliance review",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 13,
       "page_end": 13,
-      "primary_category": "Financial Data",
-      "summary": "Financial institutions must establish independent IT assurance functions to review compliance with IT policies and procedures and external requirements.",
-      "dtia_summary": "Requires financial institutions to establish independent IT assurance functions to review compliance with IT policies and procedures and external requirements.",
+      "primary_category": "Governance",
+      "summary": "Financial institutions must establish an independent IT assurance structure with reporting lines that preserve independence and objectivity. This includes determining whether operational environment changes affect existing IT controls, requiring changes to be made through formal change management processes, and maintaining an IT assurance plan to evaluate the adequacy and effectiveness of IT systems, internal controls and governance arrangements.",
+      "dtia_summary": "This section requires independent IT assurance mechanisms that impact data transfer by ensuring robust oversight of IT systems and controls, which affects data security and compliance during cross-border transfers.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -504,19 +655,19 @@
       ],
       "requirements": [
         {
-          "text": "The control functions and/or external assurance providers, must, have the capacity to independently review and provide objective assurance of compliance with all IT-related activities as outlined in the financial institution's policies and procedures as well as with external requirements.",
+          "text": "Control functions and/or external assurance providers must have capacity to independently review and provide objective assurance of compliance with IT-related activities.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must through the control functions or an external assurance provider - establish an organisational structure and reporting lines for IT assurance within the control functions, where appropriate, in a way that preserves the independence and objectivity of the control functions.",
+          "text": "Financial institutions must establish an organizational structure and reporting lines for IT assurance within control functions to preserve independence and objectivity.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must through the control functions or an external assurance provider - determine whether changes in the existing operational environment influence the existing IT controls or require the adoption of additional measures to mitigate the risks involved. These changes must be in accordance with the financial institution's formal change management process.",
+          "text": "Financial institutions must determine whether changes in the operational environment influence existing IT controls or require additional measures to mitigate risks, in accordance with formal change management processes.",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must through the control functions or an external assurance provider - maintain an IT assurance plan to examine and evaluate the adequacy and effectiveness of the financial institution's IT systems, internal control mechanisms and governance arrangements.",
+          "text": "Financial institutions must maintain an IT assurance plan to examine and evaluate the adequacy and effectiveness of IT systems, internal control mechanisms and governance arrangements.",
           "obligation_type": "Must"
         }
       ],
@@ -525,41 +676,56 @@
     {
       "section": "15",
       "heading": "Notification and reporting requirements",
+      "title": "Financial institution incident reporting to regulators",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 13,
       "page_end": 13,
-      "primary_category": "Financial Data",
-      "summary": "Financial institutions must notify the responsible authority of material IT incidents within a determined timeframe after classification.",
-      "dtia_summary": "Requires financial institutions to notify the responsible authority of material IT incidents within a determined timeframe after classification.",
-      "authority": "",
+      "primary_category": "Incident Reporting",
+      "summary": "Financial institutions must notify the relevant financial sector regulator within a specified timeframe after classifying a system failure, malfunction, delay, or disruptive event as a material incident. The notification must follow the form and manner determined by the authorities. Additionally, regulators may request specific information or compliance reports during ongoing supervisory reviews.",
+      "dtia_summary": "Requires timely reporting of material incidents to regulators, impacting data transfer assessments by mandating incident classification and notification protocols for cross-border financial data handling.",
+      "authority": "Authorities",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Incident Reporting"
+        "Incident Reporting",
+        "Breach Notification"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution must notify the responsible authority of the financial sector law in terms of which the financial institution is licensed or registered, in the form and manner determined by the Authorities, of any systems failure, malfunction, delay or other disruptive event, within the determined timeframe, after classifying the event as a material incident.",
+          "text": "Financial institutions must notify the responsible authority of the financial sector law within the determined timeframe after classifying an event as a material incident",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must be in the form and manner determined by the authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators may request specific information or regulatory reports during ongoing supervisory reviews",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulators may request assurance in terms of compliance with this Joint Standard",
+          "obligation_type": "May"
         }
       ],
-      "source_quote": "A financial institution must notify the responsible authority of the financial sector law in terms of which the financial institution is licensed or registered, in the form and manner determined by the Authorities, of any systems failure, malfunction, delay or other disruptive event, within the determined timeframe, after classifying the event as a material incident."
+      "source_quote": "15.1 A financial institution must notify the responsible authority of the financial sector law in terms of which the financial institution is licensed or registered, in the form and manner determined by the Authorities, of any systems failure, malfunction, delay or other disruptive event, within the determined timeframe, after classifying the event as a material incident."
     },
     {
       "section": "16",
       "heading": "Short-title",
+      "title": "Joint Standard short title",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 13,
       "page_end": 13,
       "primary_category": "Other",
-      "summary": "Joint Standard is titled 'IT Governance and Risk Management for Financial Institutions, 2023'.",
+      "summary": "This section provides the official title for the Joint Standard, which is 'IT Governance and Risk Management for Financial Institutions, 2023'. It does not impose any operational requirements or obligations.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -567,7 +733,7 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "This Joint Standard is called ‘IT Governance and Risk Management for Financial Institutions, 2.023'."
+      "source_quote": "16.1 This Joint Standard is called ‘IT Governance and Risk Management for Financial Institutions, 2023'."
     }
   ]
 }

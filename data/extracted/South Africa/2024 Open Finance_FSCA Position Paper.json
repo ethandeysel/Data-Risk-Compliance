@@ -1,130 +1,419 @@
 {
   "country": "South Africa",
   "document": "2024 Open Finance_FSCA Position Paper",
-  "generated": "2026-07-12T12:06:29",
+  "generated": "2026-07-16T18:58:37",
   "sections": [
     {
       "section": "1",
       "heading": "EXECUTIVE SUMMARY",
+      "title": "Executive summary of FSCA's Open Finance policy recommendations",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "FSCA outlines policy recommendations for Open Finance, including mandatory regulation, licensing, data protection frameworks, risk management, and consumer recourse mechanisms.",
-      "dtia_summary": "",
+      "summary": "The FSCA outlines seven policy recommendations for Open Finance implementation in South Africa. These include mandatory regulation of participants, licensing requirements, establishing a data-protection framework, developing risk management frameworks, creating data protection standards, ensuring consumer access to information and recourse mechanisms, and forming an Open Finance Advisory Group. The recommendations aim to balance Open Finance benefits with risk mitigation in the financial sector.",
+      "dtia_summary": "This section establishes the policy framework for Open Finance in South Africa, requiring financial institutions to implement consent-based data sharing with third parties while managing associated risks. It sets the stage for data transfer impact assessments by defining the regulatory approach to Open Finance.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants in Open Finance should be regulated and a mandatory approach implemented",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants in Open Finance should be licensed and regulated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A suitable data-protection and consent framework must be put in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate risk management and disclosure frameworks must be developed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data protection and sharing standards must be developed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consumers must have access to information and recourse mechanisms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An Advisory Group for Open Finance comprising industry participants and other experts should be established",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "The FSCA continues to support mandating Open Finance in future, noting that the foundational Open Finance Programme of Work will likely need to take place in preparation to optimise the value to be derived from Open Finance and mimimise market disruption."
     },
     {
       "section": "2",
       "heading": "BACKGROUND AND INTRODUCTION",
+      "title": "Background and introduction to Open Finance ecosystem",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 4,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "Background on FSCA's process for developing Open Finance policy, including consultations and risks associated with data sharing in the absence of tailored regulatory frameworks.",
-      "dtia_summary": "",
+      "summary": "This section details the FSCA's process for developing Open Finance policy in South Africa, starting from 2020 research and consultations. It highlights the absence of a tailored regulatory framework for financial institutions participating in Open Finance, the risks associated with data sharing including privacy breaches and fraud, and the fact that most third-party providers are unlicensed and outside FSCA's regulatory scope. The section emphasizes the need for a balanced regulatory approach that enables Open Finance while mitigating risks.",
+      "dtia_summary": "This section identifies key risks in the Open Finance ecosystem that require data transfer impact assessments, particularly the lack of regulatory oversight for third-party providers and the potential for data privacy breaches when financial institutions share customer data.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Data Sharing",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The FSCA started a comprehensive process in 2020 with the Regulating Open Finance Research and Consultation Paper",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA held two public workshops in 2021 focusing on consent, customer protection, dispute resolution, data-sharing standards, commercial models and data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA developed the Draft Position Paper on Open Finance in 2023",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA conducted an Information Request in October 2023 to gather stakeholder submissions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Most third-party providers are not licensed as financial institutions and fall outside FSCA's regulatory framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open Finance offers potential benefits such as increased competition, innovative financial services and enhanced value for customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open Finance exposes customers to risks including data privacy breaches, breaches of contractual agreements, and fraud",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "The FSCA continues to support mandating Open Finance in future, noting that the foundational Open Finance Programme of Work will likely need to take place in preparation to optimise the value to be derived from Open Finance and mimimise market disruption."
     },
     {
       "section": "3",
       "heading": "UNDERSTANDING OPEN FINANCE, OPEN BANKING AND THE DATA",
+      "title": "Definitions of Open Finance, Open Banking and data sharing ecosystem",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 5,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "Proposed definitions of Open Finance and Open Banking, emphasizing consent-based data sharing with third parties and the data-sharing ecosystem structure.",
-      "dtia_summary": "",
+      "summary": "This section provides working definitions for Open Finance and Open Finance services, aligning with international standards. It explains that Open Finance is the practice of financial institutions sharing financial customer data with third parties subject to customer consent, and extends beyond Open Banking to include a broader scope of financial products and services. The section also outlines the key entities in the Open Finance ecosystem including data subjects, data holders, data users, and data aggregators.",
+      "dtia_summary": "This section defines the data sharing ecosystem and key entities involved in Open Finance, which is critical for data transfer impact assessments as it clarifies the roles and responsibilities of different parties in the data flow process.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Open finance means the practice of financial institutions sharing their financial customer's financial data with third parties, subject to that customer's full consent, for the provision of open finance services by those third parties, and any activities connected therewith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open finance service refers to a service/s developed for a financial customer by using that customer's financial data, which rely on the provision and movement and/or use of that customer's data",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "Open finance means the practice of financial institutions sharing their financial customer's financial data with third parties, subject to that customer's full consent, for the provision of open finance services by those third parties, and any activities connected therewith."
     },
     {
       "section": "1",
       "heading": "The data subject (customer) requests a financial service from a fintech (data user), for",
+      "title": "Executive summary of FSCA's Open Finance policy recommendations",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "FSCA outlines policy recommendations for Open Finance, including mandatory regulation, licensing, data protection frameworks, risk management, and consumer recourse mechanisms.",
-      "dtia_summary": "",
+      "summary": "The FSCA outlines seven policy recommendations for Open Finance implementation in South Africa. These include mandatory regulation of participants, licensing requirements, establishing a data-protection framework, developing risk management frameworks, creating data protection standards, ensuring consumer access to information and recourse mechanisms, and forming an Open Finance Advisory Group. The recommendations aim to balance Open Finance benefits with risk mitigation in the financial sector.",
+      "dtia_summary": "This section establishes the policy framework for Open Finance in South Africa, requiring financial institutions to implement consent-based data sharing with third parties while managing associated risks. It sets the stage for data transfer impact assessments by defining the regulatory approach to Open Finance.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants in Open Finance should be regulated and a mandatory approach implemented",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants in Open Finance should be licensed and regulated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A suitable data-protection and consent framework must be put in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate risk management and disclosure frameworks must be developed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data protection and sharing standards must be developed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consumers must have access to information and recourse mechanisms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An Advisory Group for Open Finance comprising industry participants and other experts should be established",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "The FSCA continues to support mandating Open Finance in future, noting that the foundational Open Finance Programme of Work will likely need to take place in preparation to optimise the value to be derived from Open Finance and mimimise market disruption."
     },
     {
       "section": "2",
       "heading": "The fintech processes the request and, within its flow, it requires access to data holders",
+      "title": "Background and introduction to Open Finance ecosystem",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "Background on FSCA's process for developing Open Finance policy, including consultations and risks associated with data sharing in the absence of tailored regulatory frameworks.",
-      "dtia_summary": "",
+      "summary": "This section details the FSCA's process for developing Open Finance policy in South Africa, starting from 2020 research and consultations. It highlights the absence of a tailored regulatory framework for financial institutions participating in Open Finance, the risks associated with data sharing including privacy breaches and fraud, and the fact that most third-party providers are unlicensed and outside FSCA's regulatory scope. The section emphasizes the need for a balanced regulatory approach that enables Open Finance while mitigating risks.",
+      "dtia_summary": "This section identifies key risks in the Open Finance ecosystem that require data transfer impact assessments, particularly the lack of regulatory oversight for third-party providers and the potential for data privacy breaches when financial institutions share customer data.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Data Sharing",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The FSCA started a comprehensive process in 2020 with the Regulating Open Finance Research and Consultation Paper",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA held two public workshops in 2021 focusing on consent, customer protection, dispute resolution, data-sharing standards, commercial models and data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA developed the Draft Position Paper on Open Finance in 2023",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The FSCA conducted an Information Request in October 2023 to gather stakeholder submissions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Most third-party providers are not licensed as financial institutions and fall outside FSCA's regulatory framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open Finance offers potential benefits such as increased competition, innovative financial services and enhanced value for customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open Finance exposes customers to risks including data privacy breaches, breaches of contractual agreements, and fraud",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "The FSCA continues to support mandating Open Finance in future, noting that the foundational Open Finance Programme of Work will likely need to take place in preparation to optimise the value to be derived from Open Finance and mimimise market disruption."
     },
     {
       "section": "3",
       "heading": "The data subject consents (providing an authentication factor) to access the data from",
+      "title": "Definitions of Open Finance, Open Banking and data sharing ecosystem",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "Proposed definitions of Open Finance and Open Banking, emphasizing consent-based data sharing with third parties and the data-sharing ecosystem structure.",
-      "dtia_summary": "",
+      "summary": "This section provides working definitions for Open Finance and Open Finance services, aligning with international standards. It explains that Open Finance is the practice of financial institutions sharing financial customer data with third parties subject to customer consent, and extends beyond Open Banking to include a broader scope of financial products and services. The section also outlines the key entities in the Open Finance ecosystem including data subjects, data holders, data users, and data aggregators.",
+      "dtia_summary": "This section defines the data sharing ecosystem and key entities involved in Open Finance, which is critical for data transfer impact assessments as it clarifies the roles and responsibilities of different parties in the data flow process.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Open finance means the practice of financial institutions sharing their financial customer's financial data with third parties, subject to that customer's full consent, for the provision of open finance services by those third parties, and any activities connected therewith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Open finance service refers to a service/s developed for a financial customer by using that customer's financial data, which rely on the provision and movement and/or use of that customer's data",
+          "obligation_type": "Must"
+        }
+      ],
       "source_quote": "Open finance means the practice of financial institutions sharing their financial customer's financial data with third parties, subject to that customer's full consent, for the provision of open finance services by those third parties, and any activities connected therewith."
     },
     {
       "section": "4",
       "heading": "The fintech app connects to its back-end server, which has a secure, private, and",
+      "title": "Policy considerations and risks for Open Finance implementation",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section outlines policy considerations and risks related to Open Finance in South Africa, including global comparisons with countries that have adopted voluntary or mandatory approaches. It details potential benefits such as improved financial resilience, financial inclusion, and competition. The section also identifies risks across customer, TPP, and financial institution categories, including financial exclusion, privacy concerns, and market competition issues.",
+      "dtia_summary": "This section is relevant for DTIAs as it identifies key risks and benefits of Open Finance, particularly regarding data sharing mechanisms and consent frameworks that impact cross-border data flows.",
+      "authority": "FSCA",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "FSCA considers global context of voluntary vs mandatory Open Finance approaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA evaluates South African experience with Open Finance for strategic objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA assesses Open Finance benefits including financial resilience, inclusion, and competition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA identifies risks for customers, TPPs, and financial institutions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Policy considerations and risks related to Open Finance have been thoroughly interrogated in past IFWG9, FSCA10 and National Payment System Department (NPSD) publications11."
+    },
+    {
+      "section": "4",
+      "heading": "POLICY CONSIDERATIONS AND RISKS",
+      "title": "Policy considerations and risks for Open Finance implementation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "This section outlines policy considerations and risks related to Open Finance in South Africa, including global comparisons with countries that have adopted voluntary or mandatory approaches. It details potential benefits such as improved financial resilience, financial inclusion, and competition. The section also identifies risks across customer, TPP, and financial institution categories, including financial exclusion, privacy concerns, and market competition issues.",
+      "dtia_summary": "This section is relevant for DTIAs as it identifies key risks and benefits of Open Finance, particularly regarding data sharing mechanisms and consent frameworks that impact cross-border data flows.",
+      "authority": "FSCA",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "FSCA considers global context of voluntary vs mandatory Open Finance approaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA evaluates South African experience with Open Finance for strategic objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA assesses Open Finance benefits including financial resilience, inclusion, and competition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA identifies risks for customers, TPPs, and financial institutions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Policy considerations and risks related to Open Finance have been thoroughly interrogated in past IFWG9, FSCA10 and National Payment System Department (NPSD) publications11."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "POLICY CONSIDERATIONS AND RISKS (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
       "primary_category": "Other",
       "summary": "",
       "dtia_summary": "",
@@ -137,73 +426,17 @@
       "source_quote": ""
     },
     {
-      "section": "4",
-      "heading": "POLICY CONSIDERATIONS AND RISKS",
-      "chapter": null,
-      "part": "part o",
-      "condition": null,
-      "page_start": 9,
-      "page_end": 13,
-      "primary_category": "Other",
-      "summary": "Policy considerations and risks related to Open Finance are discussed, including global approaches, potential benefits for financial resilience, inclusion, and competition, and identified risks such as financial exclusion and cybersecurity threats.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "Medium",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "Policy considerations and risks related to Open Finance have been thoroughly interrogated in past IFWG9, FSCA10 and National Payment System Department (NPSD) publications11."
-    },
-    {
       "section": "5",
       "heading": "COMMENTS RECEIVED ON DRAFT POSITION PAPER",
+      "title": "Stakeholder feedback on Open Finance draft position paper",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 13,
       "page_end": 16,
       "primary_category": "Other",
-      "summary": "Stakeholders provided feedback on the FSCA's Draft Position Paper, preferring voluntary Open Finance approaches, emphasizing customer experience, competition, alignment with POPIA, liability frameworks, financial literacy, and international case studies.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "Medium",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "The FSCA received 16 submissions from stakeholders across different industry segments (see Annexure B)."
-    },
-    {
-      "section": "6",
-      "heading": "INFORMATION REQUEST No 2 of 2023",
-      "chapter": null,
-      "part": "part o",
-      "condition": null,
-      "page_start": 16,
-      "page_end": 17,
-      "primary_category": "Other",
-      "summary": "Survey results indicate early-stage Open Finance adoption in South Africa, with financial institutions generating revenue from Open Finance activities, varying service offerings, and a willingness to employ risk management frameworks.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "Medium",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": "More than 400 submissions were received in response to the FSCA's Information Request No 2 of 2023."
-    },
-    {
-      "section": "7",
-      "heading": "FSCA OPEN FINANCE POLICY RECOMMENDATIONS",
-      "chapter": null,
-      "part": "part o",
-      "condition": null,
-      "page_start": 17,
-      "page_end": 20,
-      "primary_category": "Other",
-      "summary": "FSCA recommends voluntary adoption of Open Finance with phased mandatory implementation, focusing on data sharing, consent, risk management, and standards for financial institutions and TPPs.",
-      "dtia_summary": "Proposes voluntary adoption of Open Finance with phased mandatory implementation, requiring consent frameworks, risk management, and API standards for financial data sharing.",
+      "summary": "This section details stakeholder comments received on the FSCA's draft Open Finance Position Paper, including preferences for voluntary approaches, customer experience considerations, competitive landscape implications, alignment with existing legislation, liability frameworks, and financial literacy concerns. Stakeholders recommend specific actions such as clarifying regulatory obligations, ensuring alignment with POPIA, and establishing liability frameworks.",
+      "dtia_summary": "This section is relevant for DTIAs as it provides stakeholder insights into regulatory alignment, consent mechanisms, and risk management requirements for Open Finance implementations.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -213,20 +446,141 @@
         "Consent"
       ],
       "data_types": [
+        "Customer Data",
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "Persons participating in Open Finance should be regulated for safe and ethical sharing of user consent-based financial data to TPPs",
+          "text": "FSCA may follow up with stakeholders for additional insights on Open Finance",
           "obligation_type": "Must"
         },
         {
-          "text": "Consent should be explicit, informed, specific, and not aggregated with other consents",
+          "text": "Stakeholders prefer voluntary approach to Open Finance with organic market development",
           "obligation_type": "Must"
         },
         {
-          "text": "Providers may not continue to share or utilise consumers' data once consent is withdrawn",
+          "text": "Stakeholders recommend clear regulatory plan for mandatory Open Finance implementation",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Stakeholders emphasize customer experience and value should drive Open Finance design",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stakeholders support 'same activity, same risk, same rules' for regulatory oversight",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stakeholders recommend alignment of Open Finance terminology with POPIA",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stakeholders support flexible liability framework for data misuse",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The FSCA received 16 submissions from stakeholders across different industry segments (see Annexure B)."
+    },
+    {
+      "section": "6",
+      "heading": "INFORMATION REQUEST No 2 of 2023",
+      "title": "Survey of Open Finance activities in South Africa",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "The FSCA conducted a survey in October 2023 to understand the uptake and practices of Open Finance activities among financial institutions and third-party providers in South Africa. Over 400 submissions were received, revealing that around 50 financial institutions generate more than 5% of revenue from Open Finance activities, with some entities having annual revenues exceeding R1 billion. The survey indicates that payment services are the most popular Open Finance activity, followed by insurance, lending, and KYC services. Financial institutions primarily target the retail market, while some entities focus on the corporate sector. The survey also highlights that most entities use consent management dashboards but have limited API development, with no insurers having developed APIs. The FSCA plans to publish a detailed report on these findings and engage further with stakeholders.",
+      "dtia_summary": "This section provides context on the current state of Open Finance activities in South Africa, indicating the market's early development stage and the need for consistent frameworks to support responsible data sharing. It highlights the importance of understanding participant practices for effective DTIA design.",
+      "authority": "FSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions and TPPs must submit responses to FSCA's Information Request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will publish a report detailing findings from the October 2023 Information Request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "During October 2023, the FSCA surveyed industry participants to garner insights regarding the uptake, usage, and practices by financial institutions and TPPs that participate in Open Finance related activities in South Africa."
+    },
+    {
+      "section": "7",
+      "heading": "FSCA OPEN FINANCE POLICY RECOMMENDATIONS",
+      "title": "FSCA Policy Recommendations for Open Finance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The FSCA proposes a phased regulatory approach for Open Finance, starting with voluntary adoption and transitioning to mandatory requirements. Key recommendations include regulating participants in Open Finance, implementing tailored oversight, ensuring explicit informed consent, developing risk management frameworks, standardizing data sharing through APIs, and establishing consumer awareness mechanisms. The FSCA emphasizes the need for proportionate regulatory requirements, clear consent principles, and contractual liability allocation for data misuse. The recommendations also include forming an Open Finance Advisory Group to guide implementation and align with international practices.",
+      "dtia_summary": "This section outlines critical safeguards for DTIA, including explicit consent requirements, risk management frameworks, API standardization, and liability allocation mechanisms that must be considered when assessing cross-border data transfers in Open Finance.",
+      "authority": "FSCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Persons participating in Open Finance should be regulated for safe and ethical sharing of user consent-based financial data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent should be explicit, informed, specific, and not conditional on other bundled products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent should be clear and distinct, not aggregated with other consent agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customers should freely and voluntarily give and withdraw consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent should not be indefinite and should be easy to withdraw",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must not continue to share or utilize data once consent is withdrawn",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent message must clearly identify risks to consumers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions and TPPs must develop risk management and disclosure frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data sharing should be secure and standardized through agreed API standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions and TPPs may contractually allocate liabilities for data misuse",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "The FSCA aims to promote responsible Open Finance and recommends the following: Persons participating in Open Finance should be regulated for the safe and ethical sharing of user consent-based financial data to TPPs."
@@ -234,92 +588,171 @@
     {
       "section": "8",
       "heading": "PROGRAMME OF WORK GOING FORWARD",
+      "title": "FSCA Programme of Work for Open Finance",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 20,
       "page_end": 21,
       "primary_category": "Other",
-      "summary": "FSCA outlines Programme of Work for Open Finance, including developing API standards, consent frameworks, and consumer awareness mechanisms.",
-      "dtia_summary": "FSCA plans to develop API standards, consent frameworks, and consumer awareness mechanisms through workshops and advisory group engagement.",
+      "summary": "The FSCA outlines a series of actions to advance Open Finance, including developing open API standards, establishing consent and risk management frameworks, promoting voluntary adoption of responsible practices, identifying prioritized use cases for mandatory implementation, assessing legal gaps, building sector awareness, empowering consumers, and creating institutional arrangements between regulators. The programme emphasizes collaboration with stakeholders and the establishment of an Open Finance Advisory Group to guide implementation, with specific timelines for delivering each action item.",
+      "dtia_summary": "This section details the FSCA's roadmap for Open Finance implementation, highlighting the need for standardized APIs, consent frameworks, and risk management protocols that directly impact DTIA requirements for cross-border data transfers and third-party processing.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Data Sharing",
-        "Consent"
+        "Consent",
+        "Data Sharing"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Developing open API standards for data sharing",
+          "text": "FSCA will develop open API standards",
           "obligation_type": "Must"
         },
         {
-          "text": "Developing suitable consent, risk management and disclosure frameworks",
+          "text": "FSCA will develop suitable consent, risk management and disclosure frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will promote voluntary adoption of responsible Open Finance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will develop a common view of use cases for mandatory implementation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will assess legal framework for weaknesses and gaps",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will build knowledge and awareness of responsible Open Finance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will empower consumers to respond to opportunities and risks in Open Finance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will establish institutional arrangements between regulators",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The FSCA will hold a series of engagements and workshops with stakeholders to further unpack submissions made to date, in support of the following Programme of Work: Developing open APIs standards, developing suitable consent, risk management and disclosure frameworks."
+      "source_quote": "The FSCA will hold a series of engagements and workshops with stakeholders to further unpack submissions made to date, in support of the following Programme of Work: Developing open APIs standards."
     },
     {
       "section": "9",
       "heading": "ANNEXURE A: OPEN FINANCE APPROACH ACROSS VARIOUS JURISDICTIONS",
+      "title": "Open Finance Approaches Across Jurisdictions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 21,
       "page_end": 23,
       "primary_category": "Other",
-      "summary": "Compares Open Finance approaches across jurisdictions, highlighting voluntary (Singapore, US, Nigeria) and mandated (Brazil, UK, EU) models with varying regulatory frameworks.",
-      "dtia_summary": "Describes jurisdictional approaches to Open Finance, including voluntary and mandated models with different regulatory frameworks and implementation requirements.",
+      "summary": "This section compares Open Finance approaches in different jurisdictions, highlighting voluntary models in Singapore, Nigeria, and the US, and mandated models in Brazil, the UK, and the EU. Singapore uses a voluntary approach with standardized APIs and regulatory oversight, Nigeria has a voluntary participation model with tiered data access requirements, the US relies on private sector initiatives, Brazil mandates participation for major banks, and the EU implemented a mandatory framework covering banking and payments with strong regulatory oversight. The section emphasizes the importance of jurisdiction-specific regulatory approaches for data sharing and interoperability.",
+      "dtia_summary": "This section provides context for DTIA by illustrating jurisdictional differences in Open Finance implementation, which can impact cross-border data transfer compliance and the need for localized regulatory alignment.",
       "authority": "",
-      "financial_relevance": "Low",
+      "financial_relevance": "Medium",
       "confidence": "High (explicit)",
       "topics": [
         "Cross-border Transfer",
+        "International Processing",
         "Data Sharing"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
-      "requirements": [],
-      "source_quote": "Voluntary approach – Open Finance/ Open Banking in Singapore, the US, and Nigeria; Mandated approach – Open Finance/ Open Banking in Brazil, the United Kingdom, and European Union."
+      "requirements": [
+        {
+          "text": "Singapore follows a voluntary approach with standardized APIs and regulatory oversight",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Nigeria has a voluntary participation model with tiered data access requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The US relies on private sector initiatives for Open Banking and APIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Brazil mandates participation for 12 major banks and payment entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The EU implemented a mandatory Open Banking framework covering banking and payments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The UK ordered major banks to share customer data with TPPs as a penalty for anticompetitive behavior",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Singapore follows a voluntary approach to Open Finance with the Monetary Authority of Singapore (MAS) playing an active enabling role."
     },
     {
       "section": "11",
       "heading": "ANNEXURE C: PROPOSED OPEN FINANCE ROAD MAP",
+      "title": "Proposed Open Finance Roadmap",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 24,
       "page_end": 24,
       "primary_category": "Other",
-      "summary": "Details proposed Open Finance roadmap with timelines for developing API standards, consent frameworks, and consumer awareness mechanisms.",
-      "dtia_summary": "Outlines phased implementation timeline for Open Finance, including API standards, consent frameworks, and consumer empowerment by 2026.",
+      "summary": "The FSCA outlines a detailed timeline for implementing Open Finance initiatives, including establishing an Open Finance Advisory Group by March 2025, developing API standards by March 2026, creating consent and risk management frameworks by September 2026, and conducting workshops with stakeholders by October 2024. The roadmap emphasizes phased implementation, stakeholder collaboration, and the development of infrastructure such as sandbox environments to support responsible data sharing and consumer empowerment.",
+      "dtia_summary": "This section provides a clear timeline for regulatory actions that directly impact DTIA, including the development of API standards and consent frameworks, which must be considered when assessing cross-border data transfers in the evolving Open Finance ecosystem.",
       "authority": "FSCA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Data Sharing",
         "Consent"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Developing API standards by 31 March 2026",
+          "text": "FSCA will establish Open Finance Advisory Group by 31 March 2025",
           "obligation_type": "Must"
         },
         {
-          "text": "Developing consent, risk management and disclosure frameworks by 30 September 2026",
+          "text": "Advisory Group will develop API standards by 31 March 2026",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will develop consent, risk management and disclosure frameworks by 30 September 2026",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will promote voluntary adoption of responsible Open Finance by 31 March 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will develop a common view of use cases for mandatory implementation by 31 March 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will assess legal framework for weaknesses and gaps by 31 March 2026",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will build knowledge and awareness of responsible Open Finance by 31 December 2026",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSCA will empower consumers to respond to opportunities and risks in Open Finance by 31 December 2026",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Developing API standards – Advisory Group, 31 March 2026; Developing suitable consent, risk management and disclosure frameworks – FSCA, 30 September 2026."
+      "source_quote": "Action: Establishing Advisory Group; Owner: FSCA in collaboration with IFWG members; Expected Delivery Date: 31 March 2025"
     }
   ]
 }

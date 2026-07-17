@@ -1,18 +1,19 @@
 {
   "country": "Kenya",
   "document": "THE-DATA-PROTECTION-COMPLAINTS-HANDLING-AND-ENFORCEMENT (Kenya - Row 15)",
-  "generated": "2026-07-15T14:48:07",
+  "generated": "2026-07-16T16:15:22",
   "sections": [
     {
       "section": "1",
       "heading": "These Regulations may be cited as the Data Protection",
+      "title": "Regulation citation",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section establishes the citation for the Data Protection (Complaints Handling Procedure and Enforcement) Regulations, 2021, allowing it to be referred to as the Regulations in subsequent legal contexts.",
+      "summary": "These Regulations are formally named the Data Protection (Complaints Handling Procedure and Enforcement) Regulations, 2021. They establish the citation for the regulations within the legal framework. The citation is used to reference the regulations in subsequent legal proceedings and communications.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -21,7 +22,7 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "These Regulations may be cited as the Data Protection (Complaints Handling Procedure and Enforcement) Regulations, 2021.",
+          "text": "These Regulations may be cited as the Data Protection (Complaints Handling Procedure and Enforcement) Regulations, 2021",
           "obligation_type": "Must"
         }
       ],
@@ -30,13 +31,14 @@
     {
       "section": "2",
       "heading": "In these Regulations, unless the context otherwise requires",
+      "title": "Key terms defined",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 3,
       "page_end": 3,
-      "primary_category": "Definitions",
-      "summary": "This section defines key terms used in the Regulations, including 'data subject', 'complainant', 'Data Protection Commissioner', and other relevant entities, to ensure clarity in complaint handling procedures.",
+      "primary_category": "Other",
+      "summary": "This section defines critical terms used throughout the Regulations. It specifies that 'data subject' refers to a person who has lodged a complaint, 'Data Protection Commissioner' refers to the appointed official, and 'Office' refers to the Data Protection Commissioner's office. The definitions ensure clarity in interpreting the regulations.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -46,31 +48,31 @@
       "requirements": [
         {
           "text": "means a data subject or a person who has lodged a complaint pursuant to regulation 4",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "means the person appointed under section 6 of the Act",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "means the office of the Data Protection Commissioner",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "Commissioner under regulation 16",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "Commissioner under regulation 20",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "lodged",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         },
         {
           "text": "writing, directing a person to appear before the Office",
-          "obligation_type": "Definition"
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "In these Regulations, unless the context otherwise requires means a data subject or a person who has lodged a complaint pursuant to regulation 4; means the person appointed under section 6 of the Act; means the office of the Data Protection Commissioner; Commissioner under regulation 16; Commissioner under regulation 20; lodged; and writing, directing a person to appear before the Office."
@@ -78,53 +80,34 @@
     {
       "section": "3",
       "heading": "The object and purpose of these Regulations is to",
+      "title": "Regulations' purpose",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 3,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section outlines the objectives of the Regulations, including facilitating fair complaint resolution, issuing enforcement notices, penalty notices, establishing complaint hearing procedures, and resolving complaints through alternative dispute mechanisms as specified in the Act.",
+      "summary": "These Regulations aim to ensure fair and efficient complaint resolution by the Data Commissioner, provide mechanisms for enforcement notices and penalty notices, establish procedures for hearing complaints, and enable alternative dispute resolution as specified in the Act. The purpose is to streamline complaint handling while adhering to legal standards.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "facilitate a fair, impartial, just, expeditious, proportionate and affordable determination of complaints lodged with the Data Commissioner in accordance with the Act and these Regulations, without undue regard to technicalities of procedure",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "provide for issuance of enforcement notices as contemplated under section 58 of the Act",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "provide for issuance of penalty notices as contemplated under section 62 of the Act",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "provide for the procedure for hearing and determining of complaints",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "provide for the resolution of complaints lodged with the Data Commissioner by means of alternative dispute resolution mechanisms as specified under section 9(1)(c) of the Act",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "The object and purpose of these Regulations is to facilitate a fair, impartial, just, expeditious, proportionate and affordable determination of complaints lodged with the Data Commissioner in accordance with the Act and these Regulations, without undue regard to technicalities of procedure; provide for issuance of enforcement notices as contemplated under section 58 of the Act; provide for issuance of penalty notices as contemplated under section 62 of the Act; provide for the procedure for hearing and determining of complaints; and provide for the resolution of complaints lodged with the Data Commissioner by means of alternative dispute resolution mechanisms as specified under section 9(1)(c) of the Act."
+      "requirements": [],
+      "source_quote": "The object and purpose of these Regulations is to (a) facilitate a fair, impartial, just, expeditious, proportionate and affordable determination of complaints lodged with the Data Commissioner in accordance with the Act and these Regulations, without undue regard to technicalities of procedure; (b) provide for issuance of enforcement notices as contemplated under section 58 of the Act; (c) provide for issuance of penalty notices as contemplated under section 62 of the Act; (d) provide for the procedure for hearing and determining of complaints; and (e) provide for the resolution of complaints lodged with the Data Commissioner by means of alternative dispute resolution mechanisms as specified under section 9(1) (c) of the Act."
     },
     {
       "section": "4",
       "heading": "(1) Pursuant to section 56 of the Act, a data subject or any",
+      "title": "Complaint lodging procedures",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section details the procedures for lodging complaints with the Data Commissioner, including acceptable methods (oral, electronic, or other means), the requirement to be free of charge, and the seven-day acknowledgment period for complaint receipt.",
+      "summary": "Complaints can be lodged with the Data Commissioner either orally, electronically, or via other means. The complaint must be filed in Form DPC 1, and the Data Commissioner must acknowledge receipt within seven days. Lodging complaints is free of charge, and the complainant may lodge the complaint in person, by a representative, or anonymously.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -132,10 +115,6 @@
       "topics": [],
       "data_types": [],
       "requirements": [
-        {
-          "text": "Pursuant to section 56 of the Act, a data subject or any person aggrieved on any matter under the Act may lodge a complaint with the Data Commissioner",
-          "obligation_type": "Must"
-        },
         {
           "text": "A complaint lodged under sub-regulation (1) may be lodged in Form DPC 1 set out in the Schedule",
           "obligation_type": "Must"
@@ -165,7 +144,7 @@
           "obligation_type": "Must"
         },
         {
-          "text": "The Data Commissioner shall acknowledge receipt of the complaint within seven days of receipt of the complaint",
+          "text": "The Data Commissioner shall acknowledge receipt of the complaint within seven days of receipt",
           "obligation_type": "Must"
         },
         {
@@ -173,18 +152,19 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Pursuant to section 56 of the Act, a data subject or any person aggrieved on any matter under the Act may lodge a complaint with the Data Commissioner. A complaint lodged under sub-regulation (1) may be lodged in Form DPC 1 set out in the Schedule (a) orally, subject to section 56(3) of the Act; (b) through electronic means, including email, web posting, complaint management information system; or (c) by any other appropriate means."
+      "source_quote": "(1) Pursuant to section 56 of the Act, a data subject or any person aggrieved on any matter under the Act may lodge a complaint with the Data Commissioner. (2) A complaint lodged under sub-regulation (1) may be lodged in Form DPC 1 set out in the Schedule (a) orally, subject to section 56(3) of the Act; (b) through electronic means, including email, web posting, complaint management information system; or (c) by any other appropriate means. (3) A complaint under sub-regulation (1) may be lodged (a) by the complainant in person; (b) by a person acting on behalf of the complainant; (c) by any other person authorized by law to act on behalf of a data subject; or (d) anonymously. (4) The Data Commissioner shall acknowledge receipt of the complaint within seven days of receipt of the complaint under sub-regulation (1). (5) The complaint under sub-regulation (1) shall be lodged free of charge."
     },
     {
       "section": "5",
       "heading": "(1) The Data Commissioner shall keep and maintain an up to",
+      "title": "Register of complaints",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section mandates the Data Commissioner to maintain an up-to-date Register of Complaints, record complainant details, and protect the complainant's identity upon request.",
+      "summary": "The Data Commissioner must maintain an up-to-date Register of Complaints that includes the complainant's details and the complaint filed. The Commissioner must protect the complainant's identity if requested, ensuring privacy and confidentiality in complaint handling.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -205,18 +185,19 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Data Commissioner shall keep and maintain an up to date Register of Complaints. An entry into the register of complaints shall state the particulars of the complainant and the complaint filed with the Data Commissioner. The Data Commissioner shall protect the identity of the complainant where the request to protect the identity is sought by the complainant."
+      "source_quote": "(1) The Data Commissioner shall keep and maintain an up to date Register of Complaints. (2) An entry into the register of complaints shall state the particulars of the complainant and the complaint filed with the Data Commissioner. (3) The Data Commissioner shall protect the identity of the complainant where the request to protect the identity is sought by the complainant."
     },
     {
       "section": "6",
       "heading": "(1) The Data Commissioner shall undertake a preliminary",
+      "title": "Complaint admission procedures",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 4,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section outlines the preliminary review process for complaints, including admission, referral, or decline of complaints, and the procedures for conducting inquiries, investigations, and alternative dispute resolution mechanisms.",
+      "summary": "The Data Commissioner must conduct a preliminary review of complaints upon receipt. The Commissioner may admit the complaint, advise the complainant that the matter is outside their mandate, or refer the complaint to another body. If the complaint is declined, it may be re-admitted within six months if new issues arise under the Act.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -230,92 +211,94 @@
         },
         {
           "text": "The Data Commissioner may, upon undertaking a preliminary review of the complaint, admit the complaint",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "The Data Commissioner may, upon undertaking a preliminary review of the complaint, advise the complainant in writing that the matter is not within the mandate of the Data Commissioner",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "The Data Commissioner may, upon undertaking a preliminary review of the complaint, advise the complainant that the matter lies for determination by another body or institution and refer the complainant to that body or institution",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Despite sub-regulation (2), the Data Commissioner may decline to admit a complaint where the complaint does not raise any issue under the Act",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Upon admission of a complaint, the Data Commissioner may conduct an inquiry into the complaint",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Upon admission of a complaint, the Data Commissioner may conduct investigations",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Upon admission of a complaint, the Data Commissioner may facilitate mediation, conciliation or negotiation in accordance with the Act and these Regulations",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Upon admission of a complaint, the Data Commissioner may use any other mechanisms to resolve the complaint",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         },
         {
           "text": "Where a complaint is declined for admission under sub-regulation (3), the complaint may be re-admitted within six months from the date of decline, where the complaint raises new issues for determination under the Act",
-          "obligation_type": "May"
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Data Commissioner shall undertake a preliminary review of a complaint, upon receipt of the complaint by the Office. The Data Commissioner may, upon undertaking a preliminary review of the complaint, admit the complaint; where applicable, advise the complainant in writing that the matter is not within the mandate of the Data Commissioner; or advise the complainant that the matter lies for determination by another body or institution and refer the complainant to that body or institution."
+      "source_quote": "(1) The Data Commissioner shall undertake a preliminary review of a complaint, upon receipt of the complaint by the Office. (2) The Data Commissioner may, upon undertaking a preliminary review of the complaint (a) admit the complaint; (b) where applicable, advise the complainant in writing that the matter is not within the mandate of the Data Commissioner; or (c) advise the complainant that the matter lies for determination by another body or institution and refer the complainant to that body or institution. (3) Despite sub-regulation (2), the Data Commissioner may decline to admit a complaint where the complaint does not raise any issue under the Act. (4) Upon admission of a complaint, the Data Commissioner may (a) conduct an inquiry into the complaint; (b) conduct investigations; (c) facilitate mediation, conciliation or negotiation in accordance with the Act and these Regulations; or (d) use any other mechanisms to resolve the complaint. (5) Where a complaint is declined for admission under sub-regulation (3), the complaint may be re-admitted within six months from the date of decline, where the complaint raises new issues for determination under the Act."
     },
     {
       "section": "7",
       "heading": "(1) The Data Commissioner may discontinue an existing",
+      "title": "Discontinuation of complaints",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "The Data Commissioner can terminate a complaint in Form DPC 2 if the complaint lacks merit or the complainant fails to communicate without justifiable cause. The Commissioner must provide written reasons for termination within fourteen days and notify both parties. A complainant may refile the complaint after providing grounds for reinstatement.",
-      "dtia_summary": "This section outlines procedures for terminating complaints, which may impact DTIA by requiring clear termination grounds and re-institution mechanisms for complaints.",
+      "summary": "The Data Commissioner can terminate a complaint if it lacks merit or the complainant fails to engage without justifiable cause. The Commissioner must provide written reasons within fourteen days and allow the complainant to re-institute the complaint with new grounds.",
+      "dtia_summary": "",
       "authority": "Data Commissioner",
-      "financial_relevance": "Low",
+      "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "The Data Commissioner may discontinue an existing complaint in Form DPC 2 where a complaint does not merit further consideration",
+          "text": "The Data Commissioner may discontinue an existing complaint in Form DPC 2 where the complaint does not merit further consideration",
           "obligation_type": "Must"
         },
         {
-          "text": "The Data Commissioner may discontinue an existing complaint in Form DPC 2 where a complainant refuses, fails or neglects to communicate without justifiable cause",
+          "text": "The Data Commissioner may discontinue an existing complaint in Form DPC 2 where the complainant refuses, fails or neglects to communicate without justifiable cause",
           "obligation_type": "Must"
         },
         {
-          "text": "The Data Commissioner shall provide the reasons for discontinuation on any of the grounds specified under sub-regulation (1) (a) or (b) and shall, in writing, notify the complainant and respondent within fourteen days from the date the decision to discontinue a complaint is made",
+          "text": "The Data Commissioner shall provide written reasons for discontinuation within fourteen days of the decision",
           "obligation_type": "Must"
         },
         {
-          "text": "A complainant may, where a complaint has been discontinued pursuant to these Regulations, re-institute a complaint upon providing grounds for the restitution to the Data Commissioner",
+          "text": "A complainant may re-institute a discontinued complaint by providing grounds for restitution to the Data Commissioner",
           "obligation_type": "May"
         }
       ],
-      "source_quote": "7. (1) The Data Commissioner may discontinue an existing complaint in Form DPC 2 set out in the Schedule, where (a) a complaint does not merit further consideration; or (b) a complainant refuses, fails or neglects to communicate without justifiable cause."
+      "source_quote": "7. (1) The Data Commissioner may discontinue an existing complaint in Form DPC 2 set out in the Schedule, where (a) a complaint does not merit further consideration; or (b) a complainant refuses, fails or neglects to communicate without justifiable cause. (2) The Data Commissioner shall provide the reasons for discontinuation on any of the grounds specified under sub-regulation (1) (a) or (b) and shall, in writing, notify the complainant and respondent within fourteen days from the date the decision to discontinue a complaint is made. (3) A complainant may, where a complaint has been discontinued pursuant to these Regulations, re-institute a complaint upon providing grounds for the restitution to the Data Commissioner."
     },
     {
       "section": "8",
       "heading": "(1) A complaint may be withdrawn at any stage during its",
+      "title": "Withdrawal of complaints",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "Complaints can be withdrawn at any stage before a determination is made. Complainants must submit a withdrawal request in Form DPC 2, and withdrawn complaints can be re-lodged within six months. The Office processes re-lodged complaints according to the same procedures.",
-      "dtia_summary": "This section allows for complaint withdrawal and re-lodging, which may affect DTIA by introducing time-bound re-lodging and procedural continuity.",
-      "authority": "",
-      "financial_relevance": "Low",
+      "summary": "Complaints can be withdrawn at any stage before determination. Withdrawn complaints may be re-lodged within six months, and re-lodged complaints follow the same processing procedures as original complaints.",
+      "dtia_summary": "",
+      "authority": "Data Commissioner",
+      "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
@@ -325,59 +308,69 @@
           "obligation_type": "May"
         },
         {
-          "text": "A complainant may, at any time during the consideration of a complaint lodged pursuant to regulation 4 and before its determination, withdraw the complaint",
+          "text": "A complainant may withdraw a complaint at any time during consideration before determination",
           "obligation_type": "May"
         },
         {
-          "text": "An application for a withdrawal under sub-regulation (1) shall be in Form DPC 2 set out in the Schedule",
+          "text": "Withdrawal applications must be in Form DPC 2 set out in the Schedule",
           "obligation_type": "Must"
         },
         {
-          "text": "A withdrawn complaint under sub-regulation (1) may be re-lodged, within six months from the date of withdrawal of such complaint",
+          "text": "A withdrawn complaint may be re-lodged within six months from the date of withdrawal",
           "obligation_type": "May"
+        },
+        {
+          "text": "A re-lodged complaint shall be processed in accordance with the provisions of this Part",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "8. (1) A complaint may be withdrawn at any stage during its consideration but before a determination is made."
+      "source_quote": "8. (1) A complaint may be withdrawn at any stage during its consideration but before a determination is made. (2) A complainant may, at any time during the consideration of a complaint lodged pursuant to regulation 4 and before its determination, withdraw the complaint. (3) An application for a withdrawal under sub-regulation (1) shall be in Form DPC 2 set out in the Schedule. (4) A withdrawn complaint under sub-regulation (1) may be re-lodged, within six months from the date of withdrawal of such complaint. (5) A complaint re-lodged under this regulation shall be processed in accordance with the provisions of this Part."
     },
     {
       "section": "9",
       "heading": "(1) Where two or more complaints are lodged in which similar",
+      "title": "Joint consideration of complaints",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 5,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "The Data Commissioner may consolidate similar complaints with complainant consent or treat one as a test complaint to resolve others pending its outcome. Consolidated complaints are treated as single complaints, and test complaints apply to stayed complaints.",
-      "dtia_summary": "This section addresses joint complaint handling, which may impact DTIA by allowing for consolidated processing of similar complaints across jurisdictions.",
+      "summary": "The Data Commissioner may consolidate similar complaints with complainant consent or treat one as a test complaint to stay other complaints pending resolution. Consolidated complaints are treated as a single complaint for determination.",
+      "dtia_summary": "",
       "authority": "Data Commissioner",
-      "financial_relevance": "Low",
+      "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "Where two or more complaints are lodged in which similar issues are raised against a respondent, the Data Commissioner may, with the consent of the complainants, consolidate the complaints and make a determination",
+          "text": "The Data Commissioner may consolidate complaints with complainant consent to make a determination",
           "obligation_type": "May"
         },
         {
-          "text": "Where two or more complaints are lodged in which similar issues are raised against a respondent, the Data Commissioner may, with the consent of the complainants, treat one complaint as a test complaint and stay further action on the other complaints pending resolution of the test complaint",
+          "text": "The Data Commissioner may treat one complaint as a test complaint and stay further action on other complaints pending resolution",
           "obligation_type": "May"
         },
         {
-          "text": "The Data Commissioner shall, with necessary modifications, apply the decision of a test complaint to all the complaints stayed under sub-regulation (1)(b)",
+          "text": "The Data Commissioner shall apply the decision of a test complaint to all stayed complaints",
           "obligation_type": "Must"
         },
         {
-          "text": "Where complaints are consolidated in accordance with this regulation, the complaint shall be treated as a single complaint and shall be determined in accordance with the provisions of these Regulations",
+          "text": "The Data Commissioner shall communicate the decision to complainants and all parties in writing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consolidated complaints shall be treated as a single complaint for determination",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "9. (1) Where two or more complaints are lodged in which similar issues are raised against a respondent, the Data Commissioner may, with the consent of the complainants (a) consolidate the complaints and make a determination; or (b) treat one complaint as a test complaint and stay further action on the other complaints pending resolution of the test complaint."
+      "source_quote": "9. (1) Where two or more complaints are lodged in which similar issues are raised against a respondent, the Data Commissioner may, with the consent of the complainants (a) consolidate the complaints and make a determination; or (b) treat one complaint as a test complaint and stay further action on the other complaints pending resolution of the test complaint. (2) The Data Commissioner shall, with necessary modifications, apply the decision of a test complaint to all the complaints stayed under sub-regulation (1)(b). (3) The Data Commissioner shall, in writing, communicate to the complainants and all the parties the decision made under this regulation. (4) Where complaints are consolidated in accordance with this regulation, the complaint shall be treated as a single complaint and shall be determined in accordance with the provisions of these Regulations."
     },
     {
       "section": "10",
       "heading": "(1) Proceedings before the Office shall be conducted in",
+      "title": "Language of proceedings",
       "chapter": null,
       "part": "PART I",
       "condition": null,
@@ -385,9 +378,9 @@
       "page_end": 6,
       "primary_category": "Other",
       "summary": "Proceedings before the Office must be conducted in Kiswahili, English, or Kenyan Sign Language. The Office may provide interpreters for parties who cannot communicate in the language of proceedings.",
-      "dtia_summary": "This section ensures language accessibility for proceedings, which may impact DTIA by requiring language accommodations for complaints involving different linguistic groups.",
-      "authority": "",
-      "financial_relevance": "Low",
+      "dtia_summary": "",
+      "authority": "Data Commissioner",
+      "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
@@ -397,86 +390,23 @@
           "obligation_type": "Must"
         },
         {
-          "text": "The Office may ensure that a party who cannot speak, hear or understand the language of proceedings receives the services of an interpreter provided for by the Office",
+          "text": "The Office may ensure a party who cannot speak, hear or understand the language of proceedings receives an interpreter",
           "obligation_type": "May"
         }
       ],
-      "source_quote": "10. (1) Proceedings before the Office shall be conducted in Kiswahili, English or Kenyan Sign Language."
+      "source_quote": "10. (1) Proceedings before the Office shall be conducted in Kiswahili, English or Kenyan Sign Language. (2) The Office may ensure that a party who cannot speak, hear or understand the language of proceedings receives the services of an interpreter provided for by the Office."
     },
     {
       "section": "11",
       "heading": "(1) Upon admission of a complaint, the Data Commissioner",
+      "title": "Notification of complaint to respondent",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 6,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "Upon complaint admission, the Data Commissioner must notify the respondent in Form DPC 3, requiring them to respond within twenty-one days by making representations, reviewing the complaint, or providing a response. If the respondent fails to act, the Commissioner proceeds with determination.",
-      "dtia_summary": "This section details notification procedures for complaints, which may impact DTIA by requiring timely respondent engagement and alternative dispute resolution options.",
-      "authority": "Data Commissioner",
-      "financial_relevance": "Low",
-      "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [
-        {
-          "text": "Upon admission of a complaint, the Data Commissioner shall notify the respondent of the complaint lodged against him, in Form DPC 3 set out in the Schedule and shall require the respondent to within twenty-one days (a) make representations and provide any relevant material or evidence in support of its representations; (b) review the complaint with a view of summarily resolving the complaint to the satisfaction of the complainant; or (c) provide a response with the required information",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Where a respondent does not take any action as contemplated under sub-regulation (1), the Data Commissioner shall proceed to determine the complaint in accordance with the Act and these Regulations",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "The notice referred to under sub-regulation (1) shall specify options available to resolve a complaint including determining the complaint through alternative dispute resolution mechanisms specified in the Act and these Regulations",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "11. (1) Upon admission of a complaint, the Data Commissioner shall notify the respondent of the complaint lodged against him, in Form DPC 3 set out in the Schedule and shall require the respondent to within twenty-one days (a) make representations and provide any relevant material or evidence in support of its representations; (b) review the complaint with a view of summarily resolving the complaint to the satisfaction of the complainant; or (c) provide a response with the required information."
-    },
-    {
-      "section": "12",
-      "heading": "(1) Where it appears to the Data Commissioner, or by",
-      "chapter": null,
-      "part": "PART I",
-      "condition": null,
-      "page_start": 6,
-      "page_end": 7,
-      "primary_category": "Other",
-      "summary": "The Data Commissioner may order a person to be a party to a complaint if necessary, and parties with sufficient interest may apply to be enjoined before hearing. Applications must include specific details about the parties, their addresses, grounds, supporting documents, and requested relief.",
-      "dtia_summary": "This section addresses joinder of parties, which may impact DTIA by allowing for additional parties to be included in complaint proceedings.",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [],
-      "requirements": [
-        {
-          "text": "Where it appears to the Data Commissioner, or by an application by either the complainant or the respondent, that it is necessary that a person becomes a party to a complaint, the Data Commissioner may order that person to be enjoined as a party",
-          "obligation_type": "May"
-        },
-        {
-          "text": "A person who has sufficient interest in the outcome of a complaint may apply to the Office for leave to be enjoined in the proceedings prior to the hearing of the complaint",
-          "obligation_type": "May"
-        },
-        {
-          "text": "An application under sub-regulation (1) shall include (a) the names of the parties to which that application relates; (b) the name and address for service of the person wishing to be enjoined; (c) the grounds the applicant relies on to be enjoined; (d) a copy of any relevant document in support of the application; and (e) the relief sought",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "12. (1) Where it appears to the Data Commissioner, or by an application by either the complainant or the respondent, that it is necessary that a person becomes a party to a complaint, the Data Commissioner may order that person to be enjoined as a party."
-    },
-    {
-      "section": "13",
-      "heading": "(1) In investigating a complaint, the Data Commissioner",
-      "chapter": null,
-      "part": "PART I",
-      "condition": null,
-      "page_start": 7,
-      "page_end": 7,
-      "primary_category": "Other",
-      "summary": "The Data Commissioner may issue summons, examine individuals, administer oaths, require documents, and conduct searches with warrants during complaint investigations, guided by the Fair Administrative Action Act. These powers apply to persons involved in data protection complaints and are subject to court warrants for searches.",
+      "summary": "Upon complaint admission, the Data Commissioner notifies the respondent in Form DPC 3, requiring them to respond within twenty-one days by making representations, reviewing the complaint, or providing a response. If the respondent takes no action, the Commissioner proceeds to determine the complaint.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -485,23 +415,105 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "issue summons in Form DPC 4 set out in the Schedule requiring the attendance of any person at a specified date, time and place for examination",
+          "text": "The Data Commissioner shall notify the respondent of the complaint lodged against him in Form DPC 3",
           "obligation_type": "Must"
         },
         {
-          "text": "examine any person in relation to a complaint",
+          "text": "The Data Commissioner shall require the respondent to make representations and provide relevant material within twenty-one days",
           "obligation_type": "Must"
         },
         {
-          "text": "administer an oath or affirmation on any person during the proceedings",
+          "text": "The Data Commissioner shall require the respondent to review the complaint to summarize resolution with the complainant",
           "obligation_type": "Must"
         },
         {
-          "text": "require any person to produce any document or information from a person or institution",
+          "text": "The Data Commissioner shall require the respondent to provide a response with required information",
           "obligation_type": "Must"
         },
         {
-          "text": "on obtaining warrants from the court, enter into any establishment or premises and conduct a search and may seize any material relevant to the investigation",
+          "text": "Where the respondent takes no action, the Data Commissioner shall proceed to determine the complaint",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. (1) Upon admission of a complaint, the Data Commissioner shall notify the respondent of the complaint lodged against him, in Form DPC 3 set out in the Schedule and shall require the respondent to within twenty-one days (a) make representations and provide any relevant material or evidence in support of its representations; (b) review the complaint with a view of summarily resolving the complaint to the satisfaction of the complainant; or (c) provide a response with the required information. (2) Where a respondent does not take any action as contemplated under sub-regulation (1), the Data Commissioner shall proceed to determine the complaint in accordance with the Act and these Regulations. (3) The notice referred to under sub-regulation (1) shall specify options available to resolve a complaint including determining the complaint through alternative dispute resolution mechanisms specified in the Act and these Regulations."
+    },
+    {
+      "section": "12",
+      "heading": "(1) Where it appears to the Data Commissioner, or by",
+      "title": "Joinder of parties",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "The Data Commissioner may order a person to be a party to a complaint if necessary. A person with sufficient interest may apply to be enjoined as a party before the hearing.",
+      "dtia_summary": "",
+      "authority": "Data Commissioner",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Data Commissioner may order a person to be enjoined as a party to a complaint if it appears necessary",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A person with sufficient interest may apply to the Office for leave to be enjoined in proceedings prior to hearing",
+          "obligation_type": "May"
+        },
+        {
+          "text": "An application to be enjoined shall include the names of parties, address for service, grounds for enjoining, relevant documents, and relief sought",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12. (1) Where it appears to the Data Commissioner, or by an application by either the complainant or the respondent, that it is necessary that a person becomes a party to a complaint, the Data Commissioner may order that person to be enjoined as a party. (2) A person who has sufficient interest in the outcome of a complaint may apply to the Office for leave to be enjoined in the proceedings prior to the hearing of the complaint. (3) An application under sub-regulation (1) shall include (a) the names of the parties to which that application relates; (b) the name and address for service of the person wishing to be enjoined; (c) the grounds the applicant relies on to be enjoined; (d) a copy of any relevant document in support of the application; and (e) the relief sought."
+    },
+    {
+      "section": "13",
+      "heading": "(1) In investigating a complaint, the Data Commissioner",
+      "title": "Data Commissioner's investigative powers during complaints",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "The Data Commissioner may issue summons, examine individuals, administer oaths, require documents, and conduct searches with warrants during complaint investigations. The Commissioner must prepare a written report after completion and follow the Fair Administrative Action Act for procedural guidance. This section outlines specific investigative authority without imposing direct data transfer obligations.",
+      "dtia_summary": "",
+      "authority": "Data Commissioner",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Issue summons in Form DPC 4 requiring attendance for examination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Examine any person in relation to a complaint",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Administer an oath or affirmation during proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Require production of documents or information from persons or institutions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enter establishments with court warrants to conduct searches and seize relevant material",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prepare a written investigation report upon completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Follow Fair Administrative Action Act 2015 procedures",
           "obligation_type": "Must"
         }
       ],
@@ -510,13 +522,14 @@
     {
       "section": "14",
       "heading": "(1) The Data Commissioner shall, upon the conclusion of the",
+      "title": "Data Commissioner's determination and enforcement of complaints",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 7,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "The Data Commissioner must issue written determinations based on investigation findings, detailing complaint nature, facts, decisions, remedies, and other relevant matters. Remedies include enforcement notices, penalties, dismissal, prosecution recommendations, or compensation orders. These determinations are binding and enforceable as court orders.",
+      "summary": "The Data Commissioner must issue written determinations based on investigation findings, detailing complaint nature, facts, decisions, remedies, and other relevant matters. Remedies include enforcement notices, penalties, dismissal, prosecution recommendations, or compensation orders. The determination is binding and enforceable as a court order within seven days of issuance.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -525,55 +538,51 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "make a determination based on the findings of the investigations",
+          "text": "Make written determination based on investigation findings",
           "obligation_type": "Must"
         },
         {
-          "text": "a determination under sub-regulation (1) shall be in writing and shall state the nature of the complaint",
+          "text": "State nature of complaint in determination",
           "obligation_type": "Must"
         },
         {
-          "text": "a determination under sub-regulation (1) shall be in writing and shall state a summary of the relevant facts and evidence adduced",
+          "text": "Include summary of relevant facts and evidence in determination",
           "obligation_type": "Must"
         },
         {
-          "text": "a determination under sub-regulation (1) shall be in writing and shall state the decision and the reasons for the decision",
+          "text": "State decision and reasons for decision in determination",
           "obligation_type": "Must"
         },
         {
-          "text": "a determination under sub-regulation (1) shall be in writing and shall state the remedy to which the complainant is entitled",
+          "text": "Specify remedy entitled to complainant in determination",
           "obligation_type": "Must"
         },
         {
-          "text": "the remedies contemplated under sub-regulation (2) (d) may include issuance of an enforcement notice to the respondent in accordance with the Act and these Regulations",
-          "obligation_type": "May"
-        },
-        {
-          "text": "the remedies contemplated under sub-regulation (2) (d) may include issuance of a penalty notice imposing an administrative fine",
-          "obligation_type": "May"
-        },
-        {
-          "text": "the remedies contemplated under sub-regulation (2) (d) may include dismissal of the complaint where it lacks merit",
-          "obligation_type": "May"
-        },
-        {
-          "text": "the remedies contemplated under sub-regulation (2) (d) may include recommendation for prosecution",
-          "obligation_type": "May"
-        },
-        {
-          "text": "the remedies contemplated under sub-regulation (2) (d) may include an order for compensation to the data subject by the respondent",
-          "obligation_type": "May"
-        },
-        {
-          "text": "the Data Commissioner shall within seven days from the date of such determination, communicate the decision under sub-regulation (3) to the parties, in writing",
+          "text": "Issue enforcement notice to respondent for compliance",
           "obligation_type": "Must"
         },
         {
-          "text": "the decision of the Data Commissioner made under these Regulations shall be binding on the parties",
+          "text": "Impose administrative fine for non-compliance with enforcement notice",
           "obligation_type": "Must"
         },
         {
-          "text": "the decision of the Data Commissioner made under these Regulations shall be enforced as an order of the Court",
+          "text": "Dismiss complaint if lacks merit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recommend prosecution for violations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Order compensation to data subject by respondent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Communicate decision within seven days to parties in writing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determination is binding on parties and enforceable as court order",
           "obligation_type": "Must"
         }
       ],
@@ -582,13 +591,14 @@
     {
       "section": "15",
       "heading": "(1) Where the complaint is to be determined through",
+      "title": "Complaint resolution through negotiation, mediation or conciliation",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "Complaints may be resolved through negotiation, mediation, or conciliation, with the Data Commissioner facilitating the process and applying appropriate procedures. Parties must sign a formal agreement, which is deemed a binding determination. Withdrawal from proceedings is permitted within seven days, and parties must act in good faith to resolve disputes amicably.",
+      "summary": "Complaints may be resolved through negotiation, mediation, or conciliation with the Data Commissioner facilitating the process. The Commissioner may apply appropriate procedures, and parties must sign agreements in Form DPC 5. Such agreements are binding determinations enforceable as court orders. Parties may withdraw from proceedings within seven days if they choose to exit early.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -597,46 +607,47 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "Where the complaint is to be determined through negotiation, mediation or conciliation, the provisions of these Regulations shall apply",
+          "text": "Resolve complaints through negotiation, mediation, or conciliation",
           "obligation_type": "Must"
         },
         {
-          "text": "The Data Commissioner may in consultation with the parties facilitate the process",
-          "obligation_type": "May"
-        },
-        {
-          "text": "During the negotiations, mediation or conciliation, the Data Commissioner may apply such procedures as may, in the interest of the parties, deem appropriate in the circumstances",
-          "obligation_type": "May"
-        },
-        {
-          "text": "At the conclusion of the negotiations, mediation or conciliation process, the parties shall sign a negotiation, mediation or conciliation agreement in the manner specified in Form DPC 5 set out in the Schedule",
+          "text": "Data Commissioner may facilitate negotiation, mediation, or conciliation process",
           "obligation_type": "Must"
         },
         {
-          "text": "A negotiation, mediation or conciliation agreement entered into under this regulation shall be deemed to be a determination of the Data Commissioner, and shall be enforceable as such",
+          "text": "Data Commissioner may apply procedures beneficial to parties",
           "obligation_type": "Must"
         },
         {
-          "text": "A party to dispute who is subject to a negotiation, mediation or conciliation may withdraw from the proceedings at any stage and shall notify the Data Commissioner and other parties of such withdrawal within seven days from the date of making such a decision",
-          "obligation_type": "May"
+          "text": "Parties must sign negotiation, mediation, or conciliation agreement in Form DPC 5",
+          "obligation_type": "Must"
         },
         {
-          "text": "Parties to a dispute shall take all reasonable measures to amicably determine a dispute and act in good faith",
+          "text": "Negotiation, mediation, or conciliation agreements are deemed binding determinations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parties may withdraw from proceedings within seven days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parties must act in good faith to amicably resolve disputes",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "15. (1) Where the complaint is to be determined through negotiation, mediation or conciliation, the provisions of these Regulations shall apply. (2) Where parties to a complaint agree to negotiation, mediation or conciliation, the Data Commissioner may in consultation with the parties facilitate the process. (3) During the negotiations, mediation or conciliation, the Data Commissioner may apply such procedures as may, in the interest of the parties, deem appropriate in the circumstances. (4) At the conclusion of the negotiations, mediation or conciliation process, the parties shall sign a negotiation, mediation or conciliation agreement in the manner specified in Form DPC 5 set out in the Schedule. (5) A negotiation, mediation or conciliation agreement entered into under this regulation shall be deemed to be a determination of the Data Commissioner, and shall be enforceable as such. (6) Despite this regulation, a party to dispute who is subject to a negotiation, mediation or conciliation may withdraw from the proceedings at any stage and shall notify the Data Commissioner and other parties of such withdrawal within seven days from the date of making such a decision. (7) Parties to a dispute shall take all reasonable measures to amicably determine a dispute and act in good faith. (8) Where the complaint is not determined through negotiation, mediation or conciliation, the Data Commissioner shall proceed to determine the complaint as provided for in the Act and these Regulations."
+      "source_quote": "15. (1) Where the complaint is to be determined through negotiation, mediation or conciliation, the provisions of these Regulations shall apply. (2) Where parties to a complaint agree to negotiation, mediation or conciliation, the Data Commissioner may in consultation with the parties facilitate the process. (3) During the negotiations, mediation or conciliation, the Data Commissioner may apply such procedures as may, in the interest of the parties, deem appropriate in the circumstances. (4) At the conclusion of the negotiations, mediation or conciliation process, the parties shall sign a negotiation, mediation or conciliation agreement in the manner specified in Form DPC 5 set out in the Schedule. (5) A negotiation, mediation or conciliation agreement entered into under this regulation shall be deemed to be a determination of the Data Commissioner, and shall be enforceable as such. (6) Despite this regulation, a party to dispute who is subject to a negotiation, mediation or conciliation may withdraw from the proceedings at any stage and shall notify the Data Commissioner and other parties of such withdrawal within seven days from the date of making such a decision. (7) Parties to a dispute shall take all reasonable measures to amicably determine a dispute and act in good faith."
     },
     {
       "section": "16",
       "heading": "(1) The Data Commissioner may pursuant these Regulations",
+      "title": "Enforcement notice issuance authority",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 8,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "The Data Commissioner may issue enforcement notices under the Act or regulations, specifying consequences for non-compliance, including potential penalty notices. These notices are a formal mechanism for addressing data protection violations.",
+      "summary": "The Data Commissioner may issue enforcement notices under these regulations or section 58 of the Act. Enforcement notices must specify consequences of non-compliance, including potential penalty notices under section 62(1) of the Act.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -645,11 +656,11 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "The Data Commissioner may pursuant these Regulations or section 58 of the Act issue an enforcement notice",
-          "obligation_type": "May"
+          "text": "Issue enforcement notices under regulations or section 58 of the Act",
+          "obligation_type": "Must"
         },
         {
-          "text": "An enforcement notice shall specify the consequences of failure to comply with the notice including issuance of a penalty notice as provided under section 62 (1) of the Act",
+          "text": "Enforcement notices must specify consequences of non-compliance",
           "obligation_type": "Must"
         }
       ],
@@ -658,13 +669,14 @@
     {
       "section": "17",
       "heading": "(1) An enforcement notice shall be deemed to have been",
+      "title": "Service of enforcement notices",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "An enforcement notice is deemed duly served electronically if sent to the recipient's electronic address or physically delivered to their registered office. The notice takes effect from the date of service, establishing the timeline for compliance.",
+      "summary": "An enforcement notice is deemed served electronically if sent to the person's electronic address or physically delivered to their registered office. The notice takes effect from the date of service.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -673,30 +685,31 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "An enforcement notice shall be deemed to have been duly served on the concerned person where (a) an electronic copy of enforcement notice is sent to the concerned person",
+          "text": "Enforcement notice deemed served electronically if sent to electronic address",
           "obligation_type": "Must"
         },
         {
-          "text": "An enforcement notice shall be deemed to have been duly served on the concerned person where (b) the enforcement notice is posted or physically delivered to the registered offices of the concerned person, in the absence of an electronic address",
+          "text": "Enforcement notice deemed served physically if delivered to registered office",
           "obligation_type": "Must"
         },
         {
-          "text": "The enforcement notice shall take effect from the date of service specified under sub-regulation (1)",
+          "text": "Enforcement notice takes effect from date of service",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "17. (1) An enforcement notice shall be deemed to have been duly served on the concerned person where (a) an electronic copy of enforcement notice is sent to the concerned person; (b) the enforcement notice is posted or physically delivered to the registered offices of the concerned person, in the absence of an electronic address. (2) The enforcement notice shall take effect from the date of service specified under sub-regulation (1)."
+      "source_quote": "17. (1) An enforcement notice shall be deemed to have been duly served on the concerned person where (a) an electronic copy of enforcement notice is sent to the (b) the enforcement notice is posted or physically delivered to the registered offices of the concerned person, in the absence of an electronic address."
     },
     {
       "section": "18",
       "heading": "(1) A person to whom an enforcement notice is given may",
+      "title": "Review of enforcement notices",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "A person receiving an enforcement notice may apply for a review within the specified period, citing changed circumstances or the need to comply with fewer provisions of the notice. The review process allows for reconsideration of the enforcement notice before its final implementation.",
+      "summary": "A person receiving an enforcement notice may apply for review within the specified period or if new facts arise, to challenge the notice. The review application must be made before the deadline or on grounds of changed circumstances or non-compliance necessity.",
       "dtia_summary": "",
       "authority": "Data Commissioner",
       "financial_relevance": "None",
@@ -705,16 +718,20 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "A person to whom an enforcement notice is given may apply in Form DPC 6 set out in the Schedule to the Data Commissioner for a review of the enforcement notice",
-          "obligation_type": "May"
-        },
-        {
-          "text": "An application under sub-regulation (1) may be made before the end of the period specified in the enforcement notice",
+          "text": "Apply for review of enforcement notice in Form DPC 6",
           "obligation_type": "Must"
         },
         {
-          "text": "An application under sub-regulation (1) may be made on the ground that (i) a change of circumstances or new facts have arisen; or (ii) one or more of the provisions of that notice need not be complied with in order to remedy the failure identified in the notice",
-          "obligation_type": "May"
+          "text": "Apply for review before end of period specified in notice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply for review on grounds of changed circumstances or new facts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply for review if one or more provisions of notice need not be complied with",
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "18. (1) A person to whom an enforcement notice is given may apply in Form DPC 6 set out in the Schedule to the Data Commissioner for a review of the enforcement notice. (2) An application under sub-regulation (1) may be made (a) before the end of the period specified in the enforcement notice; and (b) on the ground that (i) a change of circumstances or new facts have arisen; or (ii) one or more of the provisions of that notice need not be complied with in order to remedy the failure identified in the notice."
@@ -722,23 +739,24 @@
     {
       "section": "19",
       "heading": "Subject to sections 58 (2) (d) and 64 of the Act, a person",
+      "title": "Appeal against enforcement notice within 30 days",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "A person may appeal to the High Court within thirty days of receiving an enforcement notice against a decision arising from its enforcement, subject to sections 58(2)(d) and 64 of the Act. This appeal right applies to individuals or entities subject to enforcement notices under the Data Protection Act.",
-      "dtia_summary": "This section provides a time-bound appeal mechanism for decisions made under enforcement notices, which is relevant for DTIAs as it establishes a legal pathway to challenge cross-border data transfer decisions if they are part of the enforcement context.",
+      "summary": "A person may appeal to the High Court within thirty days of receiving an enforcement notice if the enforcement notice decision is contested. The appeal is subject to sections 58(2)(d) and 64 of the Act. This section establishes a time limit for challenging enforcement decisions in court.",
+      "dtia_summary": "Provides a time-bound appeal mechanism for enforcement notices, relevant to DTIA as it affects how data protection violations are resolved across borders through judicial channels.",
       "authority": "High Court",
-      "financial_relevance": "Low",
+      "financial_relevance": "Medium",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "may before the lapse of thirty days from the date of service of the enforcement notice, appeal to the High Court against a decision arising out of the enforcement of the notice",
-          "obligation_type": "May"
+          "text": "A person may appeal to the High Court against a decision arising from the enforcement of the notice within thirty days of service of the enforcement notice",
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "Subject to sections 58 (2) (d) and 64 of the Act, a person may before the lapse of thirty days from the date of service of the enforcement notice, appeal to the High Court against a decision arising out of the enforcement of the notice."
@@ -746,28 +764,43 @@
     {
       "section": "20",
       "heading": "(1) The Data Commissioner shall, where any of the",
+      "title": "Penalty notice issuance and content requirements",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 9,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "The Data Commissioner must issue penalty notices for breaches identified in enforcement notices, specifying the person's details, reasons for penalty, penalty amount, payment details, and appeal rights. Penalties must consider individual circumstances and may impose daily fines up to KES 10,000 per breach until rectification.",
-      "dtia_summary": "This section mandates penalty notices for data breaches, including daily fines for non-compliance, which impacts DTIAs by requiring financial safeguards for cross-border data transfers where breaches occur.",
+      "summary": "The Data Commissioner must issue penalty notices for breaches identified in enforcement notices. Each penalty notice must include the person's name and address, reasons for the penalty, the penalty amount, payment details, and appeal rights. The penalty amount must consider individual circumstances and may impose daily fines up to KES 10,000 per breach until rectification.",
+      "dtia_summary": "Defines penalty notice requirements for data breaches, relevant to DTIA as it specifies how penalties are calculated and enforced across borders for non-compliance.",
       "authority": "Data Commissioner",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "The Data Commissioner shall, where any of the circumstances specified under section 62 of the Act and these Regulations arises, issue a penalty notice for each breach identified in the enforcement notice",
+          "text": "The Data Commissioner shall issue a penalty notice for each breach identified in the enforcement notice",
           "obligation_type": "Must"
         },
         {
-          "text": "A penalty notice shall contain (a) the name and address of the concerned person, (b) the reasons why the Data Commissioner proposes to impose the penalty and the amount thereof, (c) an administrative fine imposed as contemplated under section 63 of the Act, (d) details of how the penalty is to be paid, and (e) details of the rights of appeal under section 64 of the Act",
+          "text": "A penalty notice shall contain the name and address of the concerned person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A penalty notice shall contain the reasons why the Data Commissioner proposes to impose the penalty and the amount thereof",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A penalty notice shall contain an administrative fine imposed as contemplated under section 63 of the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A penalty notice shall contain details of how the penalty is to be paid",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A penalty notice shall contain details of the rights of appeal under section 64 of the Act",
           "obligation_type": "Must"
         },
         {
@@ -779,33 +812,40 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Data Commissioner shall, where any of the circumstances specified under section 62 of the Act and these Regulations arises, issue a penalty notice for each breach identified in the enforcement notice."
+      "source_quote": "(1) The Data Commissioner shall, where any of the circumstances specified under section 62 of the Act and these Regulations arises, issue a penalty notice for each breach identified in the enforcement notice."
     },
     {
       "section": "21",
       "heading": "The Data Commissioner shall enforce or take action to",
+      "title": "Enforcement of penalty notices",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 10,
       "page_end": 16,
       "primary_category": "Other",
-      "summary": "The Data Commissioner may enforce penalties by recovering amounts upon the expiration of the payment period, final appeal determination, or lapse of the appeal period. This ensures penalties are enforced within the legal timeframe after a penalty notice is issued.",
-      "dtia_summary": "This section outlines enforcement mechanisms for penalties, which is relevant for DTIAs as it ensures accountability for cross-border data transfer violations through time-bound recovery processes.",
+      "summary": "The Data Commissioner may enforce penalties by recovering the penalty amount upon the expiration of the payment period in the penalty notice, upon final determination of an appeal against the penalty notice, or upon the expiration of the appeal period. This section outlines the conditions under which penalties can be enforced.",
+      "dtia_summary": "Specifies enforcement mechanisms for penalties, relevant to DTIA as it details when and how penalties are recovered across borders for data protection violations.",
       "authority": "Data Commissioner",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [
-        "Personal Information"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "The Data Commissioner shall enforce or take action to recover a penalty (a) upon the lapse of the period specified in the penalty notice for payment of the penalty; (b) on the final determination of any appeal against the penalty notice; or (c) on the lapse of the period given to appeal against the penalty",
+          "text": "The Data Commissioner shall enforce or take action to recover a penalty upon the lapse of the period specified in the penalty notice for payment of the penalty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Data Commissioner shall enforce or take action to recover a penalty on the final determination of any appeal against the penalty notice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Data Commissioner shall enforce or take action to recover a penalty on the lapse of the period given to appeal against the penalty",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Data Commissioner shall enforce or take action to recover a penalty upon the lapse of the period specified in the penalty notice for payment of the penalty; on the final determination of any appeal against the penalty notice; or on the lapse of the period given to appeal against the penalty."
+      "source_quote": "The Data Commissioner shall enforce or take action to recover a penalty (a) upon the lapse of the period specified in the penalty notice for payment of the penalty; (b) on the final determination of any appeal against the penalty notice; or (c) on the lapse of the period given to appeal against the penalty."
     }
   ]
 }

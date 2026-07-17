@@ -1,7 +1,7 @@
 {
   "country": "Nigeria",
   "document": "NCCPolicy_New1 (Nigeria - Row 21)",
-  "generated": "2026-07-15T18:44:00",
+  "generated": "2026-07-16T18:28:00",
   "sections": [
     {
       "section": "23",
@@ -13,8 +13,8 @@
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Cloud Services",
-      "summary": "This section identifies key regulatory instruments necessary for cloud computing implementation in Nigeria. It establishes the framework for cloud adoption by public institutions and SMEs, emphasizing the need for policy alignment with national digital strategies. The section outlines the role of NITDA in issuing cloud-related policies and the importance of cloud-first approaches for efficient IT resource deployment.",
-      "dtia_summary": "This section sets the foundation for cloud computing adoption by public institutions and SMEs in Nigeria, requiring alignment with national digital strategies and regulatory frameworks. It establishes the 'cloud-first' approach as a key policy thrust for efficient IT resource deployment.",
+      "summary": "This section identifies key regulatory instruments necessary for cloud computing implementation in Nigeria. It establishes the framework for cloud adoption by public institutions and SMEs, emphasizing the need for policy alignment with national digital strategies. The section outlines the role of NITDA in issuing cloud-related policies and the importance of regulatory compliance for effective cloud deployment.",
+      "dtia_summary": "This section defines the regulatory context for cloud computing in Nigeria, which is relevant for DTIAs as it establishes the policy framework governing cloud service providers and public sector adoption. It does not specify technical transfer mechanisms or data handling requirements.",
       "authority": "NITDA",
       "financial_relevance": "Medium",
       "confidence": "High (explicit)",
@@ -42,8 +42,8 @@
       "page_start": 2,
       "page_end": 9,
       "primary_category": "Cloud Services",
-      "summary": "This section details the implementation framework for cloud computing in Nigeria, specifying that the policy applies to federal public institutions, state and local government entities, and government-owned corporations. It mandates that public sector entities prioritize cloud-based procurement of ICT solutions to reduce costs, improve service delivery, and enhance digital transformation. The policy targets a 30% increase in cloud adoption by 2024 among public institutions and SMEs providing digital services to government.",
-      "dtia_summary": "This section mandates that public sector entities prioritize cloud-based procurement of ICT solutions, requiring data transfers to cloud environments to be assessed for compliance with national security and data governance standards.",
+      "summary": "This section details the implementation framework for cloud computing in Nigeria, targeting public institutions and SMEs. It mandates a 'cloud-first' approach for public sector agencies and SMEs to adopt cloud services, with specific objectives to increase cloud adoption by 30% and cloud investments by 35% by 2024. The policy requires public sector entities to prioritize cloud-based procurement of ICT solutions to reduce costs and improve service delivery.",
+      "dtia_summary": "This section mandates a 'cloud-first' approach for public sector cloud adoption, which impacts DTIAs by requiring assessments of cloud service providers' compliance with national data governance frameworks. It does not specify data transfer mechanisms or cross-border data handling.",
       "authority": "NITDA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -53,19 +53,19 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "The policy applies to all Federal Public Institutions, Public Institutions at State and Local Government levels, and government-owned corporations",
+          "text": "Public sector entities must prioritize procurement of cloud-based ICT solutions",
           "obligation_type": "Must"
         },
         {
-          "text": "Public sector entities shall prioritize procurement of cloud-based ICT solutions whenever possible",
+          "text": "Federal Public Institutions must achieve 30% cloud adoption by 2024",
           "obligation_type": "Must"
         },
         {
-          "text": "The policy targets a 30% increase in cloud adoption by 2024 among Federal Public Institutions and SMEs providing digital services to government",
+          "text": "Cloud computing investments must increase by 35% by 2024",
           "obligation_type": "Must"
         },
         {
-          "text": "The policy targets 35% growth in cloud computing investments by 2024",
+          "text": "Cloud service providers must be local or international providers rendering services to FPIs and SMEs",
           "obligation_type": "Must"
         }
       ],
@@ -94,65 +94,60 @@
     {
       "section": "24 (part 3)",
       "heading": "(continued)",
-      "title": "Cloud Computing Service Models and Deployment Options",
+      "title": "Cloud service models and deployment options for public institutions",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 14,
       "page_end": 19,
       "primary_category": "Cloud Services",
-      "summary": "This section describes cloud computing service models (SaaS, PaaS, IaaS) and deployment models (private, public, hybrid clouds). It outlines how public institutions in Nigeria can leverage these models for efficient service delivery, cost savings, and resource optimization without managing underlying infrastructure. The section emphasizes transitioning from traditional IT systems to cloud solutions to improve responsiveness, transparency, and resource allocation while avoiding vendor lock-in.",
-      "dtia_summary": "This section defines cloud service models and deployment options critical for DTIA as it specifies how data storage and processing must align with Nigerian territorial boundaries and security requirements for different data sensitivity levels. It mandates that public institutions assess cloud solutions based on data classification to ensure compliance with national security and data protection standards.",
+      "summary": "This section describes cloud computing service models (SaaS, PaaS, IaaS) and deployment models (private, public, hybrid clouds) applicable to Nigerian public institutions. It outlines how these models enable efficient service delivery, cost savings, and resource optimization while addressing security and operational needs through standardized frameworks. Public institutions must select models aligned with their specific requirements and security classifications.",
+      "dtia_summary": "This section defines cloud service models and deployment options that impact data transfer and storage across borders. Public institutions must ensure cloud providers meet Nigerian data classification and security standards to prevent cross-border data risks.",
       "authority": "NITDA",
-      "financial_relevance": "High",
+      "financial_relevance": "Medium",
       "confidence": "High (explicit)",
       "topics": [
         "Cloud Services"
       ],
       "data_types": [
-        "Customer Data",
-        "Employee Data"
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Public Institutions will leverage cloud services to provide improved responsiveness to citizens' needs and increased transparency in healthcare, social amenities, justice, public safety, and education services.",
+          "text": "Public institutions must select cloud service models (SaaS, PaaS, IaaS) based on their specific needs",
           "obligation_type": "Must"
         },
         {
-          "text": "Cloud technologies will create competitive advantages for SMEs by generating employment opportunities, developing indigenous technology, and diversifying the economy.",
-          "obligation_type": "Must"
+          "text": "Cloud service providers must not manage underlying infrastructure for SaaS",
+          "obligation_type": "Must Not"
         },
         {
-          "text": "Migrating to cloud can streamline processes by consolidating dispersed IT systems under a central government platform, reducing costs through 'as needed' resource procurement.",
-          "obligation_type": "Must"
+          "text": "Cloud service providers must not manage underlying infrastructure for PaaS",
+          "obligation_type": "Must Not"
         },
         {
-          "text": "Public Institutions must use cloud services to move routine IT tasks to providers, allowing staff to focus on value-adding skills like application development.",
-          "obligation_type": "Must"
+          "text": "Cloud service providers must not manage underlying infrastructure for IaaS",
+          "obligation_type": "Must Not"
         },
         {
-          "text": "Cloud service providers must offer infrastructure that allows provisioning of processing, storage, networks, and other computing resources without managing underlying infrastructure.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Cloud service providers must provide security certifications assessed by third-party professionals to ensure data security.",
+          "text": "Public institutions must ensure cloud deployments align with Nigerian e-Government Interoperability Framework",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Cloud computing allows for new features to be continuously deployed, while the costs are amortised across a global service customer base."
+      "source_quote": "The policy recognizes three basic kinds of cloud computing service offerings or cloud based service models as: i. Software as a Service (SaaS): where the consumer uses the provider's applications running on cloud infrastructure. ii. Platform as a Service (PaaS): PaaS capability is provided to consumer is a pre-installed cloud infrastructure platform... iii. Infrastructure as a Service (IaaS): The consumer can provision processing, storage, networks..."
     },
     {
       "section": "24 (part 4)",
       "heading": "(continued)",
-      "title": "Cross-Border Data Flows and Data Classification for Cloud Services",
+      "title": "Cross-border data flows and classification requirements for cloud services",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 19,
       "page_end": 24,
       "primary_category": "Cross-border Transfer",
-      "summary": "This section addresses cross-border data flows in cloud environments, requiring public institutions to ensure cloud service providers store data in jurisdictions with equivalent data protection standards to Nigeria. It mandates data classification based on sensitivity levels (public, confidential, secret, classified) to determine appropriate cloud storage locations and security measures, with classified data restricted to Nigerian territory or private cloud solutions.",
-      "dtia_summary": "This section is critical for DTIA as it specifies jurisdictional requirements for cross-border data flows and mandates data classification to ensure compliance with Nigerian territorial boundaries and security standards for different data sensitivity levels.",
+      "summary": "This section addresses cross-border data flows in cloud environments, requiring public institutions to ensure cloud service providers store data in jurisdictions with equivalent data protection standards to Nigeria. It mandates data classification based on sensitivity levels (public, confidential, secret, classified) with specific storage and security requirements for each category, including encryption and access controls. Public institutions must contract providers that meet these classifications to avoid compliance risks.",
+      "dtia_summary": "This section specifies cross-border data transfer restrictions for cloud services, requiring public institutions to ensure data stored in jurisdictions with equivalent protection standards to Nigeria. It mandates data classification with strict storage requirements for sensitive data to prevent unauthorized access.",
       "authority": "NITDA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -161,33 +156,40 @@
         "Data Storage"
       ],
       "data_types": [
-        "Customer Data",
-        "Employee Data",
-        "Special Personal Information"
+        "Personal Information",
+        "Financial Data"
       ],
       "requirements": [
         {
-          "text": "Public Institutions must contract cloud service providers that store data in jurisdictions with equivalent personal data protection standards to Nigeria.",
+          "text": "Public institutions must contract cloud service providers that store data in jurisdictions with equivalent data protection standards to Nigeria",
           "obligation_type": "Must"
         },
         {
-          "text": "Data classified as 'secret' must reside primarily within Nigerian territorial boundaries with encryption and strong user authentication.",
+          "text": "Confidential data must reside primarily within Nigerian territorial boundaries",
           "obligation_type": "Must"
         },
         {
-          "text": "Data classified as 'classified' must remain within Nigerian territory or collocated in Nigerian cloud environments.",
+          "text": "Secret data must reside primarily within Nigerian territorial boundaries",
           "obligation_type": "Must"
         },
         {
-          "text": "Public Institutions must classify data into four sensitivity levels to determine appropriate cloud storage and security measures.",
+          "text": "Classified data must reside only within Nigerian territorial boundaries",
           "obligation_type": "Must"
         },
         {
-          "text": "Cloud service providers must provide security certifications assessed by third-party professionals to ensure data security.",
+          "text": "All data must be classified according to sensitivity levels (public, confidential, secret, classified)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud service providers must implement encryption for data at rest and in motion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public institutions must ensure strong user authentication for sensitive data",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Agencies shall consider focusing on access to data when required. To this end, NITDA will ensure that CSPs provide adequate security and privacy measures and transparency around data compliance."
+      "source_quote": "Agencies must do so in line with requirements of Nigerian Data Protection Regulation and any other Content Regulation. Federal Public Institutions shall be advised to contract cloud service providers that will store data in a jurisdiction that provides a level of personal data protection that is equivalent to that provided in Nigeria."
     },
     {
       "section": "24 (part 5)",
@@ -199,8 +201,8 @@
       "page_start": 24,
       "page_end": 30,
       "primary_category": "Cloud Services",
-      "summary": "This section mandates that NITDA develops a regulatory framework for cloud contracts between public institutions and cloud service providers (CSPs). The framework ensures government entities receive equivalent rights to private customers and includes minimum contractual requirements such as CSP due diligence compliance, data handling procedures, data retrieval rights upon termination, liability limitations, and security certifications. These provisions establish baseline contractual obligations for data protection in government cloud deployments.",
-      "dtia_summary": "Government cloud contracts must include specific data protection clauses like data retrieval rights upon termination and liability limitations, which directly impact cross-border data transfer safeguards when government entities use international CSPs.",
+      "summary": "This section mandates that NITDA develops a regulatory framework for cloud contracts between public institutions and cloud service providers (CSPs). The framework ensures government entities receive equivalent rights to private customers and includes minimum contractual requirements such as CSP due diligence compliance, service descriptions, contract duration, payment terms, SLAs, data handling procedures, data retrieval rights upon termination, liability limitations, and security certifications. These provisions establish baseline contractual obligations for secure cloud data management.",
+      "dtia_summary": "Government entities must include specific contractual clauses in cloud agreements to ensure data protection, including data retrieval rights upon termination and liability limitations for data breaches. These requirements directly impact cross-border data transfers if government entities use international CSPs.",
       "authority": "NITDA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -216,51 +218,43 @@
       ],
       "requirements": [
         {
-          "text": "NITDA will work on the development of a regulatory framework for the execution of cloud computing contracts between Public Institutions and Cloud Service Providers (CSP)",
+          "text": "CSP must adhere to due diligence process and public procurement guidelines",
           "obligation_type": "Must"
         },
         {
-          "text": "Government entities using the cloud as cloud customers enjoy at least the same rights as those enjoyed by individual customers, enterprises and other cloud customers",
+          "text": "Contract must specify service descriptions",
           "obligation_type": "Must"
         },
         {
-          "text": "CSP adherence to the due diligence process and conformity of public procurement guidelines/processes",
+          "text": "Contract must define duration unless unlimited",
           "obligation_type": "Must"
         },
         {
-          "text": "a description of services to be provided",
+          "text": "Contract must include payment terms and termination clauses",
           "obligation_type": "Must"
         },
         {
-          "text": "the contract's duration (unless it is of unlimited duration)",
+          "text": "Contract must detail Service Level Agreements (SLAs)",
           "obligation_type": "Must"
         },
         {
-          "text": "payment terms and termination",
+          "text": "Contract must specify data handling procedures including processing, destruction and restoration",
           "obligation_type": "Must"
         },
         {
-          "text": "details on the available Service Level Agreements (SLA)",
+          "text": "Contract must include customer care services depending on service offering",
           "obligation_type": "Must"
         },
         {
-          "text": "rules on handling cloud customer data, including their processing, destruction and restoration",
+          "text": "Contract must guarantee customer right to retrieve data upon termination",
           "obligation_type": "Must"
         },
         {
-          "text": "CSP's customer care services depending on a particular service offering",
+          "text": "CSP must limit liability for unreasonable exclusion or unfair contract terms",
           "obligation_type": "Must"
         },
         {
-          "text": "customers' right to retrieve their data stored in the CSP's system, if the cloud contract is terminated",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "limitation of CSPs' right to exclude their liability unreasonably or to impose unfair contract terms related to loss of, or damage to, customer's data, quality of service degradations such as service unavailability, or data breaches",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Level of cloud security and privacy",
+          "text": "Contract must specify cloud security and privacy levels",
           "obligation_type": "Must"
         }
       ],
@@ -269,15 +263,15 @@
     {
       "section": "24 (part 6)",
       "heading": "(continued)",
-      "title": "Cloud governance framework for public sector cloud adoption",
+      "title": "Cloud governance framework for public sector with four operational levels",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 30,
       "page_end": 33,
       "primary_category": "Cloud Services",
-      "summary": "This section establishes a four-tiered cloud governance framework for Nigerian public sector entities, requiring coordination between NITDA, Bureau of Public Procurement, and other agencies. It mandates specific governance responsibilities including cloud readiness assessments, procurement regulation development, security monitoring, and standardization with international bodies like NIST and ISO. The framework ensures accountability across infrastructure, operating systems, applications, and user activities while defining roles for cloud adoption and migration.",
-      "dtia_summary": "Public sector cloud governance requires specific oversight mechanisms for data protection and service continuity, directly impacting cross-border data transfers through contractual obligations and security standards.",
+      "summary": "This section establishes a four-level cloud governance framework for Nigerian public sector entities: infrastructure, operating system, platform/application, and business/user activity. It defines specific responsibilities for NITDA, Bureau of Public Procurement, ONSA, and other bodies to ensure cloud adoption aligns with security, compliance, and operational requirements. The framework includes roles for cloud readiness assessments, procurement regulation development, security monitoring, and coordination of cloud standards to manage risks and ensure accountability across all cloud operations.",
+      "dtia_summary": "Public sector entities must implement a governance structure with defined roles to manage cloud operations across four levels, ensuring security, compliance, and accountability for data processing and storage. This impacts data transfer mechanisms and cross-border data handling if international CSPs are used.",
       "authority": "NITDA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -285,7 +279,8 @@
         "Cloud Services",
         "Data Storage",
         "Security",
-        "Governance"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [
         "Personal Information",
@@ -293,35 +288,31 @@
       ],
       "requirements": [
         {
-          "text": "The plan shall operate across four levels of cloud governance: infrastructure, operating system, platform or application, business/user activity",
+          "text": "Bureau of Public Procurement must develop government-wide cloud procurement regulations",
           "obligation_type": "Must"
         },
         {
-          "text": "The following bodies shall have these roles and responsibilities: Bureau of Public Procurement shall develop and operationalize government-wide procurement regulation for Cloud services",
+          "text": "NITDA must liaise with BPP to accommodate cloud procurement models",
           "obligation_type": "Must"
         },
         {
-          "text": "NITDA will liaise with the BPP to accommodate cloud procurement models in the procurement process",
+          "text": "NITDA must conduct cloud readiness assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "NITDA shall conduct a Cloud readiness assessment",
+          "text": "ONSA and NITDA must monitor operational security issues related to cloud",
           "obligation_type": "Must"
         },
         {
-          "text": "The Office for National Security Adviser (ONSA) and NITDA shall monitor operational security issues related to the cloud",
+          "text": "NITDA must drive government-wide cloud adoption and identify next-generation technologies",
           "obligation_type": "Must"
         },
         {
-          "text": "NITDA shall drive government-wide adoption of cloud, identify next-generation cloud technologies, share best practices, templates and reusable example",
+          "text": "NITDA must coordinate cloud-related activities across governance bodies",
           "obligation_type": "Must"
         },
         {
-          "text": "NITDA shall coordinate activities across governance bodies, set overall cloud-related priorities, and provide guidance to agencies",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "NITDA shall monitor, identify and prioritize cloud computing standards and guidance from NIST, ISO and other relevant international standards organisations",
+          "text": "NITDA must monitor and prioritize cloud standards from NIST, ISO and other international bodies",
           "obligation_type": "Must"
         }
       ],

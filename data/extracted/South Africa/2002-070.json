@@ -1,0 +1,901 @@
+{
+  "country": "South Africa",
+  "document": "2002-070",
+  "generated": "2026-07-16T19:02:46",
+  "sections": [
+    {
+      "section": "3",
+      "heading": "General Intelligence Laws",
+      "title": "Interception of communications under interception direction",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section prohibits the interception of communications without a valid interception direction. It requires that any interception must be authorized by a specific legal process involving law enforcement agencies. The interception must be conducted by law enforcement officers following the issuance of a direction or entry warrant. Telecommunication service providers and postal services must assist in executing these warrants under strict conditions. The section establishes that interception is only permissible when there is a lawful basis, such as a court-authorized direction, and must be carried out by authorized personnel. This section defines critical terms used in intelligence and communications law, including 'address', 'agency', 'applicant', 'archived communication-related direction', 'archived communication-related information', 'authorised person', 'Authority', 'business', and 'cellular phone'. These definitions specify the scope and application of the law for law enforcement and communications authorities.",
+      "dtia_summary": "This section imposes strict conditions for cross-border data interception, requiring court-authorized directions and specific assistance from telecommunication providers. It affects data transfer impact assessments by mandating lawful authorization mechanisms for intercepting communications across borders.",
+      "authority": "Parliament of the Republic of South Africa",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Interception of communications must be authorized by a valid interception direction.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Law enforcement officers must execute interceptions following court-issued directions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Telecommunication service providers must assist in executing interception directions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Postal service providers must assist in executing interception directions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The term 'address' refers to the physical address where a person usually receives mail or, for a juristic person, the registered address or business location.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Agency' means the Agency as defined in section 1 of the Intelligence Services Act.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "An 'applicant' is an officer from the South African Police Service with specific rank and authorization, or an officer from the Defence Force with specific rank and authorization, or a member of the Agency with specific authorization, or the head of a Directorate, or a member of a component authorized by the National Director, or a member of the Independent Directorate with approval from the Executive Director.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Archived communication-related direction' means a direction issued under section 18 (3) (a) or 19 (3) requiring a telecommunication service provider to provide archived communication-related information.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Archived communication-related information' means communication-related information stored by a telecommunication service provider for up to 90 days after the transmission of indirect communications.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Authorised person' means a law enforcement officer who may execute a direction or assist with its execution.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Authority' refers to the Independent Communications Authority of South Africa established by section 3 of the Independent Communications Authority of South Africa Act, 2000.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Business' means any business activity conducted by any person, including activities of private or public bodies.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "'Cellular phone' means any fixed or mobile cellular apparatus capable of connecting to a cellular telecommunication system and used by a customer to transmit or receive indirect communications.",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "To regulate the interception of certain communications, the monitoring of certain signals and radio frequency spectrums and the provision of certain communication-related information; to regulate the making of applications for, and the issuing of, directions authorising the interception of communications and the provision of communication-related information under certain circumstances; to regulate the execution of directions and entry warrants by law enforcement officers and the assistance to be given by postal service providers, telecommunication service providers and decryption key holders in the execution of such directions and entry warrants; to prohibit the provision of telecommunication services which do not have the capability to be intercepted; to provide for certain costs to be borne by certain telecommunication service providers; to provide for the establishment of interception centres, the Office for Interception Centres and the Internet Service Providers Assistance Fund; to prohibit the manufacturing, assembling, possessing, selling, purchasing or advertising of certain equipment; to create offences and to prescribe penalties for such offences; and to provide for matters connected therewith."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Definitions of communication-related terms for intelligence operations",
+      "chapter": "CHAPTER 1",
+      "part": null,
+      "condition": null,
+      "page_start": 5,
+      "page_end": 7,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in intelligence operations, including communication, communication-related information, customer, decryption key, and electronic communication service providers. It specifies the scope of information covered by these terms and their relevance to telecommunication systems and electronic communications services. The definitions establish the technical and legal framework for intercepting communications and managing data flows within the intelligence context.",
+      "dtia_summary": "These definitions clarify what constitutes communication-related information and electronic communication service providers, which are critical for determining data flows and interception capabilities in cross-border intelligence operations.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A 'communication' includes both direct and indirect communication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'communication-related information' includes switching, dialling or signalling information that identifies the origin, destination, termination, duration, and equipment used in indirect communications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'customer' includes any person who has entered into a contract for electronic communications service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'customer' includes any person who has received electronic communications service as a gift, reward, favour, benefit or donation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'decryption key' means any key, mathematical formula, code, password, algorithm or data used to access encrypted information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'decryption key holder' means any person in possession of a decryption key for subsequent decryption of encrypted information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'direct communication' means oral communication between two or more persons in immediate presence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'encrypted information' means electronic data that cannot be accessed without the decryption key",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "telecommunication system; 'communication' includes both a direct communication and an indirect communication; 'communication-related information' means any information relating to an indirect communication which is available in the records of a telecommunication service provider, and includes switching, dialling or signalling information that identifies the origin, destination, termination, duration, and equipment used in respect, of each indirect communication generated or received by a customer or user of any equipment, facility or service provided by such a telecommunication service provider and, where applicable, the location of the user within the telecommunication system;"
+    },
+    {
+      "section": "3 (part 3)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Definitions of intelligence interception terms",
+      "chapter": "Chapter 3",
+      "part": "part b",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 9,
+      "primary_category": "Definitions",
+      "summary": "This section defines terms related to intelligence interception operations, including intercept, interception device, interception direction, and law enforcement agencies. It specifies the technical and legal framework for monitoring communications and conducting interceptions within the intelligence context. The definitions establish the scope of permissible interception activities and the entities authorized to conduct such operations.",
+      "dtia_summary": "These definitions clarify what constitutes an interception device and the scope of communications that can be intercepted, which are critical for determining data flows and interception capabilities in cross-border intelligence operations.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An 'intercept' means the aural or other acquisition of communication contents through interception devices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An 'interception device' means any electronic, mechanical or other instrument used to intercept communications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An 'interception direction' means a direction issued under section 16 (4) or 18 (3) (a) authorizing interception of communications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A 'law enforcement agency' includes the Police Service, Defence Force, Agency, Directorate, and components of the prosecuting authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "'intercept' means the aural or other acquisition of the contents of any communication through the use of any means, including an interception device, so as to make some or all of the contents of a communication available to a person other than the sender or recipient or intended recipient of that communication, and includes the- (a) monitoring of any such communication by means of a monitoring device; (b) viewing, examination or inspection of the contents of any indirect communication; and (c) diversion of any indirect communication from its intended destination to any other destination, and 'interception' has a corresponding meaning;"
+    },
+    {
+      "section": "3 (part 4)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Definitions of system controller for private and public bodies",
+      "chapter": "Chapter 6",
+      "part": "part b",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'system controller' for both private bodies (natural persons, partnerships, juristic persons) and public bodies (national departments, municipalities, other public bodies). It specifies the authorized individuals who can act as system controllers under different legal frameworks, including the Public Service Act and Local Government: Municipal Structures Act.",
+      "dtia_summary": "Defines who can act as a system controller for telecommunication systems, relevant for determining data transfer responsibilities under international data transfer mechanisms.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For a private body, natural person means that natural person or any person duly authorised by that natural person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a private body, partnership means any partner of the partnership or any person duly authorised by the partnership",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a private body, juristic person means the chief executive officer or equivalent officer of the juristic person or any person duly authorised by that officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a public body, national department means the officer who is the incumbent of the post bearing the designation mentioned in Column 2 of Schedule 1 or 3 opposite the name of the relevant national department",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a public body, national department means the Director-General, head, executive director or equivalent officer of that national department or the person who is acting as such",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a public body, municipality means the municipal manager appointed in terms of section 82 of the Local Government: Municipal Structures Act, 1998",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a public body, any other public body means the chief executive officer, or equivalent officer, of that public body or the person who is acting as such",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "system controller of, or in relation to- (a) a private body, means, in the case of a- (i) natural person, that natural person or any person duly authorised by that natural person; (ii) partnership, any partner of the partnership or any person duly authorised by the partnership; or (iii) juristic person, the- (aa) chief executive officer or equivalent officer of the juristic person or any person duly authorised by that officer; or (bb) person who is acting as such or any person duly authorised by such acting person; and (b) a public body, means, in the case of-"
+    },
+    {
+      "section": "3 (part 5)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "",
+      "chapter": "CHAPTER 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3 (part 6)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Interception direction application requirements and conditions",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates specific information to be included in applications for interception directions, including details on investigative procedures, evidence status, communication duration, prior applications, and compliance with supplementary directives. It requires applicants to specify whether other investigative procedures have failed or are unlikely to succeed, the period for which interception is needed, and the status of any previous applications. The designated judge must satisfy conditions related to reasonable grounds for belief in serious offences, threats to public safety, national security, or organized crime, and the necessity of information gathering.",
+      "dtia_summary": "This section establishes requirements for applications to intercept communications across borders, including conditions for when international mutual assistance agreements or national interests justify data transfers. It impacts DTIAs by defining when cross-border data interception is permissible and the safeguards required for such transfers.",
+      "authority": "Designated judge",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Indicate whether other investigative procedures have failed to produce required evidence or are unlikely to succeed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate the period for which the interception direction is required",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate whether any previous application exists for the same person or facility and its current status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with any supplementary directives relating to interception direction applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Application must be made by an applicant specified in the definition of 'applicant' for relevant grounds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated judge may issue interception direction upon application without notice or hearing",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Designated judge must be satisfied there are reasonable grounds to believe serious offence is committed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated judge must be satisfied interception of communications will be obtained by the direction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated judge must be satisfied facilities used for communications are commonly used by the applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Interception direction may specify conditions or restrictions on communication interception",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Interception direction may be issued for a period not exceeding three months",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An application on a ground referred to in- (a) subsection (5) (a) (i), must be made by an applicant referred to in paragraph (a), (d) or (f) of the definition of 'applicant';"
+    },
+    {
+      "section": "3 (part 7)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Real-time communication-related direction application requirements",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 17,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines the requirements for applications seeking real-time communication-related directions, including details on the ground for application, facts alleged, type of information required, and the period for which information must be provided. It specifies that real-time communication-related directions may be issued for up to three months and must include information on the customer, type of information, and basis for believing evidence will be obtained. The judge must be satisfied there are reasonable grounds to believe serious offences or threats to public safety are occurring.",
+      "dtia_summary": "This section defines the conditions under which real-time data transfers for communication-related information can be authorized, impacting DTIAs by establishing when real-time data interception is permissible across borders for security purposes.",
+      "authority": "Designated judge",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Indicate whether real-time communication-related information must be routed to a designated interception centre",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate the period for which real-time communication-related information is required",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate whether any previous application exists for the same customer or information and its status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Application must be made by an applicant specified in the definition of 'applicant' for relevant grounds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated judge may issue real-time communication-related direction without notice or hearing",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Designated judge must be satisfied there are reasonable grounds to believe serious offence is committed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated judge must be satisfied gathering information is necessary for public health, safety, or national security",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An applicant may apply to a designated judge for the issuing of a real-time communication-related direction."
+    },
+    {
+      "section": "3 (part 8)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Decryption direction requirements for interception",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 19,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section details the specific information required for a decryption direction application to a designated judge. It mandates the applicant to provide the customer's identity if known, the encrypted information to be decrypted, the decryption key or assistance, the duration of the direction, any previous applications, and proof of interception results. The judge must satisfy conditions including reasonable grounds for encrypted information, possession of the key, purpose of interception, and practicality of obtaining information without decryption.",
+      "dtia_summary": "This section establishes requirements for decryption directions that impact data transfer impact assessments by specifying the information needed for decryption applications and the conditions under which a decryption direction may be issued, particularly relevant to cross-border data transfers involving encrypted communications.",
+      "authority": "Designated Judge",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Indicate the customer, if known, in respect of whom the decryption of encrypted information is required",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Describe the encrypted information which is required to be decrypted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify the decryption key, if known, which must be disclosed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify the decryption assistance which must be provided, and the form and manner in which it must be provided",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate the period for which the decryption direction is required to be issued",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate whether any previous application has been made for the issuing of a decryption direction in respect of the same customer or encrypted information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate the current status of that application if such previous application exists",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide proof that an interception direction has been issued",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide an affidavit setting forth the results obtained from the interception direction concerned from the date of its issuance up to the date on which that application is made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with any supplementary directives relating to applications for decryption directions issued under section 58",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "customer, if known, in respect of whom the decryption of encrypted information is required; and (iii) decryption key holder to whom the decryption direction must be addressed; describe the encrypted information which is required to be decrypted; specify the- (i) decryption key, if known, which must be disclosed; or (ii) decryption assistance which must be provided, and the form and manner in which it must be provided; indicate the period for which the decryption direction is required to be issued; indicate whether any previous application has been made for the issuing of a decryption direction in respect of the same customer or encrypted information specified in the application and, if such previous application exists, must indicate the current status of that application"
+    },
+    {
+      "section": "3 (part 9)",
+      "heading": "General Intelligence Laws (cont.)",
+      "title": "Decryption and entry warrant applications with journalist/lawyer protections",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines the requirements for applications for decryption directions and entry warrants, including the need to disclose if the intended subject is a journalist or practicing lawyer. It mandates that designated judges grant such applications only if necessary, with conditions to protect journalistic sources or legal professional privilege. The section also specifies that oral applications must be followed by written submissions within 48 hours.",
+      "dtia_summary": "This section impacts data transfer impact assessments by requiring specific disclosures for applications involving journalists or lawyers, and mandating that decryption and entry warrants be issued only when necessary with safeguards for professional privacy, which affects cross-border data handling.",
+      "authority": "Designated Judge",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Confirm that oral direction or oral entry warrant in writing within 12 hours after the issuing thereof",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the person in respect of whom a direction, extension of a direction or entry warrant is sought is a journalist or practising lawyer, disclose the fact to the designated judge",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Grant the direction, extension of a direction or entry warrant only if satisfied it is necessary, notwithstanding the subject is a journalist or practising lawyer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issue the direction, extension of a direction or entry warrant subject to conditions necessary to protect journalistic sources or legal professional privilege",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Where the person in respect of whom a direction, extension of a direction or entry warrant is sought in terms of sections 16, 1. 17, 18, 20, 21, 22 or 23, whichever is applicable, is a journalist or practising lawyer, the application must disclose to the designated Judge the fact that the intended subject of the direction, extension of a direction or entry warrant is a journalist or practising lawyer."
+    },
+    {
+      "section": "5",
+      "heading": "evidence in any criminal proceedings or civil proceedings as contemplated in Chapter 5 or 6 of the Prevention of",
+      "title": "",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6",
+      "heading": "hand it to the authorised person concerned; or",
+      "title": "Telecommunication service provider obligations for interception and communication storage",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 23,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Telecommunication service providers must provide interception-capable services and store communication-related information. The Cabinet member responsible for communications must issue directives specifying technical requirements, security measures, and storage periods for intercepted communications. Providers must comply with these directives within a three to six-month timeframe and bear all costs associated with interception capabilities and data storage.",
+      "dtia_summary": "This section mandates specific technical and security requirements for telecommunication services to intercept communications, which impacts data transfer and storage practices across borders. The storage period for intercepted data (3-5 years) creates significant data retention considerations for cross-border data flows.",
+      "authority": "Cabinet member responsible for communications",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security",
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Telecommunication service provider must provide interception-capable services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Telecommunication service provider must store communication-related information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cabinet member must issue directives determining technical requirements for interception",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cabinet member must determine security, technical and functional requirements for facilities and devices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cabinet member must specify communication-related information to store and minimum 3-year storage period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cabinet member must set compliance period of 3-6 months for directives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Telecommunication service provider must acquire facilities and devices at own cost",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Telecommunication service provider bears costs for interception capabilities and data storage",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A telecommunication service provider must- (a) provide a telecommunication service which has the capability to be intercepted; and (b) store communication-related information."
+    },
+    {
+      "section": "6 (part 2)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "Compliance period for interception directives",
+      "chapter": "CHAPTER 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 25,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Cabinet member responsible for communications must specify a compliance period of 3-6 months for telecommunication service providers to implement interception directives. This period must be explicitly stated in the directive and allows providers time to meet technical and security requirements while ensuring timely implementation of interception capabilities.",
+      "dtia_summary": "This section establishes a 3-6 month compliance window for implementing interception directives, which affects how quickly data can be transferred and stored across borders for law enforcement purposes.",
+      "authority": "Cabinet member responsible for communications",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security",
+        "Cross-border Transfer"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Cabinet member must determine compliance period of 3-6 months for interception directives",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Cabinet member responsible for communications must, on the date of the issuing of a telecommunication service licence... determine a period, which may not be less than three months and not more than six months from the date on which a directive referred to in paragraph (a) is issued, for compliance with such a directive"
+    },
+    {
+      "section": "6 (part 3)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "Quarterly reporting requirements for interception centre heads",
+      "chapter": "CHAPTER 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "The head of an interception centre must submit quarterly written reports to the Director detailing records kept, known abuses, system defects, and any other matters the Director requests. They may also submit urgent reports if they deem a matter critical. The Director must then share a copy of these reports with the Minister and the Intelligence Services Control Act's Joint Standing Committee Chairperson.",
+      "dtia_summary": "Requires interception centres to report system defects and abuses quarterly, which could impact data transfer assessments if the centre handles cross-border communications.",
+      "authority": "Director",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Head of interception centre must submit quarterly written reports to Director on records kept",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Head must report known abuses in executing directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Head must report system defects discovered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Head must report any other matters Director requests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Head may submit urgent reports if critical matters exist",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Director must share reports with Minister and Joint Standing Committee Chairperson",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The head of an interception centre must on a quarterly basis, or as often as the Director requires, submit a written report to the Director on- (i) the records kept by him or her in terms of subsection (1); (ii) any abuses in connection with the execution of directions which he or she is aware of; (iii) any defects in any telecommunication system or in the operation of the interception centre which have been discovered; and (iv) such activities at the interception centre or on any other matter relating to this Act which the Director requests the head of the interception centre to deal with in such report."
+    },
+    {
+      "section": "6 (part 4)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "",
+      "chapter": "CHAPTER 7",
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 5)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "Exemptions for internet service providers under specific conditions",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 31,
+      "primary_category": "Exemptions",
+      "summary": "The Minister may grant exemptions for internet service providers under specific conditions, including small business constraints, reasonable necessity for listed equipment, public interest, or special circumstances. Exemptions must be granted via a certificate specifying the scope, period, and conditions, published in the Gazette, and approved by the National Assembly within two months or 14 days after the next ordinary session. The certificate may be amended or withdrawn by the Minister, and exemptions lapse upon termination of the period or withdrawal of the certificate.",
+      "dtia_summary": "Exemptions require specific conditions to be met, including small business constraints, public interest, or special circumstances. The certificate must be published in the Gazette and approved by the National Assembly, creating a regulatory pathway for data transfers that requires transparency and oversight.",
+      "authority": "Minister",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Minister may only grant an exemption under subsection (1) (a) if satisfied that the Internet service provider carries on a small business that cannot comply with section 30 (4)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister may only grant an exemption under subsection (1) (a) if satisfied that the purpose for which listed equipment will be manufactured, assembled, possessed, sold, purchased or advertised is reasonably necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister may only grant an exemption under subsection (1) (a) if satisfied that such exemption is in the public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister may only grant an exemption under subsection (1) (a) if satisfied that special circumstances exist which justify such exemption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The certificate of exemption must specify the name, scope, period and conditions of the exemption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The certificate of exemption must be published in the Gazette",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The certificate of exemption becomes valid upon publication in the Gazette",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister must table the certificate of exemption in the National Assembly for approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The National Assembly may reject a certificate within two months after tabling if Parliament is in ordinary session, or within 14 days after the next ordinary session",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister may table an amended certificate if the National Assembly rejects the original certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister must publish the amended certificate within one month of National Assembly approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The certificate of exemption may be amended or withdrawn by the Minister at any time",
+          "obligation_type": "May"
+        },
+        {
+          "text": "An exemption lapses upon termination of the period for which it was granted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An exemption lapses upon withdrawal of the relevant certificate",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Minister may only grant an exemption under subsection (1) (a) if he or she is satisfied that- (a) in the case of an exemption under subsection (1) (a) (i), the Internet service provider concerned carries on such a small business that he or she cannot comply with section 30 (4); or (b) in the case of an exemption under subsection (1) (a) (ii), the purpose for which the listed equipment will be manufactured, assembled, possessed, sold, purchased or advertised is reasonably necessary; and (c) such exemption is in the public interest; or (d) special circumstances exist which justify such exemption."
+    },
+    {
+      "section": "6 (part 6)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 7)",
+      "heading": "hand it to the authorised person concerned; or (cont.)",
+      "title": "Court order to return forfeited telecommunications equipment",
+      "chapter": "Chapter 3",
+      "part": "part t",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "If a court determines that listed equipment belongs to the telecommunication service provider or other person concerned and that they are a person referred to in subsection (5), the court must set aside the forfeiture declaration and order the return of the equipment. If the court's determination is adverse to the applicant, they may appeal as if it were a conviction. The court must consider the criminal proceedings record and may hear additional evidence.",
+      "dtia_summary": "This section requires courts to return forfeited telecommunications equipment to the rightful owner if certain conditions are met, which impacts data transfer assessments involving telecommunications equipment.",
+      "authority": "Court",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Court must set aside forfeiture declaration and direct return of listed equipment to telecommunication service provider or other person concerned",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If court determination is adverse to applicant, they may appeal as if conviction",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Court must consider criminal proceedings record in determining matters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Court may hear additional evidence by affidavit or orally",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "inquire into and determine those matters. (b) If the court referred to in paragraph (a) is satisfied that the- (i) listed equipment concerned is the property of the telecommunication service provider or other person concerned; and (ii) telecommunication service provider or other person concerned is a person referred to in subsection (5), the court must set aside the declaration of forfeiture and direct that the listed equipment concerned be returned to such telecommunication service provider or other person."
+    },
+    {
+      "section": "7",
+      "heading": "[S. 63 substituted by s. 6 of Act 48 of 2008 (wef 1 July 2009).]",
+      "title": "Section 63 substituted by Act 48 of 2008",
+      "chapter": "CHAPTER 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "This section indicates that Section 63 of the Act was amended by Act 48 of 2008, effective from 1 July 2009. The amendment relates to the short title and commencement of the Act, which specifies the effective date of certain provisions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Section 63 of the Act was substituted by section 6 of Act 48 of 2008 effective 1 July 2009",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "[S. 63 substituted by s. 6 of Act 48 of 2008 (wef 1 July 2009).]"
+    }
+  ]
+}

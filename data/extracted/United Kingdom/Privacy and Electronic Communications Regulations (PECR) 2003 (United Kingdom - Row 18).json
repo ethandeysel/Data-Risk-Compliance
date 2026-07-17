@@ -1,41 +1,44 @@
 {
   "country": "United Kingdom",
   "document": "Privacy and Electronic Communications Regulations (PECR) 2003 (United Kingdom - Row 18)",
-  "generated": "2026-07-15T16:00:35",
+  "generated": "2026-07-16T19:02:53",
   "sections": [
     {
       "section": "2003",
       "heading": "Document Generated: 2026-02-10",
+      "title": "Electronic communications service provider obligations for call identification and subscriber data",
       "chapter": "Chapter 1",
       "part": "part o",
       "condition": null,
       "page_start": 2,
       "page_end": 4,
-      "primary_category": "Other",
-      "summary": "This section mandates that electronic communications service providers must offer users a method to disable calling line identification on a per-call basis and subscribers a method to disable it on a per-line basis. It also requires providers to offer specific facilities for presenting connected line identification or calling line identification when available. The regulation is subject to regulations 15 and 16, which address tracing malicious calls and emergency services.",
-      "dtia_summary": "This section establishes requirements for controlling calling line identification, which may impact data transfer assessments when handling telecommunications data across borders, particularly regarding user consent mechanisms and data minimization.",
-      "authority": "Regulation 10",
-      "financial_relevance": "Low",
+      "primary_category": "Cross-border Transfer",
+      "summary": "Regulation 2003 mandates electronic communications service providers to implement mechanisms allowing subscribers to prevent calling line identification presentation on a per-call and per-line basis. It also requires providers to offer specific facilities for connected line identification where available. These obligations apply to service providers and subscribers within the UK electronic communications sector.",
+      "dtia_summary": "This section establishes foundational mechanisms for call identification control that impact cross-border data transfers involving telecommunications services, particularly regarding subscriber data privacy and call metadata handling.",
+      "authority": "Information Commissioner",
+      "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Cross-border Transfer",
-        "Data Sharing",
+        "International Processing",
+        "Data Storage",
         "Security"
       ],
       "data_types": [
-        "Personal Information"
+        "Personal Information",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "A provider of a public electronic communications service must provide users with a means of preventing the presentation of calling line identification on a call-by-call basis.",
+          "text": "Provider must give users means to prevent calling line identification on a call-by-call basis",
           "obligation_type": "Must"
         },
         {
-          "text": "A provider of a public electronic communications service must provide subscribers with a means of preventing the presentation of such identification on a per-line basis.",
+          "text": "Provider must give subscribers means to prevent calling line identification on a per-line basis",
           "obligation_type": "Must"
         },
         {
-          "text": "A provider of a public electronic communications service must provide subscribers with certain facilities where facilities enabling the presentation of connected line identification or calling line identification are available.",
+          "text": "Provider must provide facilities for connected line identification where available",
           "obligation_type": "Must"
         }
       ],

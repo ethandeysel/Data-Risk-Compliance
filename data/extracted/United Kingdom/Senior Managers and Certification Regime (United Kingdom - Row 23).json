@@ -1,19 +1,19 @@
 {
   "country": "United Kingdom",
   "document": "Senior Managers and Certification Regime (United Kingdom - Row 23)",
-  "generated": "2026-07-15T19:05:58",
+  "generated": "2026-07-16T19:03:53",
   "sections": [
     {
       "section": "p1",
       "heading": "Senior Managers and Certification Regime",
-      "title": "Senior Managers and Certification Regime overview",
+      "title": "Senior Managers and Certification Regime framework for accountability",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 1,
       "page_end": 2,
       "primary_category": "Other",
-      "summary": "The Senior Managers and Certification Regime (SM&CR) aims to reduce consumer harm and strengthen market integrity through accountability mechanisms. It applies to banks, building societies, credit unions, PRA-designated investment firms, insurers, and all solo-regulated firms except benchmark administrators. The regime consists of three parts: Senior Managers Regime, Certification Regime, and Conduct Rules, without requiring structural changes to firms.",
+      "summary": "The Senior Managers and Certification Regime (SM&CR) establishes a framework to enhance accountability and market integrity by requiring individuals to take personal responsibility for their actions and improving conduct across all organizational levels. It applies to banks, building societies, credit unions, PRA-designated investment firms, insurers, and solo-regulated firms with specific exemptions. The regime does not require structural changes to governance or new hires but focuses on clarifying roles and responsibilities within firms.",
       "dtia_summary": "",
       "authority": "FCA",
       "financial_relevance": "High",
@@ -22,14 +22,24 @@
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "The Senior Managers and Certification Regime (SM&CR) aims to reduce harm to consumers and strengthen market integrity by making individuals more accountable for their conduct and competence.",
+          "text": "Senior Managers and Certification Regime aims to reduce harm to consumers and strengthen market integrity",
           "obligation_type": "Must"
         },
         {
-          "text": "The regime consists of three parts: the Senior Managers Regime, the Certification Regime, and the Conduct Rules.",
+          "text": "Encourage staff to take personal responsibility for their actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Improve conduct at all levels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Make sure firms and staff clearly understand and can show who does what",
           "obligation_type": "Must"
         }
       ],
@@ -38,14 +48,14 @@
     {
       "section": "p2",
       "heading": "Background",
-      "title": "SM&CR background and implementation history",
+      "title": "Historical background of Senior Managers and Certification Regime",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 2,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "The SM&CR was established in response to the 2008 banking crisis and conduct failures like LIBOR manipulation. It was introduced by Parliament in December 2013, applying to banks from March 2016, and later expanded to all financial services firms under the Financial Services and Markets Act. The regime has been reviewed multiple times to assess its effectiveness in improving accountability and conduct standards.",
+      "summary": "The Senior Managers and Certification Regime was established in response to the 2008 banking crisis and conduct failures like LIBOR manipulation. It was introduced by Parliament in December 2013 to address banking sector standards, initially applying to banks and building societies in March 2016, and later expanded to cover all financial services firms by May 2016. The regime has been reviewed multiple times to assess its effectiveness and impact on organizational accountability.",
       "dtia_summary": "",
       "authority": "FCA",
       "financial_relevance": "High",
@@ -54,22 +64,32 @@
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "In response to the 2008 banking crisis and significant conduct failings such as the manipulation of LIBOR, Parliament set up the Parliamentary Commission for Banking Standards (PCBS) to recommend ways to improve standards in the banking sector.",
+          "text": "Parliament set up the Parliamentary Commission for Banking Standards (PCBS) to recommend ways to improve standards in the banking sector",
           "obligation_type": "Must"
         },
         {
-          "text": "PCBS recommended a new accountability framework focused on senior management. It also recommended that firms take more responsibility for employees being fit and proper, and that there be better standards of conduct at all levels in banking firms.",
+          "text": "PCBS recommended a new accountability framework focused on senior management",
           "obligation_type": "Must"
         },
         {
-          "text": "Based on these recommendations, Parliament passed legislation in December 2013, leading to the FCA and PRA applying the SM&CR to the banking sector from March 2016, following detailed consultation.",
+          "text": "Firms take more responsibility for employees being fit and proper",
           "obligation_type": "Must"
         },
         {
-          "text": "Parliament made further changes to legislation in May 2016, requiring us to extend the regime to all FSMA-authorised firms.",
+          "text": "There be better standards of conduct at all levels in banking firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parliament passed legislation in December 2013, leading to the FCA and PRA applying the SM&CR to the banking sector from March 2016",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parliament made further changes to legislation in May 2016, requiring extension of the regime to all FSMA-authorised firms",
           "obligation_type": "Must"
         }
       ],
@@ -78,14 +98,14 @@
     {
       "section": "p3",
       "heading": "• [7] https://www.fca.org.uk/firms/senior-managers-and-certification-regime/fitness-and-propriety-fp",
-      "title": "SM&CR related resources and links",
+      "title": "Links to related Senior Managers and Certification Regime resources",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section lists links to additional resources on the SM&CR, including fitness and propriety requirements, categorisation of solo-regulated firms, culture and governance frameworks, and application procedures for senior management functions. These resources support firms in implementing the regime's requirements.",
+      "summary": "This section provides links to additional resources related to the Senior Managers and Certification Regime, including fitness and propriety frameworks, categorization of solo-regulated firms, culture and governance guidance, and application procedures for senior management roles. These links support firms in understanding and implementing the regime's requirements.",
       "dtia_summary": "",
       "authority": "FCA",
       "financial_relevance": "High",
@@ -94,42 +114,40 @@
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "• [7] https://www.fca.org.uk/firms/senior-managers-and-certification-regime/fitness-and-propriety-fp",
+          "text": "Links to fitness and propriety frameworks",
           "obligation_type": "Must"
         },
         {
-          "text": "• [8] https://www.fca.org.uk/firms/senior-managers-certification-regime/categorisation-solo-regulated-firms",
+          "text": "Links to categorization of solo-regulated firms",
           "obligation_type": "Must"
         },
         {
-          "text": "• [9] https://www.fca.org.uk/firms/culture-governance",
+          "text": "Links to culture and governance guidance",
           "obligation_type": "Must"
         },
         {
-          "text": "• [10] https://www.fca.org.uk/search-results?search_term=senior%20managers%20regime",
+          "text": "Links to search results for senior managers regime",
           "obligation_type": "Must"
         },
         {
-          "text": "• [11] https://www.bankofengland.co.uk/prudential-regulation/key-initiatives/strengthening-accountability",
+          "text": "Links to strengthening accountability initiatives",
           "obligation_type": "Must"
         },
         {
-          "text": "• [12] https://www.fca.org.uk/firms/senior-management-functions/prepare-apply",
+          "text": "Links to senior management functions application procedures",
           "obligation_type": "Must"
         },
         {
-          "text": "• [13] https://www.fca.org.uk/firms/senior-management-functions/how-apply",
+          "text": "Links to approved persons change and cancellation procedures",
           "obligation_type": "Must"
         },
         {
-          "text": "• [14] https://www.fca.org.uk/firms/approved-persons/change-cancel",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "• [15] https://www.fca.org.uk/firms/senior-management-functions/how-we-assess",
+          "text": "Links to how the FCA assesses senior management",
           "obligation_type": "Must"
         }
       ],

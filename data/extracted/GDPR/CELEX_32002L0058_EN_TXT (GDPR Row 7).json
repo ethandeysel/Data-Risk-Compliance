@@ -1,119 +1,132 @@
 {
   "country": "GDPR",
   "document": "CELEX_32002L0058_EN_TXT (GDPR Row 7)",
-  "generated": "2026-07-14T13:01:31",
+  "generated": "2026-07-16T14:11:54",
   "sections": [
     {
       "section": "1",
       "heading": "This Directive harmonises the provisions of the Member",
+      "title": "Subscriber directory information disclosure",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 7,
-      "primary_category": "Other",
-      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
-      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "primary_category": "Data Sharing",
+      "summary": "Member States must ensure subscribers are informed free of charge before inclusion in public directories about directory purposes, data usage, and search functions. This applies to printed or electronic directories available to the public or through directory enquiry services.",
+      "dtia_summary": "Requires transparency in directory data usage, impacting how financial institutions share customer data across borders through public directories.",
       "authority": "",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
         "Data Sharing",
-        "Consent"
+        "Data Storage"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about any further usage possibilities based on search functions embedded in electronic versions of the directory",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
+      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services, in which their personal data can be included and of any further usage possibilities based on search functions embedded in electronic versions of the directory."
     },
     {
       "section": "3",
       "heading": "This Directive shall not apply to activities which fall",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "1",
       "heading": "This Directive shall apply to the processing of personal",
+      "title": "Subscriber directory information disclosure",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Other",
-      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
-      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "primary_category": "Data Sharing",
+      "summary": "Member States must ensure subscribers are informed free of charge before inclusion in public directories about directory purposes, data usage, and search functions. This applies to printed or electronic directories available to the public or through directory enquiry services.",
+      "dtia_summary": "Requires transparency in directory data usage, impacting how financial institutions share customer data across borders through public directories.",
       "authority": "",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
         "Data Sharing",
-        "Consent"
+        "Data Storage"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about any further usage possibilities based on search functions embedded in electronic versions of the directory",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
+      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services, in which their personal data can be included and of any further usage possibilities based on search functions embedded in electronic versions of the directory."
     },
     {
       "section": "2",
       "heading": "In case of a particular risk of a breach of the security of",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -121,85 +134,93 @@
     {
       "section": "1",
       "heading": "Member States shall ensure the confidentiality of commu-",
+      "title": "Subscriber directory information disclosure",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 8,
-      "primary_category": "Other",
-      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
-      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "primary_category": "Data Sharing",
+      "summary": "Member States must ensure subscribers are informed free of charge before inclusion in public directories about directory purposes, data usage, and search functions. This applies to printed or electronic directories available to the public or through directory enquiry services.",
+      "dtia_summary": "Requires transparency in directory data usage, impacting how financial institutions share customer data across borders through public directories.",
       "authority": "",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
         "Data Sharing",
-        "Consent"
+        "Data Storage"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about any further usage possibilities based on search functions embedded in electronic versions of the directory",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
+      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services, in which their personal data can be included and of any further usage possibilities based on search functions embedded in electronic versions of the directory."
     },
     {
       "section": "3",
       "heading": "Member States shall ensure that the use of electronic",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "2",
       "heading": "Traffic data necessary for the purposes of subscriber",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -207,114 +228,149 @@
     {
       "section": "3",
       "heading": "For the purpose of marketing electronic communications",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "4",
       "heading": "The service provider must inform the subscriber or user",
+      "title": "Informing subscribers about traffic data processing",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "This section requires the service provider to inform the subscriber or user of the types of traffic data processed and the duration of such processing for the purposes mentioned in paragraphs 2 and 3, prior to obtaining consent.",
-      "dtia_summary": "This section mandates that service providers must inform subscribers about the types and duration of traffic data processing, which is relevant for assessing data sharing and processing in cross-border contexts.",
+      "primary_category": "Cross-border Transfer",
+      "summary": "Service providers must inform subscribers about the types of traffic data processed and the duration of processing for billing and interconnection purposes. This disclosure must occur prior to obtaining consent for marketing activities.",
+      "dtia_summary": "Mandates transparency about traffic data processing duration and scope, critical for DTIA compliance in telecom data transfers.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Data Sharing",
-        "Data Residency",
-        "Data Storage",
         "Consent"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "The service provider must inform the subscriber or user of the types of traffic data which are processed and of the duration of such processing for the purposes mentioned in paragraph 2 and, prior to obtaining consent, for the purposes mentioned in paragraph 3.",
+          "text": "Service provider must inform subscriber of types of traffic data processed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service provider must inform subscriber of duration of processing for billing and interconnection purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service provider must inform subscriber of purposes before obtaining consent for marketing",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The service provider must inform the subscriber or user of the types of traffic data which are processed and of the duration of such processing for the purposes mentioned in paragraph 2 and, prior to obtaining consent, for the purposes mentioned in paragraph 3."
+      "source_quote": "4. The service provider must inform the subscriber or user of the types of traffic data which are processed and of the duration of such processing for the purposes mentioned in paragraph 2 and, prior to obtaining consent, for the purposes mentioned in paragraph 3."
     },
     {
       "section": "5",
       "heading": "Processing of traffic data, in accordance with paragraphs",
+      "title": "Restrictions on traffic data processing recipients",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Data Sharing",
-      "summary": "This section restricts the processing of traffic data to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of traffic data to necessary purposes and authorised persons, which is relevant for assessing data sharing and processing in cross-border contexts.",
+      "primary_category": "Cross-border Transfer",
+      "summary": "Traffic data processing must be limited to persons authorized by providers of public communications networks and services handling billing, traffic management, customer enquiries, fraud detection, marketing, or value-added services. Processing must be restricted to what is necessary for these activities.",
+      "dtia_summary": "Defines permissible recipients for traffic data transfers, ensuring only authorized entities handle data for billing and service purposes across borders.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Sharing",
-        "Data Residency",
+        "Cross-border Transfer",
         "Data Storage",
-        "Security"
+        "Processing"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Processing of traffic data, in accordance with paragraphs 1, 2, 3 and 4, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
+          "text": "Processing must be restricted to persons acting under authority of providers of public communications networks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to persons handling billing or traffic management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to persons handling customer enquiries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to persons handling fraud detection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to persons handling marketing electronic communications services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to persons providing value added services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be restricted to what is necessary for such activities",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Processing of traffic data, in accordance with paragraphs 1, 2, 3 and 4, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "source_quote": "5. Processing of traffic data, in accordance with paragraphs 1, 2, 3 and 4, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
     },
     {
       "section": "2",
       "heading": "Member States shall apply national provisions in order to",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -322,56 +378,73 @@
     {
       "section": "1",
       "heading": "Where location data other than traffic data, relating to",
+      "title": "Subscriber directory information disclosure",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Other",
-      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
-      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "primary_category": "Data Sharing",
+      "summary": "Member States must ensure subscribers are informed free of charge before inclusion in public directories about directory purposes, data usage, and search functions. This applies to printed or electronic directories available to the public or through directory enquiry services.",
+      "dtia_summary": "Requires transparency in directory data usage, impacting how financial institutions share customer data across borders through public directories.",
       "authority": "",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
         "Data Sharing",
-        "Consent"
+        "Data Storage"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about any further usage possibilities based on search functions embedded in electronic versions of the directory",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
+      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services, in which their personal data can be included and of any further usage possibilities based on search functions embedded in electronic versions of the directory."
     },
     {
       "section": "2",
       "heading": "Where consent of the users or subscribers has been",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -379,85 +452,93 @@
     {
       "section": "3",
       "heading": "Processing of location data other than traffic data in",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "1",
       "heading": "Member States shall ensure that subscribers are informed,",
+      "title": "Subscriber directory information disclosure",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Other",
-      "summary": "This section requires that location data other than traffic data, relating to users or subscribers, can only be processed when made anonymous or with the consent of the users or subscribers, and that the service provider must inform them of the purposes and duration of processing.",
-      "dtia_summary": "This section mandates that location data other than traffic data must be anonymised or processed with user consent, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "primary_category": "Data Sharing",
+      "summary": "Member States must ensure subscribers are informed free of charge before inclusion in public directories about directory purposes, data usage, and search functions. This applies to printed or electronic directories available to the public or through directory enquiry services.",
+      "dtia_summary": "Requires transparency in directory data usage, impacting how financial institutions share customer data across borders through public directories.",
       "authority": "",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
         "Data Sharing",
-        "Consent"
+        "Data Storage"
       ],
-      "data_types": [],
+      "data_types": [
+        "Customer Data"
+      ],
       "requirements": [
         {
-          "text": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value, added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time.",
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall ensure subscribers are informed, free of charge and before they are included in the directory, about any further usage possibilities based on search functions embedded in electronic versions of the directory",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where location data other than traffic data, relating to users or subscribers of public communications networks or publicly available electronic communications services, can be processed, such data may only be processed when they are made anonymous, or with the consent of the users or subscribers to the extent and for the duration necessary for the provision of a value added service. The service provider must inform the users or subscribers, prior to obtaining their consent, of the type of location data other than traffic data which will be processed, of the purposes and duration of the processing and whether the data will be transmitted to a third party for the purpose of providing the value added service. Users or subscribers shall be given the possibility to withdraw their consent for the processing of location data other than traffic data at any time."
+      "source_quote": "Member States shall ensure that subscribers are informed, free of charge and before they are included in the directory, about the purpose(s) of a printed or electronic directory of subscribers available to the public or obtainable through directory enquiry services, in which their personal data can be included and of any further usage possibilities based on search functions embedded in electronic versions of the directory."
     },
     {
       "section": "2",
       "heading": "Member States shall ensure that subscribers are given the",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -465,85 +546,79 @@
     {
       "section": "3",
       "heading": "Where required, measures may be adopted to ensure that",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "3",
       "heading": "The Working Party on the Protection of Individuals with",
+      "title": "Working Party on individual data protection tasks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "This section requires that the processing of location data other than traffic data must be restricted to persons acting under the authority of providers of public communications networks and publicly available electronic communications services, and to what is necessary for the purposes of such activities.",
-      "dtia_summary": "This section limits the processing of location data other than traffic data to necessary purposes and authorised persons, which is relevant for assessing data residency and processing in cross-border contexts.",
+      "summary": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data (established under Article 29 of Directive 95/46/EC) must carry out tasks related to protecting fundamental rights and freedoms and legitimate interests in the electronic communications sector.",
+      "dtia_summary": "Does not directly impact data transfer impact assessments as it is a procedural task for a specific working group, not a data transfer requirement.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
-      "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing",
-        "Security"
-      ],
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
       "data_types": [],
-      "requirements": [
-        {
-          "text": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "Processing of location data other than traffic data, in accordance with paragraphs 1 and 2, must be restricted to persons acting under the authority of providers of the public communications networks and publicly available electronic communications services handling billing or traffic management, customer enquiries, fraud detection, marketing electronic communications services or providing a value added service, and must be restricted to what is necessary for the purposes of such activities."
+      "requirements": [],
+      "source_quote": "The Working Party on the Protection of Individuals with regard to the Processing of Personal Data instituted by Article 29 of Directive 95/46/EC shall also carry out the tasks laid down in Article 30 of that Directive with regard to matters covered by this Directive, namely the protection of fundamental rights and freedoms and of legitimate interests in the electronic communications sector."
     },
     {
       "section": "2",
       "heading": "Where the personal data of subscribers to fixed or mobile",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."
@@ -551,27 +626,39 @@
     {
       "section": "2",
       "heading": "Member States shall communicate to the Commission the",
+      "title": "Member States' obligation to report national law to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 11,
       "page_end": 11,
-      "primary_category": "Other",
-      "summary": "This section requires that Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and any subsequent amendments to those provisions.",
-      "dtia_summary": "This section mandates that Member States communicate their national law provisions to the Commission, which is relevant for assessing compliance and data residency in cross-border contexts.",
-      "authority": "",
+      "primary_category": "Governance",
+      "summary": "Member States must report to the European Commission the text of national laws they adopt implementing this Directive and any subsequent amendments. The Commission is required to submit a report to the European Parliament and Council within three years of the Directive's entry into force, assessing its application and economic impact, particularly regarding unsolicited communications. The Commission may request information from Member States without undue delay to inform this report.",
+      "dtia_summary": "Requires Member States to report national laws affecting data transfers, relevant for understanding jurisdictional boundaries in cross-border data flows.",
+      "authority": "European Commission",
       "financial_relevance": "Low",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
-        "Data Residency",
-        "Data Storage",
-        "Data Sharing"
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions.",
+          "text": "Member States shall communicate to the Commission the text of national law provisions adopted in the field governed by this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Member States shall communicate any subsequent amendments to national law provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit report to European Parliament and Council within three years of Directive entry into force",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may request information from Member States without undue delay",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the provisions of national law which they adopt in the field governed by this Directive and of any subsequent amendments to those provisions."

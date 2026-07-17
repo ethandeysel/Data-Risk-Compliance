@@ -1,24 +1,26 @@
 {
   "country": "South Africa",
   "document": "PA Directive",
-  "generated": "2026-07-15T15:47:45",
+  "generated": "2026-07-16T18:47:59",
   "sections": [
     {
       "section": "1",
       "heading": "",
+      "title": "Cloud computing and data offshoring definitions",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 1,
       "page_end": 2,
-      "primary_category": "Cloud Services",
-      "summary": "This section clarifies the Prudential Authority's (PA) regulatory stance on cloud computing and data offshoring by banks. It acknowledges that some banks already offshore data through parent organizations and are increasingly adopting cloud computing. The section defines cloud computing as a model for on-demand access to shared computing resources with minimal management effort.",
-      "dtia_summary": "This section establishes the regulatory context for cloud computing and data offshoring, which directly impacts DTIA requirements for cloud services and cross-border data storage arrangements.",
-      "authority": "Prudential Authority (PA)",
-      "financial_relevance": "High",
+      "primary_category": "Definitions",
+      "summary": "This section defines cloud computing as a model for on-demand network access to shared computing resources. It acknowledges that banks may already offshore data through insourcing relationships with parent organizations and are increasingly considering cloud computing for significant activities. The PA clarifies its policy stance on these practices without imposing specific requirements.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
       "confidence": "High (explicit)",
       "topics": [
-        "Cloud Services"
+        "Cloud Services",
+        "Data Storage"
       ],
       "data_types": [
         "Personal Information"
@@ -34,22 +36,39 @@
     {
       "section": "2",
       "heading": "",
+      "title": "Cloud computing and data offshoring requirements",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 4,
       "primary_category": "Cloud Services",
-      "summary": "This section mandates that banks must implement a risk-based approach for cloud computing and data offshoring, aligning with their risk appetite and operational scale. Banks must have a data strategy, governance framework, and clear policies for cloud use or data offshoring. They must assess risks before implementation, ensure compliance with local and foreign regulations, and maintain confidentiality, integrity, and availability of data.",
-      "dtia_summary": "Banks must establish risk-based controls for cloud and offshoring activities, ensuring data security, regulatory compliance, and continuity of operations across borders.",
+      "summary": "Banks must implement a risk-based approach aligned with their risk appetite when using cloud computing or offshoring data. They must have a data strategy, governance framework, and clear policies for such activities. Banks must assess risks before implementing initiatives, ensure data confidentiality and integrity, comply with local and foreign regulations, maintain regulatory access, have contingency plans, protect intellectual property, and ensure data remains usable even after contract termination. All arrangements must be in legally binding agreements.",
+      "dtia_summary": "Banks must establish risk-based controls for cloud and offshoring arrangements to ensure data security, regulatory compliance, and operational continuity across borders.",
       "authority": "Prudential Authority (PA)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Cloud Services"
+        "Cloud Services",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [
-        "Personal Information"
+        "Personal Information",
+        "Financial Data"
       ],
       "requirements": [
         {
@@ -110,15 +129,16 @@
     {
       "section": "3",
       "heading": "",
+      "title": "Acknowledgement of receipt requirement",
       "chapter": null,
       "part": "part t",
       "condition": null,
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section requires banks to provide copies of the directive to their independent auditors and return an acknowledgement of receipt signed by the chief executive officer and auditors to the Prudential Authority. It serves as a procedural step for compliance with the directive.",
+      "summary": "Banks must provide a signed acknowledgement of receipt to the PA confirming that they have received the directive and made it available to their independent auditors. This ensures regulatory compliance with the directive's implementation.",
       "dtia_summary": "",
-      "authority": "Prudential Authority (PA)",
+      "authority": "",
       "financial_relevance": "Low",
       "confidence": "High (explicit)",
       "topics": [

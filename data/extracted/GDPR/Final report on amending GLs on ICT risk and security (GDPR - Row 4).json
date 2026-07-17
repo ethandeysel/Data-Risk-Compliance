@@ -1,212 +1,258 @@
 {
   "country": "GDPR",
   "document": "Final report on amending GLs on ICT risk and security (GDPR - Row 4)",
-  "generated": "2026-07-14T12:51:15",
+  "generated": "2026-07-16T14:10:14",
   "sections": [
     {
       "section": "1",
       "heading": "On 27 November 2019, the EBA published the Guidelines on ICT and security risk management",
+      "title": "EBA publishes ICT and security risk management guidelines",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section outlines the publication of the EBA Guidelines on ICT and security risk management on 27 November 2019, which were based on Article 74 of CRD and Article 95(3) of PSD2. These guidelines apply to credit institutions, investment firms, and payment service providers, replacing previous guidelines on security measures for operational and security risks.",
+      "summary": "The EBA published ICT and security risk management guidelines on 27 November 2019, building on provisions from CRD and PSD2 directives. These guidelines establish requirements for credit institutions, investment firms, and payment service providers to mitigate ICT and security risks. The guidelines entered into force the following year and replaced previous security measures guidelines for operational and security risks.",
       "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Medium",
-      "confidence": "High",
+      "authority": "EBA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [
         "Security",
-        "Incident Reporting",
-        "Third Party Processing"
+        "Governance"
       ],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The EBA published Guidelines on ICT and security risk management on 27 November 2019.",
+          "text": "EBA published ICT and security risk management guidelines on 27 November 2019",
           "obligation_type": "Must"
         },
         {
-          "text": "These Guidelines were built on Article 74 of Directive 2013/36/EU (CRD) and Article 95(3) of Directive (EU) 2015/2366 (PSD2).",
+          "text": "Guidelines build on provisions of Article 74 of Directive 2013/36/EU (CRD) and Article 95(3) of Directive (EU) 2015/2366 (PSD2)",
           "obligation_type": "Must"
         },
         {
-          "text": "The Guidelines apply to credit institutions, investment firms, and payment service providers.",
+          "text": "Guidelines establish requirements for credit institutions, investment firms, and payment service providers on ICT and security risk mitigation",
           "obligation_type": "Must"
         },
         {
-          "text": "The Guidelines replaced previous guidelines on security measures for operational and security risks (EBA GL/2017/17).",
+          "text": "Guidelines aim to ensure consistent and robust approach across Single market",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines entered into force the following year and are applicable today",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines replace previous security measures guidelines for operational and security risks (EBA GL/2017/17)",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "On 27 November 2019, the EBA published the Guidelines on ICT and security risk management (EBA/GL/2019/04) which were built on the provisions of Article 74 of Directive 2013/36/EU (CRD)1 and Article 95(3) of Directive (EU) 2015/2366 (PSD2)2 ."
+      "source_quote": "On 27 November 2019, the EBA published the Guidelines on ICT and security risk management (EBA/GL/2019/04) which were built on the provisions of Article 74 of Directive 2013/36/EU (CRD) and Article 95(3) of Directive (EU) 2015/2366 (PSD2). These Guidelines establish requirements for credit institutions, investment firms and payment service providers on the mitigation and management of their information and communication technology (ICT) and security risks and aim to ensure a consistent and robust approach across the Single market. The Guidelines entered into force the following year and are applicable to the present day replacing those on security measures for operational and security risks (EBA GL/2017/17), which were repealed."
     },
     {
       "section": "2",
       "heading": "DORA entered into force in January 2023 and will apply from 17 January 2025 onwards. DORA in-",
+      "title": "EBA guidelines set supervisory practices for financial institutions",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section outlines that the guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision and that competent authorities should incorporate them into their practices.",
+      "summary": "This section states that the EBA guidelines set the EBA's view of appropriate supervisory practices within the European System of Financial Supervision or how Union law should be applied in a particular area. Competent authorities must incorporate these guidelines into their practices by amending their legal frameworks or supervisory processes, especially when the guidelines are directed primarily at institutions.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area.",
-          "obligation_type": "Must"
+          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area",
+          "obligation_type": "Statement"
         },
         {
-          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate.",
-          "obligation_type": "Must"
+          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes)",
+          "obligation_type": "Requirement"
         }
       ],
-      "source_quote": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
+      "source_quote": "2. Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
     },
     {
       "section": "3",
       "heading": "The entities within DORA's scope of action cover some of the PSPs within the scope of PSD2, namely",
+      "title": "Competent authorities must notify EBA of compliance with guidelines by 2025-05-20",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section states that competent authorities must notify the EBA by 20.05.2025 whether they comply or intend to comply with the guidelines, or otherwise provide reasons for non-compliance. Notifications must be submitted using the form available on the EBA website.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Competent authorities must notify the European Banking Authority (EBA) by May 20, 2025, whether they comply with the guidelines or intend to comply, providing reasons for non-compliance. Failure to notify by this deadline results in the EBA considering the authorities non-compliant. Notifications must be submitted using the EBA's specified form with reference 'EBA/GL/2025/02' by authorized personnel.",
+      "dtia_summary": "Competent authorities must report compliance status with these guidelines to the EBA by a specific deadline; this affects DTIA by requiring timely notification of compliance status for cross-border financial regulatory alignment.",
+      "authority": "EBA",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025.",
+          "text": "Competent authorities must notify the EBA by 20.05.2025 whether they comply or intend to comply with these guidelines",
           "obligation_type": "Must"
         },
         {
-          "text": "In the absence of any notification by this deadline, competent authorities will be considered by the EBA to be non-compliant.",
+          "text": "Competent authorities must provide reasons for non-compliance if they do not comply",
           "obligation_type": "Must"
         },
         {
-          "text": "Notifications should be sent by submitting the form available on the EBA website with the reference ‘EBA/GL/2025/02’.",
+          "text": "Notifications must be submitted using the EBA form with reference 'EBA/GL/2025/02'",
           "obligation_type": "Must"
         },
         {
-          "text": "Notifications should be submitted by persons with appropriate authority to report compliance on behalf of their competent authorities.",
+          "text": "Notifications must be submitted by persons with appropriate authority",
           "obligation_type": "Must"
         },
         {
-          "text": "Any change in the status of compliance must also be reported to EBA.",
+          "text": "Any change in compliance status must be reported to the EBA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025. In the absence of any notification by this deadline, competent authorities will be considered by the EBA to be non-compliant. Notifications should be sent by submitting the form available on the EBA website with the reference ‘EBA/GL/2025/02’. Notifications should be submitted by persons with appropriate authority to report compliance on behalf of their competent authorities. Any change in the status of compliance must also be reported to EBA."
+      "source_quote": "According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025."
     },
     {
       "section": "5",
       "heading": "Article 7(4) of Directive (EU) 2022/2556, amended Article 95(1) of PSD2 by adding the following",
+      "title": "Guidelines apply to competent authorities and payment service providers",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section states that the guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366.",
-      "dtia_summary": "",
+      "summary": "These guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010 and financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366. The scope includes natural or legal persons benefiting from exemptions under specific directives.",
+      "dtia_summary": "The scope definition directly impacts DTIA by specifying which entities must comply with security measures for payment services, affecting cross-border data handling obligations.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366.",
+          "text": "Guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines apply to financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/23662."
+      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366."
     },
     {
       "section": "8",
       "heading": "Article 2(2)(f) of DORA, explicitly excludes from the scope of action of DORA post office giro institu-",
+      "title": "Guidelines cover payment user relationship management under DORA",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section states that the subject matter of the guidelines is replaced with a focus on payment user relationship management and that the guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take.",
-      "dtia_summary": "",
+      "summary": "These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management. They complement risk management measures under the Digital Operational Resilience Act (DORA) and related Regulatory Technical Standards for payment service providers.",
+      "dtia_summary": "The guidelines specify security measures for payment services under DORA, which directly impacts DTIA by requiring robust security protocols for cross-border payment data handling.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The subject matter as set out in paragraphs 5 and 6 is replaced with the following: 'These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management'.",
+          "text": "Guidelines cover aspects of payment user relationship management",
           "obligation_type": "Must"
         },
         {
-          "text": "The guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take.",
+          "text": "Guidelines complement risk management measures under DORA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The subject matter as set out in paragraphs 5 and 6 is replaced with the following: 'These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management'. The guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take."
+      "source_quote": "These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management."
     },
     {
       "section": "10",
       "heading": "In addition, National Competent Authorities have the possibility to subject PSPs that are not cov-",
+      "title": "Guidelines apply to specific payment service providers",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section states that the guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including those benefiting from exemptions.",
-      "dtia_summary": "",
+      "summary": "These guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010 and financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366. This includes entities benefiting from exemptions under Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC.",
+      "dtia_summary": "The specific scope definition affects DTIA by clarifying which entities must implement security measures for payment services, including exempted entities.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC3.",
+          "text": "Guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines apply to financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Includes natural or legal persons benefiting from exemptions under Article 32 or 33 of Directive (EU) 2015/2366",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Includes legal persons exempted under Article 9 of Directive 2009/110/EC",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC3."
+      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2) point (vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as defined in Article 1(1) point (a), point (b) and point (d) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC."
     },
     {
       "section": "11",
       "heading": "The separate proposal that the Commission published in June 2023 on the revision of PSD2 towards",
+      "title": "Removal of specific definitions from scope",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 4,
       "page_end": 5,
-      "primary_category": "Other",
-      "summary": "This section states that the definitions as set out in paragraph 10 are deleted.",
+      "primary_category": "Definitions",
+      "summary": "This section explicitly deletes certain definitions previously outlined in paragraph 10. The deletion applies to the definitions listed in that paragraph. The section does not introduce new definitions or obligations but removes existing ones from the scope of the regulation.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "High",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "The definitions as set out in paragraph 10 are deleted.",
-          "obligation_type": "Must"
+          "text": "The definitions as set out in paragraph 10 are deleted",
+          "obligation_type": "Restriction"
         }
       ],
       "source_quote": "The definitions as set out in paragraph 10 are deleted."
@@ -214,192 +260,219 @@
     {
       "section": "12",
       "heading": "Credit institutions and investment firms as defined in point 3 of Article 4(1) of Regulation (EU) No",
+      "title": "Credit institutions and investment firms overlap with DORA financial entities",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section notes that credit institutions and investment firms as defined in Regulation (EU) No 575/2013 overlap with the financial entities subject to DORA and the related RTS on RMF.",
+      "summary": "This section states that credit institutions and investment firms as defined in Article 4(1) point 3 of Regulation (EU) No 575/2013 overlap with financial entities subject to DORA and related RTS on RMF. The overlap indicates that these entities are covered by both the EBA Guidelines on ICT and security risk management and the DORA framework, which requires specific risk management practices.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Credit institutions and investment firms as defined in Regulation (EU) No 575/2013 overlap with the financial entities subject to DORA and the related RTS on RMF.",
-          "obligation_type": "Must"
+          "text": "Credit institutions and investment firms as defined in point 3 of Article 4(1) of Regulation (EU) No 575/2013 overlap with financial entities subject to DORA and the related RTS on RMF",
+          "obligation_type": "Statement"
         }
       ],
-      "source_quote": "Credit institutions and investment firms as defined in point 3 of Article 4(1) of Regulation (EU) No 575/2013, addressees of the EBA Guidelines on ICT and security risk management overlap with the financial entities subject to DORA and the related RTS on RMF."
+      "source_quote": "12. Credit institutions and investment firms as defined in point 3 of Article 4(1) of Regulation (EU) No 575/2013, addressees of the EBA Guidelines on ICT and security risk management overlap with the financial entities subject to DORA and the related RTS on RMF."
     },
     {
       "section": "13",
       "heading": "The EBA carried out a gap analysis in May 2024 and arrived at the view that the majority of the gaps",
+      "title": "EBA gap analysis shows most security gaps covered by DORA",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section states that the EBA conducted a gap analysis in May 2024 and found that most gaps related to authentication methods, information security policy, and ICT operations management were not material and were covered by the new DORA framework.",
+      "summary": "This section states that the EBA's May 2024 gap analysis found that the majority of identified gaps related to authentication methods, information security policies, and ICT operations management were not material and were holistically covered by the new DORA framework. The statement indicates that the DORA framework addresses most security-related gaps previously identified.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The EBA conducted a gap analysis in May 2024 and found that most gaps related to authentication methods, information security policy, and ICT operations management were not material and were covered by the new DORA framework.",
-          "obligation_type": "Must"
+          "text": "The EBA carried out a gap analysis in May 2024 and arrived at the view that the majority of gaps identified which relate to authentication methods, requirements for the information security policy and ICT operations management were not material and holistically covered by the new DORA framework",
+          "obligation_type": "Statement"
         }
       ],
-      "source_quote": "The EBA carried out a gap analysis in May 2024 and arrived at the view that the majority of the gaps identified which relate to authentication methods, requirements for the information security policy and ICT operations management, were not material and holistically covered by the new DORA framework."
+      "source_quote": "13. The EBA carried out a gap analysis in May 2024 and arrived at the view that the majority of the gaps identified which relate to authentication methods, requirements for the information security policy and ICT operations management, were not material and holistically covered by the new DORA framework."
     },
     {
       "section": "16",
       "heading": "The definitions included in EBA Guidelines on ICT and security risk management overlap with DORA",
+      "title": "EBA definitions overlap with DORA Article 3",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section notes that the definitions included in the EBA Guidelines on ICT and security risk management overlap with DORA Article (3).",
+      "summary": "This section states that the definitions included in the EBA Guidelines on ICT and security risk management overlap with DORA Article 3. The overlap indicates that the definitions used in the EBA Guidelines are consistent with the definitions in the DORA framework, which is relevant for ensuring alignment in regulatory practices.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [
-        "Security"
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
       ],
-      "data_types": [],
       "requirements": [
         {
-          "text": "The definitions included in the EBA Guidelines on ICT and security risk management overlap with DORA Article (3).",
-          "obligation_type": "Must"
+          "text": "The definitions included in EBA Guidelines on ICT and security risk management overlap with DORA Article (3)",
+          "obligation_type": "Statement"
         }
       ],
-      "source_quote": "The definitions included in EBA Guidelines on ICT and security risk management overlap with DORA Article (3)."
+      "source_quote": "16. The definitions included in EBA Guidelines on ICT and security risk management overlap with DORA Article (3)."
     },
     {
       "section": "2",
       "heading": "Guidelines",
+      "title": "EBA guidelines set supervisory practices for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section outlines that the guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision and that competent authorities should incorporate them into their practices.",
+      "summary": "This section states that the EBA guidelines set the EBA's view of appropriate supervisory practices within the European System of Financial Supervision or how Union law should be applied in a particular area. Competent authorities must incorporate these guidelines into their practices by amending their legal frameworks or supervisory processes, especially when the guidelines are directed primarily at institutions.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area.",
-          "obligation_type": "Must"
+          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area",
+          "obligation_type": "Statement"
         },
         {
-          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate.",
-          "obligation_type": "Must"
+          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes)",
+          "obligation_type": "Requirement"
         }
       ],
-      "source_quote": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
+      "source_quote": "2. Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
     },
     {
       "section": "2",
       "heading": "Guidelines set the EBA view of appropriate supervisory practices within the European",
+      "title": "EBA guidelines set supervisory practices for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section outlines that the guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision and that competent authorities should incorporate them into their practices.",
+      "summary": "This section states that the EBA guidelines set the EBA's view of appropriate supervisory practices within the European System of Financial Supervision or how Union law should be applied in a particular area. Competent authorities must incorporate these guidelines into their practices by amending their legal frameworks or supervisory processes, especially when the guidelines are directed primarily at institutions.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
-      "topics": [],
-      "data_types": [],
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area.",
-          "obligation_type": "Must"
+          "text": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area",
+          "obligation_type": "Statement"
         },
         {
-          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate.",
-          "obligation_type": "Must"
+          "text": "Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes)",
+          "obligation_type": "Requirement"
         }
       ],
-      "source_quote": "Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
+      "source_quote": "2. Guidelines set the EBA view of appropriate supervisory practices within the European System of Financial Supervision or of how Union law should be applied in a particular area. Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom guidelines apply should comply by incorporating them into their practices as appropriate (e.g. by amending their legal framework or their supervisory processes), including where guidelines are directed primarily at institutions."
     },
     {
       "section": "3",
       "heading": "According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities",
+      "title": "Competent authorities must notify EBA of compliance with guidelines by 2025-05-20",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section states that competent authorities must notify the EBA by 20.05.2025 whether they comply or intend to comply with the guidelines, or otherwise provide reasons for non-compliance. Notifications must be submitted using the form available on the EBA website.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Competent authorities must notify the European Banking Authority (EBA) by May 20, 2025, whether they comply with the guidelines or intend to comply, providing reasons for non-compliance. Failure to notify by this deadline results in the EBA considering the authorities non-compliant. Notifications must be submitted using the EBA's specified form with reference 'EBA/GL/2025/02' by authorized personnel.",
+      "dtia_summary": "Competent authorities must report compliance status with these guidelines to the EBA by a specific deadline; this affects DTIA by requiring timely notification of compliance status for cross-border financial regulatory alignment.",
+      "authority": "EBA",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025.",
+          "text": "Competent authorities must notify the EBA by 20.05.2025 whether they comply or intend to comply with these guidelines",
           "obligation_type": "Must"
         },
         {
-          "text": "In the absence of any notification by this deadline, competent authorities will be considered by the EBA to be non-compliant.",
+          "text": "Competent authorities must provide reasons for non-compliance if they do not comply",
           "obligation_type": "Must"
         },
         {
-          "text": "Notifications should be sent by submitting the form available on the EBA website with the reference ‘EBA/GL/2025/02’.",
+          "text": "Notifications must be submitted using the EBA form with reference 'EBA/GL/2025/02'",
           "obligation_type": "Must"
         },
         {
-          "text": "Notifications should be submitted by persons with appropriate authority to report compliance on behalf of their competent authorities.",
+          "text": "Notifications must be submitted by persons with appropriate authority",
           "obligation_type": "Must"
         },
         {
-          "text": "Any change in the status of compliance must also be reported to EBA.",
+          "text": "Any change in compliance status must be reported to the EBA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025. In the absence of any notification by this deadline, competent authorities will be considered by the EBA to be non-compliant. Notifications should be sent by submitting the form available on the EBA website with the reference ‘EBA/GL/2025/02’. Notifications should be submitted by persons with appropriate authority to report compliance on behalf of their competent authorities. Any change in the status of compliance must also be reported to EBA."
+      "source_quote": "According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must notify the EBA as to whether they comply or intend to comply with these guidelines, or otherwise with reasons for non-compliance, by 20.05.2025."
     },
     {
       "section": "4",
       "heading": "Notifications will be published on the EBA website, in line with Article 16(3).",
+      "title": "EBA publishes compliance notifications on its website",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section states that notifications will be published on the EBA website in line with Article 16(3) of Regulation (EU) No 1093/2010.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "EBA will publish notifications of compliance status from competent authorities on its official website, as required by Article 16(3) of Regulation (EU) No 1093/2010. This transparency measure ensures public accessibility of compliance information for stakeholders.",
+      "dtia_summary": "Public disclosure of compliance notifications affects DTIA by making compliance status visible to stakeholders, which may influence cross-border regulatory trust and transparency.",
+      "authority": "EBA",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Notifications will be published on the EBA website, in line with Article 16(3) of Regulation (EU) No 1093/2010.",
+          "text": "EBA will publish compliance notifications on its website",
           "obligation_type": "Must"
         }
       ],
@@ -408,118 +481,154 @@
     {
       "section": "5",
       "heading": "These guidelines are addressed to competent authorities as defined in Article 4 point",
+      "title": "Guidelines apply to competent authorities and payment service providers",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section states that the guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366.",
-      "dtia_summary": "",
+      "summary": "These guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010 and financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366. The scope includes natural or legal persons benefiting from exemptions under specific directives.",
+      "dtia_summary": "The scope definition directly impacts DTIA by specifying which entities must comply with security measures for payment services, affecting cross-border data handling obligations.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366.",
+          "text": "Guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines apply to financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/23662."
+      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366."
     },
     {
       "section": "8",
       "heading": "The subject matter as set out in paragraphs 5 and 6 is replaced with the following:",
+      "title": "Guidelines cover payment user relationship management under DORA",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section states that the subject matter of the guidelines is replaced with a focus on payment user relationship management and that the guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take.",
-      "dtia_summary": "",
+      "summary": "These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management. They complement risk management measures under the Digital Operational Resilience Act (DORA) and related Regulatory Technical Standards for payment service providers.",
+      "dtia_summary": "The guidelines specify security measures for payment services under DORA, which directly impacts DTIA by requiring robust security protocols for cross-border payment data handling.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The subject matter as set out in paragraphs 5 and 6 is replaced with the following: 'These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management'.",
+          "text": "Guidelines cover aspects of payment user relationship management",
           "obligation_type": "Must"
         },
         {
-          "text": "The guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take.",
+          "text": "Guidelines complement risk management measures under DORA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The subject matter as set out in paragraphs 5 and 6 is replaced with the following: 'These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management'. The guidelines complement the risk management measures under DORA and the related RTS that payment service providers must take."
+      "source_quote": "These guidelines are based on the mandate to issue guidelines under Article 95(3) of Directive (EU) 2015/2366 and cover aspects of payment user relationship management."
     },
     {
       "section": "9",
       "heading": "The scope of application as set out in paragraphs 7 and 8 is deleted.",
+      "title": "Scope of application for guidelines is deleted",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "",
-      "dtia_summary": "",
+      "summary": "The scope of application for the guidelines is deleted, meaning the guidelines now apply to the specific mandate under Article 95(3) of Directive (EU) 2015/2366 for payment service providers. This deletion streamlines the scope to focus on security measures for payment services.",
+      "dtia_summary": "The deletion of the scope ensures the guidelines focus exclusively on payment service providers' security measures, which is critical for DTIA in payment-related data transfers.",
       "authority": "",
-      "financial_relevance": "Unknown",
-      "confidence": "Low",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": ""
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Scope of application for guidelines is deleted",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The scope of application as set out in paragraphs 7 and 8 is deleted."
     },
     {
       "section": "10",
       "heading": "The addressees as set out in paragraph 9 are replaced by the following:",
+      "title": "Guidelines apply to specific payment service providers",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "This section states that the guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including those benefiting from exemptions.",
-      "dtia_summary": "",
+      "summary": "These guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010 and financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366. This includes entities benefiting from exemptions under Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC.",
+      "dtia_summary": "The specific scope definition affects DTIA by clarifying which entities must implement security measures for payment services, including exempted entities.",
       "authority": "",
       "financial_relevance": "High",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "The guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC3.",
+          "text": "Guidelines apply to competent authorities as defined in Article 4(2)(vii) of Regulation (EU) No 1093/2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines apply to financial institutions that are payment service providers under Article 1(1) of Directive (EU) 2015/2366",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Includes natural or legal persons benefiting from exemptions under Article 32 or 33 of Directive (EU) 2015/2366",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Includes legal persons exempted under Article 9 of Directive 2009/110/EC",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The guidelines are addressed to competent authorities as defined in Article 4 point (2)(vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as referred to in Article 1(1) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC3."
+      "source_quote": "These guidelines are addressed to competent authorities as defined in Article 4 point (2) point (vii) of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of Regulation No 1093/2010, which are payment service providers as defined in Article 1(1) point (a), point (b) and point (d) of Directive (EU) 2015/2366, including natural or legal persons benefiting from an exemption pursuant to Article 32 or 33 of Directive (EU) 2015/2366 and legal persons exempted under Article 9 of Directive 2009/110/EC."
     },
     {
       "section": "11",
       "heading": "The definitions as set out in paragraph 10 are deleted.",
+      "title": "Removal of specific definitions from scope",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 10,
       "page_end": 10,
-      "primary_category": "Other",
-      "summary": "This section states that the definitions as set out in paragraph 10 are deleted.",
+      "primary_category": "Definitions",
+      "summary": "This section explicitly deletes certain definitions previously outlined in paragraph 10. The deletion applies to the definitions listed in that paragraph. The section does not introduce new definitions or obligations but removes existing ones from the scope of the regulation.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "High",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "The definitions as set out in paragraph 10 are deleted.",
-          "obligation_type": "Must"
+          "text": "The definitions as set out in paragraph 10 are deleted",
+          "obligation_type": "Restriction"
         }
       ],
       "source_quote": "The definitions as set out in paragraph 10 are deleted."

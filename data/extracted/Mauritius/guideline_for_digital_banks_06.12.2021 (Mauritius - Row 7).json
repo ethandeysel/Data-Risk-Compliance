@@ -1,0 +1,713 @@
+{
+  "country": "Mauritius",
+  "document": "guideline_for_digital_banks_06.12.2021 (Mauritius - Row 7)",
+  "generated": "2026-07-16T18:25:08",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Section 1: Application Process for Digital Banking Licence",
+      "title": "Digital banking licence application requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 8,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "Body corporates must submit completed application forms to the Bank of Mauritius and comply with section 5 of the Act. The Bank evaluates applications based on the applicant's technical expertise, financial resources, business feasibility, management history, community needs, shareholder suitability, and group structure. Applicants must demonstrate shareholder experience in banking or fintech, board expertise in technology and risks, substantial operations in Mauritius, and meet capital requirements. Foreign branches must satisfy international banking experience and regulatory oversight conditions.",
+      "dtia_summary": "Requires detailed assessment of applicant's technical capabilities, financial stability, business model, and regulatory compliance before cross-border digital banking operations can commence.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Applicants must submit completed application forms to the Bank of Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must comply with section 5 of the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank evaluates applications based on technical expertise of directors/senior officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must demonstrate sufficient financial resources and adequate capital structure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must show sound business feasibility including accounting systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must demonstrate compliance with other conditions imposed by the central bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must prove business history and management character",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must demonstrate community market needs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must show shareholder fitness and suitability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must demonstrate ability to comply with foreign regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "At least one significant shareholder must have relevant banking/fintech experience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must possess expertise in technology, risks, credit, liquidity and interest rate risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank must have principal place of business in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank must have at least ten qualified full-time officers including CEO",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual operating costs must not be less than 25 million Mauritian rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank must meet minimum capital requirements at onset and ongoing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Foreign banks must be reputable international banks with 5+ years operation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Foreign banks must be subject to consolidated supervision by foreign regulators",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 1: Application Process for Digital Banking Licence\n1.1 Applications from body corporates for a digital banking licence shall be made by submitting to the Bank the duly filled application form as available on the website of the Bank. An applicant shall also comply with section 5 of the Act."
+    },
+    {
+      "section": "2",
+      "heading": "Section 2: Licensing stages",
+      "title": "Digital banking licence phased transition requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "Digital banks must operate as restricted entities for up to two years before transitioning to full operations. During the restricted phase, banks must develop governance frameworks, conduct limited banking activities, and meet specific capital and liquidity ratios. They must submit detailed transition plans and obtain Bank approval before moving to the transitional phase. After the transitional period, banks must meet full banking requirements including capital adequacy ratios and liquidity coverage ratios.",
+      "dtia_summary": "Requires phased approach to data transfer and processing with strict capital, liquidity, and governance requirements during initial stages to ensure data security and financial stability.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Digital banks must operate as restricted entities for up to two years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must develop governance, internal control and risk management frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must conduct limited banking business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must submit detailed transition plans to the Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must obtain Bank approval 90 days before mobilisation period ends",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must maintain capital adequacy ratio of 15% during mobilisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must maintain liquidity coverage ratio of 120% during mobilisation",
+          "obligation_type": ""
+        },
+        {
+          "text": "Restricted banks must maintain a reserve fund equivalent to three months of operating expenses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must transition to full operations after three years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must meet minimum capital requirements of 400 million Mauritian rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must submit external audit confirmation of capital position",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted banks must provide cyber and technology risk management framework assessment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 2: Licensing stages\n2.1 Successful applicants shall commence business as a restricted digital bank."
+    },
+    {
+      "section": "3",
+      "heading": "Restricted Digital Banks",
+      "title": "Restricted digital bank operational requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Restricted digital banks must comply with banking laws, governance frameworks, and prudential requirements. During mobilisation, they can only accept deposits from shareholders/employees, operate with assets under 1 billion Mauritian rupees, offer simple products, serve resident customers, and maintain specific capital and liquidity ratios. During transitional periods, they must increase asset size up to 2 billion Mauritian rupees while maintaining minimum capital adequacy ratios and liquidity coverage ratios.",
+      "dtia_summary": "Imposes strict operational limits on data storage and processing during initial stages to ensure financial stability and regulatory compliance for cross-border digital banking activities.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Restricted digital banks must comply with banking laws and regulatory guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must implement appropriate governance frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain capital adequacy ratio of 15% during mobilisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain liquidity coverage ratio of 120% during mobilisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain a reserve fund equivalent to three months of operating expenses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must operate with assets not exceeding 1 billion Mauritian rupees during mobilisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must offer only simple credit and deposit products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must serve only resident customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain minimum cash reserve ratio",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must increase asset size up to 2 billion Mauritian rupees during transitional period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain capital adequacy ratio of 12.5% during transitional period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital banks must maintain liquidity coverage ratio of 100% during transitional period",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 3: Restricted Digital Banks\n3.4 During the mobilisation period, a restricted digital bank shall: (i) solicit deposits solely from its shareholders, employees and related parties; (ii) operate with an asset size not exceeding 1 billion Mauritian rupees..."
+    },
+    {
+      "section": "4",
+      "heading": "Section 4: Exemptions applicable to Restricted Digital Banks",
+      "title": "Exemptions for restricted digital banks with capital and governance requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Restricted digital banks must obtain Bank approval for exemptions. They must maintain a minimum capital of 200 million Mauritian rupees or equivalent freely convertible currency during the restricted phase, after accounting for accumulated losses. At the end of the restricted phase, the minimum capital requirement increases to 400 million Mauritian rupees or equivalent. Shareholders owning significant interests (10% or more) must meet specific conditions including written undertakings, independent board composition, compliance experience, and arms-length transactions. The bank may only establish an Audit Committee and executive-level Risk Management Committee, with the board responsible for other committees.",
+      "dtia_summary": "Capital requirements and governance structures directly impact data transfer feasibility as insufficient capital or governance may prevent secure data handling across borders. Shareholder restrictions affect data control mechanisms.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Exemptions under this section require Bank approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank must commence operations with capital of not less than 200 million Mauritian rupees or equivalent freely convertible currency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank must maintain minimum capital of not less than 200 million Mauritian rupees or equivalent after deduction of accumulated losses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "At end of restricted phase, minimum capital requirement shall be 400 million Mauritian rupees or equivalent after deduction of accumulated losses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders owning significant interest (10% or more) must undertake written undertaking not to influence bank management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank must have board chaired by independent director with majority independent directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must demonstrate proven experience in regulatory compliance, risk management and audit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank must demonstrate arms-length transactions with shareholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank may only establish Audit Committee and executive-level Risk Management Committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must be responsible for tasks assigned to other board sub-committees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 4: Exemptions applicable to Restricted Digital Banks\n4.1 The exemptions under this section shall be subject to the approval of the Bank."
+    },
+    {
+      "section": "5",
+      "heading": "Section 5: Business Plan",
+      "title": "Business plan requirements for digital banks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Digital banks must submit detailed business plans including projected financial statements for five years, business model descriptions, funding strategies, governance frameworks, staffing requirements, and cyber/technology risk management plans. The business plan must demonstrate a sustainable transition from restricted phase to full digital bank operations with clear timelines, risk management measures, and customer complaint handling protocols.",
+      "dtia_summary": "Business plans must include comprehensive cyber and technology risk management frameworks, which are critical for data transfer security and compliance across borders.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Business plan must include projected financial statements for 5 financial years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must describe products and services, channels, and target market",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must include funding sources and capital/liquidity strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must outline governance, internal control, and risk management frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must specify staffing requirements including technology and risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must include business strategy for sustainable transition from restricted phase",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business strategy must have clear timelines and milestones for progress tracking",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business strategy must include measures to comply with prudential requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business strategy must include measures to meet minimum capital requirement at end of restricted phase",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must address customer queries or complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must detail outsourcing arrangements and third-party service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business plan must describe cyber and technology risk management framework",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 5: Business Plan\n5.1 Section 5(1)(f) of the Act requires an applicant to submit, at the time of application, a business plan giving the nature of the planned business, organisational structure and internal control, projected financial statements including cash flow statements for each of the next 3 financial years."
+    },
+    {
+      "section": "6",
+      "heading": "Section 6: Exit Plan",
+      "title": "Exit plan for restricted digital banks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "Restricted digital banks must submit exit plans demonstrating orderly liquidation under section 70 of the Act, including circumstances for triggering voluntary liquidation, channels for repaying depositors, and communication strategies for stakeholders. Significant shareholders must provide written undertakings to cover any shortfall in deposit liabilities.",
+      "dtia_summary": "Exit plans ensure data transfer continuity during liquidation, critical for maintaining customer data integrity and regulatory compliance across borders.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Exit plan must demonstrate orderly liquidation under section 70 of the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit plan must cover circumstances for triggering voluntary liquidation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit plan must specify channels for repaying depositors and funding sources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit plan must include communication and engagement strategy for stakeholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Significant shareholders must provide written undertaking to cover deposit liabilities shortfall",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 6: Exit Plan\n6.1 The applicant shall submit, at the time of application, an exit plan, which demonstrates that it can go into voluntary liquidation under section 70 of the Act in an orderly manner during the restricted phase under the circumstances stipulated in section 7 of the Guideline, taking into consideration the interests of depositors."
+    },
+    {
+      "section": "7",
+      "heading": "Section 7: Exit from Banking Industry",
+      "title": "Exit from banking industry conditions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "Restricted digital banks may exit the banking industry through voluntary liquidation if their business model is no longer viable or they cannot meet the objectives set out in their business plan to transition to a digital bank, in addition to circumstances specified in section 2 of the Guideline.",
+      "dtia_summary": "Exit conditions directly affect data transfer continuity and regulatory compliance during transitions, ensuring data protection across borders.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Restricted digital bank may exit banking industry through voluntary liquidation if business model is no longer viable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank may exit banking industry through voluntary liquidation if unable to meet business plan transition objectives",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 7: Exit from Banking Industry\n7.1 In addition to the circumstances laid down under paragraphs 2.13, 2.23 and 2.28, a restricted digital bank may go into voluntary liquidation where it is of the view that its business model is no longer viable and/or it will not be able to meet the objectives set out in its business plan to transition to a digital bank."
+    },
+    {
+      "section": "8",
+      "heading": "Section 8: Risk Management",
+      "title": "Risk management requirements for digital banks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "Digital banks must ensure their boards and senior management understand all risks, implement robust cyber and technology risk management frameworks, and establish appropriate controls including multifactor authentication for identity proofing and digital instruction authentication.",
+      "dtia_summary": "Risk management frameworks are essential for secure data transfers, particularly for cyber threats and cross-border data handling.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board and senior management must understand types of risks and implement systems to identify, measure, monitor and control risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and senior management must implement robust cyber and technology risk management framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate controls and safeguards including multifactor authentication must be implemented for identity proofing and digital instructions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 8: Risk Management\n8.1 The board of directors and the senior management of a digital bank shall, among others, ensure that: i. they understand the types of risk to which it is exposed, and put in place appropriate systems to identify, measure, monitor and control these risks; ii. they are fully aware of cyber and technology-related risk and implement an appropriate and robust cyber and technology risk management framework; and iii. appropriate controls and safeguards (including multifactor authentication, as relevant) are implemented to support identity proofing and authenticate digital instructions and digital signatures."
+    },
+    {
+      "section": "9",
+      "heading": "Combating the Financing of Terrorism and Proliferation",
+      "title": "AML/CFT compliance for digital banks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Digital banks must comply with AML/CFT regulations including customer due diligence, risk assessments, and implementation of internal policies for money laundering and terrorism financing. They must authenticate customer identities through reliable means at onboarding and maintain risk-based approaches for cyber and technology risks.",
+      "dtia_summary": "AML/CFT compliance requirements directly impact data transfer security and regulatory adherence across borders, especially for financial data.",
+      "authority": "Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Digital bank must comply with relevant AML/CFT legislations and guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must identify, assess and understand ML/TF/PF risks of customers, countries, products and services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must implement internal policies, procedures and controls for ML/TF/PF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must adopt risk-based approach for ML/TF/PF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must ensure customer due diligence measures are commensurate with ML/TF/PF and cyber risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must authenticate and verify customer identity through reliable means at onboarding",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 9: Combating the Financing of Terrorism and Proliferation\n9.1 A digital bank shall comply with the relevant statutory and regulatory requirements relating to AML/CFT, namely the relevant AML/CFT Legislations and guidelines issued by the Bank, such as the Guideline on Anti-Money Laundering and Combating the Financing of Terrorism and Proliferation, the Guideline on the implementation of Targeted Financial Sanctions under the United Nations (Financial Prohibitions, Arms Embargo and Travel Ban) Sanctions Act 2.019 and any other relevant guidelines/legislations, including those in respect of digital onboarding of customers applicable to banks."
+    },
+    {
+      "section": "10",
+      "heading": "Section 10: Physical office in Mauritius",
+      "title": "Digital banks must maintain physical office in Mauritius for administrative purposes",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Digital banks must establish a principal place of business in Mauritius. This office is exclusively for administrative functions, customer complaint resolution, and Bank interactions. It cannot be used for customer banking activities and must be accessible for on-site examinations by the Bank at all times.",
+      "dtia_summary": "Requires physical presence in Mauritius for administrative oversight, impacting data storage and operational compliance for cross-border digital banking activities.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Digital bank must have principal place of business in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Physical office must be used solely for administrative purposes, customer complaints, or Bank interactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Physical office shall not be used for customer banking activities",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Physical office must be accessible to Bank for on-site examinations at all times",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 10: Physical office in Mauritius. 10.1 In line with paragraph 1.5(iii) of this Guideline, a digital bank shall have a principal place of business in Mauritius. This physical office shall be used solely for administrative purposes, to deal with customer complaints or to interact with the Bank. Such office shall not be used to conduct banking business with customers and shall, at all times, be made accessible to the Bank for on-site examinations."
+    },
+    {
+      "section": "11",
+      "heading": "Section 11: Record Keeping",
+      "title": "Digital banks must maintain records accessible to Bank for supervision",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Record Keeping",
+      "summary": "Digital banks must comply with the Act on records and ensure all records are readily accessible to the Bank at all times. Electronic records are expected for most data, and technology solutions must support quick access to accurate information for regulatory oversight.",
+      "dtia_summary": "Mandates record accessibility for regulatory supervision, affecting data storage and retention practices for cross-border digital banking operations.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Digital bank must comply with section 33 of the Act on records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be readily accessible to the Bank at all times",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Technology solutions must allow easy and quick access to complete and accurate information for supervisory duties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 11: Record Keeping. 11.1 A digital bank shall comply with the requirement of section 33 of the Act on records and ensure that its records are, at all times, readily accessible to the Bank. 11.2 Due to the nature of the business operations, most if not all of the data of the digital bank are expected to be in an electronic format. The design of technology solutions in a digital bank should allow for easy and quick access to complete and accurate information required by the Bank to perform its supervisory duties."
+    },
+    {
+      "section": "12",
+      "heading": "Section 12: Customer Protection and Data Protection",
+      "title": "Digital banks must inform customers of restricted phase and data protection",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "Restricted digital banks must inform customers of their restricted phase status and relevant data protection compliance obligations. Digital banks must educate customers on financial products, services, and security measures while ensuring adherence to data protection laws and regulations.",
+      "dtia_summary": "Requires customer transparency about restricted phase and data protection compliance, impacting data sharing and customer information handling across borders.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Restricted digital bank must take all reasonable steps to inform customers of restricted phase status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must inform and educate customers on financial products, services, and security measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital bank must ensure compliance with relevant data protection laws and regulations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 12: Customer Protection and Data Protection. 12.1 A restricted digital bank shall take all reasonable steps to ensure that all customers are made aware that it is operating as a restricted digital bank that is subject to a pre-defined restricted phase. 12.2 A digital bank shall duly inform and educate its customers of the financial products and financial services and the appropriate security measures to be taken in this respect. 12.3 A digital bank shall ensure compliance with the relevant data protection laws and regulations."
+    },
+    {
+      "section": "13",
+      "heading": "Section 13: Reporting Requirement",
+      "title": "Digital banks must submit regulatory reports and updates",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "Digital banks must comply with all statutory reporting requirements and submit regulatory returns as communicated by the Bank. During the restricted phase, restricted digital banks must submit half-yearly progress updates on business plan implementation to the Bank.",
+      "dtia_summary": "Mandates regular reporting to the Bank, impacting data transfer and retention for regulatory compliance in cross-border digital banking contexts.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Digital bank must comply with all statutory reporting requirements and submit regulatory returns",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restricted digital bank must submit half-yearly progress updates on business plan implementation during restricted phase",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 13: Reporting Requirement. 13.1 A digital bank shall comply with all the statutory reporting requirements and submit the regulatory returns and any other reporting requirements as communicated by the Bank. 13.2 During the restricted phase, a restricted digital bank shall also submit to the Bank half-yearly progress updates on the implementation of its business plan."
+    }
+  ]
+}

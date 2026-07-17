@@ -1,0 +1,479 @@
+{
+  "country": "Mauritius",
+  "document": "guidelines-on-responsible-use-of-ai (Mauritius - Row 19)",
+  "generated": "2026-07-16T18:23:25",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "",
+      "title": "AI definition and financial sector relevance",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 4,
+      "primary_category": "Definitions",
+      "summary": "This section defines artificial intelligence (AI) as algorithms that perceive, interpret, reason, and act in the physical or digital world to achieve goals. It emphasizes AI's rapid evolution in financial services, highlighting applications like risk assessment, fraud detection, and high-frequency trading. The Financial Services Commission (FSC) of Mauritius observes growing AI adoption in financial institutions and fintech entities, noting the need for responsible implementation without introducing new regulatory structures.",
+      "dtia_summary": "This section establishes foundational definitions of AI relevant to financial services, clarifying the scope for data transfer impact assessments by distinguishing AI from non-AI systems and highlighting sector-specific applications. It does not impose direct transfer restrictions but sets context for understanding AI's role in data processing.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Artificial intelligence means algorithms designed by individuals that, given a goal, act in the physical or digital world by perceiving their environment, interpreting collected structured or unstructured data, reasoning on knowledge derived from this data and deciding the best action to take, according to pre-defined parameters, to achieve the given goal.",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Artificial intelligence (‘AI') involves the use of technology to perform tasks that traditionally required human intelligence."
+    },
+    {
+      "section": "2",
+      "heading": "GenAI",
+      "title": "Types of AI in financial services",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "primary_category": "Definitions",
+      "summary": "This section distinguishes traditional AI (narrow AI) and generative AI (GenAI) as the two primary types used in financial services. Traditional AI focuses on specific tasks within predefined rules, while GenAI creates new content like text, images, and simulations. The section notes GenAI's growing significance in financial applications, including predictive modeling and innovative solutions.",
+      "dtia_summary": "This section clarifies the distinction between traditional AI and GenAI, which is critical for DTIAs as GenAI's ability to generate new content may impact data processing and transfer mechanisms in financial services.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Traditional AI focuses on performing specific tasks intelligently within a narrow scope and relies on machine learning, data processing techniques, and rule-based systems.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Generative AI describes algorithms that create new content, including audio, code, images, text, simulations, and videos.",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Traditional AI and Generative AI are the most common and prominent types of AI that are used in the financial services sector, nowadays."
+    },
+    {
+      "section": "3",
+      "heading": "models and innovative solutions.",
+      "title": "AI adoption in financial services",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Data Collection",
+      "summary": "This section reports on widespread AI adoption in financial services, citing surveys indicating 85% of institutions use AI and 77% anticipate its critical role within two years. It highlights AI applications in advisory services, wealth management, trading, insurance, AML/CFT, and risk management. The section emphasizes AI's potential to enhance regulatory compliance, revenue, decision-making, and financial inclusion.",
+      "dtia_summary": "This section details AI's growing use in financial services, which impacts DTIAs by increasing data processing complexity and the need for robust safeguards when transferring data across borders for AI applications.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "85% of financial services institutions across 33 countries use AI in some capacity.",
+          "obligation_type": "Fact"
+        },
+        {
+          "text": "77% of financial services institutions anticipate AI being crucial to their operations within two years.",
+          "obligation_type": "Fact"
+        },
+        {
+          "text": "AI is used in advisory services, wealth management, trading, insurance, AML/CFT, and risk management.",
+          "obligation_type": "Fact"
+        }
+      ],
+      "source_quote": "Based on a survey of 151 financial institutions across 33 countries conducted by the World Economic Forum and the Cambridge Centre of Alternative Finance."
+    },
+    {
+      "section": "4",
+      "heading": "Customer services (AI-driven chatbots and virtual assistants).",
+      "title": "AI benefits for financial services",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Data Collection",
+      "summary": "This section outlines key benefits of AI adoption in financial services, including improved regulatory compliance, revenue growth (potentially 34%), enhanced decision-making, financial inclusion, and staff training on AI. It emphasizes AI's role in automating processes, generating value, and fostering understanding of AI's risks and applications within financial institutions.",
+      "dtia_summary": "This section identifies AI-driven benefits that may influence DTIAs by highlighting data processing efficiencies and the need for robust governance to ensure ethical data handling and transfer mechanisms.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AI can assist financial services institutions in meeting regulatory compliance responsibilities by automating data gathering procedures.",
+          "obligation_type": "Fact"
+        },
+        {
+          "text": "AI has the potential to increase the financial services sector's revenue by 34%.",
+          "obligation_type": "Fact"
+        },
+        {
+          "text": "AI can generate more than $250 billion in value for banking and financial services companies.",
+          "obligation_type": "Fact"
+        },
+        {
+          "text": "AI can improve financial inclusion by developing tailored financial education programs for underserved populations.",
+          "obligation_type": "Fact"
+        }
+      ],
+      "source_quote": "The financial services sector can largely benefit from the adoption of AI technologies in their day-to-day operations, namely in terms of: Improved regulatory compliance, improved revenue and value, improved decision-making, improved financial inclusion."
+    },
+    {
+      "section": "5",
+      "heading": "through better cyber security and data protection measures.",
+      "title": "AI governance and human oversight",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 8,
+      "page_end": 10,
+      "primary_category": "Governance",
+      "summary": "This section emphasizes the need for human oversight and accountability throughout AI systems' lifecycles, including defining responsibility across design, development, deployment, and decommissioning. It requires boards and senior management to understand AI risks, implement training, ensure effective oversight, and address limitations like third-party access constraints to AI systems.",
+      "dtia_summary": "This section is critical for DTIAs as it mandates governance structures to ensure AI systems comply with data transfer and processing requirements, particularly in cross-border contexts where human oversight may be challenging.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Establish accountability throughout the AI system lifecycle by defining responsibility across design, approval, development, procurement, deployment, monitoring, and decommissioning.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board members and senior management must possess a solid understanding of AI risks and limitations to critically assess AI outputs.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure sufficient expertise at the Board level to monitor AI solutions for consumer protection.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement staff training on AI risks and roles to manage them effectively.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Address limitations of human oversight by ensuring access to AI infrastructure, code, and training data through third-party assessments and controls.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "At a fundamental level, the development, implementation, and oversight of AI systems across their life cycle should not change existing supervisory expectations."
+    },
+    {
+      "section": "6",
+      "heading": "predefined conditions.",
+      "title": "AI fairness and bias mitigation",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Data Collection",
+      "summary": "This section addresses the risks of bias in AI systems, emphasizing the need for fairness by design. It requires insurers to implement governance processes, continuous monitoring, transparency, and explainability to detect and mitigate biases in AI-driven decisions, ensuring fair treatment of customers without discrimination.",
+      "dtia_summary": "This section is vital for DTIAs as it mandates specific safeguards to prevent biased data processing and transfer, particularly when AI systems handle sensitive financial data across borders.",
+      "authority": "Financial Services Commission, Mauritius (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AI systems that are harmful, abusive, or discriminatory should not be brought to market.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Implement policies and processes for fair treatment of customers as part of business culture.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop a corporate culture with ethical and fairness principles to guide responsible AI adoption.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide regular training on ethical AI practices for staff involved in AI deployment.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct continuous monitoring and auditing of AI systems to detect and mitigate biases.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure transparency and explainability of AI systems to customers.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "AI system that are harmful or abusive, treat consumers unfairly or do not respect fundamental rights, including the right to non-discrimination, should not be brought to the market."
+    },
+    {
+      "section": "7",
+      "heading": "decisions are made to be able to identify any potential biases in the process.",
+      "title": "Transparency in AI decision-making to identify biases",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates that insurance and non-banking businesses ensure transparency in AI processes to identify potential biases. It requires firms to act with due skill, care and diligence when dealing with customers, provide clear and timely information for informed decisions, and address risks of lawful discrimination. The focus is on fairness and non-discrimination through transparent AI practices.",
+      "dtia_summary": "Transparency requirements for AI decision-making are critical for DTIAs to assess bias risks in cross-border data transfers involving financial services. This section emphasizes identifying discriminatory outcomes and ensuring accountability in AI systems.",
+      "authority": "FSC Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Insurance and non-banking businesses must act with due skill, care and diligence when dealing with customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide clear, timely and adequate information allowing customers to make informed decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transparency is key to building trust and ensuring accountability by understanding unique risks to end users of AI",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "The Insurance and non-banking businesses should ensure that insurers and intermediaries \"act with due skill, care and diligence when dealing with customers\"."
+    },
+    {
+      "section": "8",
+      "heading": "regarding model behaviour and compliance.",
+      "title": "Security and robustness testing for AI systems",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Security",
+      "summary": "This section requires continuous robustness testing for AI systems, including automated monitoring tools to detect data distribution shifts and trigger alerts. It mandates that insurers define expected outcomes in advance for objective evaluation and share material findings with third-party AI providers to enable prompt corrective action. The focus is on maintaining up-to-date security practices through regular updates and staff training.",
+      "dtia_summary": "Robustness testing and continuous monitoring are essential for DTIAs to assess AI system security and stability in cross-border contexts. This section emphasizes proactive measures to address evolving threats and ensure timely model recalibration.",
+      "authority": "FSC Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Robustness testing should be treated as a continuous process allowing insurers to adapt testing strategies as AI technologies evolve",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use automated monitoring tools to detect significant shifts in data distribution and trigger alerts for timely model recalibration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define expected outcomes in advance to support objective evaluation of AI systems",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Share material findings from robustness assessments with third-party AI providers to facilitate prompt corrective action",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Robustness testing should be treated as a continuous process, allowing insurers to adapt their testing strategies as AI technologies evolve."
+    },
+    {
+      "section": "9",
+      "heading": "essential.",
+      "title": "AI risks in financial services sector",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section outlines specific risks associated with AI adoption in financial services, including bias and discrimination, data privacy concerns, systemic risks, de-skilling of employees, job displacement, and concentration risks. It highlights the need for stakeholders to address these challenges to facilitate timely AI adoption while mitigating potential harms to customers and the financial system.",
+      "dtia_summary": "This section identifies critical risks that DTIAs must address, particularly bias, data privacy, and systemic risks when transferring or processing financial data across borders using AI. It emphasizes the need for comprehensive risk assessments.",
+      "authority": "FSC Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "AI adoption in financial services presents risks including bias, discrimination, data privacy concerns, systemic risks, and job displacement",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The adoption of AI technologies in the financial services sector presents a unique set of risks and challenges."
+    },
+    {
+      "section": "10",
+      "heading": "risks.",
+      "title": "AI initiatives in Mauritius",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "This section describes Mauritius's strategic initiatives to position itself as a center for AI development, including fostering a digital innovation ecosystem, attracting global technology leaders, and nurturing local talent. It emphasizes the government's commitment to leveraging AI for inclusive economic growth and enhancing public services through technological innovation.",
+      "dtia_summary": "Mauritius's AI initiatives provide context for DTIAs by highlighting the country's proactive approach to AI governance and its alignment with international standards, which may influence cross-border data transfer practices.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Mauritius leverages its strategic location between Africa and Asia to position itself as a reputable center for AI development",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Mauritius continues to leverage its strategic location between Africa and Asia to position itself as a reputable centre for Artificial Intelligence (AI) development."
+    },
+    {
+      "section": "11",
+      "heading": "INTERNATIONAL COLLABORATION INITIATIVES",
+      "title": "International collaboration on AI governance",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "International Processing",
+      "summary": "This section details international collaboration initiatives in AI governance, including UN resolutions, IMF reports, ESMA monitoring, UK government schemes, Singapore's partnerships, and the Alliance for Innovative Regulation. These collaborations aim to foster innovation and develop ethical AI practices across financial services sectors globally.",
+      "dtia_summary": "International collaboration frameworks are critical for DTIAs to understand cross-border data transfer implications, as they establish shared standards and best practices for AI governance that may affect data flows.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "UN approved a first-of-its-kind resolution on AI by consensus, adopted by 193 countries including Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IMF published a report on generative AI in finance and risk considerations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ESMA monitors AI and Big Data in financial services across EU member states",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "UK Financial Conduct Authority launched a secondment scheme for AI collaboration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Monetary Authority of Singapore co-partnered with Google Cloud for generative AI",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "On 21 March 2.024, the General Assembly of the UN approved a first-of-its-kind resolution on AI by consensus."
+    },
+    {
+      "section": "12",
+      "heading": "BEST PRACTICES AND PRINCIPLES FOR THE USE OF AI",
+      "title": "Best practices for responsible AI use",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "This section outlines international best practices for responsible AI use, including UNESCO's AI ethics framework, OECD AI principles, UK's principle-based approach, EU's AI Act, and the FSC Mauritius's principles for responsible AI. It emphasizes the need for data protection impact assessments and compliance with the Data Protection Act 2017 for AI systems.",
+      "dtia_summary": "Best practices for responsible AI use are essential for DTIAs to ensure compliance with international standards and data protection requirements when transferring or processing data across borders.",
+      "authority": "FSC Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must ensure data subjects are informed of automated decision-making processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must provide meaningful information on the logic, criteria, and significance of underlying decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must establish mechanisms for individuals to obtain human intervention and contest outcomes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must conduct Data Protection Impact Assessments (DPIAs) for AI systems presenting high risk to data subjects",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In accordance with Section 38 of the DPA, which sets out safeguards for automated decision-making and profiling that produce legal effects or similarly significant consequences for individuals, licensees are required to ensure the following: Data subjects are informed of the existence of such automated decision-making processes;"
+    },
+    {
+      "section": "13",
+      "heading": "Way Forward",
+      "title": "Regulator's role in AI governance evolution",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 25,
+      "primary_category": "Governance",
+      "summary": "The FSC will monitor AI developments globally and update regulatory guidance to address AI-related benefits and risks for non-banking financial institutions. This section establishes the FSC's ongoing commitment to revising its regulatory framework as AI technology evolves. Licensees must adapt to these evolving standards to maintain compliance with ethical AI practices.",
+      "dtia_summary": "This section requires regulators to proactively update AI governance frameworks, which impacts DTIAs by necessitating regular reassessment of AI-related data transfers against evolving regulatory expectations.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "FSC will monitor ongoing developments in AI locally and internationally",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSC will upgrade/revisit regulatory guidance whenever necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FSC will address corresponding benefits and risks arising from AI use by licensees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "As a forward looking and responsible regulator of the insurance, wealth management sector and other NBFIs, the FSC will continue to closely monitor the on-going developments in the field of AI, both locally and internationally and will further upgrade/revisit its existing regulatory guidance and parameter, whenever there is a necessity, to address the corresponding benefits and risks arising from the use of AI by its licensees."
+    }
+  ]
+}

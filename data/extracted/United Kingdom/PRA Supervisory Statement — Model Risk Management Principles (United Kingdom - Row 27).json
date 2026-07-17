@@ -1,0 +1,454 @@
+{
+  "country": "United Kingdom",
+  "document": "PRA Supervisory Statement — Model Risk Management Principles (United Kingdom - Row 27)",
+  "generated": "2026-07-16T19:05:22",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "",
+      "title": "Model risk management framework requirements for UK banks",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Governance",
+      "summary": "This section establishes the PRA's expectations for banks' model risk management (MRM) frameworks. It specifies that the requirements apply to UK-incorporated banks, building societies, and PRA-designated investment firms with internal model approval for regulatory capital calculations. Firms without internal model approval or third-country branches are excluded, while credit unions and insurers are not covered. The PRA requires firms to strengthen policies, procedures, and practices to identify, manage, and control model risks across all model types, including those developed in-house or externally. The expectations complement but do not supersede existing supervisory requirements for specific models.",
+      "dtia_summary": "This section mandates that financial institutions implement robust model risk management frameworks to ensure models used for regulatory capital calculations are properly validated and monitored, directly impacting cross-border data transfers involving model outputs.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must conduct an initial self-assessment of their MRM frameworks against these principles before the policy comes into effect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must prepare remediation plans to address identified shortcomings in their MRM frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Self-assessments must be updated at least annually thereafter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Remediation plans must be reviewed and updated on a regular basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must document and share self-assessment findings and remediation plans with their boards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure remediation plans have clear ownership of necessary actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have 12 months from internal model approval to comply with the expectations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "1.6 Before the policy comes into effect, firms are expected to conduct an initial self-assessment of their implemented MRM frameworks against these principles and, where relevant, to prepare remediation plans to address any identified shortcomings."
+    },
+    {
+      "section": "2",
+      "heading": "The use of models",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "The MRM principles",
+      "title": "Model risk management framework responsibilities and governance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "Firms must establish a sound model risk management (MRM) framework with board-level oversight to ensure business decisions are supported by reliable model outputs. The board must define model risk appetite, approve MRM policies, appoint an accountable individual, and maintain robust governance practices. This framework must be proportionate to the firm's size, model complexity, and business activities to effectively manage model-related risks.",
+      "dtia_summary": "This section mandates board-level accountability for model risk management, requiring clear governance structures that ensure models support safe and sound business decisions without compromising financial stability.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board of directors must establish a comprehensive firm-wide MRM framework proportionate to size, business activities, and model complexity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must set model risk appetite articulating acceptable levels of model risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must receive regular reports on model risk profile against appetite",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must challenge outputs of most material models",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board of directors and senior management of firms are ultimately responsible for establishing a sound MRM framework to ensure key business decisions relevant to a firm's safety and soundness are supported by sound and appropriate model output"
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "The MRM principles (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3 (part 3)",
+      "heading": "The MRM principles (cont.)",
+      "title": "Model risk management framework requirements for data quality and validation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section mandates specific data quality management procedures, model validation standards, performance monitoring criteria, and model risk mitigants for financial models. It requires firms to establish clear roles and responsibilities for model development, validation, and monitoring, with particular attention to alternative data sources and unstructured data. The framework emphasizes the need for robust oversight mechanisms to ensure models operate within acceptable risk parameters and maintain alignment with the firm's overall risk appetite.",
+      "dtia_summary": "This section establishes critical data quality and validation requirements that impact cross-border data transfers involving financial models. Firms must ensure data quality procedures and model validation standards meet international standards to prevent model-related risks during data transfers.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data quality management procedures must include rules and standards for data quality, accuracy and relevance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model validation standards require clear roles and responsibilities, validation procedures, prioritisation and scope of re-validation, and reporting of validation results",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model performance monitoring must define criteria for acceptable performance and triggers for recalibration or redevelopment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model risk mitigants must include model adjustments and overrides for expert judgement, restrictions on model use, and escalation processes for validation exceptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model approval process must define clear roles and responsibilities for model approval authorities and materiality criteria for model changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure adequacy of board-level policies for material and complex model types is assessed and supplemented with detailed procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standards for model development must include independent model validation and procedures for monitoring material and complex model types",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data quality procedures must set clear roles and responsibilities for managing data quality in data-intensive model types",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "data quality management procedures, including: the rules and standards for data quality, accuracy and relevance; and the specific risk controls and criteria applicable to reflect the higher level of uncertainty associated with use of alternative or unstructured data, or information sources"
+    },
+    {
+      "section": "3 (part 4)",
+      "heading": "The MRM principles (cont.)",
+      "title": "Model development and validation documentation requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "This section outlines comprehensive documentation requirements for model development, including design objectives, data usage, methodology, performance testing, and model limitations. It mandates that firms maintain detailed records of model adjustments, expert judgement applications, and system implementations to ensure models remain robust and aligned with business objectives. The requirements emphasize transparency and accountability throughout the model lifecycle.",
+      "dtia_summary": "This section establishes detailed documentation requirements that impact data transfers involving financial models. Firms must maintain comprehensive records of model development and validation to ensure transparency and compliance with international data transfer standards.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Models must have clear statements of purpose and design objectives to guide development",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model development should demonstrate suitable data for intended use and consistency with chosen theory and methodology",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure no inappropriate bias in data used for model development and compliance with data privacy regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data adjustments and proxies must be clearly documented and subject to validation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Interconnected data sources and alternative/unstructured data must be identified and recorded in model inventory",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model development testing must demonstrate that models work as intended with clear performance tests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model adjustments must be adequately justified and clearly recorded in model inventory with implementation documentation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have comprehensive documentation on model design, theory, logic, and limitations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms should have comprehensive, and up-to-date documentation on the design, theory, and logic underlying the development of their models"
+    },
+    {
+      "section": "3 (part 5)",
+      "heading": "The MRM principles (cont.)",
+      "title": "Independent model validation and review requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 31,
+      "primary_category": "Other",
+      "summary": "Firms must ensure model validators operate independently from model developers and owners through separate reporting lines. The validation function requires sufficient organizational standing to challenge model usage and escalate concerns to the board or committees. Independent reviews must cover all model components, assess conceptual soundness, evaluate development evidence, analyze qualitative judgments, and conduct additional testing to identify model limitations.",
+      "dtia_summary": "This section mandates independent validation to ensure models function correctly across borders, requiring robust oversight mechanisms that could impact cross-border model transfers and data processing.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The validation function should operate independently from the model development process and model owners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must demonstrate independence through separate reporting lines for model validators and developers/owners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The validation function must have sufficient organizational standing to provide effective challenge and access to the board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All models must undergo independent review to ensure suitability for intended use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review must cover all model components including inputs, calculations, and reporting outputs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review must assess conceptual soundness of model theory and suitability for intended use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review must evaluate quality and extent of model development evidence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review must analyze qualitative information and judgments used in model development",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review must conduct additional testing to identify model limitations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The nature and extent of independent review must be determined by model tier and materiality of changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must verify model processes and systems implementation to confirm effective operation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model inputs must be representative of underlying portfolios and compliant with data quality standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Calculations must be accurate, controlled, and auditable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reporting outputs must be accurate, complete, informative, and appropriately designed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model performance monitoring must assess model performance against acceptable thresholds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must conduct ongoing model performance monitoring to ensure parameter estimates and model constructs are valid",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must monitor whether assumptions remain applicable for model use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess whether changes in products, exposures, or market conditions require model adjustments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess whether models have been used beyond intended scope",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model monitoring must include benchmarking, sensitivity testing, analysis of overrides, and parallel outcomes analysis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model monitoring must be conducted on an ongoing basis with frequency determined by model tier",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must produce timely and accurate model performance monitoring reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must undertake regular independent revalidation of models to determine operational suitability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Periodic revalidation frequency must be consistent with model tier",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have policies and procedures for model risk mitigants when models underperform",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have a consistent firm-wide process for applying post-model adjustments (PMAs)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PMAs must be documented, supported by senior management, and approved by appropriate authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PMAs must be applied systematically and transparently with clear impact reporting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PMAs must be subject to independent review with intensity commensurate to materiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review of PMAs must assess continued relevance to underlying portfolio",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review of PMAs must evaluate qualitative reasoning for soundness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review of PMAs must ensure data integrity for PMA calculations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review of PMAs must ensure outputs are plausible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent review of PMAs must conduct root cause analysis for model limitations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PMAs must be supported by appropriate documentation including justification and calculation criteria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have processes to consider materiality of PMAs or trends indicating flawed model design",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must place restrictions on model use when significant deficiencies are identified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must permit model use only under strict controls or mitigants when deficiencies are found",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must place limits on model use including prohibitions for specific purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must document and report significant model deficiencies or inadequate performance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The validation function should operate independently from the model development process and from model owners. Firms that have approval to use internal models for the purposes of calculating their capital requirements are expected to demonstrate independence through separate reporting lines for model validators and model developers and owners, applicable across the MRM framework."
+    },
+    {
+      "section": "3 (part 6)",
+      "heading": "The MRM principles (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 31,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

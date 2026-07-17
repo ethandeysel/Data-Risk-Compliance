@@ -1,0 +1,311 @@
+{
+  "country": "Singapore",
+  "document": "MAS Notice FSM-N21 (Singapore - Row 32)",
+  "generated": "2026-07-16T18:47:36",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "This Notice is issued pursuant to section 29(1) of the Financial Services and Markets",
+      "title": "Scope of Financial Services Act 2022 Compliance",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section defines which financial institutions are subject to the Notice. It specifies that approved exchanges, licensed trade repositories, approved clearing houses, recognised clearing houses, capital markets services license holders, recognised market operators, trustees for collective investment schemes, authorised benchmark administrators, and authorised benchmark submitters under the Securities and Futures Act 2001 are covered. The Notice applies to these entities as 'specified financial institutions'.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Approved exchanges under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensed trade repositories under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Approved clearing houses under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recognised clearing houses incorporated in Singapore are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Holders of capital markets services licences under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recognised market operators incorporated in Singapore are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Trustees for collective investment schemes authorised under section 286 of Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authorised benchmark administrators under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authorised benchmark submitters under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated benchmark submitters under Securities and Futures Act 2001 are covered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Depository as defined in section 81SF of Securities and Futures Act 2001 is covered",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "This Notice is issued pursuant to section 29(1) of the Financial Services and Markets Act 2022 (the \"Act\") and applies to all the following financial institutions: (a) approved exchanges under the Securities and Futures Act 2001 (\"SFA\"); (b) licensed trade repositories under the SFA; (c) approved clearing houses under the SFA; (d) recognised clearing houses under the SFA which are incorporated in Singapore; (e) holders of a capital markets services licence under the SFA; (f) recognised market operators under the SFA which are incorporated in Singapore; (g) trustees for a collective investment scheme authorised under section 286 of the SFA, that are approved under the SFA; (h) authorised benchmark administrators under the SFA; (i) authorised benchmark submitters under the SFA; (j) designated benchmark submitters under the SFA; (k) the Depository as defined in section 81SF of the SFA, (each a \"specified financial institution\")."
+    },
+    {
+      "section": "2",
+      "heading": "For the purpose of this Notice —",
+      "title": "Critical Systems and Incident Definitions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "This section provides definitions for key terms used in the Notice. It defines 'critical system' as a system whose failure causes significant disruption or impacts customer services, 'customer' for different financial institution types, 'IT security incident' as a security breach affecting critical systems, 'relevant incident' as a severe system malfunction or security incident, 'system' as IT infrastructure components, and 'system malfunction' as failure of critical systems.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Critical system means a system whose failure causes significant disruption to operations or materially impacts customer service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customer has specific meanings for capital markets services license holders and approved/recognised clearing houses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT security incident means an event involving security breach, hacking, intrusion, or denial of service attack on critical systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant incident means a system malfunction or IT security incident with severe and widespread impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System means any hardware, software, network, or IT component part of IT infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System malfunction means failure of critical systems",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purpose of this Notice — \"critical system\" in relation to a specified financial institution, means a system, the failure of which will cause significant disruption to the operations of the specified financial institution or materially impact the specified financial institution's service to its customers, such as a system which — (a) processes transactions that are time critical; or (b) provides essential services to customers; \"customer\" – (a) in relation to a holder of a capital markets services licence, has the meaning given by paragraph (a)(i) of the definition of \"customer\" in section 2(1) of the SFA; and (b) in relation to an approved clearing house or a recognised clearing house, has the meaning given by paragraph (b) of the definition of \"customer\" in section 2(1) of the SFA; \"IT security incident\" means an event that involves a security breach, such as hacking of, intrusion into, or denial of service attack on, a critical system, or a system which compromises the security, integrity or confidentiality of customer information; \"relevant incident\" means a system malfunction or IT security incident, which has a severe and widespread impact on the specified financial institution's operations or materially impacts the specified financial institution's service to its customers; \"system\" means any hardware, software, network, or other information technology (\"IT\") component which is part of an IT infrastructure; and \"system malfunction\" means a failure of any of the specified financial institution's critical systems."
+    },
+    {
+      "section": "3",
+      "heading": "Except where defined in this Notice or if the context otherwise requires, the",
+      "title": "Default Definitions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "This section states that all expressions in the Notice have the same meanings as in the Financial Services and Markets Act 2022 unless defined otherwise in the Notice. It serves as a default reference point for terminology consistency across the document.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "All expressions in this Notice have the same meanings as in the Act unless defined otherwise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Except where defined in this Notice or if the context otherwise requires, the expressions used in this Notice have the same meanings as in the Act."
+    },
+    {
+      "section": "5",
+      "heading": "A specified financial institution must make all reasonable effort to maintain high",
+      "title": "Critical System Availability Requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section mandates that specified financial institutions must maintain high availability for critical systems. It requires that the maximum unscheduled downtime for critical systems affecting operations or customer service does not exceed 4 hours within any 12-month period. It also requires establishing a recovery time objective (RTO) of not more than 4 hours for each critical system and validating and documenting system recovery testing at least once every 12 months.",
+      "dtia_summary": "This section imposes strict uptime requirements for critical systems, directly impacting data storage and system availability during cross-border data transfers for financial institutions.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Must maintain high availability for critical systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maximum unscheduled downtime for critical systems affecting operations or customer service must not exceed 4 hours within any 12-month period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must establish a recovery time objective (RTO) of not more than 4 hours for each critical system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must validate and document system recovery testing at least once every 12 months",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A specified financial institution must make all reasonable effort to maintain high availability for critical systems. The specified financial institution must ensure that the maximum unscheduled downtime for each critical system that affects the specified financial institution's operations or service to its customers does not exceed a total of 4 hours within any period of 12 months. A specified financial institution must establish a recovery time objective (\"RTO\") of not more than 4 hours for each critical system. The RTO is the duration of time, from the point of disruption, within which a system must be restored. The specified financial institution must validate and document at least once every 12 months, how it performs its system recovery testing and when the RTO is validated during the system recovery testing."
+    },
+    {
+      "section": "7",
+      "heading": "A specified financial institution must notify the Authority as soon as possible, but not",
+      "title": "Relevant Incident Notification",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section requires specified financial institutions to notify the MAS Authority within 1 hour upon discovering a relevant incident, except for incidents arising from specific circumstances outlined in certain regulations. The notification must be made as soon as possible but no later than 1 hour after discovery.",
+      "dtia_summary": "This section mandates immediate notification of system incidents to MAS, which impacts data breach response timelines and cross-border incident reporting for financial data.",
+      "authority": "MAS",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Must notify MAS Authority within 1 hour upon discovery of relevant incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exclusions: relevant incidents arising from circumstances in regulations 8(2)(a) and (b), and 21(d) of the Markets Regulations, regulation 9(1) of the Trade Repositories Regulations, regulation 11(1) of the Clearing Facilities Regulations, and regulations 11(1)(e) and 19(2)(b) of the Financial Benchmarks Regulations",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A specified financial institution must notify the Authority as soon as possible, but not later than 1 hour, upon the discovery of a relevant incident, other than a relevant incident arising from the circumstances set out in regulations 8(2)(a) and (b), and 21(d) of the Securities and Futures (Organised Markets) Regulations 2018 (\"Markets Regulations\"), regulation 9(1) of the Securities and Futures (Trade Repositories) Regulations 2013, regulation 11(1) of the Securities and Futures (Clearing Facilities) Regulations 2013, and regulations 11(1)(e) and 19(2)(b) of the Securities and Futures (Financial Benchmarks) Regulations 2018 (\"Financial Benchmarks Regulations\")."
+    },
+    {
+      "section": "8",
+      "heading": "A specified financial institution must, within 14 days or such longer period as the",
+      "title": "Root Cause Analysis Report",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section requires specified financial institutions to submit a root cause and impact analysis report to MAS within 14 days (or a longer period allowed by MAS) after discovering a relevant incident. The report must include an executive summary, root cause analysis, impact on compliance, operations, and customer service, and remedial measures taken.",
+      "dtia_summary": "This section mandates detailed incident reporting for financial data, impacting data breach response and cross-border data transfer compliance for financial institutions.",
+      "authority": "MAS",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Must submit root cause and impact analysis report to MAS within 14 days or longer period allowed by MAS",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must contain executive summary of relevant incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must contain analysis of root cause triggering relevant incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must describe impact on compliance with laws and regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must describe impact on operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must describe impact on service to customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must describe remedial measures taken to address root cause",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A specified financial institution must, within 14 days or such longer period as the Authority may allow, from the discovery of the relevant incident as described in paragraph 7 or a relevant incident arising from the circumstances set out in regulation 21(d) of the Markets Regulations, as the case may be, submit a root cause and impact analysis report to the Authority. The report must contain — (a) an executive summary of the relevant incident; (b) an analysis of the root cause which triggered the relevant incident; (c) a description of the impact of the relevant incident on the specified financial institution's – i. compliance with laws and regulations applicable to the specified financial institution; ii. operations; and iii. service to its customers; and (d) a description of the remedial measures taken to address the root cause and consequences of the relevant incident."
+    },
+    {
+      "section": "9",
+      "heading": "A specified financial institution  must implement IT controls to protect customer",
+      "title": "IT controls for customer information protection",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Security",
+      "summary": "A specified financial institution must implement IT controls to prevent unauthorised access or disclosure of customer information. These controls are required to safeguard customer data. The obligation applies to financial institutions operating under this notice.",
+      "dtia_summary": "This section mandates specific technical safeguards for customer data, directly impacting cross-border data transfers by requiring robust IT controls to prevent breaches.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A specified financial institution must implement IT controls to protect customer information from unauthorised access or disclosure",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A specified financial institution must implement IT controls to protect customer information from unauthorised access or disclosure."
+    }
+  ]
+}

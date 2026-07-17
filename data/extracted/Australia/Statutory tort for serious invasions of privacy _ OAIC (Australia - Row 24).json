@@ -1,7 +1,7 @@
 {
   "country": "Australia",
   "document": "Statutory tort for serious invasions of privacy _ OAIC (Australia - Row 24)",
-  "generated": "2026-07-15T17:03:24",
+  "generated": "2026-07-16T13:26:14",
   "sections": [
     {
       "section": "p1",
@@ -13,7 +13,7 @@
       "page_start": 1,
       "page_end": 2,
       "primary_category": "Other",
-      "summary": "This section introduces the statutory tort for serious invasions of privacy as a legal mechanism allowing individuals to seek redress for privacy harms in court. It establishes that the tort applies beyond traditional Privacy Act entities to include individuals and other entities. The framework aims to address current and emerging privacy risks through a flexible approach.",
+      "summary": "This section introduces the statutory tort for serious invasions of privacy as a legal mechanism allowing individuals to seek redress for privacy harms in court. It establishes that the tort applies beyond traditional Privacy Act entities to include individuals and other entities. The section outlines key components such as the definition of invasion, required elements for a claim, and the role of the court in determining remedies.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -53,7 +53,7 @@
       "requirements": [
         {
           "text": "Statutory tort for serious invasions of privacy",
-          "obligation_type": "[]"
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "Statutory tort for serious invasions of privacy | OAIC"
@@ -61,14 +61,14 @@
     {
       "section": "p2",
       "heading": "Published: 19 June 2025",
-      "title": "Statutory tort for serious invasions of privacy: legal framework and scope",
+      "title": "Statutory tort for serious invasions of privacy: claims and defences",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 2,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section details the statutory tort for serious invasions of privacy, which allows individuals to seek legal redress for privacy harms. It specifies that the tort applies broadly beyond Privacy Act entities, covering individuals and other entities. The tort requires demonstrating that the plaintiff had a reasonable expectation of privacy and that the public interest in privacy outweighs any countervailing public interest.",
+      "summary": "This section details the conditions under which an individual may claim a statutory tort for serious invasions of privacy, including the requirement that the plaintiff had a reasonable expectation of privacy. It specifies that the defendant must have invaded privacy through actions like intruding upon seclusion or misusing information. The section also outlines defences such as consent or lawful authority, and exemptions for intelligence agencies, law enforcement, and journalists.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -107,27 +107,39 @@
       ],
       "requirements": [
         {
-          "text": "An individual (plaintiff) may have a cause of action against another person or organisation (defendant) who has invaded their privacy by doing one or more of the following, in instances where the plaintiff would have had a reasonable expectation of privacy in all the circumstances: intruding upon the individual's seclusion – for example, by physically intruding into their private space; misusing information that relates to the plaintiff.",
+          "text": "An individual may have a cause of action against another person or organisation who has invaded their privacy by doing one or more of the following: intruding upon the individual's seclusion or misusing information that relates to the plaintiff",
           "obligation_type": "Must"
         },
         {
-          "text": "A plaintiff will also be required to demonstrate that the public interest in protecting their privacy outweighs any countervailing public interest.",
+          "text": "The plaintiff must have had a reasonable expectation of privacy in all circumstances",
           "obligation_type": "Must"
+        },
+        {
+          "text": "The plaintiff must demonstrate that the public interest in protecting their privacy outweighs any countervailing public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent or lawful authority is a defence",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Exemptions apply to intelligence agencies, law enforcement bodies, and journalists in certain circumstances",
+          "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "An individual (plaintiff) may have a cause of action against another person or organisation (defendant) who has invaded their privacy by doing one or more of the following, in instances where the plaintiff would have had a reasonable expectation of privacy in all the circumstances: intruding upon the individual's seclusion – for example, by physically intruding into their private space; misusing information that relates to the plaintiff."
+      "source_quote": "An individual (plaintiff) may have a cause of action against another person or organisation (defendant) who has invaded their privacy by doing one or more of the following, in instances where the plaintiff would have had a reasonable expectation of privacy in all the circumstances: • intruding upon the individual's seclusion – for example, by physically intruding into their private space; • misusing information that relates to the plaintiff."
     },
     {
       "section": "p3",
       "heading": "Timeframes",
-      "title": "Timeframes for statutory tort proceedings",
+      "title": "Timeframes for statutory tort claims",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section outlines the timeframes for initiating statutory tort proceedings for serious invasions of privacy. If the plaintiff is under 18 at the time of the alleged invasion, proceedings must commence before their 21st birthday. Otherwise, the timeframe is the earlier of one year after the plaintiff became aware of the invasion or three years after the invasion occurred.",
+      "summary": "This section specifies the timeframes within which legal proceedings for the statutory tort must be commenced. If the plaintiff is under 18 at the time of the alleged invasion, proceedings must begin before their 21st birthday. Otherwise, the timeframe is the earlier of one year after the plaintiff became aware of the invasion or three years after the invasion occurred. The section also notes that courts may grant remedies such as damages, injunctions, or orders requiring an apology.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -166,27 +178,31 @@
       ],
       "requirements": [
         {
-          "text": "If a plaintiff is under 18 years of age when the alleged invasion of privacy occurred, proceedings must commence before their 21st birthday.",
+          "text": "Proceedings must be commenced within 1 year after the plaintiff became aware of the invasion of privacy or 3 years after the invasion occurred, whichever is earlier",
           "obligation_type": "Must"
         },
         {
-          "text": "In other circumstances, the timeframe is the earlier of: 1 year after the day on which the plaintiff became aware of the invasion of privacy; and 3 years after the invasion of privacy occurred.",
+          "text": "If the plaintiff is under 18 at the time of the alleged invasion, proceedings must be commenced before their 21st birthday",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Courts may grant remedies including damages, injunctions, or orders requiring an apology",
+          "obligation_type": "May"
         }
       ],
-      "source_quote": "Proceedings under the statutory tort must be commenced within certain timeframes. If a plaintiff is under 18 years of age when the alleged invasion of privacy occurred, proceedings must commence before their 21st birthday. In other circumstances, the timeframe is the earlier of: 1 year after the day on which the plaintiff became aware of the invasion of privacy; and 3 years after the invasion of privacy occurred."
+      "source_quote": "Proceedings under the statutory tort must be commenced within certain timeframes. If a plaintiff is under 18 years of age when the alleged invasion of privacy occurred, proceedings must commence before their 21st birthday. In other circumstances, the timeframe is the earlier of: • 1 year after the day on which the plaintiff became aware of the invasion of privacy; and • 3 years after the invasion of privacy occurred."
     },
     {
       "section": "p4",
       "heading": "Site map",
-      "title": "Site map and navigation",
+      "title": "Site map for statutory tort information",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 4,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section provides a site map for the OAIC website, including links to copyright, terms and conditions, privacy policy, accessibility, and contact information. It does not contain substantive legal content relevant to data transfers or privacy torts.",
+      "summary": "This section provides a site map for the statutory tort for serious invasions of privacy, including links to copyright, terms and conditions, privacy policy, accessibility, and contact information. It does not contain substantive legal requirements or obligations related to data transfers or privacy practices.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -225,8 +241,8 @@
       ],
       "requirements": [
         {
-          "text": "Site map",
-          "obligation_type": "[]"
+          "text": "Site map includes links to copyright, terms and conditions, privacy policy, accessibility, and contact information",
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "Site map"
@@ -234,14 +250,14 @@
     {
       "section": "p5",
       "heading": "Contact us",
-      "title": "Contact information and acknowledgements",
+      "title": "Contact information for statutory tort support",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section provides contact details for the OAIC, including a phone number and operating hours, and includes an acknowledgement of Country statement recognizing Traditional Custodians of Australia. It does not contain substantive legal content relevant to data transfers or privacy torts.",
+      "summary": "This section provides contact details for the Office of the Australian Information Commissioner (OAIC), including a phone number and operating hours. It also includes an acknowledgment of country statement and copyright information, but does not contain substantive legal requirements for data transfers or privacy practices.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -280,11 +296,15 @@
       ],
       "requirements": [
         {
-          "text": "Contact us",
-          "obligation_type": "[]"
+          "text": "Contact number: 1300 363 992",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operating hours: Monday to Thursday 10 am to 4 pm (AEST/AEDT)",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "Contact us"
+      "source_quote": "Contact us 1300 363 992 Monday to Thursday 10 am to 4 pm (AEST/AEDT)"
     }
   ]
 }

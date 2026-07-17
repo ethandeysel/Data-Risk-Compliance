@@ -1,0 +1,1744 @@
+{
+  "country": "India",
+  "document": "RBI Master Direction on Outsourcing of IT Services (MDS on IT Outsourcing, 2023) (India - Row 16)",
+  "generated": "2026-07-16T15:49:26",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "In order to ensure effective management of attendant risks, the Statement on",
+      "title": "Cloud data lifecycle coverage",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Cloud Services",
+      "summary": "REs must ensure their IT outsourcing policy covers the entire lifecycle of data from generation to permanent deletion, with procedures consistent with business needs and legal/regulatory requirements.",
+      "dtia_summary": "Cloud data lifecycle coverage ensures REs maintain end-to-end data management from creation to destruction, aligning with regulatory requirements.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "IT outsourcing policy must cover entire data lifecycle from generation to permanent deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Procedures must be consistent with business needs and legal/regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing of IT Services policy addresses the entire lifecycle of data, i.e., covering the entire span of time from generation of the data, its entry into the cloud, till the data is permanently erased/ deleted."
+    },
+    {
+      "section": "3",
+      "heading": "The underlying principle of these Directions is to ensure that outsourcing",
+      "title": "Cloud service specific risk considerations",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Cloud Services",
+      "summary": "REs must consider cloud service-specific factors such as multi-tenancy and multi-location data storage while establishing risk management frameworks, with cloud security being a shared responsibility between RE and Cloud Service Provider.",
+      "dtia_summary": "Cloud service-specific risks require REs to account for multi-tenancy and multi-location data storage while implementing shared security responsibilities with CSPs.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must consider cloud service-specific factors such as multi-tenancy and multi-location data storage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must establish appropriate risk management framework for cloud services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud security is a shared responsibility between RE and Cloud Service Provider",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "In adoption of cloud services, REs shall take into account the cloud service specific factors, viz., multi-tenancy, multi-location storing/ processing of data, etc., and attendant risks, while establishing appropriate risk management framework."
+    },
+    {
+      "section": "4",
+      "heading": "With a view to provide REs adequate time to comply with the requirements, the",
+      "title": "Cloud governance policy requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Cloud Services",
+      "summary": "REs must adopt and demonstrate a well-established cloud adoption policy that identifies movable activities, protects stakeholder interests, ensures compliance with privacy, security, data sovereignty and storage requirements, and provides for risk management of CSPs.",
+      "dtia_summary": "Cloud governance policies require REs to define clear adoption frameworks that address data sovereignty, security and compliance while managing CSP-related risks.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must adopt and demonstrate well-established documented cloud adoption policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must identify activities that can be moved to cloud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must enable protection of stakeholder interests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must ensure compliance with regulatory requirements including privacy, security, data sovereignty and storage",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall adopt and demonstrate a well-established and documented cloud adoption policy. Such a policy should, inter alia, identify the activities that can be moved to the cloud, enable and support protection of various stakeholder interests, ensure compliance with regulatory requirements, including those on privacy, security, data sovereignty, recoverability and data storage requirements, aligned with data classification."
+    },
+    {
+      "section": "22",
+      "heading": "Exit Strategy ................................................................................................ 19",
+      "title": "Exit strategy for IT outsourcing",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The RE must include a clear exit strategy in its IT outsourcing policy that ensures business continuity during and after exit, covering different scenarios of termination with minimum execution periods. The agreement must include clauses for safe data and hardware removal/destruction, prohibiting the service provider from altering data during transition unless instructed by the regulator.",
+      "dtia_summary": "IT outsourcing exit strategies require REs to define clear transition protocols for data and hardware destruction while preventing service provider data alterations during transition periods.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "IT outsourcing policy must contain clear exit strategy ensuring business continuity during and after exit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit strategy must include plans for different exit scenarios with stipulated minimum execution periods",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreement must have clauses for safe removal/destruction of data, hardware and records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service provider must be prohibited from erasing, purging, revoking, altering or changing data during transition unless specifically advised by regulator",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Outsourcing of IT Services policy shall contain a clear exit strategy with regard to outsourced IT activities/ IT enabled services, while ensuring business continuity during and after exit."
+    },
+    {
+      "section": "1",
+      "heading": "Short title and Commencement",
+      "title": "Cloud adoption business analysis",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Cloud Services",
+      "summary": "REs must analyze business strategy and goals against current IT applications footprint and associated costs before adopting cloud solutions, considering the range from non-business critical workloads to critical business applications such as SaaS adoption.",
+      "dtia_summary": "Cloud adoption requires REs to conduct business technology risk assessments to determine appropriate cloud migration scope based on criticality of workloads.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must analyze business strategy and goals against current IT applications footprint and associated costs",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "While considering adoption of cloud solution, it is imperative to analyse the business strategy and goals adopted to the current IT applications footprint and associated costs."
+    },
+    {
+      "section": "2",
+      "heading": "Applicability",
+      "title": "Cloud data lifecycle coverage",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Cloud Services",
+      "summary": "REs must ensure their IT outsourcing policy covers the entire lifecycle of data from generation to permanent deletion, with procedures consistent with business needs and legal/regulatory requirements.",
+      "dtia_summary": "Cloud data lifecycle coverage ensures REs maintain end-to-end data management from creation to destruction, aligning with regulatory requirements.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "IT outsourcing policy must cover entire data lifecycle from generation to permanent deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Procedures must be consistent with business needs and legal/regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing of IT Services policy addresses the entire lifecycle of data, i.e., covering the entire span of time from generation of the data, its entry into the cloud, till the data is permanently erased/ deleted."
+    },
+    {
+      "section": "3",
+      "heading": "Definitions",
+      "title": "Cloud service specific risk considerations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 9,
+      "primary_category": "Cloud Services",
+      "summary": "REs must consider cloud service-specific factors such as multi-tenancy and multi-location data storage while establishing risk management frameworks, with cloud security being a shared responsibility between RE and Cloud Service Provider.",
+      "dtia_summary": "Cloud service-specific risks require REs to account for multi-tenancy and multi-location data storage while implementing shared security responsibilities with CSPs.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must consider cloud service-specific factors such as multi-tenancy and multi-location data storage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must establish appropriate risk management framework for cloud services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud security is a shared responsibility between RE and Cloud Service Provider",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "In adoption of cloud services, REs shall take into account the cloud service specific factors, viz., multi-tenancy, multi-location storing/ processing of data, etc., and attendant risks, while establishing appropriate risk management framework."
+    },
+    {
+      "section": "4",
+      "heading": "Regulatory and Supervisory requirements",
+      "title": "Cloud governance policy requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Cloud Services",
+      "summary": "REs must adopt and demonstrate a well-established cloud adoption policy that identifies movable activities, protects stakeholder interests, ensures compliance with privacy, security, data sovereignty and storage requirements, and provides for risk management of CSPs.",
+      "dtia_summary": "Cloud governance policies require REs to define clear adoption frameworks that address data sovereignty, security and compliance while managing CSP-related risks.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must adopt and demonstrate well-established documented cloud adoption policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must identify activities that can be moved to cloud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must enable protection of stakeholder interests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must ensure compliance with regulatory requirements including privacy, security, data sovereignty and storage",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall adopt and demonstrate a well-established and documented cloud adoption policy. Such a policy should, inter alia, identify the activities that can be moved to the cloud, enable and support protection of various stakeholder interests, ensure compliance with regulatory requirements, including those on privacy, security, data sovereignty, recoverability and data storage requirements, aligned with data classification."
+    },
+    {
+      "section": "5",
+      "heading": "Comprehensive assessment of need for outsourcing and attendant risks",
+      "title": "Selection criteria for cloud service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must conduct a comprehensive risk assessment before selecting cloud service providers (CSPs). REs are required to enter contracts only with CSPs operating in jurisdictions that guarantee enforceable agreements and rights related to data storage, protection, and confidentiality. This ensures legal safeguards for REs when outsourcing cloud infrastructure.",
+      "dtia_summary": "Requires CSP selection based on jurisdictional enforceability of agreements and data protection rights, critical for cross-border data transfers involving cloud services.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure that the selection of the CSP is based on a comprehensive risk assessment of the CSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall enter into a contract only with CSPs subject to jurisdictions that uphold enforceability of agreements and the rights available thereunder to REs, including those relating to aspects such as data storage, data protection and confidentiality",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that the selection of the CSP is based on a comprehensive risk assessment of the CSP. REs shall enter into a contract only with CSPs subject to jurisdictions that uphold enforceability of agreements and the rights available thereunder to REs, including those relating to aspects such as data storage, data protection and confidentiality."
+    },
+    {
+      "section": "6",
+      "heading": "Compliance with all applicable statutory and regulatory requirements",
+      "title": "Cloud security and management requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must implement cloud architectures adhering to globally recognized standards, with secure container-based data management where encryption keys and Hardware Security Modules are under RE control. REs must enforce role-based access with multi-factor authentication, segregation of duties, and strict access controls. Security controls must match or exceed on-premise standards, including network security, configuration management, and change authorization. Continuous monitoring and vulnerability management are mandatory to ensure robust incident response and cyber resilience.",
+      "dtia_summary": "Mandates technical and operational safeguards for cloud environments, directly impacting data security and compliance during cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security",
+        "Data Storage",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure that the service and technology architecture supporting cloud-based applications is built in adherence to globally recognised architecture principles and standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall prefer a technology architecture that provides for secure container-based data management, where encryption keys and Hardware Security Modules are under the control of the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The architecture should provide for a standard set of tools and processes to manage containers, images and releases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Multi-tenancy environments should be protected against data integrity and confidentiality risks, and against co-mingling of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The architecture should be resilient and enable smooth recovery in case of failure of any one or combination of components across the cloud architecture with minimal impact on data/information security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IAM shall be agreed upon with the CSP and ensured for providing role-based access to the cloud hosted applications, in respect of user-access and privileged-access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stringent access controls, as applicable for an on-premise application, may be established for identity and access management to cloud-based applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Segregation of duties and role conflict matrix should be implemented for all kinds of user-access and privileged-access roles in the cloud-hosted application irrespective of the cloud service model",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Access provisioning should be governed by principles of 'need to know' and 'least privileges'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Multi-factor authentication should be implemented for access to cloud applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that the implementation of security controls in the cloud-based application achieves similar or higher degree of control objectives than those achieved in/on-premise application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secure connection through appropriate deployment of network security resources and their configurations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate and secure configurations, monitoring of the cloud assets utilised by the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Necessary procedures to authorise changes to cloud applications and related resources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall accurately define minimum monitoring requirements in the cloud environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs should ensure to assess the information/cyber security capability of the cloud service provider, such that the CSP maintains an information security policy framework commensurate with its exposures to vulnerabilities and threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CSP is able to maintain its information/cyber security capability with respect to changes in vulnerabilities and threats, including those resulting from changes to information assets or its business environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Nature and frequency of testing of controls by the CSP in respect of the outsourced services is commensurate with the materiality of the services being outsourced by the RE and the threat environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CSP has mechanisms in place to assess the sub-contractors with regards to confidentiality, integrity and availability of the data being shared with the sub-contractors, where applicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure appropriate integration of logs, events from the CSP into the RE's SOC, where applicable and/or retention of relevant logs in cloud for incident reporting and handling of incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The RE's own efforts in securing its application shall be complemented by the CSP's cyber resilience controls. The CSP/RE shall ensure continuous and regular updates of security-related software including upgrades, fixes, patches and service packs for protecting the application from advanced threats/malware",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that CSPs have a well-governed and structured approach to manage threats and vulnerabilities supported by requisite industry-specific threat intelligence capabilities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that the service and technology architecture supporting cloud-based applications is built in adherence to globally recognised architecture principles and standards. REs shall prefer a technology architecture that provides for secure container-based data management, where encryption keys and Hardware Security Modules are under the control of the RE."
+    },
+    {
+      "section": "7",
+      "heading": "Grievance Redressal Mechanism",
+      "title": "Disaster recovery and cyber resilience requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must maintain business continuity frameworks that allow critical operations to continue with minimal disruption during cloud service failures or CSP outages. REs must ensure CSPs demonstrate cyber resilience capabilities through robust incident response and recovery practices, including regular Disaster Recovery (DR) drills at various levels of cloud services.",
+      "dtia_summary": "Requires business continuity and cyber resilience measures for cloud services, essential for maintaining data integrity during disruptions and cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The RE's business continuity framework shall ensure that, in the event of a disaster affecting its cloud services or failure of the CSP, the RE can continue its critical operations with minimal disruption of services while ensuring integrity and security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that the CSP puts in place demonstrative capabilities for preparedness and readiness for cyber resilience as regards cloud services in use by them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This should be systematically ensured, inter alia, through robust incident response and recovery practices including conduct of Disaster Recovery (DR) drills at various levels of cloud services including necessary stakeholders",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The RE's business continuity framework shall ensure that, in the event of a disaster affecting its cloud services or failure of the CSP, the RE can continue its critical operations with minimal disruption of services while ensuring integrity and security."
+    },
+    {
+      "section": "8",
+      "heading": "Inventory of Outsourced Services",
+      "title": "Exit strategy considerations for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must evaluate exit strategies that include agreed processes for returning service collaterals and data, data completeness and portability, secure data purging, smooth service transitions, and clear liability definitions. REs must ensure contractual exit plans specify how cloud-hosted services and data will be moved out with minimal business impact while maintaining data integrity and security.",
+      "dtia_summary": "Requires detailed exit strategies for cloud services to ensure data portability and security during transitions, critical for cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, agreed processes and turnaround times for returning the RE's service collaterals and data held by the CSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, data completeness and portability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, secure purge of RE's information from the CSP's environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, smooth transition of services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, unambiguous definition of liabilities, damages, penalties and indemnities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "monitoring the ongoing design of applications and service delivery technology stack that the exit plans should align with",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "contractually agreed exit / termination plans should specify how the cloud-hosted service(s) and data will be moved out from the cloud with minimal impact on continuity of the RE's business, while maintaining integrity and security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All records of transactions, customer and operational information, configuration data should be promptly taken over in a systematic manner from the CSP and purged at the CSP-end and independent assurance sought before signing off from the CSP",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, agreed processes and turnaround times for returning the RE's service collaterals and data held by the CSP"
+    },
+    {
+      "section": "9",
+      "heading": "IT Outsourcing Policy",
+      "title": "Audit and assurance requirements for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must conduct audits, periodic reviews, or third-party certifications covering roles and responsibilities, access controls, network configurations, monitoring mechanisms, data encryption, log reviews, change management, incident response, and resilience testing to ensure cloud governance compliance.",
+      "dtia_summary": "Requires regular audits and certifications for cloud services to verify security and compliance, critical for data transfer impact assessments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The audit/ periodic review/ third-party certifications should cover, as per applicability and cloud usage, inter alia, aspects such as roles and responsibilities of both RE and CSP in cloud governance, access and network controls, configurations, monitoring mechanism, data encryption, log review, change management, incident response, and resilience preparedness and testing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The audit/ periodic review/ third-party certifications should cover, as per applicability and cloud usage, inter alia, aspects such as roles and responsibilities of both RE and CSP in cloud governance, access and network controls, configurations, monitoring mechanism, data encryption, log review, change management, incident response, and resilience preparedness and testing"
+    },
+    {
+      "section": "10",
+      "heading": "Role of the Board",
+      "title": "Board Responsibilities for IT Outsourcing Risk Management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Governance",
+      "summary": "The Board must establish a framework for approving IT outsourcing activities based on risk and materiality, approve policies for evaluating risks and materiality of existing and prospective outsourcing arrangements, and create an administrative framework for Senior Management to implement these requirements.",
+      "dtia_summary": "Directly impacts DTIA by requiring Board-level risk assessment and approval of IT outsourcing activities, ensuring alignment with financial institution risk management frameworks.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Board shall be responsible for putting in place a framework for approval of IT outsourcing activities depending on risks and materiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Board shall approve policies to evaluate the risks and materiality of all existing and prospective IT outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Board shall set up suitable administrative framework of Senior Management for the purpose of these Directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Board of the RE shall be responsible, inter alia, for: a) putting in place a framework for approval of IT outsourcing activities depending on risks and materiality; b) approving policies to evaluate the risks and materiality of all existing and prospective IT outsourcing arrangements; and c) setting up suitable administrative framework of Senior Management for the purpose of these Directions."
+    },
+    {
+      "section": "11",
+      "heading": "Role of the Senior Management",
+      "title": "Senior Management Responsibilities for IT Outsourcing Oversight",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Governance",
+      "summary": "Senior Management must formulate IT outsourcing policies aligned with enterprise-wide risk management, evaluate risks and materiality of existing and prospective arrangements, conduct periodic reviews of outsourcing performance, identify and mitigate IT outsourcing risks, ensure business continuity plans, oversee data confidentiality, manage customer grievances, conduct independent audits, and build necessary skillsets for outsourcing oversight.",
+      "dtia_summary": "Critical for DTIA as it mandates detailed oversight mechanisms for third-party data handling, including risk identification, mitigation, and business continuity planning for cross-border data transfers.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Senior Management shall formulate IT outsourcing policies and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall evaluate risks and materiality of existing and prospective IT outsourcing arrangements based on enterprise-wide risk management approved by the Board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall conduct prior evaluation of prospective IT outsourcing arrangements and periodic evaluation of existing arrangements covering performance review, criticality and associated risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall identify IT outsourcing risks as they arise, monitor, mitigate, manage and report to the Board/Board Committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall ensure business continuity plans based on realistic disruptive scenarios including third-party provider exit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall ensure effective oversight over third party for data confidentiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall ensure timely redressal of customer grievances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall ensure periodic independent review and audit for compliance with legislation, regulations, Board-approved policy and performance standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior Management shall create essential capacity with required skillsets for proper oversight of outsourced activities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Senior Management of the RE shall, inter alia, be responsible for: a) formulating IT outsourcing policies and procedures, evaluating the risks and materiality of all existing and prospective IT outsourcing arrangements based on the framework commensurate with the complexity, nature and scope, in line with the enterprise-wide risk management of the organisation approved by the Board and its implementation; b) prior evaluation of prospective IT outsourcing arrangements and periodic evaluation of the existing outsourcing arrangements covering the performance review, criticality and associated risks of all such arrangements based on the policy approved by the Board; c) identifying IT outsourcing risks as they arise, monitoring, mitigating, managing and reporting of such risks to the Board/ Board Committee in a timely manner; d) ensuring that suitable business continuity plans based on realistic and probable disruptive scenarios, including exit of any third-party service provider, are in place and tested periodically; e) ensuring (i) effective oversight over third party for data confidentiality and (ii) appropriate redressal of customer grievances in a timely manner; f) ensuring an independent review and audit on a periodic basis for compliance with the legislations, regulations, Board-approved policy and performance standards and reporting the same to Board/ Board Committee; and g) creating essential capacity with required skillsets within the organisation for proper oversight of outsourced activities."
+    },
+    {
+      "section": "12",
+      "heading": "Role of IT Function",
+      "title": "IT Function Responsibilities for Outsourcing Oversight",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "The IT Function must assist Senior Management in identifying, measuring, monitoring, mitigating and managing IT outsourcing risks, maintain a central database of all outsourcing arrangements for Board and Senior Management review, monitor outsourced activities to ensure service provider performance, coordinate periodic due diligence, and establish documentation for contractual agreements including service level management and risk classification.",
+      "dtia_summary": "Directly relevant to DTIA as it specifies technical oversight mechanisms for third-party data handling, including risk monitoring, service performance tracking, and contractual documentation requirements.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "IT Function shall assist Senior Management in identifying, measuring, monitoring, mitigating and managing IT outsourcing risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT Function shall maintain a central database of all IT outsourcing arrangements accessible for review by Board, Senior Management, Auditors and Supervisors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT Function shall monitor and supervise outsourced activities to ensure service providers meet performance standards and provide uninterrupted services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT Function shall report to Senior Management on outsourced activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT Function shall coordinate periodic due diligence and highlight concerns with Senior Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT Function shall put in place necessary documentation for contractual agreements including service level management, monitoring of vendor operations, key risk indicators and vendor classification based on risk",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The responsibilities of the IT Function of the RE shall, inter alia, include: a) assisting the Senior Management in identifying, measuring, monitoring, mitigating and managing the level of IT outsourcing risk in the organisation; b) ensuring that a central database of all IT outsourcing arrangements is maintained and is accessible for review by Board, Senior Management, Auditors and Supervisors; c) effectively monitor and supervise the outsourced activity to ensure that the service providers meet the laid down performance standards and provide uninterrupted services, report to the Senior Management; co-ordinate periodic due diligence and highlight concerns, if any; and d) putting in place necessary documentation required for contractual agreements including service level management, monitoring of vendor operations, key risk indicators and classifying the vendors as per the determined risk."
+    },
+    {
+      "section": "13",
+      "heading": "Due Diligence on Service Providers",
+      "title": "Due Diligence Requirements for Service Providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "Financial institutions must conduct risk-based due diligence on service providers to assess their capability to comply with outsourcing agreements, consider qualitative, quantitative, financial, operational, legal and reputational factors, obtain independent reviews and market feedback, and evaluate concentration risks from single or few service providers.",
+      "dtia_summary": "Critical for DTIA as it mandates comprehensive due diligence on third-party service providers, including risk assessment and concentration risk evaluation for cross-border data transfers.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Appropriate due diligence shall be performed to assess service provider capability to comply with outsourcing agreement obligations on an ongoing basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A risk-based approach shall be adopted in conducting due diligence activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence shall consider qualitative, quantitative, financial, operational, legal and reputational factors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall obtain independent reviews and market feedback on service providers to supplement assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall consider risks arising from concentration of outsourcing arrangements with single or few service providers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "a) In considering or renewing an Outsourcing of IT Services arrangement, appropriate due diligence shall be performed to assess the capability of the service provider to comply with obligations in the outsourcing agreement on an ongoing basis. b) A risk-based approach shall be adopted in conducting such due diligence activities. c) Due diligence shall take into consideration qualitative, quantitative, financial, operational, legal and reputational factors. Where possible, the RE shall obtain independent reviews and market feedback on the service provider to supplement its own assessment. d) REs shall also consider, while evaluating the capability of the service provider, risks arising from concentration of outsourcing arrangements with a single or a few service provider/s."
+    },
+    {
+      "section": "14",
+      "heading": "Aspects to be considered",
+      "title": "Due Diligence Evaluation Criteria for Service Providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "primary_category": "Governance",
+      "summary": "Due diligence must evaluate service providers' past experience, financial soundness, business reputation, conflict of interest, external factors affecting data security, technology infrastructure stability, data segregation capabilities, due diligence on employees and subcontractors, regulatory compliance, information security risk assessments, data protection controls, and ability to enforce agreements.",
+      "dtia_summary": "Directly impacts DTIA by specifying detailed evaluation criteria for third-party service providers, including data segregation, security controls, and regulatory compliance requirements for cross-border data transfers.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Evaluate service provider's past experience and demonstrated competence to implement and support proposed IT activity over contract period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess service provider's financial soundness and ability to service commitments under adverse conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate service provider's business reputation, culture, compliance, complaints, and outstanding or potential litigations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess service provider's conflict of interest, if any",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate external factors like political, economic, social and legal environment affecting data security and service performance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess service provider's technology, infrastructure stability, security, internal control, audit coverage, reporting and monitoring procedures, data backup arrangements, business continuity management and disaster recovery plans",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate service provider's capability to identify and segregate RE's data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess service provider's quality of due diligence on employees and subcontractors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate service provider's capability to comply with regulatory and legal requirements of outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct information/cyber security risk assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure appropriate controls, assurance requirements and contractual arrangements for data protection and RE's access to data processed by service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate service provider's ability to effectively service all customers while maintaining confidentiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate service provider's ability to enforce agreements and rights related to data storage, data protection and confidentiality",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Due diligence shall involve evaluation of all available information, as applicable, about the service provider, including but not limited to: a) past experience and demonstrated competence to implement and support the proposed IT activity over the contract period; b) financial soundness and ability to service commitments even under adverse conditions; c) business reputation and culture, compliance, complaints and outstanding or potential litigations; d) conflict of interest, if any; e) external factors like political, economic, social and legal environment of the jurisdiction in which the service provider operates and other events that may impact data security and service performance; f) details of the technology, infrastructure stability, security and internal control, audit coverage, reporting and monitoring procedures, data backup arrangements, business continuity management and disaster recovery plan; g) capability to identify and segregate REs data; h) quality of due diligence exercised by the service provider with respect to its employees and sub-contractors; i) capability to comply with the regulatory and legal requirements of the Outsourcing of IT Services arrangement; j) information/ cyber security risk assessment; k) ensuring that appropriate controls, assurance requirements and possible contractual arrangements are in place to ensure data protection and RE's access to the data which is processed, managed or stored by the service provider; l) ability to effectively service all the customers while maintaining confidentiality, especially where a service provider has exposure to multiple entities; and m) ability to enforce agreements and the rights available thereunder including those relating to aspects such as data storage, data protection and confidentiality."
+    },
+    {
+      "section": "15",
+      "heading": "Legally binding agreement",
+      "title": "Legally binding agreement requirements for IT service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "Reserve Entities (REs) must ensure legally binding agreements define their rights, obligations, and those of service providers. The agreement must address task criticality, associated risks, and mitigation strategies. Legal counsel must vet terms for enforceability and flexibility to retain control over outsourced activities and meet regulatory obligations. The agreement must clarify the legal relationship between parties.",
+      "dtia_summary": "This section mandates specific contractual safeguards for IT outsourcing, including risk management, regulatory compliance, and control mechanisms that directly impact cross-border data transfers by requiring data residency in India and clear contractual terms for data handling.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must ensure legally binding agreements define rights and obligations of REs and service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements should consider criticality of outsourced tasks, associated risks, and mitigation strategies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contract terms must be vetted by RE's legal counsel for legal effect and enforceability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must be flexible to allow REs to retain control over outsourced activities and intervene to meet legal obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must clarify the legal relationship between parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that their rights and obligations and those of each of their service providers are clearly defined and set out in a legally binding written agreement."
+    },
+    {
+      "section": "16",
+      "heading": "Aspects to be considered in agreement",
+      "title": "Mandatory clauses for IT outsourcing agreements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Agreements must include specific clauses such as details of outsourced activities with performance standards, access to relevant data, regular monitoring of service providers, reporting of material adverse events, compliance with IT Act 2000, service-level agreements, data storage in India, data sharing disclosures, confidentiality controls, data sharing permissions, resolution processes, contingency planning, audit rights, third-party oversight, and contractual liability for sub-contractors.",
+      "dtia_summary": "This section specifies critical clauses for IT outsourcing agreements that ensure data residency in India, robust security controls, and clear contractual terms for data handling, directly impacting cross-border data transfers by mandating Indian data storage and strict access controls.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing",
+        "Data Residency",
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Agreements must specify details of outsourced activities with performance standards including sub-contractor standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure effective access to all data, books, records, information, logs, alerts, and business premises relevant to outsourced activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must conduct regular monitoring and assessment of service providers for continuous risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must define material adverse events and reporting requirements to enable prompt risk mitigation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must comply with IT Act 2000 and other legal requirements to protect customer data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must include service-level agreements formalizing performance criteria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data storage must be in India as per regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must require service providers to disclose data captured, processed, and stored",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must maintain confidentiality controls and be liable for security breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must specify data sharing permissions with RE's customers and other parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must include resolution processes, events of default, indemnities, remedies, and recourse",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must have contingency plans for business continuity and testing requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must have right to audit service providers (including sub-contractors) and obtain audit reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must have right to seek information about third parties in the supply chain",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must allow RBI or authorized persons to access RE's IT infrastructure and data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must be contractually liable for sub-contractors' performance and risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must comply with RBI directions on outsourced activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must require prior approval for service providers to use sub-contractors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must retain termination rights including ability to transfer outsourcing to another provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must cooperate with regulators in case of RE insolvency/resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must have skilled resources as 'essential personnel' for critical functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must have back-to-back arrangements with OEMs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must sign non-disclosure agreements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The agreement at a minimum should include (as applicable to the scope of Outsourcing of IT Services) the following aspects: details of the activity being outsourced, including appropriate service and performance standards including for the sub-contractors, if any;"
+    },
+    {
+      "section": "17",
+      "heading": "Risk Management Framework",
+      "title": "Risk management framework for IT outsourcing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "REs must establish a comprehensive risk management framework for IT outsourcing that covers identification, measurement, mitigation, management, and reporting of risks. Risk assessments must be documented with necessary approvals from Board, Senior Management, and IT Function. REs are responsible for data confidentiality and integrity, access to data on need-to-know basis with security controls, and oversight of multiple service providers. REs must report cyber incidents to RBI within 6 hours of detection by the service provider.",
+      "dtia_summary": "This section requires REs to implement robust risk management practices for IT outsourcing, including incident reporting within 6 hours to RBI, which directly impacts cross-border data transfers by mandating timely breach notifications and data security controls.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must put in place a risk management framework for IT outsourcing covering identification, measurement, mitigation, management, and reporting of risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk assessments must be documented with necessary approvals from Board, Senior Management, and IT Function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure confidentiality and integrity of customer data available to service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Access to data at RE's location must be on need-to-know basis with appropriate security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure security and confidentiality of customer information by service provider staff on need-to-know basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must monitor control environments of all service providers accessing RE's data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must report cyber incidents to RE without undue delay, and RE must report to RBI within 6 hours of detection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must review and monitor service provider security practices to disclose breaches and notify RBI immediately",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must assess concentration risk from multiple outsourcings to the same service provider",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall put in place a Risk Management framework for Outsourcing of IT Services that shall comprehensively deal with the processes and responsibilities for identification, measurement, mitigation, management, and reporting of risks associated with Outsourcing of IT Services arrangements."
+    },
+    {
+      "section": "18",
+      "heading": "Business Continuity Plan and Disaster Recovery Plan",
+      "title": "Business continuity and disaster recovery for IT outsourcing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "REs must require service providers to develop robust Business Continuity Plans (BCPs) and Disaster Recovery Plans (DRPs) commensurate with outsourced activities. REs must consider alternative service providers or in-house solutions during emergencies. REs must retain control over IT outsourcing arrangements to mitigate risks from termination or insolvency of service providers. REs must ensure service providers can isolate RE's information to facilitate removal or destruction of data in adverse conditions.",
+      "dtia_summary": "This section mandates business continuity and disaster recovery plans for IT outsourcing, ensuring data can be isolated and removed from service providers during emergencies, which is critical for cross-border data transfers to prevent data retention in foreign jurisdictions.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must require service providers to develop and maintain robust BCP and DRP frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must consider alternative service providers or in-house solutions during emergencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must retain control over IT outsourcing arrangements to mitigate risks from termination or insolvency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure service providers can isolate RE's information to facilitate removal or destruction of data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall require their service providers to develop and establish a robust framework for documenting, maintaining and testing Business Continuity Plan (BCP) and Disaster Recovery Plan (DRP) commensurate with the nature and scope of the outsourced activity as per extant instructions issued by RBI from time to time on BCP/ DR requirements."
+    },
+    {
+      "section": "19",
+      "heading": "Monitoring and Control of Outsourced Activities",
+      "title": "Monitoring and control of outsourced IT activities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "REs must establish a management structure to monitor and control outsourced IT activities, including performance, uptime, service availability, SLA adherence, and incident response. REs must conduct regular audits of service providers (including sub-contractors) with the option to pool audits for multiple REs. Audits must assess service provider performance, risk management practices, and compliance with laws. REs must periodically review financial and operational conditions of service providers to assess their ability to meet obligations.",
+      "dtia_summary": "This section requires REs to implement continuous monitoring and auditing of outsourced IT activities, ensuring service providers maintain compliance with data security and regulatory requirements, which directly impacts cross-border data transfers through strict oversight mechanisms.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must have a management structure to monitor and control outsourced IT activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must conduct regular audits of service providers (including sub-contractors)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs may pool audit resources for common service providers to reduce costs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Audits must assess service provider performance, risk management practices, and compliance with laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must review financial and operational conditions of service providers periodically",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall have in place a management structure to monitor and control its Outsourced IT activities. This shall include (as applicable to the scope of Outsourcing of IT Services) but not limited to monitoring the performance, uptime of the systems and resources, service availability, adherence to SLA requirements, incident response mechanism, etc."
+    },
+    {
+      "section": "20",
+      "heading": "Outsourcing within a Group / Conglomerate",
+      "title": "Group outsourcing within business conglomerates",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "REs may outsource IT activities within their business group or conglomerate if backed by Board-approved policy and appropriate service level agreements. Selection of group entities must be based on objective criteria similar to third-party selection, with conflicts of interest addressed. REs must maintain arm's-length relationships with group entities and apply identical risk management practices as for non-related parties.",
+      "dtia_summary": "This section allows for group-level outsourcing but requires strict risk management practices and arm's-length relationships, which can impact cross-border data transfers if group entities operate in different jurisdictions.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs may outsource IT activities within business group if backed by Board-approved policy and service level agreements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Selection of group entities must be based on objective criteria similar to third-party selection",
+          "obligation_type": ""
+        },
+        {
+          "text": "REs must address conflicts of interest in group outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must maintain arm's-length relationships with group entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management practices for group entities must be identical to non-related parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A RE may outsource any IT activity/ IT enabled service within its business group/ conglomerate, provided that such an arrangement is backed by the Board-approved policy and appropriate service level arrangements/ agreements with its group entities are in place."
+    },
+    {
+      "section": "21",
+      "heading": "Additional requirements for Cross-Border Outsourcing",
+      "title": "Cross-border outsourcing country risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The recipient entity (RE) must continuously monitor the political, social, economic and legal conditions of the foreign jurisdiction where the service provider is based, establish procedures to mitigate country risk including contingency and exit strategies, and ensure records remain accessible to the RE and RBI even during service provider liquidation. This applies to REs engaging cross-border IT service providers.",
+      "dtia_summary": "Cross-border outsourcing requires REs to manage country risk through continuous monitoring of foreign jurisdiction conditions and establishing contingency/exit strategies to ensure data accessibility during service provider liquidation.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must closely monitor government policies and political, social, economic and legal conditions of foreign jurisdiction continuously",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must establish sound procedures for mitigating country risk including contingency and exit strategies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must ensure availability of records to RE and RBI is not affected even during service provider liquidation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The engagement of a service provider based in a different jurisdiction exposes the RE to country risk. To manage such risk, the RE shall closely monitor government policies of the jurisdiction in which the service provider is based and the political, social, economic and legal conditions on a continuous basis, as well as establish sound procedures for mitigating the country risk."
+    },
+    {
+      "section": "22",
+      "heading": "Exit Strategy",
+      "title": "Exit strategy for IT outsourcing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The RE must include a clear exit strategy in its IT outsourcing policy that ensures business continuity during and after exit, covering different scenarios of termination with minimum execution periods. The agreement must include clauses for safe data and hardware removal/destruction, prohibiting the service provider from altering data during transition unless instructed by the regulator.",
+      "dtia_summary": "IT outsourcing exit strategies require REs to define clear transition protocols for data and hardware destruction while preventing service provider data alterations during transition periods.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "IT outsourcing policy must contain clear exit strategy ensuring business continuity during and after exit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit strategy must include plans for different exit scenarios with stipulated minimum execution periods",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreement must have clauses for safe removal/destruction of data, hardware and records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service provider must be prohibited from erasing, purging, revoking, altering or changing data during transition unless specifically advised by regulator",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Outsourcing of IT Services policy shall contain a clear exit strategy with regard to outsourced IT activities/ IT enabled services, while ensuring business continuity during and after exit."
+    },
+    {
+      "section": "1",
+      "heading": "While considering adoption of cloud solution, it is imperative to analyse the business",
+      "title": "Cloud adoption business analysis",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Cloud Services",
+      "summary": "REs must analyze business strategy and goals against current IT applications footprint and associated costs before adopting cloud solutions, considering the range from non-business critical workloads to critical business applications such as SaaS adoption.",
+      "dtia_summary": "Cloud adoption requires REs to conduct business technology risk assessments to determine appropriate cloud migration scope based on criticality of workloads.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must analyze business strategy and goals against current IT applications footprint and associated costs",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "While considering adoption of cloud solution, it is imperative to analyse the business strategy and goals adopted to the current IT applications footprint and associated costs."
+    },
+    {
+      "section": "2",
+      "heading": "In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing of IT",
+      "title": "Cloud data lifecycle coverage",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Cloud Services",
+      "summary": "REs must ensure their IT outsourcing policy covers the entire lifecycle of data from generation to permanent deletion, with procedures consistent with business needs and legal/regulatory requirements.",
+      "dtia_summary": "Cloud data lifecycle coverage ensures REs maintain end-to-end data management from creation to destruction, aligning with regulatory requirements.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "IT outsourcing policy must cover entire data lifecycle from generation to permanent deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Procedures must be consistent with business needs and legal/regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In engaging cloud services, REs shall ensure, inter alia, that the Outsourcing of IT Services policy addresses the entire lifecycle of data, i.e., covering the entire span of time from generation of the data, its entry into the cloud, till the data is permanently erased/ deleted."
+    },
+    {
+      "section": "3",
+      "heading": "In adoption of cloud services, REs shall take into account the cloud service specific",
+      "title": "Cloud service specific risk considerations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Cloud Services",
+      "summary": "REs must consider cloud service-specific factors such as multi-tenancy and multi-location data storage while establishing risk management frameworks, with cloud security being a shared responsibility between RE and Cloud Service Provider.",
+      "dtia_summary": "Cloud service-specific risks require REs to account for multi-tenancy and multi-location data storage while implementing shared security responsibilities with CSPs.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must consider cloud service-specific factors such as multi-tenancy and multi-location data storage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must establish appropriate risk management framework for cloud services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud security is a shared responsibility between RE and Cloud Service Provider",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "In adoption of cloud services, REs shall take into account the cloud service specific factors, viz., multi-tenancy, multi-location storing/ processing of data, etc., and attendant risks, while establishing appropriate risk management framework."
+    },
+    {
+      "section": "4",
+      "heading": "Cloud Governance: REs shall adopt and demonstrate a well-established and",
+      "title": "Cloud governance policy requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 25,
+      "primary_category": "Cloud Services",
+      "summary": "REs must adopt and demonstrate a well-established cloud adoption policy that identifies movable activities, protects stakeholder interests, ensures compliance with privacy, security, data sovereignty and storage requirements, and provides for risk management of CSPs.",
+      "dtia_summary": "Cloud governance policies require REs to define clear adoption frameworks that address data sovereignty, security and compliance while managing CSP-related risks.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE must adopt and demonstrate well-established documented cloud adoption policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must identify activities that can be moved to cloud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must enable protection of stakeholder interests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must ensure compliance with regulatory requirements including privacy, security, data sovereignty and storage",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall adopt and demonstrate a well-established and documented cloud adoption policy. Such a policy should, inter alia, identify the activities that can be moved to the cloud, enable and support protection of various stakeholder interests, ensure compliance with regulatory requirements, including those on privacy, security, data sovereignty, recoverability and data storage requirements, aligned with data classification."
+    },
+    {
+      "section": "5",
+      "heading": "Cloud Service Providers (CSP)",
+      "title": "Selection criteria for cloud service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 25,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must conduct a comprehensive risk assessment before selecting cloud service providers (CSPs). REs are required to enter contracts only with CSPs operating in jurisdictions that guarantee enforceable agreements and rights related to data storage, protection, and confidentiality. This ensures legal safeguards for REs when outsourcing cloud infrastructure.",
+      "dtia_summary": "Requires CSP selection based on jurisdictional enforceability of agreements and data protection rights, critical for cross-border data transfers involving cloud services.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure that the selection of the CSP is based on a comprehensive risk assessment of the CSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall enter into a contract only with CSPs subject to jurisdictions that uphold enforceability of agreements and the rights available thereunder to REs, including those relating to aspects such as data storage, data protection and confidentiality",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that the selection of the CSP is based on a comprehensive risk assessment of the CSP. REs shall enter into a contract only with CSPs subject to jurisdictions that uphold enforceability of agreements and the rights available thereunder to REs, including those relating to aspects such as data storage, data protection and confidentiality."
+    },
+    {
+      "section": "6",
+      "heading": "Cloud Services Management and Security Considerations",
+      "title": "Cloud security and management requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must implement cloud architectures adhering to globally recognized standards, with secure container-based data management where encryption keys and Hardware Security Modules are under RE control. REs must enforce role-based access with multi-factor authentication, segregation of duties, and strict access controls. Security controls must match or exceed on-premise standards, including network security, configuration management, and change authorization. Continuous monitoring and vulnerability management are mandatory to ensure robust incident response and cyber resilience.",
+      "dtia_summary": "Mandates technical and operational safeguards for cloud environments, directly impacting data security and compliance during cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security",
+        "Data Storage",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure that the service and technology architecture supporting cloud-based applications is built in adherence to globally recognised architecture principles and standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall prefer a technology architecture that provides for secure container-based data management, where encryption keys and Hardware Security Modules are under the control of the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The architecture should provide for a standard set of tools and processes to manage containers, images and releases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Multi-tenancy environments should be protected against data integrity and confidentiality risks, and against co-mingling of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The architecture should be resilient and enable smooth recovery in case of failure of any one or combination of components across the cloud architecture with minimal impact on data/information security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IAM shall be agreed upon with the CSP and ensured for providing role-based access to the cloud hosted applications, in respect of user-access and privileged-access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stringent access controls, as applicable for an on-premise application, may be established for identity and access management to cloud-based applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Segregation of duties and role conflict matrix should be implemented for all kinds of user-access and privileged-access roles in the cloud-hosted application irrespective of the cloud service model",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Access provisioning should be governed by principles of 'need to know' and 'least privileges'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Multi-factor authentication should be implemented for access to cloud applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that the implementation of security controls in the cloud-based application achieves similar or higher degree of control objectives than those achieved in/on-premise application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secure connection through appropriate deployment of network security resources and their configurations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate and secure configurations, monitoring of the cloud assets utilised by the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Necessary procedures to authorise changes to cloud applications and related resources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall accurately define minimum monitoring requirements in the cloud environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs should ensure to assess the information/cyber security capability of the cloud service provider, such that the CSP maintains an information security policy framework commensurate with its exposures to vulnerabilities and threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CSP is able to maintain its information/cyber security capability with respect to changes in vulnerabilities and threats, including those resulting from changes to information assets or its business environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Nature and frequency of testing of controls by the CSP in respect of the outsourced services is commensurate with the materiality of the services being outsourced by the RE and the threat environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CSP has mechanisms in place to assess the sub-contractors with regards to confidentiality, integrity and availability of the data being shared with the sub-contractors, where applicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure appropriate integration of logs, events from the CSP into the RE's SOC, where applicable and/or retention of relevant logs in cloud for incident reporting and handling of incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The RE's own efforts in securing its application shall be complemented by the CSP's cyber resilience controls. The CSP/RE shall ensure continuous and regular updates of security-related software including upgrades, fixes, patches and service packs for protecting the application from advanced threats/malware",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that CSPs have a well-governed and structured approach to manage threats and vulnerabilities supported by requisite industry-specific threat intelligence capabilities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that the service and technology architecture supporting cloud-based applications is built in adherence to globally recognised architecture principles and standards. REs shall prefer a technology architecture that provides for secure container-based data management, where encryption keys and Hardware Security Modules are under the control of the RE."
+    },
+    {
+      "section": "7",
+      "heading": "Disaster Recovery & Cyber Resilience",
+      "title": "Disaster recovery and cyber resilience requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 27,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must maintain business continuity frameworks that allow critical operations to continue with minimal disruption during cloud service failures or CSP outages. REs must ensure CSPs demonstrate cyber resilience capabilities through robust incident response and recovery practices, including regular Disaster Recovery (DR) drills at various levels of cloud services.",
+      "dtia_summary": "Requires business continuity and cyber resilience measures for cloud services, essential for maintaining data integrity during disruptions and cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The RE's business continuity framework shall ensure that, in the event of a disaster affecting its cloud services or failure of the CSP, the RE can continue its critical operations with minimal disruption of services while ensuring integrity and security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that the CSP puts in place demonstrative capabilities for preparedness and readiness for cyber resilience as regards cloud services in use by them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This should be systematically ensured, inter alia, through robust incident response and recovery practices including conduct of Disaster Recovery (DR) drills at various levels of cloud services including necessary stakeholders",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The RE's business continuity framework shall ensure that, in the event of a disaster affecting its cloud services or failure of the CSP, the RE can continue its critical operations with minimal disruption of services while ensuring integrity and security."
+    },
+    {
+      "section": "8",
+      "heading": "The following points may be evaluated while developing an exit strategy:",
+      "title": "Exit strategy considerations for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 28,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must evaluate exit strategies that include agreed processes for returning service collaterals and data, data completeness and portability, secure data purging, smooth service transitions, and clear liability definitions. REs must ensure contractual exit plans specify how cloud-hosted services and data will be moved out with minimal business impact while maintaining data integrity and security.",
+      "dtia_summary": "Requires detailed exit strategies for cloud services to ensure data portability and security during transitions, critical for cross-border data transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, agreed processes and turnaround times for returning the RE's service collaterals and data held by the CSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, data completeness and portability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, secure purge of RE's information from the CSP's environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, smooth transition of services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, unambiguous definition of liabilities, damages, penalties and indemnities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "monitoring the ongoing design of applications and service delivery technology stack that the exit plans should align with",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "contractually agreed exit / termination plans should specify how the cloud-hosted service(s) and data will be moved out from the cloud with minimal impact on continuity of the RE's business, while maintaining integrity and security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All records of transactions, customer and operational information, configuration data should be promptly taken over in a systematic manner from the CSP and purged at the CSP-end and independent assurance sought before signing off from the CSP",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "the exit strategy and service level stipulations in the SLA shall factor in, inter alia, agreed processes and turnaround times for returning the RE's service collaterals and data held by the CSP"
+    },
+    {
+      "section": "9",
+      "heading": "Audit and Assurance: The audit/ periodic review/ third-party certifications should",
+      "title": "Audit and assurance requirements for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 31,
+      "primary_category": "Cloud Services",
+      "summary": "Reserve Banks (REs) must conduct audits, periodic reviews, or third-party certifications covering roles and responsibilities, access controls, network configurations, monitoring mechanisms, data encryption, log reviews, change management, incident response, and resilience testing to ensure cloud governance compliance.",
+      "dtia_summary": "Requires regular audits and certifications for cloud services to verify security and compliance, critical for data transfer impact assessments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The audit/ periodic review/ third-party certifications should cover, as per applicability and cloud usage, inter alia, aspects such as roles and responsibilities of both RE and CSP in cloud governance, access and network controls, configurations, monitoring mechanism, data encryption, log review, change management, incident response, and resilience preparedness and testing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The audit/ periodic review/ third-party certifications should cover, as per applicability and cloud usage, inter alia, aspects such as roles and responsibilities of both RE and CSP in cloud governance, access and network controls, configurations, monitoring mechanism, data encryption, log review, change management, incident response, and resilience preparedness and testing"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "country": "Nigeria",
   "document": "circular on the regulatory framework on open banking in nigeria (Nigeria - Row 8)",
-  "generated": "2026-07-15T18:40:17",
+  "generated": "2026-07-16T18:26:38",
   "sections": [
     {
       "section": "10",
@@ -13,33 +13,48 @@
       "page_start": 3,
       "page_end": 10,
       "primary_category": "Other",
-      "summary": "This section establishes risk management maturity levels for open banking participants, defining access levels based on data categories. It mandates risk assessment reports, onboarding procedures, and registry registration for Tier 0-3 participants. The framework requires providers to implement robust security, conduct regular monitoring, and maintain detailed records of API interactions to ensure compliance with data privacy standards and consumer protection requirements.",
-      "dtia_summary": "This section defines risk-based access controls for data sharing across open banking participants, requiring tiered security measures for different data categories (PIST, MIT, PIFT, PAST) and mandating regular risk assessments to ensure data protection during cross-participant data exchanges.",
+      "summary": "This section establishes risk management requirements for open banking participants in Nigeria. It defines risk maturity levels (Tiers 0-3) based on regulatory licensing, specifies data and service access categories with associated risk ratings (PIST: Low, MIT: Moderate, PIFT: High, PAST: High & Sensitive), and mandates data access governance through tiered registration requirements. Participants must implement robust risk assessment procedures, maintain API risk catalogs, and establish monitoring systems for partner participants to ensure compliance with the framework.",
+      "dtia_summary": "This section requires data transfer impact assessments to evaluate risk maturity levels, data category risk ratings, and access governance mechanisms for cross-border data sharing in open banking. It mandates specific technical and operational safeguards for high-risk data categories like PIFT and PAST.",
       "authority": "Central Bank of Nigeria",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Security"
-      ],
+      "topics": [],
       "data_types": [
         "Personal Information",
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Participants shall be assigned risk maturity levels (Tier 0-3) based on regulatory status and data access requirements",
+          "text": "Participants must define risk maturity levels (Tiers 0-3) based on regulatory licensing",
           "obligation_type": "Must"
         },
         {
-          "text": "Tier 0 participants must be registered with Central Bank of Nigeria within 3 working days of onboarding",
+          "text": "Tier 0 participants require on-boarding by sponsoring Tier 2 or Tier 3 participants",
           "obligation_type": "Must"
         },
         {
-          "text": "Tier 2 and Tier 3 participants must submit risk assessment reports signed by Chief Risk Officer",
+          "text": "Sponsoring participants must register Tier 0 participants on Open Banking Registry within 3 working days",
           "obligation_type": "Must"
         },
         {
-          "text": "Providers must publish APIs with technical guidelines and define accessible data/services",
+          "text": "Tier 1 participants must be admitted to CBN regulatory sandbox",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must hold valid CBN license and undergo risk assessment by two partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 3 participants must hold valid CBN license and undergo risk assessment by two partner participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All participants must implement API risk catalogs and process control mapping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providers must publish APIs and define technical guidelines",
           "obligation_type": "Must"
         },
         {
@@ -47,23 +62,23 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Providers must maintain logs of API adoption and usage metrics",
+          "text": "Providers must ensure partner participants obtain end-user consent based on agreed protocols",
           "obligation_type": "Must"
         },
         {
-          "text": "Providers must notify partner participants of relationship termination within 48 hours of breaching risk thresholds",
+          "text": "Providers must share responsibility for end-user losses not arising from wilful negligence",
           "obligation_type": "Must"
         },
         {
-          "text": "Providers must notify Central Bank within 3 business days of terminated relationships",
+          "text": "API Users must obtain end-user consent for each action on their account",
           "obligation_type": "Must"
         },
         {
-          "text": "API Users must obtain end-user consent for each action on their accounts",
+          "text": "All participants must maintain customer service desks operating 24/7 for complaint resolution",
           "obligation_type": "Must"
         },
         {
-          "text": "Consent must be revalidated annually and re-validated if 180 days have passed without service use",
+          "text": "All participants must comply with data privacy laws and regulations",
           "obligation_type": "Must"
         }
       ],

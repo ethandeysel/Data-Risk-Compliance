@@ -1,0 +1,587 @@
+{
+  "country": "Mauritius",
+  "document": "final-guideline-on-cloud-computing (Mauritius - Row 17)",
+  "generated": "2026-07-16T18:22:09",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "30 November 2023",
+      "title": "Cloud computing service usage by financial licensees",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Cloud Services",
+      "summary": "The Financial Services Commission (FSC) of Mauritius issues guidelines for financial licensees using cloud computing services. These guidelines aim to ensure compliance with data protection and cybersecurity laws while addressing the risks associated with cloud adoption. Licensees must consider their specific business environment and risk profile when implementing cloud solutions.",
+      "dtia_summary": "This section establishes the need for financial licensees to develop cloud strategies that address their specific risks and compliance requirements before adopting cloud services.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must implement a risk-based cloud strategy and policy addressing IT assets, cloud services, deployment models, rationale, risks, and staff expertise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Financial Services Commission, Mauritius (‘FSC') has, during its offsite and onsite monitoring, noted that licensees are increasingly using cloud computing services (as defined in the Appendix to this document) to access various types of software/hardware tools and applications."
+    },
+    {
+      "section": "2",
+      "heading": "business activities, environment and risks respectively.",
+      "title": "Cloud strategy and policy formulation requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Cloud Services",
+      "summary": "Financial licensees must develop a risk-based cloud strategy and policy that covers IT assets, cloud services, deployment models, rationale, risks, and staff expertise. This policy must be approved by the Board of Directors and reviewed annually or as needed to address evolving risks.",
+      "dtia_summary": "This section mandates that financial institutions create detailed cloud strategies that address specific risks and compliance needs before deploying cloud services.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must determine suitability of privately managed cloud infrastructure for hosting customer information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must assess anticipated benefits, costs, and associated risks of cloud adoption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must establish a cloud risk management framework aligned with legal and regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must ensure internal staff have appropriate skills and ongoing training for cloud services",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Licensees which are making use of cloud computing services shall implement a risk-based cloud strategy and policy which addresses the following aspects: i. the Information Technology (IT) assets under consideration, the cloud-based service being acquired and the cloud deployment model being used."
+    },
+    {
+      "section": "3",
+      "heading": "anticipation of or subsequent to any material event).",
+      "title": "Cloud risk management framework requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Cloud Services",
+      "summary": "Financial licensees must maintain a robust risk management framework that identifies, assesses, manages, mitigates, and reports risks associated with cloud computing services. This framework must cover vulnerabilities, cybersecurity risks, data sensitivity, staff expertise, roles and responsibilities, potential disruptions, and legal compliance.",
+      "dtia_summary": "This section requires financial institutions to implement comprehensive risk management for cloud services, including cybersecurity, data protection, and business continuity.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must establish a risk management framework to identify, assess, manage, mitigate and report cloud-related risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must consider vulnerabilities and benefits of cloud services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must address cybersecurity, IT and concentration risks of cloud providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must evaluate criticality of IT assets and sensitivity of personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must identify roles and responsibilities of licensee and cloud provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must assess impact of service disruptions and provider failures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must ensure adequate business contingency plans and data portability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management framework must align with relevant legal and regulatory frameworks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Licensees shall establish and maintain, at all times, a robust risk management framework to inter-alia identify, assess, manage, mitigate and report the risks associated with the adoption of cloud computing services."
+    },
+    {
+      "section": "4",
+      "heading": "framework (refer to Section 4.0 below).",
+      "title": "Cloud materiality assessment process",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Cloud Services",
+      "summary": "Financial licensees must assess the materiality of cloud computing services by evaluating costs, impact on financial stability, migration costs, potential disruptions, and ability to maintain regulatory compliance. This assessment must be completed before deploying significant cloud services and reported to the FSC.",
+      "dtia_summary": "This section requires financial institutions to evaluate the materiality of cloud services to determine appropriate regulatory oversight and risk management measures.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must assess costs of cloud services as part of total operational costs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must evaluate potential impact on earnings, solvency, liquidity, funding and capital",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must consider costs of migrating services in-house or to alternate providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must assess potential impact of service disruptions or data breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must ensure ability to maintain internal controls and meet regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Licensees shall assess the materiality of the cloud computing services, taking into consideration the following factors: i. the costs of the cloud computing services and IT assets, as part of total operational cost;"
+    },
+    {
+      "section": "5",
+      "heading": "deployment of any material cloud computing services.",
+      "title": "Contractual obligations for cloud service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Cloud Services",
+      "summary": "Financial licensees must enter written contracts with cloud service providers that define roles and responsibilities, data access rights, notification requirements for data location changes, termination rights, and compliance with Mauritian laws. Licensees must also ensure subcontractors meet due diligence requirements.",
+      "dtia_summary": "This section establishes contractual safeguards for cloud services, including data access, location changes, and exit strategies, critical for data transfer impact assessments.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Contract must define roles and responsibilities of licensee and cloud provider including incident management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must provide adequate information and access to data storage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must provide reasonable notice of changes in data storage location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee has right to terminate contract with concerns about provider and agreed exit strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contract must ensure compliance with Mauritian laws and regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must notify licensee of new subcontracting agreements within reasonable notice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subcontractors must meet due diligence, controls, and security requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Licensees shall enter into a written contractual arrangement with the selected cloud service provider/s regarding the cloud computing services being acquired."
+    },
+    {
+      "section": "6",
+      "heading": "the licensee.",
+      "title": "Due diligence on cloud service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Cloud Services",
+      "summary": "Financial licensees must conduct thorough due diligence on cloud service providers before outsourcing functions, including background checks, risk management systems, compliance with Mauritian laws, cybersecurity capabilities, and recovery time objectives. Due diligence must be commensurate with the materiality of the services.",
+      "dtia_summary": "This section requires financial institutions to perform detailed due diligence on cloud providers to ensure data protection and compliance, critical for assessing transfer risks.",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must conduct due diligence to ensure cloud provider is fit and proper",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must verify cloud provider's capacity to fulfill delegated functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must ensure cloud provider complies with data protection and confidentiality requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence must include background screening of cloud provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence must assess cloud provider's risk management and information security capabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence must verify compliance with Mauritian laws and international standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence must evaluate cloud provider's ability to handle cyberattacks or data theft",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Due diligence must assess cloud provider's recovery time objectives",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Whenever any function is being outsourced to a cloud service provider, licensees are required to conduct appropriate due diligence to ensure that the delegated cloud service provider is fit and proper, has the capacity to fulfil the delegated/outsourced function and has the ability to comply with data protection and confidentiality requirements set out in the laws prevailing in Mauritius."
+    },
+    {
+      "section": "7",
+      "heading": "1 https://www.iso.org/isoiec-27001-information-security.html",
+      "title": "Cloud security framework for mitigating cyber risks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 9,
+      "primary_category": "Cloud Services",
+      "summary": "Licensees must establish and maintain a cloud security management framework to mitigate cyber risks and data vulnerabilities from cloud services. This framework must address security procedures, data storage locations, data-in-transit security, third-party assessments, resilience capabilities, and encryption key management. The framework must be tailored to the service's criticality, sensitivity, and risk profile.",
+      "dtia_summary": "Requires cloud service providers to demonstrate specific security controls including data storage locations, encryption, and resilience capabilities. These elements directly impact data transfer and storage safeguards in cross-border cloud environments.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security",
+        "Encryption",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees shall establish and maintain a cloud security management framework to mitigate cyber-risk and data vulnerability from cloud computing services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud security framework must consider information on cloud provider's security procedures, controls, and audit reviews",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud security framework must include information on countries where data are stored and safeguards in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must assure data-in-transit security between data centres in different geographical regions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must provide third-party assessment of security and vulnerabilities with response timeline for identified issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must demonstrate resilience capabilities including data restoration without alteration after incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud provider must implement encryption key management to ensure data segregation and protection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7.1 Licensees shall establish and maintain a cloud security management framework which would allow them to mitigate any cyber-risk and data vulnerability that may occur due to the use of the cloud computing services."
+    },
+    {
+      "section": "8",
+      "heading": "classification and location of the data.",
+      "title": "Contingency plans and exit strategies for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Cloud Services",
+      "summary": "Licensees must ensure cloud service providers have comprehensive contingency plans for business continuity and recovery. The plans must include disaster recovery procedures, system resiliency, and network redundancy. Licensees also require well-designed exit strategies covering termination procedures, service transfer processes, and alternative solutions for business continuity.",
+      "dtia_summary": "Mandates specific contingency and exit strategies that affect data transfer continuity and recovery in cross-border cloud environments. Critical for assessing data transfer resilience and recovery capabilities.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees shall ensure cloud service provider has comprehensive contingency plan for quick recovery and continuity of operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contingency plan must include business continuity requirements for disaster recovery and incident mitigation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contingency plan must include adequate system resiliency and network redundancy for business continuity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit strategy must include agreed process and procedures for termination with reasonable timeframe for data deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit strategy must include procedures for transferring services to another provider or back to licensee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exit strategy must include identification of alternative solutions for business continuity",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "8.1 Licensees shall ensure that the cloud service provider has a comprehensive and well-documented contingency plan, allowing for quick recovery and continuity of operations in case of unforeseen events."
+    },
+    {
+      "section": "9",
+      "heading": "ensure that they remain adequate and effective.",
+      "title": "Ongoing cloud security monitoring and review",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cloud Services",
+      "summary": "Licensees must implement risk-based ongoing controls and monitoring of cloud service providers. This includes regular reviews of cloud services, ensuring cloud providers undergo regular audits and testing, and maintaining appropriate skills and knowledge for assessments. The reviews must be conducted at least annually.",
+      "dtia_summary": "Requires regular monitoring and review of cloud security controls to ensure ongoing compliance with data protection standards. Critical for assessing the effectiveness of data transfer safeguards over time.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees shall follow risk-based approach to implementation of ongoing controls and monitoring of cloud service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ongoing controls and monitoring shall be organized on a consistent basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees shall review all material cloud computing services at least once a year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cloud service providers must undergo regular audits and testing of procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audits must be conducted by persons with appropriate skills and knowledge",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9.1 Licensees shall follow a risk-based approach to the implementation of on-going controls and monitoring of the cloud service providers, whilst considering the materiality of the cloud computing services and the IT assets."
+    },
+    {
+      "section": "10",
+      "heading": "perform effective and relevant audits.",
+      "title": "Board and management responsibilities for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 12,
+      "primary_category": "Cloud Services",
+      "summary": "The Board of Directors must approve cloud strategy and policy, ensure alignment with risk appetite, maintain adequate security controls, and oversee contingency plans. Senior management must ensure proper due diligence, risk assessments, documentation, clear responsibility delineation, and ongoing monitoring of cloud services. Both must provide regular reporting to the Board and FSC.",
+      "dtia_summary": "Defines specific governance responsibilities for cloud services that impact data transfer oversight and accountability. Critical for assessing regulatory compliance in cross-border cloud environments.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services",
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board of directors must approve cloud strategy and policy on cloud computing services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must ensure cloud policy aligns with cloud strategy, deployment model, and risk appetite",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must ensure cloud risk management framework and security arrangements are in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must approve criteria to assess materiality of cloud services and contingency strategies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must ensure business contingency plans are efficiently deployed during critical issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must ensure cloud services comply with record keeping obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must ensure licensee has resources and staff training for effective oversight",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board must receive comprehensive periodic reports on cloud services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must select cloud providers based on licensee needs with proper due diligence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must document approved cloud policy and strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must ensure cloud arrangements follow sound governance and risk management principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must ensure clear delineation of responsibility between licensee and provider",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must conduct independent evaluation of cloud security arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must monitor cloud service performance and report incidents to Board and FSC",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10.1 The Board of directors of the licensees shall ensure that it is not discharged of its responsibilities upon any delegation or outsourcing arrangement to a cloud service provider."
+    },
+    {
+      "section": "11",
+      "heading": "eventuality of material incidents.",
+      "title": "Information retrieval for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Cloud Services",
+      "summary": "Licensees must ensure they can retrieve any information or document stored by the cloud service provider at any time. This requirement ensures data accessibility for compliance purposes and regulatory obligations.",
+      "dtia_summary": "Ensures data retrieval capability for compliance with regulatory requirements, critical for data transfer and storage assessments.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees shall ensure they can retrieve any information or document stored by the cloud service provider at any point in time",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11.1 Licensees shall ensure that at any point in time, they are in a position to retrieve any information or document stored by the cloud service provider."
+    },
+    {
+      "section": "12",
+      "heading": "requirements as well as any obligation towards their clients.",
+      "title": "Transitional provisions for cloud services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 18,
+      "primary_category": "Cloud Services",
+      "summary": "Licensees using cloud services before the Guidelines came into effect must apply the new provisions within six months of the Guidelines' issuance. This transitional provision ensures a smooth implementation period for existing cloud service users.",
+      "dtia_summary": "Provides a transition period for existing cloud service users to comply with new security and governance requirements, relevant for assessing phased implementation of data transfer safeguards.",
+      "authority": "FSC",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees using cloud services before Guidelines came into effect must apply new provisions within six months of Guidelines issuance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12.1 Any licensee which, before the coming into operation of this Guidelines, was making use of cloud computing services shall, within 6 months of the issue of these Guidelines, apply the provisions laid out therein."
+    }
+  ]
+}

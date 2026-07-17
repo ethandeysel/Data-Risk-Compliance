@@ -1,74 +1,92 @@
 {
   "country": "South Africa",
   "document": "Joint Standard 2 of 2024  Cybersecurity & Cyber resilience Requirements",
-  "generated": "2026-07-10T17:49:27",
+  "generated": "2026-07-16T18:53:16",
   "sections": [
     {
       "section": "2",
       "heading": "Definitions and interpretation",
+      "title": "Definitions of cybersecurity terms and financial institution scope",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 6,
       "primary_category": "Definitions",
-      "summary": "Defines key terms including financial institutions, cyber incident, cybersecurity, and related concepts for the Joint Standard.",
-      "dtia_summary": "",
+      "summary": "This section defines key terms used throughout the Joint Standard, including 'cybersecurity', 'cyber incident', 'financial institution', and 'cyber resilience'. It specifies that 'financial institution' includes banks, insurers, pension funds, and other entities regulated under South African financial laws. The definitions clarify the scope of cybersecurity requirements for these institutions.",
+      "dtia_summary": "Provides foundational definitions critical for understanding cross-border data transfers, as 'financial institution' scope includes entities handling international data flows. Clarifies what constitutes 'cyber incident' and 'cyber resilience' relevant to data protection.",
       "authority": "",
-      "financial_relevance": "Medium",
+      "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Definitions"
+        "Financial Data"
       ],
       "data_types": [
-        "Personal Information"
+        "Personal Information",
+        "Financial Data"
       ],
-      "requirements": [],
+      "requirements": [
+        {
+          "text": "‘the Act' means the Financial Sector Regulation Act, 2017",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘financial institution' includes banks, insurers, pension funds, and other entities regulated under South African financial laws",
+          "obligation_type": "Definition"
+        }
+      ],
       "source_quote": "Definitions and interpretation"
     },
     {
       "section": "3",
       "heading": "Application",
+      "title": "Application scope for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 7,
-      "primary_category": "Application",
-      "summary": "Specifies which financial institutions must comply with the Joint Standard and ensures risks from juristic persons and branches are mitigated.",
-      "dtia_summary": "Financial institutions must address cybersecurity risks from local and foreign juristic persons and branches.",
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section specifies that the Joint Standard applies to financial institutions as defined in the standard. It requires banks and their controlling companies to mitigate cybersecurity risks from all juristic persons and branches, including foreign entities. Insurers and their controlling companies must similarly address cybersecurity risks from their structured entities. The standard must be tailored to the institution's size, complexity, and risk profile.",
+      "dtia_summary": "Defines which financial institutions must comply with cybersecurity requirements, including cross-border entities. Critical for determining data transfer obligations when financial institutions operate internationally.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Application"
+        "Cross-border Transfer",
+        "Financial Data"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution that is a bank, or a controlling company must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) and branches structured under the bank or the controlling company, including all relevant subsidiaries approved in terms of section 52 of the Banks Act, 1990, are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "text": "Banks and controlling companies must mitigate cybersecurity risks from all juristic persons and branches, including foreign entities",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution that is an insurer or the controlling company of an insurance group must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) structured under the insurer or the insurance group designated under section 10 of the Insurance Act, 2017, are catered for and mitigated in the application of the requirements of this Joint Standard.",
+          "text": "Insurers and controlling companies must mitigate cybersecurity risks from all juristic persons and branches, including foreign entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Minimum requirements must reflect the nature, size, complexity and risk profile of the financial institution",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3.2 A financial institution that is a bank, or a controlling company must ensure that any risks relating to cybersecurity and cyber resilience from juristic persons (both local and foreign) and branches structured under the bank or the controlling company, including all relevant subsidiaries approved in terms of section 52 of the Banks Act, 1990, are catered for and mitigated in the application of the requirements of this Joint Standard."
+      "source_quote": "Application"
     },
     {
       "section": "4",
       "heading": "Roles and responsibilities",
+      "title": "Roles and responsibilities for cybersecurity governance",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Governance",
-      "summary": "Assigns responsibility for cybersecurity strategy and framework to the governing body and senior management.",
-      "dtia_summary": "Governing body must ensure cybersecurity strategy and framework is established and maintained with senior management.",
+      "summary": "This section outlines that the governing body is ultimately responsible for ensuring compliance with the Joint Standard and overseeing cyber risk management. It requires the governing body to establish a robust cybersecurity strategy with senior management, facilitate cooperation with stakeholders, and ensure clear roles for security in third-party contracts. The governing body must also oversee the implementation of cybersecurity measures.",
+      "dtia_summary": "Clarifies governance responsibilities for cybersecurity, critical for data transfer impact assessments involving third parties and international operations.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -80,35 +98,40 @@
       ],
       "requirements": [
         {
-          "text": "The governing body is ultimately responsible for ensuring that the financial institution complies with the requirements set out in this Joint Standard.",
+          "text": "Governing body must ensure compliance with the Joint Standard",
           "obligation_type": "Must"
         },
         {
-          "text": "The governing body must together with senior management, ensure that a sound and robust cybersecurity strategy and framework is established, implemented and maintained.",
+          "text": "Governing body must oversee cyber risk management and delegate primary oversight to a committee",
           "obligation_type": "Must"
         },
         {
-          "text": "The governing body must require management to co-operate with other stakeholders, as relevant and appropriate, in order to enable financial sector cyber resilience.",
+          "text": "Governing body must establish a sound cybersecurity strategy with senior management",
           "obligation_type": "Must"
         },
         {
-          "text": "The governing body must ensure that roles and responsibilities for security are clearly defined in the contract or Service Level Agreement with third-party service providers.",
+          "text": "Governing body must ensure cooperation with stakeholders for financial sector cyber resilience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Governing body must ensure clear roles for security in third-party contracts",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 The governing body is ultimately responsible for – ensuring that the financial institution complies with the requirements set out in this Joint Standard; and the oversight of cyber risk management, but may delegate primary oversight activities to an existing or new committee."
+      "source_quote": "Roles and responsibilities"
     },
     {
       "section": "5",
       "heading": "Governance",
+      "title": "Cybersecurity governance structures",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 8,
       "primary_category": "Governance",
-      "summary": "Requires clear roles, responsibilities, and independent oversight for cyber risk management within governance structures.",
-      "dtia_summary": "Financial institutions must define roles, ensure cyber risk management is integrated into governance, and establish a dedicated function with direct reporting to the governing body.",
+      "summary": "This section requires financial institutions to define roles and responsibilities for management functions and committees overseeing cyber risks. It mandates that cyber risk management be integrated into the institution's governance framework, with direct reporting lines to the governing body. It also requires a dedicated function for cybersecurity with adequate resources and authority, and ensures that oversight functions have access to the governing body without conflicts of interest.",
+      "dtia_summary": "Establishes governance structures critical for data transfer impact assessments, particularly for international data flows and third-party data sharing.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -120,174 +143,677 @@
       ],
       "requirements": [
         {
-          "text": "clearly define the roles and responsibilities of all management functions (including lines of defence) as well as committees established for the purposes of exercising oversight of cyber risks",
+          "text": "Define roles and responsibilities of all management functions and committees for cyber risk oversight",
           "obligation_type": "Must"
         },
         {
-          "text": "ensure cyber risk management is incorporated into the governance and risk management structures, processes and procedures of a financial institution. Direct reporting line to the governing body should be established in terms of the governance framework; ensure that a function(s) responsible for cyber and information security is established with adequate resources and appropriate authority",
+          "text": "Integrate cyber risk management into governance and risk management structures",
           "obligation_type": "Must"
         },
         {
-          "text": "ensure that the oversight of the function(s) referred to in subparagraph 5.1.3 above, including control functions, has access to the governing body and is structured in a manner that ensures adequate segregation of duties and avoids any potential conflicts of interest",
+          "text": "Establish a function responsible for cybersecurity with adequate resources and authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure oversight functions have direct access to the governing body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure segregation of duties and avoid conflicts of interest in oversight functions",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5.1.1 clearly define the roles and responsibilities of all management functions (including lines of defence) as well as committees established for the purposes of exercising oversight of cyber risks"
+      "source_quote": "Governance"
     },
     {
       "section": "6",
       "heading": "Cybersecurity strategy and framework",
+      "title": "Cybersecurity strategy and framework requirements",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
-      "primary_category": "Cybersecurity strategy and framework",
-      "summary": "Requires financial institutions to establish, maintain, and review cybersecurity strategies and frameworks aligned with business objectives.",
-      "dtia_summary": "Financial institutions must establish and maintain a cybersecurity strategy approved by the governing body, review it annually, and align it with enterprise risk management.",
+      "primary_category": "Other",
+      "summary": "This section mandates that financial institutions establish and maintain a cybersecurity strategy approved by the governing body, aligned with business strategy. It requires regular review of the strategy, establishment of a cybersecurity framework, alignment with enterprise risk management, development of cybersecurity policies, and regular reassessment of business risk tolerance. Metrics must be established to track cybersecurity risks and inform reporting.",
+      "dtia_summary": "Provides detailed requirements for cybersecurity strategies, critical for assessing data transfer risks when financial institutions operate internationally.",
       "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Cybersecurity strategy and framework"
-      ],
+      "topics": [],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "establish and maintain a cybersecurity strategy that is approved by the governing body and aligned with its overall business strategy",
+          "text": "Establish and maintain a cybersecurity strategy approved by the governing body",
           "obligation_type": "Must"
         },
         {
-          "text": "review the cybersecurity strategy regularly, but at least annually, to address changes in the cyber threat landscape, allocate resources, identify and remediate gaps, and incorporate lessons learnt",
+          "text": "Review cybersecurity strategy at least annually to address threats, allocate resources, and remediate gaps",
           "obligation_type": "Must"
         },
         {
-          "text": "establish a cybersecurity framework to manage cyber risks",
+          "text": "Establish a cybersecurity framework to manage cyber risks",
           "obligation_type": "Must"
         },
         {
-          "text": "align its cybersecurity framework with its enterprise risk management framework",
+          "text": "Align cybersecurity framework with enterprise risk management framework",
           "obligation_type": "Must"
         },
         {
-          "text": "establish cybersecurity policies, standards, processes and procedures that are informed by industry standards and best practices to manage cyber risks and safeguard IT systems and information assets, taking into consideration the evolving technology and cyber threat landscape",
+          "text": "Establish cybersecurity policies, standards, and procedures informed by industry best practices",
           "obligation_type": "Must"
         },
         {
-          "text": "define and reassess regularly business risk tolerance relative to cybersecurity and ensure that it is consistent with the business strategy and risk appetite",
+          "text": "Define and reassess business risk tolerance relative to cybersecurity",
           "obligation_type": "Must"
         },
         {
-          "text": "establish metrics to track and manage cybersecurity risks and to inform related reporting from both a technical and business context",
+          "text": "Establish metrics to track and manage cybersecurity risks",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6.1.1 establish and maintain a cybersecurity strategy that is approved by the governing body and aligned with its overall business strategy"
+      "source_quote": "Cybersecurity strategy and framework"
     },
     {
       "section": "7",
       "heading": "Cybersecurity and cyber resilience fundamentals",
+      "title": "Cybersecurity fundamentals for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
-      "page_end": 15,
+      "page_end": 12,
       "primary_category": "Security",
-      "summary": "Financial institutions must implement adaptive cyber resilience capabilities that evolve with cyber threats.",
-      "dtia_summary": "Requires continuous learning and adaptation to cyber threats through incident lessons and technological developments.",
-      "authority": "Financial institutions",
+      "summary": "Financial institutions must identify critical business processes and information assets, classify them by criticality and sensitivity, conduct security risk assessments, and maintain updated inventories of information assets. They must implement robust cybersecurity practices to prevent, limit and contain cyber incidents, including identity and access management, data security, application and system security, network security, cryptography, and cybersecurity awareness training. These measures must be regularly reviewed and updated to address evolving threats.",
+      "dtia_summary": "This section establishes foundational cybersecurity requirements that directly impact data transfer and processing across borders by mandating robust security controls, encryption, and incident response protocols. Financial institutions must ensure data security and integrity during cross-border transfers through these fundamental security practices.",
+      "authority": "Responsible Authority",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Learning and Evolving"
+        "Security",
+        "Access Control"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
       ],
       "requirements": [
         {
-          "text": "implement adaptive cyber resilience capability that learns and evolves with dynamic nature of cyber risks",
+          "text": "Identify business processes and information assets supporting business and service delivery",
           "obligation_type": "Must"
         },
         {
-          "text": "systematically identify and distil key lessons from cyber incidents to advance resilience capabilities",
+          "text": "Classify business processes and information assets by criticality and sensitivity",
           "obligation_type": "Must"
         },
         {
-          "text": "actively monitor technological developments and keep abreast of new cyber risk management processes",
+          "text": "Conduct security risk assessments on critical operations and information assets",
           "obligation_type": "Must"
         },
         {
-          "text": "ensure cyber risk management practices go beyond reactive controls to include proactive protection",
+          "text": "Maintain inventory of information assets including location, ownership, and roles/responsibilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update inventory when changes are required and review at least biennially",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement cyber resilience capabilities to prevent, limit and contain cyber incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Limit access to information assets to authorized users, processes, and devices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manage access based on assessed risk of unauthorized access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish identity management and access control mechanisms for user administration, accountability and authentication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish security and access control policies and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure remote access is only from secured devices meeting security standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement strong authentication for remote access users",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop data loss prevention policies for sensitive information in motion, at rest or in use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement measures to prevent and detect unauthorized access, modification, copying, transmission or theft of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure third-party service providers' information assets receive same protection level as critical assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Encrypt or protect sensitive information with access controls commensurate to risk exposure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use only authorized IT systems, endpoint devices and storage for sensitive information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement controls to prevent unauthorized internet services for sensitive data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restrict use of sensitive information in non-production environments unless equivalent controls are in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement controls to manage access and removal of sensitive information to prevent leaks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mask sensitive information in production and non-production environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Permanently delete sensitive information from storage media before disposal or redeployment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Have agreement for secure return or transfer of data upon contract termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement non-disclosure or confidentiality provisions in agreements with users",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement security-by-design approach to minimize system vulnerabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine acceptable security level for business needs and assess threats and risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify security requirements for access control, authentication, transaction authorization, data integrity, system logging, audit trails and exception handling",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review and test changes to business-critical applications to ensure no adverse impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Install network security devices to secure connections with internet and third-party providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Deploy network intrusion detection or prevention systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review network architecture and interconnections periodically to identify vulnerabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement network access controls to detect and prevent unauthorized devices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review network access mechanisms at least annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review firewall rules periodically and test network perimeter controls annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Isolate internet web browsing activities from sensitive IT systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Encrypt remote connections to prevent data leakage through sniffing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish cryptographic key management policies, standards and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adopt cryptographic algorithms from well-established international standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure cryptographic keys are securely generated and protected from unauthorized disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use secure key destruction method for expired or revoked keys",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine appropriate cryptographic key lifespan based on sensitivity and risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Securely replace cryptographic keys before expiration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain backups of cryptographic keys with high protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure cryptographic algorithms have been rigorously tested or vetted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish comprehensive cybersecurity awareness training program",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct user refresher training at least annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure governing body receives cybersecurity training",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review cybersecurity training program periodically for relevance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain effective cyber resilience capabilities to monitor and detect cyber events",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Periodically evaluate effectiveness of security controls through monitoring, testing and audits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish security monitoring capabilities including security operations center",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define processes, roles and responsibilities for security operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish process to collect, review and retain IT system logs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Protect IT system logs against unauthorized access, editing and deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Configure IT system events or alerts for early indication of security issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Actively monitor security events or alerts to address issues early",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Correlate multiple events on IT system logs to identify suspicious activity patterns",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish process for timely escalation of suspicious activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement capabilities to rapidly respond and recover from cyber-attacks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish cyber incident management policies and processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop data backup strategy with regular backups and testing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure sensitive information in backup media is secured (e.g. encrypted)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Store backup media offline or at offsite location (including cloud storage)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement communication strategy for customers impacted by cyber-attacks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Set RPO and RTO based on nature, scale, complexity and risk profile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish cyber incident response and management plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Describe communication, coordination and response procedures for cyber threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish process to investigate security control deficiencies causing compromise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate full extent of impact from security incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use cyber intelligence and lessons from incidents to enhance security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Test cyber incident response and management plan against plausible threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Understand threat landscape and implications in operating environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish process to collect and analyze cyber-related information for business relevance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement cyber intelligence monitoring capabilities for internal and external threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participate in cyber threat information-sharing arrangements with trusted external parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Test all elements of cyber resilience capacity and security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine testing frequency based on vulnerability rates and criticality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure security control assurance is provided by appropriately skilled personnel",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Escalate and report to governing body security control deficiencies that cannot be remediated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure remediation plan with timelines is followed for identified control deficiencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct regular vulnerability assessments on IT systems and information assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Address vulnerabilities in a timely manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine vulnerability assessment frequency based on criticality and exposure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct penetration testing on critical IT systems and information assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine penetration testing frequency based on criticality and exposure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Validate security controls for internet-accessible systems after major changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct penetration testing at least annually if no major changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Carry out regular scenario-based simulation exercises to validate response and recovery",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Design simulation exercises using threat intelligence relevant to IT environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Test security functionality on web-based and critical applications during development",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adopt standards on secure coding, source code review and application security testing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish policy and procedure for third-party and open-source software code review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review policy and procedures regularly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish comprehensive remediation process to track and resolve issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Classify issues by severity and prioritize based on risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Set timeframes for remediation of issues of different severity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct risk assessments where appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement mitigation strategies for deviations from cybersecurity framework",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Track all issues identified from cybersecurity testing or exercises",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Remediate known major issues and security flaws before production deployment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Track updates and reported vulnerabilities on in-house, third-party and open-source software",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Implement an adaptive cyber resilience capability that learns and evolves with the dynamic nature of cyber risks"
+      "source_quote": ""
+    },
+    {
+      "section": "7 (part 2)",
+      "heading": "Cybersecurity and cyber resilience fundamentals (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
     },
     {
       "section": "8",
       "heading": "Cybersecurity hygiene practices",
+      "title": "Cybersecurity hygiene practices for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 15,
       "page_end": 17,
       "primary_category": "Security",
-      "summary": "Financial institutions must implement access control policies, regular reviews, user access management, segregation of duties, least privilege, periodic access reviews, and similar security practices for IT systems and information assets.",
-      "dtia_summary": "Requires access control policies, regular reviews, user access management, segregation of duties, least privilege, and periodic access reviews for IT systems and information assets.",
+      "summary": "Financial institutions must implement robust access management policies including strong password controls, regular policy reviews, user access provisioning processes, segregation of duties, least privilege principles, periodic access reviews, and consistent access controls for third parties. These requirements ensure appropriate user access rights and minimize unauthorized access risks to critical systems and information assets.",
+      "dtia_summary": "These practices establish baseline security controls critical for DTIAs involving financial data transfers, particularly regarding access management and third-party vendor controls.",
       "authority": "Authorities",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Access Control",
-        "User Access Management",
-        "Segregation of Duties",
-        "Least Privilege"
+        "Third Party Processing"
       ],
       "data_types": [
-        "Personal Information"
+        "Financial Data"
       ],
       "requirements": [
         {
-          "text": "establish a security access control policy and a process to enforce strong password security controls for users' access to IT systems and information assets",
+          "text": "Establish a security access control policy and process for strong password security controls",
           "obligation_type": "Must"
         },
         {
-          "text": "ensure that the security access control policy is reviewed regularly",
+          "text": "Review security access control policy regularly",
           "obligation_type": "Must"
         },
         {
-          "text": "establish a user access management process to provision, change and revoke access rights to IT systems and information assets",
+          "text": "Establish user access management process for provisioning, changing and revoking access rights",
           "obligation_type": "Must"
         },
         {
-          "text": "apply the principles of ‘segregation of duties' and ‘least privilege' when granting user access to IT systems and information assets",
+          "text": "Apply segregation of duties and least privilege principles when granting user access",
           "obligation_type": "Must"
         },
         {
-          "text": "ensure appropriate parties perform periodic user access reviews to verify the appropriateness of privileges granted to users",
+          "text": "Ensure appropriate parties perform periodic user access reviews to verify privileges",
           "obligation_type": "Must"
         },
         {
-          "text": "subject third-party service providers and contractors with access to financial institution's IT systems to the same monitoring and access restrictions as employees",
+          "text": "Apply same monitoring and access restrictions to third-party service providers as employees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secure administrative accounts to prevent unauthorized access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Grant privileged account access on a need-to-use basis with logging and review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish process to manage and monitor privileged accounts for suspicious activity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement MFA for users with access to critical system functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement MFA or privilege access management for all administrative accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement MFA for all user accounts accessing internet applications with sensitive information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Protect network from unauthorized access and disruption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement security controls at network perimeter to restrict unauthorized traffic",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adopt defense in depth approach with multiple layers of security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply security patches within timeframe commensurate with vulnerability risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Institute compensating security controls where patches unavailable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Test security patches before production application to ensure compatibility",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement remediation plan with timelines for incompatible patches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish written security standards for hardware and software",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure security standards minimize exposure to cyber threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review security standards periodically for relevance and effectiveness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Verify uniform application of security standards and identify deviations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Institute controls to reduce risk from non-conformity to security standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement endpoint protection against malware delivery channels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Keep anti-malware signatures up-to-date and regularly scan systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement detection and response mechanisms for indicators of compromise",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Cybersecurity hygiene practices 8.1 (a) establish a security access control policy and a process to enforce strong password security controls for users' access to IT systems and information assets"
+      "source_quote": "Cybersecurity hygiene practices"
     },
     {
       "section": "9",
       "heading": "Notifications and regulatory reporting",
+      "title": "Material incident reporting requirements for financial institutions",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 17,
       "page_end": 17,
       "primary_category": "Incident Reporting",
-      "summary": "Financial institutions must notify the responsible authority of material cyber incidents or information security compromises within specified timeframes.",
-      "dtia_summary": "Requires financial institutions to notify the responsible authority of material cyber incidents or information security compromises.",
+      "summary": "Financial institutions must notify the responsible authority within specified timeframe after classifying cyber incidents or information security compromises as material incidents. Additional reporting obligations require institutions to submit information related to compliance with the Joint Standard as determined by the authorities, with reporting formats and timelines specified by regulatory notices.",
+      "dtia_summary": "These reporting requirements impact DTIAs by establishing incident classification thresholds and mandatory notification procedures for security breaches involving financial data.",
       "authority": "Authorities",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -296,38 +822,43 @@
         "Breach Notification"
       ],
       "data_types": [
-        "Personal Information"
+        "Financial Data"
       ],
       "requirements": [
         {
-          "text": "A financial institution must notify the responsible authority in the form and manner determined by the Authorities after classifying the following as a material incident – cyber incidents; or information security compromise",
+          "text": "Notify responsible authority after classifying cyber incidents as material incidents",
           "obligation_type": "Must"
         },
         {
-          "text": "A financial institution must report such information related to the requirements in this Joint Standard to the Authorities as may be determined by the Authorities",
+          "text": "Notify responsible authority after classifying information security compromises as material incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report information related to Joint Standard compliance to authorities as determined",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Notifications and regulatory reporting 9.1 A financial institution must notify the responsible authority in the form and manner determined by the Authorities, after classifying the following as a material incident – cyber incidents; or information security compromise."
+      "source_quote": "A financial institution must notify the responsible authority in the form and manner determined by the Authorities, after classifying the following as a material incident – cyber incidents; or information security compromise."
     },
     {
       "section": "10",
       "heading": "Short title and commencement",
+      "title": "Effective date and title of the Joint Standard",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 17,
       "page_end": 17,
       "primary_category": "Other",
-      "summary": "This Joint Standard is titled 'Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024' and comes into effect on a date to be determined by the Authorities.",
+      "summary": "This section establishes the official title of the Joint Standard as 'Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024' and specifies that it comes into effect on a date determined by the authorities through a regulatory notice published on their websites.",
       "dtia_summary": "",
-      "authority": "Authorities",
+      "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "Short title and commencement 10.1 This Joint Standard is called Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024 and comes into effect on the date indicated in paragraph 10.2 below."
+      "source_quote": "This Joint Standard is called Cybersecurity and Cyber Resilience Requirements for Financial Institutions, 2024 and comes into effect on the date indicated in paragraph 10.2 below."
     }
   ]
 }

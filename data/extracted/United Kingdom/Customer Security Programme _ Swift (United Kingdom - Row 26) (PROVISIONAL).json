@@ -1,0 +1,209 @@
+{
+  "country": "United Kingdom",
+  "document": "Customer Security Programme _ Swift (United Kingdom - Row 26) (PROVISIONAL)",
+  "generated": "2026-07-16T19:04:19",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Understand Controls",
+      "title": "Review mandatory security controls for Swift infrastructure",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Security",
+      "summary": "This section requires organizations to review the latest Customer Security Controls Framework (CSCF) to identify applicable mandatory and advisory controls for their Swift infrastructure. It mandates understanding the objectives, scope, and risk drivers outlined in the CSCF documentation to ensure alignment with security requirements. The focus is on establishing foundational knowledge before implementing controls.",
+      "dtia_summary": "This section establishes the need for organizations to understand security controls before implementing them, which is critical for assessing the security posture of data transfers involving Swift infrastructure.",
+      "authority": "Swift",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Processing"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Review the latest Customer Security Controls Framework (CSCF)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify mandatory and advisory controls applicable to Swift infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Familiarize with objectives, scope, and risk drivers of the CSCF documentation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "1. Understand Controls Start by reviewing the latest Customer Security Controls Framework (CSCF). Identify which mandatory and advisory controls apply to your Swi\\n infrastructure, and familiarise yourself with the objectives, scope, and risk drivers defined in the documentation."
+    },
+    {
+      "section": "2",
+      "heading": "Implement Controls",
+      "title": "Implement security controls for Swift infrastructure",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Security",
+      "summary": "This section requires organizations to implement the identified security controls through actions such as updating infrastructure, enhancing access management, and strengthening technical capabilities. It allows implementation via internal teams or cybersecurity service providers to ensure alignment with industry best practices and robust security measures.",
+      "dtia_summary": "This section mandates concrete implementation of security controls, which is essential for ensuring secure data transfers and processing within Swift infrastructure.",
+      "authority": "Swift",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Processing"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Put identified security controls into practice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update Swift environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enhance access management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Strengthen technical infrastructure and incident response capabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement with IT, risk, or compliance teams or cybersecurity service providers",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "2. Implement Controls Once you've identified the applicable CSCF controls, the next step is to put them into practice. This may involve, as examples, updating your Swi\\n environments, enhancing access management, and strengthening your technical infrastructure and incident response capabilities."
+    },
+    {
+      "section": "3",
+      "heading": "Perform Independent Assessment",
+      "title": "Conduct independent security assessment",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Security",
+      "summary": "This section requires organizations to validate the effectiveness of their security controls through an independent assessment. The assessment can be conducted internally by a second or third line of defense or externally by an independent assessor to ensure robustness and compliance.",
+      "dtia_summary": "This section mandates independent validation of security controls, which is critical for ensuring the security of data transfers and processing across borders.",
+      "authority": "Swift",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Validate effectiveness of design and implementation of security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Perform independent assessment internally by second or third line of defense",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Perform independent assessment externally by an independent assessor",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "3. Perform Independent Assessment Validate the e\\n effectiveness of the design and an implementation of your controls through an independent assessment. This can be performed internally by a second or third line of defence (e.g. risk, compliance, internal audit) or externally by an independent assessor."
+    },
+    {
+      "section": "4",
+      "heading": "Submit A\u0005estation",
+      "title": "Submit compliance status for security controls",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Security",
+      "summary": "This section requires organizations to complete their compliance status in the KYC-SA application, indicating the level of compliance for each applicable control. It mandates providing remediation dates for non-compliant controls and updating the status once compliance is achieved.",
+      "dtia_summary": "This section ensures transparency in security compliance, which is vital for data transfers involving Swift infrastructure and third parties.",
+      "authority": "Swift",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Complete compliance status in KYC-SA application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate level of compliance for each applicable control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide remediation date for non-compliant controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update compliance status once compliant",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Submit A\\nestation Complete your a\\nestation in the KYC-SA application, indicating your level of compliance compliance for each applicable control. If any control is not yet met, provide a remediation date and update your a\\nestation once compliant."
+    },
+    {
+      "section": "5",
+      "heading": "Leverage & Share CSP Data",
+      "title": "Share security data with counterparties",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 7,
+      "primary_category": "Security",
+      "summary": "This section enables organizations to leverage and share Customer Security Programme (CSP) data with counterparties to enhance transparency and trust. It allows sharing threat intelligence via the ISAC portal to support broader financial community resilience and risk management.",
+      "dtia_summary": "This section facilitates secure data sharing with counterparties, which is critical for cross-border data transfers and financial security.",
+      "authority": "Swift",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Make CSP data visible to counterparties",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Use ISAC portal to share threat intelligence",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Stay informed about emerging risks",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "5. Leverage & Share CSP Data Once your a\\nestation is published in KYC-SA, it becomes visible to counterparties—supporting transparency, trust, and streamlined third-party risk management. You can also use the ISAC portal to share threat intelligence and stay informed about emerging risks, helping strengthen the resilience of the wider financial community."
+    }
+  ]
+}

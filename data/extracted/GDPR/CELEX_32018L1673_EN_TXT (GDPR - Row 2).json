@@ -1,78 +1,90 @@
 {
   "country": "GDPR",
   "document": "CELEX_32018L1673_EN_TXT (GDPR - Row 2)",
-  "generated": "2026-07-14T13:22:20",
+  "generated": "2026-07-16T14:13:41",
   "sections": [
     {
       "section": "1",
       "heading": "This Directive establishes minimum rules concerning the definition of criminal offences and sanctions in the area of",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 4,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "This Directive does not apply to money laundering as regards property derived from criminal offences affecting the",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 5,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -80,73 +92,85 @@
     {
       "section": "1",
       "heading": "Member States shall take the necessary measures to ensure that the following conduct, when committed inten­",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 6,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "Member States may take the necessary measures to ensure that the conduct referred to in paragraph 1 is punishable",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 6,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -154,145 +178,172 @@
     {
       "section": "3",
       "heading": "Member States shall take the necessary measures to ensure that:",
+      "title": "Cooperation in multi-member state jurisdiction",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section states that where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+      "summary": "When multiple Member States have jurisdiction over the same offence, they must cooperate to decide which state will prosecute the offender, considering factors like offence territory, offender nationality/residency, victim country, and offender location. The matter may be referred to Eurojust for centralized proceedings.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+          "text": "Member States concerned shall cooperate to decide which will prosecute the offender when multiple Member States have jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account shall be taken of offence territory, offender nationality/residency, victim country, and offender location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The matter shall be referred to Eurojust where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust."
+      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State."
     },
     {
       "section": "4",
       "heading": "In the case of point (c) of paragraph 3 of this Article, Member States may further require that the relevant conduct",
+      "title": "Additional aggravating circumstances for financial crimes",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section allows Member States to require that the relevant conduct in point (c) of paragraph 3 constitutes a criminal offence under the national law of the other Member State or third country, except where the conduct constitutes one of the specified offences under Article 2.",
-      "dtia_summary": "",
+      "summary": "Member States may establish aggravating circumstances for financial crimes, including the value of laundered property or its origin from specific offences. These circumstances can lead to enhanced penalties for money laundering activities.",
+      "dtia_summary": "This section allows Member States to define additional aggravating factors for financial crimes, which may influence DTIA assessments for cross-border money laundering risks.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "In the case of point (c) of paragraph 3 of this Article, Member States may further require that the relevant conduct constitutes a criminal offence under the national law of the other Member State or of the third country where that conduct was committed, except where that conduct constitutes one of the offences referred to in points (a) to (e) and (h) of point (1) of Article 2 and as defined in the applicable Union law.",
+          "text": "Member States may provide that the following circumstances are regarded as aggravating: (a) laundered property of considerable value; (b) laundered property derives from specific offences",
           "obligation_type": "May"
         }
       ],
-      "source_quote": "In the case of point (c) of paragraph 3 of this Article, Member States may further require that the relevant conduct constitutes a criminal offence under the national law of the other Member State or of the third country where that conduct was committed, except where that conduct constitutes one of the offences referred to in points (a) to (e) and (h) of point (1) of Article 2 and as defined in the applicable Union law."
+      "source_quote": "Member States may provide that, in relation to the offences referred to in Article 3(1) and (5) and Article 4, the following circumstances are to be regarded as aggravating circumstances: (a) the laundered property is of considerable value; or (b) the laundered property derives from one of the offences referred to in points (a) to (e) and (h) of point (1) of Article 2."
     },
     {
       "section": "5",
       "heading": "Member States shall take the necessary measures to ensure that the conduct referred to in points (a) and (b) of",
+      "title": "Criminal penalties for specific financial offences",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section requires Member States to take necessary measures to ensure that the conduct referred to in points (a) and (b) of paragraph 1 is punishable as a criminal offence when committed by persons who committed, or were involved in, the criminal activity from which the property was derived.",
-      "dtia_summary": "",
+      "summary": "Member States must establish criminal penalties that are effective, proportionate, and dissuasive for offences defined in Articles 3 and 4. These offences relate to financial crimes such as money laundering and related activities. The penalties must apply to natural persons who commit these offences.",
+      "dtia_summary": "This section establishes minimum criminal penalties for financial crimes, which may impact DTIA requirements for risk assessment of cross-border financial crime activities.",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data"
+      ],
       "requirements": [
         {
-          "text": "Member States shall take the necessary measures to ensure that the conduct referred to in points (a) and (b) of paragraph 1 is punishable as a criminal offence when committed by persons who committed, or were involved in, the criminal activity from which the property was derived.",
+          "text": "Member States shall take necessary measures to ensure offences referred to in Articles 3 and 4 are punishable by effective, proportionate and dissuasive criminal penalties",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall take the necessary measures to ensure that the conduct referred to in points (a) and (b) of paragraph 1 is punishable as a criminal offence when committed by persons who committed, or were involved in, the criminal activity from which the property was derived."
+      "source_quote": "Member States shall take the necessary measures to ensure that the offences referred to in Articles 3 and 4 are punishable by effective, proportionate and dissuasive criminal penalties."
     },
     {
       "section": "1",
       "heading": "Member States shall take the necessary measures to ensure that the offences referred to in Articles 3 and 4 are",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "Member States shall take the necessary measures to ensure that the offences referred to in Article 3(1) and (5) are",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -300,97 +351,118 @@
     {
       "section": "3",
       "heading": "Member States shall also take the necessary measures to ensure that natural persons who have committed the",
+      "title": "Cooperation in multi-member state jurisdiction",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section states that where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+      "summary": "When multiple Member States have jurisdiction over the same offence, they must cooperate to decide which state will prosecute the offender, considering factors like offence territory, offender nationality/residency, victim country, and offender location. The matter may be referred to Eurojust for centralized proceedings.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+          "text": "Member States concerned shall cooperate to decide which will prosecute the offender when multiple Member States have jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account shall be taken of offence territory, offender nationality/residency, victim country, and offender location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The matter shall be referred to Eurojust where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust."
+      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State."
     },
     {
       "section": "1",
       "heading": "Member States shall take the necessary measures to ensure that, in relation to the offences referred to in Article 3(1)",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "Member States may provide that, in relation to the offences referred to in Article 3(1) and (5) and Article 4, the",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -398,73 +470,85 @@
     {
       "section": "1",
       "heading": "Member States shall take the necessary measures to ensure that legal persons can be held liable for any of the",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part i",
       "condition": null,
       "page_start": 7,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "Member States shall take the necessary measures to ensure that legal persons can be held liable where the lack of",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -472,97 +556,118 @@
     {
       "section": "3",
       "heading": "Liability of legal persons under paragraphs 1 and 2 of this Article shall not preclude criminal proceedings from",
+      "title": "Cooperation in multi-member state jurisdiction",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section states that where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+      "summary": "When multiple Member States have jurisdiction over the same offence, they must cooperate to decide which state will prosecute the offender, considering factors like offence territory, offender nationality/residency, victim country, and offender location. The matter may be referred to Eurojust for centralized proceedings.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+          "text": "Member States concerned shall cooperate to decide which will prosecute the offender when multiple Member States have jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account shall be taken of offence territory, offender nationality/residency, victim country, and offender location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The matter shall be referred to Eurojust where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust."
+      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State."
     },
     {
       "section": "1",
       "heading": "Each Member State shall take the necessary measures to establish its jurisdiction over the offences referred to in",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "A Member State shall inform the Commission where it decides to extend its jurisdiction to offences referred to in",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."
@@ -570,97 +675,118 @@
     {
       "section": "3",
       "heading": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and",
+      "title": "Cooperation in multi-member state jurisdiction",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section states that where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+      "summary": "When multiple Member States have jurisdiction over the same offence, they must cooperate to decide which state will prosecute the offender, considering factors like offence territory, offender nationality/residency, victim country, and offender location. The matter may be referred to Eurojust for centralized proceedings.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust.",
+          "text": "Member States concerned shall cooperate to decide which will prosecute the offender when multiple Member States have jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account shall be taken of offence territory, offender nationality/residency, victim country, and offender location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The matter shall be referred to Eurojust where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State. The matter shall, where appropriate and in accordance with Article 12 of Framework Decision 2009/948/JHA, be referred to Eurojust."
+      "source_quote": "Where an offence referred to in Articles 3 and 4 falls within the jurisdiction of more than one Member State and where any of the Member States concerned can validly prosecute on the basis of the same facts, the Member States concerned shall cooperate in order to decide which of them will prosecute the offender, with the aim of centralising proceedings in a single Member State."
     },
     {
       "section": "1",
       "heading": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with",
+      "title": "Member States must implement GDPR-compliant laws by deadline",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section requires Member States to implement national laws, regulations, and administrative provisions to comply with the GDPR by 3 December 2020. They must inform the Commission of these measures and include a reference to the Directive in their official publications.",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Low",
-      "confidence": "High",
+      "summary": "Member States are required to enact national laws, regulations, and administrative provisions that comply with the GDPR by 3 December 2020. They must immediately notify the European Commission of these measures and ensure their official publications include a reference to this Directive. Member States must also establish methods for making such references.",
+      "dtia_summary": "This section establishes a deadline for Member States to implement GDPR-compliant laws, which affects the timeline for data transfer impact assessments in national jurisdictions.",
+      "authority": "European Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020.",
+          "text": "Member States must enact national laws, regulations, and administrative provisions compliant with this Directive by 3 December 2020",
           "obligation_type": "Must"
         },
         {
-          "text": "Member States shall immediately inform the Commission thereof.",
-          "obligation_type": "Notification"
+          "text": "Member States must immediately inform the Commission of these measures",
+          "obligation_type": "Must"
         },
         {
-          "text": "When Member States adopt those measures, they shall contain a reference to this Directive or be accompanied by such a reference on the occasion of their official publication.",
+          "text": "Member States must ensure official publications include a reference to this Directive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member States must establish methods for making such references",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020."
+      "source_quote": "Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 3 December 2020. They shall immediately inform the Commission thereof."
     },
     {
       "section": "2",
       "heading": "Member States shall communicate to the Commission the text of the main provisions of national law which they",
+      "title": "Member States report national law provisions to Commission",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 9,
       "page_end": 9,
       "primary_category": "Other",
-      "summary": "This section mandates Member States to communicate the text of national laws adopted in the field covered by the GDPR to the Commission. The Commission must submit reports by 3 December 2022 and 3 December 2023 assessing compliance and impact on money laundering and fundamental rights.",
-      "dtia_summary": "",
-      "authority": "",
+      "summary": "Member States must communicate the text of their main national law provisions adopted in the field covered by this Directive to the European Commission. This section also outlines reporting timelines for the Commission to assess Member States' compliance with the Directive by 2022 and 2023, including potential legislative amendments based on Member States' information.",
+      "dtia_summary": "This section requires Member States to report national law provisions to the Commission, which impacts the transparency and accountability of data transfer mechanisms across borders.",
+      "authority": "European Commission",
       "financial_relevance": "Medium",
-      "confidence": "High",
+      "confidence": "High (explicit)",
       "topics": [
+        "Cross-border Transfer",
         "Governance",
         "Record Keeping"
       ],
-      "data_types": [],
+      "data_types": [
+        "Personal Information"
+      ],
       "requirements": [
         {
-          "text": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive.",
+          "text": "Member States must communicate the text of their main national law provisions to the Commission",
           "obligation_type": "Must"
         },
         {
-          "text": "The Commission shall, by 3 December 2022, submit a report to the European Parliament and to the Council, assessing the extent to which the Member States have taken the necessary measures to comply with this Directive.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall, by 3 December 2023, submit a report to the European Parliament and to the Council assessing the added value of this Directive with regard to combating money laundering as well as its impact on fundamental rights and freedoms.",
-          "obligation_type": "Notification"
-        },
-        {
-          "text": "The Commission shall take into account the information provided by Member States.",
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2022 assessing Member States' compliance with this Directive",
           "obligation_type": "Must"
+        },
+        {
+          "text": "Commission shall submit a report to the European Parliament and Council by 3 December 2023 assessing the added value of this Directive for combating money laundering and impact on fundamental rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may present a legislative proposal to amend this Directive based on the reports",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "Member States shall communicate to the Commission the text of the main provisions of national law which they adopt in the field covered by this Directive."

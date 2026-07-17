@@ -1,7 +1,7 @@
 {
   "country": "South Africa",
   "document": "pAYMENT ACT",
-  "generated": "2026-07-15T18:58:39",
+  "generated": "2026-07-16T18:48:48",
   "sections": [
     {
       "section": "16",
@@ -13,23 +13,46 @@
       "page_start": 2,
       "page_end": 6,
       "primary_category": "Definitions",
-      "summary": "This section defines key terms used throughout the Payment Act, including 'bank', 'Banks Act', 'branch of a foreign institution', 'clearing', 'clearing, netting and settlement agreements', and other payment system-related terms. These definitions establish the legal framework for understanding payment systems, clearing, settlement, and related activities in South Africa. The definitions are critical for interpreting the Act's provisions on payment systems and financial infrastructure.",
-      "dtia_summary": "Provides foundational definitions for payment system terms that are essential for understanding cross-border payment mechanisms and data flows within the financial system.",
-      "authority": "",
+      "summary": "This section defines key terms used throughout the Payment Act, including 'bank', 'Reserve Bank', 'payment system', 'clearing', 'settlement', and various participant types. These definitions establish the legal framework for payment system operations and participants, specifying what constitutes a bank, a payment system, and the roles of different entities in the financial infrastructure. The definitions also clarify the relationship between the Reserve Bank and other payment system participants.",
+      "dtia_summary": "These definitions establish the foundational terms for payment systems and participants, which are critical for understanding cross-border data transfers involving payment systems. The section specifies what constitutes a 'branch of a foreign institution' and 'payment system participant', which are relevant for international data transfers and system participants.",
+      "authority": "Payment Act, Section 16",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
         "Financial Data",
-        "Customer Data"
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
       ],
       "requirements": [
         {
-          "text": "In this Act, unless the context otherwise indicates-",
-          "obligation_type": "Condition"
-        },
-        {
-          "text": "'bank' means a bank as defined in section 1 of the Banks Act",
+          "text": "In this Act, unless the context otherwise indicates, 'bank' means a bank as defined in section 1 of the Banks Act",
           "obligation_type": "Definition"
         },
         {
@@ -145,39 +168,19 @@
           "obligation_type": "Definition"
         },
         {
-          "text": "'settlement instruction' means an instruction given to a settlement system by a settlement system participant or by a PCH system operator on behalf of a Reserve Bank settlement system participant to effect settlement",
+          "text": "'settlement system' means a system that enables settlement of payment obligations",
           "obligation_type": "Definition"
         },
         {
-          "text": "'settlement obligation' means an indebtedness that is owed by one settlement system participant to another as a result of one or more settlement instructions",
+          "text": "'settlement system participant' means a person that participates in a settlement system",
           "obligation_type": "Definition"
         },
         {
-          "text": "'settlement system' means a system for the discharge of payment or settlement obligations or the discharge of payment and settlement obligations between participants in that system",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "'settlement system participant' means a Reserve Bank settlement system participant or a designated settlement system participant",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "'South African Reserve Bank Act' means the South African Reserve Bank Act, 1989 (Act 90 of 1989)",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "'system operator' means a person, other than a designated settlement system operator, authorised in terms of section 4 (2) (c) to provide services to any two or more persons in respect of payment instructions",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "'systemic risk' means the risk that failure of one or more settlement system participants, for whatever reason, to meet their payment obligations, including the payment obligations of clearing system participants, or their settlement obligations may result in any or all of the other settlement system participants being unable to meet their respective payment or settlement obligations",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "'tertiary co-operative bank' means a tertiary co-operative bank as defined in section 1 of the Co-operative Banks Act, 2007",
+          "text": "'system operator' means a person that operates a payment system",
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "In this Act, unless the context otherwise indicates-"
+      "source_quote": ""
     },
     {
       "section": "16 (part 2)",
@@ -202,33 +205,54 @@
     {
       "section": "16 (part 3)",
       "heading": "Short title (cont.)",
-      "title": "Reserve Bank designation and revocation procedures",
+      "title": "Designation revocation and conditions for clearing system participants",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 10,
       "page_end": 13,
-      "primary_category": "Regulator Powers",
-      "summary": "The Reserve Bank may vary or revoke designations of clearing system participants based on compliance failures, false information, public interest considerations, or retroactive effect restrictions. Designations must be revoked or varied with written notice to participants and publication in the Gazette. No retroactive effect applies to such changes. The Reserve Bank must consider specific factors including compliance with conditions, false information, and public interest when determining variations or revocations.",
-      "dtia_summary": "Designation revocation procedures require written notice to participants and Gazette publication. The Reserve Bank may revoke designations for non-compliance, false information, or public interest reasons. This affects cross-border payment system participants and data handling.",
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Reserve Bank may revoke or vary designations of clearing system participants based on compliance failures, false information provided, public interest considerations, or retroactive effect restrictions. Designation revocation requires written notice to participants and publication in the Gazette. The Reserve Bank must ensure any variation or revocation does not have retroactive effect.",
+      "dtia_summary": "Designation revocation conditions require assessing compliance failures, false information, and public interest before revoking clearing system participants. This affects cross-border data transfers involving payment systems by requiring transparency in participant qualifications.",
       "authority": "Reserve Bank",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "The Reserve Bank may have regard to any or all of the following: (i) failure to comply with conditions; (ii) knowingly furnishing false/misleading information; (iii) public interest; (iv) other factors",
-          "obligation_type": "Condition"
+          "text": "Reserve Bank may vary or revoke designation of clearing system participant",
+          "obligation_type": "Must"
         },
         {
-          "text": "No variation of conditions or revocation shall have retroactive effect",
-          "obligation_type": "Condition"
+          "text": "Reserve Bank may consider failure to comply with designation conditions",
+          "obligation_type": "Must"
         },
         {
-          "text": "The Reserve Bank must vary or revoke designation by notice in the Gazette after written notice to participants",
+          "text": "Reserve Bank may consider knowingly furnishing false or misleading information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank may consider public interest in revocation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Variation or revocation of designation must not have retroactive effect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank must notify settlement system participant and designated participant before varying or revoking designation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank must publish variation or revocation in Gazette",
           "obligation_type": "Must"
         }
       ],
@@ -243,29 +267,47 @@
       "condition": null,
       "page_start": 13,
       "page_end": 16,
-      "primary_category": "Data Sharing",
-      "summary": "The Reserve Bank may access payment system information from participants and require disclosure. Information identifying specific participants is confidential and may only be disclosed to Reserve Bank officers for official duties. The Reserve Bank may disclose information for legal proceedings, court orders, public interest, or if already publicly available. Non-compliance with confidentiality requirements constitutes an offence.",
-      "dtia_summary": "Confidentiality rules for payment system participant information affect data sharing across borders. The Reserve Bank may access participant data but restrict disclosure to authorized personnel for official purposes, impacting cross-border data flows.",
+      "primary_category": "Data Storage",
+      "summary": "The Reserve Bank has access to payment system information and may require participants to provide such information. Information obtained by the Reserve Bank is confidential and may not be disclosed to third parties except for specific purposes like legal proceedings, public interest, or when already publicly available. The Reserve Bank may disclose information in certain circumstances despite confidentiality requirements.",
+      "dtia_summary": "Confidentiality rules for payment system information affect data storage and sharing practices. This section requires participants to provide information to the Reserve Bank while restricting disclosure to specific circumstances, impacting data transfer and storage across borders.",
       "authority": "Reserve Bank",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Data Sharing"
+        "Data Storage",
+        "Data Sharing",
+        "Security"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "The Reserve Bank has access to any information relating to a payment system and must require disclosure on request",
+          "text": "Reserve Bank has access to payment system information",
           "obligation_type": "Must"
         },
         {
-          "text": "Information identifying specific clearing system participants is confidential and may not be disclosed to third parties",
-          "obligation_type": "Must Not"
+          "text": "Participants must provide information to Reserve Bank as required",
+          "obligation_type": "Must"
         },
         {
-          "text": "The Reserve Bank may disclose information for legal proceedings, court orders, public interest, or if already publicly available",
+          "text": "Information obtained by Reserve Bank is confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Confidential information may not be disclosed to third parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank may disclose information in legal proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may disclose information for public interest",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may disclose information that is already publicly available",
           "obligation_type": "May"
         }
       ],

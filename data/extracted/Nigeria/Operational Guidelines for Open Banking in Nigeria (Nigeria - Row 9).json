@@ -1,0 +1,848 @@
+{
+  "country": "Nigeria",
+  "document": "Operational Guidelines for Open Banking in Nigeria (Nigeria - Row 9)",
+  "generated": "2026-07-16T18:33:50",
+  "sections": [
+    {
+      "section": "9",
+      "heading": "",
+      "title": "Anti-money laundering and counter-terrorism financing requirements for open banking",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "AML",
+      "summary": "This section establishes mandatory anti-money laundering (AML) and counter-terrorism financing (CFT) compliance requirements for open banking participants. Financial institutions and fintechs must implement robust AML/CFT controls when exchanging customer data through APIs. The section mandates that all participants adhere to Nigeria's regulatory framework for open banking while ensuring transactions meet AML/CFT standards to prevent illicit financial activities. These obligations apply to all entities involved in the open banking ecosystem including API providers, consumers, and financial institutions.",
+      "dtia_summary": "Requires open banking participants to implement AML/CFT controls when processing customer data transfers, directly impacting cross-border data flows and financial transactions.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "AML",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants must implement AML/CFT controls when exchanging customer data through APIs",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "ANTI-MONEY LAUNDERING (AML) AND COMBATING THE FINANCING OF TERRORISM (CFT) .. 23"
+    },
+    {
+      "section": "12",
+      "heading": "",
+      "title": "Open banking registry and participant governance framework",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "This section establishes the Central Bank of Nigeria's Open Banking Registry (OBR) as a public repository for registered participants in the open banking ecosystem. The OBR requires participants to use their CAC business registration numbers as unique identifiers and mandates technical and non-technical criteria for onboarding. Participants must comply with data governance standards, ensure customer-permissioned data accuracy, and maintain detailed configuration management systems to ensure regulatory oversight and transparency in open banking operations.",
+      "dtia_summary": "Requires participants to register with the Central Bank's Open Banking Registry using CAC numbers, ensuring transparency and regulatory oversight for data exchanges across the ecosystem.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Central Bank shall provide and maintain an Open Banking Registry (OBR) for the industry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Each participant shall be identified by its CAC business registration number",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure customer-permissioned data is accurate, up-to-date and complete",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Central Bank of Nigeria (CBN) shall provide and maintain an Open Banking Registry (OBR) for the industry."
+    },
+    {
+      "section": "12 (part 2)",
+      "heading": "(continued)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 12,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "12 (part 3)",
+      "heading": "(continued)",
+      "title": "Change and communication management for system updates",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "APs/ACs must plan and report changes monthly, except for critical incidents. All changes require detailed reporting and notifications to stakeholders at specific intervals before, during, and after implementation. The system must also provide secure real-time communication platforms for incident responders with text, voice, and video capabilities, while prohibiting email as a sufficient incident management method.",
+      "dtia_summary": "Requires detailed change reporting and stakeholder notifications for system updates, with specific timing for communications. Mandates secure real-time communication channels for incident management, excluding email.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "APs/ACs shall collate change requirements and plan changes for the next month",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must be reported with sufficient details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders 24 hours before intended change",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders 1 hour before intended change",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders immediately after completion and service restoration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders 30 minutes after change completion if prolonged or failed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders at commencement of rollback",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All changes must notify stakeholders when services have been restored",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APs/ACs shall provide secure real-time communication platforms for incident responders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The platform must accommodate text, voice, and video conferencing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Formal channels must be used for incident reporting and management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Email is not a sufficient method for incident management",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "APs/ACs shall collate change requirements and plan the changes for the next month except in cases where the change is expected to resolve a critical incident or problem. All changes, either pre-empted or responsive, shall be: reported with sufficient details; accompanied with notifications to stakeholders that could be affected by the change; 24 hours before the intended change; 1 hour before the intended change; immediately the change has been completed and services have been confirmed restored; 30 minutes after the change should have been completed but has been prolonged or the change failed; at the point of commencing a change rollback; and when services have been restored."
+    },
+    {
+      "section": "12 (part 4)",
+      "heading": "(continued)",
+      "title": "Information sharing with consent and verification",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 30,
+      "primary_category": "Data Sharing",
+      "summary": "APs must share customer data with ACs only after obtaining valid customer consent authenticated via two-factor authentication. The consent must include specific details about the AC, data usage purpose, duration, access frequency, and withdrawal process. APs must verify consent through token creation, encryption, and real-time validation to ensure ongoing compliance with customer permissions.",
+      "dtia_summary": "Requires strict consent verification with real-time validation and token-based authorization for data sharing between APs and ACs, ensuring customer control over data usage.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "APs shall only share customer information with ACs upon valid customer consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APs must authenticate consent using two-factor authentication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include full legal name of AC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include shortened or brand name of AC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include accreditation/registration number of AC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include business registration number of AC with CAC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must specify access level to data by service category",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must describe the nature of request including access type, duration, frequency, and anonymous data analysis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include information on process for withdrawal of consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include consequences of withdrawal of consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The consent must include information on redundant data and customer rights to deletion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APs must create a token reflecting rights granted to AC by customer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The token must be encrypted and securely exchanged with AC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All responses must be in real-time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APs must validate token to ensure it continues to meet granted rights",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APs shall only share information of a customer with an AC, upon presentation of a valid proof of consent by the customer, and shall authenticate such consent to ensure it emanates from its customer."
+    },
+    {
+      "section": "12 (part 5)",
+      "heading": "(continued)",
+      "title": "Cybersecurity Incident Reporting and Data Breach Management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 37,
+      "primary_category": "Security",
+      "summary": "Participants must periodically assess technology risks, oversee IT functions, and develop risk management reports. They must implement security measures, establish incident management procedures, and report major security incidents to the Central Bank of Nigeria (CBN) without undue delay. CBN and stakeholders must assess incidents to protect financial system stability.",
+      "dtia_summary": "Requires immediate reporting of major security incidents to CBN, incident response procedures, and a three-line defense model for risk management. Critical for assessing incident handling capabilities in cross-border data transfers.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Periodically consider reputation, customer protection, legal issues, controls, and security measures for computer systems, networks, data centres, operations and backup facilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exercise oversight of technology risks and ensure IT function supports business strategies and objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop risk management reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement appropriate security measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish incident management procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report major security incidents without undue delay to competent authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure incident reporting obligations do not conflict with other regulations",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Notify CBN and stakeholders without undue delay of incidents and remediation measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess incidents with respect to ecosystem and take measures to protect financial system stability",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Participants shall notify the CBN and other stakeholders without undue delay of incidents and remediation measures"
+    },
+    {
+      "section": "12 (part 6)",
+      "heading": "(continued)",
+      "title": "Open Banking API Standards and Consent Management",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 46,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Participants must implement API standards for consent management, including explicit customer consent, authentication, and authorization processes. Consent must be time-bound, with clear options to accept, decline, or revoke permissions. Participants must also develop data breach policies, incident management procedures, and ensure data integrity through robust security frameworks.",
+      "dtia_summary": "Defines strict consent mechanisms for data sharing across open banking ecosystems, requiring explicit, time-bound consent with revocation options. Critical for assessing data transfer compliance in cross-border contexts.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Develop and implement data breach policy and procedure as part of information security management system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Carry out regular risk assessment and monitoring",
+          "obligation_type": ""
+        },
+        {
+          "text": "Ensure procedures for managing data incidents are clearly set out",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess impact of each data incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Activate processes to limit incident impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adopt three-line defence model into business standards for risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure efficient, regular, and timely communication during data incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Start recovery process promptly to minimize service disruption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct robust analysis of incident causes, response efficacy, lessons learned, and preventive actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regularly test adherence to incident management policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop incident management procedure applicable to all workers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply incident management procedure to employees, contractors, directors, external consultants, third-party representatives, business partners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify and log data incidents including initial alerts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Convene management team including legal, privacy compliance officer and executives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct impact assessment and initiate mitigating actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Resolve incidents and close them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct post-incident review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement time-bound consent with explicit options to accept, decline, or revoke",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide clear information on data requested, purpose, and terms in easy language",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure consent is explicit and time-bound, not perpetual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Allow customers to opt-out periodically",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide accurate information on time-bound permissions after consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use multi-factor authentication for customer verification",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Participants shall develop and implement a data breach policy and procedure as part of information security management system"
+    },
+    {
+      "section": "12 (part 7)",
+      "heading": "(continued)",
+      "title": "Tiered participants' minimum security and governance requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 52,
+      "primary_category": "Security",
+      "summary": "Sponsors must ensure Tier 0 participants have competence and capacity. Tier 1 participants require corporate governance and risk management. Tier 2 participants must implement corporate governance, risk management, operational competence, internal controls, insurance, stakeholder communication, technology planning, background checks, and information security frameworks. Tier 3 participants have similar requirements but with specific focus on security frameworks and business continuity.",
+      "dtia_summary": "This section establishes tiered security and governance requirements for open banking participants, directly impacting data transfer safeguards and third-party risk management in cross-border financial data contexts.",
+      "authority": "CBN",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Processing",
+        "Data Storage",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Tier 0 participants must have competence and capacity to carry out the activity and provide evidence of good risk management practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 1 participants must have adequate corporate governance, risk management policies and procedures to manage risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must ensure adequate corporate governance, risk management policies and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must ensure operational competence and professional experience of key personnel",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must ensure adequate internal control environment and insurance coverage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must have procedures for communicating with stakeholders on key issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must have policies for technology planning to ensure proper management of technologies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must have processes for periodic background checks on employees and vendors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must implement information security frameworks ensuring confidentiality, integrity and availability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tier 2 participants must have business continuity management and disaster recovery policies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Sponsors shall ensure that Tier 0 participants, at the minimum, have competence and capacity to carry out the activity, and provide evidence of good risk management practices."
+    },
+    {
+      "section": "12 (part 8)",
+      "heading": "(continued)",
+      "title": "Open banking security standards and operational requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 58,
+      "primary_category": "Security",
+      "summary": "Participants must comply with minimum security principles including layered security, separation of duties, least privilege, zero trust, dual control, need to know, and privacy. They must implement security policies for API connections, adopt risk management practices, conduct regular audits, ensure compliance with cybersecurity frameworks, and maintain robust technical security controls including access control, authentication, authorization, and data protection.",
+      "dtia_summary": "This section mandates comprehensive security standards for open banking operations, directly influencing data transfer mechanisms and third-party data handling in financial contexts.",
+      "authority": "CBN",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Data Storage",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants must comply with minimum security principles such as layered security, separation of duties, least privilege, zero trust, dual control, need to know, and privacy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must develop, maintain, and implement security policies for secure API connections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must adopt risk management practices as defined in Appendix II",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must regularly evaluate organizational policies for compliance with legal and regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement performance metrics to monitor compliance status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure status reports form an audit trail for tracking changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must obtain objective third-party assessments and audit reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must review and remediate security-related loss exposures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure procurement of open banking infrastructure complies with extant laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must enforce ownership for protection of Personal Information and Financial Transaction data through contracts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure change management processes with suppliers do not violate information security policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure suppliers have documented evidence of implementing information security standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must ensure staff and service providers pass periodic security checks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must develop and maintain security awareness culture for staff, customers and third parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must conduct periodic security awareness and simulations for threat response",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement zero-trust architecture",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must maintain minimal user access rights based on business function and security policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must align identity and access management to roles and responsibilities using least-privilege principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement strong authentication including Multi-Factor Authentication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must use OAuth 2.0 with OpenID Connect for authentication protocols",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement mutual authentication over Transport Layer Security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement open banking security profiles in compliance with Financial-grade API specifications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must implement digital tokens to ensure third parties act within granted permissions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must provide evidence that third-party services are entitled to use authorization tokens",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Participants shall implement zero-trust architecture."
+    },
+    {
+      "section": "12 (part 9)",
+      "heading": "(continued)",
+      "title": "Physical security and customer experience standards for open banking operations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 66,
+      "primary_category": "Security",
+      "summary": "Participants must implement physical security controls aligned with industry standards, restrict and monitor access to sensitive premises, and log all entry points. They must also ensure customer experience principles including control, speed, transparency, and security, while providing clear information on data usage, consent management, and customer protection measures.",
+      "dtia_summary": "Requires physical security protocols and customer experience safeguards that impact data storage and transfer security, particularly for sensitive open banking data.",
+      "authority": "Central Bank of Nigeria (CBN)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Restrict physical access to critical areas in line with Open Banking Industry Data Security Standard physical security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Restrict and monitor access to sensitive open banking premises by establishing perimeter restrictions, such as fences, walls, and security devices on interior and exterior doors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Log and monitor all entry points to open banking premises and register all visitors, including contractors and vendors, to the site",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure customers are provided with right tools and clarity of information at the right time to make informed decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure each interaction has appropriate speed, clarity and efficiency without compromising security and control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide progressive levels of information in plain language that inform and support customer decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure clarity on information required from customers, the reason, purpose and consequences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide explicit clarity and reassurance in relation to data definition, use, security and protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure clarity of information presented and described in a manner that ensures each API Standard Customer journey is easy to understand",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure customers are provided information on procedures to exit, revoke consent and access rights at time of onboarding and authorising data access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish clear data protection and retention policies with protocols for safeguarding information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure data obtained for open banking is retained for a minimum period of seven (7) years, except when legally bound",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enable customer exercise right to revoke consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure use access or storage of customer data is as provided in the Regulatory Framework on Open Banking in Nigeria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure third parties storing customer data are equipped with capabilities to manage data acquired through Open Banking APIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Inform customers on process for handling redundant data and right to revoke consent as part of withdrawal process",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customers shall provide explicit consent for use of their data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customers' consent shall be obtained in the same form the agreement was presented and a copy preserved by participant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customer consent shall be re-validated annually and/or where AC has not used service for 180 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure connection terminates upon expiration of consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish appropriate customer authentication methods such as multi-factor authentication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure customers always have control over data and ability to access, manage or withdraw consent at any time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop and agree on consent management mechanism with clear policies and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose to customers implications of data sharing before authorising and agreeing to terms of consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify customers of security updates regularly in preferred form and language",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish procedures for handling customer complaints and resolving disputes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish appropriate liability models and redress mechanisms as approved by the Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop customer complaint resolution mechanisms with clearly defined roles and responsibilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide multiple dedicated channels to receive and handle customer complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide complaints channels that are effective, functional, efficient and easily accessible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide complaints channels that generate unique identification number and acknowledge complaints within 24 hours of lodgment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide emergency channels for reporting time-sensitive issues especially fraud-related complaints at all times",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide adequate redress mechanism and dispute resolution process as approved by the Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Communicate to customer within 24 hours of complaint receipt an acknowledgment containing unique identification number, contact details, expected resolution timeline, escalation options, and assurance of addressing complaint",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Resolve complaints within 48 hours of receipt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Detail comprehensive dispute resolution processes including timelines in Service Level Agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Resolve disputes among participants within timelines agreed in their SLAs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Escalate unresolved disputes to CBN for resolution if SLA is breached without resolution or participant is dissatisfied with resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cooperate with CBN in resolving disputes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure customers escalate complaints to Consumer Protection Department of CBN after exhausting participant's internal dispute resolution process",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure complaints are escalated to CBN only if participant fails to resolve within 14 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Participants shall ensure that customers shall be provided with the right tools and clarity of information at the right time that will enable them to make informed decision."
+    },
+    {
+      "section": "12 (part 10)",
+      "heading": "(continued)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 66,
+      "page_end": 68,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

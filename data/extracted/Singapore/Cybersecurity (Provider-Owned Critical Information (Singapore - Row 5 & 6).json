@@ -1,0 +1,145 @@
+{
+  "country": "Singapore",
+  "document": "Cybersecurity (Provider-Owned Critical Information (Singapore - Row 5 & 6)",
+  "generated": "2026-07-16T18:46:04",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "These Regulations are the Cybersecurity (Provider-Owned Critical Information",
+      "title": "Regulations definition and effective date",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Definitions",
+      "summary": "These Regulations formally establish the Cybersecurity (Provider-Owned Critical Information Infrastructure) Regulations 2018 and specify their effective date as 31 August 2018. The regulations are subject to being repealed by subsequent legislation effective from 31 October 2025.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "These Regulations are the Cybersecurity (Provider-Owned Critical Information Infrastructure) Regulations 2018",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "These Regulations come into operation on 31 August 2018",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "These Regulations are the Cybersecurity (Provider-Owned Critical Information Infrastructure) Regulations 2018 and come into operation on 31 August 2018."
+    },
+    {
+      "section": "2",
+      "heading": "In these Regulations, unless the context otherwise requires —",
+      "title": "Definitions of critical information infrastructure components",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 8,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms related to provider-owned critical information infrastructure, including owner-controlled interconnected systems, owner-controlled non-interconnected systems, relevant computer systems, and supplier-controlled systems. It also specifies what constitutes a working day for regulatory purposes.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "owner-controlled interconnected computer or computer system means any computer or computer system under the control of the owner of a provider-owned critical information infrastructure, that is interconnected with or that communicates with the provider-owned critical information infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "owner-controlled non-interconnected computer or computer system means any computer or computer system under the control of the owner of a provider-owned critical information infrastructure, that is not the provider-owned critical information infrastructure or an owner-controlled interconnected computer or computer system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "relevant computer or computer system means — (a) a provider-owned critical information infrastructure; (b) an owner-controlled interconnected computer or computer system; (c) an owner-controlled non-interconnected computer or computer system; or (d) a supplier-controlled interconnected computer or computer system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "supplier-controlled interconnected computer or computer system means any computer or computer system under the control of a supplier to the owner of a provider-owned critical information infrastructure, that is interconnected with or that communicates with the provider-owned critical information infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "working day means any day except a Saturday, Sunday or public holiday",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "owner-controlled interconnected computer or computer system means any computer or computer system under the control of the owner of a provider-owned critical information infrastructure, that is interconnected with or that communicates with the provider-owned critical information infrastructure; owner-controlled non-interconnected computer or computer system means any computer or computer system under the control of the owner of a provider-owned critical information infrastructure, that is not the provider-owned critical information infrastructure or an owner-controlled interconnected computer or computer system; relevant computer or computer system means — (a) a provider-owned critical information infrastructure; (b) an owner-controlled interconnected computer or computer system; (c) an owner-controlled non-interconnected computer or computer system; or (d) a supplier-controlled interconnected computer or computer system; supplier-controlled interconnected computer or computer system means any computer or computer system under the control of a supplier to the owner of a provider-owned critical information infrastructure, that is interconnected with or that communicates with the provider-owned critical information infrastructure; working day means any day except a Saturday, Sunday or public holiday."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "In these Regulations, unless the context otherwise requires — (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 8,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2 (part 3)",
+      "heading": "In these Regulations, unless the context otherwise requires — (cont.)",
+      "title": "Cybersecurity risk assessment requirements for provider-owned critical information infrastructure",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Security",
+      "summary": "The owner of provider-owned critical information infrastructure must complete the first cybersecurity risk assessment within six months of receiving notice under section 7(1) or (1A) of the Act. The assessment must include a description of every identified cybersecurity risk, the evaluated likelihood and consequences of each risk materializing, and the actions the owner will take for each risk. The assessment must be repeated annually thereafter, with time reckoning starting from the initial notice date if the infrastructure designation is extended.",
+      "dtia_summary": "This section mandates specific cybersecurity risk assessment content and timelines for provider-owned critical information infrastructure, directly impacting how organizations conduct risk assessments for data transfers involving critical infrastructure.",
+      "authority": "Cybersecurity (Provider-Owned Critical Information) Regulations",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A description of every identified cybersecurity risk to the provider-owned critical information infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluated likelihood and possible consequences of the materialisation of each identified cybersecurity risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identified action that the owner of the provider-owned critical information infrastructure will take in respect of each identified cybersecurity risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "First cybersecurity risk assessment must be completed within six months after the date of notice issued under section 7(1) or (1A) of the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Time reckoning for annual cybersecurity risk assessments starts from the date of initial notice if infrastructure designation is extended",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Singapore Statutes Online: (ii) a description of every identified cybersecurity risk to the provider-owned critical information infrastructure; (iii) the evaluated likelihood and possible consequences of the materialisation of each identified cybersecurity risk; (iv) the identified action that the owner of the provider-owned critical information infrastructure will take in respect of each identified cybersecurity risk."
+    }
+  ]
+}

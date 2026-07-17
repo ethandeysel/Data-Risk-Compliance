@@ -1,0 +1,1791 @@
+{
+  "country": "India",
+  "document": "SEBI Master Circular for Alternative Investment Funds (India - Row 25)",
+  "generated": "2026-07-16T15:58:49",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Chapter 1 – Online Filing System for AIFs1",
+      "title": "Online filing requirement for AIF registration",
+      "chapter": "Chapter 25",
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Data Collection",
+      "summary": "All applicants seeking registration as an Alternative Investment Fund (AIF) must submit applications exclusively online via the SEBI Intermediary Portal at https://siportal.sebi.gov.in. Similarly, all SEBI-registered AIFs must file compliance reports and submit applications for requests under AIF Regulations and circulars through this portal. This section establishes the mandatory online filing system for AIF registration and ongoing compliance.",
+      "dtia_summary": "Mandates exclusive online filing for AIF registration and compliance reports through SEBI's portal, requiring data transfers to be handled via this secure channel. This impacts data transfer mechanisms for AIFs.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "All applicants seeking registration as an AIF must submit applications only online through SEBI Intermediary Portal",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All SEBI-registered AIFs must file compliance reports and submit applications for requests under AIF Regulations through SEBI Intermediary Portal",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All applicants desirous of seeking registration as an Alternative Investment Fund (‘AIF') are required to submit their applications only online, through the SEBI Intermediary Portal at https://siportal.sebi.gov.in. Further, all SEBI registered AIFs are required to file their compliance reports and submit applications for any request under the provisions of AIF Regulations and circulars issued thereunder, only through the SEBI Intermediary Portal."
+    },
+    {
+      "section": "2",
+      "heading": "compliance requirements",
+      "title": "PPM template and disclosure requirements",
+      "chapter": "Chapter 2",
+      "part": null,
+      "condition": null,
+      "page_start": 7,
+      "page_end": 11,
+      "primary_category": "Data Collection",
+      "summary": "AIFs must use a standardized Private Placement Memorandum (PPM) template with two parts: minimum disclosures (Part A) and supplementary sections (Part B). The template varies by AIF category (I, II, III) and requires detailed fee structures, disciplinary histories, and compliance disclosures. AIFs must include disciplinary histories of sponsors, managers, directors, and trustees for the last 5 years, with specific monetary thresholds for penalties.",
+      "dtia_summary": "Requires standardized PPM templates with detailed disclosure requirements, including disciplinary histories and fee structures, impacting data transfer for AIFs. The disciplinary history disclosures may involve cross-border data transfers.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "PPM must have two parts: Part A for minimum disclosures and Part B for supplementary information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PPM template varies by AIF category (I, II, III) with specific annexures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PPM must include detailed tabular example of fees and charges applicable to investors including distribution waterfall",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PPM must include disciplinary history of AIF, sponsor, manager, directors/partners/promoters and associates for the last 5 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disciplinary history must include details of outstanding/pending cases, criminal/civil prosecutions, non-payment of statutory dues, defaults against banks, contingent liabilities, economic offences, civil offences, compliance findings, penalties, disputed tax liabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disciplinary history must include disciplinary actions taken by Board or regulatory authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disciplinary history must be applicable for the last 5 years and where monetary penalty is greater than 5 lakh rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disciplinary history does not apply to personal capacity liabilities for individuals",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Private Placement Memorandum (‘PPM') is a primary document in which all the necessary information about the AIF is disclosed to prospective investors. To ensure that a minimum standard of disclosure is made available in the PPM, a template has been mandated for the PPM, providing certain minimum level of information in a simple and comparable format."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "compliance requirements (cont.)",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "Chapter 3 – Registration related clarifications",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "Chapter 4 - Investment in AIFs12",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "5",
+      "heading": "Chapter 5 - Operational and prudential norms for Category III AIFs",
+      "title": "Operational and prudential norms for Category III AIFs",
+      "chapter": "Chapter 4",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 21,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Category III Alternative Investment Funds (AIFs) must disclose the basis for calculating investment concentration norms in their Placement Prospects Memorandum (PPM). The basis cannot be changed during the scheme's term. If using NAV for calculations, they must adhere to specific rules: use NAV from the business day before investment, exclude borrowed funds, and rectify passive breaches within 30 days. These norms ensure transparency and stability in investment concentration.",
+      "dtia_summary": "This section imposes specific calculation rules for investment concentration norms using NAV or investable funds, with strict timeframes for breach rectification. It affects cross-border data transfers by requiring precise calculation methods and timely breach reporting.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Category III AIFs must disclose the basis for calculating investment concentration norm in the PPM",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The basis for calculating investment concentration norm shall not be changed during the term of the scheme",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Category III AIFs using NAV must calculate investment limits based on NAV from the business day before investment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "NAV of the AIF must exclude any funds borrowed by the AIF",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Passive breaches of concentration norms must be rectified within 30 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All Category III AIFs shall disclose the basis for calculation of investment concentration norm in the PPM of their schemes."
+    },
+    {
+      "section": "6",
+      "heading": "Chapter 6 – Norms for Special Situation Funds (SSF) 24",
+      "title": "Special Situation Funds (SSF) norms",
+      "chapter": "Chapter 5",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Special Situation Funds (SSFs) must maintain a minimum corpus of ₹100 crore. They require minimum investments of ₹10 crore from non-accredited investors, ₹5 crore from accredited investors, and ₹2.5 lakh from employees/directors. SSFs acting as resolution applicants must comply with Insolvency and Bankruptcy Code requirements. They also face restrictions on acquiring stressed loans from specific jurisdictions.",
+      "dtia_summary": "This section sets minimum capital requirements and investor eligibility for SSFs, which impacts cross-border data transfers through investment in offshore entities and stressed loans.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "SSFs must have a corpus of at least ₹100 crore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SSFs must accept minimum investment of ₹10 crore from non-accredited investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SSFs must accept minimum investment of ₹5 crore from accredited investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SSFs must accept minimum investment of ₹2.5 lakh from employees/directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SSFs acting as resolution applicants must comply with Insolvency and Bankruptcy Code requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Each scheme of SSF shall have a corpus of at least one hundred crore rupees."
+    },
+    {
+      "section": "7",
+      "heading": "be stipulated or issued by the RBI and SEBI from time to time. In this regard, the",
+      "title": "Overseas investment guidelines for AIFs",
+      "chapter": "Chapter 7",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 25,
+      "primary_category": "Cross-border Transfer",
+      "summary": "AIFs may invest in offshore venture capital undertakings up to 25% of their investable funds, subject to a combined USD 1.5 billion limit. Investments must be in countries with securities regulators that are FATF signatories or have bilateral agreements with SEBI. AIFs cannot invest in countries with strategic AML/CTF deficiencies or insufficient progress on FATF requirements. They must comply with FEMA regulations and cannot form joint ventures while making overseas investments.",
+      "dtia_summary": "This section defines strict conditions for AIFs to invest abroad, including FATF compliance checks and restrictions on jurisdictions with AML/CTF deficiencies, directly impacting cross-border data transfers.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "AML",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs may invest in offshore venture capital undertakings up to 25% of investable funds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investments must be in countries with securities regulators that are FATF signatories or have bilateral agreements with SEBI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs cannot invest in countries with strategic AML/CTF deficiencies or insufficient progress on FATF requirements",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "AIFs must comply with FEMA regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs cannot form joint ventures while making overseas investments",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "AIFs may invest in equity and equity linked instruments only of off-shore venture capital undertakings, subject to overall limit of USD 1500 million"
+    },
+    {
+      "section": "8",
+      "heading": "Chapter 8 – Investment in units of AIFs28",
+      "title": "Investment in units of AIFs",
+      "chapter": "Chapter 7",
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 26,
+      "primary_category": "Cross-border Transfer",
+      "summary": "AIFs may invest in units of other AIFs without labeling themselves as Fund of AIFs. Existing AIFs can simultaneously invest in securities and AIF units with at least two-thirds approval from unit holders. They must disclose proposed allocations, fee attributions, compliance processes, and relationships with other AIFs in their PPMs. Pooling vehicles must be registered as AIFs if created solely for AIF investments.",
+      "dtia_summary": "This section governs cross-border investment in AIF units, requiring disclosures and approvals that affect data transfer mechanisms between funds.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs may invest in units of other A's without labeling themselves as Fund of AIFs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Existing AIFs may invest in securities and AIF units with two-thirds approval from unit holders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose proposed allocation of investment in other AIF units",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose portion of fees and expenses attributable to AIF unit investments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose compliance processes for investment conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose relationships with other AIFs managed by the same sponsor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Pooling vehicles must be registered as AIFs if created solely for AIF investments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "AIFs may invest in an investee company up to a specified limit, directly or through investment in the units of other AIFs."
+    },
+    {
+      "section": "9",
+      "heading": "time. In this regard, the following is specified:",
+      "title": "CDS trading restrictions for Alternative Investment Funds",
+      "chapter": "Chapter 9",
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 28,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Category I and II AIFs may only buy CDS for hedging purposes. Category III AIFs may buy CDS for hedging or other purposes within permissible leverage limits. Category III AIFs may sell CDS using earmarked government bonds to cover exposure without counting as leverage. Total exposure to any investee company must comply with concentration norms. AIFs must report CDS transactions to custodians within one business day. Custodians must monitor compliance with leverage and exposure limits. Category III AIFs must follow specific breach remediation procedures if leverage limits are exceeded. Unhedged positions exceeding 25% of investable funds require unit holder notification. Category I and II AIFs must maintain a 30-day cooling-off period between leverage activities. CDS transactions must occur on SEBI or RBI-regulated platforms. AIFs must comply with RBI's Credit Derivatives Directions.",
+      "dtia_summary": "CDS trading imposes specific leverage limits, exposure caps, and reporting requirements for AIFs. These restrictions affect cross-border data flows if CDS transactions involve international entities or data from foreign markets.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Category I and II AIFs may buy CDS on debt securities only for hedging",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIFs may buy CDS for hedging or other purposes within permissible leverage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIFs may sell CDS using earmarked government bonds equal to CDS exposure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Total exposure to any investee company must comply with concentration norms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must report CDS transactions to custodians within one business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Custodians must monitor compliance with leverage and exposure limits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIFs must report breach of leverage limits within one business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIFs must rectify breach by end of next trading day and report",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Custodians must report breach to SEBI within one business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unhedged positions exceeding 25% of investable funds require unit holder notification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category I and II AIFs must maintain 30-day cooling-off period between leverage activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CDS transactions must occur on SEBI or RBI-regulated platforms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must comply with RBI's Credit Derivatives Directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9.1.1. Category I AIFs and Category II AIFs may buy CDS on underlying investment in debt securities, only for the purpose of hedging."
+    },
+    {
+      "section": "10",
+      "heading": "platform by AIFs31",
+      "title": "RFQ platform requirements for Corporate Bond trades",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 29,
+      "primary_category": "Cross-border Transfer",
+      "summary": "AIFs must conduct at least 10% of their monthly secondary market trades in Corporate Bonds via RFQ platform. Transactions can be placed in one-to-one or one-to-many modes, but trades where AIFs are on both sides must use one-to-one mode. One-to-many trades with other AIFs count as one-to-many, not one-to-one.",
+      "dtia_summary": "RFQ platform mandates affect data transfer by requiring specific trade execution mechanisms for Corporate Bonds, impacting cross-border data flows in financial transactions.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs must undertake at least 10% of monthly secondary market trades in Corporate Bonds via RFQ platform",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must use one-to-one mode for trades where they are on both sides of the trade",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "One-to-many trades with other AIFs count as one-to-many, not one-to-one",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10.1. AIFs shall undertake at least 10% of their total secondary market trades in Corporate Bonds by value in a month by placing/seeking quotes on the RFQ platform."
+    },
+    {
+      "section": "11",
+      "heading": "Chapter 11 - Other prudential and operational norms and related clarifications",
+      "title": "Investment and distribution clarifications for AIFs",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 31,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Sponsor/manager loss sharing must be pro rata to their holding in AIF. Continuing interest must be maintained pro rata to funds raised. Real estate/infrastructure investments require at least one project per investee. Prior approval from investors required for investments in associates or other AIFs. Category II AIFs must have more unlisted securities in portfolio. Schemes with priority distribution models cannot accept new commitments until SEBI clarifies.",
+      "dtia_summary": "Investment and distribution rules affect data transfer by specifying loss sharing, portfolio composition, and investor approval mechanisms for cross-border financial data flows.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Sponsor/manager loss sharing must be pro rata to their holding in AIF",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Continuing interest must be maintained pro rata to funds raised",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Real estate/infrastructure investments require at least one project per investee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prior approval from investors required for investments in associates or other AIFs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category II AIFs must have more unlisted securities in portfolio",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Schemes with priority distribution models cannot accept new commitments until SEBI clarifies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11.1.1. With respect to investment by the sponsor/manager in the AIF, the sharing of loss by the sponsor/manager shall not be less than pro rata to their holding in the AIF vis-à-vis other unit holders."
+    },
+    {
+      "section": "12",
+      "heading": "Chapter 12 – Framework for Accredited Investors35",
+      "title": "Accredited Investors framework for AIFs",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 34,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Accreditation agencies must verify KYC and financial information for investors. Accredited investors may access lower ticket sizes and regulatory concessions. Accreditation certificates are valid for two or three years depending on financial history. LVF schemes can launch without filing placement memoranda with SEBI through merchant bankers.",
+      "dtia_summary": "Accredited Investors framework impacts data transfer by enabling specific investor types to access financial data with reduced regulatory burdens, affecting cross-border data flows.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Accreditation agencies must verify KYC and financial information for investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accredited investors may access lower ticket sizes and regulatory concessions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Accreditation certificates are valid for two or three years depending on financial history",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "LVF schemes can launch without filing placement memoranda with SEBI through merchant bankers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12.2. Under the aforesaid framework, AIs may avail flexibility in minimum investment amount or concessions from specific regulatory requirements applicable to investment products, subject to conditions applicable for specific products/services under SEBI (Alternative Investment Funds) Regulations, 2012, SEBI (Portfolio Managers) Regulations, 2.2020 and SEBI (Investment Advisers) Regulations, 2013."
+    },
+    {
+      "section": "13",
+      "heading": "Chapter 13 – Obligations of manager, sponsor and trustee of AIFs",
+      "title": "Obligations of AIF managers, sponsors and trustees",
+      "chapter": "Chapter 12",
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 37,
+      "primary_category": "Other",
+      "summary": "AIFs must designate a Compliance Officer who is not the CEO or equivalent role, responsible for monitoring compliance with SEBI regulations. Key management personnel include members of the investment team, decision-makers, and persons declared by the AIF through trustee or board. AIFs must disclose key management personnel in PPMs and notify investors of changes. Custodians must be appointed prior to first investment, with specific timelines for Category I and II AIFs with corpus under INR 500 crore. Managers must ensure compliance with Regulation 20(11A) for custodians who are associates of the sponsor or manager. AIFs must submit quarterly reports to SEBI through the intermediary portal and maintain records for compliance.",
+      "dtia_summary": "Requires AIFs to designate compliance officers, disclose key personnel, appoint custodians with specific timelines, and submit quarterly reports to SEBI. These obligations impact data transfer and storage by mandating personnel disclosures and custodian appointments for cross-border AIF operations.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs shall ensure Manager designates Compliance Officer who is not CEO or equivalent role",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance Officer must monitor compliance with SEBI Act, AIF Regulations and circulars",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Key management personnel include members of investment team, decision-makers, and persons declared by AIF",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose key management personnel in PPMs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Changes in key management personnel must be intimated to investors and Board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Custodian for AIF must be appointed prior to first investment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category I and II AIFs with corpus ≤ INR 500 crore must appoint custodian by Jan 31, 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Managers must ensure compliance with Regulation 20(11A) for custodians who are associates of sponsor/manager",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Information for compliance must be incorporated in quarterly reporting format on SEBI Intermediary Portal",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 13 – Obligations of manager, sponsor and trustee of AIFs"
+    },
+    {
+      "section": "14",
+      "heading": "Chapter 14 – Constitution of investment committee43",
+      "title": "Investment committee constitution for AIFs",
+      "chapter": "Chapter 13",
+      "part": "part o",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "Managers may form Investment Committees to approve AIF decisions with certain conditions. Investors do not need consent for changes in ex-officio external members. SEBI requires clarification on applicability of foreign exchange rules for Investment Committees with non-resident Indian members. Applications with external non-resident Indian members must wait for clarification before processing.",
+      "dtia_summary": "Specifies conditions for Investment Committee formation, including requirements for non-resident Indian members, which may impact data transfer and storage across borders for AIFs.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Manager may constitute Investment Committee to approve AIF decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investment Committee must have waiver for compliance with Regulation 20(8)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investor consent not required for changes in ex-officio external members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications with external non-resident Indian members require SEBI clarification before processing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 14 – Constitution of investment committee"
+    },
+    {
+      "section": "15",
+      "heading": "Chapter 15 – Reporting by AIFs",
+      "title": "Quarterly reporting and compliance testing for AIFs",
+      "chapter": "Chapter 14",
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 40,
+      "primary_category": "Other",
+      "summary": "AIFs must submit quarterly reports to SEBI via the intermediary portal within 15 days of quarter-end. Managers must prepare and submit Compliance Test Reports (CTRs) within 30 days of financial year-end to trustees/sponsors. CTRs must be revised within 15 days if observations are received, and violations must be reported to SEBI immediately.",
+      "dtia_summary": "Mandates quarterly reporting and annual compliance testing for AIFs, which impacts data transfer and storage by requiring detailed reporting on investment activities and compliance status.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs must submit quarterly activity reports to SEBI within 15 days of quarter-end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reports must be submitted online through SEBI Intermediary Portal",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must prepare Compliance Test Report (CTR) within 30 days of financial year-end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CTR must be submitted to trustee/sponsor within 30 days of financial year-end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must revise CTR within 15 days of receiving observations/comments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Violations must be reported to SEBI immediately by trustee/sponsor",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 15 – Reporting by AIFs"
+    },
+    {
+      "section": "16",
+      "heading": "Chapter 16 – Performance Benchmarking of AIFs48",
+      "title": "Performance benchmarking for AIFs",
+      "chapter": "Chapter 15",
+      "part": "part o",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 42,
+      "primary_category": "Other",
+      "summary": "AIFs must participate in industry benchmarking to compare performance against other investments and global opportunities. Associations representing at least 33% of AIFs may select Benchmarking Agencies to collect data on scheme performance. AIFs must report scheme-wise valuation and cash flow data after one year from 'First Close' and provide performance reports to investors.",
+      "dtia_summary": "Requires AIFs to benchmark performance, which may impact data transfer and storage by mandating detailed reporting on investment activities and performance metrics.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Association representing ≥33% of AIFs may notify Benchmarking Agencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Performance versus benchmark reports must be provided to investors",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 16 – Performance Benchmarking of AIFs"
+    },
+    {
+      "section": "17",
+      "heading": "specified as under:",
+      "title": "Investor charter and complaint disclosure for AIFs",
+      "chapter": "Chapter 17",
+      "part": "part o",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 43,
+      "primary_category": "Other",
+      "summary": "AIFs must disclose Investor Charter in PPMs, including grievance redressal mechanisms and investor responsibilities. AIFs must also disclose data on investor complaints and redressal status in PPMs and maintain complaint data for 7 days after quarter-end.",
+      "dtia_summary": "Requires AIFs to disclose investor complaint data and redressal mechanisms, which impacts data transfer and storage by mandating detailed reporting on investor interactions.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs must disclose Investor Charter in PPMs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose investor complaint data and redressal status in PPMs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must maintain complaint data for 7 days after quarter-end",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 17 – Investor Charter and Disclosure of complaints by AIFs"
+    },
+    {
+      "section": "18",
+      "heading": "and sale of units of AIFs51",
+      "title": "Stamp duty collection for AIF units",
+      "chapter": "Chapter 18",
+      "part": "part o",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Other",
+      "summary": "AIFs must collect stamp duty on issue, transfer and sale of units through RTAs as per Indian Stamp Act, 1899. RTAs appointed by AIFs are responsible for collecting stamp duty in demat mode transactions through stock exchanges or depositories.",
+      "dtia_summary": "Requires AIFs to collect stamp duty on unit transactions, which impacts data transfer and storage by mandating specific collection mechanisms for financial transactions.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIFs must collect stamp duty on issue, transfer and sale of units through RTAs",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Chapter 18 – Collection of stamp duty on issue, transfer and sale of units of AIFs"
+    },
+    {
+      "section": "19",
+      "heading": "Sponsor and/or Manager of AIF",
+      "title": "Fee for changes in AIF manager or sponsor control",
+      "chapter": "Chapter 19",
+      "part": "part o",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 46,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates that AIFs obtain prior SEBI approval for changes in manager or sponsor control, subject to fees. The fee equals the registration fee for the relevant AIF category. The fee must be paid within 15 days of the change and cannot be passed to investors. Simultaneous changes in manager and sponsor control incur a single registration fee. Specific exemptions apply for certain scenarios like manager acquiring control or sponsor exits in multi-sponsor schemes. The approval is valid for six months from SEBI communication.",
+      "dtia_summary": "This section imposes specific fee structures and timelines for changes in AIF manager/sponsor control, requiring SEBI approval and fee payment within 15 days. It affects cross-border data transfers if AIFs operate internationally, as fee structures and approval processes may impact data handling across borders.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIF must obtain prior SEBI approval for changes in manager or sponsor control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fee equivalent to registration fee for relevant AIF category must be levied",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fee must be paid within 15 days of proposed change",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fee cannot be passed to AIF investors",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Single registration fee applies for simultaneous changes in manager and sponsor control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fee exemption applies when manager acquires control or replaces sponsor in multi-sponsor schemes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "SEBI approval valid for 6 months from communication date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Changes must comply with provisions in sections 2.5.4 and 2.5.5",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In terms of Regulation 20(13) of AIF Regulations, in case of change of Sponsor or Manager, or change in control of the AIF, Sponsor or Manager, prior approval from the Board shall be taken by the AIF, subject to levy of fees and any other conditions as may be specified by SEBI from time to time."
+    },
+    {
+      "section": "20",
+      "heading": "regard, the following is specified –",
+      "title": "Dematerialisation of AIF units and credit to demat accounts",
+      "chapter": "Chapter 20",
+      "part": "part o",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 50,
+      "primary_category": "Data Storage",
+      "summary": "This section specifies timelines for dematerialising AIF units, requiring units to be issued in dematerialised form by specific dates. It establishes an 'Aggregate Escrow Demat Account' for investors who haven't provided demat details, with rules for transferring units to investors' accounts within 5 working days. Managers must report compliance to SEBI via the Intermediary Portal. The process ensures units are held in dematerialised form for investors with demat accounts, while temporarily holding units in escrow for those without.",
+      "dtia_summary": "This section mandates dematerialisation of AIF units and establishes an escrow account for investors without demat details, impacting data storage and transfer mechanisms. It requires specific timelines for credit to demat accounts and reporting to SEBI, affecting data handling across borders.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Schemes with corpus ≥ INR 500 crore must dematerialise all units by October 31, 2023",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Schemes with corpus < INR 500 crore must dematerialise all units by April 30, 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Units issued after November 1, 2023 must be in dematerialised form",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Units issued after April 30, 2024 must be in dematerialised form",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors without demat details must be placed in Aggregate Escrow Demat Account",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Units in Aggregate Escrow Demat Account must be transferred to investors' accounts within 5 working days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must submit compliance reports to SEBI via Intermediary Portal",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Schemes must credit units to Aggregate Escrow Demat Account by January 31, 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Schemes must credit units to Aggregate Escrow Demat Account by May 10, 2024",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All schemes of AIFs shall dematerialise their units in the following time frame: Schemes of AIFs with corpus ≥ INR 500 Crore - dematerialise all units by October 31, 2023."
+    },
+    {
+      "section": "21",
+      "heading": "this regard, the following is specified:",
+      "title": "Dematerialised form for AIF investments",
+      "chapter": "Chapter 21",
+      "part": "part o",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 51,
+      "primary_category": "Data Storage",
+      "summary": "This section requires AIFs to hold investments in dematerialised form starting October 1, 2024, with exemptions for certain investments. Investments made before this date must be converted to dematerialised form by January 31, 2025, unless exempted under specific conditions. The requirement does not apply to schemes with tenure ending by January 31, 2025, or schemes in extended tenure as of January 12, 2024.",
+      "dtia_summary": "This section mandates dematerialised form for AIF investments with specific timelines and exemptions, affecting data storage and transfer mechanisms. It requires conversion of pre-October 2024 investments to dematerialised form by January 31, 2025, with exemptions for certain schemes.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "All investments made by AIF on or after October 1, 2024 must be held in dematerialised form",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investments made before October 1, 2024 must be converted to dematerialised form by January 31, 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exemptions apply for investments where investee company mandates dematerialisation",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Exemptions apply for AIFs exercising control over investee companies",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Schemes with tenure ending by January 31, 2025 are exempt",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Schemes in extended tenure as of January 12, 2024 are exempt",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any investment made by an AIF on or after October 01, 2024 shall be held in dematerialised form only, irrespective of whether the investment is made directly in the investee company or is acquired from another entity."
+    },
+    {
+      "section": "22",
+      "heading": "Alternative Investment Funds (AIFs)57",
+      "title": "Valuation of AIF investments",
+      "chapter": "Chapter 22",
+      "part": "part o",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 54,
+      "primary_category": "Data Storage",
+      "summary": "This section outlines valuation methodologies for AIF investments, requiring managers to follow SEBI-approved valuation norms. It mandates disclosure of valuation methodologies in PPM, ensures independent valuers meet specific criteria, and requires reporting of valuation changes to investors and SEBI. Managers must disclose significant deviations in valuation (20% between consecutive valuations or 33% in a financial year) and any changes in valuation methodologies.",
+      "dtia_summary": "This section specifies valuation methodologies for AIF investments, requiring disclosure of valuation changes and independent valuer criteria. It impacts data storage and transfer mechanisms by mandating specific valuation processes and reporting requirements.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Valuation of securities with prescribed norms must follow SEBI (Mutual Funds) Regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Valuation of other securities must follow industry association guidelines endorsed by SEBI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must disclose valuation methodology in PPM for each asset class",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent valuer must not be an associate of manager or sponsor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Independent valuer must have at least three years of experience in unlisted securities valuation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must inform investors of valuation deviations exceeding 20% between consecutive valuations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must inform investors of valuation deviations exceeding 33% in a financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must report changes in valuation methodology to SEBI and investors",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In terms of Regulation 23(1), AIFs are inter-alia required to carry out valuation of their investments in the manner specified by SEBI from time to time."
+    },
+    {
+      "section": "23",
+      "heading": "In this regard, the following is specified –",
+      "title": "Liquidation and in-specie distribution of unliquidated investments in AIFs",
+      "chapter": "Chapter 23",
+      "part": "part o",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 59,
+      "primary_category": "Cross-border Transfer",
+      "summary": "During an AIF's liquidation period, the AIF must obtain 75% investor consent by value to launch a liquidation scheme or distribute unliquidated investments in-specie. The scheme must name 'Liquidation Scheme', arrange bids for at least 25% of unliquidated investments, disclose bid valuations to investors, and provide exit options to dissenting investors. If the bid fails, unliquidated investments are valued at one rupee. The AIF must distribute units to investors in-specie and report to Performance Benchmarking Agencies.",
+      "dtia_summary": "Requires specific consent thresholds, bid mechanisms, and valuation rules for cross-border data transfers during AIF liquidation, impacting data transfer safeguards and financial reporting.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIF must obtain consent of 75% of investors by value for liquidation scheme or in-specie distribution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liquidation scheme must contain 'Liquidation Scheme' in its name",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must arrange bid for minimum 25% of unliquidated investments value",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must disclose bid value and valuation by two independent valuers to investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Dissenting investors must be offered exit option from 25% bid",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unsubscribed bid portion must provide pro-rata exit to non-dissenting investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bidder or related parties cannot exit from Original Scheme",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Unliquidated investments valued at one rupee if bid fails to secure 25%",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must distribute Liquidation Scheme units in-specie to investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liquidation Scheme must be launched before Original Scheme expiry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Value of sale must be reported to Performance Benchmarking Agencies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "23.1.1. During the Liquidation Period of a scheme of an AIF (‘Original Scheme'), if the AIF decides to launch Liquidation Scheme, the AIF shall obtain consent of 75% of investors by value of their investment in the Original Scheme."
+    },
+    {
+      "section": "24",
+      "heading": "an investment of AIF59",
+      "title": "Excusing or excluding investors from AIF investments",
+      "chapter": "Chapter 24",
+      "part": "part o",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 60,
+      "primary_category": "Data Subject Rights",
+      "summary": "An AIF may excuse an investor from participating in an investment if the investor confirms participation would violate law or internal policy. The AIF may exclude an investor if participation would violate law or cause material adverse effect. The manager must record rationale and supporting documents for exclusions. Investors in other AIFs may be partially excused or excluded based on their underlying investors' status.",
+      "dtia_summary": "Provides mechanisms for investor exclusion based on legal compliance, relevant for data transfer impact assessments involving investor data.",
+      "authority": "SEBI",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIF may excuse investor if participation violates applicable law",
+          "obligation_type": "May"
+        },
+        {
+          "text": "AIF may excuse investor if participation violates investor's internal policy",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Manager must ensure agreement with investor includes reporting policy changes within 15 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF may exclude investor if participation would violate law or cause material adverse effect",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Manager must record rationale and supporting documents for exclusions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "24.1.1. If the investor, based on the opinion of a legal professional/legal advisor, confirms that its participation in the investment opportunity would be in violation of an applicable law or regulation"
+    },
+    {
+      "section": "25",
+      "heading": "expenses and curb mis-selling, following is specified:",
+      "title": "Direct plans and distribution fee models for AIFs",
+      "chapter": "Chapter 25",
+      "part": "part o",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 69,
+      "primary_category": "Financial Data",
+      "summary": "AIFs must offer a Direct Plan without distribution fees. Investors approached through intermediaries must be onboarded via Direct Plan. AIFs must disclose distribution fees at onboarding. Category III AIFs charge fees only on equal trail basis with no upfront fees, while Category I and II AIFs may pay up to one-third of fees upfront to distributors.",
+      "dtia_summary": "Requires transparent fee structures and direct investment options, impacting data transfer costs and financial reporting for AIFs.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Schemes must offer Direct Plan without distribution fees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors through intermediaries must be onboarded via Direct Plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIFs must disclose distribution fees at onboarding",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIFs charge fees only on equal trail basis with no upfront fees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category I and II AIFs may pay up to one-third of fees upfront to distributors",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "25.1.1. Schemes of AIFs shall have an option of 'Direct Plan' for investors. Such Direct Plan shall not entail any distribution fee/placement fee."
+    },
+    {
+      "section": "25 (part 2)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Disclosure requirements for AIF investment terms and timelines",
+      "chapter": "Chapter 16",
+      "part": "part o",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 75,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates disclosure of specific investment terms, timelines for warehousing and transferring investments, and mechanisms for handling defaults. It requires AIFs to disclose differential rights, impact on other investors, investment timelines, default procedures, in-specie distribution instances, co-investment compliance, and conflict management policies. These disclosures apply to Alternative Investment Funds (AIFs) seeking to provide investment opportunities to investors.",
+      "dtia_summary": "This section imposes disclosure obligations on AIFs regarding investment terms and timelines, which are critical for assessing the transparency and risk management of cross-border investments. It ensures investors understand the structure and potential impacts of AIF investments before committing capital.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Disclose list of commercial and non-commercial terms for differential rights through side letter arrangements or additional units",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose whether differential rights affect economic or other rights of other investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose timelines for warehousing and transferring investments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose timelines for intimation of warehoused investments to investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose mechanisms for handling defaulting investors who fail to meet drawdown timelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose specific instances where in-specie distribution may occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose compliance with AIF Regulations and PMS Regulations for co-investments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish written down conflict management policy with specified timeline",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Whether the list of commercial and non-commercial terms, on which differential rights may be offered through side letter arrangement or issuance of additional class of units, is disclosed"
+    },
+    {
+      "section": "25 (part 3)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Overseas investment eligibility and regulatory compliance requirements",
+      "chapter": "Chapter 16",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 75,
+      "page_end": 80,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section specifies eligibility criteria for overseas investments by AIFs, including requirements for offshore venture capital undertakings, compliance with FATF standards, prohibition on joint ventures, adherence to FEMA regulations, and conditions for selling stakes in overseas investments. These requirements apply to AIFs conducting overseas investments and must be met to ensure regulatory compliance and mitigate financial risks.",
+      "dtia_summary": "This section defines critical eligibility criteria for overseas investments, including FATF compliance, prohibition on joint ventures, and adherence to FEMA regulations, which are essential for assessing the risks and regulatory alignment of cross-border investments.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Manager must exercise due diligence on investment decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investment must be in equity or equity-linked instruments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Overseas investee company must be an offshore venture capital undertaking",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Overseas investee company must be in a country with securities market regulator signatory to MOU with SEBI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Overseas investee company must not be in a FATF-listed jurisdiction with money laundering deficiencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF shall not invest in joint ventures or wholly owned subsidiaries while making overseas investments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must adhere to FEMA, 1999 and its regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must comply with RBI guidelines for overseas investments by NBFCs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity receiving transferred stake must be eligible for overseas investments per FEMA guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The manager has exercised due diligence with respect to the investment decision."
+    },
+    {
+      "section": "25 (part 4)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Investor consent withdrawal and grandfathering for alternative investment funds",
+      "chapter": "Chapter 16",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 80,
+      "page_end": 87,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Investors who withdraw consent after benefiting from lower ticket size must increase investment to the minimum amount stipulated by regulatory frameworks within the client agreement timeframe. Withdrawn consent before client agreement expiry grandfathering existing investments while new transactions follow standard investor regulations. Investors in pooled products with regulatory concessions cannot withdraw consent. Client agreements must specify withdrawal modalities and consequences.",
+      "dtia_summary": "Requires specific conditions for investor consent withdrawal affecting data transfer mechanisms in alternative investment funds, including grandfathering provisions for existing investments and regulatory compliance for new transactions.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Consent"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investor withdrawing consent after lower ticket size benefit must increase investment to minimum regulatory amount within client agreement timeframe",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investor withdrawing consent before client agreement expiry grandfathering existing investments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investor withdrawing consent before client agreement expiry must follow standard investor regulatory framework for new transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors in pooled products with regulatory concessions cannot withdraw consent",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Client agreements must specify withdrawal modalities and consequences",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An investor who withdraws ‘Consent' after availing the benefit of lower ticket size shall be required to increase the investment to the minimum amount that is stipulated under the applicable regulatory framework for the particular investment product, within the timeframe specified in the client agreement."
+    },
+    {
+      "section": "25 (part 5)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "",
+      "chapter": "Chapter 16",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 87,
+      "page_end": 95,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "25 (part 6)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Compliance with SEBI regulations for AIFs",
+      "chapter": "Chapter 16",
+      "part": "Part B",
+      "condition": null,
+      "page_start": 95,
+      "page_end": 103,
+      "primary_category": "Other",
+      "summary": "This section mandates that AIFs comply with SEBI regulations by maintaining records of compliance with specific sections of the placement memorandum and other regulatory requirements. It requires AIFs to ensure that their investment committees, custodians, and compliance officers adhere to defined standards, including fiduciary responsibilities, conflict of interest management, and transparent reporting to investors. The section also specifies annual audits, valuation procedures, and reporting obligations to SEBI.",
+      "dtia_summary": "This section requires AIFs to maintain detailed records of compliance with SEBI regulations, including specific disclosures in the placement memorandum and adherence to valuation procedures. These requirements impact data transfer impact assessments by mandating transparency in financial reporting and investor communications.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "AIF must inform SEBI of material changes in information provided at application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must obtain SEBI prior approval for changes in control of Sponsor or Manager",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF books of accounts must be audited annually by a qualified auditor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must appoint registered custodian for safekeeping of securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIF must keep custody of securities for physical settlement of commodity derivatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Associate of sponsor/manager may act as custodian subject to specified conditions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Manager must appoint compliance officer meeting specified eligibility criteria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer must report non-compliance to SEBI within 7 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sponsor and Manager must act in fiduciary capacity towards investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must establish written policies to mitigate conflict of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager and Sponsor must abide by high-level principles on conflict of interest avoidance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AIF must provide annual financial information to investors within 180 days of year-end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Category III AIF must provide quarterly reports on financial information within 60 days of quarter-end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manager must ensure independent valuation of investments by qualified valuer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "20(12) AIF to inform SEBI in case of any material change in information provided at the time of application. 20(13) AIF to obtain prior approval from SEBI in case of change in control of AIF Sponsor or Manager or change of Sponsor or Manager. 20(14) The books of accounts of AIF to be audited annually by a qualified auditor"
+    },
+    {
+      "section": "25 (part 7)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "",
+      "chapter": "Chapter 8",
+      "part": "part o",
+      "condition": null,
+      "page_start": 103,
+      "page_end": 108,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "25 (part 8)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Voting policy and disclosure requirements for institutional investors",
+      "chapter": "Chapter 16",
+      "part": "part o",
+      "condition": null,
+      "page_start": 108,
+      "page_end": 115,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Institutional investors must establish comprehensive voting policies detailing mechanisms for voting, circumstances for voting decisions, and disclosure requirements. These policies must include voting mechanisms, internal voting guidelines, disclosure protocols, and specific disclosures for proxy voting services. Investors must publicly disclose voting decisions, rationales, and proxy voting activities to ensure transparency in their stewardship activities.",
+      "dtia_summary": "Requires institutional investors to establish and disclose voting policies that impact cross-border data transfers by mandating transparency in voting decisions and proxy voting activities, which may affect data sharing with foreign entities.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Institutional investors must establish comprehensive voting policies including mechanisms for voting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must detail circumstances for voting decisions (for/against/abstain)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must include guidelines for assessing proposals and taking decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must specify voting guidelines for specific matters/circumstances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must establish oversight committees as escalation mechanisms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must include use of proxy advisors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voting policies must address conflict of interest issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors must publicly disclose voting decisions including rationale",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors must disclose voting activities through annual reports or websites",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investors must disclose proxy voting service scope, providers, and reliance levels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Institutional investors must report periodically on stewardship activities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Institutional investors shall report to their clients/ beneficiaries periodically on how they have fulfilled their stewardship responsibilities as per their policy in an easy-to-understand format."
+    },
+    {
+      "section": "25 (part 9)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Compliance with operational and reporting norms for alternative investment funds",
+      "chapter": "Chapter 16",
+      "part": "part o",
+      "condition": null,
+      "page_start": 115,
+      "page_end": 121,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Alternative Investment Funds must comply with operational, prudential, and reporting norms including risk management, redemption norms, and prudential requirements. This involves adherence to SEBI circulars, disclosure requirements in placement memorandums, and compliance with additional circulars issued by SEBI. Funds must maintain detailed records of compliance with specific regulations and submit reports to SEBI as required.",
+      "dtia_summary": "Mandates compliance with operational and reporting norms that affect cross-border data transfers by requiring detailed records and disclosures related to fund operations, which may impact data sharing with foreign entities.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Alternative Investment Funds must comply with risk management and compliance norms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Alternative Investment Funds must adhere to redemption norms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Alternative Investment Funds must meet prudential requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Alternative Investment Funds must comply with SEBI circular No. CIR/IMD/DF/14/2014",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Alternative Investment Funds must comply with any other circulars issued by SEBI",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Compliance with respect to: Risk management and compliance, redemption norms, prudential requirements"
+    },
+    {
+      "section": "25 (part 10)",
+      "heading": "expenses and curb mis-selling, following is specified: (cont.)",
+      "title": "Disclosure requirements for alternative investment funds",
+      "chapter": "Chapter 16",
+      "part": "part o",
+      "condition": null,
+      "page_start": 121,
+      "page_end": 126,
+      "primary_category": "Data Sharing",
+      "summary": "This section mandates specific disclosures for Alternative Investment Funds (AIFs) including net asset value, financial information of investees, performance data, material risks, and non-material operational changes. AIFs must provide timely updates on conflicts of interest, legal actions, liabilities, and breaches of agreements. The disclosures must be made within defined timelines to ensure investor transparency and compliance with regulatory requirements.",
+      "dtia_summary": "This section imposes specific disclosure obligations that impact data transfer impact assessments by requiring detailed reporting on financial information, risks, and operational changes. The need for timely and accurate disclosures affects how data is shared across borders with investors and regulators.",
+      "authority": "SEBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Disclose net asset value of fund/scheme at least every six months",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose financial information of investee companies within 180 days from year end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose material risks including concentration risk, foreign exchange risk, leverage risk, etc.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intimate any non-material changes in fund operations within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Redress investor complaints within 30 days of receipt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide detailed grievance redressal mechanism for investors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose any legal actions by regulatory bodies in any jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose any material liabilities arising during fund tenure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose any breaches of placement memorandum or fund agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intimate any conflicts of interest in transactions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3. Dissemination of financial information of Fund. 3.1. Net Asset Value of Fund/ Scheme. 3.2. Financial information of investee companies. 3.3. Information on performance of scheme/fund."
+    }
+  ]
+}

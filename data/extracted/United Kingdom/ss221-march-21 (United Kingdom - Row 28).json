@@ -1,0 +1,797 @@
+{
+  "country": "United Kingdom",
+  "document": "ss221-march-21 (United Kingdom - Row 28)",
+  "generated": "2026-07-16T19:10:51",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Superseded",
+      "title": "Superseded PRA outsourcing and third party risk management expectations",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section establishes the Prudential Regulation Authority's (PRA) expectations for how PRA-regulated firms should manage outsourcing and third party risk. It defines key terms, outlines the scope of applicability to banks, insurers, and third-country branches, and specifies compliance deadlines. The document also references international standards and guidelines to ensure alignment with operational resilience and risk management practices.",
+      "dtia_summary": "This section sets the baseline expectations for outsourcing and third party risk management that firms must follow, directly impacting how data transfers and processing activities are structured with external providers.",
+      "authority": "Prudential Regulation Authority (PRA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing",
+        "Third Party Processing",
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "PRA-regulated firms must comply with the expectations in this Supervisory Statement by Thursday 31 March 2022",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must review and update legacy outsourcing agreements entered into before Wednesday 31 March 2021 at the first appropriate contractual renewal point to meet the expectations in this SS",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The PRA expects firms to apply adequate governance and controls to all third party dependencies that can impact statutory objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess materiality and risks of third party arrangements irrespective of whether they fall under outsourcing definition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement proportionate, risk-based controls for material or high-risk third party arrangements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "This SS is relevant to all: UK banks, building societies, and PRA-designated investment firms (hereafter banks); insurance and reinsurance firms and groups in scope of Solvency II, including the Society of Lloyd's and managing agents (hereafter insurers); and UK branches of overseas banks and insurers (hereafter third-country branches)."
+    },
+    {
+      "section": "1 (part 2)",
+      "heading": "Superseded (cont.)",
+      "title": "",
+      "chapter": "Chapter 7",
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2",
+      "heading": "Outsourcing",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "Part \no",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "regulatory requirements to manage relevant risks and promote an appropriate level of resilience.",
+      "title": "Proportionate risk management for intragroup outsourcing arrangements",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 14,
+      "primary_category": "Third Party Processing",
+      "summary": "Firms must assess outsourcing risks based on their size, internal structure, activity complexity, and the criticality of outsourced functions, applying proportionality principles. Materiality evaluates potential impacts on operational resilience, regulatory compliance, and policyholder protection. Firms must periodically reassess proportionality and materiality as they evolve over time. The PRA requires third-country branches to maintain documented lists of intragroup outsourcing arrangements, identifying material ones. This applies to firms previously operating under passporting in the UK. The requirements aim to ensure effective risk management for branches deemed systemic due to potential financial stability impacts.",
+      "dtia_summary": "Intragroup outsourcing requires equivalent risk management as external outsourcing, with proportionate adjustments based on control and influence levels. This affects cross-border data transfers by mandating robust oversight mechanisms for group-level data handling. Third-country branches must document material outsourcing arrangements to manage cross-border risks and ensure resilience, directly impacting data transfer impact assessments for financial institutions.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Third Party Processing",
+        "Governance",
+        "Cross-border Transfer",
+        "Outsourcing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must meet expectations in this SS proportionally based on size, internal organisation, activity complexity, and outsourced function criticality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Materiality assesses potential impacts on operational resilience, regulatory compliance, and policyholder protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must periodically reassess proportionality and materiality as they evolve",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intragroup outsourcing is subject to same requirements as external outsourcing and not inherently less risky",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms may comply proportionately with requirements based on level of control and influence over the service provider",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Control and influence depends on group governance structure, senior management allocation, ability to alter arrangements, and group-wide standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms may adjust vendor due diligence for intragroup providers while ensuring capacity and organisational structure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A single notification may suffice for UK consolidated groups covering multiple firms",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms may rely on group-wide negotiating power for external third parties",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms may adapt outsourcing agreements clauses while maintaining UK regulatory compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms may rely on group policies and procedures for risk management if compliant with UK obligations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms may use centralised group processes for overseeing external third parties with legal entity-specific risk mitigation",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms may rely on group-level business continuity and contingency plans for operational resilience",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Third-country branches must maintain a clear, documented list of intragroup outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify material intragroup outsourcing arrangements within the list",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms should meet the expectations in this SS in a manner appropriate to: their size and internal organisation; the nature, scope, and complexity of their activities; and the criticality or importance of the outsourced function, in line with the principle of proportionality."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "regulatory requirements to manage relevant risks and promote an appropriate level of resilience. (cont.)",
+      "title": "Intragroup outsourcing risk management and oversight",
+      "chapter": "Chapter 7",
+      "part": "Part \no",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Third Party Processing",
+      "summary": "Firms must maintain documented written agreements for material intragroup outsourcing arrangements, including service level agreements and key performance indicators. They must also implement robust monitoring and oversight mechanisms to track material sub-outsourced service providers and supply chains. Additionally, firms need effective processes for escalating concerns and regulatory feedback related to these arrangements to the whole firm or group.",
+      "dtia_summary": "This section mandates specific oversight mechanisms for intragroup outsourcing arrangements, requiring firms to document agreements, monitor supply chains, and establish escalation protocols to ensure resilience and regulatory compliance during cross-border data transfers.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Documented written agreements for all material intragroup outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service level agreements and key performance indicators for material intragroup outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate monitoring and oversight of intragroup outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Visibility of whole firm's or parent's material sub-outsourced service providers and supply chains",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective processes for escalating concerns, issues, and regulatory feedback to whole firm or group",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "documented written agreements, such as service level agreements, for all intragroup outsourcing arrangements (in particular those deemed material), setting out expected service levels and key performance indicators (KPIs);"
+    },
+    {
+      "section": "4",
+      "heading": "provide that could impact UK financial stability.",
+      "title": "Board oversight of outsourcing responsibilities and risk management",
+      "chapter": "Chapter 6",
+      "part": "Part \no",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 19,
+      "primary_category": "Governance",
+      "summary": "Firms must ensure their boards actively engage with outsourcing risks, including setting control environments, identifying critical service provider dependencies, and maintaining robust risk management systems. Boards remain fully accountable for regulatory compliance even when outsourcing responsibilities to third parties. This applies to all firms subject to PRA supervision, including banks and insurers. Firms must maintain records of material outsourcing arrangements to comply with PRA expectations. These records should support concentration risk assessments and enable the firm to manage service interruptions during potential outsourcing agreement terminations. The records are required to be sufficient for fulfilling PRA expectations under section 5.24 of the Rulebook.",
+      "dtia_summary": "This section mandates board-level oversight of outsourcing arrangements, requiring firms to define responsibilities, assess risks, and maintain records for cross-border data transfers involving third parties. Critical for DTIAs involving cloud services or international service providers. This section requires firms to maintain detailed records of outsourcing arrangements to assess concentration risk and manage potential service interruptions during unexpected termination of agreements, which is critical for DTIA when evaluating third-party risks.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Outsourcing",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Boards must set control environment including outsourcing appetite and tolerance levels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Boards must identify and understand firm's reliance on critical service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Boards must ensure effective risk management systems for outsourced service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Boards remain fully accountable for regulatory compliance in outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must keep appropriate records of material outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records should be sufficient to enable the firm to fulfil concentration risk expectations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms should make information on outsourcing arrangements available for PRA review",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Boards and senior management, in particular individuals performing SMFs, cannot outsource their responsibilities. Firms that enter into outsourcing arrangements remain fully accountable for complying with all their regulatory obligations."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "provide that could impact UK financial stability. (cont.)",
+      "title": "PRA oversight of third-party arrangements impacting financial stability",
+      "chapter": "Chapter 10",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Third Party Processing",
+      "summary": "The PRA requires firms to maintain detailed records of third-party arrangements that could impact UK financial stability, including material outsourcing arrangements. Firms must provide the PRA with notice of significant changes to these arrangements, and the PRA may request additional data on outsourcing arrangements under section 165 of FSMA if necessary.",
+      "dtia_summary": "This section specifies that firms must notify the PRA of material third-party arrangements that could affect financial stability, ensuring transparency and regulatory oversight for cross-border data transfers involving critical financial services.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Maintain up-to-date register of all outsourcing arrangements, distinguishing material and non-material",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain cloud outsourcing arrangements register (Cloud Register) as per EBA Cloud Recommendations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "third party arrangements of which the PRA would reasonably expect notice available to it in accordance with Fundamental Rule 7"
+    },
+    {
+      "section": "5",
+      "heading": "Outsourcing Register subsumes it on Friday 31 December 2021.",
+      "title": "Materiality assessment for third-party arrangements",
+      "chapter": "Chapter 10",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 23,
+      "primary_category": "Third Party Processing",
+      "summary": "Firms must determine the materiality of all third-party arrangements, perform due diligence on potential service providers, and assess risks for each arrangement regardless of materiality. Materiality is defined as outsourcing services of such importance that failure would cast serious doubt on the firm's ability to meet Threshold Conditions or comply with Fundamental Rules.",
+      "dtia_summary": "This section establishes materiality criteria for third-party arrangements, which directly impacts data transfer impact assessments by requiring firms to evaluate risks associated with outsourcing and third-party services that could affect financial stability or regulatory compliance.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Determine materiality of every outsourcing and third party arrangement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Perform appropriate and proportionate due diligence on all potential service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess risks of every outsourcing arrangement irrespective of materiality",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "determine the materiality of every outsourcing and third party arrangement"
+    },
+    {
+      "section": "5 (part 2)",
+      "heading": "Outsourcing Register subsumes it on Friday 31 December 2021. (cont.)",
+      "title": "",
+      "chapter": "Chapter 6",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6",
+      "heading": "Superseded",
+      "title": "Material outsourcing agreements must include specific contractual safeguards",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "Firms must document material outsourcing arrangements in written agreements that specify outsourced functions, service timelines, governing law, financial obligations, sub-outsourcing rules, data locations, security measures, performance metrics, reporting obligations, insurance requirements, contingency plans, and termination rights. These agreements must not impede the PRA's supervisory effectiveness and must include provisions for data access during insolvency. Firms must notify the PRA if service providers cannot meet regulatory obligations.",
+      "dtia_summary": "Material outsourcing agreements require detailed contractual safeguards including data location specifications, security measures, performance metrics, and termination rights to ensure data protection and regulatory compliance during cross-border transfers.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing",
+        "Data Storage",
+        "Security",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Written agreements for material outsourcing must specify outsourced function description",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must include start date, renewal dates, end dates, and termination notice periods",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must state governing law of the agreement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must define financial obligations between parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must specify whether sub-outsourcing is permitted and conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must state data locations and require advance notice for location changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must include data accessibility, availability, integrity, confidentiality, privacy, and safety provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must allow firm to monitor service provider performance through KPIs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must specify service levels with qualitative and quantitative performance criteria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must notify firm of developments affecting service performance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must specify insurance requirements for certain risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must include business contingency plan implementation and testing requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must ensure data access during service provider insolvency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must cooperate with PRA and Bank on information gathering and investigations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks must reference Bank's resolution powers in agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Written agreements must allow PRA and Bank to inspect and audit service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must notify PRA if service providers cannot meet regulatory obligations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Superseded. Written agreements for material outsourcing should set out at least: a clear description of the outsourced function, including the type of support services to be provided; the start date, next renewal date, end date, and notice periods regarding termination for the service provider and the firm; the governing law of the agreement; the parties' financial obligations; whether the sub-outsourcing of a material function or part thereof is permitted and, if so, under which conditions; the location(s), ie regions or countries, where the material function or service will be provided, and/or where relevant data will be kept, processed, or transferred, including the possible storage location, and a requirement for the service provider to give reasonable notice to the firm in advance if it proposes to change said location(s); provisions regarding the accessibility, availability, integrity, confidentiality, privacy, and safety of relevant data (see Chapter 7); the right of the firm to monitor the service provider's performance on an ongoing basis (this may be by reference to KPIs); the agreed service levels, which should include qualitative and quantitative performance criteria and allow for timely monitoring, so that appropriate corrective action can be taken if these service levels are not met; the reporting obligations of the service provider to the firm, including a requirement to notify the firm of any development that may have a material or adverse impact on the service provider's ability to effectively perform the material function in line with the agreed service levels and in compliance with applicable laws and regulatory requirements; whether the service provider should take out mandatory insurance against certain risks and, if applicable, the level of insurance cover requested; the requirements for both parties to implement and test business contingency plans. For the firm, these should take account of their impact tolerances for important business services. Where appropriate, both parties should commit to take reasonable steps to support the testing of such plans; provisions to ensure that data owned by the firm can be accessed promptly in the case of the insolvency, resolution, or discontinuation of business operations of the service provider; the obligation of the service provider to co-operate with the PRA and the Bank, as resolution authority, including persons appointed to act on their behalf (see Chapter 8, including the section on the Bank's and PRA's information gathering and investigatory powers); for banks, a clear reference to the Bank's resolution powers, especially under sections 48Z and 70C-D of the Banking Act 2009 (implementing Articles 68 and 71 of Directive 2014/59/EU (BRRD)), and in particular, a description of the 'substantive obligations' of the written agreement in the sense of Article 68 of that Directive; the rights of firms and the PRA to inspect and audit the service provider with regard to the material outsourced function (see Chapter 8); if relevant: appropriate and proportionate information security related objectives and measures, including requirements such as minimum ICT security requirements, specifications of firms' data lifecycles, and any requirements regarding to data security (see Chapter 7), network security, and security monitoring processes; operational and security incident handling procedures, including escalation and reporting; termination rights and exit strategies covering both stressed and non-stressed scenarios, as specified in Chapter 10."
+    },
+    {
+      "section": "7",
+      "heading": "Superseded",
+      "title": "Data classification and security requirements for outsourced data",
+      "chapter": "Chapter 10",
+      "part": "part t",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "Firms must classify data based on confidentiality and sensitivity, identify risks, agree data protection levels, and verify data provenance. The PRA expects firms to implement robust security controls for data in transit, memory, and at rest, including configuration management, encryption, identity access management, insider threat monitoring, and incident response. Firms must also consider data location risks and ensure data accessibility during insolvency.",
+      "dtia_summary": "Data classification and security requirements mandate robust technical and organizational controls for outsourced data, including encryption, access management, and incident response, to ensure data protection across borders.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must classify data based on confidentiality and sensitivity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify potential risks related to data and their impacts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must agree appropriate levels of data availability, confidentiality, and integrity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must obtain assurance and documentation on data provenance from third parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement robust controls for data-in-transit, data-in-memory, and data-at-rest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement configuration management for security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement encryption and key management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement identity and access management with stricter controls for high-risk roles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must monitor insider threats through ongoing activity logging",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement access and activity logging",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement incident detection and response mechanisms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement loss prevention and recovery procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement data segregation in multi-tenant environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must configure operating systems, networks, and firewalls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide staff training on security practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must monitor effectiveness of service provider's security controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have procedures for data deletion after termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure encryption keys are kept secure by firm or provider",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Superseded. Firms are responsible for classifying their data. While the PRA does not prescribe a specific taxonomy for data classification, it expects firms to implement appropriate, risk-based technical and organisation measures to protect different classes of data (eg confidential, client, personal, sensitive, transaction) when: developing and implementing their outsourcing policy and other relevant policies and strategies in paragraph 4.10 (business continuity, contingency planning, disaster recovery, ICT, information security, operational resilience, OCIR, and risk management); and sharing data with third parties, including but not limited to as part of an outsourcing arrangement."
+    },
+    {
+      "section": "8",
+      "heading": "Bank and PRA information gathering and investigatory powers",
+      "title": "Bank and PRA information gathering powers for outsourced service providers",
+      "chapter": "Chapter 8",
+      "part": "part o",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 33,
+      "primary_category": "Third Party Processing",
+      "summary": "The Bank and PRA have statutory powers to gather information from firms and their service providers. These powers include requiring service providers to share information relevant to financial system stability, assisting in reviews, and providing documents. Firms must inform service providers about these powers, though failure to do so does not affect the powers' applicability. The PRA expects firms to ensure service providers cooperate with these powers and provide necessary access for audits and information gathering.",
+      "dtia_summary": "This section mandates specific access, audit, and information rights for service providers in material outsourcing arrangements, requiring firms to ensure service providers allow audits, access to data systems, and compliance with regulatory obligations. These rights are critical for assessing and mitigating risks in cross-border data transfers involving third parties.",
+      "authority": "Bank of England (Bank) and Prudential Regulation Authority (PRA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Access Control",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The PRA can require service providers to provide information relevant to the stability of the UK financial system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any entity providing services to a firm in relation to matters subject to a section 166 review must give the skilled person all such assistance as reasonably required",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The PRA can require any member of the authorised person's group to provide information or documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Bank as a resolution authority can direct a firm to produce information relevant to stabilisation powers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The PRA can require a person providing services to an insurer to provide specified documents or information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must co-operate with the PRA and other supervisory authorities in connection with outsourced functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take reasonable steps to ensure suppliers under material outsourcing arrangements deal with the PRA in an open, co-operative and timely way",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must permit representatives of the PRA to have access to business premises during reasonable business hours",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure written agreements for material outsourcing provide full access and unrestricted rights for audit and information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure access to data, devices, information, systems, and networks used for providing outsourced services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure access to results of security penetration testing on applications, data, and systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure access to company and financial information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure access to service providers' external auditors, personnel, and premises",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess the adequacy of certificates and reports and not assume their existence is sufficient evidence of compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure certificates and audit reports meet expectations in Table 8",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must retain contractual rights to request additional information if justified from legal, regulatory, or risk management perspectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must retain contractual rights to perform onsite audits at their discretion",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The PRA can require service providers to provide information it considers ‘is or might be, relevant to the stability of the UK financial system.' Any entity which is providing or has provided services to a firm in relation to matters subject to a section 166 review must give the skilled person all such assistance as they may reasonably require."
+    },
+    {
+      "section": "8 (part 2)",
+      "heading": "Bank and PRA information gathering and investigatory powers (cont.)",
+      "title": "",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "9",
+      "heading": "their part.",
+      "title": "",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "10",
+      "heading": " actions taken following an incident fail to deliver appropriate remediation.",
+      "title": "Business continuity and stressed exit planning for material outsourcing",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 39,
+      "primary_category": "Other",
+      "summary": "Firms must develop, maintain, and test business continuity plans and documented exit strategies for material outsourcing arrangements. These plans must address both non-stressed exits (planned) and stressed exits (e.g., service provider insolvency). The PRA prioritizes business continuity in severe disruptions over non-stressed exits, requiring firms to ensure critical services continue during disruptions and to have viable exit options when third-party services fail.",
+      "dtia_summary": "This section mandates specific business continuity and exit planning for material outsourcing, particularly stressing the need for resilient contingency measures during third-party failures. It directly impacts DTIAs by requiring robust plans for cross-border data transfers involving cloud services or third parties.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Outsourcing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must develop, maintain, and test business continuity plans for material outsourcing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must develop documented exit strategies that differentiate between stressed exits (e.g., service provider insolvency) and non-stressed exits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement business continuity plans to anticipate, withstand, respond to, and recover from severe operational disruptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess cloud resiliency options including multiple data centers, hybrid cloud, backup vendors, and on-premises data retention",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must consider the impact of destructive cyber-attacks when establishing data recovery capabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure effective crisis communication measures during disruptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must test business continuity and exit plans on a risk-based approach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify viable exit options in stressed scenarios including bringing services back in-house or transferring to alternative providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must update business continuity and exit plans with lessons learned from testing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For each material outsourcing arrangement, the PRA expects firms to develop, maintain, and test a business continuity plan; and a documented exit strategy, which should cover and differentiate between situations where a firm exits an outsourcing agreement: in stressed circumstances (eg following the failure or insolvency of the service provider) and through a planned and managed exit due to commercial, performance, or strategic reasons."
+    },
+    {
+      "section": "10 (part 2)",
+      "heading": " actions taken following an incident fail to deliver appropriate remediation. (cont.)",
+      "title": "",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 40,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

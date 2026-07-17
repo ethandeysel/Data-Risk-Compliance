@@ -1,0 +1,503 @@
+{
+  "country": "Mauritius",
+  "document": "Guideline-on-Incident-Handling-and-Reporting (Mauritius - Row 8)",
+  "generated": "2026-07-16T18:20:51",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "P a g e | 6",
+      "title": "Incident response policy structure for IT professionals",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Incident Reporting",
+      "summary": "This section establishes the purpose and scope of incident response guidelines, specifically for computer security-related incidents. It defines the target audience as IT professionals and managers responsible for incident handling, and outlines the document's structure including incident response policies, plans, procedures, and teams. The scope excludes natural disasters and power failures.",
+      "dtia_summary": "This section provides foundational structure for incident response policies but does not directly impact data transfer assessments as it focuses on internal incident handling rather than cross-border data flows.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This document provides basis for incident response policies, plans, procedures, and teams",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document includes incident handler's checklist template",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Addresses only computer security-related incidents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The purpose of this guideline is to provide the basis for the creation of incident response policies, plans, procedures, and teams to handle incidents within an organisation."
+    },
+    {
+      "section": "2",
+      "heading": "P a g e | 7",
+      "title": "Definition of security incidents and serious incidents",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 7,
+      "page_end": 9,
+      "primary_category": "Incident Reporting",
+      "summary": "This section defines key terms including events, adverse events, incidents, and serious incidents. It specifies that serious incidents involve potential unauthorized disclosure of personal information, serious legal issues, severe service disruption, active threats, widespread impact, or public interest concerns. The definition focuses on computer security incidents rather than natural disasters or power failures.",
+      "dtia_summary": "This section defines serious incidents that could impact data transfer assessments by establishing criteria for incidents involving unauthorized disclosure of personal information, which may affect cross-border data flows.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An incident is defined as attempted or successful unauthorized access, use, disclosure, modification or destruction of information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incidents include unauthorized access of systems or data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents involve potential unauthorized disclosure of personal information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents involve serious legal issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents cause severe disruption to critical services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents involve active threats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents are widespread beyond a single unit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Serious incidents are likely to raise public interest",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An incident is defined as an attempted or successful unauthorised access, use, disclosure, modification or destruction of information; interference with information technology operation; or violation of explicit or implied acceptable usage policy."
+    },
+    {
+      "section": "3",
+      "heading": "P a g e | 9",
+      "title": "Incident response capabilities and third-party communication",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 9,
+      "page_end": 14,
+      "primary_category": "Incident Reporting",
+      "summary": "This section details incident response policies, plans, procedures, and teams. It emphasizes the need for formal incident response plans with specific elements including mission, strategies, senior management approval, communication protocols, and metrics. It also outlines requirements for sharing incident information with third parties such as law enforcement, media, ISPs, and other organizations, with specific procedures for each type of communication.",
+      "dtia_summary": "This section requires organizations to establish incident response capabilities and communication protocols with third parties, which may impact data transfer assessments through requirements for incident reporting and coordination with external entities.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations should have formal incident response plans with mission, strategies, and goals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident response plans require senior management approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must document all contacts and communications with outside parties for liability and evidentiary purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident response teams should establish media communications procedures with designated contacts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must contact law enforcement through designated individuals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations should create policies for reporting incidents to CSIRTs",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Organisations should have a formal, focused, and coordinated approach to responding to incidents, including an incident response plan that provides the roadmap for implementing the incident response capability."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "P a g e | 9 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "P a g e | 16",
+      "title": "Incident response lifecycle phases and requirements",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 21,
+      "primary_category": "Incident Reporting",
+      "summary": "This section outlines the incident handling process with five distinct phases: preparation, detection and analysis, containment, eradication and recovery, and post-incident activity. Organizations must establish an incident response team, acquire necessary tools and resources, conduct risk assessments, implement security controls, and document all activities. The process requires continuous monitoring, evidence preservation, and regular lessons learned to prevent future incidents and ensure business continuity.",
+      "dtia_summary": "This section establishes the incident response lifecycle that requires organizations to document evidence, implement containment measures, and conduct post-incident reviews. These activities are critical for data breach investigations and must be considered when assessing cross-border data incidents involving security breaches.",
+      "authority": "Mauritius Data Protection Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organizations must establish and train an incident response team",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must acquire necessary tools and resources for incident handling",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must implement security controls based on risk assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must detect security breaches to alert the organization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must contain incidents to limit impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must eradicate incidents by removing malicious content",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must recover systems after eradication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must document all activities to answer Who, What, Where, Why, and How",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must conduct post-incident lessons learned within two weeks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must create forensic images of affected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must implement security patches on affected systems",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The incident handling process has several phases. The initial phase involves establishing and training an incident response team, and acquiring the necessary tools and resources."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "P a g e | 16 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "5",
+      "heading": "P a g e | 25",
+      "title": "Incident response checklist for preparation, detection, containment, eradication, recovery and lessons learned",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 28,
+      "primary_category": "Incident Reporting",
+      "summary": "This section mandates that incident handlers complete a detailed checklist covering preparation, detection, analysis, containment, eradication, recovery, and post-incident activities. It requires organizations to verify security policies, ensure incident response team awareness, confirm access to response tools, and conduct regular drills. The checklist also specifies procedures for identifying incident scope, impact, sources, and implementing short-term and long-term containment measures. It mandates documentation of all actions taken and preparation for lessons learned meetings within two weeks of incident resolution.",
+      "dtia_summary": "This section provides a structured framework for incident response that impacts DTIAs by requiring detailed documentation of incident handling steps, which is critical for assessing the security posture of data transfers and third-party interactions during cross-border incidents.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "All members must be aware of the organisation's security policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All CSIRT members must know whom to contact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All incident responders must have access to journals and incident response toolkits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All members must have participated in incident response drills regularly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must determine where the incident occurred",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must identify who reported or discovered the incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must determine how the incident was discovered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must identify if other areas were compromised and when",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must assess the scope of impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must evaluate business impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must locate incident sources and their details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must isolate affected systems if possible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must ensure affected systems are isolated from non-affected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must create forensic copies of affected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must keep commands and documentation updated since the incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must store forensic copies in a secure location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must remove malware and artifacts from affected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must patch and harden systems against future attacks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must determine feasible restoration time for affected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must specify tools for testing restored systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must define monitoring duration for restored systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must establish benchmarks for monitoring restored systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must document all necessary incident information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must generate incident response reports for lessons learned meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must ensure incident reports answer who, what, where, why, and how",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must schedule lessons learned meetings within two weeks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must review incident response process with CSIRT members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Incident handlers must identify mistakes or areas for improvement in response process",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5.0 Incident Handler's Checklist: 1. Preparation a) Are all members aware of the security policies of the organisation? b) Do all members of the Computer Security Incident Response Team know whom to contact? c) Do all incident responders have access to journals and access to incident response toolkits to perform the actual incident response process? d) Have all members participated in incident response drills to practice the incident response process and to improve overall proficiency on a regularly established basis? 2. Detection and Analysis a) Where did the incident occur? b) Who reported or discovered the incident? c) How was it discovered? d) Are there any other areas that have been compromised by the incident? If so what are they and when were they discovered? e) What is the scope of the impact? f) What is the business impact? g) Have the source(s) of the incident been located? If so, where, when, and what are they? 3. Containment a) Short-term containment i. Can the problem be isolated? 1. If so, then proceed to isolate the affected systems. 2. If not, then work with system owners and/or managers to determine further action necessary to contain the problem. ii. Are all affected systems isolated from non-affected systems? 1. If so, then continue to the next step. 2. If not, then continue to isolate affected systems until short-term containment has been accomplished to prevent the incident from escalating any further. b) System-backup"
+    },
+    {
+      "section": "6",
+      "heading": "P a g e | 28",
+      "title": "Incident response policy requirements for financial institutions",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 29,
+      "primary_category": "Incident Reporting",
+      "summary": "This section emphasizes the importance of having realistic incident response policies and procedures for financial institutions to prevent operational disruption. It requires organizations to maintain trained incident response teams and proper documentation for interactions with third parties. The section stresses that incidents can have serious impacts, and organizations must be prepared to respond effectively to minimize disruption and financial consequences.",
+      "dtia_summary": "This section is relevant for DTIAs as it mandates incident response policies that affect how financial data is handled during cross-border incidents, particularly in terms of third-party interactions and documentation requirements.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Organizations must have realistic incident response policies, plans and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must have a dedicated incident response team trained to handle incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must maintain proper documentation for interactions with third parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6.0 Conclusion: Organisations should always be concerned about \"when\", and not \"if\" an incident will occur. Incidents can sometimes have serious impact or very low effect on organisations. In any case, it is imperative that we have realistic incident response policies, plans and procedures in place to ensure that each of the incident handling steps are being followed during an incident to prevent further disruption to an organisation's operations. Thus, a dedicated incident response team should be trained to deal with incidents as and when they occur and proper documentation should be in place for any interactions with third parties."
+    },
+    {
+      "section": "7",
+      "heading": "P a g e | 29",
+      "title": "Incident response references and phishing case study",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "This section provides references to incident response standards and includes a case study of a phishing attack on Mauritius Commercial Bank. It details how customers were tricked into entering banking details via phishing emails, resulting in financial losses. The case study outlines the proposed phishing incident response plan, including preparation, detection, containment, eradication, recovery, and post-incident activities. It emphasizes customer education and technical measures like multi-factor authentication to prevent future phishing attacks.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Organizations should develop a phishing incident response plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must create a centralized CSIRT team with necessary resources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must gather phishing email details, TCP-IP information, URLs, and screenshots",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must alert employees to unusual activity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must block phishing websites or block access to them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must implement multi-factor authentication for customer logins",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must track weblogs to detect suspicious IP addresses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must educate customers on recognizing phishing attempts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must establish sender policy framework (SPF) for email validation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations must implement digitally signed emails for high-value communications",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7.0 References: SANS, The Incident Handler's Handbook; The University of Arizona, Incident Response Standard; NIST, Computer Security Incident Handling Guide"
+    }
+  ]
+}

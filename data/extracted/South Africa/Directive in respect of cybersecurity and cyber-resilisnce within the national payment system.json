@@ -1,129 +1,131 @@
 {
   "country": "South Africa",
   "document": "Directive in respect of cybersecurity and cyber-resilisnce within the national payment system",
-  "generated": "2026-07-15T19:05:20",
+  "generated": "2026-07-16T18:50:47",
   "sections": [
     {
       "section": "1",
       "heading": "Definitions",
-      "title": "Critical service providers and cybersecurity terms",
+      "title": "Definitions of critical cybersecurity terms for payment systems",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 5,
       "primary_category": "Definitions",
-      "summary": "This section defines key terms used throughout the directive, including critical service providers, compromise, cyber-attack, cyber-event, cyber-incident, cyber-resilience, cyber-risk, cybersecurity, cyber-threat, information asset, information system, information technology system, multi-factor authentication, payment institution, payment system Financial Market Infrastructure, operator, senior management, sensitive information, and vulnerability assessment. These definitions establish the foundational terminology for understanding the directive's requirements regarding cybersecurity and cyber-resilience in South Africa's national payment system.",
+      "summary": "This section defines key terms specific to payment systems and cybersecurity, including critical service providers, cyber-attacks, cyber-incidents, cyber-resilience, cybersecurity, cyber-threats, information assets, information systems, information technology systems, multi-factor authentication, payment institutions, payment system financial market infrastructure, operators, senior management, sensitive information, and vulnerability assessments. These definitions establish the foundational language for the directive's cybersecurity and cyber-resilience requirements.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "None",
+      "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [
         "Personal Information",
         "Financial Data",
-        "Customer Data",
-        "Employee Data"
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "critical service provider means a service provider that provides critical services to a payment institution in the NPS",
+          "text": "Critical service provider means a service provider that provides critical services to a payment institution in the NPS",
           "obligation_type": "Definition"
         },
         {
-          "text": "compromise means a violation of the security of an information technology (IT) system",
+          "text": "Compromise means a violation of the security of an information technology (IT) system",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-attack means malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt or gain unauthorised access to assets",
+          "text": "Cyber-attack means malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt or gain unauthorised access to assets",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-event means any observable occurrence in an information system. Cyber-events sometimes provide an indication that a cyber-incident is actually occurring",
+          "text": "Cyber-event means any observable occurrence in an information system",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-incident means a cyber-event that adversely affects the cybersecurity of an information system and/or the information that the system processes, stores or transmits, or which violates the security policies, security procedures and/or acceptable use policies of the payment institution, whether resulting from malicious activity or not",
+          "text": "Cyber-incident means a cyber-event that adversely affects the cybersecurity of an information system and/or the information that the system processes, stores or transmits",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-resilience means the ability of a payment institution or an operator to continue carrying out its mission by anticipating and adapting to cyber-threats and other relevant changes in the environment and by withstanding, containing and rapidly recovering from cyber-incidents",
+          "text": "Cyber-resilience means the ability of a payment institution or an operator to continue carrying out its mission by anticipating and adapting to cyber-threats",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-risk means the combination of the probability of cyber-incidents occurring and their impact",
+          "text": "Cyber-risk means the combination of the probability of cyber-incidents occurring and their impact",
           "obligation_type": "Definition"
         },
         {
-          "text": "cybersecurity means the preservation of confidentiality, integrity and availability of information and/or information systems through the cyber-medium",
+          "text": "Cybersecurity means the preservation of confidentiality, integrity and availability of information and/or information systems through the cyber-medium",
           "obligation_type": "Definition"
         },
         {
-          "text": "cyber-threat means a circumstance with the potential to exploit one or more vulnerabilities that adversely affects cybersecurity",
+          "text": "Cyber-threat means a circumstance with the potential to exploit one or more vulnerabilities that adversely affects cybersecurity",
           "obligation_type": "Definition"
         },
         {
-          "text": "information asset means any piece of data, device or other component of the environment that supports information-related activities",
+          "text": "Information asset means any piece of data, device or other component of the environment that supports information-related activities",
           "obligation_type": "Definition"
         },
         {
-          "text": "information system means a set of applications, services, information technology assets or other information-handling components, which includes the operating environment and networks",
+          "text": "Information system means a set of applications, services, information technology assets or other information-handling components",
           "obligation_type": "Definition"
         },
         {
-          "text": "information technology system means a set of hardware, software, network or other information technology components which is part of an IT infrastructure",
+          "text": "Information technology system means a set of hardware, software, network or other information technology components",
           "obligation_type": "Definition"
         },
         {
-          "text": "multi-factor authentication means the use of two or more authentication factors to verify the identity of a user or system",
+          "text": "Multi-factor authentication means the use of two or more authentication factors to verify the identity of a user or system",
           "obligation_type": "Definition"
         },
         {
-          "text": "payment institution means persons designated, authorised, registered or regulated under the National Payment System Act 78 of 1998 (NPS Act), including but not limited to clearing system participants, settlement system participants, third-party payment providers and system operators",
+          "text": "Payment institution means persons designated, authorised, registered or regulated under the National Payment System Act 78 of 1998",
           "obligation_type": "Definition"
         },
         {
-          "text": "payment system Financial Market Infrastructure means a multilateral system among payment system participants, including the operator of the system, used for the purposes of clearing, settling or recording payments, and includes a systemically important payment, clearing or settlement system and a prominent payment, clearing or settlement system",
+          "text": "Payment system Financial Market Infrastructure means a multilateral system among payment system participants",
           "obligation_type": "Definition"
         },
         {
-          "text": "operator means an operator of a payment system, including payment clearing house system operators, operators of settlement systems and the operator(s) of payment system financial market infrastructures (FMIs)",
+          "text": "Operator means an operator of a payment system, including payment clearing house system operators",
           "obligation_type": "Definition"
         },
         {
-          "text": "senior management means the chief executive officer or the person who is in charge of a payment institution",
+          "text": "Senior management means the chief executive officer or the person in charge of a payment institution",
           "obligation_type": "Definition"
         },
         {
-          "text": "sensitive information means information where loss, misuse, or unauthorised access to or modification could adversely affect the public interest, a payment institution or the privacy to which individuals are entitled",
+          "text": "Sensitive information means information where loss, misuse or unauthorised access could adversely affect the public interest",
           "obligation_type": "Definition"
         },
         {
-          "text": "vulnerability assessment means a systematic examination of an IT system, including its controls and processes, to determine the adequacy of security measures, identify security deficiencies, provide data from which to predict the effectiveness of proposed security measures and confirm the adequacy of such measures after implementation",
+          "text": "Vulnerability assessment means a systematic examination of an IT system to determine the adequacy of security measures",
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Definitions 1.1.1 to 1.1.19"
+      "source_quote": "Definitions 1.1 to 1.19"
     },
     {
       "section": "2",
       "heading": "Background",
-      "title": "",
+      "title": "Background on payment system cybersecurity risks",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 5,
       "page_end": 7,
       "primary_category": "Other",
-      "summary": "",
+      "summary": "This section provides context on the South African Reserve Bank's (SARB) role in payment system regulation, the scope of the national payment system (NPS), and the increasing cyber-risks posed by digitization and fintech. It highlights how cyber-attacks on payment systems could disrupt the NPS, leading to financial instability and systemic events, and emphasizes the need for cybersecurity and cyber-resilience measures to protect payment institutions and systems.",
       "dtia_summary": "",
       "authority": "",
-      "financial_relevance": "Unknown",
-      "confidence": "Low",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "Background 2.1 to 2.6"
     },
     {
       "section": "3",
@@ -134,255 +136,227 @@
       "condition": null,
       "page_start": 7,
       "page_end": 7,
-      "primary_category": "Governance",
-      "summary": "The South African Reserve Bank (SARB) mandates cybersecurity and cyber-resilience requirements for payment institutions, payment systems, clearing and settlement systems, and operators within the National Payment System (NPS) through this directive. This section establishes the legal basis for imposing specific cybersecurity frameworks and resilience measures on these entities. The directive applies to entities operating within the NPS framework as defined by the NPS Act.",
-      "dtia_summary": "This section defines the scope of the directive, specifying which entities must comply with cybersecurity and cyber-resilience requirements. It establishes the regulatory authority (SARB) and the legal basis (section 12 of the NPS Act) for the directive's implementation.",
-      "authority": "SARB",
+      "primary_category": "Other",
+      "summary": "This section states that the South African Reserve Bank (SARB) issues the directive to impose cybersecurity and cyber-resilience requirements on payment institutions, payment, clearing and settlement systems, payment system financial market infrastructures (FMIs), and operators within the national payment system (NPS). The purpose is to ensure the safety, efficiency, and resilience of the NPS through robust cybersecurity measures.",
+      "dtia_summary": "",
+      "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Governance"
-      ],
+      "topics": [],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
-      "requirements": [
-        {
-          "text": "The SARB, acting pursuant to its powers in terms of section 12 of the NPS Act, hereby issues this directive to impose cybersecurity and cyber-resilience requirements on payment institutions; payment, clearing and settlement systems; payment system FMIs; and operators within the NPS.",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "The SARB, acting pursuant to its powers in terms of section 12 of the NPS Act, hereby issues this directive to impose cybersecurity and cyber-resilience requirements on payment institutions; payment, clearing and settlement systems; payment system FMIs; and operators within the NPS."
+      "requirements": [],
+      "source_quote": "Purpose 3.1"
     },
     {
       "section": "5",
       "heading": "Directive",
-      "title": "Cybersecurity and cyber-resilience frameworks for payment entities",
+      "title": "Cybersecurity and cyber-resilience requirements for payment systems",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 7,
       "page_end": 13,
-      "primary_category": "Security",
-      "summary": "Payment institutions and operators must develop and maintain comprehensive cybersecurity and cyber-resilience frameworks that include cyber-governance, identification of critical operations and information assets, cybersecurity measures, detection mechanisms, and response/recovery protocols. These frameworks must be aligned with operational risk management, business continuity planning, and industry standards. The requirements specify detailed obligations for board oversight, staff training, access controls, third-party risk assessments, and incident response timelines.",
-      "dtia_summary": "This section mandates specific technical and operational safeguards for payment systems, including real-time threat detection, rapid incident response, and strict recovery timeframes. These requirements directly impact data transfer and processing security across borders for financial entities.",
-      "authority": "SARB",
+      "primary_category": "Other",
+      "summary": "This section mandates payment institutions and operators to develop and maintain cybersecurity and cyber-resilience frameworks that include cyber-governance, identification of critical operations and information assets, cybersecurity measures, detection mechanisms, and response and recovery protocols. These frameworks must ensure the protection of critical systems, timely incident response, and adherence to recovery timelines to maintain payment system stability.",
+      "dtia_summary": "This section imposes critical requirements for data transfer impact assessments, including the need to identify critical information assets, implement robust cybersecurity measures, and establish response protocols that ensure timely recovery from cyber-attacks to prevent systemic disruptions in payment systems.",
+      "authority": "South African Reserve Bank (SARB)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Incident Reporting",
-        "Breach Notification"
-      ],
+      "topics": [],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Payment institutions and operators must develop and maintain cybersecurity and cyber-resilience frameworks that include the following: Cyber-governance, Identification of critical operations and information assets, Cybersecurity measures, Detection, Response and recovery.",
+          "text": "Payment institutions and operators must develop and maintain cybersecurity and cyber-resilience frameworks",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that define cybersecurity and cyber-resilience objectives.",
+          "text": "Payment institutions and operators must have written effective cyber-governance arrangements",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that outline the people, processes and technology requirements for protecting information systems, managing cyber-risks, and providing timely communication and effective responses to, and recovery from, cyber-attacks.",
+          "text": "Board or senior management must determine cyber-risk tolerance levels",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to determine the cyber-risk tolerance levels of the payment institution, operator, a payment, clearing or settlement system, or payment system FMI.",
+          "text": "Board or senior management must approve cybersecurity policies and strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to approve the cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework.",
+          "text": "Board or senior management must oversee development and implementation of cybersecurity frameworks",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to oversee the development and implementation of the cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework.",
+          "text": "Board or senior management must ensure annual review of cybersecurity policies",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure that there is an annual review of the cybersecurity policies and strategy, and cybersecurity and cyber-resilience framework.",
+          "text": "Cybersecurity framework must be aligned with operational risk management",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure that the cybersecurity and cyber-resilience framework is aligned to the operational risk management framework, operational resilience plan and business continuity plan of the payment institution or operator.",
+          "text": "Cybersecurity framework must be based on industry standards and best practices",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure that the cybersecurity and cyber-resilience framework is based on industry standards and international best practices, and complies with legislative and regulatory requirements.",
+          "text": "Cybersecurity framework must articulate identification of cyber-risks and controls",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure that the cybersecurity and cyber-resilience framework clearly articulates the identification of cyber-risks and the required controls to manage and mitigate the cyber-risks.",
+          "text": "Board or senior management must appoint a senior executive accountable for cybersecurity",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure the appointment of a senior executive and technical experts with the relevant skills, expertise and experience accountable for cybersecurity and cyber-resilience.",
+          "text": "Cybersecurity framework must include information sharing with SARB and stakeholders",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the board of directors (board) or senior management of the payment institution and the operator to ensure that the cybersecurity and cyber-resilience framework makes provision for information sharing and collaboration, where necessary, with the SARB and other relevant payment industry stakeholders in terms of applicable laws.",
+          "text": "Senior management must keep board informed on cybersecurity status",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the senior management of the payment institution, the operator to regularly keep the board informed and updated on the cybersecurity and cyber-resilience status of the payment institution, operator or payment system FMI, and report any material developments relating to cyber-threats within the NPS.",
+          "text": "Senior management must ensure compliance with this directive",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the senior management of the payment institution, the operator to ensure that the payment institution, the operator or payment system FMI complies with this directive and any other applicable cyber-resilience legislation and regulations.",
+          "text": "Senior management must conduct due diligence on entities introduced to NPS",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the senior management of the payment institution, the operator to ensure that the payment institution or operator conducts due diligence on the entities they introduce or sponsor, or admit as participants in the NPS.",
+          "text": "Payment institutions must conduct third-party risk assessments annually",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the senior management of the payment institution, the operator to ensure that the payment institution conducts third-party risk assessments on third-party service providers prior to onboarding as well as on an annual basis.",
+          "text": "Roles and responsibilities for cybersecurity must be clearly outlined in agreements",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must have written effective cyber-governance arrangements that require the senior management of the payment institution, the operator to ensure that the roles and responsibilities in respect of cybersecurity and cyber-resilience are clearly outlined in agreements entered into with third-party service providers.",
+          "text": "Payment institutions must identify critical technology, operations, and information assets",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must identify critical technology, operations, processes, supporting information and assets that require protection against cyber-compromise.",
+          "text": "Payment institutions must identify internal processes and external dependencies for security",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must identify internal processes, procedures, information assets and external dependencies that will strengthen the security and resilience to cyber-threats of the payment institution or operator.",
+          "text": "Payment institutions must ensure cybersecurity frameworks protect confidentiality, integrity and availability",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that effectively protect and safeguard the confidentiality, integrity and availability of services provided as well as the information handled by payment institutions, operators, payment, clearing or settlement systems, or payment system FMIs.",
+          "text": "Payment institutions must embed protective controls to minimize cyber-attack impact",
+          "obligation_type": ""
+        },
+        {
+          "text": "Payment institutions must develop measures to protect critical and sensitive information",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that are proportionate to the threat landscape, risk tolerance and systemic role of the payment institution, operators, payment, clearing or settlement systems or payment system FMIs in the NPS.",
+          "text": "Payment institutions must develop measures to mitigate risks from interconnectedness",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the embedding of protective controls that minimise the likelihood and impact of a successful cyber-attack on identified critical business functions and information assets.",
+          "text": "Payment institutions must develop measures to address anomalous staff behavior",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of measures to protect critical and sensitive information, which should, at a minimum, include access control, multi-factor authentication (MFA) or encryption.",
+          "text": "Payment institutions must train staff on cyber-risk detection and response",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of measures to mitigate risks arising from the interconnectedness with other payment institutions, operators, payment, clearing or settlement systems, or payment system FMIs within the NPS.",
+          "text": "Payment institutions must design cyber-secure payment instruments and services",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of measures that mitigate cyber-risk and address anomalous behaviour by staff with access to the system.",
+          "text": "Payment institutions must implement cyber-hygiene measures including strong password security",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the continuous training of all relevant staff to develop and maintain awareness and to ensure that staff are knowledgeable in detecting and addressing cyber-risk.",
+          "text": "Payment institutions must implement multi-factor authentication for critical systems",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and design of cyber-secure and cyber-resilient payment instruments and services that ensure that software, network configurations and hardware supporting or connected to critical systems are tested against security standards and cyber-attacks.",
+          "text": "Payment institutions must ensure network perimeter defense controls",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that include strong password security controls, access rights and privileges, MFA and periodic access reviews.",
+          "text": "Payment institutions must implement multiple-layer security controls",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure third-party service providers that have access to information assets payment institutions, operators, payment, clearing and settlement systems, or payment system FMIs are subject to access restrictions and monitoring.",
+          "text": "Payment institutions must ensure security patches are applied",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that establish processes to manage access to privileged accounts and monitor the use of IT systems for suspicious and unauthorised activities.",
+          "text": "Payment institutions must test security patches for compatibility",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that implement MFA for access to critical systems and for accounts used to access payments institutions' or operators' sensitive information through the internet.",
+          "text": "Payment institutions must ensure security standards for software, systems and devices",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure the implementation of network perimeter defense controls.",
+          "text": "Payment institutions must monitor application of security standards",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that implement multiple-layer security controls to curb the effect of security compromises.",
+          "text": "Payment institutions must implement malware protection",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure the application of security patches to address vulnerabilities of systems.",
+          "text": "Payment institutions must scan information assets for malicious activities",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure that security patches are tested and compatible with existing IT systems.",
+          "text": "Payment institutions must ensure data loss prevention policies",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure there are security standards applicable to software, systems and devices.",
+          "text": "Payment institutions must encrypt data storage systems and endpoint devices",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that develop processes to monitor the application of security standards and ensure that the standards are continually reviewed for relevance to an evolving threat landscape.",
+          "text": "Payment institutions must ensure third-party managed systems are protected",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that implement malware protection through defense and response mechanisms.",
+          "text": "Payment institutions must ensure cyber-attack trigger points and detection measures",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of cyber-hygiene measures that ensure regular scanning of information assets for malicious activities.",
+          "text": "Payment institutions must implement multi-layered trigger indicators for detection",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of data security measures that include data loss prevention policies which should include measures that will enable the payment institutions or operators to detect and prevent the unauthorised access and transmission of sensitive data.",
+          "text": "Payment institutions must identify irregular behavior by persons with access",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of data security measures that ensure the encryption of data storage systems and endpoint devices to protect sensitive data.",
+          "text": "Payment institutions must have arrangements for resumption of critical operations",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cybersecurity frameworks include security controls, processes and systems that must include the development and implementation of data security measures that ensure IT systems that are managed by third-party service providers are protected and subject to security standards.",
+          "text": "Payment institutions must detect cyber-attack attempts and successful attacks",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cyber-resilience frameworks include cyber-attack trigger points and detection measures to continuously detect and monitor anomalous events and activities.",
+          "text": "Payment institutions must initiate recovery efforts upon successful cyber-attack",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cyber-resilience frameworks include cyber-using attack trigger points and detection measures that include multi-layered trigger indicators and detection controls that accommodate processes, people and technology, ensuring that each layer serves as a safety net.",
+          "text": "Payment institutions must have incident response processes for recovery",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions and operators must ensure that cyber-resilience frameworks include cyber-attack trigger points and detection measures that include security measures that identify and facilitate the analysis of irregular behaviour by persons with access to the payment institution or operator's information assets and network.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including early detection of cyber-attack attempts and/or successful cyber-attacks.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including immediate initiation of recovery efforts to restore operations upon detection of a successful cyber-attack.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including incident response processes to ensure that there is efficient recovery from incidents that could not be prevented.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including adequate measures in place, including the design and testing of systems, to enable the return and resumption of critical operations within two (2) hours or any extended timelines with the prior approval of the SARB for payment, clearing and settlement systems and payment system FMIs.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including within the timelines specified by the PSMB for the payment institutions that are members of, registered or authorised by the PSMB, or as per the timelines specified by operators of payment, clearing and settlement systems for payment institutions that participate in such systems, which shall not, without prior approval by the SARB, exceed eight (8) hours of recovery/resumption time for all payment institutions.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Payment institutions or operators must have arrangements in place designed to enable the resumption of critical operations safely and swiftly, including recovery measures, upon detection and investigation of a cyber-attack, are in place that enable compliance with payment and settlement obligations to minimise the likelihood of a systemic event.",
+          "text": "Payment institutions must have recovery measures within 2 hours for payment systems",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Payment institutions and operators must develop and maintain cybersecurity and cyber-resilience frameworks that include the following: Cyber-governance, Identification of critical operations and information assets, Cybersecurity measures, Detection, Response and recovery."
+      "source_quote": "Directive 5.1 to 5.1.5.1"
     },
     {
       "section": "5 (part 2)",
@@ -394,8 +368,8 @@
       "page_start": 13,
       "page_end": 16,
       "primary_category": "Other",
-      "summary": "Payment institutions must develop and test cyber-resilience plans quarterly, update them using threat intelligence and past incidents, include third-party management in their frameworks, and ensure cloud providers comply with SARB regulations. These plans must cover incident response, recovery, and business continuity for critical operations.",
-      "dtia_summary": "Requires payment institutions to maintain robust cyber-resilience frameworks with third-party and cloud service providers, including specific testing and monitoring protocols for cross-border data handling in payment systems.",
+      "summary": "Payment institutions must develop and test cyber-resilience plans quarterly, update them using threat intelligence and past incidents, include third-party management in their frameworks, and ensure cloud compliance with SARB regulations. These requirements apply to payment institutions and operators to maintain critical system resilience during cyber incidents.",
+      "dtia_summary": "Requires payment institutions to maintain robust cyber-resilience frameworks with third-party and cloud service providers, including specific testing and monitoring protocols that impact data transfer and storage security across borders.",
       "authority": "SARB",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -408,43 +382,119 @@
       ],
       "requirements": [
         {
-          "text": "Develop and test response, resumption and recovery plans on a quarterly basis",
+          "text": "Develop and test response, resumption and recovery plans quarterly",
           "obligation_type": "Must"
         },
         {
-          "text": "Continuous update of plans based on information sharing, current cyber-threat intelligence and information from previous cyber-events",
+          "text": "Update plans based on threat intelligence and past cyber-events",
           "obligation_type": "Must"
         },
         {
-          "text": "Include third-party management plans in cyber-resilience frameworks to evaluate cyber-resilience measures, assess criticality of outsourced processes, obtain independent security attestation reports, and implement business continuity plans",
+          "text": "Include third-party management plans in cyber-resilience frameworks",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure compliance with SARB regulatory requirements for cloud computing and data offshoring in the NPS, including identifying, monitoring and mitigating jurisdiction risks and maintaining accountability for data security",
+          "text": "Conduct extensive due diligence on third-party cyber-resilience measures",
           "obligation_type": "Must"
         },
         {
-          "text": "Develop and implement cyber-resilience testing programmes with scenarios, penetration testing, system change testing, and regular vulnerability assessments",
+          "text": "Assess criticality of outsourced processes before contracts",
           "obligation_type": "Must"
         },
         {
-          "text": "Share cyber threat and risk information with regulators, cybersecurity agencies, and trusted parties while ensuring compliance with data protection laws and the Cybercrimes Act",
+          "text": "Obtain independent security attestation reports from third parties",
           "obligation_type": "Must"
         },
         {
-          "text": "Understand cyber-threat landscapes, develop threat intelligence processes, and monitor threats from other payment institutions and systems",
+          "text": "Implement and test business continuity plans with third parties",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure cybersecurity frameworks adapt to evolving cyber-risks, learn from incidents, monitor technological developments, and implement predictive capabilities",
+          "text": "Ensure compliance with SARB cloud computing and data offshoring regulations",
           "obligation_type": "Must"
         },
         {
-          "text": "Report material cyber-incidents to SARB within 24 hours with detailed reports including incident date, cause, impact, recovery period, and systemic effects",
+          "text": "Identify, monitor and mitigate jurisdiction risks for cloud data",
           "obligation_type": "Must"
         },
         {
-          "text": "Provide regular updates to SARB after incident remediation",
+          "text": "Remain accountable for data stored and processed on cloud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop and implement cyber-resilience testing programmes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Simulate cyber-attacks to identify vulnerabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct internal and external penetration testing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Test systems after significant changes for security vulnerabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Perform regular vulnerability assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Share cyber threat and risk information with regulators and trusted parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Plan information sharing through trusted channels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participate in information-sharing groups like Cybersecurity Hub",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure client data protection during information sharing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply with Cybercrimes Act regarding information disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Understand cyber-threat landscape and risk mitigation adequacy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop cyber-threat intelligence processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collect information about cyber-threats from other payment institutions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure cybersecurity frameworks adapt to evolving cyber-risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Learn from previous cyber-incidents to improve security systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Monitor technological developments to counter cyber-attacks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement predictive capabilities for proactive cyber-protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report material cyber-incidents to SARB within 24 hours",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide detailed incident reports to SARB within 48 hours",
           "obligation_type": "Must"
         }
       ],
@@ -460,45 +510,110 @@
       "page_start": 16,
       "page_end": 19,
       "primary_category": "Regulator Powers",
-      "summary": "The SARB has authority to conduct unscheduled inspections of payment institutions, provide written notifications before inspections, require access to premises, and seize documents or items relevant to compliance. Inspectors must follow strict procedures, including producing identification, obtaining warrants for entry, and allowing examination of systems and records.",
-      "dtia_summary": "SARB's inspection powers enable oversight of payment institutions' compliance with cyber-resilience requirements, including data handling practices and incident reporting mechanisms.",
+      "summary": "The SARB may conduct unscheduled inspections of payment institutions with prior written notice, requiring inspectors to present identification and authority documents. Inspectors can access premises, documents, and systems without consent under specific conditions, including warrants for entry. Payment institutions must provide signed receipts for documents taken during inspections.",
+      "dtia_summary": "SARB's inspection powers allow for data access and system checks that impact data transfer and storage compliance, particularly for financial institutions operating across borders.",
       "authority": "SARB",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Incident Reporting",
-        "Breach Notification"
-      ],
+      "topics": [],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "SARB may conduct onsite or offsite inspections to promote compliance with the directive",
+          "text": "SARB may conduct onsite or offsite inspections to promote compliance",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB must provide written notification to payment institutions before onsite inspections",
+          "text": "SARB must provide written notification before onsite inspections",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB representatives must produce a letter of authority and identity document upon entry",
+          "text": "Inspection notification specifies dates, SARB representatives, review period, and required documentation",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB may enter premises without prior consent for business operations or with consent for private residences",
+          "text": "SARB representatives must produce letter of authority and identity documents",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB representatives have rights to access documents, systems, and items relevant to inspections",
+          "text": "SARB may enter business premises without consent",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB representatives may require individuals to produce documents or information relevant to inspections",
+          "text": "SARB may enter private residences with consent if business is conducted there",
           "obligation_type": "Must"
         },
         {
-          "text": "SARB may issue warrants for inspections if there are reasonable grounds to suspect contravention",
+          "text": "SARB may enter premises without notice if warrant is issued",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may enter premises with senior staff authority if warrant is likely",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may enter premises to conduct inspections without notice if necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB representatives have right to access any part of premises and documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may open strongrooms to access relevant documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may examine, copy, and make extracts from documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may question individuals for relevant information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may require production of documents relevant to inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may operate computer systems to search information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may take copies of documents as evidence of contravention",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB must provide signed receipt for documents taken",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment institutions may examine documents under SARB supervision",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individuals may object to answering questions or producing documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB may require answers or documents despite objections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Magistrates may issue warrants for inspections if conditions are met",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Warrants must be signed by issuing judge or magistrate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB must fix warrant copy on premises if no one is in charge",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SARB must produce warrant on demand",
           "obligation_type": "Must"
         }
       ],
@@ -514,32 +629,34 @@
       "page_start": 19,
       "page_end": 20,
       "primary_category": "Enforcement",
-      "summary": "The directive becomes effective three months after publication, with SARB retaining the right to amend requirements. Payment institutions must comply with all stipulated conditions, and contraventions are punishable under section 12(8) of the NPS Act.",
-      "dtia_summary": "Sets the timeline for implementation and establishes legal consequences for non-compliance with cyber-resilience requirements, including potential penalties under the NPS Act.",
+      "summary": "This directive takes effect three months after publication, with SARB retaining amendment rights. Payment institutions must comply with all requirements, and contraventions are offences under the NPS Act, subject to penalties.",
+      "dtia_summary": "Sets the effective date and legal consequences for non-compliance, directly impacting data transfer and processing compliance timelines and penalties for financial institutions.",
       "authority": "SARB",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Breach Notification"
-      ],
+      "topics": [],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "This directive will be effective three months after publication",
+          "text": "Directive effective three months after publication",
           "obligation_type": "Must"
         },
         {
-          "text": "Payment institutions must comply with all requirements in the directive",
+          "text": "SARB may amend requirements in the directive",
           "obligation_type": "Must"
         },
         {
-          "text": "Contravention of the directive is an offence under section 12(8) of the NPS Act",
+          "text": "Payment institutions must comply with directive requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contravention of directive is an offence under NPS Act",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Contravention of this directive is an offence in terms of section 12(8) of the NPS Act."
+      "source_quote": "This directive will be effective three months after its publication. The SARB reserves the right to amend any requirements in this directive."
     }
   ]
 }

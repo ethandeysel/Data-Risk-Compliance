@@ -1,0 +1,816 @@
+{
+  "country": "Australia",
+  "document": "C2026C00227-1 (Australia - Row 21)",
+  "generated": "2026-07-16T13:36:03",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "management of personal information",
+      "title": "Management of personal information transparency and policy",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 379,
+      "page_end": 380,
+      "primary_category": "Data Collection",
+      "summary": "APP entities must implement practices to comply with Australian Privacy Principles and registered codes. They must also handle individual inquiries about compliance with these principles. Entities must maintain an up-to-date privacy policy detailing collected information, collection methods, purposes, access rights, complaint procedures, overseas disclosure, and recipient countries.",
+      "dtia_summary": "Requires clear documentation of data handling practices to ensure transparency and compliance with privacy standards during data transfers.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "APP entities must take reasonable steps to implement practices ensuring compliance with Australian Privacy Principles and registered APP codes.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must handle individual inquiries about compliance with Australian Privacy Principles or registered codes.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must have a clearly expressed and up-to-date policy on personal information management.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must detail collected personal information types.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must specify how personal information is collected and held.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must state purposes for collecting, holding, using, and disclosing personal information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must outline individual access and correction procedures.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must describe complaint procedures for privacy breaches.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must indicate if overseas disclosure of personal information is likely.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP privacy policy must list countries where overseas recipients may be located if practicable.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must make privacy policy available reasonably.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must provide copies of privacy policy in requested forms.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "management of personal information\n1.1 The object of this principle is to ensure that APP entities manage personal information in an open and transparent way. Compliance with the Australian Privacy Principles etc."
+    },
+    {
+      "section": "2",
+      "heading": "2  Australian Privacy Principle 2—anonymity and pseudonymity",
+      "title": "Individual anonymity and pseudonymity options",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 380,
+      "page_end": 382,
+      "primary_category": "Data Collection",
+      "summary": "Individuals must have the option to remain anonymous or use pseudonyms when interacting with APP entities. This does not apply if the entity is legally required to deal with identified individuals or if it is impracticable to handle anonymous individuals.",
+      "dtia_summary": "Allows individuals to maintain anonymity in data interactions, relevant for data transfers where anonymity is a privacy concern.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Individuals must have the option to not identify themselves or use a pseudonym when dealing with APP entities.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This does not apply if the entity is legally required to deal with identified individuals.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This does not apply if it is impracticable to deal with anonymous individuals.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "2.1 Individuals must have the option of not identifying themselves, or of using a pseudonym, when dealing with an APP entity in relation to a particular matter."
+    },
+    {
+      "section": "3",
+      "heading": "Personal information other than sensitive information",
+      "title": "Personal information collection requirements",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 382,
+      "page_end": 384,
+      "primary_category": "Data Collection",
+      "summary": "APP entities must not collect personal information (other than sensitive information) unless it is reasonably necessary for their functions. Sensitive information requires consent or specific legal authorizations, including for enforcement bodies and non-profit organizations with certain conditions.",
+      "dtia_summary": "Sets strict conditions for data collection, impacting cross-border transfers by requiring necessity and consent for sensitive data.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "APP entities must not collect personal information (other than sensitive information) unless reasonably necessary for functions.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "APP entities must not collect sensitive information without consent or specific legal authorizations.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Consent for sensitive information must be reasonably necessary for functions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collection of sensitive information may be authorized by Australian law or court order.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Permitted general situations allow collection of sensitive information.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Permitted health situations allow collection of sensitive information for organizations.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Enforcement bodies may collect sensitive information if reasonably necessary for enforcement activities.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Non-profit organizations may collect sensitive information if it relates to their activities and members.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "APP entities must collect personal information only by lawful and fair means.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must collect personal information only from individuals unless consent or legal authorization is given.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3.1 If an APP entity is an agency, the entity must not collect personal information (other than sensitive information) unless the information is reasonably necessary for, or directly related to, one or more of the entity's functions or activities."
+    },
+    {
+      "section": "4",
+      "heading": "information",
+      "title": "Unsolicited personal information handling",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 384,
+      "page_end": 385,
+      "primary_category": "Data Collection",
+      "summary": "APP entities must determine if unsolicited personal information could have been collected under Australian Privacy Principle 3. If not, they must destroy the information or ensure it is de-identified. Otherwise, Principles 5-13 apply.",
+      "dtia_summary": "Requires assessment of unsolicited data to prevent unnecessary data retention and ensure compliance with data transfer rules.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "APP entities must determine if unsolicited personal information could have been collected under Principle 3.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities may use unsolicited information for this determination.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "If unsolicited information could not have been collected, entities must destroy or de-identify it.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4.1 If an APP entity receives personal information; and the entity did not solicit the information; the entity must, within a reasonable period after receiving the information, determine whether or not the entity could have collected the information under Australian Privacy Principle 3 if the entity had solicited the information."
+    },
+    {
+      "section": "5",
+      "heading": "5  Australian Privacy Principle 5—notification of the collection of",
+      "title": "Notification of personal information collection",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 385,
+      "page_end": 387,
+      "primary_category": "Data Collection",
+      "summary": "APP entities must notify individuals of specific matters related to personal information collection, including entity details, collection circumstances, legal basis, purposes, consequences of non-collection, disclosure recipients, and privacy policy access procedures.",
+      "dtia_summary": "Mandates detailed notifications for data transfers, ensuring individuals understand data handling practices across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "APP entities must notify individuals of entity identity, contact details, and collection circumstances.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must notify individuals if information is collected from others or they are unaware of collection.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must notify individuals if collection is legally required or authorized.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must specify purposes for collecting personal information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must state consequences of not collecting information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must list disclosure recipients or types of recipients.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must indicate privacy policy access and correction procedures.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must indicate if overseas disclosure is likely.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must specify countries where overseas recipients may be located if practicable.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5.1 At or before the time or, if that is not practicable, as soon as practicable after, an APP entity collects personal information about an individual, the entity must take such steps (if any) as are reasonable in the circumstances: to notify the individual of such matters referred to in subclause 5.2 as are reasonable in the circumstances."
+    },
+    {
+      "section": "6",
+      "heading": "information",
+      "title": "Use and disclosure of personal information",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 387,
+      "page_end": 389,
+      "primary_category": "Other",
+      "summary": "APP entities must not use or disclose personal information for secondary purposes without consent, specific legal authorizations, permitted situations, or reasonable necessity for enforcement activities. Exceptions include direct marketing and government identifiers.",
+      "dtia_summary": "Restricts data use and disclosure across borders by requiring consent or legal basis for secondary purposes, critical for international data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "APP entities must not use or disclose personal information for secondary purposes without consent or specific conditions.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Secondary purpose must be directly related to primary purpose for sensitive information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secondary purpose must be related to primary purpose for non-sensitive information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use or disclosure may be legally required or authorized.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Permitted general situations allow use or disclosure.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Permitted health situations allow use or disclosure for organizations.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Enforcement bodies may use information reasonably necessary for enforcement activities.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Biometric information may be disclosed to enforcement bodies with Commissioner guidelines.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "APP entities must make written notes of use or disclosure under specific conditions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use or disclosure by organizations for direct marketing is exempt.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Use or disclosure of government related identifiers is exempt.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "6.1 If an APP entity holds personal information about an individual that was collected for a particular purpose (the primary purpose), the entity must not use or disclose the information for another purpose (the secondary purpose) unless: the individual has consented to the use or disclosure of the information or subclause 6.2 or 6.3 applies in relation to the use or disclosure of the information."
+    },
+    {
+      "section": "7",
+      "heading": "Direct marketing",
+      "title": "Direct marketing consent and opt-out requirements",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 389,
+      "page_end": 392,
+      "primary_category": "Data Sharing",
+      "summary": "Organisations must not use or disclose personal information for direct marketing unless specific conditions are met. Exceptions include obtaining consent, the individual reasonably expects marketing, providing an easy opt-out mechanism, and the individual not having opted out. Sensitive information requires explicit consent for direct marketing. Organisations must provide a simple opt-out method and respond to opt-out requests within a reasonable period without charging fees.",
+      "dtia_summary": "Requires explicit consent or opt-out mechanisms for direct marketing across borders; mandates clear opt-out processes to ensure data subjects can control their marketing communications.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisation must not use or disclose personal information for direct marketing",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Organisation may use personal information for direct marketing if individual reasonably expects use",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Organisation must provide simple opt-out mechanism for direct marketing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individual must not have opted out for direct marketing",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Organisation must respond to opt-out requests within reasonable period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisation must not charge individual for opt-out requests",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Direct marketing: If an organisation holds personal information about an individual, the organisation must not use or disclose the information for the purpose of direct marketing."
+    },
+    {
+      "section": "8",
+      "heading": "8  Australian Privacy Principle 8—cross-border disclosure of",
+      "title": "Cross-border data disclosure safeguards",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 392,
+      "page_end": 394,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Before disclosing personal information to overseas recipients, entities must ensure the recipient does not breach Australian Privacy Principles. Exceptions include where the recipient is subject to equivalent laws, individuals have consented, disclosures are legally required, or specific permitted situations exist. Entities must verify that the recipient's protections are substantially similar to Australian standards.",
+      "dtia_summary": "Requires robust safeguards for cross-border data transfers, including equivalent legal protections or explicit consent, to prevent breaches of Australian privacy standards when transferring data internationally.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Security",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Entity must ensure overseas recipient does not breach Australian Privacy Principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recipient must have equivalent legal protections to Australian Privacy Principles",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Individual must consent to disclosure after being informed",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Disclosure must be legally required or authorized by Australian law",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Entity must verify recipient is subject to prescribed country or binding scheme",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Before an APP entity discloses personal information about an individual to a person (the overseas recipient) who is not in Australia or an external Territory and who is not the entity or the individual, the entity must ensure the overseas recipient does not breach the Australian Privacy Principles."
+    },
+    {
+      "section": "9",
+      "heading": "Adoption of government related identifiers",
+      "title": "Government identifiers usage restrictions",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 394,
+      "page_end": 396,
+      "primary_category": "Data Sharing",
+      "summary": "Organisations must not adopt or use government-related identifiers without legal authorization or regulatory approval. Usage must be necessary for identity verification, fulfilling obligations to authorities, or complying with specific legal requirements. Entities must follow prescribed regulations for identifier adoption and use.",
+      "dtia_summary": "Restricts cross-border data transfers involving government identifiers by requiring legal authorization or regulatory compliance to ensure data integrity and privacy.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisation must not adopt government-related identifiers without legal authorization",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Use of government identifiers must be necessary for identity verification",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Use of government identifiers must be necessary for fulfilling obligations to authorities",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Use of government identifiers must comply with legal requirements",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "An organisation must not adopt a government related identifier of an individual as its own identifier of the individual unless the adoption is required or authorised by or under an Australian law."
+    },
+    {
+      "section": "10",
+      "heading": "10  Australian Privacy Principle 10—quality of personal information",
+      "title": "Personal information accuracy and completeness",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 396,
+      "page_end": 396,
+      "primary_category": "Other",
+      "summary": "Entities must ensure personal information is accurate, up-to-date, and complete when collected and when used or disclosed. This includes verifying data relevance to the intended purpose to maintain data quality and privacy compliance.",
+      "dtia_summary": "Ensures data accuracy and completeness for cross-border transfers by requiring entities to maintain high-quality data, reducing risks of breaches and non-compliance.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Entity must ensure personal information is accurate, up-to-date, and complete",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity must ensure personal information is relevant to the purpose of use or disclosure",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An APP entity must take such steps as are reasonable in the circumstances to ensure that the personal information that the entity collects is accurate, up-to-date and complete."
+    },
+    {
+      "section": "11",
+      "heading": "information",
+      "title": "Personal information security measures",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 396,
+      "page_end": 398,
+      "primary_category": "Security",
+      "summary": "Entities must implement technical and organizational measures to protect personal information from unauthorized access, use, or disclosure. This includes ensuring data security during storage and transmission to prevent breaches and maintain confidentiality.",
+      "dtia_summary": "Requires robust security measures for cross-border data transfers to protect personal information from breaches, ensuring compliance with international data transfer standards.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Entity must take reasonable steps to protect personal information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity must implement technical and organizational measures for security",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "If an APP entity holds personal information, the entity must take such steps as are reasonable in the circumstances to protect the information."
+    },
+    {
+      "section": "12",
+      "heading": "Access",
+      "title": "Individual access to personal information",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 398,
+      "page_end": 401,
+      "primary_category": "Data Subject Rights",
+      "summary": "Entities must provide individuals with access to their personal information upon request, with exceptions for legal obligations, privacy risks, or commercial sensitivity. Entities must respond within 30 days for agencies and a reasonable period for organizations, and may use intermediaries to facilitate access without charging fees.",
+      "dtia_summary": "Ensures individuals can access their personal information across borders, with clear timelines and mechanisms for resolving access disputes, critical for data subject rights in international contexts.",
+      "authority": "Privacy Act 1988 (Cth)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Entity must provide access to personal information upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity must respond to access requests within 30 days for agencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity must respond to access requests within reasonable period for organizations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Entity must not charge individuals for access requests",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "If an APP entity holds personal information about an individual, the entity must, on request by the individual, give the individual access to the information."
+    },
+    {
+      "section": "13",
+      "heading": "Correction",
+      "title": "Correction of personal information requests",
+      "chapter": "Chapter 3",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 401,
+      "page_end": 408,
+      "primary_category": "Other",
+      "summary": "An APP entity must correct inaccurate, outdated, incomplete, irrelevant, or misleading personal information when the entity determines it is inaccurate or the individual requests correction. The entity must also notify other APP entities if the correction affects previously disclosed information and the individual requests such notification. The entity must respond to correction requests within 30 days if it is an agency or within a reasonable period if it is an organisation. The entity must not charge the individual for these services.",
+      "dtia_summary": "This section requires entities to correct personal information upon request and notify third parties when corrections are made, impacting data transfer and storage practices across borders where personal information is shared.",
+      "authority": "Australian Privacy Principles (APP)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "If an APP entity holds personal information about an individual and the entity is satisfied the information is inaccurate, out-of-date, incomplete, irrelevant or misleading, the entity must correct the information.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If an APP entity corrects personal information previously disclosed to another APP entity and the individual requests notification, the entity must notify the other entity unless impracticable or unlawful.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If an APP entity refuses to correct personal information, it must provide written notice with reasons for refusal, complaint mechanisms, and any other prescribed matters.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If an APP entity refuses to correct personal information and the individual requests a statement of inaccuracy, the entity must associate the statement in a way that makes it apparent to users.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must respond to correction requests within 30 days if they are agencies or within a reasonable period if they are organisations.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APP entities must not charge individuals for making correction requests, correcting information, or associating statements.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "13.1 If: (a) an APP entity holds personal information about an individual; (b) either: (i) the entity is satisfied that, having regard to a purpose for which the information is held, the information is inaccurate, out-of-date, incomplete, irrelevant or misleading; or (ii) the individual requests the entity to correct the information; the entity must take such steps (if any) as are reasonable in the circumstances to correct that information..."
+    },
+    {
+      "section": "13 (part 2)",
+      "heading": "Correction (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 408,
+      "page_end": 414,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "13 (part 3)",
+      "heading": "Correction (cont.)",
+      "title": "Effect of apology on privacy liability",
+      "chapter": "Chapter 3",
+      "part": "part f",
+      "condition": null,
+      "page_start": 414,
+      "page_end": 421,
+      "primary_category": "Other",
+      "summary": "This section clarifies that an apology made by a defendant in connection with an invasion of privacy does not constitute an admission of fault or liability. It also states that an apology is not relevant to determining fault or liability in privacy cases. The provision applies to all parties involved in privacy invasions under this Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An apology made by or on behalf of the defendant in connection with the invasion of privacy does not constitute an express or implied admission of fault or liability by the defendant",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "An apology made by or on behalf of the defendant in connection with the invasion of privacy is not relevant to the determination of fault or liability in connection with the invasion of privacy",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "For the purposes of this Schedule, an apology made by or on behalf of the defendant in connection with the invasion of privacy: (a) does not constitute an express or implied admission of fault or liability by the defendant in connection with the invasion of privacy; and (b) is not relevant to the determination of fault or liability in connection with the invasion of privacy."
+    },
+    {
+      "section": "13 (part 4)",
+      "heading": "Correction (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part f",
+      "condition": null,
+      "page_start": 421,
+      "page_end": 430,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "13 (part 5)",
+      "heading": "Correction (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part n",
+      "condition": null,
+      "page_start": 430,
+      "page_end": 438,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "13 (part 6)",
+      "heading": "Correction (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part n",
+      "condition": null,
+      "page_start": 438,
+      "page_end": 452,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "13 (part 7)",
+      "heading": "Correction (cont.)",
+      "title": "Correction of legislative references",
+      "chapter": "Chapter 3",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 452,
+      "page_end": 472,
+      "primary_category": "Other",
+      "summary": "This section lists amendments and repeals affecting previous provisions. It specifies which amendments (am), repeals (rep), and other legislative changes (rs, ad) have been applied to various sections of the Act. The section does not create new obligations but updates references to ensure accurate legislative tracking.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Amendments and repeals are listed for specific sections of the Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Endnotes: Compilation of amendments and repeals affecting previous provisions."
+    }
+  ]
+}

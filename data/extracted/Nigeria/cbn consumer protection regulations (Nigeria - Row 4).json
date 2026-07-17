@@ -1,7 +1,7 @@
 {
   "country": "Nigeria",
   "document": "cbn consumer protection regulations (Nigeria - Row 4)",
-  "generated": "2026-07-15T18:54:51",
+  "generated": "2026-07-16T18:31:10",
   "sections": [
     {
       "section": "4",
@@ -12,17 +12,18 @@
       "condition": null,
       "page_start": 3,
       "page_end": 3,
-      "primary_category": "Data Collection",
-      "summary": "Institutions must disclose all terms, conditions, features, risks, benefits, fees, and charges to consumers before and during contract execution. They must provide a Key Facts Statement (KFS) for loans, allow a 3-day cooling-off period after signing, and ensure variations in interest rates are notified with specific details. These disclosures apply to credit, deposit, and other financial products to ensure transparency and informed consumer choices.",
-      "dtia_summary": "Requires detailed pre-contract disclosures for financial products, including key terms, fees, and interest rates, which impact data transfer impact assessments by mandating clear communication of financial terms before data processing begins.",
+      "primary_category": "Data Sharing",
+      "summary": "Institutions must disclose all terms and conditions, features, risks, benefits, fees, and charges to consumers before contract execution. They must provide a Key Facts Statement (KFS) for loans, allow a 2-day review period, and grant a 3-day cooling-off period after signing. Contracts must include interest rates, fees, and mechanisms for variation notifications. Institutions must notify consumers of transaction activity and provide monthly statements at no cost.",
+      "dtia_summary": "Requires detailed pre-contract and ongoing disclosures for financial products, impacting data sharing transparency and consumer consent mechanisms in cross-border transactions involving Nigerian financial institutions.",
       "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Financial Data"
+        "Data Sharing"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
@@ -30,35 +31,27 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Disclose in contracts the possibility of variations in interest rates or foreign exchange due to market conditions",
+          "text": "Disclose possibility of interest rate or foreign exchange variations due to market conditions",
           "obligation_type": "Must"
         },
         {
-          "text": "Disclose similar products and services within the Institution to enable consumer comparisons",
+          "text": "Provide Key Facts Statement (KFS) in Annexure A format for consumer loans",
           "obligation_type": "Must"
         },
         {
-          "text": "Provide a Key Facts Statement (KFS) in the format attached as Annexure A stating a summary of key information on consumer loans",
+          "text": "Allow consumers minimum of two (2) days from receipt to review draft contract before execution",
           "obligation_type": "Must"
         },
         {
-          "text": "Allow consumers a minimum of two (2) days from date of receipt to review draft contract before execution",
+          "text": "Grant three (3) working day cooling-off period after signing credit contract for cancellation without penalty",
           "obligation_type": "Must"
         },
         {
-          "text": "Give a consumer a cooling-off period of three (3) working days after signing a credit contract to cancel without penalty",
+          "text": "Notify consumers of transactions immediately with date, amount, payer, transaction reference, channel and cleared balance",
           "obligation_type": "Must"
         },
         {
-          "text": "Notify consumers of any transaction on their account immediately it is made, including date, amount, payer, transaction reference, channel and cleared account balance",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Ensure descriptions in account statements are clear, including transaction reference, payer, transaction channel, location and account balance",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Ensure credit contracts contain key features and risks, tenor of the contract, interest/fee calculations, APR, notice of interest rate variations, and complaint escalation channels",
+          "text": "Ensure account statements include transaction reference, payer, transaction channel, location and account balance",
           "obligation_type": "Must"
         },
         {
@@ -66,7 +59,11 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Give prior notice of interest rate variations to customers, stating reason, commencement date, revised repayment schedule, and alternatives",
+          "text": "Give prior notice of interest rate variations with reason, commencement date, revised repayment schedule and alternatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure variations in interest rates implemented after 10 working days (for DMBs) or 5 working days (for other institutions)",
           "obligation_type": "Must"
         }
       ],
@@ -75,49 +72,48 @@
     {
       "section": "5",
       "heading": "",
-      "title": "Responsible business conduct and data protection for consumers",
+      "title": "Responsible business conduct and consumer protection",
       "chapter": null,
       "part": "PART F",
       "condition": null,
       "page_start": 3,
       "page_end": 3,
-      "primary_category": "Other",
-      "summary": "Institutions must conduct business ethically, train staff, provide clear product information, and ensure consumers know complaint channels. They must display all applicable fees for electronic payments, not impose products on consumers, and avoid charging for services not requested. These requirements ensure transparency and ethical handling of consumer data throughout the relationship.",
-      "dtia_summary": "Mandates ethical business practices and clear communication of fees and services, which are critical for data transfer impact assessments to ensure consumer data is handled transparently and responsibly.",
+      "primary_category": "Data Sharing",
+      "summary": "Institutions must conduct business professionally and ethically, train staff, provide clear product information, and establish complaint channels. They must not impose products on consumers, charge for unused services, or require third-party products as conditions for credit. Credit assessments must consider financial capability and include credit history checks.",
+      "dtia_summary": "Establishes ethical business practices that impact data sharing transparency and consumer consent mechanisms in cross-border financial transactions involving Nigerian institutions.",
       "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Financial Data",
-        "Data Sharing",
-        "Customer Information"
+        "Data Sharing"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Conduct business in a responsible, professional and ethical manner",
+          "text": "Conduct business in responsible, professional and ethical manner",
           "obligation_type": "Must"
         },
         {
-          "text": "Train staff to promote competence, efficiency and professionalism in discharge of duties",
+          "text": "Train staff to promote competence, efficiency and professionalism",
           "obligation_type": "Must"
         },
         {
-          "text": "Provide clear information about products and services, features, terms and conditions and applicable fees and charges",
+          "text": "Provide clear information about products, services, features, terms and conditions",
           "obligation_type": "Must"
         },
         {
-          "text": "Provide and inform consumers of channels to make enquiries and complaints",
+          "text": "Provide channels for consumer enquiries and complaints",
           "obligation_type": "Must"
         },
         {
-          "text": "Notify customers of circumstances that may affect terms of contracts or relationships",
+          "text": "Notify customers of circumstances affecting contract terms",
           "obligation_type": "Must"
         },
         {
-          "text": "Display all applicable fees for electronic payment services with option to accept or decline before transaction",
+          "text": "Display all applicable fees for electronic payments with option to accept or decline",
           "obligation_type": "Must"
         },
         {
@@ -125,12 +121,24 @@
           "obligation_type": "Must Not"
         },
         {
-          "text": "Not charge fees for issuance and renewal of products or services which have not been requested by the customer",
+          "text": "Not charge fees for issuance and renewal of products/services not requested by customer",
           "obligation_type": "Must Not"
         },
         {
-          "text": "Not compel consumers to buy products or services as a condition for another product unless directly dependent",
+          "text": "Not compel consumers to buy products/services as condition for another product/service unless directly dependent",
           "obligation_type": "Must Not"
+        },
+        {
+          "text": "Assess consumer repayment capability before granting credit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ascertain credit history from Credit Risk Management System, Credit Bureau and other sources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Have policy to deal with consumers in financial difficulty",
+          "obligation_type": "Must"
         }
       ],
       "source_quote": "Institutions shall comply with the following provisions: Conduct their business in a responsible, professional and ethical manner."
@@ -145,19 +153,18 @@
       "page_start": 3,
       "page_end": 12,
       "primary_category": "Other",
-      "summary": "Institutions must establish complaint channels, internal dispute resolution processes, and external escalation to the Central Bank of Nigeria. They must respond to consumer inquiries within five working days and provide timely resolution for complaints, ensuring fair and transparent redress mechanisms for financial consumers.",
-      "dtia_summary": "Requires institutions to have structured complaint handling processes that impact data transfer impact assessments by ensuring consumer data disputes are resolved transparently and efficiently.",
+      "summary": "Institutions must establish complaint channels, internal dispute resolution processes, and external escalation to the Central Bank of Nigeria. They must respond to consumer inquiries within five working days and provide timely resolution for complaints without undue delay.",
+      "dtia_summary": "Requires institutions to implement robust complaints handling mechanisms that impact data sharing transparency and consumer rights in cross-border financial transactions.",
       "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [
-        "Data Sharing",
-        "Customer Information"
+      "topics": [],
+      "data_types": [
+        "Customer Data"
       ],
-      "data_types": [],
       "requirements": [
         {
-          "text": "Establish complaints management channels for consumers",
+          "text": "Establish complaint management channels for consumers",
           "obligation_type": "Must"
         },
         {
@@ -165,19 +172,15 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Provide dispute resolution at the Central Bank of Nigeria for unresolved cases",
+          "text": "Provide external dispute resolution at Central Bank of Nigeria",
           "obligation_type": "Must"
         },
         {
-          "text": "Respond to customers' enquiries/requests within five (5) working days",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Communicate decisions on waivers, extensions, and concessions within ten (10) working days",
+          "text": "Respond to customer enquiries within five (5) working days",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Institutions shall establish complaints management channels, internal dispute resolution processes, and external escalation to the Central Bank of Nigeria."
+      "source_quote": "Institutions shall comply with the following requirements: Establish complaint management channels, internal dispute resolution and external escalation to the Central Bank of Nigeria."
     },
     {
       "section": "6 (part 2)",
@@ -202,132 +205,251 @@
     {
       "section": "6 (part 3)",
       "heading": "(continued)",
-      "title": "Consumer data privacy and consent requirements for financial institutions",
+      "title": "Consumer loan guarantees and debt collection requirements",
       "chapter": null,
       "part": "PART F",
       "condition": null,
       "page_start": 19,
       "page_end": 25,
       "primary_category": "Other",
-      "summary": "Financial institutions must obtain written consumer consent for specific data processing purposes and allow withdrawal of consent at any time. They must protect consumer information against unauthorized access and be accountable for related actions. Institutions must not transfer consumer data to third parties without express consent, except where legally required. They must inform consumers when data is shared with authorized third parties and review data processing procedures to ensure consent purposes remain valid.",
-      "dtia_summary": "Requires explicit consumer consent for data processing, prohibits unauthorized third-party data transfers without consent, mandates data sharing transparency, and necessitates periodic review of data processing purposes – all critical for cross-border data transfers involving Nigerian financial institutions.",
+      "summary": "Institutions must ensure loan guarantees are properly executed with independent advice or declaration of no need for advice. They must provide periodic loan performance updates to guarantors, issue discharge letters within 5 business days post-loan liquidation, and notify customers of declined loan requests with reasons. Guarantors must be informed of loan liquidation. Institutions must also ensure debt collection processes are transparent, courteous, and fair without undue pressure or harassment.",
+      "dtia_summary": "Requires institutions to maintain clear communication with guarantors and customers regarding loan status and discharges, with specific timelines for discharge letters and notifications. These conditions directly impact cross-border data transfers involving loan guarantees and debt collection.",
       "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Consent",
-        "Data Sharing"
+        "Data Sharing",
+        "Data Storage",
+        "Cross-border Transfer"
       ],
       "data_types": [
-        "Personal Information"
+        "Financial Data",
+        "Customer Data"
       ],
       "requirements": [
         {
-          "text": "Obtain the written consent of consumers to collect and process their personal data for specific purpose and provide them with the option to withdraw the consent at any time.",
+          "text": "Sought and obtained independent professional advice before executing the guarantee",
           "obligation_type": "Must"
         },
         {
-          "text": "Protect the privacy and confidentiality of consumer information and assets against unauthorized access, and be accountable for acts or omissions in respect thereof.",
+          "text": "Declared that they do not need independent advice",
           "obligation_type": "Must"
         },
         {
-          "text": "Not transfer personal data of consumers to a third party without their express consent, except in compliance with a legal obligation.",
+          "text": "Provide periodic update to guarantors on loan performance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issue letter of discharge at no cost to customers within 5 business days after liquidation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify customers where loan requests are declined with reasons upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Engage and give customers notice of outstanding obligations prior to debt collection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Initiate foreclosures only after other recovery steps fail",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Give customers option for private sale within 30 days before foreclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply net proceeds from foreclosures to loan accounts and inform customers of balance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide report of collateral sale including process, proceeds, expenses, and net proceeds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Be liable for actions of debt collection agents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Not contact friends, employers, relatives or neighbors without consent or for employment status",
           "obligation_type": "Must Not"
         },
         {
-          "text": "Inform consumers whenever their data is exchanged with an authorized third party, stating details of the exchange.",
-          "obligation_type": "Must"
+          "text": "Not require persons to offset debt without being guarantor",
+          "obligation_type": "Must Not"
         },
         {
-          "text": "Review data processing and privacy procedures to ensure that the purpose(s) for which initial consent was granted remained valid.",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Keep accurate and updated data of consumers always.",
-          "obligation_type": "Must"
+          "text": "Not make telephone contact with customers between 9pm and 8am without consent",
+          "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "To ensure data protection and privacy of consumers, Institutions shall: 5.4.1 Protect the privacy and confidentiality of consumer information and assets against unauthorized access, and be accountable for acts or omissions in respect thereof."
+      "source_quote": "5.2.8 Provide periodic update to Guarantors on the loan performance to enable them to assess the likelihood of being called upon to discharge their commitments. 5.2.9 Issue Letter of Discharge at no cost to customers within 5 business days after liquidation of their loans, and where the loan is guaranteed, the guarantor shall also be notified accordingly. 5.2.10 Notify customers where their loan requests are declined. The reason(s) for decline shall be provided upon request."
     },
     {
       "section": "6 (part 4)",
       "heading": "(continued)",
-      "title": "Complaint resolution reporting and outsourcing requirements",
+      "title": "Complaints handling and dispute resolution procedures",
       "chapter": null,
       "part": "PART F",
       "condition": null,
       "page_start": 25,
       "page_end": 26,
       "primary_category": "Other",
-      "summary": "The RCAR must detail complaint frequency, root causes, and remedial actions. Institutions must report complaint statistics annually in financial statements per CBN format. Outsourcing complaints handling requires CBN approval. These obligations apply to financial institutions regulated by the Central Bank of Nigeria.",
-      "dtia_summary": "Requires institutions to document complaint resolution processes and report statistics, impacting data transfer assessments for complaint handling systems and third-party outsourcing.",
-      "authority": "Central Bank of Nigeria",
+      "summary": "Institutions must develop documented complaint handling processes with fairness, transparency, and responsiveness. They must allocate resources for skilled staff, disclose complaint channels and timelines at all customer engagement points, and provide multiple complaint channels including verbal complaints. Institutions must also establish internal dispute resolution (IDR) mechanisms with 24-hour acknowledgment, tracking numbers, and resolution within specified timelines. They must issue summary resolution communications and handle refunds for excess charges.",
+      "dtia_summary": "Requires institutions to implement robust complaint handling systems with clear timelines and communication protocols, which directly impact data transfer and processing activities involving customer complaints and dispute resolution.",
+      "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Outsourcing"
+        "Data Sharing",
+        "Data Storage",
+        "Cross-border Transfer"
       ],
       "data_types": [
         "Customer Data"
       ],
       "requirements": [
         {
-          "text": "The RCAR shall contain the frequency of occurrence, identified root cause(s) and the remedial actions implemented.",
+          "text": "Develop documented processes for complaints handling ensuring fairness, transparency, responsiveness and independence",
           "obligation_type": "Must"
         },
         {
-          "text": "Report complaints statistics in annual reports and the abridged Financial Statement in line with the approved format or any other format as may be prescribed by the CBN from time to time.",
+          "text": "Allocate adequate resources for complaints handling with skilled and well-trained staff",
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions may outsource complaints handling functions subject to CBN approval.",
-          "obligation_type": "May"
+          "text": "Disclose complaint channels, contact details, resolution timelines and escalation options at all customer engagement points",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide multiple dedicated channels for receiving and handling complaints including verbal complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Be effective, functional, efficient and accessible always for complaint channels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Generate unique identification number and acknowledge complaints within 24 hours of lodgment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accord special consideration to needs of vulnerable groups including physically challenged persons and seniors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide emergency channels for time-sensitive issues especially fraud-related complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish internal dispute resolution (IDR) structures and processes for consumer complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Communicate acknowledgment within 24 hours including unique tracking number, contact details, expected timeline, escalation options and assurance of address",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use unique tracking number in all correspondence with complainant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designate complaints handling unit independent of other business functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Require staff handling complaints to declare conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Resolve complaints within timelines specified in Annexure D",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Refund identified excess charges, non-payment or under-payment of interest, unauthorized debits with interest as per CBN guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issue letter of apology where refunds are made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reconstruct customers' accounts to identify excess charges and pay interest after reconstruction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Remit established refunds and interest to complainants' accounts within prescribed timelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Send summary resolution communication (SRC) within next business day with basis for decision, right of appeal and escalation options",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider complaint resolved after 30 days of written acceptance of resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide 2nd level review within timelines for complaints after 30 days of SRC receipt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify recurring complaint types, root causes, implement remedial measures and generate Root Cause Analysis Report (RCAR)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prepare quarterly RCAR and submit to CBN by 14th day of January, April, July, October",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "6.3.17 The RCAR shall contain the frequency of occurrence, identified root cause(s) and the remedial actions implemented."
+      "source_quote": "6.1.1 Develop documented processes on Complaints Handling that will guarantee fairness, transparency, responsiveness and independence of the complaint handling mechanism. 6.1.2 Allocate adequate resources for complaints handling/redress and the processes manned by skilled and well-trained members of staff. 6.1.3 At all customer engagement points, disclose channels and contact details for lodging complaints, timeframe for resolution, and options for escalation."
     },
     {
       "section": "7",
       "heading": "below:",
-      "title": "Penalties for non-compliance with complaint resolution",
+      "title": "Penalties for non-compliance with consumer protection regulations",
       "chapter": null,
       "part": "PART S",
       "condition": null,
       "page_start": 26,
       "page_end": 34,
       "primary_category": "Other",
-      "summary": "Institutions face penalties for failing to resolve complaints within timelines, acknowledging complaints, issuing tracking numbers, responding to requests, or complying with CBN directives. Penalties include fines up to N500,000 per week for unresolved complaints, N2,000,000 per complaint for non-acknowledgment, and additional sanctions for persistent breaches.",
-      "dtia_summary": "Imposes financial penalties for non-compliance with complaint resolution processes, directly impacting data transfer assessments for complaint handling systems.",
-      "authority": "Central Bank of Nigeria",
+      "summary": "Institutions face specific penalties for violations including non-resolution of complaints within timelines (N500,000 per complaint per week), non-acknowledgment of complaints (N2,000,00:00 per complaint), non-response to CBN directives (N2,000,000), false reporting (N100,000 plus N10,000 per day), and administrative sanctions for persistent breaches.",
+      "dtia_summary": "Penalties for non-compliance with complaint handling procedures directly impact financial institutions' data transfer and processing activities, particularly in cross-border contexts where complaint resolution timelines and data sharing practices are critical.",
+      "authority": "Central Bank of Nigeria (CBN)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
       "data_types": [
         "Customer Data"
       ],
       "requirements": [
         {
-          "text": "A penalty of N500,000.00 per complaint per week while the infraction subsists.",
-          "obligation_type": "Penalty"
+          "text": "Penalty of N500,000 per complaint per week for non-resolution within prescribed timelines",
+          "obligation_type": "Condition"
         },
         {
-          "text": "Non-acknowledgment of complaints from customer or non-issuance of tracking numbers – N2,000,000.00 per complaint.",
-          "obligation_type": "Penalty"
+          "text": "Penalty of N2,000,000 per complaint for non-acknowledgment of complaints",
+          "obligation_type": "Condition"
         },
         {
-          "text": "Non-response to request or failure to comply with CBN directive - A penalty of N2,000,000.00.",
-          "obligation_type": "Penalty"
+          "text": "Penalty of N2,000,000 for non-response to CBN directives",
+          "obligation_type": "Condition"
         },
         {
-          "text": "False or non-rendition of Returns/Reports - N100,000.00, and in addition, N10,000 for each day the infraction continues.",
-          "obligation_type": "Penalty"
+          "text": "Penalty of N100,000 plus N10,000 per day for false or non-rendition of returns/reports",
+          "obligation_type": "Condition"
         },
         {
-          "text": "Persistent breach of regulations - Administrative sanctions on responsible officer(s), including issuance of warning letters and any other statutory sanctions on the officer(s) or Institution.",
-          "obligation_type": "Penalty"
+          "text": "Administrative sanctions for persistent breaches of consumer protection regulations",
+          "obligation_type": "Condition"
         }
       ],
-      "source_quote": "7.1 Non-resolution of complaints within prescribed timelines - A penalty of N500,000.00 per complaint per week while the infraction subsists."
+      "source_quote": "7. Non-resolution of complaints within timelines: N500,000 per complaint per week. Non-acknowledgment of complaints: N2,000,000 per complaint. Non-response to CBN directives: N2,000,000. False reporting: N100,000 plus N10,000 per day. Administrative sanctions for persistent breaches."
     },
     {
       "section": "7 (part 2)",
@@ -339,8 +461,8 @@
       "page_start": 34,
       "page_end": 39,
       "primary_category": "Other",
-      "summary": "This section specifies standardized timelines for resolving customer complaints across various financial services categories. It outlines the number of working days required for first and second reviews for each complaint type, including account management, cards, loans, fraud, and international transactions. The timelines apply to all financial institutions regulated under the Consumer Protection Regulations.",
-      "dtia_summary": "",
+      "summary": "This section specifies timeframes for resolving customer complaints across various financial services categories. It outlines the number of working days required for first and second reviews for each complaint type, including account management, cards, loans, fraud, and international transactions. The timelines apply to institutions regulated under the CBN Consumer Protection Regulations.",
+      "dtia_summary": "This section establishes timeframes for resolving customer complaints, which may impact data transfer timelines if complaint resolution involves cross-border data sharing or international transactions.",
       "authority": "Consumer Protection Department",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -350,31 +472,459 @@
       ],
       "requirements": [
         {
-          "text": "Account Management: 2 working days for first review and 1 working day for second review",
+          "text": "Account Closure without notice: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         },
         {
-          "text": "Card Activation: 3 working days for first review and 2 working days for second review",
+          "text": "Account Details Maintenance: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         },
         {
-          "text": "Loan Application Issues: 14 working days for first review and 7 working days for second review",
+          "text": "Account Statement Issues: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         },
         {
-          "text": "Fraudulent Withdrawals: 14 working days for first review and 7 working days for second review",
+          "text": "Account Status: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         },
         {
-          "text": "International Banking Fraud (Not on us): 60 working days for first review and 30 working days for second review",
+          "text": "Cheque Issues: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         },
         {
-          "text": "International Banking Fraud (on us): 50 working days for first review and 25 working days for second review",
+          "text": "Corporate Search: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delay in honouring Standing Instruction request: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-reflection of Cash/Cheque Deposits in Customer Account: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account Closure Delays: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account Freeze Complaint: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account Reactivation Delays: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account to Account Transfer Delays (Same bank): 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cheque Confirmation Complaints: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cheque Return Complaint: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account Alert Issues (SMS and emails): 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wrong Account Lien: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cheque Return Request: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bills Payment and collection: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Activation: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Deactivation: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Issuance: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Functionality: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Charges/Rates Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chargebacks / Claim local (not on us): 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chargebacks / Claim local (on us): 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chargebacks / Claim international (not on us): 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chargebacks / Claim international (on us): 50 working days for first review, 25 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Credit card contract migration: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card PIN Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Limit Maintenance: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Repayment Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Statements Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Missing card: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Modifications: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Account(s) Link complaints: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Billing address Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Card Blockage Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Declined Transactions: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loan Application Issues: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loan Repayment Issues: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loan Insurance: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Concessions Issues: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delayed delivery of financed assets: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loan Liquidation issues: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loan Restructuring issues: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loans Interest Rate Review Complaint: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conversion of Cheque/Deposit: 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Scam Mails: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fraudulent Withdrawals: 14 working days for first review, 7 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internet Banking Fraud: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ATM Fraud (Domestic): 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ATM Fraud (International): 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cash/Cheque Suppression: 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cheque Cloning: 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Excess Fees and charges: 30 working days for first review, 15 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Excess Interest on loan: 30 working days for first review, 15 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 30 working days for first review, 15 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Western Union Money Transfers: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MONEYGRAM Transfers: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Funds transfer charges: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delayed / Inward Transfers: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wrong Customer / Beneficiary details: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delayed TELEX/Swift Request: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intrabank Transfer Failure: 1 working day for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wrong Account Credit: 1 working day for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wrong Account Debits: 1 working day for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 1 working day for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Dishonoured Guarantees: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "APG Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Performance Bonds: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Other Contingent Issues/Indemnities: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non /Underpayment of interests on investments: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Roll over issues: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-booking of deposits: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non issuance of contract letters: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 5 working days for first review, 3 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "non-functional ATM: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "non-functional POS: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "POS Receipt/Slip Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Trapped Card: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ATM Cash Dispense Error claim - OWN BANK: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ATM Cash Dispense Error claim (Other Banks): 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mobile Banking Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Charges on non-receipt of transaction alerts: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Password Reset Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Account Unlock: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Login Issues (Password/User ID Issues): 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Online Transaction Limit: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "OTP generation Issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Registration issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failed transaction(WEB / POS): 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Other POS issues: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internet Banking Account View Inability: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internet Banking Account(s) Link Request: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internet Banking Funds Transfer Failure: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 3 working days for first review, 2 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Capital Importation Issues: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Export Issues: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Form A: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Form M: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delays in confirmation of duty payment to port: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Letter of Credit: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shipping Documents: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bills for collection: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CRI Issues: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "International Banking Fraud (Not on us): 60 working days for first review, 30 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "International Banking Fraud (on us): 50 working days for first review, 25 working days for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Others: 2 working days for first review, 1 working day for second review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Z: 2 working days for first review, 1 working day for second review",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "TIMELINES FOR COMPLAINTS RESOLUTION BY INSTITUTIONS: Category Sub-category CCMS Code 1st Review (working days) 2nd review (working days)"
+      "source_quote": "TIMELINES FOR COMPLAINTS RESOLUTION BY INSTITUTIONS: Category, Sub-category, CCMS, Code, 1st Review (working days), 2nd Review (working days)"
     }
   ]
 }

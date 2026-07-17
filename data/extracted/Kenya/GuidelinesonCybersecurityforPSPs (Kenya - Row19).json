@@ -1,25 +1,27 @@
 {
   "country": "Kenya",
   "document": "GuidelinesonCybersecurityforPSPs (Kenya - Row19)",
-  "generated": "2026-07-15T17:32:51",
+  "generated": "2026-07-16T16:11:31",
   "sections": [
     {
       "section": "2",
       "heading": "PART II STATEMENT OF POLICY",
-      "title": "Policy statement for payment service providers on cybersecurity",
+      "title": "Policy statement for payment service providers' cybersecurity",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Governance",
-      "summary": "This section establishes the purpose and scope of cybersecurity requirements for Payment Service Providers (PSPs) in Kenya. It mandates that PSPs develop cybersecurity strategies to mitigate cyber risks, prevent cybercrime, protect Critical Information Infrastructure (CII), comply with technical standards, build cybersecurity capacity, and maintain public trust in the payment system. The requirements apply to all PSPs authorized under the National Payment System Act, 2011.",
-      "dtia_summary": "This section defines the foundational cybersecurity obligations for PSPs, requiring risk-based approaches to protect payment systems from cyber threats. It establishes that PSPs must implement comprehensive cybersecurity programs aligned with their risk profile and regulatory expectations.",
+      "summary": "This section establishes the purpose and scope of cybersecurity requirements for Payment Service Providers (PSPs) in Kenya. It mandates that PSPs develop cybersecurity strategies, frameworks, and policies to mitigate cyber risks while ensuring business continuity and financial stability. The guidelines require PSPs to align cybersecurity practices with their overall risk management and business objectives, with the Central Bank of Kenya (CBK) overseeing compliance.",
+      "dtia_summary": "This section defines the foundational cybersecurity governance framework for PSPs, requiring them to implement risk-based cybersecurity programs that protect critical payment systems. It directly impacts DTIAs by mandating specific risk assessments and incident response protocols for cross-border data transfers involving payment systems.",
       "authority": "Central Bank of Kenya (CBK)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Governance"
+        "Governance",
+        "Incident Reporting",
+        "Breach Notification"
       ],
       "data_types": [
         "Financial Data",
@@ -27,31 +29,19 @@
       ],
       "requirements": [
         {
-          "text": "The Guidelines outline the minimum requirements that PSPs shall build upon in the development and implementation of strategies, frameworks, policies, procedures and related activities aimed at mitigating cyber risk.",
+          "text": "PSPs must develop cybersecurity strategies, frameworks, and policies to mitigate cyber risks",
           "obligation_type": "Must"
         },
         {
-          "text": "Create a safer and more secure cyberspace that underpins information system security priorities, to promote stability of the Kenyan payment system sub-sector",
+          "text": "PSPs must align cybersecurity practices with overall business risk management objectives",
           "obligation_type": "Must"
         },
         {
-          "text": "Establish a coordinated approach to the prevention and combating of cybercrime",
+          "text": "PSPs must maintain business continuity capabilities during cyber incidents",
           "obligation_type": "Must"
         },
         {
-          "text": "Up-scale the identification and protection of Critical Information Infrastructure (CII)",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Promote compliance with appropriate technical and operational cybersecurity standards",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Guide PSPs in developing the requisite skills, continuous building of capacity and promote a culture of fostering a strong interplay between policy, leveraging on technology to do business and risk management",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Help maintain public trust and confidence in the National Payment System",
+          "text": "PSPs must ensure cybersecurity programs address critical payment system risks",
           "obligation_type": "Must"
         }
       ],
@@ -60,20 +50,22 @@
     {
       "section": "3",
       "heading": "PART III SPECIFIC REQUIREMENTS",
-      "title": "Specific cybersecurity governance and risk management requirements for PSPs",
+      "title": "Specific cybersecurity governance requirements for payment service providers",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Governance",
-      "summary": "This section details specific governance requirements for Payment Service Providers, including board responsibilities, senior management duties, the role of the Chief Information Security Officer (CISO), and cybersecurity program implementation. It mandates that PSPs establish robust oversight mechanisms, conduct regular risk assessments, implement incident response protocols, and ensure third-party service provider risk management.",
-      "dtia_summary": "This section imposes detailed governance obligations on PSPs to ensure cybersecurity program effectiveness, including board oversight, senior management accountability, and CISO responsibilities for risk mitigation and incident response.",
+      "summary": "This section details specific governance requirements for Payment Service Providers (PSPs) in Kenya, including board responsibilities, senior management roles, and the Chief Information Security Officer (CISO) function. It mandates that PSPs establish clear accountability structures, implement robust cybersecurity programs, and conduct regular risk assessments to ensure the security of payment systems and customer data.",
+      "dtia_summary": "This section requires PSPs to implement comprehensive cybersecurity governance structures that directly impact data transfer assessments by mandating specific risk management protocols for cross-border payment systems and third-party data handling.",
       "authority": "Central Bank of Kenya (CBK)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Governance"
+        "Governance",
+        "Incident Reporting",
+        "Breach Notification"
       ],
       "data_types": [
         "Financial Data",
@@ -81,79 +73,67 @@
       ],
       "requirements": [
         {
-          "text": "The board members of a PSP should understand the nature of their PSP's business and the cyber risks to which the PSP can be exposed",
+          "text": "Board of directors must oversee cybersecurity strategy development and implementation",
           "obligation_type": "Must"
         },
         {
-          "text": "Robust oversight and engagement on cyber risk matters at the board level promotes a security risk conscious culture within the PSP",
+          "text": "Board must review cybersecurity preparedness against cyber risk profile quarterly",
           "obligation_type": "Must"
         },
         {
-          "text": "The board of directors is ultimately responsible for the cybersecurity of the PSP",
+          "text": "Senior management must implement cybersecurity strategy and monitor cyber threats",
           "obligation_type": "Must"
         },
         {
-          "text": "Each PSP shall maintain a cybersecurity program designed to protect the confidentiality, integrity and availability of the PSP's Information Systems",
+          "text": "CISO must report cybersecurity posture to board quarterly",
           "obligation_type": "Must"
         },
         {
-          "text": "The cybersecurity program shall be based on the PSP's risk assessment",
+          "text": "PSPs must maintain a cybersecurity incident response plan",
           "obligation_type": "Must"
         },
         {
-          "text": "Identify and assess internal and external cybersecurity risks that may threaten the security or integrity of confidential information stored on the PSP's information Systems",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Use defensive infrastructure and the implementation of policies and procedures to protect the PSP's Information Systems, and the confidential information stored on those information systems, from unauthorized access, use or other malicious acts",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Detect cybersecurity events",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Respond to identified or detected cybersecurity events to mitigate any negative effects",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Recover from cybersecurity events and restore normal operations and services",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Implement a comprehensive testing program to assess the and effectiveness of the cybersecurity program",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Utilize cyber threat intelligence and information sharing mechanisms to understand the cyber threat environment within which an institution is operating",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Fulfill applicable regulatory reporting obligations",
+          "text": "PSPs must conduct post-incident analysis to prevent future breaches",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Each PSP shall maintain a cybersecurity program designed to protect the confidentiality, integrity and availability of the PSP's Information Systems."
+      "source_quote": "The board of directors is ultimately responsible for the cybersecurity of the PSP."
     },
     {
       "section": "4",
       "heading": "",
-      "title": "",
+      "title": "Transitional periods and reporting requirements for cybersecurity",
       "chapter": null,
       "part": "PART I",
       "condition": null,
       "page_start": 2,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "",
-      "dtia_summary": "",
-      "authority": "",
-      "financial_relevance": "Unknown",
-      "confidence": "Low",
-      "topics": [],
-      "data_types": [],
-      "requirements": [],
-      "source_quote": ""
+      "summary": "This section outlines transitional periods and reporting requirements for Payment Service Providers (PSPs) in Kenya, including the need to maintain cybersecurity incident records and templates. It mandates that PSPs document and report cybersecurity incidents in specific formats to ensure timely regulatory oversight and compliance with national payment system security standards.",
+      "dtia_summary": "This section requires PSPs to maintain detailed incident records for cybersecurity events, which is critical for DTIAs as it establishes baseline reporting requirements for cross-border data transfers involving payment systems.",
+      "authority": "Central Bank of Kenya (CBK)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "PSPs must maintain immediate cybersecurity incident records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must maintain quarterly cybersecurity incident records",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Cybersecurity incident record template (Immediate) and Cybersecurity incident record template (Quarterly)"
     },
     {
       "section": "4 (part 2)",
@@ -178,15 +158,15 @@
     {
       "section": "4 (part 3)",
       "heading": "(continued)",
-      "title": "Cybersecurity training, monitoring, and reporting requirements for payment service providers",
+      "title": "Cybersecurity training, monitoring, and reporting requirements for PSPs",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 12,
       "page_end": 16,
       "primary_category": "Security",
-      "summary": "Payment service providers (PSPs) must conduct regular cybersecurity training for staff and users to improve technical proficiency and cyber hygiene. They must implement processes to monitor IT systems for timely detection of cybersecurity events and incidents. PSPs are required to report quarterly to the CEO on information system confidentiality, integrity, availability, policy exceptions, cybersecurity program effectiveness, and material cyber events. Additionally, PSPs must report quarterly to the board on cybersecurity management capabilities and strategy implementation progress. They must also update incident response mechanisms and business continuity plans based on threat intelligence, incorporate scenario analysis for cyber-attacks, ensure critical data backups to disaster-resistant sites, define cyber risk management roles, implement business continuity plans, assess cybersecurity program effectiveness, and periodically report cybersecurity posture to senior management, board, and audit committees.",
-      "dtia_summary": "PSPs must maintain robust cybersecurity monitoring, reporting, and incident response mechanisms to ensure timely detection and mitigation of cyber threats. These requirements directly impact data transfer and storage security across borders by mandating continuous system monitoring, regular vulnerability assessments, and business continuity planning for critical data.",
+      "summary": "PSPs must conduct regular cybersecurity training for staff and users to improve technical proficiency and cyber hygiene. They must implement processes to monitor IT systems for timely detection of cybersecurity events and incidents. PSPs must report to the CEO quarterly on information system confidentiality, integrity, availability, policy exceptions, cybersecurity program effectiveness, and material cyber events. They must also report to the Board quarterly on cybersecurity management capabilities and strategy implementation progress. Additionally, PSPs must update incident response mechanisms and business continuity plans based on threat intelligence, incorporate scenario analysis for cyber-attacks, ensure critical backups with disaster recovery objectives, define cyber risk management roles, implement business continuity plans, assess cybersecurity program effectiveness, and report cybersecurity posture to senior management, board, and audit committees.",
+      "dtia_summary": "PSPs must maintain robust cybersecurity monitoring, reporting, and incident response mechanisms to ensure data protection across borders. These requirements directly impact cross-border data transfers by mandating timely incident reporting and business continuity planning for critical systems.",
       "authority": "CBK",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -200,123 +180,151 @@
       ],
       "requirements": [
         {
-          "text": "Organizing professional cyber related trainings to improve technical proficiency of staff and user awareness trainings for improved cyber hygiene",
+          "text": "Organize professional cyber-related trainings to improve staff technical proficiency and user awareness for cyber hygiene",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure that adequate processes are in place for monitoring IT systems to detect cybersecurity events and incidents in a timely manner",
+          "text": "Ensure adequate processes for monitoring IT systems to detect cybersecurity events and incidents timely",
           "obligation_type": "Must"
         },
         {
-          "text": "Reporting to the CEO on an agreed interval but not less than once per quarter on the assessment of the confidentiality, integrity and availability of information systems",
+          "text": "Report to CEO quarterly on information system confidentiality, integrity, and availability assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "Reporting to the CEO on an agreed interval but not less than once per quarter on detailed exceptions to approved cybersecurity policies and procedures",
+          "text": "Report to CEO quarterly on detailed exceptions to approved cybersecurity policies and procedures",
           "obligation_type": "Must"
         },
         {
-          "text": "Reporting to the CEO on an agreed interval but not less than once per quarter on assessment of the effectiveness of the approved cybersecurity program",
+          "text": "Report to CEO quarterly on effectiveness of approved cybersecurity program",
           "obligation_type": "Must"
         },
         {
-          "text": "Reporting to the CEO on an agreed interval but not less than once per quarter on all material cybersecurity events that affected the PSP during the period",
+          "text": "Report to CEO quarterly on all material cybersecurity events affecting PSP during period",
           "obligation_type": "Must"
         },
         {
-          "text": "Reporting to the Board on an agreed interval but not less than once per quarter on the PSP's capability to manage cybersecurity and progress in implementation of the cybersecurity strategy and goals",
+          "text": "Report to Board quarterly on PSP's capability to manage cybersecurity and progress in implementation of cybersecurity strategy and goals",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure timely update of incident response mechanism and Business Continuity Plan (BCP) based on the latest cyber threat intelligence gathered",
+          "text": "Ensure timely update of incident response mechanism and Business Continuity Plan based on latest cyber threat intelligence",
           "obligation_type": "Must"
         },
         {
-          "text": "Incorporate the utilization of scenario analysis to consider a material cyber-attack, mitigating actions, and identify potential control gaps",
+          "text": "Incorporate scenario analysis to consider material cyber-attacks, mitigating actions, and identify control gaps",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure adequate backups of critical IT systems and data in line with predetermined recovery objectives to a site unlikely to be affected by a disaster event at the main processing site",
+          "text": "Ensure adequate backups of critical IT systems and data with recovery objectives to sites unlikely affected by disasters",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure the roles and responsibilities of managing cyber risks, including in emergency or crisis decision-making, are clearly defined, documented and communicated to relevant staff",
+          "text": "Define, document, and communicate roles and responsibilities for managing cyber risks including emergency decision-making",
           "obligation_type": "Must"
         },
         {
-          "text": "Put in place BCP and disaster recovery test plans to ensure the PSP can continue to function and meet regulatory obligations in the event of cyber-crime",
+          "text": "Implement Business Continuity Plan and disaster recovery test plans to ensure PSP functions post cyber-attack",
           "obligation_type": "Must"
         },
         {
-          "text": "Assessing the overall effectiveness of the PSP's cybersecurity program",
+          "text": "Assess overall effectiveness of PSP's cybersecurity program",
           "obligation_type": "Must"
         },
         {
-          "text": "Periodically reporting on the organization's cybersecurity posture to senior management, board and audit committee",
+          "text": "Periodically report on organization's cybersecurity posture to senior management, board, and audit committee",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "e) Organizing professional cyber related trainings to improve technical proficiency of staff and user awareness trainings for improved cyber hygiene. f) Ensure that adequate processes are in place for monitoring IT systems to detect cybersecurity events and incidents in a timely manner. g) Reporting to the CEO on an agreed interval but not less than once per quarter on the following: assessment of the confidentiality, integrity and availability of the information systems in the PSPs. Detailed exceptions to the approved cybersecurity policies and procedures. Assessment of the effectiveness of the approved cybersecurity program. All material cybersecurity events that affected the PSP during the period. h) Reporting to the Board on an agreed interval but not less than once per quarter on the PSP's capability to manage cybersecurity and progress in implementation of the cybersecurity strategy and goals."
+      "source_quote": "e) Organizing professional cyber related trainings to improve technical proficiency of staff and user awareness trainings for improved cyber hygiene. f) Ensure that adequate processes are in place for monitoring IT systems to detect cybersecurity events and incidents in a timely manner. g) Reporting to the CEO on an agreed interval but not less than once per quarter on the following: ... h) Reporting to the Board on an agreed interval but not less than once per quarter on the PSP's capability to manage cybersecurity and progress in implementation of the cybersecurity strategy and goals. i) Ensure timely update of the incident response mechanism and Business Continuity Plan (BCP) based on the latest cyber threat intelligence gathered. j) Incorporate the utilization of scenario analysis to consider a material cyber-attack, mitigating actions, and identify potential control gaps. k) Ensure adequate backups of critical IT systems and data in line with predetermined recovery objectives (e.g. real time back up of changes made to critical data) are carried out to a site that is unlikely to be affected by a disaster event at the main processing site. l) Ensure the roles and responsibilities of managing cyber risks, including in emergency or crisis decision-making, are clearly defined, documented and communicated to relevant staff. m) Put in place BCP and disaster recovery test plans to ensure that the PSP can continue to function and meet its regulatory obligations in the event of an unforeseen attack through cyber-crime. n) Assessing the overall effectiveness of the PSP's cybersecurity program. o) Periodically reporting on the organization's cybersecurity posture to senior management, board and audit committee."
     },
     {
       "section": "4 (part 4)",
       "heading": "(continued)",
-      "title": "Cybersecurity strategy, frameworks, and policies for payment service providers",
+      "title": "Cyber incident response and resilience requirements for payment systems",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 16,
       "page_end": 20,
-      "primary_category": "Security",
-      "summary": "Payment service providers (PSPs) must implement and maintain written cybersecurity policies approved by their board or equivalent governing body. These policies must be based on risk assessments and address information security, data governance, asset inventory, access controls, business continuity, systems operations, network security, monitoring, application development, physical security, customer data privacy, vendor management, risk assessment, and incident response. The policies must be updated periodically to address evolving threats and technological changes.",
-      "dtia_summary": "PSPs must establish comprehensive cybersecurity frameworks that directly impact data transfer and storage security across borders by requiring detailed risk assessments, policy documentation, and continuous monitoring of information systems.",
+      "primary_category": "Incident Reporting",
+      "summary": "Payment service providers must notify CBK or credible sources of malware infections, data breaches, or unauthorized system access. They must develop incident response plans covering internal processes, roles, communications, remediation requirements, documentation, and plan revisions. PSPs must also maintain situational awareness, secure offline storage of financial records, and conduct tests to prevent significant customer service disruptions.",
+      "dtia_summary": "Requires PSPs to have robust incident response capabilities and resilience planning for cross-border data transfers involving payment systems, ensuring timely breach detection and recovery.",
       "authority": "CBK",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
-        "Security"
+        "Incident Reporting",
+        "Breach Notification"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "Each PSP shall implement and maintain a written policy or policies, approved by the PSP's board of directors (or an appropriate committee thereof) or equivalent governing body, setting forth the PSP's policies and procedures for the protection of its information systems and confidential information stored on those Information Systems",
+          "text": "PSPs must report malware infections or unauthorized system access to CBK or credible sources",
           "obligation_type": "Must"
         },
         {
-          "text": "The cybersecurity policy shall be based on the PSP's risk assessment and address the following areas to the extent applicable to the PSP's operations: information security, data governance and classification, asset inventory and device management, access controls and identity management, business continuity and disaster recovery planning and resources, systems operations concerns, systems and network security, systems and network monitoring, systems and application development and quality assurance, physical security and environmental controls, customer data privacy, vendor and third party service provider management, risk assessment, incident response",
+          "text": "PSPs must notify CBK of data breaches or potential breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must develop incident response plans covering internal processes, roles, communications, remediation, documentation, and plan revisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must maintain situational awareness to predict and respond to environmental changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must store critical financial records securely offline for restoration after disruptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must conduct tests to prevent significant customer service disruptions from cyber events",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Each PSP shall implement and maintain a written policy or policies, approved by the PSP's board of directors (or an appropriate committee thereof) or equivalent governing body, setting forth the PSP's policies and procedures for the protection of its information systems and confidential information stored on those Information Systems. The cybersecurity policy shall be based on the PSP's risk assessment and address the following areas to the extent applicable to the PSP's operations: (i) Information security. (ii) Data governance and classification. (iii) Asset inventory and device management. (iv) Access controls and identity management. (v) Business continuity and disaster recovery planning and resources. (vi) Systems operations concerns. (vii) Systems and network security. (viii) Systems and network monitoring. (ix) Systems and application development and quality assurance. (x) Physical security and environmental controls. (xi) Customer data privacy. (xii) Vendor and third party service provider management. (xiii) Risk assessment. (xiv) Incident response."
+      "source_quote": "a) a PSP or its agent is informed, through any source, of the installation or existence of any malware in any of its systems or environments, or any system or environment of one of its agents, no matter where such malware is located or how it was introduced; b) a PSP or its agent receives notification from CBK, or any other credible source that the PSP or its agent(s) has experienced a data breach or a potential data breach; or c) a PSP or its agent discovers or, in the exercise of reasonable diligence, should have discovered a data breach or unauthorized penetration of its own system or environment or the system or environment of its agent(s)."
     },
     {
       "section": "4 (part 5)",
       "heading": "(continued)",
-      "title": "PSPs must submit quarterly cybersecurity incident reports to CBK",
+      "title": "Cybersecurity incident reporting requirements",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 20,
       "page_end": 24,
-      "primary_category": "Other",
-      "summary": "Payment service providers must submit a quarterly report to the Central Bank of Kenya detailing cybersecurity incidents, actions taken, and measures to mitigate future incidents, within 10 days after the end of each quarter. This report must be submitted in the format specified in Annex III.",
-      "dtia_summary": "Requires ongoing quarterly reporting of cybersecurity incidents, ensuring continuous monitoring of data transfer risks and timely responses to incidents affecting cross-border data flows.",
+      "primary_category": "Incident Reporting",
+      "summary": "PSPs must notify CBK within 24 hours and SWIPS/SIPS within 2 hours of significant cybersecurity incidents affecting services, reputation, or financial condition. They must also submit comprehensive incident reports quarterly.",
+      "dtia_summary": "Mandates immediate reporting of critical incidents to regulators, ensuring timely intervention for data transfers and financial stability.",
       "authority": "Central Bank of Kenya (CBK)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
-      "topics": [],
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
       "data_types": [
-        "Personal Information"
+        "Financial Data"
       ],
       "requirements": [
         {
-          "text": "On a quarterly basis, PSPs shall provide Central Bank of Kenya with a report in the format set out as Annex III (Quarterly) to this Guideline, concerning its occurrence and handling of Cybersecurity incidents.",
+          "text": "PSPs must notify CBK within 24 hours of significant cybersecurity incidents impacting services, reputation, or financial condition.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SWIPS and SIPS must notify CBK within 2 hours of significant cybersecurity incidents.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSPs must submit quarterly cybersecurity incident reports to CBK by the 10th day after each quarter end.",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "On a quarterly basis, PSPs shall provide Central Bank of Kenya with a report in the format set out as Annex III (Quarterly) to this Guideline, concerning its occurrence and handling of Cybersecurity incidents."
+      "source_quote": "PSPs should notify CBK within 24 hours, and SWIPS and SIPS within 2 hours, of any Cybersecurity incident(s) that could have a significant and adverse impact on the PSP's ability to provide adequate services to its customers, its reputation or financial condition in the format set out as Annex II (Immediate) to this Guideline. This should be followed by a comprehensive report on the incident. On a quarterly basis, PSPs shall provide Central Bank of Kenya with a report in the format set out as Annex III (Quarterly) to this Guideline, concerning its occurrence and handling of Cybersecurity incidents."
     }
   ]
 }

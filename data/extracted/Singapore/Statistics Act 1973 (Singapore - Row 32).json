@@ -1,0 +1,113 @@
+{
+  "country": "Singapore",
+  "document": "Statistics Act 1973 (Singapore - Row 32)",
+  "generated": "2026-07-16T18:45:39",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "In this Act, unless the context otherwise requires —",
+      "title": "Definitions of statistical terms and entities",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 8,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used throughout the Act, including 'anonymised microdata' as statistical information that conceals individual identity, 'public agency' as government entities, 'requisition' for data collection, 'research and statistics unit' for statistical activities, and 'statistical purposes' for data compilation. These definitions establish the scope and terminology for statistical operations under the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "anonymised microdata means particulars or information pertaining to any person which is in a form that conceals or protects the identity of that person, whether by presenting the particulars or information in statistical form or otherwise, so that the identity of that person cannot be readily discovered or ascertained from the particulars or information",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "public agency means a public officer, an Organ of State or a ministry or department of the Government, or a public authority established by or under any written law for a public purpose or a member, an officer or an employee thereof",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "requisition means a requisition issued under section 5",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "research and statistics unit means a research and statistics unit specified in the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "statistical purposes means the compilation of statistics or the preparation of anonymised microdata relating to any subject matter listed in the First Schedule",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. In this Act, unless the context otherwise requires — \"anonymised microdata\" means particulars or information pertaining to any person which is in a form that conceals or protects the identity of that person, whether by presenting the particulars or information in statistical form or otherwise, so that the identity of that person cannot be readily discovered or ascertained from the particulars or information; \"public agency\" means a public officer, an Organ of State or a ministry or department of the Government, or a public authority established by or under any written law for a public purpose or a member, an officer or an employee thereof; \"requisition\" means a requisition issued under section 5; \"research and statistics unit\" means a research and statistics unit specified in the Second Schedule; \"statistical purposes\" means the compilation of statistics or the preparation of anonymised microdata relating to any subject matter listed in the First Schedule."
+    },
+    {
+      "section": "7",
+      "heading": "Banking",
+      "title": "Prohibition on disclosing identifiable data without consent",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Data Sharing",
+      "summary": "This section prohibits individuals from disclosing data obtained through statistical requisitions or directives in a form that identifies persons without prior written consent. Exceptions include disclosures as anonymised statistics, to public agencies, for legal proceedings, general business information, or data already in the public domain. Non-compliance incurs fines up to $10,000 or imprisonment for up to 12 months.",
+      "dtia_summary": "This section imposes restrictions on how data obtained for statistical purposes can be shared across borders or with third parties, requiring that disclosures do not identify individuals without consent. It mandates anonymisation for cross-border transfers to avoid identification risks.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person must not disclose any particulars or information obtained under section 5 or 6 in a form that may identify any person without the prior consent in writing of the person that may be identified by the disclosure",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 as statistics which do not identify any person",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 as anonymised microdata to any public agency",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 as anonymised microdata to any other person within a class specified in the Third Schedule",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 for the purposes of any proceedings for an offence under this Act or any report of those proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 that are of a general nature relating to the products or services provided by, the number of employees in or the addresses of, an establishment",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 that are already available in the public domain",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Chief Statistician or the director of a research and statistics unit may, in respect of any particulars or information disclosed to any person under subsection (2), impose conditions as to the use of the particulars or information by written notice to that person",
+          "obligation_type": "May"
+        },
+        {
+          "text": "If a person discloses any returns or any particulars or information contrary to this section, or fails to comply with any conditions imposed on the person under subsection (3), the person shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 12 months or to both",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7. (1) A person must not disclose any particulars or information obtained under section 5 or 6 in a form that may identify any person without the prior consent in writing of the person that may be identified by the disclosure. (2) Despite subsection (1), the Chief Statistician or the director of a research and statistics unit (as the case may be) may disclose particulars or information obtained under section 5 or 6 — (a) as statistics which do not identify any person; (b) as anonymised microdata to — (i) any public agency; or (ii) any other person within a class specified in the Third Schedule; (c) for the purposes of any proceedings for an offence under this Act or any report of those proceedings; (d) that are of a general nature relating to the products or services provided by, the number of employees in or the addresses of, an establishment; or (e) that are already available in the public domain. (3) The Chief Statistician or the director of a research and statistics unit may, in respect of any particulars or information disclosed to any person under subsection (2), impose conditions as to the use of the particulars or information by written notice to that person. (4) If a person discloses any returns or any particulars or information contrary to this section, or fails to comply with any conditions imposed on the person under subsection (3), the person shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 12 months or to both."
+    }
+  ]
+}

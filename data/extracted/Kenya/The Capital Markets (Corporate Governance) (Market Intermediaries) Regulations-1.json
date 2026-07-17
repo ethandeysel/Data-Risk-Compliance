@@ -1,0 +1,1819 @@
+{
+  "country": "Kenya",
+  "document": "The Capital Markets (Corporate Governance) (Market Intermediaries) Regulations-1",
+  "generated": "2026-07-16T16:31:35",
+  "sections": [
+    {
+      "section": "38",
+      "heading": "Transitional provision ............................................................................................................................................................................... 11",
+      "title": "One-year transition period for licensed intermediaries",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Other",
+      "summary": "Market intermediaries licensed before these regulations commenced must comply with the regulations within one year of the regulations' commencement. This ensures a smooth transition without immediate disruption.",
+      "dtia_summary": "Provides a transition period for data transfers and processing compliance, relevant for historical data handling.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Market intermediary licensed before regulations commenced must comply within one year of regulations' commencement",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A market intermediary that was licensed before the commencement of these Regulations shall comply with these Regulations within one year of the commencement of these Regulations."
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Prohibition on using market intermediary facilities for personal gain",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff must not use the market intermediary's name or facilities for personal advantage in political, investment, or retail transactions. They also cannot use their connection to borrow from or become indebted to clients. Additionally, they are prohibited from using their position to obtain preferential treatment in purchasing goods, shares, or securities. This prohibition may lead to dismissal and prosecution.",
+      "dtia_summary": "Prohibits misuse of market intermediary facilities for personal gain, which could impact cross-border data transfers if client financial data is involved in such transactions.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff must not use the market intermediary's name or facilities for personal advantage in political, investment or retail purchasing transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff must not use their connection with the market intermediary to borrow from or become indebted to clients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff must not use their position to obtain preferential treatment in purchasing goods, shares and other securities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors, management and staff must not use the market intermediary's name or facilities for personal advantage in political, investment or retail purchasing transactions, or in similar types of activities."
+    },
+    {
+      "section": "3",
+      "heading": "Directors",
+      "title": "Prohibition on insider trading and misuse of confidential information",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff are prohibited from trading securities when they possess non-public information that could materially affect the market price. They also cannot influence others to trade or share such information, which is considered insider dealing and is a crime. This section applies to market intermediaries in Kenya.",
+      "dtia_summary": "Prohibits insider trading and misuse of confidential information, which could affect data transfers involving client financial information across borders.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff should not deal in securities when in possession of non-public information that could materially affect market prices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff prohibited from influencing others to deal in securities or communicating insider information",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors, management and staff should not deal in the securities of any company listed or pending listing on a stock exchange at any time when in possession of information... which would likely bring a material change in the market price of the shares or other securities of the company concerned."
+    },
+    {
+      "section": "4",
+      "heading": "Fit and proper requirements for appointment as director",
+      "title": "Requirement for accurate and complete financial records",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Accounting records and reports must be complete and accurate, with no false entries that obscure transaction nature or mislead authorization limits. All records and computer files must be used only for their intended management purposes to ensure integrity and prevent fraud.",
+      "dtia_summary": "Ensures accurate financial records, which is critical for data transfers involving financial information to prevent misrepresentation or fraud.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Accounting records and reports must be complete and accurate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No false entries or entries that obscure the true nature of transactions or mislead authorization limits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All records and computer files must be accessed and used only for management purposes for which they were originally intended",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Accounting records and reports must be complete and accurate. Directors, management and staff should never make entries or allow entries to be made for any account, record or document of the market intermediary that are false and would obscure the true nature of the transaction..."
+    },
+    {
+      "section": "5",
+      "heading": "Register of directors",
+      "title": "Confidentiality of client information and transactions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff must protect client information and transactions from disclosure, except in the proper course of duty or with written consent. They cannot use client information for financial gain. Business information may be shared with third parties only with client consent or as required by law.",
+      "dtia_summary": "Requires strict confidentiality of client data, which is essential for data transfers to prevent unauthorized access or breaches.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff must take precautions to protect client information and transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No staff, management or director may disclose or use secrets, copyright material, or client correspondence without written consent or proper duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No staff, management or director may use information obtained for financial gain",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business and financial information about clients may be shared with third parties only with prior written consent or as required by law",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Confidentiality of relations and dealings between the market intermediary and its clients is paramount... No member of staff, management or director should during, or upon and after termination of employment... divulge or make use of any secrets, copyright material, or any correspondence..."
+    },
+    {
+      "section": "6",
+      "heading": "The Board",
+      "title": "Fair and equitable treatment of clients and staff",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "All business dealings with clients, staff, and those relying on the market intermediary must be conducted fairly and equitably without influence from friendship or association. Decisions must be arms-length business decisions, avoiding preferential transactions with insiders unless fully documented and authorized by the Board.",
+      "dtia_summary": "Ensures fair treatment in transactions, which is critical for data transfers to prevent bias or preferential handling of client data.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "All business dealings with clients, staff, and those relying on the market intermediary must be conducted fairly and equitably",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Staff, management and directors must not be influenced by friendship or association in meeting client requirements or recommendations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Decisions must be made on a strictly arms-length business basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Preferential transactions with insiders must be avoided or, if transacted, must be fully documented and authorized by the Board",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All business dealing on behalf of the market intermediary with the current potential clients, with other members of staff and with those who may have cause to rely upon the market intermediary should be conducted fairly and equitably."
+    },
+    {
+      "section": "7",
+      "heading": "Strategic direction and control",
+      "title": "Prohibition on insider loans and credit facilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "Market intermediaries in Kenya cannot grant unsecured advances to employees or their associates. Loans to officers, significant shareholders, or their associates must be fully secured, approved by the Board, and on terms similar to ordinary clients. Any loans must not be made in a fraudulent or reckless manner.",
+      "dtia_summary": "Restricts insider loans, which is critical for data transfers involving financial information to prevent conflicts of interest.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary shall not grant or permit unsecured advances to employees or their associates",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Market intermediary shall not grant unsecured or non-fully secured advances to officers, significant shareholders, or their associates",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Loans to directors or other management participants must be approved by the full board of directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loans must be made in the normal course of business on terms similar to ordinary clients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must notify the Authority within seven days of approval for loans to directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loans must not be made in a fraudulent or reckless manner or otherwise than in compliance with the Act and regulations",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Directors, management and staff should not use their positions to further their personal interests. A market intermediary shall not in Kenya therefore—"
+    },
+    {
+      "section": "8",
+      "heading": "Code of conduct",
+      "title": "Code of conduct for market intermediary staff",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Governance",
+      "summary": "The board may adopt or develop a code of conduct for directors, management and staff that addresses issues specified in the Schedule, but the Schedule's code of conduct takes precedence if the developed code omits issues or is inconsistent with it. This applies to market intermediaries in Kenya.",
+      "dtia_summary": "This section requires market intermediaries to establish codes of conduct that may impact data handling practices and employee data management during data transfers.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Board may adopt the code of conduct set out in the Schedule or develop a code of conduct for directors, management and staff",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Where the code of conduct developed by a market intermediary does not address all issues or is inconsistent with the Schedule, the Schedule shall apply to the extent of omission or inconsistency",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Board may adopt the code of conduct set out in the Schedule or develop a code of conduct for the directors, management and staff that addresses the issues specified in the code of conduct set out in the Schedule: Provided that where the code of conduct developed by a market intermediary does not address all the issues specified or is inconsistent with the code of conduct set out in the Schedule, the code of conduct set out in the Schedule shall apply to the extent of the omission or inconsistency."
+    },
+    {
+      "section": "9",
+      "heading": "Board charter",
+      "title": "Board charter requirements for market intermediaries",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Governance",
+      "summary": "The board must prepare a charter confirming responsibility for strategic plans, operational performance monitoring, policy determination for risk management and internal controls, delegation of powers, conflict of interest management, and identification of key risk areas requiring regular monitoring. This applies to market intermediaries in Kenya.",
+      "dtia_summary": "This section mandates board charters that impact data transfer impact assessments by requiring specific risk management and internal control frameworks for financial data handling.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Confirm responsibility for adoption of strategic plans, monitoring operational performance, and determination of policy for risk management and internal controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve specific powers for itself and delegate other matters to management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide a corporate code of conduct addressing conflict of interest for directors and management, regularly reviewed and updated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify key risk areas requiring regular monitoring",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "(1) In order to discharge its responsibilities, the board shall prepare and write a charter that— (a) confirms its responsibility for the adoption of strategic plans, monitoring the operational performance, the determination of policy and processes that ensure that the integrity of the market intermediary's risk management and internal controls; (b) reserves specific powers to itself and delegates other matters to the management of a market intermediary; (c) provides a corporate code of conduct that addresses conflict of interest, relating to directors and management, which shall be regularly reviewed and updated as necessary; and (d) identifies key risk areas, that require regular monitoring."
+    },
+    {
+      "section": "10",
+      "heading": "Accountability and responsibility",
+      "title": "Board accountability for market intermediaries",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Governance",
+      "summary": "The board must be responsible for the performance and conduct of the market intermediary's business, maintain a schedule of matters reserved for its decision, and not be discharged from duties for matters delegated to committees or management. This applies to market intermediaries in Kenya.",
+      "dtia_summary": "This section establishes board accountability that impacts data transfer impact assessments by requiring oversight of data handling practices and decision-making processes.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Be responsible and accountable for the performance and conduct of the market intermediary's business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Keep and maintain a schedule of matters reserved for its decision",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Direct and control matters delegated to committees or management",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall be responsible and accountable for the performance and conduct of the business of the market intermediary. The board shall keep and maintain a schedule of the matters reserved for its decision and ensure that it directs and controls. The board shall not be discharged from its duties and responsibilities for matters or authority delegated to committees of the board or to the management of a market intermediary."
+    },
+    {
+      "section": "11",
+      "heading": "Board meetings",
+      "title": "Board meeting frequency for market intermediaries",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Governance",
+      "summary": "The board must meet at least once every three calendar months to review market intermediaries' processes, procedures, and internal control effectiveness, and prepare an annual schedule of meetings at the beginning of each financial year. This applies to market intermediaries in Kenya.",
+      "dtia_summary": "This section requires regular board meetings that impact data transfer impact assessments by ensuring periodic reviews of data handling and control mechanisms.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Meet at least once in every three calendar months to review market intermediary's processes and procedures and effectiveness of internal systems of control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prepare an annual schedule of meetings at the beginning of each financial year",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall meet at least once in every three calendar months to review the market intermediary's processes and procedures and the effectiveness of its internal systems of control. The board shall, at the beginning of each financial year, prepare an annual schedule of the meetings of the market intermediary."
+    },
+    {
+      "section": "12",
+      "heading": "Remuneration of directors",
+      "title": "Director remuneration standards for market intermediaries",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Governance",
+      "summary": "The remuneration of directors and chief executives must be commensurate with the market intermediary's operations and the remuneration offered for similar positions in the market. This applies to market intermediaries in Kenya.",
+      "dtia_summary": "This section sets remuneration standards that may indirectly impact data transfer impact assessments through governance structures affecting data handling practices.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Remuneration of directors and chief executive must be commensurate with the nature and size of operations and remuneration for similar positions in the market",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The remuneration of directors and the chief executive of a market intermediary shall be commensurate with the nature and size of operations of the market intermediary and the remuneration offered for similar positions in the market."
+    },
+    {
+      "section": "13",
+      "heading": "Committees",
+      "title": "Board committees and reporting procedures",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Governance",
+      "summary": "Market intermediaries must establish an audit committee and other committees with written terms of reference, reporting procedures, and authority scope. The audit committee reviews internal audit reports, financial statements, risk management policies, internal controls, external auditors' work, compliance with codes of conduct, and conducts special investigations. Committee decisions require board ratification to be binding.",
+      "dtia_summary": "Requires internal governance structures that impact data handling through committee oversight of financial and operational controls, which may affect data processing and storage practices across borders.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board shall establish audit committee and other committees as necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Committees must specify terms of reference, reporting procedures, and authority scope in writing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review internal audit reports for management and management's response",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review periodical financial statements and financial reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review audited and unaudited financial statements before public release",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review effectiveness of risk management policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review internal controls affecting financial performance and reporting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must review external auditors' proposed audit scope and approach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must monitor compliance with code of conduct and ethics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must consider compliance work plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must regularly report to board on activities, issues, and recommendations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit committee must institute and oversee special investigations when necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board may refer matters to committees for consideration and determination",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Committee decisions do not bind market intermediary unless presented to board for ratification",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "13. Committees (1) The board shall establish an audit committee and such other committees, as it considers necessary and specify their terms of reference, in writing, including the reporting procedures and a written scope of authority."
+    },
+    {
+      "section": "14",
+      "heading": "Corporate governance framework",
+      "title": "Corporate governance framework requirements",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Governance",
+      "summary": "Market intermediaries must establish a corporate governance framework providing strategic guidance for board accountability and timely documentation of financial, ownership, and governance information. Boards must review management, operations, accounts, capital expenditure, and corporate performance quarterly, and review governance structures annually, documenting review outcomes.",
+      "dtia_summary": "Mandates robust governance frameworks that influence data handling practices, particularly through quarterly financial reviews and documentation requirements affecting data storage and processing.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary shall establish corporate governance framework providing strategic guidance for board accountability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Corporate governance framework must ensure timely and accurate documentation of financial structure, performance, ownership, and governance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board shall review management, operations, accounts, major capital expenditure, and corporate performance quarterly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board shall review corporate governance structure annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board shall document results of reviews conducted quarterly and annually",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. Corporate governance framework (1) A market intermediary shall establish a corporate governance framework that provides— (a) strategic guidance of the market intermediary that promotes the effective monitoring of the management and accountability of the board; and (b) for availability and documentation of timely and accurate information relating to the market intermediary, including its financial structure, performance, ownership and governance."
+    },
+    {
+      "section": "15",
+      "heading": "Responsibilities of shareholders",
+      "title": "Shareholder responsibilities and oversight",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Governance",
+      "summary": "Shareholders must jointly and severally protect and exercise authority over market intermediaries in general meetings. They must elect qualified directors, ensure board accountability, and change board composition when necessary. Shareholders must also approve acquisitions or transfers resulting in control over five percent or more of shares, and market intermediaries cannot appoint shareholders with over 25% shareholding as executives.",
+      "dtia_summary": "Shareholder oversight mechanisms impact data governance through board accountability and restrictions on executive appointments, which may affect data processing and storage practices.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Shareholders shall jointly and severally protect and exercise authority over market intermediary in general meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders must elect or appoint persons with relevant experience and qualifications to board of directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders must ensure board is held accountable through general meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders must use powers to change board composition when directors fail to perform",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders must apply for Authority approval for acquisitions or transfers resulting in control over five percent or more of shares",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must obtain approvals before share allotment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary cannot appoint shareholders with more than twenty-five percent shareholding as executive directors or senior management",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "15. Responsibilities of shareholders (1) The shareholders of a market intermediary shall, jointly and severally, protect, preserve and actively exercise the authority over the institution in general meetings."
+    },
+    {
+      "section": "16",
+      "heading": "Appointment of employees",
+      "title": "Employee appointment policies",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Governance",
+      "summary": "Market intermediaries must establish and obtain approval from the Authority for employee appointment policies. The board must review these policies at least every three years and submit any changes to the Authority for approval.",
+      "dtia_summary": "Employee appointment policies influence data handling through governance requirements that affect data processing and storage practices.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board shall formulate employee appointment policy approved by Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board shall review employee appointment policy at least every three years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board shall submit policy changes to Authority for approval",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16. Appointment of employees (1) The board shall formulate a policy for the appointment of employees, which shall be approved the Authority."
+    },
+    {
+      "section": "17",
+      "heading": "Chief executive officer",
+      "title": "Chief executive officer responsibilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Governance",
+      "summary": "The chief executive officer must implement board policies, recommend competent officers, coordinate departments, establish internal controls, design management information systems, appraise the board on operations, and ensure compliance with laws. Market intermediaries cannot change shareholders, directors, CEOs, or key personnel without Authority approval.",
+      "dtia_summary": "CEO responsibilities impact data handling through internal control systems and compliance requirements, which may affect data processing and storage practices.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CEO must implement board policies and corporate strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must identify and recommend competent officers for market intermediary operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must coordinate operations of departments within market intermediary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must establish and maintain efficient internal control systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must design and implement management information systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must regularly appraise board on market intermediary operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CEO must ensure market intermediary complies with Act and other relevant laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary cannot change shareholders, directors, CEOs, or key personnel without Authority approval",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "17. Chief executive officer (1) The chief executive officer of a market intermediary shall be responsible to the board for the day to day running of the market intermediary and shall— (a) implement the policies and the corporate strategy developed by the board; ..."
+    },
+    {
+      "section": "18",
+      "heading": "Separation of employees' duties",
+      "title": "Employee duty separation",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Governance",
+      "summary": "Market intermediaries must maintain adequate separation of employee duties, particularly between those responsible for incurring commitments, making payments, and preparing accounts. They must also implement internal controls, functional lines, and systems to restrict information flow between key departments.",
+      "dtia_summary": "Duty separation requirements impact data handling through internal control mechanisms that affect data processing and storage practices.",
+      "authority": "Kenya Securities and Exchange Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary must maintain adequate separation of employee duties between commitment incurring, payment making, and account preparation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must maintain internal controls, functional lines, and systems to restrict information flow between key departments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "18. Separation of employees' duties (1) The management of a market intermediary shall maintain adequate separation of employee duties, particularly between— (a) those responsible for incurring commitment; (b) those responsible for making payments; and (c) those responsible for preparing accounts."
+    },
+    {
+      "section": "19",
+      "heading": "Employees",
+      "title": "Employee fitness and proper qualifications for market intermediaries",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Employee Information",
+      "summary": "Market intermediaries must ensure all employees possess necessary qualifications, experience, and integrity. The board must verify employees' fitness for roles, including no evidence of lack of integrity or issues affecting their financial management. Management must document specific qualifications for each position and meet regulatory requirements.",
+      "dtia_summary": "Requires employee vetting and documentation to ensure staff are fit for roles, relevant to internal controls and risk management in financial operations.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Employee Information",
+        "Security",
+        "Processing"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board ensures all employees are fit and proper for roles with necessary qualifications and experience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management determines and documents experience and qualifications for each post",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management ensures all employees have documented training program based on needs and regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall ensure that all employees are fit and proper for their roles, including having the necessary qualifications and experience for their responsibilities and that there is no evidence of lack of integrity or other matters likely to raise concerns over their probity and capacity in managing their own financial affairs or those of clients."
+    },
+    {
+      "section": "20",
+      "heading": "Management of a market intermediary",
+      "title": "Market intermediary management responsibilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Market intermediaries must operate daily, implement board policies, adhere to operational systems, follow planning processes, promote HR development, comply with conduct codes, and maintain records. Management must ensure employees have job descriptions, understand conduct codes, possess necessary knowledge, and have defined areas of discretion with oversight.",
+      "dtia_summary": "Sets operational and compliance standards for market intermediaries, ensuring internal controls and oversight mechanisms are in place for financial risk management.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Processing",
+        "Security",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Management operates and manages market intermediary on day-to-day basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management implements and adheres to board-developed policies, practices and standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management adheres to systems for efficient operations and communications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management adheres to planning processes for achieving targets and objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management promotes human resource development and staff issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management complies with code of conduct, the Act and relevant laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management keeps and maintains records and complies with reporting requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Each employee has a job description defining duties and responsibilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All employees familiarize themselves with and adhere to the code of conduct",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees collectively have necessary knowledge, skills, information and authority to establish, operate and monitor internal controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Areas of discretion and action criteria for employees are adequately defined with oversight by another employee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees' ability to commit market intermediary to expenditure or trading matters is sufficiently defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "There are adequate financial controls including dual signatures for material payments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The management of a market intermediary shall— (a) implement and adhere to the policies, practices and standards developed by the board; (b) adhere to the systems established to facilitate efficient operations and communications; (c) adhere to the planning process that has been developed to facilitate achievement of targets and objectives; (d) promote human resource development and training and deal with other issues relating to staff; (e) comply with the code of conduct, the Act and any other relevant laws; and (f) keep and maintain record, and comply with all the reporting requirements."
+    },
+    {
+      "section": "21",
+      "heading": "Finance officers and internal auditors",
+      "title": "Finance officers and internal auditors must be ICPAK members",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Employee Information",
+      "summary": "The chief finance officer and internal audit function responsible persons must be members of the Institute of Certified Public Accountants of Kenya (ICPAK). This ensures financial and audit personnel meet professional standards.",
+      "dtia_summary": "Requires finance and internal audit staff to hold specific professional qualifications relevant to financial controls and risk management.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Chief finance officer or internal audit function responsible person must be ICPAK member",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The chief finance officer or any other person who is responsible for the finance department of a market intermediary and the person responsible for the internal audit function, shall be required to be members of the Institute of Certified Public Accountants of Kenya (ICPAK)."
+    },
+    {
+      "section": "22",
+      "heading": "Internal audit.",
+      "title": "Internal audit function establishment and charter",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Market intermediaries must establish an effective internal audit function. The board must create an internal audit charter that defines the purpose, authority, and responsibilities of the function, ensuring it evaluates and improves risk management, control, and governance processes.",
+      "dtia_summary": "Requires a formal internal audit function to assess and improve risk management and control systems, critical for financial oversight.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary establishes an effective internal audit function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board formulates internal audit charter to evaluate and improve risk management, control and governance processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal audit charter provides assurance on management processes identifying significant risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal audit charter confirms effective operation of internal control system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal audit charter provides credible processes for risk management and assurance feedback",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal audit charter ensures board receives reliable information from management",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The market intermediary shall establish an effective internal audit function. The board shall formulate an internal audit charter to bring a systematic, disciplined approach to evaluate and improve the effectiveness of risk management, control and governance processes and define the purpose, authority and responsibility of the internal audit function."
+    },
+    {
+      "section": "23",
+      "heading": "Internal auditor",
+      "title": "Internal auditor appointment and responsibilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "The board must appoint an internal auditor who is not the compliance officer, has sufficient authority, direct access to the board, and develops an internal audit program under audit committee oversight. The auditor must submit quarterly reports to the committee.",
+      "dtia_summary": "Specifies internal auditor qualifications and reporting requirements to ensure independent oversight of financial and operational controls.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Internal auditor not be the compliance officer and not involved in audited functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal auditor has sufficient authority to carry out functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal auditor has direct access to the board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal auditor develops internal audit program under audit committee oversight",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal auditor submits quarterly reports to audit committee",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall appoint an internal auditor who shall— (a) not be the compliance officer and shall not be involved in any function that is being audited; (b) have sufficient authority to carry out his function as an internal auditor; (c) have direct access to the board; (d) subject to the oversight of the audit committee, develop an internal audit programme; and (e) submit quarterly reports to the audit committee."
+    },
+    {
+      "section": "24",
+      "heading": "Responsibility for risk management",
+      "title": "Risk management responsibilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "The board must develop and implement risk assessment and management processes, regularly review effectiveness. Management must be accountable for designing, implementing, monitoring and integrating risk management into daily operations. The process must address compliance, payment systems, operational, human resource, technology, business continuity, credit, market, reputational, political and other risks. The board and management must document policies, communicate to employees, maintain contingency plans, and evaluate them regularly.",
+      "dtia_summary": "Requires comprehensive risk management frameworks addressing financial and operational risks, critical for data security and regulatory compliance in financial services.",
+      "authority": "The Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board develops and implements risk assessment and management process, regularly reviews effectiveness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management accountable to board for designing, implementing, monitoring and integrating risk management into daily operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk assessment process addresses compliance, payment systems, operational, human resource, technology, business continuity, credit, market, reputational, political and other risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and management develop documented risk management policies and processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management communicates risk management policies to all employees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management maintains backup and contingency plans for information technology failure, record loss and business premises loss",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management makes arrangements for business continuity in case of key personnel loss",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management evaluates contingency plans on a regular basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board appoints risk management officer to assist in risk management, review integrity of risk control systems, define risk management function, monitor external developments, provide independent oversight and review information presented by management",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall be responsible for the development and implementation of the process of risk assessment and management and shall regularly review the effectiveness of the process."
+    },
+    {
+      "section": "26",
+      "heading": "Information management system",
+      "title": "Board's information management system requirements",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "The board must develop an information management system that tracks implementation of policies, risk realization, market positions, and financial status of market intermediaries. This system must provide real-time insights into the intermediary's operational health and risk exposure. The requirement applies to all market intermediaries operating under this regulation.",
+      "dtia_summary": "This section mandates a board-level information system that monitors financial and risk data, requiring market intermediaries to maintain robust internal reporting mechanisms for cross-border data flows and financial transparency.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board develops and implements an information management system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System provides information on policy implementation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System tracks risk realization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System monitors substantial market positions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System reflects financial position of market intermediary",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall develop and implement an information management system that provides information relating to its implementation, the effect of the board's policies and procedures, the realisation of risks, substantial market positions and the financial position of the market intermediary."
+    },
+    {
+      "section": "27",
+      "heading": "Responsibility for internal controls",
+      "title": "Board's internal control responsibilities",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "The board must establish and monitor internal control systems that ensure effective operation. This includes developing policies, verifying system functionality, and maintaining procedure manuals for internal controls. The requirement applies to market intermediaries to ensure their internal controls meet regulatory standards.",
+      "dtia_summary": "This section requires market intermediaries to maintain robust internal controls that impact data handling practices, particularly for financial data and risk management across borders.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board is responsible for market intermediary's internal control system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board establishes and monitors internal control policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board verifies system effectiveness",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall be responsible for the market intermediary's system of internal controls. The board shall establish and monitor appropriate policies on internal controls and satisfy itself that the system is functioning effectively."
+    },
+    {
+      "section": "28",
+      "heading": "Role of management and employees",
+      "title": "Management and employee roles in internal controls",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "Market intermediary management must implement board policies on risk and internal controls. Employees must participate in internal control activities to ensure objectives are met. This section emphasizes accountability across all levels of the organization for maintaining effective internal controls.",
+      "dtia_summary": "This section mandates clear roles for management and employees in internal controls, which affects how data is handled and protected within market intermediaries.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Management implements board policies on risk and internal controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management identifies and evaluates risks for board consideration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management designs, operates and monitors internal control system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees are responsible for internal control as part of their accountability",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The management of a market intermediary shall implement the board's policies on risk and internal controls. The employees shall be responsible for internal control as part of their accountability towards the achievement of the objectives of the market intermediary."
+    },
+    {
+      "section": "29",
+      "heading": "Periodical review of internal controls",
+      "title": "Periodic internal control reviews",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "Management must report internal control monitoring activities to the board. The board must periodically review internal control effectiveness based on management's reports and document findings and actions taken. This ensures ongoing oversight of internal controls.",
+      "dtia_summary": "This section requires regular internal control reviews that impact data handling practices, particularly for financial data and risk management across borders.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Management reports internal control monitoring activities to board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board periodically reviews internal control effectiveness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board documents results and conclusions of reviews",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The board shall periodically review and enquire, based on the information and assurances provided to it by management of a market intermediary, to determine the effectiveness of internal controls established by the management of a market intermediary."
+    },
+    {
+      "section": "30",
+      "heading": "Compliance officer",
+      "title": "Compliance officer responsibilities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Governance",
+      "summary": "The board must appoint a compliance officer with specific powers to monitor regulatory compliance, access information, report non-compliance, and ensure accountability. The officer may be personally liable for non-compliance with regulatory requirements.",
+      "dtia_summary": "This section mandates a compliance officer role that ensures regulatory adherence, which impacts data handling practices and cross-border data transfers for market intermediaries.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board appoints compliance officer who monitors regulatory compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer has sufficient authority to carry out functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer has unfettered access to information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer has direct access to board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer takes action to rectify non-compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer reports non-compliance issues to board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer reports material regulatory breaches to board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officer submits annual corporate governance report to board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Officer in charge of compliance may be personally liable for non-compliance",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "The board shall appoint a compliance officer who shall— (a) monitor compliance with the regulatory requirements prescribed by the Authority, and shall not be involved with any function that is the subject of compliance; (b) have sufficient authority to carry out such function; (c) have unfettered access to information; (d) have direct access to the board; (e) take necessary action to rectify any non-compliance; (f) report any non-compliance issues that cannot be rectified to the board; (g) report to the board any material breaches of the regulatory requirements; and (h) submit an annual corporate governance report to the board."
+    },
+    {
+      "section": "31",
+      "heading": "Receipt of client funds",
+      "title": "Client funds receipt procedures",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Governance",
+      "summary": "Market intermediaries must implement systems to deposit client funds directly into client bank accounts, avoiding cash handling by employees. This ensures proper financial segregation and reduces fraud risks.",
+      "dtia_summary": "This section mandates direct client fund deposits, which impacts data handling practices for financial transactions and cross-border transfers.",
+      "authority": "Capital Markets Authority (Kenya)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary establishes systems for direct client fund deposits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All client funds must be deposited in intermediary's client bank account",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees must not handle client cash",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A market intermediary shall establish and implement systems that ensure that all funds received on behalf of clients are deposited directly in the intermediary's client bank account to ensure employees avoid the receipt of cash."
+    },
+    {
+      "section": "34",
+      "heading": "Employee records",
+      "title": "Employee records must demonstrate qualification and fitness assessments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Employee Information",
+      "summary": "Market intermediaries must maintain records proving each employee's qualifications, experience, fitness, and propriety. These records include job applications with verification, job descriptions, qualifications, remuneration details, securities transactions with permission, conflict of interest declarations, and holdings of publicly traded securities. The records must be kept to demonstrate effective assessment of employee suitability.",
+      "dtia_summary": "Requires detailed employee records to ensure compliance with qualification and fitness standards before data transfers or processing involving employees.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Employee Information"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary shall keep records demonstrating effective assessment of employee qualifications, experience, fitness and propriety",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include job application with copy of documentation verifying qualifications and experience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include job description",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include qualifications, experience and training",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include remuneration details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include securities transactions with details of permission received",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include declarations of existing or potential conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employee records must include details of all publicly traded securities owned",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A market intermediary shall keep and maintain records relating to each of its employees demonstrating that it has effectively assessed all relevant qualification, experience, fitness and propriety."
+    },
+    {
+      "section": "35",
+      "heading": "Third party records",
+      "title": "Third party records for contracted services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Third Party Processing",
+      "summary": "Market intermediaries must maintain records for third parties they contract with, including the contract details, third party's legal status and verification documents, and qualifications of employees engaged. The records must ensure the market intermediary remains responsible for the delegated functions.",
+      "dtia_summary": "Requires third-party records to ensure accountability in data transfers and processing with external entities, critical for cross-border data transfers involving third parties.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary shall maintain appropriate records for third parties undertaking functions on its behalf",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include the contract specifying services to be provided",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include details of third party's legal status, verification documents and financial viability documentation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include qualifications and experience of employees to be engaged",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Delegation of functions does not discharge market intermediary from responsibility for proper execution of delegated functions",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Where the market intermediary contracts with a third party to undertake any functions on its behalf, it shall maintain appropriate records, including—"
+    },
+    {
+      "section": "36",
+      "heading": "Exemption or variation of applicability",
+      "title": "Exemptions and variations from regulatory requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Exemptions",
+      "summary": "The Authority may exempt or vary the application of specific regulations for market intermediaries if it considers it appropriate in special circumstances. Market intermediaries must provide reasons for seeking exemptions and alternative arrangements. They must comply with regulations until the Authority formally exempts them, and the Authority must publish exemptions and variations.",
+      "dtia_summary": "Allows for regulatory exemptions but requires ongoing compliance and reporting, relevant for data transfers where specific conditions are met.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Authority may exempt or vary application of regulations 13, 15(5), 18, 21, 22, 23, 24(6) and 30",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Exemptions must specify the period for which they are valid",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Market intermediary must provide reasons for seeking exemption or variation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must specify alternative arrangements to comply with regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must comply with regulations until Authority formally exempts it",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must give written reasons for granting exemption or variation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must publish exemption or variation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must report changes in circumstances relevant to exemption or variation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may revoke exemption or variation if circumstances change",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority may, upon an application made in writing by a market intermediary, where it considers it appropriate in the special circumstances of the market intermediary, exempt from or vary the application of regulations 13, l5(5), 18, 21, 22, 23, 24(6) and 30 to the market intermediary"
+    },
+    {
+      "section": "37",
+      "heading": "Remedial measures and administrative sanctions",
+      "title": "Remedial measures for unfit directors or officers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "Market intermediaries must terminate services of directors or officers found unfit and proper, implement mitigation mechanisms for client or business losses, and inform the Authority immediately. Directors are jointly liable for losses from contraventions, and non-compliance with regulations constitutes a disciplinary offence.",
+      "dtia_summary": "Requires immediate action for unfit personnel, critical for data transfer integrity and risk mitigation in financial services.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Market intermediary must terminate services of director or officer found unfit and proper",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must implement mechanisms to mitigate losses from termination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must inform Authority immediately of termination actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors are jointly liable to indemnify market intermediary for losses from contraventions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary contravening regulations commits a disciplinary offence",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "When a director or an officer is assessed and found not to be fit and proper to work for a market intermediary, the affected market intermediary shall: (a) be required to terminate the services of such a director or officer"
+    },
+    {
+      "section": "38",
+      "heading": "Transitional provision",
+      "title": "One-year transition period for licensed intermediaries",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Market intermediaries licensed before these regulations commenced must comply with the regulations within one year of the regulations' commencement. This ensures a smooth transition without immediate disruption.",
+      "dtia_summary": "Provides a transition period for data transfers and processing compliance, relevant for historical data handling.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Market intermediary licensed before regulations commenced must comply within one year of regulations' commencement",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A market intermediary that was licensed before the commencement of these Regulations shall comply with these Regulations within one year of the commencement of these Regulations."
+    },
+    {
+      "section": "1",
+      "heading": "Conflict of Interest",
+      "title": "Conflict of interest disclosures for employees",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Employees must disclose outside business activities that conflict with market intermediary interests, including financial interests in clients, part-time employment, corporate directorships, and trusteeships. Approval from management or board is required before engaging in such activities.",
+      "dtia_summary": "Requires conflict of interest disclosures to ensure data transfers and processing are not compromised by employee conflicts.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff must disclose business activities that compete or conflict with market intermediary's interests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial interest in client must be disclosed immediately to management and client",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Affected director must not be involved in client dealings while financial interest exists",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business activities outside market intermediary during office hours constitute conflict of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Part-time employment must be discussed with manager and approved by board or chief executive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees must not solicit corporate directorships without board approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees may act as directors of non-profit public service corporations with board approval",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Employees must not solicit appointments as executors, administrators or trustees of clients' estates",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors, management and staff should not engage directly or indirectly in any business activity that competes or conflicts with the market intermediary's interest or those of its clients unless fully disclosed to the clients."
+    },
+    {
+      "section": "2",
+      "heading": "Misuse of Position",
+      "title": "Prohibition on using market intermediary facilities for personal gain",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff must not use the market intermediary's name or facilities for personal advantage in political, investment, or retail transactions. They also cannot use their connection to borrow from or become indebted to clients. Additionally, they are prohibited from using their position to obtain preferential treatment in purchasing goods, shares, or securities. This prohibition may lead to dismissal and prosecution.",
+      "dtia_summary": "Prohibits misuse of market intermediary facilities for personal gain, which could impact cross-border data transfers if client financial data is involved in such transactions.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff must not use the market intermediary's name or facilities for personal advantage in political, investment or retail purchasing transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff must not use their connection with the market intermediary to borrow from or become indebted to clients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff must not use their position to obtain preferential treatment in purchasing goods, shares and other securities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors, management and staff must not use the market intermediary's name or facilities for personal advantage in political, investment or retail purchasing transactions, or in similar types of activities."
+    },
+    {
+      "section": "3",
+      "heading": "Misuse of Information",
+      "title": "Prohibition on insider trading and misuse of confidential information",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff are prohibited from trading securities when they possess non-public information that could materially affect the market price. They also cannot influence others to trade or share such information, which is considered insider dealing and is a crime. This section applies to market intermediaries in Kenya.",
+      "dtia_summary": "Prohibits insider trading and misuse of confidential information, which could affect data transfers involving client financial information across borders.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff should not deal in securities when in possession of non-public information that could materially affect market prices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, management and staff prohibited from influencing others to deal in securities or communicating insider information",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors, management and staff should not deal in the securities of any company listed or pending listing on a stock exchange at any time when in possession of information... which would likely bring a material change in the market price of the shares or other securities of the company concerned."
+    },
+    {
+      "section": "4",
+      "heading": "Integrity of Records and Transactions",
+      "title": "Requirement for accurate and complete financial records",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Accounting records and reports must be complete and accurate, with no false entries that obscure transaction nature or mislead authorization limits. All records and computer files must be used only for their intended management purposes to ensure integrity and prevent fraud.",
+      "dtia_summary": "Ensures accurate financial records, which is critical for data transfers involving financial information to prevent misrepresentation or fraud.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Accounting records and reports must be complete and accurate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No false entries or entries that obscure the true nature of transactions or mislead authorization limits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All records and computer files must be accessed and used only for management purposes for which they were originally intended",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Accounting records and reports must be complete and accurate. Directors, management and staff should never make entries or allow entries to be made for any account, record or document of the market intermediary that are false and would obscure the true nature of the transaction..."
+    },
+    {
+      "section": "5",
+      "heading": "Confidentiality",
+      "title": "Confidentiality of client information and transactions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Directors, management, and staff must protect client information and transactions from disclosure, except in the proper course of duty or with written consent. They cannot use client information for financial gain. Business information may be shared with third parties only with client consent or as required by law.",
+      "dtia_summary": "Requires strict confidentiality of client data, which is essential for data transfers to prevent unauthorized access or breaches.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors, management and staff must take precautions to protect client information and transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No staff, management or director may disclose or use secrets, copyright material, or client correspondence without written consent or proper duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No staff, management or director may use information obtained for financial gain",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business and financial information about clients may be shared with third parties only with prior written consent or as required by law",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Confidentiality of relations and dealings between the market intermediary and its clients is paramount... No member of staff, management or director should during, or upon and after termination of employment... divulge or make use of any secrets, copyright material, or any correspondence..."
+    },
+    {
+      "section": "6",
+      "heading": "Fair and Equitable Treatment",
+      "title": "Fair and equitable treatment of clients and staff",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "All business dealings with clients, staff, and those relying on the market intermediary must be conducted fairly and equitably without influence from friendship or association. Decisions must be arms-length business decisions, avoiding preferential transactions with insiders unless fully documented and authorized by the Board.",
+      "dtia_summary": "Ensures fair treatment in transactions, which is critical for data transfers to prevent bias or preferential handling of client data.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "All business dealings with clients, staff, and those relying on the market intermediary must be conducted fairly and equitably",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Staff, management and directors must not be influenced by friendship or association in meeting client requirements or recommendations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Decisions must be made on a strictly arms-length business basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Preferential transactions with insiders must be avoided or, if transacted, must be fully documented and authorized by the Board",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All business dealing on behalf of the market intermediary with the current potential clients, with other members of staff and with those who may have cause to rely upon the market intermediary should be conducted fairly and equitably."
+    },
+    {
+      "section": "7",
+      "heading": "Insider Loans",
+      "title": "Prohibition on insider loans and credit facilities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Market intermediaries in Kenya cannot grant unsecured advances to employees or their associates. Loans to officers, significant shareholders, or their associates must be fully secured, approved by the Board, and on terms similar to ordinary clients. Any loans must not be made in a fraudulent or reckless manner.",
+      "dtia_summary": "Restricts insider loans, which is critical for data transfers involving financial information to prevent conflicts of interest.",
+      "authority": "Kenya Capital Markets Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Market intermediary shall not grant or permit unsecured advances to employees or their associates",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Market intermediary shall not grant unsecured or non-fully secured advances to officers, significant shareholders, or their associates",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Loans to directors or other management participants must be approved by the full board of directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loans must be made in the normal course of business on terms similar to ordinary clients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Market intermediary must notify the Authority within seven days of approval for loans to directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loans must not be made in a fraudulent or reckless manner or otherwise than in compliance with the Act and regulations",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Directors, management and staff should not use their positions to further their personal interests. A market intermediary shall not in Kenya therefore—"
+    }
+  ]
+}

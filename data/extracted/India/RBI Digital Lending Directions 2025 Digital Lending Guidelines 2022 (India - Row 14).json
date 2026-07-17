@@ -1,0 +1,1148 @@
+{
+  "country": "India",
+  "document": "RBI Digital Lending Directions 2025 Digital Lending Guidelines 2022 (India - Row 14)",
+  "generated": "2026-07-16T15:43:48",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Preamble",
+      "title": "Digital lending platform compliance guidelines",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Financial Data",
+      "summary": "This section references RBI's 2020 guidelines on fair practices and outsourcing for loans sourced by banks and NBFCs through digital lending platforms. It establishes baseline compliance requirements for digital lending operations.",
+      "dtia_summary": "Digital lending platforms must adhere to fair practices and outsourcing guidelines, impacting data transfer impact assessments for cross-border data flows.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Loans sourced by banks and NBFCs through digital lending platforms must adhere to fair practices code",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outsourcing guidelines must be followed for digital lending platforms",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RBI/2019-20/258 DOR(NBFC)(PD) CC.No.112/03.10.001/2019-20 24.06.2020 Loans Sourced by Banks and NBFCs over Digital Lending Platforms: Adherence to Fair Practices Code and Outsourcing Guidelines"
+    },
+    {
+      "section": "3",
+      "heading": "Applicability",
+      "title": "Applicability of Digital Lending Guidelines",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "These guidelines apply to all digital lending activities of specified entities: commercial banks, primary (urban) co-operative banks, state co-operative banks, central co-operative banks, non-banking financial companies (including housing finance companies), and all-India financial institutions. The term 'Regulated Entity' refers to these institutions that must comply with the digital lending requirements outlined in the guidelines.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "These Directions shall be applicable to all digital lending activities of the following entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All Commercial Banks are Regulated Entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All Primary (Urban) Co-operative Banks, State Co-operative Banks, Central Co-operative Banks are Regulated Entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All Non-Banking Financial Companies (including Housing Finance Companies) are Regulated Entities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All All-India Financial Institutions are Regulated Entities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "These Directions shall be applicable to all digital lending activities of the following entities, hereinafter referred to as a Regulated Entity (RE) and collectively as Regulated Entities (REs), as the context may require: i. All Commercial Banks, ii. All Primary (Urban) Co-operative Banks, State Co-operative Banks, Central Co-operative Banks, iii. All Non-Banking Financial Companies (including Housing Finance Companies), and iv. All All-India Financial Institutions."
+    },
+    {
+      "section": "4",
+      "heading": "Definitions",
+      "title": "Definitions for Digital Lending",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Definitions",
+      "summary": "The guidelines define key terms including Annual Percentage Rate (APR), Default Loss Guarantee (DLG), Digital Lending, Digital Lending Apps/Platforms (DLAs), and Lending Service Providers (LSPs). These definitions clarify the scope of digital lending activities and the roles of entities involved in the lending process, particularly emphasizing the relationship between Regulated Entities and LSPs.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Annual Percentage Rate (APR) is defined under Circular No. DOR.STR.REC.13/13.03.00/2024-25 on 'Key Facts Statement (KFS) for Loans & Advances' dated April 15, 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Default Loss Guarantee (DLG) is a contractual arrangement between RE and another entity for compensating RE for loan portfolio losses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Lending is a remote and automated lending process using digital technologies for customer acquisition, credit assessment, loan approval, disbursement, recovery and customer service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Lending Apps/Platforms (DLAs) are mobile and/or web-based applications facilitating digital lending services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Lending Service Provider (LSP) is an agent of a RE who carries out one or more digital lending functions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purpose of these Directions, unless the context otherwise requires, the terms herein shall bear the meaning assigned to them below: i. Annual Percentage Rate (APR): APR as defined under Circular No. DOR.STR.REC.13/13.03.00/2024-25 on 'Key Facts Statement (KFS) for Loans & Advances' dated April 15, 2024, as amended from time to time."
+    },
+    {
+      "section": "5",
+      "heading": "Due diligence requirements with respect to LSPs",
+      "title": "Due Diligence Requirements for LSPs",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Third Party Processing",
+      "summary": "Regulated Entities must conduct enhanced due diligence before entering agreements with Lending Service Providers, including assessing technical capabilities, data privacy policies, robustness of storage systems, fairness in conduct with borrowers, past records, and compliance with regulations. They must also carry out periodic reviews of LSP conduct, establish monitoring mechanisms for loan portfolios, provide guidance to LSPs on recovery duties, and ensure compliance with outsourcing guidelines. The RE remains fully responsible for all acts and omissions of the LSP.",
+      "dtia_summary": "Regulated Entities must ensure LSPs meet strict due diligence standards before partnership, conduct periodic reviews, and maintain oversight to prevent breaches of data privacy and borrower protection. This section directly impacts data transfer impact assessments by requiring robust third-party vendor management for digital lending activities.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Digital lending by a RE involving a LSP shall be carried out under a contractual agreement defining respective roles, rights, and obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall conduct enhanced due diligence before entering agreement with LSP considering technical capabilities, data privacy policies, storage systems, fairness with borrowers, past records, and compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall carry out periodic review of LSP conduct against contractual terms and take action for deviations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall lay down suitable monitoring mechanisms for loan portfolios originated with LSP support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall impart necessary guidance to LSP acting as recovery agent to discharge duties responsibly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall continue to conform to extant guidelines on outsourcing and ensure LSPs and DLAs comply with these Directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any outsourcing agreement with LSP shall not dilute or absolve RE of statutory or regulatory obligations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Digital lending by a RE involving a LSP, shall be carried out under a contractual agreement between the RE and the LSP, which clearly defines the respective roles, rights, and obligations of each party thereto."
+    },
+    {
+      "section": "6",
+      "heading": "RE-LSP arrangements involving multiple lenders",
+      "title": "Multi-Lender Arrangements with LSPs",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Cross-border Transfer",
+      "summary": "When a Lending Service Provider has agreements with multiple Regulated Entities, each RE must ensure the LSP provides a digital view of loan offers matching the borrower's request, including unmatched lenders. The LSP must follow a consistent approach for similarly placed borrowers, document mechanisms, and display loan offers with unbiased content that includes lender names, loan amounts, tenors, APR, repayment obligations, and penal charges. The content must not promote specific REs through dark patterns or deceptive practices.",
+      "dtia_summary": "This section requires LSPs to provide transparent, unbiased loan comparisons across lenders, directly impacting data transfer impact assessments by mandating clear disclosure mechanisms for cross-entity data sharing and preventing misleading practices in digital lending.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "LSP shall provide digital view of all loan offers matching borrower's request on DLA",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "LSP shall disclose unmatched lenders in the digital view",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "LSP shall follow consistent approach for similarly placed borrowers and products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "LSP shall document mechanisms adopted for matching borrowers with lenders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital view of loan offers shall include lender names, loan amounts, tenors, APR, monthly repayment obligations and penal charges",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital view shall provide link to Key Facts Statement (KFS) for each RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Content displayed by LSP shall be unbiased, objective and not promote specific REs through dark patterns",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "LSP shall provide a digital view of all the loan offers matching the borrower's request on the DLA which meets the requirement of the borrower. The name of the unmatched lenders shall also be disclosed in the digital view."
+    },
+    {
+      "section": "7",
+      "heading": "Assessing the borrower's creditworthiness",
+      "title": "Borrower Creditworthiness Assessment",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Data Collection",
+      "summary": "Regulated Entities must obtain necessary information about borrowers' economic profiles to assess creditworthiness before extending loans, including minimum age, occupation, and income details. These details must be kept on record for audit purposes. Additionally, REs must ensure that credit limits cannot be automatically increased without explicit borrower requests, evaluations, and records.",
+      "dtia_summary": "This section impacts data transfer impact assessments by requiring detailed borrower information collection and strict controls on credit limit increases, ensuring data accuracy and compliance with financial regulations.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE shall obtain necessary information relating to borrower's economic profile for creditworthiness assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall keep age, occupation and income details on record for audit purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall ensure no automatic increase in credit limit without explicit borrower request, evaluation and record",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall obtain the necessary information relating to economic profile of the borrower with a view to assessing the borrower's creditworthiness before extending any loan, including, at a minimum, age, occupation and income details."
+    },
+    {
+      "section": "8",
+      "heading": "Disclosures to borrowers",
+      "title": "Borrower disclosures and document delivery",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Data Sharing",
+      "summary": "RBI requires digital lenders (REs) to provide borrowers with a Key Fact Statement (KFS) following specific circulars. REs must deliver digitally signed documents including KFS, loan product summaries, sanction letters, and privacy policies automatically to borrowers via email or SMS upon contract execution. REs must maintain a public website with detailed information about lending products, third-party service providers (LSPs), grievance mechanisms, and links to RBI's complaint systems. REs must also notify borrowers of recovery agents before contact for loan defaults.",
+      "dtia_summary": "Mandates direct delivery of key documents to borrowers via email/SMS, requires public disclosure of lending products and LSPs, and specifies data sharing protocols for recovery agents — critical for ensuring transparency and compliance in cross-border data transfers involving Indian digital lenders.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE shall provide Key Fact Statement (KFS) per circular DOR.STR.REC.13/13.03.00/2024-25",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall ensure digitally signed documents (KFS, loan product summary, sanction letter, etc.) automatically flow to borrowers via email/SMS upon contract execution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall maintain public website with lending products, LSP details, grievance mechanisms, and links to RBI's complaint systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall ensure DLAs/LSPs link to RE's public website",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE shall notify borrowers of recovery agents via email/SMS before contact for loan defaults",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall provide a Key Fact Statement (KFS) as per instructions contained in circular no. DOR.STR.REC.13/13.03.00/2024-25 on ‘Key Facts Statement (KFS) for Loans & Advances' dated April 15, 2024, as amended from time to time."
+    },
+    {
+      "section": "9",
+      "heading": "Loan disbursal, servicing and repayment",
+      "title": "Loan disbursal and repayment without third-party intermediaries",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Financial Data",
+      "summary": "Digital lenders must disburse loans directly to borrowers' bank accounts, excluding third-party accounts including LSPs, except for statutory mandates, co-lending transactions, or specific end-use cases. All loan servicing and repayments must be executed directly by borrowers in the lender's bank account without pass-through accounts. Funds flow between borrowers and lenders must not be controlled by third parties, and fees payable to LSPs must be directly handled by the lender without charging borrowers.",
+      "dtia_summary": "Requires direct bank account transfers for loans, prohibits third-party fund control, and mandates lender responsibility for LSP fees — essential for ensuring data flows remain within India and avoid cross-border data transfer risks.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Storage",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Loan disbursement must be made into borrower's bank account except for statutory mandates, co-lending transactions, or specific end-use cases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All loan servicing and repayments must be executed directly in RE's bank account without third-party pass-through accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Funds flow between borrower and RE must not be controlled by third parties including LSPs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fees payable to LSPs must be paid directly by RE without being charged to borrowers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall ensure that in no case, disbursal is made to a third-party account, including the accounts of LSP, except as provided for in these Directions."
+    },
+    {
+      "section": "10",
+      "heading": "Cooling-off period",
+      "title": "Cooling-off period for loan exits",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Data Sharing",
+      "summary": "Borrowers must be given a cooling-off period during which they can exit a digital loan by repaying principal and proportionate APR without penalty. The period must be at least one day and determined by the RE's board. REs may retain a one-time processing fee if borrowers exit during this period, but this must be disclosed upfront in the KFS.",
+      "dtia_summary": "Requires a minimum one-day cooling-off period for loan exits, with clear exit mechanisms — relevant for data transfer impact assessments as it affects borrower consent and data retention timelines.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Borrower must have explicit option to exit loan by repaying principal and proportionate APR without penalty during cooling-off period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cooling-off period must be at least one day and determined by RE's board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE may retain one-time processing fee if borrower exits during cooling-off period, disclosed upfront in KFS",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The borrower shall be given an explicit option to exit a digital loan by paying the principal and the proportionate APR without any penalty during an initial 'cooling-off period'."
+    },
+    {
+      "section": "11",
+      "heading": "Grievance redressal",
+      "title": "Grievance redressal mechanisms",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Data Sharing",
+      "summary": "Digital lenders and their LSPs must designate nodal grievance redressal officers for borrower complaints. Contact details must be prominently displayed on websites, DLAs, and KFS. Borrowers can escalate complaints to RBI's CMS portal if unresolved within 30 days, with RE retaining responsibility for grievance resolution.",
+      "dtia_summary": "Mandates clear grievance channels and RBI escalation pathways — critical for data transfer impact assessments as it ensures accountability for data-related complaints across borders.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE and LSP must designate nodal grievance redressal officers for digital lending complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contact details of nodal officers must be prominently displayed on RE's website, LSPs, and DLA",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Borrowers can escalate complaints to RBI's CMS portal if unresolved within 30 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The RE, and the LSP which has an interface with the borrower, shall designate nodal grievance redressal officers to deal with digital lending related complaints/issues raised by the borrower."
+    },
+    {
+      "section": "12",
+      "heading": "Collection, usage and sharing of data with third parties",
+      "title": "Data consent and third-party sharing",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Data Sharing",
+      "summary": "Digital lenders must collect data need-based with explicit consent and audit trail. They must not access mobile phone resources like contacts or call logs, except for one-time access to camera/microphone/location for KYC. Borrowers must be given options to manage consent, restrict third-party sharing, and delete data. Explicit consent is required before sharing personal information with third parties, except for statutory mandates.",
+      "dtia_summary": "Requires explicit consent for data collection and sharing, with strict limitations on mobile data access — directly impacts data transfer impact assessments by defining consent mechanisms and third-party data flows.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE must ensure data collection is need-based with prior and explicit consent and audit trail",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must not access mobile phone resources like contacts, call logs, etc., except for one-time access to camera/microphone/location for KYC",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Borrowers must be provided options to manage consent, restrict third-party sharing, and delete data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Explicit consent required before sharing personal information with third parties, except for statutory mandates",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall ensure that any collection of data by their DLA and DLA of their LSP is need-based and with prior and explicit consent of the borrower having audit trail."
+    },
+    {
+      "section": "13",
+      "heading": "Storage of data",
+      "title": "Data storage and localization requirements",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Data Storage",
+      "summary": "Digital lenders must ensure LSPs store only minimal borrower data (name, address, contact details) and retain responsibility for data privacy and security. Clear policies on data storage duration, usage restrictions, and destruction protocols must be disclosed. Biometric data storage is prohibited unless permitted by statutory guidelines. All data must be stored within India, with data processed outside India deleted within 24 hours and brought back to India.",
+      "dtia_summary": "Mandates data localization within India, strict storage duration limits, and immediate data re-transfer requirements for cross-border processing — critical for data transfer impact assessments involving international data flows.",
+      "authority": "Reserve Bank of India (RBI)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "LSPs may store only minimal borrower data (name, address, contact details) for operational purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must retain responsibility for data privacy and security of borrower information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Clear policies on data storage duration, usage restrictions, and destruction protocols must be disclosed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Biometric data storage prohibited unless permitted by statutory guidelines",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "All data must be stored only in servers within India",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data processed outside India must be deleted within 24 hours and brought back to India",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall ensure that all data is stored only in servers located within India, while ensuring compliance with statutory obligations/regulatory instructions."
+    },
+    {
+      "section": "14",
+      "heading": "Comprehensive privacy policy",
+      "title": "Public availability of comprehensive privacy policy",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "Retail Entities (REs) and LSPs must maintain a publicly accessible privacy policy compliant with laws, regulations, and RBI guidelines. The policy must detail third parties involved in collecting personal information through Digital Lending Arrangements (DLAs). This applies to all REs and their LSPs engaged in digital lending activities.",
+      "dtia_summary": "Requires transparency in data handling practices for cross-border transfers by mandating public disclosure of privacy policies and third-party data collection details.",
+      "authority": "RBI",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "RE and LSPs must have a comprehensive privacy policy compliant with applicable laws, regulations, and RBI guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Privacy policy must be made publicly available on RE or LSP websites",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Details of third parties allowed to collect personal information through DLAs must be disclosed in the privacy policy",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE and LSPs engaged by RE shall have a comprehensive privacy policy compliant with applicable laws, associated regulations and RBI guidelines which shall be made available publicly on the website of RE and LSP, as the case may be."
+    },
+    {
+      "section": "15",
+      "heading": "Technology standards",
+      "title": "Cybersecurity technology standards for digital lending",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Security",
+      "summary": "Retail Entities must ensure their digital lending platforms and third-party LSPs comply with RBI and other relevant agencies' cybersecurity standards. This includes implementing necessary technology standards for secure digital lending operations.",
+      "dtia_summary": "Sets cybersecurity requirements for digital lending platforms, impacting data security during cross-border transfers.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE and LSPs must comply with technology standards for cybersecurity stipulated by RBI and other relevant agencies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall ensure that they and the LSPs engaged by them comply with various technology standards/ requirements on cybersecurity stipulated by RBI and other relevant agencies, or as may be specified from time to time, for undertaking digital lending."
+    },
+    {
+      "section": "16",
+      "heading": "Reporting to Credit Information Companies (CICs)",
+      "title": "Mandatory reporting of digital lending to credit information companies",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "Retail Entities must report all digital lending activities to Credit Information Companies (CICs) regardless of loan type or duration. This includes reporting deferred payment credit products and ensuring LSPs comply with outsourcing guidelines when involved in such products.",
+      "dtia_summary": "Requires reporting of digital lending data to CICs, which affects data sharing and cross-border data flows for credit information.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE must report all lending done through DLAs to CICs irrespective of loan nature or tenor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must ensure LSPs comply with outsourcing guidelines for deferred payment credit products",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall ensure that any lending done through their DLAs and/or DLAs of LSPs is reported by them to CICs irrespective of its nature/ tenor."
+    },
+    {
+      "section": "17",
+      "heading": "Reporting of DLAs to RBI",
+      "title": "Reporting of digital lending arrangements to RBI",
+      "chapter": null,
+      "part": "part n",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "Retail Entities must report all deployed Digital Lending Arrangements (DLAs) to RBI's CIMS portal, including updates when new DLAs are deployed or existing ones cease. The Chief Compliance Officer must certify that DLAs comply with regulations and are correctly reported.",
+      "dtia_summary": "Requires detailed reporting of digital lending infrastructure to RBI, impacting data residency and cross-border data flows.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE must report all DLAs deployed or joined by them on RBI's CIMS portal",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must update CIMS with new DLAs or discontinued ones",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Compliance Officer must certify that DLA data on CIMS is correct and compliant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLAs must link to RE's website with loan product details, customer care, privacy policies, etc.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLAs (if owned by LSP) must have a nodal grievance redressal officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLAs must comply with data collection and storage requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLA details must be prominently disclosed on RE's website",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must ensure timely reporting of DLAs by June 15, 2025",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall report all DLAs deployed/ joined by them, whether their own or those of the LSPs, either exclusively or as a platform participant, on the Centralised Withdrawn Information Management System (CIMS) portal of RBI in the requisite format as given in the Annex-I to these Directions."
+    },
+    {
+      "section": "19",
+      "heading": "Due diligence and other requirements with respect to DLG provider",
+      "title": "Due diligence for digital lending guarantee providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Retail Entities must establish a Board-approved policy before entering into Digital Lending Guarantee (DLG) arrangements. The policy must include eligibility criteria, DLG coverage details, monitoring processes, and fee structures. RE must ensure DLG providers can honor commitments and maintain robust credit underwriting standards.",
+      "dtia_summary": "Requires due diligence on DLG providers, impacting risk assessment and data sharing with third parties.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE must have a Board-approved policy before entering DLG arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must include eligibility criteria for DLG providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must detail nature and extent of DLG cover",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must specify monitoring and review processes for DLG arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Policy must include details of fees payable or received by DLG providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must ensure DLG arrangements do not substitute credit appraisal requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE must obtain information to verify DLG provider's ability to honor commitments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLG provider must submit a certified declaration on outstanding DLG amounts, number of REs, portfolios, and past default rates",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE, including a RE acting as DLG provider, shall put in place a Board approved policy before entering into any DLG arrangement."
+    },
+    {
+      "section": "20",
+      "heading": "Restrictions on entering into DLG arrangements",
+      "title": "Restrictions on digital lending guarantee arrangements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Exemptions",
+      "summary": "Retail Entities cannot enter into DLG arrangements for revolving credit facilities through digital lending channels or credit cards. They also cannot enter into DLG arrangements for loans covered by credit guarantee schemes administered by trust funds. NBFC-P2P entities are prohibited from entering into DLG arrangements for loans facilitated over their platforms.",
+      "dtia_summary": "Sets specific restrictions on DLG arrangements, affecting data transfer and processing for certain financial products.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "RE shall not enter into DLG arrangements for revolving credit facilities offered through digital lending channel and credit cards",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "RE shall not enter into DLG arrangements for loans covered by credit guarantee schemes administered by trust funds",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "NBFC-P2P shall not enter into DLG arrangements for loans facilitated over their platform",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "RE shall not enter into DLG arrangements for revolving credit facilities offered through digital lending channel and credit cards as defined under Master Direction – Credit Card and Debit Card – Issuance and Conduct Directions, 2022 dated April 21, 2022."
+    },
+    {
+      "section": "25",
+      "heading": "Treatment of DLG for regulatory capital",
+      "title": "Regulatory capital treatment for digital lending guarantees",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 18,
+      "primary_category": "Financial Data",
+      "summary": "This section mandates that capital computation for individual loan assets under digital lending guarantees (DLGs) continues using existing norms. DLG providers that are REs (Reserve Enterprises) must deduct the full outstanding DLG amount from their capital. The section specifies that capital calculations for credit risk mitigation must follow extant regulatory frameworks.",
+      "dtia_summary": "DLG arrangements must be deducted from capital for REs, impacting capital adequacy calculations for financial institutions engaged in digital lending.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Capital computation for individual loan assets under DLG must follow extant norms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must deduct full outstanding DLG amount from capital",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Capital computation, i.e., computation of exposure and application of Credit Risk Mitigation benefits on individual loan assets in the portfolio shall continue to be governed by the extant norms."
+    },
+    {
+      "section": "27",
+      "heading": "Disclosure requirements",
+      "title": "Monthly disclosure of DLG portfolio details to public",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "REs must publish monthly on their website the total number of portfolios and respective amounts of each portfolio covered by DLG. The RE's name may or may not be disclosed. Disclosure must be completed within seven working days after the month ends. This section establishes transparency requirements for DLG arrangements.",
+      "dtia_summary": "REs must publicly disclose DLG portfolio details monthly, creating transparency requirements for data transfer impact assessments involving digital lending guarantees.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must publish monthly on website total portfolios and respective DLG amounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RE name may or may not be disclosed in public disclosures",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Monthly disclosures must be completed within seven working days after month ends",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RE shall put in place a mechanism to ensure that LSPs with whom they have a DLG arrangement shall publish on their website the total number of portfolios and the respective amount of each portfolio on which DLG has been offered."
+    },
+    {
+      "section": "28",
+      "heading": "Exceptions",
+      "title": "Exclusions for DLG coverage under specific schemes",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Exemptions",
+      "summary": "Guarantees covered under specific schemes like CGTMSE, CRGFTLIH, NCGTC, BIS, IMF, and Multilateral Development Banks are excluded from DLG coverage. This section defines which guarantees do not qualify as DLG under the regulatory framework.",
+      "dtia_summary": "Certain guarantees (e.g., government-backed schemes) are excluded from DLG coverage, reducing the scope of data transfer impact assessments for these specific instruments.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CGTMSE, CRGFTLIH, and NCGTC schemes are excluded from DLG coverage",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "BIS, IMF, and Multilateral Development Bank guarantees are excluded from DLG coverage",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Guarantees covered under the following schemes/ entities shall not be covered within the definition of DLG"
+    },
+    {
+      "section": "29",
+      "heading": "General provisions",
+      "title": "Special provisions for credit card EMIs and DLG arrangements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Financial Data",
+      "summary": "EMI programs on credit cards are governed by specific Master Directions and not covered under DLG. Other credit card loans fall under DLG. DLG arrangements conforming to Chapter VI instructions are not treated as synthetic securitisation or loan participation. These Directions do not override other extant regulatory norms.",
+      "dtia_summary": "DLG arrangements must comply with specific credit card EMIs and securitisation rules, affecting data transfer impact assessments for financial institutions using credit card-based lending.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Credit card EMI programs are governed by specific Master Directions and not covered under DLG",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLG arrangements conforming to Chapter VI instructions are not treated as synthetic securitisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DLG arrangements conforming to Chapter VI instructions do not attract loan participation provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "These Directions do not override other extant regulatory norms",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "DLG arrangements entered between RE and LSP conforming to the instructions laid down in Chapter VI of these Directions shall not be treated as synthetic securitisation"
+    },
+    {
+      "section": "30",
+      "heading": "Repeal provisions",
+      "title": "Repeal of previous circulars and transitional provisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "The Directions repeal specific circulars mentioned in Annex III. Actions taken under repealed circulars remain valid if not inconsistent with these Directions. This section handles the transition from previous regulations to the new framework.",
+      "dtia_summary": "Repeal provisions ensure continuity of regulatory compliance for financial institutions transitioning from old to new DLG frameworks.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Circulars listed in Annex III are repealed with issuance of these Directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Actions under repealed circulars remain valid if not inconsistent with these Directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "With the issuance of these Directions, the instructions/guidelines contained in the circulars mentioned in the Annex - III issued by RBI stand repealed."
+    },
+    {
+      "section": "1",
+      "heading": "RBI/2019-20/258",
+      "title": "Digital lending platform compliance guidelines",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Financial Data",
+      "summary": "This section references RBI's 2020 guidelines on fair practices and outsourcing for loans sourced by banks and NBFCs through digital lending platforms. It establishes baseline compliance requirements for digital lending operations.",
+      "dtia_summary": "Digital lending platforms must adhere to fair practices and outsourcing guidelines, impacting data transfer impact assessments for cross-border data flows.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Loans sourced by banks and NBFCs through digital lending platforms must adhere to fair practices code",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outsourcing guidelines must be followed for digital lending platforms",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "RBI/2019-20/258 DOR(NBFC)(PD) CC.No.112/03.10.001/2019-20 24.06.2020 Loans Sourced by Banks and NBFCs over Digital Lending Platforms: Adherence to Fair Practices Code and Outsourcing Guidelines"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ Override any of these before running, e.g. a 3-act test into the real file:
 import os
 
 # setdefault so an explicit environment value always wins.
-os.environ.setdefault("LLM_MAX_ACTS", "5")
+os.environ.setdefault("LLM_MAX_ACTS", "10")
 os.environ.setdefault("EXCEL_OUTPUT", "DTIA_Compliance_Database_TEST.xlsx")
 
 from scripts import run_pipeline

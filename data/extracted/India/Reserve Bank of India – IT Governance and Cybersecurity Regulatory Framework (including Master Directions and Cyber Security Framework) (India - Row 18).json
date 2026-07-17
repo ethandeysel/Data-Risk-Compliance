@@ -1,0 +1,1470 @@
+{
+  "country": "India",
+  "document": "Reserve Bank of India – IT Governance and Cybersecurity Regulatory Framework (including Master Directions and Cyber Security Framework) (India - Row 18)",
+  "generated": "2026-07-16T15:53:57",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "Accordingly, a draft Master Direction on the subject was published in October 2022",
+      "title": "Applicability of Directions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "This section specifies which entities are covered by the Directions (Banking Companies, Non-Banking Financial Companies, Credit Information Companies, and All India Financial Institutions) and which entities are excluded (Local Area Banks, NBFC-Core Investment Companies). It also explains the 'comply or explain' approach for foreign banks operating in India through branch mode.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "These Directions shall be applicable to Banking Companies, Non-Banking Financial Companies, Credit Information Companies, and All India Financial Institutions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "These Directions shall not be applicable to Local Area Banks and NBFC-Core Investment Companies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "In the case of foreign banks operating in India through branch mode, reference to the board or board of directors should be read as reference to the controlling office/ head office",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Foreign banks operating in India through branch mode shall be subject to a 'comply or explain' approach",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Applicability (a) These Directions shall be applicable to the following entities (collectively referred to as 'regulated entities' or 'REs' in these directions): (i) all Banking Companies, Corresponding New Banks and State Bank of India as defined under subsections (c), (da) and (nc) of section 5 of the Banking Regulation Act, 1949 (collectively referred to as 'commercial banks' hereinafter). (ii) Non-Banking Financial Companies (hereinafter referred to as 'NBFCs') as defined under clause (f) of section 45I of the Reserve Bank of India Act, 1934 and included in the 'Top Layer', 'Upper Layer' and 'Middle Layer' defined in paragraphs 1.5, 1.4 and 1.3 respectively of the Annex to RBI circular DOR.CRE.REC.No.60/03.10.001/2021-22 dated October 22, 2021 on 'Scale Based Regulation (SBR): A Revised Regulatory Framework for NBFCs'. (iii) Credit Information Companies as defined under clause (e) of section 2 of the Credit Information Companies (Regulation) Act, 2005 (hereinafter referred to as 'Credit Information Companies' or 'CICs'). (iv) EXIM Bank, National Bank for Agriculture and Rural Development ('NABARD'), National Bank for Financing Infrastructure and Development ('NaBFID'), National Housing Bank ('NHB') and Small Industries Development Bank of India ('SIDBI') as established by the Export-Import Bank of India Act, 1981; the National Bank for Agriculture and Rural Development Act, 1981; the National Bank For Financing Infrastructure and Development Act, 2021; National Housing Bank Act, 1987 and the Small Industries Development Bank of India Act, 1989 respectively (hereinafter referred to as 'All India Financial Institutions' or 'AIFIs'). (b) These Directions shall not be applicable to: (i) Local Area Banks (ii) NBFC-Core Investment Companies (c) In the case of foreign banks operating in India through branch mode, reference to the board or board of directors in these Directions should be read as reference to the controlling office/ head office which has the oversight over the branch operations in India. Further, such foreign banks shall be subject to a 'comply or explain' approach in terms of the applicability of these Directions."
+    },
+    {
+      "section": "32",
+      "heading": "Interpretation ..................................................................................................................... 23",
+      "title": "Interpretation and clarifications",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "The Reserve Bank of India may issue clarifications on any matter covered in these Directions, and its interpretations will be final and binding.",
+      "dtia_summary": "This section allows for regulatory flexibility in interpreting DTIA requirements but does not directly impact data transfer assessments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "RBI may issue clarifications on matters covered in these Directions",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "32. Interpretation For the purpose of giving effect to the provisions of these Directions or in order to remove any difficulties in the application or interpretation of the provisions of these Directions, the Reserve Bank of India may, if it considers necessary, issue necessary clarifications in respect of any matter covered herein and the interpretation of any provision of these Directions given by the Reserve Bank of India shall be final and binding."
+    },
+    {
+      "section": "1",
+      "heading": "Short Title and Commencement",
+      "title": "Short Title and Commencement",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section specifies that the Directions shall be called the Reserve Bank of India (Information Technology Governance, Risk, Controls and Assurance Practices) Directions, and establishes the effective date of the Directions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "These Directions shall be called the Reserve Bank of India (Information Technology Governance, Risk, Controls and Assurance Practices) Directions",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "1. Short Title and Commencement"
+    },
+    {
+      "section": "2023",
+      "heading": "(b)",
+      "title": "Effective date and scope of Directions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section states that the Directions incorporate, consolidate and update guidelines on IT Governance, Risk, Controls, Assurance Practices and Business Continuity/Disaster Recovery Management. It also specifies that the Directions come into effect from April 1, 2024.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "These Directions incorporate, consolidate and update the guidelines, instructions and circulars on IT Governance, Risk, Controls, Assurance Practices and Business Continuity/Disaster Recovery Management",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "These Directions shall come into effect from April 1, 2024",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "2023. These Directions incorporate, consolidate and update the guidelines, instructions and circulars on IT Governance, Risk, Controls, Assurance Practices and Business Continuity/Disaster Recovery Management. The list of circulars repealed is given in Chapter VII of this Master Direction. These Directions shall come into effect from April 1, 2024."
+    },
+    {
+      "section": "2",
+      "heading": "Applicability",
+      "title": "Applicability of Directions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section specifies which entities are covered by the Directions (Banking Companies, Non-Banking Financial Companies, Credit Information Companies, and All India Financial Institutions) and which entities are excluded (Local Area Banks, NBFC-Core Investment Companies). It also explains the 'comply or explain' approach for foreign banks operating in India through branch mode.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "These Directions shall be applicable to Banking Companies, Non-Banking Financial Companies, Credit Information Companies, and All India Financial Institutions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "These Directions shall not be applicable to Local Area Banks and NBFC-Core Investment Companies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "In the case of foreign banks operating in India through branch mode, reference to the board or board of directors should be read as reference to the controlling office/ head office",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Foreign banks operating in India through branch mode shall be subject to a 'comply or explain' approach",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Applicability (a) These Directions shall be applicable to the following entities (collectively referred to as 'regulated entities' or 'REs' in these directions): (i) all Banking Companies, Corresponding New Banks and State Bank of India as defined under subsections (c), (da) and (nc) of section 5 of the Banking Regulation Act, 1949 (collectively referred to as 'commercial banks' hereinafter). (ii) Non-Banking Financial Companies (hereinafter referred to as 'NBFCs') as defined under clause (f) of section 45I of the Reserve Bank of India Act, 1934 and included in the 'Top Layer', 'Upper Layer' and 'Middle Layer' defined in paragraphs 1.5, 1.4 and 1.3 respectively of the Annex to RBI circular DOR.CRE.REC.No.60/03.10.001/2021-22 dated October 22, 2021 on 'Scale Based Regulation (SBR): A Revised Regulatory Framework for NBFCs'. (iii) Credit Information Companies as defined under clause (e) of section 2 of the Credit Information Companies (Regulation) Act, 2005 (hereinafter referred to as 'Credit Information Companies' or 'CICs'). (iv) EXIM Bank, National Bank for Agriculture and Rural Development ('NABARD'), National Bank for Financing Infrastructure and Development ('NaBFID'), National Housing Bank ('NHB') and Small Industries Development Bank of India ('SIDBI') as established by the Export-Import Bank of India Act, 1981; the National Bank for Agriculture and Rural Development Act, 1981; the National Bank For Financing Infrastructure and Development Act, 2021; National Housing Bank Act, 1987 and the Small Industries Development Bank of India Act, 1989 respectively (hereinafter referred to as 'All India Financial Institutions' or 'AIFIs'). (b) These Directions shall not be applicable to: (i) Local Area Banks (ii) NBFC-Core Investment Companies (c) In the case of foreign banks operating in India through branch mode, reference to the board or board of directors in these Directions should be read as reference to the controlling office/ head office which has the oversight over the branch operations in India. Further, such foreign banks shall be subject to a 'comply or explain' approach in terms of the applicability of these Directions."
+    },
+    {
+      "section": "3",
+      "heading": "Definitions2",
+      "title": "Definitions of key terms",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Definitions",
+      "summary": "This section provides detailed definitions for terms such as 'Cyber', 'Cyber event', 'Cyber security', 'Cyber incident', 'Cyber-attack', 'De-militarized Zone', 'Information Asset', 'Information System', and 'IT Risk'. It also states that all expressions unless defined have the same meaning as under relevant Acts and Rules.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In these Directions, unless the context states otherwise, the terms herein shall bear the meanings assigned to them below",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "3. Definitions2 (a) In these Directions, unless the context states otherwise, the terms herein shall bear the meanings assigned to them below: (i) 'Cyber' - Relating to, within, or through the medium of the interconnected information infrastructure of interactions among persons, processes, data, and information systems. (ii) 'Cyber event' – Any observable occurrence in an information system. Cyber events sometimes provide indication that a cyber incident is occurring. (iii) 'Cyber security' - Preservation of confidentiality, integrity and availability of information and/or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, non-repudiation and reliability can also be involved. (iv) 'Cyber incident3' shall mean a cyber event that adversely affects the cyber security of an information asset whether resulting from malicious activity or not. (v) 'Cyber-attack' - Malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt or gain unauthorized access to assets. (vi) 'De-militarized Zone4' or 'DMZ' is a perimeter network segment that is logically between internal and external networks. (vii) 'Information Asset5' - Any piece of data, device or other component of the environment that supports information-related activities. Information Assets include information system, data, hardware and software. (viii) 'Information System' - Set of applications, services, information technology assets or other information-handling components, which includes the operating environment and networks. (ix) 'IT Risk6' - The business risk associated with the use, ownership, operation, involvement, influence and adoption of IT within an enterprise. (x) 'Privileged user7' refers to user who, by virtue of function, and/or role, has been allocated powers within an information system, which are significantly greater than those available to the majority of users."
+    },
+    {
+      "section": "4",
+      "heading": "IT Governance Framework",
+      "title": "IT Governance Framework Focus Areas",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Governance",
+      "summary": "This section mandates that banking entities establish an IT Governance Framework covering strategic alignment, risk management, resource management, performance management, and Business Continuity/Disaster Recovery Management. The framework must specify governance structures, roles and responsibilities, and oversight mechanisms to ensure accountability and mitigate IT and cyber risks. These requirements apply to all banking entities operating in India.",
+      "dtia_summary": "This section establishes foundational governance structures that impact data transfer by requiring robust oversight of IT and cybersecurity risks, which are critical for ensuring data security during cross-border transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The key focus areas of IT Governance shall include strategic alignment, risk management, resource management, performance management and Business Continuity/Disaster Recovery Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall put in place a robust IT Governance Framework based on the aforementioned focus areas that inter alia: specifies the governance structure and processes necessary to meet the RE's business/ strategic objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall put in place a robust IT Governance Framework based on the aforementioned focus areas that inter alia: specifies the roles (including authority) and responsibilities of the Board of Directors (Board) / Board level Committee and Senior Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall put in place a robust IT Governance Framework based on the aforementioned focus areas that inter alia: includes adequate oversight mechanisms to ensure accountability and mitigation of IT and cyber/ information security risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enterprise-wide risk management policy or operational risk management policy shall also incorporate periodic assessment of IT-related risks (both inherent and potential risk)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. IT Governance Framework (a) The key focus areas of IT Governance shall include strategic alignment, risk management, resource management, performance management and Business Continuity/ Disaster Recovery Management. (b) REs shall put in place a robust IT Governance Framework based on the aforementioned focus areas that inter alia: (i) specifies the governance structure and processes necessary to meet the RE's business/ strategic objectives; (ii) specifies the roles (including authority) and responsibilities of the Board of Directors (Board) / Board level Committee and Senior Management; and (iii) includes adequate oversight mechanisms to ensure accountability and mitigation of IT and cyber/ information security risks. (c) Enterprise-wide risk management policy or operational risk management policy shall also incorporate periodic assessment of IT-related risks (both inherent and potential risk)."
+    },
+    {
+      "section": "5",
+      "heading": "Role of the Board of Directors",
+      "title": "Board Approval of IT Strategies",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Governance",
+      "summary": "This section requires that the Board of Directors approve IT, Information Assets, Business Continuity, Information Security, and Cyber Security strategies and policies, including Incident Response and Recovery Management. The Board must review these strategies at least annually to ensure ongoing alignment with the institution's objectives and risk management practices.",
+      "dtia_summary": "Board approval of IT and cybersecurity strategies ensures that data transfers are aligned with robust security frameworks, critical for cross-border data handling.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The strategies and policies related to IT, Information Assets, Business Continuity, Information Security, Cyber Security (including Incident Response and Recovery Management/ Cyber Crisis Management) shall be approved by the Board of Directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Such strategies and policies shall be reviewed at least annually by the Board",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Role of the Board of Directors (a) The strategies and policies related to IT, Information Assets, Business Continuity, Information Security, Cyber Security (including Incident Response and Recovery Management/ Cyber Crisis Management) shall be approved by the Board of Directors. (b) Such strategies and policies shall be reviewed at least annually by the Board."
+    },
+    {
+      "section": "6",
+      "heading": "IT Strategy Committee of the Board",
+      "title": "Board-Level IT Strategy Committee Requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Governance",
+      "summary": "This section mandates that banking entities establish a Board-level IT Strategy Committee with minimum three directors, including an independent chair with substantial IT expertise and technically competent members. The committee must meet quarterly and ensure strategic IT planning, alignment with business objectives, effective risk management, and annual review of business continuity planning.",
+      "dtia_summary": "The IT Strategy Committee ensures that data transfer mechanisms align with robust business continuity and risk management practices, critical for cross-border data operations.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall establish a Board-level IT Strategy Committee (ITSC)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "While constituting the ITSC, REs shall ensure: Minimum of three directors as members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "While constituting the ITSC, REs shall ensure: The Chairperson of the ITSC shall be an independent director and have substantial IT expertise in managing/ guiding information technology initiatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "While constituting the ITSC, REs shall ensure: Members are technically competent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall meet at least on a quarterly basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall ensure that the RE has put an effective IT strategic planning process in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall guide in preparation of IT Strategy and ensure that the IT Strategy aligns with the overall strategy of the RE towards accomplishment of its business objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall satisfy itself that the IT Governance and Information Security Governance structure fosters accountability, is effective and efficient, has adequate skilled resources, well defined objectives and unambiguous responsibilities for each level in the organisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall ensure that the RE has put in place processes for assessing and managing IT and cybersecurity risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall ensure that the budgetary allocations for the IT function (including for IT security), cyber security are commensurate with the RE's IT maturity, digital depth, threat environment and industry standards and are utilised in a manner intended for meeting the stated objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The ITSC shall review, at least on annual basis, the adequacy and effectiveness of the Business Continuity Planning and Disaster Recovery Management of the RE",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. IT Strategy Committee of the Board (a) REs shall establish a Board-level IT Strategy Committee (ITSC). (b) While constituting the ITSC, REs shall ensure: (i) Minimum of three directors as members; (ii) The Chairperson of the ITSC shall be an independent director and have substantial IT expertise in managing/ guiding information technology initiatives; and (iii) Members are technically competent. (c) The ITSC shall meet at least on a quarterly basis. (d) The ITSC shall: (i) Ensure that the RE has put an effective IT strategic planning process in place; (ii) Guide in preparation of IT Strategy and ensure that the IT Strategy aligns with the overall strategy of the RE towards accomplishment of its business objectives; (iii) Satisfy itself that the IT Governance and Information Security Governance structure fosters accountability, is effective and efficient, has adequate skilled resources, well defined objectives and unambiguous responsibilities for each level in the organisation; (iv) Ensure that the RE has put in place processes for assessing and managing IT and cybersecurity risks; (v) Ensure that the budgetary allocations for the IT function (including for IT security), cyber security are commensurate with the RE's IT maturity, digital depth, threat environment and industry standards and are utilised in a manner intended for meeting the stated objectives; and (vi) Review, at least on annual basis, the adequacy and effectiveness of the Business Continuity Planning and Disaster Recovery Management of the RE."
+    },
+    {
+      "section": "7",
+      "heading": "Senior Management and IT Steering Committee",
+      "title": "Senior Management and IT Steering Committee",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Governance",
+      "summary": "This section requires that senior management ensure effective IT strategy execution, operational resilience, risk management, and cyber security posture. Banking entities must establish an IT Steering Committee to oversee business continuity, IT architecture compliance, and quarterly reviews of IT activities.",
+      "dtia_summary": "Senior management oversight ensures data transfer mechanisms are resilient and compliant, critical for maintaining data integrity during cross-border transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Senior Management of the RE shall, inter alia, ensure: Execution of the IT Strategy approved by the Board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Senior Management of the RE shall, inter alia, ensure: IT/ IS and their support infrastructure are functioning effectively and efficiently",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Senior Management of the RE shall, inter alia, ensure: Necessary IT risk management processes are in place and create a culture of IT risk awareness and cyber hygiene practices in the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Senior Management of the RE shall, inter alia, ensure: Cyber security posture of the RE is robust",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Senior Management of the RE shall, inter alia, ensure: Overall, IT contributes to productivity, effectiveness and efficiency in business operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall establish an IT Steering Committee with representation at Senior Management level from IT and business functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The responsibilities of IT Steering Committee, inter alia, shall be to: Assist the ITSC in strategic IT planning, oversight of IT performance, and aligning IT activities with business needs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The responsibilities of IT Steering Committee, inter alia, shall be to: Oversee the processes put in place for business continuity and disaster recovery",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The responsibilities of IT Steering Committee, inter alia, shall be to: Ensure implementation of a robust IT architecture meeting statutory and regulatory compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The responsibilities of IT Steering Committee, inter alia, shall be to: Update ITSC and CEO periodically on the activities of IT Steering Committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The IT Steering Committee shall meet at least on a quarterly basis",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7. Senior Management and IT Steering Committee (a) The Senior Management of the RE shall, inter alia, ensure: (i) Execution of the IT Strategy approved by the Board; (ii) IT/ IS and their support infrastructure are functioning effectively and efficiently; (iii) Necessary IT risk management processes are in place and create a culture of IT risk awareness and cyber hygiene practices in the RE; (iv) Cyber security posture of the RE is robust; and (v) Overall, IT contributes to productivity, effectiveness and efficiency in business operations. (b) REs shall establish an IT Steering Committee with representation at Senior Management level from IT and business functions. (c) The responsibilities of IT Steering Committee, inter alia, shall be to: (i) Assist the ITSC in strategic IT planning, oversight of IT performance, and aligning IT activities with business needs; (ii) Oversee the processes put in place for business continuity and disaster recovery; (iii) Ensure implementation of a robust IT architecture meeting statutory and regulatory compliance; and (iv) Update ITSC and CEO periodically on the activities of IT Steering Committee. (d) The IT Steering Committee shall meet at least on a quarterly basis."
+    },
+    {
+      "section": "8",
+      "heading": "Head of IT Function",
+      "title": "Head of IT Function Responsibilities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Governance",
+      "summary": "This section requires banking entities to appoint a sufficiently senior, technically competent Head of IT Function responsible for aligning IT projects with strategy, ensuring effective organizational structures, and implementing disaster recovery strategies. The Head must also manage IT controls and risks to secure information assets and comply with regulatory requirements.",
+      "dtia_summary": "The Head of IT Function ensures data transfer mechanisms are secure and compliant, critical for maintaining data integrity across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall appoint a sufficiently senior level, technically competent and experienced official in IT related aspects as Head of IT Function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of IT Function shall, inter alia, be responsible for the following: Ensuring that the execution of IT projects/ initiatives is aligned with the RE's IT Policy and IT Strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of IT Function shall, inter alia, be responsible for the following: Ensuring that there is an effective organisational structure to support IT functions in the RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of IT Function shall, inter alia, be responsible for the following: Putting in place an effective disaster recovery setup and business continuity strategy/ plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "As a first line of defence, the Head of IT Function shall ensure effective assessment, evaluation and management of IT controls and IT risk, including the implementation of robust internal controls, to (i) secure the RE's information assets (ii) comply with extant internal policies, regulatory and legal requirements on IT related aspects",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "8. Head of IT Function (a) REs shall appoint a sufficiently senior level, technically competent and experienced official in IT related aspects as Head of IT Function. (b) The Head of IT Function shall, inter alia, be responsible for the following: (i) Ensuring that the execution of IT projects/ initiatives is aligned with the RE's IT Policy and IT Strategy; (ii) Ensuring that there is an effective organisational structure to support IT functions in the RE; and (iii) Putting in place an effective disaster recovery setup and business continuity strategy/ plan. (c) As a first line of defence, the Head of IT Function shall ensure effective assessment, evaluation and management of IT controls and IT risk, including the implementation of robust internal controls, to (i) secure the RE's information assets (ii) comply with extant internal policies, regulatory and legal requirements on IT related aspects."
+    },
+    {
+      "section": "9",
+      "heading": "IT Services Management",
+      "title": "IT Services Management Framework",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Governance",
+      "summary": "This section mandates banking entities to implement a robust IT Service Management Framework ensuring operational resilience, including Service Level Management processes, security classification of information assets, and technology refresh plans to avoid outdated hardware/software. It requires monitoring end-of-support dates and annual maintenance contracts for IT infrastructure.",
+      "dtia_summary": "IT Services Management ensures data transfer mechanisms are resilient and up-to-date, critical for maintaining data security during cross-border transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall put in place a robust IT Service Management Framework for supporting their information systems and infrastructure to ensure the operational resilience of their entire IT environment (including DR sites)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A Service Level Management (SLM) process shall be put in place to manage the IT operations while ensuring effective segregation of duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure identification and mapping of the security classification (in terms of Confidentiality, Integrity, and Availability) of information assets based on their criticality to the REs' operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For seamless continuity of business operations, REs shall avoid using outdated and unsupported hardware or software and shall monitor software's end-of-support (EOS) date and Annual Maintenance Contract (AMC) dates of IT hardware on an ongoing basis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall develop a technology refresh plan for the replacement of hardware and software in a timely manner before they reach EOS",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. IT Services Management (a) REs shall put in place a robust IT Service Management Framework for supporting their information systems and infrastructure to ensure the operational resilience of their entire IT environment (including DR sites). (b) A Service Level Management (SLM) process shall be put in place to manage the IT operations while ensuring effective segregation of duties. (c) REs shall ensure identification and mapping of the security classification (in terms of Confidentiality, Integrity, and Availability) of information assets based on their criticality to the REs' operations. (d) For seamless continuity of business operations, REs shall avoid using outdated and unsupported hardware or software and shall monitor software's end-of-support (EOS) date and Annual Maintenance Contract (AMC) dates of IT hardware on an ongoing basis. (e) REs shall develop a technology refresh plan for the replacement of hardware and software in a timely manner before they reach EOS."
+    },
+    {
+      "section": "10",
+      "heading": "Third-Party Arrangements",
+      "title": "Third-party vendor risk management for IT services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Third Party Processing",
+      "summary": "Reserve Bank of India (REs) must implement vendor risk assessment processes for third-party arrangements outside specific outsourcing directions. These processes must address concentration risk, conflicts of interest, single point of failure risks, compliance with data protection laws, high availability requirements, and supply chain risk management. The requirements apply to all REs handling IT services.",
+      "dtia_summary": "Requires REs to assess and mitigate third-party risks before transferring data across borders through vendors, directly impacting cross-border data transfer impact assessments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "REs must implement vendor risk assessment process proportionate to risk and materiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must mitigate concentration risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must eliminate or address conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must mitigate risks associated with single point of failure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must comply with legal and regulatory requirements to protect customer data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must provide high availability for uninterrupted customer service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must manage supply chain risks effectively",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall, put in place appropriate vendor risk assessment process and controls proportionate to the assessed risk and materiality to, inter alia: mitigate concentration risk; eliminate or address any conflict of interests; mitigate risks associated with single point of failure; comply with applicable legal, regulatory requirements and standards to protect customer data; provide high availability (for uninterrupted customer service); and manage supply chain risks effectively."
+    },
+    {
+      "section": "11",
+      "heading": "Capacity Management",
+      "title": "IT capacity planning and resource management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "Reserve Bank of India (REs) must ensure IT systems support business functions and service delivery channels. REs must annually assess IT capacity requirements, aligning with past trends, current business needs, and future projections. IT capacity planning must be reviewed by the ITSC to ensure consistency with the RE's IT strategy.",
+      "dtia_summary": "Ensures IT capacity planning aligns with business needs and regulatory requirements, critical for data storage and processing across borders without service disruptions.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must ensure information systems support business functions and service delivery channels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must annually assess IT capacity requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure IT capacity planning aligns with past trends, current business needs, and future projections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must have IT capacity planning consistent with RE's IT strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "IT capacity requirements and measures must be reviewed by ITSC",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall ensure that information systems and infrastructure are able to support business functions and ensure availability of all service delivery channels. On an annual or more frequent basis, REs shall proactively assess capacity requirement of IT resources. REs shall ensure that IT capacity planning across components, services, system resources, supporting infrastructure is consistent with past trends (peak usage), the current business requirements and projected future needs as per the IT strategy of the RE. The assessment of IT capacity requirements and measures taken to address the issues shall be reviewed by the ITSC."
+    },
+    {
+      "section": "12",
+      "heading": "Project Management",
+      "title": "IT project management and application security",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "Reserve Bank of India (REs) must follow formal project management approaches for IT projects, including stakeholder participation for risk monitoring. REs must adopt new technologies aligned with risk appetite and business strategy, maintain enterprise data dictionaries, ensure software vendor support through formal agreements, obtain source codes or escrow arrangements, and verify application security through vulnerability certificates.",
+      "dtia_summary": "Requires REs to implement robust project management and security controls for IT applications, directly impacting data transfer and processing security across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must follow consistent and formally defined project management approach for IT projects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must enable stakeholder participation for effective monitoring and management of project risks and progress",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must follow standard enterprise architecture planning methodology when adopting new technologies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Adoption of new technologies must align with RE's risk appetite and business strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must maintain enterprise data dictionary for data sharing and common understanding",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure software vendors provide maintenance and support through formal agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must obtain source codes for critical applications from vendors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must implement source code escrow arrangements if source code cannot be obtained",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure product updates and fixes are included in source code escrow arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must obtain certificate of application free of known vulnerabilities, malware, and covert channels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must obtain certificate whenever material changes to code occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must subject new IT applications to product approval and quality assurance process",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall follow a consistent and formally defined project management approach for IT projects undertaken by them. The project management approach shall, inter alia, enable appropriate stakeholder participation for effective monitoring and management of project risks and progress. While adopting new or emerging technologies, tools, or revamping their existing ones in the technology stack, REs shall follow a standard enterprise architecture planning methodology or framework. Adoption of new or emerging technologies shall be commensurate with the risk appetite and align with overall Business/ IT strategy of the RE. It should facilitate optimal creation, use, or sharing of information by a business in a secure and resilient way. REs shall maintain enterprise data dictionary to enable the sharing of data among applications and information systems and promote a common understanding of data. REs shall ensure that maintenance and necessary support of software applications is provided by the software vendors and the same is enforced through formal agreement. REs shall obtain the source codes for all critical applications from their vendors. Where obtaining of the source code is not possible, REs shall put in place a source code escrow arrangement or other arrangements to adequately mitigate the risk of default by the vendor. REs shall ensure that all product updates and programme fixes are included in the source code escrow arrangement. REs shall obtain a certificate or a written confirmation from the application developer or vendor stating that the application is free of known vulnerabilities, malware, and any covert channels in the code. Such a certificate or a written confirmation shall also be obtained whenever material changes to the code, including upgrades, occur. Any new IT application proposed to be introduced as a business product shall be subjected to product approval and quality assurance process."
+    },
+    {
+      "section": "13",
+      "heading": "Change and Patch Management",
+      "title": "Change and patch management procedures",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "Reserve Bank of India (REs) must implement documented change and patch management policies to assess business impact, ensure secure and timely implementation with approvals, justify changes through business needs, and establish recovery mechanisms for failed deployments.",
+      "dtia_summary": "Requires REs to manage changes and patches securely to prevent data breaches during cross-border data transfers, critical for DTIA compliance.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must assess business impact of implementing patches or changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must apply and review patches/changes securely and timely with necessary approvals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Changes to applications must be justified by genuine business needs and approved with documentation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must establish mechanism to recover from failed changes or patch deployments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall put in place documented policy(ies) and procedures for change and patch management to ensure the following: the business impact of implementing patches/ changes (or not implementing a particular patch/ change request) are assessed; the patches/ changes are applied/ implemented and reviewed in a secure and timely manner with necessary approvals; any changes to an application system or data are justified by genuine business needs and approvals supported by documentation and subjected to a robust change management process; and mechanism is established to recover from failed changes/ patch deployment or unexpected results."
+    },
+    {
+      "section": "14",
+      "heading": "Data Migration Controls",
+      "title": "Data migration policies and integrity controls",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "Reserve Bank of India (REs) must have documented data migration policies ensuring data integrity, completeness, and consistency. The policies must include signoffs from business users and application owners at each migration stage and maintenance of audit trails.",
+      "dtia_summary": "Ensures data migration across borders maintains integrity and consistency, critical for DTIA compliance when transferring data internationally.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs must have documented data migration policy specifying systematic process for data migration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure data integrity, completeness and consistency during migration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must obtain signoffs from business users and application owners at each migration stage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must maintain audit trails during data migration",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall have a documented data migration policy specifying a systematic process for data migration, ensuring data integrity, completeness and consistency. The policy shall, inter alia, contain provisions pertaining to signoffs from business users and application owners at each stage of migration, maintenance of audit trails, etc."
+    },
+    {
+      "section": "15",
+      "heading": "Audit Trails",
+      "title": "Audit trail requirements for critical systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "Reserve Bank of India (REs) must implement audit and logging capabilities for all IT applications accessing critical or sensitive information. Audit trails must be detailed enough for forensic evidence, dispute resolution, and non-repudiation. REs must monitor audit trails regularly to detect unauthorized activity.",
+      "dtia_summary": "Requires robust audit trails for cross-border data transfers to ensure accountability and detect unauthorized access, directly impacting DTIA compliance.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Every IT application accessing critical or sensitive information must have necessary audit and system logging capability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit trails must satisfy business requirements apart from regulatory and legal requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit trails must be detailed enough for forensic evidence, dispute resolution, and non-repudiation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must monitor audit trails and system logs regularly to detect unauthorized activity",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every IT application which can access or affect critical or sensitive information, shall have necessary audit and system logging capability and should provide audit trails. The audit trails shall satisfy a RE's business requirements apart from regulatory and legal requirements. The audit trails must be detailed enough to facilitate the conduct of audit, serve as forensic evidence when required and assist in dispute resolution, including for non-repudiation purposes. REs shall put in place a system for regularly monitoring the audit trails and system logs to detect any unauthorised activity."
+    },
+    {
+      "section": "16",
+      "heading": "Cryptographic controls",
+      "title": "Cryptographic controls for secure data transmission",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Security",
+      "summary": "Financial institutions must use strong cryptographic standards for data transmission, processing and authentication. They must adopt internationally accepted, non-deprecated algorithms and protocols that comply with existing laws and regulatory instructions. These controls ensure data security during critical operations.",
+      "dtia_summary": "Requires strong cryptographic standards for data transmission and processing, impacting cross-border data transfers through encryption requirements and protocol compliance.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Encryption",
+        "Access Control"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Key length, algorithms, cipher suites and applicable protocols used in transmission channels, processing of data and authentication purpose shall be strong",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall adopt internationally accepted and published standards that are not deprecated/demonstrated to be insecure/vulnerable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Configurations involved in implementing such controls shall be compliant with extant laws and regulatory instructions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16. Cryptographic controls The key length, algorithms, cipher suites and applicable protocols used in transmission channels, processing of data and authentication purpose shall be strong. REs shall adopt internationally accepted and published standards that are not deprecated/demonstrated to be insecure/vulnerable and the configurations involved in implementing such controls shall be compliant with extant laws and regulatory instructions."
+    },
+    {
+      "section": "17",
+      "heading": "Straight Through Processing",
+      "title": "Automated data transfer without manual intervention",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "Financial institutions must ensure no manual modification occurs during critical data transfers between processes or applications. Data transfer mechanisms must be securely automated with checks, balances, and audit trails to prevent unauthorized changes and maintain data integrity.",
+      "dtia_summary": "Requires automated data transfers without manual intervention for critical systems, affecting data integrity during cross-border processing and storage.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure there is no manual intervention or manual modification in data while it is being transferred from one process to another or from one application to another, in respect of critical applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data transfer mechanism between processes or applications must be properly tested, securely automated with necessary checks and balances, and properly integrated through Straight Through Processing methodology with appropriate authentication mechanism and audit trails",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "17. Straight Through Processing (a) In order to prevent unauthorised modification of data, REs shall ensure that there is no manual intervention or manual modification in data while it is being transferred from one process to another or from one application to another, in respect of critical applications. (b) Data transfer mechanism between processes or applications must be properly tested, securely automated with necessary checks and balances, and properly integrated through \"Straight Through Processing\" methodology with appropriate authentication mechanism and audit trails."
+    },
+    {
+      "section": "18",
+      "heading": "Physical and Environmental Controls",
+      "title": "Physical and environmental security for data centers",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "Financial institutions must implement physical and environmental controls for data centers and disaster recovery sites. These sites must be geographically separated to avoid similar threats and subject to electronic surveillance mechanisms to ensure security.",
+      "dtia_summary": "Requires geographically separated data centers and disaster recovery sites to prevent simultaneous threats, impacting data storage and disaster recovery across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall implement suitable physical and environmental controls in Data Centre and Disaster Recovery sites used by them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DC and DR sites should be geographically well separated so that both the sites are not affected by a similar threat associated to their location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that their DC and DR sites are subjected to necessary e-surveillance mechanism",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "18. Physical and Environmental Controls (a) REs shall implement suitable physical and environmental controls in Data Centre and Disaster Recovery14 sites used by them. (b) The DC and DR sites should be geographically well separated so that both the sites are not affected by a similar threat associated to their location. (c) REs shall ensure that their DC and DR sites are subjected to necessary e-surveillance mechanism."
+    },
+    {
+      "section": "19",
+      "heading": "Access Controls",
+      "title": "Access control for information systems",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "Financial institutions must implement need-based access to information systems with documented standards approved by ITSC. Personnel with elevated access must be closely supervised with activities logged and periodically reviewed. Multi-factor authentication is required for critical systems and activities based on risk assessment.",
+      "dtia_summary": "Requires strict access controls with multi-factor authentication for critical systems, impacting data sharing and processing across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Access Control",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Access to information assets shall be allowed only where a valid business need exists",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall have documented standards and procedures, which are approved by the ITSC and kept up to date for administering need-based access to an information system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personnel with elevated system access entitlements shall be closely supervised with all their systems activities logged and periodically reviewed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall adopt multi-factor authentication for privileged users of i) critical information systems and ii) for critical activities, basis the RE's risk assessment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "19. Access Controls (a) Access to information assets shall be allowed only where a valid business need exists. REs shall have documented standards and procedures, which are approved by the ITSC and kept up to date for administering need-based access to an information system. (b) Personnel with elevated system access entitlements shall be closely supervised with all their systems activities logged and periodically reviewed. (c) REs shall adopt multi-factor authentication for privileged users of i) critical information systems and ii) for critical activities, basis the RE's risk assessment."
+    },
+    {
+      "section": "20",
+      "heading": "Controls on Teleworking",
+      "title": "Secure teleworking environment controls",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Security",
+      "summary": "Financial institutions must ensure secure systems and remote access for teleworking, implement multi-factor authentication for critical systems, identify all remote-access devices, and secure data shared in teleworking environments.",
+      "dtia_summary": "Requires secure teleworking environments with multi-factor authentication and device identification, impacting data storage and processing across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall ensure that the systems used and the remote access from alternate work location to the environment hosting RE's information assets are secure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall implement multi-factor authentication for enterprise access (logical) to critical systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall put in place a mechanism to identify all remote-access devices attached/connected to the RE's systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall ensure that data/information shared/presented in teleworking is secured appropriately",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "20. Controls on Teleworking In the teleworking environment, REs, inter alia, shall: (a) Ensure that the systems used and the remote access from alternate work location to the environment hosting RE's information assets are secure; (b) Implement multi-factor authentication for enterprise access (logical) to critical systems; (c) Put in place a mechanism to identify all remote-access devices attached/connected to the RE's systems; and (d) Ensure that data/information shared/presented in teleworking is secured appropriately."
+    },
+    {
+      "section": "21",
+      "heading": "Metrics",
+      "title": "Metrics for system performance and recovery",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Security",
+      "summary": "Financial institutions must define metrics for system performance, recovery and business resumption including RPO and RTO for critical systems. Non-critical systems require risk-based metrics, and institutions must implement scorecards to measure IT performance and maturity.",
+      "dtia_summary": "Requires defined recovery metrics for critical systems, impacting disaster recovery and business continuity across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "REs shall define suitable metrics for system performance, recovery and business resumption, including Recovery Point Objective (RPO) and Recovery Time Objective (RTO), for all critical information systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For non-critical information systems, REs shall adopt a risk-based approach to define suitable metrics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs shall implement suitable scorecard/metrics/methodology to measure IT performance and IT maturity level",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "21. Metrics (a) REs shall define suitable metrics for system performance, recovery and business resumption, including Recovery Point Objective (RPO) and Recovery Time Objective (RTO), for all critical information systems. (b) For non-critical information systems, REs shall adopt a risk-based approach to define suitable metrics. (c) REs shall implement suitable scorecard/metrics/methodology to measure IT performance and IT maturity level."
+    },
+    {
+      "section": "22",
+      "heading": "Periodic review of IT related risks",
+      "title": "Periodic review of IT risk management policy",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "The Risk Management Committee of the Board (RMCB) must consult with the IT Security Committee (ITSC) to review and update the institution's IT risk management policy at least annually. This policy must cover cyber security risks and other IT-related risks. The review ensures the policy remains relevant to the evolving risk landscape.",
+      "dtia_summary": "Requires annual review of IT risk management policy by RMCB and ITSC to ensure alignment with current cyber security threats and operational risks, critical for DTIA compliance.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Risk Management Committee of the Board (RMCB) must consult with IT Security Committee (ITSC) to review and update IT risk management policy annually",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The risk management policy of the RE shall include IT related risks, including the Cyber Security related risks, and the Risk Management Committee of the Board (RMCB) in consultation with the ITSC shall periodically review and update the same at least on a yearly basis."
+    },
+    {
+      "section": "23",
+      "heading": "IT and Information Security Risk Management Framework",
+      "title": "IT and Information Security Risk Management Framework",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Financial institutions must establish a comprehensive IT and Information Security Risk Management Framework covering internal controls, roles and responsibilities, critical system identification, and secure data handling. This framework requires periodic reviews of its effectiveness in changing risk environments and must address role conflicts and accountability gaps.",
+      "dtia_summary": "Mandates a structured framework for managing IT and information security risks, including critical system identification and secure data handling, essential for DTIA when transferring data across borders.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Implement comprehensive Information Security management function, internal controls and processes to mitigate IT risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review implemented controls and processes periodically for efficacy in changing risk environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define roles and responsibilities of stakeholders including third-party personnel to eliminate role conflicts and accountability gaps",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify critical information systems and fortify their security environment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define and implement systems, procedures and controls for secure storage, transmission and processing of data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall establish a robust IT and Information Security Risk Management Framework covering, inter alia, the following aspects: (a) Implementation of comprehensive Information Security management function, internal controls and processes (including applicable insurance covers) to mitigate/ manage identified risks. The implemented controls and processes must be reviewed periodically on their efficacy in a risk environment characterised by change; (b) Definition of roles and responsibilities of stakeholders (including third-party personnel) involved in IT risk management. Areas of possible role conflicts and accountability gaps must be specifically identified and eliminated or managed; (c) Identification of critical information systems of the organisation and fortification of the security environment of such systems; and (d) Definition and implementation of necessary systems, procedures and controls to ensure secure storage/ transmission/ processing of data/ information."
+    },
+    {
+      "section": "24",
+      "heading": "Information Security Policy and Cyber Security Policy",
+      "title": "Information Security and Cyber Security Policy Framework",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Financial institutions must establish an Information Security Policy and Cyber Security Policy including a Cyber Crisis Management Plan. They must form an Information Security Committee (ISC) under ITSC oversight with a Chief Information Security Officer (CISO) who reports directly to risk management. The CISO must have technical expertise, be appointed for a reasonable term, and ensure adequate staffing and budget for security operations.",
+      "dtia_summary": "Requires a dedicated CISO with specific responsibilities for cyber security, critical for DTIA when handling cross-border data transfers due to enhanced oversight of security protocols.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Establish Information Security Policy and Cyber Security Policy including Cyber Crisis Management Plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Form Information Security Committee (ISC) under ITSC oversight with CISO and other representatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designate CISO as senior executive with technical expertise, reasonable term, adequate staffing, and budget aligned with threat landscape",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CISO must report directly to Executive Director or equivalent risk management executive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CISO must review cyber security risks at least quarterly before Board/RMCB/ITSC",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "REs shall also put in place a Cyber Security Policy and Cyber Crisis Management Plan (CCMP). An Information Security Committee (ISC), under the oversight of the ITSC, shall be formed for managing cyber/ information security. The constitution of the ISC, with Chief Information Security Officer (CISO) and other representatives from business and IT functions, etc., shall be decided by the ITSC. The head of the ISC shall be from risk management vertical. Major responsibilities of the ISC, inter alia, shall include: (i) Development of information/ cyber security policies, implementation of policies, standards and procedures to ensure that all identified risks are managed within the RE's risk appetite; (ii) Approving and monitoring information security projects and security awareness initiatives; (iii) Reviewing cyber incidents, information systems audit observations, monitoring and mitigation activities; and (iv) Updating ITSC and CEO periodically on the activities of ISC. A senior level executive (preferably in the rank of a General Manager or an equivalent position) shall be designated as the Chief Information Security Officer (CISO). The CISO shall not have any direct reporting relationship with the Head of IT Function and shall not be given any business targets."
+    },
+    {
+      "section": "25",
+      "heading": "Risk Assessment",
+      "title": "Risk Assessment for Information Assets",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "Financial institutions must conduct risk assessments for all information assets using appropriate security standards and frameworks. They must ensure staff and service providers comply with security policies and review their security infrastructure and policies annually, including addressing emerging threats like phishing and spoofing attacks.",
+      "dtia_summary": "Requires annual review of security infrastructure and policies to address evolving threats, critical for DTIA when assessing data transfer risks across borders.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Conduct risk assessment for each information asset using appropriate security standards/ IT control frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure staff and service providers comply with information security and acceptable-use policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review security infrastructure and policies annually, factoring in emerging threats and risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Take steps to tackle cyber-attacks including phishing and spoofing attacks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The risk assessment for each information asset within the RE's scope shall be guided by appropriate security standards/ IT control frameworks. REs shall ensure that all staff members and service providers comply with the extant information security and acceptable-use policies as applicable to them. REs shall review their security infrastructure and security policies at least annually, factoring in their own experiences and emerging threats and risks. REs shall take steps to adequately tackle cyber-attacks including phishing, spoofing attacks and mitigate their adverse effects."
+    },
+    {
+      "section": "26",
+      "heading": "Conduct of Vulnerability Assessment (VA) / Penetration Testing (PT)",
+      "title": "Vulnerability and Penetration Testing Requirements",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "Financial institutions must conduct vulnerability assessments (VA) and penetration testing (PT) at least every six months for critical systems and annually for non-critical systems. Testing must be performed by independent experts, and vulnerabilities must be fixed within a time-bound manner to prevent recurrence.",
+      "dtia_summary": "Mandates regular vulnerability and penetration testing for critical systems, essential for DTIA when assessing data security during cross-border transfers.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Conduct vulnerability assessments (VA) at least once every six months for critical information systems and DMZ systems with customer interface",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct penetration testing (PT) at least once every twelve months for critical information systems and DMZ systems with customer interface",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct VA/PT throughout the lifecycle of information systems (pre-implementation, post-implementation, after major changes)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct VA/PT by appropriately trained and independent information security experts/auditors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure production environment for post-implementation VA/PT; test environment must resemble production environment with documented deviations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fix identified vulnerabilities and associated risks in a time-bound manner to prevent recurrence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For critical information systems and/or those in the De-Militarized Zone (DMZ) having customer interface, VA shall be conducted at least once in every six months and PT at least once in 12 months. Also, REs shall conduct VA/ PT of such information systems throughout their lifecycle (pre-implementation, post implementation, after major changes, etc.). For non-critical information systems, a risk-based approach shall be adopted to decide the requirement and periodicity of conduct of VA/ PT. VA/ PT shall be conducted by appropriately trained and independent information security experts/ auditors. In the post implementation (of IT project/ system upgrade, etc.) scenario, the VA/ PT shall be performed on the production environment. Under unavoidable circumstances, if the PT is conducted in test environment, REs shall ensure that the version and configuration of the test environment resembles the production environment. Any deviation should be documented and approved by the ISC. REs shall ensure to fix the identified vulnerabilities and associated risks in a time-bound manner by undertaking requisite corrective measures and ensure that the compliance is sustained to avoid recurrence of known vulnerabilities such as those available in Common Vulnerabilities and Exposures (CVE) database."
+    },
+    {
+      "section": "27",
+      "heading": "Cyber Incident Response and Recovery Management16",
+      "title": "Cyber Incident Response and Recovery Management",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Financial institutions must establish incident response and recovery procedures including classification, communication strategies, root cause analysis, and corrective actions. They must report incidents to CERT-In and RBI, and conduct periodic drills to improve response capabilities.",
+      "dtia_summary": "Requires incident response procedures and reporting to regulatory bodies, critical for DTIA when data breaches occur across borders.",
+      "authority": "RBI",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Address classification and assessment of cyber incidents with clear communication strategy and plan to contain exposures and achieve timely recovery",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Analyze cyber incidents for severity, impact and root cause; take corrective and preventive measures to mitigate adverse effects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Have written incident response and recovery procedures including identification of key roles for staff and outsourced staff",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish clear communication plans for escalation and reporting incidents to Board, Senior Management, and customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Proactively notify CERT-In and RBI regarding incidents as per regulatory requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The cyber incident response and recovery management policy shall address the classification and assessment of incidents; include a clear communication strategy and plan to manage such incidents, contain exposures and achieve timely recovery. REs shall analyse cyber incidents (including through forensic analysis, if necessary) for their severity, impact and root cause. REs shall take measures, corrective and preventive, to mitigate the adverse impact of incidents on business operations. REs shall have written incident response and recovery procedures including identification of key roles of staff/ outsourced staff handling such incidents. REs shall have clear communication plans for escalation and reporting the incidents to the Board and Senior Management as well as to customers, as required. REs shall pro-actively notify CERT-In and RBI regarding incidents, as per regulatory requirements."
+    },
+    {
+      "section": "28",
+      "heading": "Business Continuity Plan (BCP) and Disaster Recovery (DR) Policy",
+      "title": "Business continuity and disaster recovery policy requirements",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "The Reserve Bank of India requires regulated entities (REs) to develop a Business Continuity Plan (BCP) and Disaster Recovery (DR) policy that follows best practices to reduce disruption impacts and maintain operations. The policy must be updated based on risk assessments and major developments. REs must design their BCP/DR capabilities to ensure rapid recovery and secure resumption of critical operations after cyber-attacks or incidents.",
+      "dtia_summary": "This section mandates that financial institutions maintain robust BCP/DR policies to ensure continuity during disruptions, directly impacting cross-border data transfer resilience and operational continuity in financial systems.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "BCP and DR policy shall adopt best practices to reduce disruptive incidents and maintain business continuity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "BCP/DR policy shall be updated based on major developments or risk assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs' BCP/DR capabilities must support resilience objectives and enable rapid recovery of critical operations post-incident",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "28. Business Continuity Plan (BCP) and Disaster Recovery (DR) Policy (a) The BCP and DR policy shall adopt best practices to guide its actions in reducing the likelihood or impact of the disruptive incidents and maintaining business continuity. The policy shall be updated based on major developments/ risk assessment."
+    },
+    {
+      "section": "29",
+      "heading": "Disaster Recovery Management",
+      "title": "Disaster recovery management procedures",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "Regulated entities must conduct DR drills at least half-yearly for critical systems and as per risk assessment for others. Any issues during drills must be resolved before the next cycle. DR testing requires switching to alternate sites for full business operations. REs must test BCP/DR under varied scenarios, back up data with integrity checks, ensure identical configurations at primary and DR sites, and prioritize minimal RTO and near-zero RPO for critical systems.",
+      "dtia_summary": "This section specifies technical requirements for DR testing and data integrity that impact data transfer resilience, particularly for financial data stored in alternate locations during disruptions.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "DR drills for critical information systems must be conducted at least half-yearly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DR drills for other information systems must align with RE's risk assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Major issues observed during DR drills must be resolved and retested before next cycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DR testing must involve switching to alternate site for full business operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must regularly test BCP/DR under different contingency scenarios",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must back up data and periodically restore it to verify usability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Backup data integrity must be preserved and protected from unauthorized access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DR architecture and procedures must meet defined RTO and RPO for recovery operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must prioritize minimal RTO and near-zero RPO for critical information systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must have documented methodology for reconciling data during non-zero RPO scenarios",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Configurations and security patches at primary and DR sites must be identical",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must ensure BCP/DR capabilities in critical interconnected systems and networks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "29. Disaster Recovery Management (a) Periodicity of DR drills for critical information systems shall be at least on a half-yearly basis and for other information systems, as per RE's risk assessment."
+    },
+    {
+      "section": "30",
+      "heading": "Information Systems (IS) Audit",
+      "title": "Information systems audit oversight",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "The Audit Committee of the Board (ACB) must oversee IS audits for REs. REs must establish an IS Audit Policy approved by the ACB and reviewed annually. The ACB must review critical IT/security issues and provide guidance to management. REs must have dedicated IS audit resources or external auditors with accountability within Internal Audit.",
+      "dtia_summary": "This section ensures financial institutions have robust internal audit mechanisms to validate data transfer and processing resilience, critical for DTIA compliance in high-risk environments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Audit Committee of the Board (ACB) shall exercise oversight of IS Audit for RE",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must establish an IS Audit Policy approved by ACB and reviewed annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ACB must review critical IT/security issues and provide guidance to management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "REs must have dedicated IS audit resources or external auditors with accountability within Internal Audit",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. Information Systems (IS) Audit (a) The Audit Committee of the Board (ACB) shall be responsible for exercising oversight of IS Audit of the RE."
+    },
+    {
+      "section": "31",
+      "heading": "Application of other laws not barred",
+      "title": "Application of other laws",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "These Directions complement existing laws without overriding them, ensuring REs comply with all applicable regulations while implementing the new framework.",
+      "dtia_summary": "This section confirms that DTIA requirements are additive to existing legal obligations, not conflicting with other financial regulations.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Provisions of these Directions shall be in addition to, and not in derogation of, any other laws, rules, regulations or directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "31. Application of other laws not barred The provisions of these Directions shall be in addition to, and not in derogation of the provisions of any other laws, rules, regulations or directions, for the time being in force."
+    },
+    {
+      "section": "32",
+      "heading": "Interpretation",
+      "title": "Interpretation and clarifications",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "The Reserve Bank of India may issue clarifications on any matter covered in these Directions, and its interpretations will be final and binding.",
+      "dtia_summary": "This section allows for regulatory flexibility in interpreting DTIA requirements but does not directly impact data transfer assessments.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "RBI may issue clarifications on matters covered in these Directions",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "32. Interpretation For the purpose of giving effect to the provisions of these Directions or in order to remove any difficulties in the application or interpretation of the provisions of these Directions, the Reserve Bank of India may, if it considers necessary, issue necessary clarifications in respect of any matter covered herein and the interpretation of any provision of these Directions given by the Reserve Bank of India shall be final and binding."
+    }
+  ]
+}

@@ -1,0 +1,1447 @@
+{
+  "country": "Australia",
+  "document": "Prudential-Practice-Guide-CPG-235-Managing-Data-Risk_1 (Australia - Row 4)",
+  "generated": "2026-07-16T13:44:18",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "The management of data and associated risks is",
+      "title": "Data risk management importance for business objectives",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Governance",
+      "summary": "This section states that managing data and associated risks is crucial for meeting financial and stakeholder obligations, effective management, and proper governance. It emphasizes that weaknesses in data risk management are a recurring focus of APRA's supervision activities, highlighting the need for this practice guide to address ongoing gaps.",
+      "dtia_summary": "This section establishes the foundational importance of data risk management for regulated entities, directly impacting how data transfers and processing activities are assessed for compliance with governance and oversight requirements.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Management of data and associated risks is important for meeting financial and stakeholder obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective data risk management is a recurring focus of APRA's supervision activities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The management of data and associated risks is important for a broad range of business objectives including meeting financial and other obligations to stakeholders, effective management and proper governance."
+    },
+    {
+      "section": "3",
+      "heading": "Data is essential for a regulated entity to achieve",
+      "title": "Data's role in business objectives and stakeholder expectations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Data Collection",
+      "summary": "This section explains that data is essential for regulated entities to achieve business objectives, with increased reliance on data due to process automation and analytics. Stakeholders including boards, management, customers, and regulators now expect effective data management, treating data as a valuable asset.",
+      "dtia_summary": "This section clarifies the strategic importance of data as an asset, influencing how data transfers and processing activities are evaluated for alignment with stakeholder expectations and business objectives.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data is essential for achieving business objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reliance on data has increased due to process automation and analytics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stakeholders including boards, management, customers, and regulators expect effective data management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data should be treated as a valuable asset",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data is essential for a regulated entity to achieve its business objectives. Furthermore, reliance on data has increased as a result of process automation and greater reliance on analytics and business intelligence to support decision-making."
+    },
+    {
+      "section": "4",
+      "heading": "This PPG aims to provide guidance to senior",
+      "title": "Guidance for data risk management audiences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Governance",
+      "summary": "This section states that the practice guide provides guidance to senior management, risk management, business, and technical specialists. It emphasizes the need for sound risk management disciplines and business understanding to effectively manage data risk profiles, facilitating business initiatives and compliance with regulatory requirements.",
+      "dtia_summary": "This section outlines the target audiences for data risk management guidance, ensuring that all relevant stakeholders understand their roles in assessing data transfers and processing activities.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "This PPG provides guidance to senior management, risk management, business and technical specialists",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective data risk management facilitates business initiatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective data risk management assists compliance with regulatory and legal requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "This PPG aims to provide guidance to senior management, risk management, business and technical specialists."
+    },
+    {
+      "section": "5",
+      "heading": "As with any process, governance is vital to ensure",
+      "title": "Governance for effective data risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Governance",
+      "summary": "This section states that governance is vital to ensure data risk management processes are properly designed and operating effectively. It requires clear articulation of Board and senior management responsibilities, formal delegation of authority, and regular oversight to align with corporate governance frameworks.",
+      "dtia_summary": "This section specifies governance requirements for data risk management, directly impacting how data transfers and processing activities are assessed for compliance with oversight and accountability standards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Governance ensures data risk management and related business processes are properly designed and operating effectively",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective governance involves clear articulation of Board and senior management responsibilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective governance requires formal delegation of authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Effective governance includes regular oversight",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "As with any process, governance is vital to ensure that data risk management and related business processes are properly designed and operating effectively to meet the needs of the regulated entity."
+    },
+    {
+      "section": "11",
+      "heading": "Data risk encompasses the risk of loss resulting",
+      "title": "Data risk examples and scope",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section defines data risk as the risk of loss from inadequate internal processes, people, systems, or external events. It includes examples such as fraud due to data theft, business disruption from data corruption, execution failures from inaccurate data, and breaches of legal obligations due to sensitive data disclosure.",
+      "dtia_summary": "This section provides concrete examples of data risks that must be considered during data transfer impact assessments, particularly for financial data transfers and processing activities.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data risk encompasses risk of loss from inadequate or failed internal processes, people and systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk encompasses risk of loss from external events impacting on data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk includes fraud due to theft of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk includes business disruption due to data corruption or unavailability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk includes execution delivery failure due to inaccurate data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk includes breach of legal or compliance obligations from disclosure of sensitive data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data risk encompasses the risk of loss resulting from inadequate or failed internal processes, people and systems or from external events impacting on data."
+    },
+    {
+      "section": "12",
+      "heading": "For the purposes of this PPG, data risk is",
+      "title": "Data risk as a subset of operational risk",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section states that data risk is a subset of operational risk, including information and IT risk. It overlaps with information and IT security risk, and emphasizes that data risk can adversely affect regulated entities and result in failure to meet business objectives, including regulatory and legal requirements.",
+      "dtia_summary": "This section clarifies the relationship between data risk and operational risk, which is critical for assessing the impact of data transfers and processing activities on regulatory compliance.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data risk is considered a subset of operational risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk includes information and information technology risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Information and information technology security risk overlaps with data risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk can adversely affect a regulated entity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk may result in failure to meet business objectives",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purposes of this PPG, data risk is considered to be a subset of operational risk, which includes information and information technology risk."
+    },
+    {
+      "section": "13",
+      "heading": "A regulated entity would typically manage data risk",
+      "title": "Data risk management aligned with operational risk frameworks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "Regulated entities must align their data risk management with operational risk frameworks and other relevant risk management frameworks such as credit, market, and insurance risk frameworks. This alignment depends on the specific data involved and ensures comprehensive risk coverage across different business areas.",
+      "dtia_summary": "Data risk management must be integrated with operational risk frameworks to ensure consistent handling of data across business processes, critical for cross-border data transfers involving financial institutions.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must manage data risk in alignment with operational risk frameworks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must align data risk management with other relevant risk management frameworks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A regulated entity would typically manage data risk in alignment with the operational risk framework and, where relevant, in conjunction with other risk management frameworks (e.g. credit, market and insurance risk management frameworks), depending on the nature of the data involved."
+    },
+    {
+      "section": "15",
+      "heading": "The adequacy of data controls in ensuring that a",
+      "title": "Regular assessment of data control adequacy",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Regulated entities must regularly assess the adequacy of data controls to ensure they operate within their risk appetite. This assessment occurs when introducing new business processes and periodically thereafter, or after significant changes to data usage, internal controls, or external environments. The assessment considers end-to-end data use and related controls.",
+      "dtia_summary": "Regular assessment of data controls ensures data transfers comply with risk appetite, critical for DTIAs involving financial data across borders.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must assess data control adequacy when introducing new business processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must periodically assess data control adequacy after material changes to data usage, internal controls, or external environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessment must consider end-to-end use of data and related control environment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The adequacy of data controls in ensuring that a regulated entity operates within its risk appetite would normally be assessed as part of introducing new business processes and then on a regular basis thereafter (or following material change to either the process, usage of data, internal controls or external environments)."
+    },
+    {
+      "section": "17",
+      "heading": "Other dimensions that could also be relevant,",
+      "title": "Data classification dimensions for risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Regulated entities must consider confidentiality, accountability, authenticity, and non-repudiation when classifying data based on business criticality and sensitivity. These dimensions ensure data access is restricted to authorized users, actions can be attributed, data is genuine, and events cannot be denied.",
+      "dtia_summary": "Data classification dimensions like confidentiality and non-repudiation are critical for DTIAs to ensure data transfers maintain integrity and traceability across borders.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Confidentiality: restriction of data access to authorized users, software and hardware",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accountability: ability to attribute responsibility for an action",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authenticity: condition of being genuine",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-repudiation: concept that an event cannot later be denied",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Other dimensions that could also be relevant, depending on the nature and use of specific data, include: (a) confidentiality: restriction of data access to authorised users, software and hardware; (b) accountability: the ability to attribute the responsibility for an action; (c) authenticity: the condition of being genuine; and (d) non-repudiation: the concept that an event cannot later be denied."
+    },
+    {
+      "section": "18",
+      "heading": "For the purposes of managing data risk, a regulated",
+      "title": "Data classification by criticality and sensitivity",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Regulated entities must classify data based on business criticality and sensitivity, considering end-to-end use. This classification should leverage existing business impact analysis processes and be determined by business requirements to ensure appropriate risk management.",
+      "dtia_summary": "Data classification by criticality and sensitivity ensures DTIAs account for data's importance in cross-border transfers, critical for financial institutions.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must classify data based on business criticality and sensitivity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Classification must consider end-to-end use of data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purposes of managing data risk, a regulated entity would typically classify data based on business criticality and sensitivity. The assessment would typically take into account the end-to-end use of the data."
+    },
+    {
+      "section": "20",
+      "heading": "In order to ensure that data risk management",
+      "title": "Formal data risk management framework requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "Regulated entities must adopt a systematic and formalized data risk management framework that includes policies, standards, alignment with enterprise frameworks, designated owners, roles and responsibilities, and regular reviews. This framework must ensure data risk is integrated into change management and business-as-usual processes.",
+      "dtia_summary": "Formal data risk management frameworks are essential for DTIAs to ensure data transfers comply with robust controls and risk appetite, critical for financial data.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data risk management framework must include a hierarchy of policies, standards, guidelines, procedures and documentation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must align with enterprise frameworks such as operational risk, security, project management, system development, business continuity, outsourcing/offshoring, and risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must include expectations of the Board and senior management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must assign designated owners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must outline roles and responsibilities of staff",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must enable design and implementation of data controls commensurate with data criticality and sensitivity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework must be reviewed on a regular basis with periodic assessment against current practices and industry standards",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A regulated entity would typically adopt a systematic and formalised approach that ensures data risk is taken into consideration as part of its change management and business-as-usual processes. This could be encapsulated in a formally approved data risk management framework outlining the entity's approach to managing data risk that: (a) includes a hierarchy of policies, standards, guidelines, procedures and other documentation supporting business processes; (b) aligns with other enterprise frameworks such as operational risk, security, project management, system development, business continuity management, outsourcing/offshoring management and risk management; (c) includes the expectations of the Board and senior management; (d) assigns a designated owner or owners; (e) outlines the roles and responsibilities of staff to ensure effective data risk management outcomes; (f) enables the design and implementation of data controls. The strength of controls would normally be commensurate with the criticality and sensitivity of the data involved; and (g) is reviewed on a regular basis, with periodic assessment for completeness against current practices and industry standards."
+    },
+    {
+      "section": "21",
+      "heading": "The establishment and ongoing development",
+      "title": "Data risk management framework development strategy",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "Regulated entities must establish and continuously develop their data risk management framework through a defined strategy and program of work with clear budget, resources, timelines, and milestones. This framework must be integrated into change management and business-as-usual processes and aligned with business, IT, and security strategies.",
+      "dtia_summary": "Data risk management framework development ensures DTIAs incorporate strategic alignment with business and IT strategies, critical for cross-border data transfers.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data risk management framework establishment must be directed by a data risk management strategy and supporting program of work with defined budget, resource requirements, timeframes and milestones",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk management framework development must be an integral part of change management and business-as-usual processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk management strategy must align with business, information technology, and security strategies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The establishment and ongoing development of the data risk management framework would normally be: (a) directed by a data risk management strategy and supporting program of work with a clearly defined budget, resource requirements, timeframes and milestones; and (b) an integral part of a regulated entity's change management and business-as-usual processes. A data risk management strategy would typically be aligned with the regulated entity's business, information technology, and security strategies as appropriate."
+    },
+    {
+      "section": "22",
+      "heading": "APRA envisages that a regulated entity would",
+      "title": "Data risk management principles for regulated entities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "Regulated entities must establish high-level data risk management principles to ensure sound data risk management. These principles include limiting data access to business needs, validating data close to capture points, using automation where feasible, timely issue reporting, assessing data quality, and designing controls assuming staff lack knowledge of policies. These principles apply to all staff and processes within the entity.",
+      "dtia_summary": "These principles provide foundational safeguards for data risk management that impact cross-border data transfers by requiring data minimization, quality assurance, and timely issue resolution.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Access to data is only granted where required to conduct business processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data validation, correction and cleansing occur as close to the point of capture as possible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Automation (where viable) is used as an alternative to manual processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Timely detection and reporting of data issues to minimise the time in which an issue can impact on the entity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessment of data quality to ensure it is acceptable for the intended purpose",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Design of the control environment is based on the assumption that staff do not know what the data risk management policies and procedures are",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APRA envisages that a regulated entity would adopt a set of high-level principles in order to establish a sound foundation for data risk management. Data risk management principles could include: (a) access to data is only granted where required to conduct business processes; (b) data validation, correction and cleansing occur as close to the point of capture as possible; (c) automation (where viable) is used as an alternative to manual processes; (d) timely detection and reporting of data issues to minimise the time in which an issue can impact on the entity; (e) assessment of data quality to ensure it is acceptable for the intended purpose; and (f) design of the control environment is based on the assumption that staff do not know what the data risk management policies and procedures are."
+    },
+    {
+      "section": "23",
+      "heading": "A key element in effective data risk management",
+      "title": "Formal roles and responsibilities for data risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "Regulated entities must formally assign data risk management roles and responsibilities to staff, customers, service providers, and third parties. This includes defining data-specific roles such as data officers, custodians, owners/stewards, and governance functions, as well as risk management and compliance roles. These responsibilities apply to all entities subject to APRA regulation.",
+      "dtia_summary": "Clear role definitions are critical for DTIAs as they ensure accountability in data transfers and processing, particularly for third parties and cross-border data flows.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Formal roles and responsibilities for data risk management are allocated to appropriately skilled staff",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data roles and responsibilities for general staff and data users are defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data-specific roles and responsibilities, such as data officers, custodians, owners/stewards, and designated business sponsors, are established",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Governance functions and reporting mechanisms to assess data risk management framework effectiveness are implemented",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk management, assurance and compliance roles are defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data risk management framework roles, including maintenance, review, compliance monitoring, training and awareness, are established",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Responsibilities for data monitoring and management are assigned",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A key element in effective data risk management is the allocation of formal roles and responsibilities (pertaining to data) to appropriately skilled staff. This would typically articulate the data risk management responsibilities of staff, customers, service providers and other third parties."
+    },
+    {
+      "section": "24",
+      "heading": "APRA expects that a regulated entity would",
+      "title": "Ongoing compliance with data risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "Regulated entities must implement processes to ensure ongoing compliance with regulatory and data risk management requirements. This includes regular checks by the compliance function, reporting mechanisms such as metrics and exceptions, and management reviews to verify adherence to data risk management standards.",
+      "dtia_summary": "Ongoing compliance mechanisms are essential for DTIAs to ensure that data transfers remain compliant over time, particularly in dynamic regulatory environments.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities implement processes to ensure compliance with regulatory and legal requirements and data risk management requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ongoing checks by the compliance function (or equivalent) are conducted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reporting mechanisms (e.g. metrics, exceptions) are established",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management reviews are conducted to verify compliance with data risk management requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APRA expects that a regulated entity would implement processes that ensure compliance with regulatory and legal requirements and data risk management requirements. This would typically include ongoing checks by the compliance function (or equivalent), supported by reporting mechanisms (e.g. metrics, exceptions) and management reviews."
+    },
+    {
+      "section": "27",
+      "heading": "In order to ensure that data risk management is",
+      "title": "Understanding data characteristics for risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "Regulated entities must understand the nature and characteristics of data used for business purposes, assess data quality, map data flows (data lineage), and identify data risks and associated controls. These requirements apply to all entities subject to APRA regulation.",
+      "dtia_summary": "Understanding data characteristics is critical for DTIAs as it helps identify data risks and appropriate safeguards when transferring data across borders.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities understand the nature and characteristics of the data used for business purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities are able to assess the quality of the data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities understand the flow of data and processing undertaken (data lineage)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities understand the data risks and associated controls",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In order to ensure that data risk management is effective, it is important that a regulated entity: (a) understands the nature and characteristics of the data used for business purposes; (b) is able to assess the quality of the data; (c) understands the flow of data and processing undertaken (i.e. data lineage); and (d) understands the data risks and associated controls."
+    },
+    {
+      "section": "28",
+      "heading": "Data risk management could be supported by the",
+      "title": "Data architecture practices for risk management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Regulated entities can use data architecture practices to support data risk management, including defining data strategy, metadata, technical diagrams, data lifecycle controls, and standards for systems and data repositories. These practices help ensure data is captured, processed, retained, published, and disposed of securely.",
+      "dtia_summary": "Data architecture practices provide DTIAs with a framework to assess data flows and controls, particularly important for cross-border data transfers involving multiple systems and third parties.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data architecture practices assist in understanding how data is captured, processed, retained, published and disposed of",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Data strategy is a component of the broader business and information technology strategies",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Metadata, including definitions, descriptions, sources, usages, update mechanisms, owners, authorised users, criticality, sensitivity and quality requirements, is documented",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Diagrams and detailed technical information describing data structure, flow, systems and repositories are maintained",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Controls necessary across the data life-cycle are implemented",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Standards and guidelines for systems, data repositories, interfaces and data controls are established",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Data risk management could be supported by the use of data architecture practices. These practices assist in understanding how data is captured, processed, retained, published and disposed of."
+    },
+    {
+      "section": "33",
+      "heading": "APRA envisages that a regulated entity would",
+      "title": "Data risk management across the data lifecycle",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Regulated entities must ensure data risk is considered at each stage of the data lifecycle (capture, processing, retention, publication, disposal) with appropriate controls implemented to meet data requirements. This applies to all entities subject to APRA regulation.",
+      "dtia_summary": "This section is critical for DTIAs as it mandates comprehensive data lifecycle controls, which directly impact cross-border data transfers and storage.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data risk is considered at each stage of the data lifecycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appropriate controls are implemented to ensure data requirements are met at each lifecycle stage",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APRA envisages that a regulated entity would ensure that data risk is considered at each stage of its life-cycle and that appropriate controls are implemented to ensure that data requirements are met. Data-related life-cycle stages typically include data capture, processing, retention, publication and disposal."
+    },
+    {
+      "section": "34",
+      "heading": "Data capture controls, including manual entry of",
+      "title": "Data capture controls for quality validation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Data Collection",
+      "summary": "This section mandates that data capture controls, including manual entry and automated feeds, must ensure new data meets quality standards. It requires validation mechanisms before data acceptance, error detection for automated feeds, and specifications for handling quality issues in agreements with internal and external parties. These controls apply to regulated entities handling data processing activities.",
+      "dtia_summary": "Data capture controls ensure data quality before transfer or processing, critical for maintaining data integrity during cross-border data flows.",
+      "authority": "APRA",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "User interfaces must conduct appropriate validation before data is accepted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Mechanisms must detect if automated data feeds are functioning as expected and prevent erroneous data from progressing beyond capture",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specification of data quality requirements and mechanisms for handling data quality issues must be included in agreements with internal and external parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data capture controls, including manual entry of data as well as automated data feeds from internal business units and external sources, would typically be designed to ensure that newly introduced data meets data quality requirements."
+    },
+    {
+      "section": "35",
+      "heading": "A regulated entity would typically implement",
+      "title": "Data processing quality controls for regulatory compliance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "Regulated entities must implement controls to ensure data processing and outputs continue meeting quality requirements. This includes managing data integration, ensuring changes to production environments maintain quality through approved methodologies, exception handling for timely issue resolution, and error-handling mechanisms like backups and rollbacks. These controls apply to entities processing data for regulatory purposes.",
+      "dtia_summary": "Data processing quality controls prevent downstream data issues during cross-border transfers by ensuring consistent data quality through integrated validation and error recovery mechanisms.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controls must manage data integration to handle extraction, transformation and loading mechanisms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Acquisition and implementation via approved development, change and project management methodologies must ensure data quality is not compromised by production environment changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exception handling must identify and respond to data quality issues in a timely manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Error-handling must ensure data can be restored or corrected to a known level of data quality through mechanisms like database checkpoints, rollbacks, backups, and re-runnable processes",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A regulated entity would typically implement controls to ensure that data processing (the application of business rules to data, including regulatory and legal requirements) and the output generated continue to meet data quality requirements."
+    },
+    {
+      "section": "36",
+      "heading": "Data retention controls would typically be in",
+      "title": "Data retention controls for offshore hosting risks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Data Storage",
+      "summary": "Data retention controls must address risks from data storage, including offshore hosting and outsourcing. These controls ensure data requirements are not compromised by storage-related risks, with specific guidance provided by APRA's prudential standards on security, business continuity, and outsourcing. This applies to regulated entities managing data storage.",
+      "dtia_summary": "Data retention controls mitigate risks associated with offshore data storage and outsourcing, critical for ensuring data integrity during cross-border data transfers.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data retention controls must ensure data requirements are not compromised as a result of risks associated with storage, including offshore hosting and outsourcing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data retention controls would typically be in place to ensure that data requirements are not compromised as a result of risks associated with the storage of data."
+    },
+    {
+      "section": "37",
+      "heading": "A regulated entity could find it beneficial to",
+      "title": "Formal retention strategy for data accessibility",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "Regulated entities should develop formal retention strategies addressing data accessibility risks and archiving/recovery requirements. This includes mechanisms to ensure compliance with business and regulatory needs, while mitigating issues like accidental deletion, data corruption, technology changes, and poor asset management. These strategies apply to entities managing data retention.",
+      "dtia_summary": "Formal retention strategies ensure data accessibility and compliance with regulatory requirements, reducing risks during cross-border data transfers.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A formal retention strategy must address risks associated with data accessibility and take into account archiving and recovery requirements",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "A regulated entity could find it beneficial to develop a formal retention strategy that addresses the risks associated with data accessibility, and takes into account archiving and recovery requirements."
+    },
+    {
+      "section": "39",
+      "heading": "Data publication refers to the production of",
+      "title": "Data publication controls for quality assurance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Data Sharing",
+      "summary": "Data publication controls must ensure published information meets user content and quality requirements. This includes acquisition and implementation controls for new publication mechanisms, validation and monitoring to maintain quality, and processes for managing user-raised data issues. These controls apply to entities producing information for internal and external stakeholders.",
+      "dtia_summary": "Data publication controls ensure quality of externally shared data, critical for maintaining data integrity during cross-border data transfers.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Acquisition and implementation controls must be in place for new publication mechanisms to ensure published data meets user requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Validation and monitoring controls must ensure published data continues to meet specified user requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processes must manage data issues raised by users",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data publication refers to the production of information for internal and external stakeholders (e.g. operational information, management information, customer information, media releases, regulatory reporting)."
+    },
+    {
+      "section": "40",
+      "heading": "In APRA's view, it is important that data quality",
+      "title": "Data publication confidentiality and quality",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Data Sharing",
+      "summary": "APRA emphasizes that data quality requirements must be clearly specified and that confidentiality must not be compromised through data publication. This section does not impose direct obligations but highlights the importance of balancing data quality and confidentiality in published information.",
+      "dtia_summary": "Clear data quality specifications and confidentiality safeguards are essential for preventing data breaches during cross-border data publication.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data quality requirements must be clearly specified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Confidentiality must not be compromised through the publication of data",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "In APRA's view, it is important that data quality requirements are clearly specified and that confidentiality is not compromised through the publication of data."
+    },
+    {
+      "section": "42",
+      "heading": "Disposal controls would typically be in place",
+      "title": "Disposal controls for data compliance and confidentiality",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This section mandates that disposal controls ensure data is deleted or archived according to retention strategies and confidentiality requirements. It specifies that hardware, software, or data must not compromise business confidentiality when reaching end-of-life or recommissioning. The controls apply to regulated entities handling sensitive information.",
+      "dtia_summary": "Disposal controls are critical for DTIAs to ensure data is securely removed before hardware decommissioning, preventing unauthorized access to sensitive information during transitions.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data must be disposed of in compliance with retention strategy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Business confidentiality requirements must not be compromised when hardware, software or data reach end of useful life",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Disposal controls would typically be in place to ensure: (a) data is disposed of in compliance with the retention strategy; and (b) business requirements with respect to confidentiality are not compromised as hardware, software or data reach the end of their useful life or the hardware/software is recommissioned for another use."
+    },
+    {
+      "section": "44",
+      "heading": "Desensitisation (the process of reducing a data",
+      "title": "Desensitisation techniques for data confidentiality",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This section describes desensitisation as reducing data sensitivity to match authorized end-user access levels. It requires using cryptographic or de-identification techniques when transferring data to less trusted environments. The strength of desensitisation must prevent reconstruction of original data through brute force or other means.",
+      "dtia_summary": "Desensitisation is essential for DTIAs to ensure data transferred across borders or to third parties remains sufficiently anonymised to prevent unauthorized reconstruction.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Desensitisation reduces data sensitivity to comply with authorized end-user access levels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use cryptographic or de-identification techniques when transferring data to less trusted environments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Desensitisation strength must prevent reconstruction of original data using brute force techniques",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Desensitisation (the process of reducing a data set's sensitivity to a level which complies with the authorised access of the end-user) is a useful approach for maintaining the confidentiality of data while extending its usage."
+    },
+    {
+      "section": "46",
+      "heading": "A regulated entity would normally introduce",
+      "title": "Software risk assessment for critical data",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This section requires regulated entities to identify end-user developed/configured software and assess its risk exposure, particularly for critical or sensitive data. The entity must ensure such software complies with relevant lifecycle controls to maintain data security and confidentiality.",
+      "dtia_summary": "Software risk assessments are vital for DTIAs to ensure third-party software used in data processing does not introduce vulnerabilities when handling sensitive information across jurisdictions.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Regulated entities must identify end-user developed/configured software",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must assess risk exposure of software handling critical or sensitive data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Software used for critical/sensitive data must comply with entity's lifecycle controls",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A regulated entity would normally introduce processes to identify the existence of end-user developed/configured software and assess its risk exposure. In APRA's view, any software that is used for the processing and retention of critical or sensitive data would comply with the relevant life-cycle controls of the entity."
+    },
+    {
+      "section": "48",
+      "heading": "APRA expects a regulated entity to apply",
+      "title": "Jurisdictional data retention risks",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section requires regulated entities to apply a cautious approach when retaining data outside their jurisdiction, ensuring they understand risks and make informed decisions about whether additional risks are within their risk appetite. The entity must be aware of jurisdictional and technical hurdles that could impede regulatory oversight.",
+      "dtia_summary": "Jurisdictional data retention is critical for DTIAs to assess whether transferring data to foreign jurisdictions introduces unacceptable risks to regulatory oversight and data security.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Regulated entities must apply a cautious and measured approach when retaining data outside jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must be fully aware of risks involved in retaining data outside jurisdiction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must make informed decisions about whether additional risks are within risk appetite",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APRA expects a regulated entity to apply a cautious and measured approach when considering retaining data outside the jurisdiction it pertains to. It is important that a regulated entity is fully aware of the risks involved and makes a conscious and informed decision as to whether the additional risks are within its risk appetite."
+    },
+    {
+      "section": "49",
+      "heading": "When outsourcing/offshoring data management",
+      "title": "Outsourcing/offshoring data management requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Third Party Processing",
+      "summary": "This section specifies that regulated entities must demonstrate the ability to continue operations after service loss, maintain critical/sensitive data quality, comply with legislative requirements, and ensure no jurisdictional or technical barriers prevent regulators from accessing data. These requirements apply to data management outsourcing or offshoring.",
+      "dtia_summary": "Outsourcing/offshoring data management requires DTIAs to verify that third-party arrangements maintain data security, regulatory compliance, and uninterrupted access for regulators.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Regulated entities must demonstrate ability to continue operations after loss of services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must maintain quality of critical or sensitive data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must comply with legislative and prudential requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must ensure no impediments to APRA's ability to fulfil regulatory duties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "When outsourcing/offshoring data management responsibilities, APRA expects that a regulated entity would be able to demonstrate the following: (a) ability to continue operations and meet core obligations following a loss of services; (b) maintenance of the quality of critical or sensitive data; (c) compliance with legislative and prudential requirements; and (d) a lack of impediments (from jurisdictional hurdles or technical complications) to APRA being able to fulfil its duties as prudential regulator (including timely access to data in a usable form)."
+    },
+    {
+      "section": "50",
+      "heading": "In APRA's view, the following would normally",
+      "title": "Outsourcing/offshoring risk management framework",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Third Party Processing",
+      "summary": "This section mandates that regulated entities apply enterprise frameworks, detailed risk assessments, understanding of business processes, data sensitivity, alignment with data architecture, business cases, and periodic reassessment of risks when outsourcing or offshoring data management responsibilities. These requirements ensure ongoing risk management for data transfers.",
+      "dtia_summary": "Outsourcing/offshoring risk frameworks are critical for DTIAs to ensure third-party data arrangements maintain robust security, compliance, and regulatory oversight capabilities.",
+      "authority": "Australian Prudential Regulation Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Regulated entities must apply enterprise frameworks such as security, project management, system development, business continuity management, outsourcing/offshoring management, risk management and delegation limits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must conduct detailed risk assessments of specific arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must understand the extent and nature of business processes and data sensitivity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must align with data architecture supporting broader IT and business strategies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must justify additional risk exposures with a business case",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must have board/senior management approval of resulting risk profile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must periodically reassess risks in line with risk management framework",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In APRA's view, the following would normally be applied to the assessment and ongoing management of outsourced/offshored data management responsibilities: (a) enterprise frameworks such as security, project management, system development, business continuity management, outsourcing/offshoring management, risk management and delegation limits; (b) detailed risk assessments of the specific arrangements underlying the services offered."
+    },
+    {
+      "section": "51",
+      "heading": "Data validation is the assessment of the data",
+      "title": "Data validation assesses data quality against business rules",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "This section defines data validation as assessing data against business rules to determine its fitness for use before further processing. It establishes data validation as a key control mechanism for ensuring data meets quality requirements. Regulated entities must implement this validation process to maintain data integrity throughout their operations.",
+      "dtia_summary": "Data validation is critical for ensuring transferred data meets quality standards before processing, reducing risks associated with poor data quality in cross-border transfers.",
+      "authority": "APRA",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data validation assesses data against business rules to determine fitness for use prior to further processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data validation constitutes a key set of controls for ensuring data meets quality requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data validation is the assessment of the data against business rules to determine its fitness for use prior to further processing. It constitutes a key set of controls for ensuring that data meets quality requirements."
+    },
+    {
+      "section": "53",
+      "heading": "Considerations when validating data include the",
+      "title": "Data validation considerations for quality degradation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "This section specifies that data validation must consider the level of trustworthiness of data sources and how data quality degrades over time. Regulated entities should design business processes to revalidate data periodically based on data criticality and risk of degradation to maintain data quality standards.",
+      "dtia_summary": "Periodic revalidation of data is essential for maintaining data quality across borders, particularly for high-risk financial data where degradation could impact regulatory compliance.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities should design business processes to revalidate data on a periodic basis to minimise data quality degradation",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "The comprehensiveness of revalidation would normally be commensurate with the criticality of the data and the risk of degradation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Regulated entities would design business processes to revalidate data on a periodic basis to minimise the degree of data quality degradation. The comprehensiveness of revalidation would normally be commensurate with the criticality of the data and the risk of degradation."
+    },
+    {
+      "section": "54",
+      "heading": "Common forms of data validation include",
+      "title": "Common data validation techniques and methods",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section lists common data validation techniques including format verification, type checks, value range validation, and dataset-level methods such as control totalling, reconciliation, benchmarking, data profiling, and expert review for reasonableness. These techniques help ensure data accuracy and completeness before processing.",
+      "dtia_summary": "These validation techniques are critical for ensuring data quality in cross-border transfers, particularly for financial data where accuracy impacts regulatory compliance and risk management.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Verification of format, type, value range, currency, presence, consistency and completeness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control totalling: aggregation techniques including hash totalling, amount totalling and record counts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reconciliation: comparing two sets of data and explaining variances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Benchmarking: comparing two sets of data that would normally exhibit similar characteristics to highlight material variations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data profiling: examination of a data set to gather statistics and highlight data anomalies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review of data for reasonableness using expert judgement",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Common forms of data validation include verification of format, type, value range, currency, presence, consistency and completeness. Data validation can also be usefully conducted at a dataset level such as the use of: (a) control totalling, (b) reconciliation, (c) benchmarking, (d) data profiling, and (e) a review of data for reasonableness using expert judgement."
+    },
+    {
+      "section": "56",
+      "heading": "A regulated entity would normally document",
+      "title": "Documenting data validation processes and accountability",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section requires regulated entities to document data validation processes, including their nature, frequency, granularity, and accountability for detecting, investigating, reporting, and escalating data anomalies. It also states that data validation processes should inform the design of data quality metrics.",
+      "dtia_summary": "Documenting data validation processes ensures transparency and accountability in data handling, which is critical for cross-border data transfers where data quality impacts regulatory compliance.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must document data validation processes, including their nature, frequency and level of granularity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must provide clear allocation of accountabilities for detection, investigation, reporting and escalation of data anomalies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data validation processes can be a key consideration when designing data quality metrics",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "A regulated entity would normally document data validation processes, including their nature, frequency and level of granularity, and provide clear allocation of accountabilities for the detection, investigation, reporting and escalation of data anomalies."
+    },
+    {
+      "section": "60",
+      "heading": "APRA envisages that a regulated entity would",
+      "title": "Data issue management processes",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "This section outlines that regulated entities must develop processes to manage all stages of data issues, including detection, identification, containment, investigation, evidence gathering, resolution, return to business-as-usual, and adjustment of controls. Common data issues include processing errors, lack of timeliness, pricing errors, data leakage, instruction failures, migration issues, and unfit data.",
+      "dtia_summary": "Robust data issue management processes are essential for maintaining data quality in cross-border transfers, particularly for financial data where errors can lead to regulatory non-compliance and financial losses.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must develop processes to manage all stages of a data issue including detection, identification, containment, investigation, evidence gathering, resolution, return to business-as-usual and adjustment of controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include processing errors impacting accuracy and completeness of balances and transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include lack of timeliness in updating data to reflect recent market conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include inadequate data availability, accuracy or consistency resulting in pricing and valuation errors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include data leakage leading to breach of confidentiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include failure to accurately execute instructions in a timely manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include failure to maintain data quality when migrating data to another system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Common data issues include data that is not fit-for-use resulting in poor business decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "APRA envisages that a regulated entity would develop appropriate processes to manage all stages of a data issue including detection, identification, containment, investigation, evidence gathering, resolution, return to business-as-usual and the adjustment of controls to reduce the risk of similar issues in the future."
+    },
+    {
+      "section": "61",
+      "heading": "Subject to the nature of the data, a regulated",
+      "title": "Data issue response and root cause analysis",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "This section requires regulated entities to have clear accountability and communication strategies to limit the impact of data issues, including defined escalation and reporting mechanisms to the Board and senior management. It also mandates root cause analysis to identify underlying causes and adjust controls to prevent future occurrences, with prioritization of remediation based on resource constraints.",
+      "dtia_summary": "Effective data issue response and root cause analysis are critical for maintaining data quality in cross-border transfers, ensuring timely resolution of issues that could impact financial compliance and regulatory reporting.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated entities must have clear accountability and communication strategies to limit the impact of data issues",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must define mechanisms and thresholds for escalation and reporting to the Board and senior management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must conduct root cause analysis of data issues to identify underlying causes and adjust controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulated entities must prioritize remediation of data issues due to resource constraints",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Subject to the nature of the data, a regulated entity would: (a) have clear accountability and communication strategies to limit the impact of data issues, including defined mechanisms and thresholds for escalation and reporting to the Board and senior management, and customer communication where appropriate; and (b) conduct root cause analysis of the data issue, where the underlying cause is identified and analysed, with controls adjusted to reduce the likelihood of future occurrence."
+    },
+    {
+      "section": "63",
+      "heading": "Data quality metrics are a useful mechanism for",
+      "title": "Data quality metrics for assessing data risk success",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "This section states that data quality metrics help evaluate data quality and data risk management effectiveness. The metrics should focus on areas with regulatory, legal, or industry requirements and those with high sensitivity or criticality as identified by the risk assessment process. These areas are prioritized to ensure data risk management aligns with compliance needs and risk levels.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data quality metrics are a useful mechanism for assessing data quality and data risk management success",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Metrics should be targeted to areas with regulatory, legal, and specific industry requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Metrics should be targeted to areas with the greatest sensitivity/criticality as determined by the risk assessment process",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data quality metrics are a useful mechanism for assessing data quality and the success of data risk management. Typically, the use of metrics would be targeted to areas: (a) where there are regulatory, legal and specific industry requirements; and (b) that have the greatest sensitivity/criticality, as determined by the risk assessment process."
+    }
+  ]
+}

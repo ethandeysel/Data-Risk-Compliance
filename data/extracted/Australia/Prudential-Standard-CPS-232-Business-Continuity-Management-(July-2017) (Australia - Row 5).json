@@ -1,7 +1,7 @@
 {
   "country": "Australia",
   "document": "Prudential-Standard-CPS-232-Business-Continuity-Management-(July-2017) (Australia - Row 5)",
-  "generated": "2026-07-15T17:04:15",
+  "generated": "2026-07-16T13:27:09",
   "sections": [
     {
       "section": "1",
@@ -13,7 +13,7 @@
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section specifies that the Prudential Standard is enacted under three specific sections of Australian legislation: the Banking Act 1959, the Insurance Act 1973, and the Life Insurance Act 1995. It establishes the legal foundation for the standard by referencing the relevant regulatory acts that authorize its implementation.",
+      "summary": "This section specifies that the Prudential Standard is enacted under three specific sections of Australian legislation: the Banking Act 1959, Insurance Act 1973, and Life Insurance Act 1995. It establishes the legal foundation for the standard by referencing relevant regulatory acts that authorize its implementation.",
       "dtia_summary": "",
       "authority": "APRA",
       "financial_relevance": "None",
@@ -24,11 +24,19 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "This Prudential Standard is made under: section 11AF of the Banking Act 1959 (Banking Act); section 32 of the Insurance Act 1973 (Insurance Act); and section 230A of the Life Insurance Act 1995 (Life Insurance Act).",
+          "text": "This Prudential Standard is made under section 11AF of the Banking Act 1959",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Prudential Standard is made under section 32 of the Insurance Act 1973",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Prudential Standard is made under section 230A of the Life Insurance Act 1995",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard is made under: section 11AF of the Banking Act 1959 (Banking Act); section 32 of the Insurance Act 1973 (Insurance Act); and section 230A of the Life Insurance Act 1995 (Life Insurance Act)."
+      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); and (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act)."
     },
     {
       "section": "2",
@@ -40,7 +48,7 @@
       "page_start": 3,
       "page_end": 3,
       "primary_category": "Other",
-      "summary": "This section defines which financial institutions are covered by the Prudential Standard. It includes authorized deposit-taking institutions (ADIs), foreign ADIs, non-operating holding companies under the Banking Act, general insurers, Category C insurers, non-operating holding companies under the Insurance Act, and life companies including friendly societies and eligible foreign life insurance companies.",
+      "summary": "This section defines which financial institutions fall under the Prudential Standard. It includes authorized deposit-taking institutions (ADIs), foreign ADIs, non-operating holding companies, general insurers, Category C insurers, authorized insurance NOHCs, parent entities of Level 2 insurance groups, life companies, friendly societies, eligible foreign life insurance companies (EFLICs), and registered life NOHCs. The scope covers all APRA-regulated entities in Australia and internationally.",
       "dtia_summary": "",
       "authority": "APRA",
       "financial_relevance": "None",
@@ -51,11 +59,19 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "This Prudential Standard applies to all ‘APRA-regulated institutions', defined as: all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act (authorised banking NOHCs); all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; and all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs).",
+          "text": "This Prudential Standard applies to all 'APRA-regulated institutions' defined as: all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Prudential Standard applies to all 'APRA-regulated institutions' defined as: all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act, and parent entities of Level 2 insurance groups",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Prudential Standard applies to all 'APRA-regulated institutions' defined as: all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard applies to all ‘APRA-regulated institutions', defined as: all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act (authorised banking NOHCs); all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; and all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs)."
+      "source_quote": "This Prudential Standard applies to all 'APRA-regulated institutions', defined as: (a) all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act (authorised banking NOHCs); (b) all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; and (c) all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs)."
     },
     {
       "section": "8",
@@ -67,7 +83,7 @@
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section states that terms defined in other Prudential Standards (APS 001, GPS 001, LPS 001) will be in bold for the first time they appear in this standard. It clarifies how terminology is handled across different regulatory frameworks.",
+      "summary": "This section states that terms defined in other Prudential Standards (APS 001, GPS 001, LPS 001) will be highlighted in bold when first used in this standard. It ensures consistency in terminology across regulatory documents by directing users to the relevant definitions.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -78,7 +94,7 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001) or Prudential Standard LPS 001 Definitions appear in bold the first time they are used in this Prudential Standard.",
+          "text": "Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001) or Prudential Standard LPS 001 Definitions appear in bold the first time they are used in this Prudential Standard",
           "obligation_type": "Must"
         }
       ],
@@ -94,7 +110,7 @@
       "page_start": 4,
       "page_end": 4,
       "primary_category": "Other",
-      "summary": "This section defines key terms such as 'group', 'Head of a group', 'Level 2 group', and 'Level 2 Head' for the purpose of business continuity management. It specifies the structure of institutional groups and their leadership roles under the Prudential Standard.",
+      "summary": "This section defines key terms for group structures within APRA-regulated institutions. It specifies what constitutes a 'group', 'Head of a group', 'Level 2 group', and 'Level 2 Head' based on regulatory frameworks. These definitions are critical for understanding organizational hierarchies and reporting responsibilities under business continuity management.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -105,11 +121,23 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "For the purposes of this Prudential Standard: ‘group' means a Level 2 group or a Level 3 group, as relevant; ‘Head of a group' means a Level 2 Head or Level 3 Head, as relevant; ‘Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; ‘Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001.",
+          "text": "For the purposes of this Prudential Standard, 'group' means a Level 2 group or a Level 3 group, as relevant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of this Prudential Standard, 'Head of a group' means a Level 2 Head or Level 3 Head, as relevant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of this Prudential Standard, 'Level 2 group' means the entities that comprise: Level 2 as defined in APS 001 or a Level 2 insurance group as defined in GPS 001",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of this Prudential Standard, 'Level 2 Head' means: where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or the parent entity of a Level 2 insurance group as defined in GPS 001",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of this Prudential Standard: ‘group' means a Level 2 group or a Level 3 group, as relevant; ‘Head of a group' means a Level 2 Head or Level 3 Head, as relevant; ‘Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; ‘Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001."
+      "source_quote": "For the purposes of this Prudential Standard: 'group' means a Level 2 group or a Level 3 group, as relevant; 'Head of a group' means a Level 2 Head or Level 3 Head, as relevant; 'Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; 'Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001."
     },
     {
       "section": "14",
@@ -121,7 +149,7 @@
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section requires the Head of a group to notify APRA if an institution experiences a major disruption that could materially impact its risk profile or financial soundness, with an exception if another APRA-regulated institution within the group has already notified APRA.",
+      "summary": "This section mandates that the Head of a group must notify APRA if an institution experiences a major disruption that could materially impact its risk profile or financial soundness. The notification is required unless another APRA-regulated institution within the group has already reported the same information to APRA.",
       "dtia_summary": "",
       "authority": "APRA",
       "financial_relevance": "None",
@@ -132,8 +160,12 @@
       "data_types": [],
       "requirements": [
         {
-          "text": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness, except where an APRA-regulated institution within the group has otherwise notified APRA of that information.",
+          "text": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness",
           "obligation_type": "Must"
+        },
+        {
+          "text": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness, except where an APRA-regulated institution within the group has otherwise notified APRA of that information",
+          "obligation_type": "Must Not"
         }
       ],
       "source_quote": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness, except where an APRA-regulated institution within the group has otherwise notified APRA of that information."
@@ -148,16 +180,20 @@
       "page_start": 5,
       "page_end": 5,
       "primary_category": "Other",
-      "summary": "This section mandates that APRA-regulated institutions must identify, assess, manage, mitigate, and report on potential business continuity risks to ensure they can meet financial and service obligations to depositors, policyholders, and other stakeholders.",
+      "summary": "This section requires APRA-regulated institutions to identify, assess, manage, mitigate, and report on potential business continuity risks. The purpose is to ensure institutions can meet financial and service obligations to depositors, policyholders, and other stakeholders during disruptions.",
       "dtia_summary": "",
       "authority": "APRA",
-      "financial_relevance": "None",
+      "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [],
       "requirements": [
         {
-          "text": "An APRA-regulated institution must identify, assess, manage, mitigate and report on potential business continuity risks to ensure that the institution is able to meet its financial and service obligations to its depositors, policyholders and other stakeholders.",
+          "text": "An APRA-regulated institution must identify, assess, manage, mitigate and report on potential business continuity risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An APRA-regulated institution must ensure it is able to meet its financial and service obligations to its depositors, policyholders and other stakeholders",
           "obligation_type": "Must"
         }
       ],
@@ -166,15 +202,15 @@
     {
       "section": "19",
       "heading": "The Board must ensure that the business continuity risks and controls are taken",
-      "title": "Board must integrate business continuity risks into risk management",
+      "title": "Business continuity risks integrated into risk management strategy",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 5,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "The Board must ensure business continuity risks and controls are incorporated into the institution's overall risk management strategy and included in the risk management declaration submitted to APRA. This requirement applies to APRA-regulated financial institutions to maintain robust risk oversight.",
-      "dtia_summary": "This section mandates that business continuity risks be systematically integrated into risk management, which is critical for DTIAs to assess how disruptions might affect cross-border operations and regulatory compliance.",
+      "summary": "The Board must ensure business continuity risks and controls are incorporated into the institution's overall risk management strategy and included in the risk management declaration submitted to APRA. This requirement applies to APRA-regulated financial institutions to maintain alignment with regulatory expectations for risk management.",
+      "dtia_summary": "This section mandates that business continuity risks be systematically integrated into risk management, which is critical for assessing cross-border data transfer impacts in financial institutions due to the need for comprehensive risk coverage.",
       "authority": "APRA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -184,11 +220,11 @@
       ],
       "requirements": [
         {
-          "text": "The Board must ensure that the business continuity risks and controls are taken into account as part of the institution's risk management strategy",
+          "text": "The Board must ensure business continuity risks and controls are taken into account as part of the institution's risk management strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "The Board must ensure that the business continuity risks and controls are taken into account when completing a risk management declaration required to be provided to APRA",
+          "text": "The Board must ensure business continuity risks and controls are included in the risk management declaration required to be provided to APRA",
           "obligation_type": "Must"
         }
       ],
@@ -197,42 +233,15 @@
     {
       "section": "20",
       "heading": "BCM is a whole-of-business approach that includes policies, standards and",
-      "title": "Business continuity management as whole-of-business approach",
+      "title": "Business continuity as whole-of-business approach",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 6,
       "page_end": 6,
       "primary_category": "Other",
-      "summary": "Business continuity management requires institutions to establish policies, standards, and procedures that ensure critical business operations can be maintained or recovered during disruptions. This approach aims to minimize financial, legal, regulatory, and reputational consequences from operational interruptions.",
-      "dtia_summary": "This section defines business continuity as a whole-of-business process, which is essential for DTIAs to evaluate how disruptions might impact cross-border data flows and recovery strategies.",
-      "authority": "",
-      "financial_relevance": "High",
-      "confidence": "High (explicit)",
-      "topics": [],
-      "data_types": [
-        "Financial Data"
-      ],
-      "requirements": [
-        {
-          "text": "BCM is a whole-of-business approach that includes policies, standards and procedures for ensuring that critical business operations can be maintained or recovered in a timely fashion, in the event of a disruption",
-          "obligation_type": "Definition"
-        }
-      ],
-      "source_quote": "BCM is a whole-of-business approach that includes policies, standards and procedures for ensuring that critical business operations can be maintained or recovered in a timely fashion, in the event of a disruption."
-    },
-    {
-      "section": "27",
-      "heading": "When conducting the BIA, the APRA-regulated institution must consider:",
-      "title": "BIA must consider disruption scenarios and impacts",
-      "chapter": null,
-      "part": "part o",
-      "condition": null,
-      "page_start": 6,
-      "page_end": 7,
-      "primary_category": "Other",
-      "summary": "When conducting a Business Impact Analysis (BIA), institutions must evaluate plausible disruption scenarios over time, the operational downtime for critical functions, the impact on depositors/policyholders, and the financial, legal, regulatory, and reputational consequences of disruptions.",
-      "dtia_summary": "This section requires detailed analysis of disruption impacts, which is vital for DTIAs to assess how business continuity risks might affect cross-border data transfers and recovery processes.",
+      "summary": "Business continuity management (BCM) requires institutions to establish policies, standards, and procedures that ensure critical business operations can be maintained or recovered during disruptions. This approach aims to minimize financial, legal, regulatory, and reputational consequences from operational interruptions.",
+      "dtia_summary": "This section defines BCM as a whole-of-business approach, which is relevant for DTIAs as it establishes foundational requirements for maintaining critical operations during disruptions, impacting data transfer resilience.",
       "authority": "APRA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -242,19 +251,50 @@
       ],
       "requirements": [
         {
-          "text": "When conducting the BIA, the APRA-regulated institution must consider plausible disruption scenarios over varying periods of time",
+          "text": "BCM includes policies, standards and procedures for ensuring critical business operations can be maintained or recovered in a timely fashion during disruptions",
           "obligation_type": "Must"
         },
         {
-          "text": "When conducting the BIA, the APRA-regulated institution must consider the period of time for which the institution could not operate without each of its critical business operations",
+          "text": "BCM aims to minimise financial, legal, regulatory and reputational consequences arising from disruptions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "BCM is a whole-of-business approach that includes policies, standards and procedures for ensuring that critical business operations can be maintained or recovered in a timely fashion, in the event of a disruption. Its purpose is to minimise the financial, legal, regulatory, reputational and other material consequences arising from a disruption."
+    },
+    {
+      "section": "27",
+      "heading": "When conducting the BIA, the APRA-regulated institution must consider:",
+      "title": "Business impact analysis considerations for disruptions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "APRA-regulated institutions must evaluate plausible disruption scenarios, operational downtime periods, impact on depositors/policyholders, and financial/legal/regulatory consequences when conducting a Business Impact Analysis (BIA). This ensures comprehensive risk assessment for critical operations.",
+      "dtia_summary": "This section specifies key considerations for BIAs, which are essential for DTIAs to evaluate the impact of disruptions on data transfers, particularly regarding financial and regulatory consequences.",
+      "authority": "APRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The institution must consider plausible disruption scenarios over varying periods of time",
           "obligation_type": "Must"
         },
         {
-          "text": "When conducting the BIA, the APRA-regulated institution must consider the extent to which a disruption to the critical business operations might have a material impact on the interests of depositors and/or policyholders of the institution",
+          "text": "The institution must determine the period of time for which critical business operations could not operate without the institution",
           "obligation_type": "Must"
         },
         {
-          "text": "When conducting the BIA, the APRA-regulated institution must consider the financial, legal, regulatory and reputational impact of a disruption to the institution's critical business operations over varying periods of time",
+          "text": "The institution must assess the extent to which disruptions might impact depositors and/or policyholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The institution must evaluate financial, legal, regulatory and reputational impacts of disruptions over varying periods",
           "obligation_type": "Must"
         }
       ],
@@ -263,15 +303,15 @@
     {
       "section": "36",
       "heading": "An APRA-regulated institution must notify APRA as soon as possible and no",
-      "title": "Notify APRA of major disruptions within 24 hours",
+      "title": "Notification of major disruptions to APRA",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 8,
       "primary_category": "Other",
-      "summary": "APRA-regulated institutions must report major disruptions that could materially impact their risk profile or financial stability to APRA within 24 hours, including details about the disruption, actions taken, expected effects, and timeline for recovery. They must also notify APRA when normal operations resume.",
-      "dtia_summary": "This section requires timely reporting of disruptions, which is crucial for DTIAs to understand how cross-border data transfers might be affected by operational interruptions.",
+      "summary": "APRA-regulated institutions must notify APRA within 24 hours of experiencing a major disruption that could materially impact their risk profile or financial soundness. The notification must detail the disruption's nature, actions taken, expected effects, and timeline for recovery, with a follow-up notification upon resumption of normal operations.",
+      "dtia_summary": "This section requires timely reporting of disruptions to APRA, which is critical for DTIAs to ensure data transfer continuity during incidents and to maintain regulatory oversight of cross-border data flows.",
       "authority": "APRA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -281,15 +321,15 @@
       ],
       "requirements": [
         {
-          "text": "An APRA-regulated institution must notify APRA as soon as possible and no later than 24 hours after the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness",
+          "text": "APRA-regulated institutions must notify APRA as soon as possible and no later than 24 hours after experiencing a major disruption",
           "obligation_type": "Must"
         },
         {
-          "text": "The APRA-regulated institution must explain to APRA the nature of the disruption, the action being taken, the likely effect and the timeframe for returning to normal operations",
+          "text": "The institution must explain the nature of the disruption, actions being taken, likely effects, and timeframe for returning to normal operations",
           "obligation_type": "Must"
         },
         {
-          "text": "The APRA-regulated institution must notify APRA when normal operations resume",
+          "text": "The institution must notify APRA when normal operations resume",
           "obligation_type": "Must"
         }
       ],
@@ -298,15 +338,15 @@
     {
       "section": "40",
       "heading": "APRA may adjust or exclude a specific requirement in this Prudential Standard",
-      "title": "APRA may adjust or exclude prudential requirements",
+      "title": "APRA's authority to adjust prudential standards",
       "chapter": null,
       "part": "part o",
       "condition": null,
       "page_start": 8,
       "page_end": 9,
-      "primary_category": "Other",
-      "summary": "APRA has the authority to modify or exclude specific requirements within this Prudential Standard for regulated institutions, subject to relevant legislation such as the Banking Act, Insurance Act, and Life Insurance Act.",
-      "dtia_summary": "This section allows APRA to tailor business continuity requirements, which may impact DTIAs by adjusting cross-border data transfer obligations for specific institutions.",
+      "primary_category": "Regulator Powers",
+      "summary": "APRA has the authority to adjust or exclude specific requirements within this Prudential Standard for regulated institutions, subject to relevant legal provisions under the Banking Act, Insurance Act, and Life Insurance Act.",
+      "dtia_summary": "This section grants APRA flexibility to modify requirements, which may impact DTIAs by allowing tailored approaches to data transfer compliance in specific regulatory contexts.",
       "authority": "APRA",
       "financial_relevance": "High",
       "confidence": "High (explicit)",

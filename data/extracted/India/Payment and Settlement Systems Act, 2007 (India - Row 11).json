@@ -1,0 +1,1931 @@
+{
+  "country": "India",
+  "document": "Payment and Settlement Systems Act, 2007 (India - Row 11)",
+  "generated": "2026-07-16T16:03:23",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "Definitions.",
+      "title": "Definitions of key terms in payment systems",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "This section defines critical terms such as 'bank', 'derivative', 'electronic funds transfer', 'gross settlement system', and 'payment system' for the Payment and Settlement Systems Act. These definitions specify the scope of entities and transactions covered by the Act, including banks, payment systems, and derivatives. The definitions also clarify the roles of system participants and providers in payment systems.",
+      "dtia_summary": "These definitions establish the scope of data and entities subject to the Act, which is crucial for determining what data transfers and processing activities fall under the regulatory framework.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless the context otherwise requires",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "bank means a bank included in the Second Schedule to the Reserve Bank of India Act, 1934",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a post office savings bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a banking company as defined in clause (c) of section 5 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a co-operative bank as defined in clause (cci) of section 5, as inserted by section 56 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means such other bank as the Reserve Bank may, by notification, specify for the purposes of this Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative means an instrument, to be settled at a future date, whose value is derived from change in interest rate, foreign exchange rate, credit rating or credit index",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative includes interest rate swaps, forward rate agreements, foreign currency swaps",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "electronic funds transfer means any transfer of funds initiated by a person by way of instruction, authorisation or order to a bank through electronic means",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "gross settlement system means a payment system in which each settlement of funds or securities occurs on the basis of separate or individual instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "issuer means a person who issues a legal entity identifier or such other unique identification as may be specified by the Reserve Bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "legal entity identifier means a unique identity code assigned to a person by an issuer for the purpose of identifying that person in such derivatives or financial transactions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "netting means the determination by the system provider of the amount of money or securities due or payable as a result of setting off or adjusting payment obligations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "notification means a notification published in the Official Gazette",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment instruction means any instrument, authorisation or order in any form to effect a payment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment obligation means an indebtedness owned by one system participant to another system participant as a result of clearing or settlement of payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment system means a system that enables payment to be effected between a payer and a beneficiary",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "securities means the Government securities as defined in the Public Debt Act, 1944",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "settlement means settlement of payment instructions and includes settlement of securities, foreign exchange or derivatives",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "systemic risk means the risk arising from the inability of a system participant to meet payment obligations or any disruption in the system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system participant means a bank or any other person participating in a payment system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system provider means a person who operates an authorised payment system",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Definitions.—(1) In this Act, unless the context otherwise requires,—"
+    },
+    {
+      "section": "34",
+      "heading": "Act not to apply to stock exchanges or clearing corporations of stock exchanges.",
+      "title": "Exemptions for stock exchanges and clearing corporations",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Exemptions",
+      "summary": "This section explicitly states that nothing in the Payment and Settlement Systems Act applies to stock exchanges or their clearing corporations. The Act does not govern these entities, which is a clear exemption from the scope of the legislation.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it defines exemptions from the Act's scope, not data transfer mechanisms or requirements.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Nothing contained in this Act shall apply to stock exchanges or the clearing corporations of the stock exchanges",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "34. Act not to apply to stock exchanges or clearing corporations of stock exchanges.—Nothing contained in this Act shall apply to stock exchanges or the clearing corporations of the stock exchanges."
+    },
+    {
+      "section": "38",
+      "heading": "Power of Reserve Bank to make regulations.",
+      "title": "Reserve Bank regulatory powers",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Exemptions",
+      "summary": "This section empowers the Reserve Bank to make regulations consistent with the Act to implement its provisions, including specific matters like board functions, application formats, authorization procedures, payment standards, and information reporting requirements.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it addresses regulatory powers, not data transfer mechanisms or requirements.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may, by notification, make regulations consistent with this Act to carry out the provisions of this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the powers and functions of the Board, the time and venue of its meetings and the procedure to be followed by it at its meetings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the form and manner in which an application for authorisation for commencing or carrying on a payment system shall be made and the fees which shall accompany such application",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the form in which an authorisation to operate a payment system under this Act shall be issued",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the format of payment instructions and other matters relating to determination of standards to be complied with by the payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the intervals, at which and the form and manner in which the information or returns required by the Reserve Bank shall be furnished",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for such other matters as are required to be, or may be, prescribed",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "38. Power of Reserve Bank to make regulations.—(1) The Reserve Bank may, by notification, make regulations consistent with this Act to carry out the provisions of this Act."
+    },
+    {
+      "section": "1",
+      "heading": "Short title, extent and commencement.—(1) This Act may be called the Payment and Settlement",
+      "title": "Amendment for certain words effective from 22-01-2024",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section amends certain words in the Act effective from January 22, 2024, but does not contain substantive obligations or penalties. It is purely a procedural amendment to the text of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 18 of 2023, s. 2 and schedule, for certain words (w.e.f. 22-1-2024)."
+    },
+    {
+      "section": "2",
+      "heading": "Definitions.—(1) In this Act, unless the context otherwise requires,—",
+      "title": "Definitions of key terms in payment systems",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Definitions",
+      "summary": "This section defines critical terms such as 'bank', 'derivative', 'electronic funds transfer', 'gross settlement system', and 'payment system' for the Payment and Settlement Systems Act. These definitions specify the scope of entities and transactions covered by the Act, including banks, payment systems, and derivatives. The definitions also clarify the roles of system participants and providers in payment systems.",
+      "dtia_summary": "These definitions establish the scope of data and entities subject to the Act, which is crucial for determining what data transfers and processing activities fall under the regulatory framework.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless the context otherwise requires",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "bank means a bank included in the Second Schedule to the Reserve Bank of India Act, 1934",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a post office savings bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a banking company as defined in clause (c) of section 5 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a co-operative bank as defined in clause (cci) of section 5, as inserted by section 56 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means such other bank as the Reserve Bank may, by notification, specify for the purposes of this Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative means an instrument, to be settled at a future date, whose value is derived from change in interest rate, foreign exchange rate, credit rating or credit index",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative includes interest rate swaps, forward rate agreements, foreign currency swaps",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "electronic funds transfer means any transfer of funds initiated by a person by way of instruction, authorisation or order to a bank through electronic means",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "gross settlement system means a payment system in which each settlement of funds or securities occurs on the basis of separate or individual instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "issuer means a person who issues a legal entity identifier or such other unique identification as may be specified by the Reserve Bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "legal entity identifier means a unique identity code assigned to a person by an issuer for the purpose of identifying that person in such derivatives or financial transactions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "netting means the determination by the system provider of the amount of money or securities due or payable as a result of setting off or adjusting payment obligations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "notification means a notification published in the Official Gazette",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment instruction means any instrument, authorisation or order in any form to effect a payment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment obligation means an indebtedness owned by one system participant to another system participant as a result of clearing or settlement of payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment system means a system that enables payment to be effected between a payer and a beneficiary",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "securities means the Government securities as defined in the Public Debt Act, 1944",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "settlement means settlement of payment instructions and includes settlement of securities, foreign exchange or derivatives",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "systemic risk means the risk arising from the inability of a system participant to meet payment obligations or any disruption in the system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system participant means a bank or any other person participating in a payment system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system provider means a person who operates an authorised payment system",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Definitions.—(1) In this Act, unless the context otherwise requires,—"
+    },
+    {
+      "section": "2",
+      "heading": "Ins. by Act 18 of 2015, s. 2 (w.e.f. 1-6-2015).",
+      "title": "Definitions of key terms in payment systems",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 5,
+      "primary_category": "Definitions",
+      "summary": "This section defines critical terms such as 'bank', 'derivative', 'electronic funds transfer', 'gross settlement system', and 'payment system' for the Payment and Settlement Systems Act. These definitions specify the scope of entities and transactions covered by the Act, including banks, payment systems, and derivatives. The definitions also clarify the roles of system participants and providers in payment systems.",
+      "dtia_summary": "These definitions establish the scope of data and entities subject to the Act, which is crucial for determining what data transfers and processing activities fall under the regulatory framework.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless the context otherwise requires",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "bank means a bank included in the Second Schedule to the Reserve Bank of India Act, 1934",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a post office savings bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a banking company as defined in clause (c) of section 5 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means a co-operative bank as defined in clause (cci) of section 5, as inserted by section 56 of the Banking Regulation Act, 1949",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "bank means such other bank as the Reserve Bank may, by notification, specify for the purposes of this Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative means an instrument, to be settled at a future date, whose value is derived from change in interest rate, foreign exchange rate, credit rating or credit index",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "derivative includes interest rate swaps, forward rate agreements, foreign currency swaps",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "electronic funds transfer means any transfer of funds initiated by a person by way of instruction, authorisation or order to a bank through electronic means",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "gross settlement system means a payment system in which each settlement of funds or securities occurs on the basis of separate or individual instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "issuer means a person who issues a legal entity identifier or such other unique identification as may be specified by the Reserve Bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "legal entity identifier means a unique identity code assigned to a person by an issuer for the purpose of identifying that person in such derivatives or financial transactions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "netting means the determination by the system provider of the amount of money or securities due or payable as a result of setting off or adjusting payment obligations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "notification means a notification published in the Official Gazette",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment instruction means any instrument, authorisation or order in any form to effect a payment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment obligation means an indebtedness owned by one system participant to another system participant as a result of clearing or settlement of payment instructions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "payment system means a system that enables payment to be effected between a payer and a beneficiary",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "securities means the Government securities as defined in the Public Debt Act, 1944",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "settlement means settlement of payment instructions and includes settlement of securities, foreign exchange or derivatives",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "systemic risk means the risk arising from the inability of a system participant to meet payment obligations or any disruption in the system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system participant means a bank or any other person participating in a payment system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "system provider means a person who operates an authorised payment system",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Definitions.—(1) In this Act, unless the context otherwise requires,—"
+    },
+    {
+      "section": "3",
+      "heading": "Designated authority.—(1) The Reserve Bank shall be the designated authority for the regulation",
+      "title": "Reserve Bank as designated authority for payment system regulation and oversight committee",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank is designated as the sole authority for payment system regulation and supervision. It may establish a committee within its Central Board called the Board for Regulation and Supervision of Payment and Settlement Systems, which includes the Governor as Chairperson, Deputy Governor in-charge of Payment Systems as Vice-Chairperson, and up to three Directors from the Central Board of the Reserve Bank. The committee's procedures and quorum are subject to regulation.",
+      "dtia_summary": "This section establishes the oversight committee structure for payment systems, relevant for DTIAs as it defines the regulatory body responsible for payment system authorization and supervision.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank shall be the designated authority for the regulation and supervision of payment systems under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may constitute a committee of its Central Board to be known as the Board for Regulation and Supervision of Payment and Settlement Systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The committee shall consist of Governor as Chairperson, Deputy Governor in-charge of Payment Systems as Vice-Chairperson, and up to three Directors from Central Board of Reserve Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The committee's powers, meeting procedures, quorum and other incidental matters shall be prescribed",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3. Designated authority and its Committee.—(1) The Reserve Bank shall be the designated authority for the regulation and supervision of payment systems under this Act."
+    },
+    {
+      "section": "3",
+      "heading": "Designated authority and its Committee.—(1) The Reserve Bank shall be the designated authority for the regulation",
+      "title": "Reserve Bank as designated authority for payment system regulation and oversight committee",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank is designated as the sole authority for payment system regulation and supervision. It may establish a committee within its Central Board called the Board for Regulation and Supervision of Payment and Settlement Systems, which includes the Governor as Chairperson, Deputy Governor in-charge of Payment Systems as Vice-Chairperson, and up to three Directors from the Central Board of the Reserve Bank. The committee's procedures and quorum are subject to regulation.",
+      "dtia_summary": "This section establishes the oversight committee structure for payment systems, relevant for DTIAs as it defines the regulatory body responsible for payment system authorization and supervision.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank shall be the designated authority for the regulation and supervision of payment systems under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may constitute a committee of its Central Board to be known as the Board for Regulation and Supervision of Payment and Settlement Systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The committee shall consist of Governor as Chairperson, Deputy Governor in-charge of Payment Systems as Vice-Chairperson, and up to three Directors from Central Board of Reserve Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The committee's powers, meeting procedures, quorum and other incidental matters shall be prescribed",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3. Designated authority and its Committee.—(1) The Reserve Bank shall be the designated authority for the regulation and supervision of payment systems under this Act."
+    },
+    {
+      "section": "4",
+      "heading": "Payment system not to operate without authorisation.—(1) No person, other than the Reserve",
+      "title": "Penalty payment terms",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Penalties imposed by the Reserve Bank must be paid within thirty days of notice. Failure to pay may lead to court enforcement. The Reserve Bank may recover penalties by debiting current accounts, liquidating securities, or through court orders. Penalties are enforceable as decrees in civil suits.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any penalty imposed by the Reserve Bank under this section shall be payable within a period of thirty days from the date on which notice issued by the Reserve Bank demanding payment of the sum is served on the defaulter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of failure of the person to pay the sum within such period, may be recovered on a direction made by the principal civil court having jurisdiction in the area where the registered office of the defaulter company or the official business of the person is situated",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank may recover the amount of penalty by debiting the current account, if any, of the defaulter or by liquidating the securities held to the credit of the defaulter",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The court which makes a direction under sub-section (3) shall issue a certificate specifying the sum payable by the defaulter and every such certificate shall be enforceable in the same manner as it were a decree made by the court in a civil suit",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank."
+    },
+    {
+      "section": "5",
+      "heading": "Application for authorisation.—(1) Any person desirous of commencing or carrying on a",
+      "title": "Application process for payment system authorization",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Regulator Powers",
+      "summary": "Any entity seeking to operate a payment system must submit an application to the Reserve Bank. The application must be in the prescribed form and accompanied by the prescribed fees. This section establishes the procedural requirements for obtaining authorization to operate payment systems.",
+      "dtia_summary": "This section outlines the application process for payment system authorization, relevant for DTIAs as it defines the procedural steps required for entities to obtain authorization for payment systems.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person desirous of commencing or carrying on a payment system may apply to the Reserve Bank for authorization",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Applications must be made in prescribed form and manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications must be accompanied by prescribed fees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Application for authorisation.—(1) Any person desirous of commencing or carrying on a payment system may apply to the Reserve Bank for an authorisation under this Act."
+    },
+    {
+      "section": "6",
+      "heading": "Inquiry by the Reserve Bank.—After the receipt of an application under section 5, and before an",
+      "title": "Reserve Bank inquiry before authorization",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank may conduct inquiries before issuing authorization for a payment system. The inquiries are to verify the genuineness of applicant details, capacity to operate the payment system, credentials of participants, and other relevant factors. The Reserve Bank may require a report from an authorized person conducting the inquiry.",
+      "dtia_summary": "This section establishes the inquiry process for payment system authorization, relevant for DTIAs as it defines the regulatory review steps before authorization is granted.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "After receiving an application, the Reserve Bank may make inquiries to verify applicant details, capacity, and participant credentials",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank may require a report from an authorized person conducting the inquiry",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "6. Inquiry by the Reserve Bank.—After the receipt of an application under section 5, and before an authorisation is issued under this Act, the Reserve Bank may make such inquiries as it may consider necessary for the purpose of satisfying itself about the genuineness of the particulars furnished by the applicant, his capacity to operate the payment system, the credentials of the participants or for any other reason and when such an inquiry is conducted by any person authorised by it in this behalf, it may require a report from such person in respect of the inquiry."
+    },
+    {
+      "section": "7",
+      "heading": "Issue or refusal of authorisation.—(1) The Reserve Bank may, if satisfied, after any inquiry",
+      "title": "Authorization issuance and refusal criteria",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank may issue authorization for payment systems if it is satisfied that the application is complete and conforms to the Act. Authorization must specify effective date, conditions, fees, security requirements, and duration. Refusal requires written notice with reasons and a reasonable opportunity to be heard. Applications must be processed within six months.",
+      "dtia_summary": "This section details the criteria for authorization and refusal, relevant for DTIAs as it specifies the conditions under which payment systems must operate and the review process for authorization.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may issue authorization if satisfied that the application is complete and conforms to the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authorization must specify effective date, conditions, fees, security requirements, and duration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank must provide written reasons for refusal with a reasonable opportunity to be heard",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications must be processed within six months from filing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7. Issue or refusal of authorisation.—(1) The Reserve Bank may, if satisfied, after any inquiry under section 6 or otherwise, that the application is complete in all respects and that it conforms to the provisions of this Act and the regulations issue an authorisation for operating the payment system under this Act"
+    },
+    {
+      "section": "8",
+      "heading": "Revocation of authorisation.—(1) If a system provider,—",
+      "title": "Revocation of payment system authorization",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank can revoke a system provider's authorization if they breach the Act, fail to comply with regulations, ignore orders from the Reserve Bank, or operate contrary to authorized conditions. Revocation requires giving the system provider a hearing opportunity and does not halt system operations until the order is issued. The Reserve Bank may also revoke authorization for monetary policy reasons without prior hearing. Revocation orders must include provisions to protect affected parties and apply automatically if the system provider becomes insolvent.",
+      "dtia_summary": "Revocation authority allows the Reserve Bank to terminate payment system operations if compliance is breached, requiring safeguards for affected parties and automatic revocation in insolvency cases. This impacts cross-border payment systems by potentially disrupting data flows.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may revoke authorization if a system provider contravenes any provisions of this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may revoke authorization if a system provider does not comply with regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may revoke authorization if a system provider fails to comply with orders or directions issued by the designated authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may revoke authorization if a system provider operates the payment system contrary to conditions subject to which authorization was issued",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Revocation orders must provide reasonable opportunity for the system provider to be heard",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Revocation orders do not halt system operations until the order is issued",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The Reserve Bank may revoke authorization for monetary policy reasons without prior hearing",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Revocation orders must include provisions to protect and safeguard interests of affected persons",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System providers must inform the Reserve Bank if they become insolvent, dissolved, or wound up",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "8. Revocation of authorisation.—(1) If a system provider,— (i) contravenes any provisions of this Act, or (ii) does not comply with the regulations, or (iii) fails to comply with the orders or directions issued by the designated authority, or (iv) operates the payment system contrary to the conditions subject to which the authorisation was issued, the Reserve Bank may, by order, revoke the authorisation given to such system provider under this Act"
+    },
+    {
+      "section": "9",
+      "heading": "Appeal to the Central Government.—(1) Any applicant for an authorisation whose application",
+      "title": "Appeal process for payment system authorization decisions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "Applicants for payment system authorization or system providers aggrieved by revocation orders can appeal to the Central Government within 30 days of receiving a decision. The Central Government must resolve appeals within 3 months and its decision is final. This provides a formal review mechanism for authorization and revocation decisions.",
+      "dtia_summary": "Provides a formal appeal process for payment system authorization and revocation decisions, ensuring affected parties can challenge regulatory actions before final decisions are made.",
+      "authority": "Central Government",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any applicant for authorization whose application is refused under section 7(3) may appeal to the Central Government within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any system provider aggrieved by a revocation order under section 8 may appeal to the Central Government within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Central Government must dispose of appeals within 3 months",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Central Government's decision on appeals is final",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. Appeal to the Central Government.—(1) Any applicant for an authorisation whose application for the operation of the payment system is refused under sub-section (3) of section 7 or a system provider who is aggrieved by an order of revocation under section 8 may, within thirty days from the date on which the order is communicated to him, appeal to the Central Government."
+    },
+    {
+      "section": "10",
+      "heading": "Power to determine standards.—(1) The Reserve Bank may, from time to time, prescribe—",
+      "title": "Reserve Bank standards for payment systems",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank can prescribe standards for payment instructions, system timings, fund transfer methods, general payment system standards, membership criteria, and participant rights and obligations. The Reserve Bank may also issue guidelines for payment system management. This section establishes regulatory oversight over technical and operational aspects of payment systems.",
+      "dtia_summary": "Defines technical and operational standards for payment systems, impacting data transfer mechanisms and system interoperability across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may prescribe the format of payment instructions and size and shape of such instructions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may prescribe timings to be maintained by payment systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may prescribe the manner of fund transfer within payment systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may prescribe other standards for payment systems generally",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may prescribe criteria for payment system membership including continuation, termination and rejection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may prescribe conditions for system participants' participation in fund transfers and their rights and obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may issue guidelines for proper and efficient management of payment systems",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "10. Power to determine standards.—(1) The Reserve Bank may, from time to time, prescribe— (a) the format of payment instructions and the size and shape of such instructions; (b) the timings to be maintained by payment systems; (c) the manner of transfer of funds within the payment system, either through paper, electronic means or in any other manner, between banks or between banks and other system participants; (d) such other standards to be complied with the payment systems generally; (e) the criteria for membership of payment systems including continuation, termination and rejection of membership; (f) the conditions subject to which the system participants shall participate in such fund transfers and the rights and obligations of the system participants in such funds."
+    },
+    {
+      "section": "11",
+      "heading": "Notice of change in the payment system.—(1) No system provider shall cause any change in the",
+      "title": "Notice requirements for payment system changes",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Regulator Powers",
+      "summary": "System providers must obtain prior Reserve Bank approval and provide 30 days' notice to participants before changing payment systems that affect structure or operation. Exceptions apply for monetary policy or public interest reasons, allowing shorter notice periods or no notice at all. The Reserve Bank must object within two weeks if it has concerns about proposed changes.",
+      "dtia_summary": "Requires notice and approval for payment system changes, impacting data transfer mechanisms and system interoperability across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No system provider may change payment systems affecting structure or operation without prior Reserve Bank approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System providers must give 30 days' notice to participants after Reserve Bank approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may permit changes without participant notice or longer notice periods for monetary policy or public interest reasons",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank must communicate objections to proposed changes within two weeks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System providers must respond to Reserve Bank objections within two weeks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Notice of change in the payment system.—(1) No system provider shall cause any change in the system which would affect the structure or the operation of the payment system without— (a) the prior approval of the Reserve Bank; and (b) giving notice of not less than thirty days to the system participants after the approval of the Reserve Bank: Provided that in the interest of monetary policy of the country or in public interest, the Reserve Bank may permit the system provider to make any changes in a payment system without giving notice to the system participants under clause (b) or requiring the system provider to give notice for a period longer than thirty days."
+    },
+    {
+      "section": "12",
+      "heading": "Power to call for returns, documents or other information.—The Reserve Bank may call for",
+      "title": "Reserve Bank access to payment system information",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank has the authority to request returns, documents, or other information from system providers regarding payment system operations at intervals, in specified formats, and in the manner required by the Reserve Bank. System providers must comply with these requests.",
+      "dtia_summary": "Allows regulators to access payment system data, impacting data transfer mechanisms and system interoperability across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may call for returns, documents, or other information from system providers regarding payment system operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System providers must comply with the Reserve Bank's requests for information",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12. Power to call for returns, documents or other information.—The Reserve Bank may call for from any system provider such returns or documents as it may require or other information in regard to the operation of his payment system at such intervals, in such form and in such manner, as the Reserve Bank may require from time to time or as may be prescribed and such order shall be complied with."
+    },
+    {
+      "section": "13",
+      "heading": "Access to information.—The Reserve Bank shall have right to access any information relating to",
+      "title": "Reserve Bank access to payment system information",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank has the right to access any information related to payment system operations and system providers. All system participants must provide access to such information to the Reserve Bank.",
+      "dtia_summary": "Ensures regulators can monitor payment systems, impacting data transfer mechanisms and system interoperability across borders.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Reserve Bank has the right to access information relating to payment system operations and system providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System participants must provide access to such information to the Reserve Bank",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. Access to information.—The Reserve Bank shall have right to access any information relating to the operation of any payment system and system provider and all the system participants shall provide access to such information to the Reserve Bank."
+    },
+    {
+      "section": "14",
+      "heading": "Power to enter and inspect.—Any officer of the Reserve Bank duly authorised by it in writing in",
+      "title": "Reserve Bank's authority to inspect payment system premises",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "Reserve Bank officers with written authorization may enter payment system premises and inspect equipment, including computer systems and documents, to ensure compliance with the Act or regulations. They can also require employees or individuals present to provide information or documents as needed for compliance checks.",
+      "dtia_summary": "This section grants the Reserve Bank the power to inspect payment system infrastructure, which impacts DTIA by requiring assessments of physical and digital access controls for cross-border payment systems.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Reserve Bank officers with written authorization may enter payment system premises",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank officers may inspect any equipment, including computer systems or other documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank officers may require employees or individuals present to furnish information or documents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any officer of the Reserve Bank duly authorised by it in writing in this behalf, may for ensuring compliance with the provisions of this Act or any regulations, enter any premises where a payment system is being operated and may inspect any equipment, including any computer system or other documents situated at such premises and call upon any employee of such system provider or participant thereof or any other person working in such premises to furnish such information or documents as may be required by such officer."
+    },
+    {
+      "section": "15",
+      "heading": "Information, etc., to be confidential.—(1) Subject to the provisions of sub-section (2), any",
+      "title": "Confidentiality of payment system information",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "Payment system information obtained by the Reserve Bank under sections 12-14 must be kept confidential, except when disclosure is necessary to protect payment system integrity, banking policy, monetary policy, or public interest. The Reserve Bank may disclose such information to specific persons for these purposes.",
+      "dtia_summary": "This section affects DTIA by establishing confidentiality rules for payment system data, which may require data minimization and secure handling during cross-border transfers.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any document or information obtained by the Reserve Bank under sections 12 to 14 shall be kept confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank may disclose information to persons necessary for protecting payment system integrity, effectiveness, or security",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may disclose information in the interest of banking or monetary policy",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may disclose information for the operation of payment systems generally or public interest",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Any document or information obtained by the Reserve Bank under sections 12 to 14 (both inclusive) shall be kept confidential. Notwithstanding anything contained in sub-section (1), the Reserve Bank may disclose any document or information obtained by it under sections 12 to 14 (both inclusive) to any person to whom the disclosure of such document or information is considered necessary for protecting the integrity, effectiveness or security of the payment system, or in the interest of banking or monetary policy or the operation of the payment systems generally or in the public interest."
+    },
+    {
+      "section": "16",
+      "heading": "Power to carry out audit and inspection.—The Reserve Bank may, for the purpose of carrying",
+      "title": "Reserve Bank's audit and inspection authority",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank may conduct or arrange for audits and inspections of payment systems and their participants to ensure compliance with the Act. System providers and participants must assist the Reserve Bank during these audits and inspections.",
+      "dtia_summary": "This section impacts DTIA by requiring regular audits of payment systems, which may necessitate data security assessments for cross-border data flows.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Reserve Bank may conduct or get conducted audits and inspections of payment systems or participants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "System providers and participants must assist Reserve Bank in carrying out audits or inspections",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Reserve Bank may, for the purpose of carrying out its functions under this Act, conduct or get conducted audits and inspections of a payment system or participants thereof and it shall be the duty of the system provider and the system participants to assist the Reserve Bank to carry out such audit or inspection, as the case may be."
+    },
+    {
+      "section": "17",
+      "heading": "Power to issue directions.—Where the Reserve Bank is of the opinion that,—",
+      "title": "Reserve Bank's power to issue risk-related directions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank may issue written directions to payment systems or participants to cease activities causing systemic risk or to take corrective actions if they are likely to affect monetary policy, credit policy, or payment system stability.",
+      "dtia_summary": "This section is critical for DTIA as it mandates risk-based interventions, requiring assessments of systemic risks in cross-border payment systems.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Reserve Bank may issue directions to cease acts causing systemic risk inadequately controlled",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may issue directions to ensure system participants cease risky activities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may issue directions to perform necessary acts to remedy situations",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Where the Reserve Bank is of the opinion that, a payment system or a system participant is engaging in, or is about to engage in, any act, omission or course of conduct that results, or is likely to result, in systemic risk being inadequately controlled; or any action under clause (a) is likely to affect the payment system, the monetary policy or the credit policy of the country, the Reserve Bank may issue directions in writing to such payment system or system participant requiring it, within such time as the Reserve Bank may specify— (i) to cease and desist from engaging in the act, omission or course of conduct or to ensure the system participants to cease and desist from the act, omission or course of conduct; or (ii) to perform such acts as may be necessary, in the opinion of the Reserve Bank, to remedy the situation."
+    },
+    {
+      "section": "18",
+      "heading": "Power of Reserve Bank to give directions generally.—Without prejudice to the provisions of",
+      "title": "Reserve Bank's general policy-making authority",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Regulator Powers",
+      "summary": "The Reserve Bank may establish policies and directions for payment systems, including electronic and international payment systems, to regulate their operation and ensure public interest, monetary policy, and system stability.",
+      "dtia_summary": "This section impacts DTIA by allowing the Reserve Bank to set overarching rules for payment systems, which may affect cross-border data handling and system design.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Reserve Bank may lay down policies for payment systems including electronic and international payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Reserve Bank may issue directions to system providers or participants for payment system regulation",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Without prejudice to the provisions of the foregoing, the Reserve Bank may, if it is satisfied that for the purpose of enabling it to regulate the payment systems or in the interest of management or operation of any of the payment systems or in public interest, it is necessary so to do, lay down policies relating to the regulation of payment systems including electronic, non-electronic, domestic and international payment systems affecting domestic transactions and give such directions in writing as it may consider necessary to system providers or the system participants or any other person either generally or to any such agency and in particular, pertaining to the conduct of business relating to payment systems."
+    },
+    {
+      "section": "19",
+      "heading": "Directions of Reserve Bank to be complied with.—Every person to whom a direction has been",
+      "title": "Compliance with Reserve Bank directions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Regulator Powers",
+      "summary": "All persons receiving directions from the Reserve Bank under this Act must comply immediately and submit a report of compliance within the timeframe specified by the Reserve Bank.",
+      "dtia_summary": "This section is relevant for DTIA as it mandates timely compliance with regulatory directions, which may impact cross-border data transfer timelines and procedures.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Every person to whom a direction has been issued by the Reserve Bank shall comply without delay",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance report must be furnished to the Reserve Bank within the time allowed",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every person to whom a direction has been issued by the Reserve Bank under this Act shall comply with such direction without any delay and a report of compliance shall be furnished to the Reserve Bank within the time allowed by it."
+    },
+    {
+      "section": "20",
+      "heading": "System provider to act in accordance with the Act, regulations, etc.—Every system provider",
+      "title": "System providers must comply with payment system regulations",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Every system provider operating a payment system in India must adhere to the Payment and Settlement Systems Act, 2007, relevant regulations, contractual agreements with participants, payment system rules, authorization conditions, and Reserve Bank directives. This obligation applies to all system providers managing payment systems within the Indian financial infrastructure.",
+      "dtia_summary": "System providers must follow regulatory frameworks for payment systems, which impacts cross-border data transfers by requiring compliance with Indian financial regulations for payment processing.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System provider shall operate payment system in accordance with this Act, regulations, contracts, payment system rules, authorization conditions, and Reserve Bank directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every system provider shall operate the payment system in accordance with the provisions of this Act, the regulations, the contract governing the relationship among the system participants, the rules and regulations which deal with the operation of the payment system and the conditions subject to which the authorisation is issued, and the directions given by the Reserve Bank from time to time."
+    },
+    {
+      "section": "21",
+      "heading": "Duties of a system provider.—(1) Every system provider shall disclose to the existing or",
+      "title": "System providers must disclose payment terms to participants",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "System providers in India must provide existing or potential participants with payment system terms, conditions, charges, liability limitations, copies of operational rules, netting arrangements, and relevant documents. This duty also requires maintaining standards as determined by the Act.",
+      "dtia_summary": "System providers must disclose payment terms to participants, which affects data transfer by requiring transparency in payment system operations.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System provider shall disclose terms and conditions including charges and liability limitations to existing or potential system participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System provider shall supply copies of payment system rules, regulations, netting arrangements, and relevant documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System provider shall maintain standards determined under this Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every system provider shall disclose to the existing or potential system participants, the terms and conditions including the charges and the limitations of liability under the payment system, supply them with copies of the rules and regulations governing the operation of the payment system, netting arrangements and other relevant documents."
+    },
+    {
+      "section": "22",
+      "heading": "Duty to keep documents in the payment system confidential.—(1) A system provider shall not",
+      "title": "System providers must keep payment documents confidential",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "System providers in India must not disclose payment documents or information to third parties without express or implied consent of the participant, court order, or statutory authority. The Bankers' Book Evidence Act, 1891 applies to information maintained by system providers.",
+      "dtia_summary": "System providers must maintain confidentiality of payment documents, which impacts data transfers by requiring secure handling of payment information.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System provider shall not disclose existence or contents of payment documents to any other person",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosure permitted only with express or implied consent of system participant",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosure permitted where required by this Act",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosure permitted where ordered by court of competent jurisdiction or statutory authority",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A system provider shall not disclose to any other person the existence or contents of any document or part thereof or other information given to him by a system participant, except where such disclosure is required under the provisions of this Act or the disclosure is made with the express or implied consent of the system participant concerned or where such disclosure is in obedience to the orders passed by a court of competent jurisdiction or a statutory authority in exercise of the powers conferred by a statute."
+    },
+    {
+      "section": "23",
+      "heading": "Settlement and netting.—(1) The payment obligations and settlement instructions among the",
+      "title": "Settlement procedures must be final and irrevocable",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Payment obligations among system participants must follow gross or netting procedures approved by the Reserve Bank. Settlements are final and irrevocable, and liquidators cannot reopen them. Central counter parties must determine settlement instructions in accordance with approved procedures.",
+      "dtia_summary": "Settlement procedures must be final and irrevocable, which affects cross-border data transfers by requiring secure and final payment processing.",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment obligations and settlement instructions must follow gross or netting procedure approved by Reserve Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Settlement procedures shall be final and irrevocable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liquidators cannot reopen final and irrevocable settlements",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Liquidators must return excess collaterals to system participants",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The payment obligations and settlement instructions among the system participants shall be determined in accordance with the gross or netting procedure, as the case maybe, approved by the Reserve Bank while issuing authorisation to a payment system... A settlement effected under such procedure shall be final and irrevocable."
+    },
+    {
+      "section": "4",
+      "heading": "Ins.by s. 3, ibid. (w.e.f. 1-6-2015).",
+      "title": "Penalty payment terms",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Penalties imposed by the Reserve Bank must be paid within thirty days of notice. Failure to pay may lead to court enforcement. The Reserve Bank may recover penalties by debiting current accounts, liquidating securities, or through court orders. Penalties are enforceable as decrees in civil suits.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any penalty imposed by the Reserve Bank under this section shall be payable within a period of thirty days from the date on which notice issued by the Reserve Bank demanding payment of the sum is served on the defaulter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of failure of the person to pay the sum within such period, may be recovered on a direction made by the principal civil court having jurisdiction in the area where the registered office of the defaulter company or the official business of the person is situated",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank may recover the amount of penalty by debiting the current account, if any, of the defaulter or by liquidating the securities held to the credit of the defaulter",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The court which makes a direction under sub-section (3) shall issue a certificate specifying the sum payable by the defaulter and every such certificate shall be enforceable in the same manner as it were a decree made by the court in a civil suit",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank."
+    },
+    {
+      "section": "4",
+      "heading": "Ins. by Act 18 of 2015, s. 4 (w.e.f. 1-6-2015).",
+      "title": "Penalty payment terms",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "Penalties imposed by the Reserve Bank must be paid within thirty days of notice. Failure to pay may lead to court enforcement. The Reserve Bank may recover penalties by debiting current accounts, liquidating securities, or through court orders. Penalties are enforceable as decrees in civil suits.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any penalty imposed by the Reserve Bank under this section shall be payable within a period of thirty days from the date on which notice issued by the Reserve Bank demanding payment of the sum is served on the defaulter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of failure of the person to pay the sum within such period, may be recovered on a direction made by the principal civil court having jurisdiction in the area where the registered office of the defaulter company or the official business of the person is situated",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank may recover the amount of penalty by debiting the current account, if any, of the defaulter or by liquidating the securities held to the credit of the defaulter",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The court which makes a direction under sub-section (3) shall issue a certificate specifying the sum payable by the defaulter and every such certificate shall be enforceable in the same manner as it were a decree made by the court in a civil suit",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank."
+    },
+    {
+      "section": "24",
+      "heading": "Settlement of disputes.—(1) The system provider shall make provision in its rules or regulations",
+      "title": "Dispute resolution mechanism for payment system participants",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Cross-border Transfer",
+      "summary": "System providers must establish a dispute resolution panel of at least three participants to resolve conflicts between system participants regarding payment system operations. Disputes between participants must be referred to this panel. If participants are unsatisfied with the panel's decision or disputes involve the system provider, the matter must be escalated to the Reserve Bank for final adjudication. The Reserve Bank's decision is binding and final.",
+      "dtia_summary": "Requires a structured dispute resolution process involving independent participants before escalation to the Reserve Bank, impacting cross-border payment system data handling and dispute resolution mechanisms.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System provider must create a dispute resolution panel of at least three system participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disputes between system participants must be referred to the panel",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disputes involving system provider or panel decisions must be escalated to Reserve Bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reserve Bank's decision on escalated disputes is final and binding",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "24. Settlement of disputes.—(1) The system provider shall make provision in its rules or regulations for creation of panel consisting of not less than three system participants other than the system participants who are parties to the dispute to decide the disputes between system participants in respect of any matter connected with the operation of the payment system."
+    },
+    {
+      "section": "25",
+      "heading": "Dishonour of electronic funds transfer for insufficiency, etc., of funds in the account.—(1)",
+      "title": "Penalties for dishonoured electronic funds transfers",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Financial Data",
+      "summary": "Initiating electronic funds transfers with insufficient funds constitutes an offence punishable by imprisonment up to two years or a fine up to twice the transfer amount. The offence applies only if the transfer was for debt discharge, followed by written beneficiary demand within 30 days, and failure to pay within 15 days. The court presumes the transfer was for debt discharge unless proven otherwise.",
+      "dtia_summary": "Defines specific conditions under which electronic funds transfers with insufficient funds trigger penalties, impacting financial data handling and transfer validation processes.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Person initiating transfer with insufficient funds commits offence punishable by imprisonment up to two years or fine up to twice transfer amount",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfer must be for debt discharge to apply",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Beneficiary must give written demand within 30 days of dishonour",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Initiator must pay within 15 days of written demand",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Court presumes transfer was for debt discharge unless proven otherwise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "25. Dishonour of electronic funds transfer for insufficiency, etc., of funds in the account.—(1) Where an electronic funds transfer initiated by a person from an account maintained by him cannot be executed on the ground that the amount of money standing to the credit of that account is insufficient to honour the transfer instruction or that it exceeds the amount arranged to be paid from that account by an agreement made with a bank, such person shall be deemed to have committed an offence and shall, without prejudice to any other provisions of this Act, be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the electronic funds transfer, or with both"
+    },
+    {
+      "section": "26",
+      "heading": "Penalties.—(1)Where a person contravenes the provisions of section 4 or fails to comply with the",
+      "title": "Penalties for non-compliance with payment system regulations",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Financial Data",
+      "summary": "Violations of payment system regulations incur penalties including imprisonment up to ten years, fines up to one crore rupees, and daily fines up to one lakh rupees. False statements in applications or returns are punishable by imprisonment up to three years and fines from ten lakh to fifty lakh rupees. Failure to produce required documents or comply with inspections results in penalties as specified in section 30.",
+      "dtia_summary": "Imposes strict penalties for non-compliance with payment system data handling and reporting requirements, affecting financial data accuracy and regulatory adherence.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Contravention of section 4 or failure to comply with authorisation terms incurs imprisonment up to ten years or fine up to one crore rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "False statements in applications or returns punishable by imprisonment up to three years and fines from ten lakh to fifty lakh rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to produce required documents or comply with inspections incurs penalties as per section 30",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "26. Penalties.—(1)Where a person contravenes the provisions of section 4 or fails to comply with the terms and conditions subject to which the authorisation has been issued under section 7, he shall be punishable with imprisonment for a term which shall not be less than one month but which may extend to ten years or with fine which may extend to one crore rupees or with both"
+    },
+    {
+      "section": "1",
+      "heading": "Subs. by Act 18 of 2023, s. 2 and schedule, for certain words (w.e.f. 22-1-2024).",
+      "title": "Amendment for certain words effective from 22-01-2024",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "This section amends certain words in the Act effective from January 22, 2024, but does not contain substantive obligations or penalties. It is purely a procedural amendment to the text of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 18 of 2023, s. 2 and schedule, for certain words (w.e.f. 22-1-2024)."
+    },
+    {
+      "section": "27",
+      "heading": "Offences by companies.—(1) Where a person committing a contravention of any of the",
+      "title": "Company liability for payment system offences",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Financial Data",
+      "summary": "Companies committing payment system offences are liable for the contravention by all persons responsible for business operations. Directors, managers, and officers are also liable if the contravention occurred with their consent or neglect. Individuals may avoid liability by proving they were unaware or exercised due diligence.",
+      "dtia_summary": "Clarifies liability for payment system offences within companies, impacting data handling responsibilities across organizational structures.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Company and responsible persons liable for contraventions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors, managers, and officers liable if contravention occurred with consent or neglect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individuals may avoid liability by proving unawareness or due diligence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "27. Offences by companies.—(1) Where a person committing a contravention of any of the provisions of this Act or any regulation, direction or order made thereunder is a company, every person who, at the time of the contravention, was in-charge of, and was responsible to, the company for the conduct of business of the company, as well as the company, shall be guilty of the contravention and shall be liable to be proceeded against and punished accordingly"
+    },
+    {
+      "section": "28",
+      "heading": "Cognizance of offences.—(1) No court shall take cognizance of an offence punishable under this",
+      "title": "Cognizance of payment system offences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Financial Data",
+      "summary": "Courts may only take cognizance of payment system offences through written complaints from Reserve Bank officers. The court may dispense with personal attendance of the Reserve Bank officer but may require the complainant's attendance. Offences under section 25 can be prosecuted by the affected party.",
+      "dtia_summary": "Specifies how courts handle payment system offences, impacting legal procedures for data-related disputes.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Courts may only take cognizance of offences through written complaints from Reserve Bank officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Courts may dispense with personal attendance of Reserve Bank officer but may require complainant's attendance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Section 25 offences may be prosecuted by affected party",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "28. Cognizance of offences.—(1) No court shall take cognizance of an offence punishable under this Act except upon a complaint in writing made by an officer of the Reserve Bank generally or specially authorised by it in writing in this behalf"
+    },
+    {
+      "section": "29",
+      "heading": "Application of fine.—A court imposing any fine under this Act may direct that the whole or any",
+      "title": "Application of fines to court costs",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "Courts imposing fines under this Act may direct that the entire fine or part thereof be applied to cover the costs of the proceedings. This applies to any court enforcing penalties under the Payment and Settlement Systems Act, 2007.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A court imposing any fine under this Act may direct that the whole or any part thereof shall be applied in, or towards payment of, the costs of the proceedings",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "29. Application of fine.—A court imposing any fine under this Act may direct that the whole or any part thereof shall be applied in, or towards payment of, the costs of the proceedings."
+    },
+    {
+      "section": "30",
+      "heading": "Power of Reserve Bank to impose 2[penalties].—(1) Notwithstanding anything contained in",
+      "title": "Reserve Bank penalty powers",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "The Reserve Bank may impose penalties up to ten lakh rupees or twice the amount involved in contraventions, whichever is higher. For continuing defaults, penalties may be levied daily up to twenty-five thousand rupees. The Reserve Bank must serve a notice requiring the defaulter to show cause why the penalty should not be imposed and provide a hearing opportunity.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may impose on the person contravening or committing default a penalty not exceeding ten lakh rupees or twice the amount involved in such contravention or default where such amount is quantifiable, whichever is more",
+          "obligation_type": "May"
+        },
+        {
+          "text": "For continuing defaults, the Reserve Bank may impose further penalties extending to twenty-five thousand rupees for every day after the first during which the contravention or default continues",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank shall serve a notice on the defaulter requiring him to show cause why the amount specified in the notice should not be imposed as a penalty and a reasonable opportunity of being heard shall also be given to such defaulter",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. Power of Reserve Bank to impose 2[penalties].—(1) Notwithstanding anything contained in section 26, if a contravention or default of the nature referred to in sub-section (2) 3[or sub-section (3)] or sub-section (6) of section 26, as the case may be, the Reserve Bank may impose on the person contravening or committing default a penalty not exceeding 4[ten lakh] rupees or twice the amount involved in such contravention or default where such amount is quantifiable, whichever is more, and where such contravention or default is a continuing one, a further penalty which may extend to twenty-five thousand rupees for every day after the first during which the contravention or default continues."
+    },
+    {
+      "section": "4",
+      "heading": "Subs. by s. 2 and schedule, ibid., for \"five lakh\" (w.e.f. 22-1-2024).",
+      "title": "Penalty payment terms",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "Penalties imposed by the Reserve Bank must be paid within thirty days of notice. Failure to pay may lead to court enforcement. The Reserve Bank may recover penalties by debiting current accounts, liquidating securities, or through court orders. Penalties are enforceable as decrees in civil suits.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any penalty imposed by the Reserve Bank under this section shall be payable within a period of thirty days from the date on which notice issued by the Reserve Bank demanding payment of the sum is served on the defaulter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of failure of the person to pay the sum within such period, may be recovered on a direction made by the principal civil court having jurisdiction in the area where the registered office of the defaulter company or the official business of the person is situated",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank may recover the amount of penalty by debiting the current account, if any, of the defaulter or by liquidating the securities held to the credit of the defaulter",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The court which makes a direction under sub-section (3) shall issue a certificate specifying the sum payable by the defaulter and every such certificate shall be enforceable in the same manner as it were a decree made by the court in a civil suit",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank."
+    },
+    {
+      "section": "31",
+      "heading": "Power to compound offences.—(1) Notwithstanding anything contained in the Code of Criminal",
+      "title": "Compounding of offences",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "The Reserve Bank may compound offences punishable under this Act for contraventions that are not punishable with imprisonment only or with imprisonment and fine. Compounded offences prevent further proceedings against the person committing the contravention.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any offence punishable under this Act for any contravention, not being an offence punishable with imprisonment only, or with imprisonment and also with fine, may be compounded by an officer of the Reserve Bank duly authorised by it in this behalf",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Where a contravention has been compounded under sub-section (1), no proceeding or further proceeding shall be initiated or continued against the person committing such contravention under that section",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "31. Power to compound offences.—(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), any offence punishable under this Act for any contravention, not being an offence punishable with imprisonment only, or with imprisonment and also with fine, may, on receipt of an application from the person committing such contravention either before or after the institution of any proceeding, be compounded by an officer of the Reserve Bank duly authorised by it in this behalf."
+    },
+    {
+      "section": "32",
+      "heading": "Act to have overriding effect.—The provisions of this Act shall have effect notwithstanding",
+      "title": "Act overriding other laws",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This Act has overriding effect over any inconsistent provisions in other existing laws. This ensures the Payment and Settlement Systems Act takes precedence in cases of conflict.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "32. Act to have overriding effect.—The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force."
+    },
+    {
+      "section": "33",
+      "heading": "Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank",
+      "title": "Penalty recovery mechanisms",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Penalties may be recovered through notices to third parties, with specific rules for payment, enforcement, and liability. Third parties who receive notices must comply unless they contest the penalty in writing. Failure to pay leads to further enforcement actions.",
+      "dtia_summary": "",
+      "authority": "Reserve Bank of India",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Every person to whom a notice is issued under this sub-section shall be bound to comply with such notice, and where such notice is issued to a post office, bank or an insurer, it shall not be necessary for any passbook, deposit receipt, policy or any other document to be produced for the purpose of any entry, endorsement or the like being made before payment is made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any claim respecting any property in relation to which a notice under this sub-section has been issued arising after the date of the notice shall be void as against any demand contained in the notice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where a person to whom the notice under this sub-section is sent objects to it by a statement on oath that the sum demanded or any part thereof is not due to the defaulter or that he does not hold any money for or on account of the defaulter, then, nothing contained in this sub-section shall be deemed to require such person to pay any such sum or part thereof",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If it is discovered that such statement was false in any material particular, such person shall be personally liable to the Reserve Bank to the extent of his own liability to the defaulter on the date of the notice, or to the extent of the penalty imposed on the defaulter by the Reserve Bank, whichever is less",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Reserve Bank may at any time or from time to time, amend or revoke any notice issued under this section or extend the time for making the payment in pursuance of such notice",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Reserve Bank shall grant a receipt for any amount paid to it in compliance with a notice issued under this section and the person so paying shall be fully discharged from his liability to the defaulter to the extent of the amount so paid",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person discharging any liability to the defaulter after the receipt of a notice under this section shall be personally liable to the Reserve Bank to the extent of his own liability to the defaulter so discharged or to the extent of the penalty imposed on the defaulter by the Reserve Bank, whichever is less",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the person to whom the notice under this section is sent fails to make payment in pursuance thereof to the Reserve Bank, he shall be deemed to be the defaulter in respect of the amount specified in the notice and further proceedings may be taken against him for the realisation of the amount as if it were an arrear due from him in the manner provided in this section",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "33. Mode of recovery of penalty.—(1) The penalty imposed on the defaulter by the Reserve Bank under section 30 may be recovered by issuing a notice to any person from whom any amount is due to the defaulter, by requiring such person to deduct from the amount payable by him to the defaulter, the amount payable to the Reserve Bank by way of penalty and pay to the Reserve Bank."
+    },
+    {
+      "section": "34",
+      "heading": "Act not to apply to stock exchanges or clearing corporations of stock exchanges.—Nothing",
+      "title": "Exemptions for stock exchanges and clearing corporations",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Exemptions",
+      "summary": "This section explicitly states that nothing in the Payment and Settlement Systems Act applies to stock exchanges or their clearing corporations. The Act does not govern these entities, which is a clear exemption from the scope of the legislation.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it defines exemptions from the Act's scope, not data transfer mechanisms or requirements.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Nothing contained in this Act shall apply to stock exchanges or the clearing corporations of the stock exchanges",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "34. Act not to apply to stock exchanges or clearing corporations of stock exchanges.—Nothing contained in this Act shall apply to stock exchanges or the clearing corporations of the stock exchanges."
+    },
+    {
+      "section": "35",
+      "heading": "Certain persons deemed to be public servants.—Every officer of the Reserve Bank who has",
+      "title": "Reserve Bank officers deemed public servants",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Exemptions",
+      "summary": "This section states that every Reserve Bank officer entrusted with powers under the Act is deemed a public servant under the Indian Penal Code. This classification has implications for legal liability and accountability.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it defines a legal classification, not data transfer mechanisms or requirements.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Every officer of the Reserve Bank who has been entrusted with any power under this Act, shall be deemed to be a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "35. Certain persons deemed to be public servants.—Every officer of the Reserve Bank who has been entrusted with any power under this Act, shall be deemed to be a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860)."
+    },
+    {
+      "section": "36",
+      "heading": "Protection of action taken in good faith.—No suit or other legal proceedings shall lie against",
+      "title": "Protection for good faith actions",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Exemptions",
+      "summary": "This section provides legal immunity for the Central Government, Reserve Bank, and its officers from legal proceedings for damages caused by actions taken in good faith in pursuance of the Act, regulations, or orders made under it.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it addresses legal immunity, not data transfer mechanisms or requirements.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No suit or other legal proceedings shall lie against the Central Government, the Reserve Bank, or any officer thereof for any damage caused or likely to be caused by anything which is in good faith done or intended to be done in pursuance of this Act, any regulations, order or direction made or given thereunder",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "36. Protection of action taken in good faith.—No suit or other legal proceedings shall lie against the Central Government, the Reserve Bank, or any officer thereof for any damage caused or likely to be caused by anything which is in good faith done or intended to be done in pursuance of this Act, any regulations, order or direction made or given thereunder."
+    },
+    {
+      "section": "37",
+      "heading": "Power to remove difficulties.—(1) If any difficulty arises in giving effect to the provisions of",
+      "title": "Power to remove difficulties",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Exemptions",
+      "summary": "This section grants the Central Government the authority to issue orders via the Official Gazette to resolve difficulties in implementing the Act, with a two-year deadline for such orders and a requirement to lay the orders before Parliament.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it addresses legislative flexibility, not data transfer mechanisms or requirements.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "If any difficulty arises in giving effect to the provisions of this Act, the Central Government may, by order published in the Official Gazette, make such provision as appear to it to be necessary or expedient for removing the difficulty",
+          "obligation_type": "May"
+        },
+        {
+          "text": "No order shall be made under this section after the expiry of a period of two years from the commencement of this Act",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Every order made under this section shall be laid, as soon as may be after it is made, before each House of Parliament",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "37. Power to remove difficulties.—(1) If any difficulty arises in giving effect to the provisions of this Act, the Central Government may, by order published in the Official Gazette, make such provision is not inconsistent with the provisions of this Act as appear to it to be necessary or expedient for removing the difficulty: Provided that no order shall be made under this section after the expiry of a period of two years from the commencement of this Act. (2) Every order made under this section shall be laid, as soon as may be after it is made, before each House of Parliament."
+    },
+    {
+      "section": "38",
+      "heading": "Power of Reserve Bank to make regulations.—(1) The Reserve Bank may, by notification,",
+      "title": "Reserve Bank regulatory powers",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Exemptions",
+      "summary": "This section empowers the Reserve Bank to make regulations consistent with the Act to implement its provisions, including specific matters like board functions, application formats, authorization procedures, payment standards, and information reporting requirements.",
+      "dtia_summary": "This section is irrelevant for Data Transfer Impact Assessments as it addresses regulatory powers, not data transfer mechanisms or requirements.",
+      "authority": "Reserve Bank",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Reserve Bank may, by notification, make regulations consistent with this Act to carry out the provisions of this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the powers and functions of the Board, the time and venue of its meetings and the procedure to be followed by it at its meetings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the form and manner in which an application for authorisation for commencing or carrying on a payment system shall be made and the fees which shall accompany such application",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the form in which an authorisation to operate a payment system under this Act shall be issued",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the format of payment instructions and other matters relating to determination of standards to be complied with by the payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for the intervals, at which and the form and manner in which the information or returns required by the Reserve Bank shall be furnished",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for such other matters as are required to be, or may be, prescribed",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "38. Power of Reserve Bank to make regulations.—(1) The Reserve Bank may, by notification, make regulations consistent with this Act to carry out the provisions of this Act."
+    }
+  ]
+}

@@ -1,91 +1,64 @@
 {
   "country": "Mauritius",
   "document": "National-Identity-Card-Act-Consolidated- (Mauritius - Row 23)",
-  "generated": "2026-07-15T15:36:13",
+  "generated": "2026-07-16T18:19:43",
   "sections": [
     {
       "section": "2",
       "heading": "Interpretation",
+      "title": "Staff appointments for National Identity Card Unit",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 1,
       "page_end": 1,
       "primary_category": "Definitions",
-      "summary": "This section defines key terms used throughout the National Identity Card Act, including biometric information, digital wallet, identity card, Minister, Mobile ID, MNIC System, NIC number, register, Registrar, and Unit. These definitions establish the scope and meaning of critical concepts for the implementation of the identity card system and related processes.",
+      "summary": "This section outlines the procedures for appointing staff to the National Identity Card Unit, including the authority to designate a head and staff members, and the power to employ contract staff under specific conditions. It establishes the framework for personnel management within the Unit.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [
-        "Biometric Data"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "biometric information",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may designate a suitably qualified public officer or person to head the Unit",
+          "obligation_type": "Must"
         },
         {
-          "text": "digital wallet",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may designate such public officers or persons as may be necessary to assist the Unit",
+          "obligation_type": "Must"
         },
         {
-          "text": "identity card",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Minister",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Mobile ID",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "MNIC System",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "NIC number",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "register",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Registrar",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Unit",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may employ on contract suitably qualified persons to assist the Unit",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. Interpretation In this Act— \"biometric information\", in relation to an individual, means data about his external characteristics, including his fingerprints; \"digital wallet\" means a digital application issued by the National Identity Card Unit to store such digital documents as may be prescribed; \"identity card\" means a card issued under section 5(1); \"Minister\" means the Minister to whom responsiblity for the subject of civil status is assigned; \"Mobile ID\" means the digital identity document which the holder of an identity card may register under section 5(2B) and which is stored in the digital wallet; \"MNIC System\" means the hardware, software and infrastructure for the registration, personalisation, issuance and post-issuance of the identity card and Mobile ID; \"NIC number\" has the same meaning as in the Civil Status Act; \"register\" means the register kept under section 3; \"Registrar\" means the Registrar of Civil Status; \"Unit\" means the National Identity Card Unit referred to in section 2A."
+      "source_quote": "2B. Staff of National Identity Card Unit (1) (a) The Secretary to Cabinet and Head of the Civil Service may, subject to the approval of the Public Service Commission, designate – (i) a suitably qualified public officer or person to head the Unit; (ii) such public officers or persons as may be necessary to assist the Unit. (b) The Secretary to Cabinet and Head of the Civil Service may employ on contract, on such terms and conditions as he may determine, such suitably qualified persons, as may be necessary to assist the Unit in the proper discharge of its functions."
     },
     {
       "section": "11",
       "heading": "Designation of office",
+      "title": "Data collection and processing must comply with Data Protection Act",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 1,
       "page_end": 1,
-      "primary_category": "Definitions",
-      "summary": "This section states that data collection and processing under the Act must comply with the Data Protection Act, establishing the legal framework for handling personal information. It ensures that all data activities are subject to privacy protections.",
-      "dtia_summary": "",
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section states that all data collection and processing activities under the National Identity Card Act must comply with the Data Protection Act. It establishes that personal data, including biometric information, collected through this Act is subject to the broader Data Protection Act's requirements for data handling, privacy, and security.",
+      "dtia_summary": "This section mandates that all identity card data processing must follow Data Protection Act standards, which could impact cross-border data transfers if the Data Protection Act has international data transfer requirements.",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
       "data_types": [
+        "Biometric Data",
         "Personal Information"
       ],
       "requirements": [
         {
-          "text": "The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act.",
+          "text": "The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act",
           "obligation_type": "Must"
         }
       ],
@@ -94,75 +67,47 @@
     {
       "section": "2",
       "heading": "Interpretation",
+      "title": "Staff appointments for National Identity Card Unit",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 1,
       "page_end": 3,
       "primary_category": "Definitions",
-      "summary": "This section defines key terms used throughout the National Identity Card Act, including biometric information, digital wallet, identity card, Minister, Mobile ID, MNIC System, NIC number, register, Registrar, and Unit. These definitions establish the scope and meaning of critical concepts for the implementation of the identity card system and related processes.",
+      "summary": "This section outlines the procedures for appointing staff to the National Identity Card Unit, including the authority to designate a head and staff members, and the power to employ contract staff under specific conditions. It establishes the framework for personnel management within the Unit.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
       "topics": [],
-      "data_types": [
-        "Biometric Data"
-      ],
+      "data_types": [],
       "requirements": [
         {
-          "text": "biometric information",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may designate a suitably qualified public officer or person to head the Unit",
+          "obligation_type": "Must"
         },
         {
-          "text": "digital wallet",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may designate such public officers or persons as may be necessary to assist the Unit",
+          "obligation_type": "Must"
         },
         {
-          "text": "identity card",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Minister",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Mobile ID",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "MNIC System",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "NIC number",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "register",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Registrar",
-          "obligation_type": "Definition"
-        },
-        {
-          "text": "Unit",
-          "obligation_type": "Definition"
+          "text": "The Secretary to Cabinet and Head of the Civil Service may employ on contract suitably qualified persons to assist the Unit",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. Interpretation In this Act— \"biometric information\", in relation to an individual, means data about his external characteristics, including his fingerprints; \"digital wallet\" means a digital application issued by the National Identity Card Unit to store such digital documents as may be prescribed; \"identity card\" means a card issued under section 5(1); \"Minister\" means the Minister to whom responsiblity for the subject of civil status is assigned; \"Mobile ID\" means the digital identity document which the holder of an identity card may register under section 5(2B) and which is stored in the digital wallet; \"MNIC System\" means the hardware, software and infrastructure for the registration, personalisation, issuance and post-issuance of the identity card and Mobile ID; \"NIC number\" has the same meaning as in the Civil Status Act; \"register\" means the register kept under section 3; \"Registrar\" means the Registrar of Civil Status; \"Unit\" means the National Identity Card Unit referred to in section 2A."
+      "source_quote": "2B. Staff of National Identity Card Unit (1) (a) The Secretary to Cabinet and Head of the Civil Service may, subject to the approval of the Public Service Commission, designate – (i) a suitably qualified public officer or person to head the Unit; (ii) such public officers or persons as may be necessary to assist the Unit. (b) The Secretary to Cabinet and Head of the Civil Service may employ on contract, on such terms and conditions as he may determine, such suitably qualified persons, as may be necessary to assist the Unit in the proper discharge of its functions."
     },
     {
       "section": "4",
       "heading": "Duty to be registered",
+      "title": "Mandatory identity card registration for citizens",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 3,
       "page_end": 4,
       "primary_category": "Data Collection",
-      "summary": "This section mandates that citizens of Mauritius must apply for an identity card within six months of turning 18, with exceptions for non-residents or those with serious illnesses. Applicants must provide birth certificates, other documents, and biometric information, with medical certifications allowing exemptions for those unable to provide biometrics due to permanent disabilities.",
+      "summary": "This section requires citizens of Mauritius to apply for an identity card within six months of turning 18, with exceptions for non-residents or those with serious health conditions. It specifies the documents required for application, including birth certificates, naturalization certificates, and biometric information collection.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
@@ -174,79 +119,83 @@
       ],
       "requirements": [
         {
-          "text": "Every person who is a citizen of Mauritius shall, within 6 months of attaining the age of 18 and on such form as may be prescribed, apply for an identity card at any office designated by the Head of the Unit.",
+          "text": "Every citizen must apply for an identity card within six months of attaining 18 years of age",
           "obligation_type": "Must"
         },
         {
-          "text": "Where a person is not a resident of Mauritius or is unable to comply with paragraph (a) on account of serious illness, as certified by a medical practitioner in the public service, or on any other compelling and reasonable ground, he may apply for an identity card in such manner and within such period of attaining the age of 18 as the Head of the Unit may determine.",
+          "text": "Non-residents may apply for an identity card within a period determined by the Head of the Unit",
           "obligation_type": "Must"
         },
         {
-          "text": "Every person who applies for an identity card shall produce his birth certificate or his certificate of registration or naturalisation as a citizen of Mauritius, as the case may be.",
+          "text": "Persons unable to comply due to serious illness may apply for an identity card within a period determined by the Head of the Unit",
           "obligation_type": "Must"
         },
         {
-          "text": "Every person who applies for an identity card shall produce such other documents as the Head of the Unit may require.",
+          "text": "Applicants must produce birth certificate or certificate of registration/naturalisation as a citizen",
           "obligation_type": "Must"
         },
         {
-          "text": "Every person who applies for an identity card shall allow his fingerprints, and other biometric information about himself, to be taken and recorded.",
+          "text": "Applicants must produce other documents as required by the Head of the Unit",
           "obligation_type": "Must"
         },
         {
-          "text": "Every person who applies for an identity card shall allow himself to be photographed, for the purpose of the identity card.",
+          "text": "Applicants must allow fingerprints and other biometric information to be taken and recorded",
           "obligation_type": "Must"
         },
         {
-          "text": "Subsection (2)(c) shall not apply to a person who is certified by a medical practitioner in the public service to be unable to provide his biometric information by reason of any permanent infirmity or permanent disability.",
-          "obligation_type": "Must Not"
+          "text": "Applicants must allow themselves to be photographed for the identity card",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants certified as unable to provide biometric information due to permanent infirmity may be exempt from biometric collection",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": "4. Duty to be registered (1) (a) Subject to paragraph (b), every person who is a citizen of Mauritius shall, within 6 months of attaining the age of 18 and on such form as may be prescribed, apply for an identity card at any office designated by the Head of the Unit. (b) Where a person – (i) is not a resident of Mauritius; or (ii) is unable to comply with paragraph (a) on account of serious illness, as certified by a medical practitioner in the public service, or on any other compelling and reasonable ground, he may apply for an identity card in such manner and within such period of attaining the age of 18 as the Head of the Unit may determine. (2) Every person who applies for an identity card shall — (a) produce his birth certificate or his certificate of registration or naturalisation as a citizen of Mauritius, as the case may be; (b) produce such other documents as the Head of the Unit may require; (c) allow his fingerprints, and other biornetric information about himself, to be taken and recorded; and (d) allow himself to be photographed, for the purpose of the identity card."
+      "source_quote": "4. Duty to be registered (1) (a) Subject to paragraph (b), every person who is a citizen of Mauritius shall, within 6 months of attaining the age of 18 and on such form as may be prescribed, apply for an identity card at any office designated by the Head of the Unit. (b) Where a person – (i) is not a resident of Mauritius; or (ii) is unable to comply with paragraph (a) on account of serious illness, as certified by a medical practitioner in the public service, or on any other compelling and reasonable ground, he may apply for an identity card in such manner and within such period of attaining the age of 1:8 as the Head of the Unit may determine. (2) Every person who applies for an identity card shall — (a) produce his birth certificate or his certificate of registration or naturalisation as a citizen of Mauritius, as the case may be; (b) produce such other documents as the Head of the Unit may require; (c) allow his fingerprints, and other biornetric information about himself, to be taken and recorded; and (d) allow himself to be photographed, for the purpose of the identity card."
     },
     {
       "section": "6",
       "heading": "Change of residence",
+      "title": "Mandatory residence change notification",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 5,
       "page_end": 6,
-      "primary_category": "Data Storage",
-      "summary": "This section requires individuals who have obtained an identity card to notify the National Identity Card Unit within 28 days of changing their residence. The notification must be submitted in a prescribed form, ensuring timely updates to the identity card system.",
+      "primary_category": "Data Collection",
+      "summary": "This section requires individuals who change their residence to notify the National Identity Card Unit within 28 days. It specifies that the notification must be submitted in the form prescribed by the Unit, ensuring timely updates to the identity card records.",
       "dtia_summary": "",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
-      "topics": [
-        "Data Storage"
-      ],
+      "topics": [],
       "data_types": [
         "Personal Information"
       ],
       "requirements": [
         {
-          "text": "Where any person issued with an identity card changes his residence, he shall, within 28 days of the occurrence, notify the change at any office designated by the Head of the Unit or in such manner as may be prescribed.",
+          "text": "Any person who changes residence must notify the National Identity Card Unit within 28 days",
           "obligation_type": "Must"
         },
         {
-          "text": "Any change of residence reported under subsection (1) shall be in such form as may be prescribed.",
+          "text": "The change of residence notification must be submitted in the form prescribed by the Head of the Unit",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. Change of residence (1) Where any person issued with an identity card changes his residence, he shall, within 28 days of the occurrence, notify the change at any office designated by the Head of the Unit or in such manner as may be prescribed."
+      "source_quote": "6. Change of residence (1) Where any person issued with an identity card changes his residence, he shall, within 28 days of the occurrence, notify the change at any office designated by the Head of the Unit or in such manner as may be prescribed. (2) Any change of residence reported under subsection (1) shall be in such form as may be prescribed."
     },
     {
       "section": "12",
       "heading": "Collection and processing of data to be subject to Data Protection Act",
+      "title": "Data collection subject to Data Protection Act",
       "chapter": null,
       "part": null,
       "condition": null,
       "page_start": 9,
       "page_end": 9,
-      "primary_category": "Data Collection",
-      "summary": "This section explicitly states that all personal data, including biometric information, collected and processed under the National Identity Card Act must comply with the Data Protection Act, ensuring that data handling adheres to privacy regulations.",
-      "dtia_summary": "",
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section explicitly states that all personal data, including biometric information, collected and processed under the National Identity Card Act must comply with the Data Protection Act. This ensures that identity card data handling adheres to broader privacy and data protection standards.",
+      "dtia_summary": "This section mandates that identity card data processing must follow Data Protection Act standards, which could impact cross-border data transfers if the Data Protection Act has international data transfer requirements.",
       "authority": "",
       "financial_relevance": "None",
       "confidence": "High (explicit)",
@@ -257,7 +206,7 @@
       ],
       "requirements": [
         {
-          "text": "The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act.",
+          "text": "The collection and processing of personal data, including biometric information, under this Act shall be subject to the provisions of the Data Protection Act",
           "obligation_type": "Must"
         }
       ],

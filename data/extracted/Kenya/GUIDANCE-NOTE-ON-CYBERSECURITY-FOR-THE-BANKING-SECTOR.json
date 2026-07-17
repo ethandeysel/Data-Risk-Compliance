@@ -1,7 +1,7 @@
 {
   "country": "Kenya",
   "document": "GUIDANCE-NOTE-ON-CYBERSECURITY-FOR-THE-BANKING-SECTOR",
-  "generated": "2026-07-15T17:29:14",
+  "generated": "2026-07-16T16:04:25",
   "sections": [
     {
       "section": "2",
@@ -13,8 +13,8 @@
       "page_start": 2,
       "page_end": 2,
       "primary_category": "Governance",
-      "summary": "This section establishes the purpose and scope of cybersecurity policies for banking institutions in Kenya. It mandates that institutions develop strategies to mitigate cyber risks, promote stability in the banking sector, combat cybercrime, protect critical information infrastructure, and maintain public trust. The guidance applies to all banking institutions licensed under the Banking Act (Cap. 488) but does not replace existing regulatory obligations.",
-      "dtia_summary": "This section sets the foundational policy framework for cybersecurity that institutions must follow when designing data transfer mechanisms. It emphasizes governance structures and risk management that impact how data is handled across borders and with third parties.",
+      "summary": "This section outlines the purpose and scope of the Guidance Note on Cybersecurity for the Banking Sector. It establishes minimum standards for cybersecurity governance and risk management frameworks that institutions must adopt. The Guidance Note aims to create a secure cyberspace, combat cybercrime, protect critical information infrastructure, and maintain public trust in the financial system without replacing existing regulatory obligations.",
+      "dtia_summary": "This section sets the foundational policy for cybersecurity governance in banking institutions, requiring robust oversight mechanisms and risk management frameworks that must be integrated into the institution's overall risk management strategy. It establishes the baseline for assessing cyber risks and ensuring alignment with regulatory expectations.",
       "authority": "Central Bank of Kenya (CBK)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -25,10 +25,6 @@
         "Financial Data"
       ],
       "requirements": [
-        {
-          "text": "This Guidance Note outlines the minimum requirements that institutions shall build upon in the development and implementation of strategies, policies, procedures and related activities aimed at mitigating cyber risk.",
-          "obligation_type": "Must"
-        },
         {
           "text": "Create a safer and more secure cyberspace that underpins information system security priorities and promote stability of the Kenyan banking sector",
           "obligation_type": "Must"
@@ -66,17 +62,14 @@
       "page_start": 2,
       "page_end": 7,
       "primary_category": "Security",
-      "summary": "This section details specific cybersecurity requirements for banking institutions, including governance responsibilities, regular independent assessments, outsourcing protocols, and training programs. It mandates that the board and senior management establish cybersecurity strategies, implement risk management frameworks, conduct regular penetration tests, and ensure third-party service providers comply with cybersecurity standards. The guidance emphasizes continuous monitoring and incident response mechanisms.",
-      "dtia_summary": "This section specifies technical and operational requirements for cybersecurity that directly impact data transfer and storage practices. It mandates robust governance, regular testing, and third-party oversight, which are critical for assessing cross-border data transfers and ensuring compliance with international standards.",
-      "authority": "",
+      "summary": "This section details specific cybersecurity requirements including governance structures, regular independent assessments, outsourcing protocols, and training programs. It mandates that institutions establish robust cybersecurity frameworks with clear responsibilities across the board, conduct annual independent threat assessments, and ensure third-party service providers meet regulatory standards. The requirements cover both technical and organizational aspects of cybersecurity.",
+      "dtia_summary": "This section provides detailed technical and organizational requirements for cybersecurity, including mandatory annual threat assessments, clear governance structures, and third-party risk management protocols that directly impact data transfer and processing security across borders.",
+      "authority": "Central Bank of Kenya (CBK)",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Security",
-        "Incident Reporting",
-        "Breach Notification",
-        "Third Party Processing",
-        "Cloud Services"
+        "Incident Reporting"
       ],
       "data_types": [
         "Financial Data"
@@ -87,43 +80,43 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should oversee cultivation of ethical governance culture and awareness",
+          "text": "Board should oversee cultivation of ethical governance and management culture",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should engage management in establishing cybersecurity vision and strategic direction",
+          "text": "Board should engage management in establishing cybersecurity vision and risk appetite",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should allocate adequate cybersecurity budget based on institution structure",
+          "text": "Board should allocate adequate cybersecurity budget based on institution structure",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should review management's determination of cybersecurity preparedness alignment with cyber risks",
+          "text": "Board should review management's determination of cybersecurity preparedness alignment with cyber risks",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should establish cybersecurity risk ownership and management accountability",
+          "text": "Board should establish cybersecurity risk ownership and management accountability",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should approve and continuously review cybersecurity strategy, governance charter, policy and framework",
+          "text": "Board should approve and continuously review cybersecurity strategy, governance charter, policy and framework",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should ensure cybersecurity policy applies to all operating entities, including subsidiaries and geographic regions",
+          "text": "Board should ensure cybersecurity policy applies to all operating entities including subsidiaries",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should review implementation of cybersecurity framework and implementation plan at least once in 12 months",
+          "text": "Board should review implementation of cybersecurity framework at least once every 12 months",
           "obligation_type": "Must"
         },
         {
-          "text": "Board of Directors should incorporate cybersecurity as a standard agenda in Board meetings",
+          "text": "Board should incorporate cybersecurity as a standard agenda in board meetings",
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should implement board-approved cybersecurity strategy, policy and framework",
+          "text": "Senior Management should implement board-approved cybersecurity strategy",
           "obligation_type": "Must"
         },
         {
@@ -131,11 +124,11 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should ensure creation of mitigation and recovery procedures for cyber risk incidents",
+          "text": "Senior Management should ensure mitigation and recovery procedures for cyber risk incidents",
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should continuously improve collection, analysis and reporting of cybercrime information",
+          "text": "Senior Management should continuously improve collection and analysis of cybercrime information",
           "obligation_type": "Must"
         },
         {
@@ -147,15 +140,15 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should ensure timely and regular reporting to the board on cyber risk status",
+          "text": "Senior Management should ensure timely reporting to the board on cyber risk status",
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should establish a cybersecurity benchmarking framework with Board's endorsement",
+          "text": "Senior Management should establish cybersecurity benchmarking framework with board endorsement",
           "obligation_type": "Must"
         },
         {
-          "text": "Senior Management should incorporate cybersecurity as a standard agenda in Senior Management meetings",
+          "text": "Senior Management should incorporate cybersecurity as a standard agenda in senior management meetings",
           "obligation_type": "Must"
         },
         {
@@ -163,31 +156,31 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions should document cybersecurity incident response plan with roles, responsibilities, incident detection and assessment, reporting, and escalation strategies",
+          "text": "Institutions should document cybersecurity incident response plan with roles, responsibilities, incident detection and assessment",
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions should collaborate with other institutions and security agencies to share latest cyber threats",
+          "text": "Institutions should collaborate with other institutions and security agencies to share cyber threats",
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions should create a post-incident analysis framework to determine corrective actions",
+          "text": "Institutions should create post-incident analysis framework for corrective actions",
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions should oversee evaluation and management of risks introduced by third party service providers",
+          "text": "Institutions should oversee evaluation and management of risks introduced by third-party service providers",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should oversee and implement institution's cybersecurity program and enforce cybersecurity policy",
+          "text": "CISO should oversee implementation of cybersecurity program and enforce cybersecurity policy",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should ensure institution maintains current enterprise-wide knowledge base of users, devices, applications and their relationships",
+          "text": "CISO should ensure institution maintains current enterprise-wide knowledge base of users, devices, applications",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should ensure information systems meet institution's needs and ICT strategy complies with business strategies",
+          "text": "CISO should ensure information systems meet institution's needs and ICT strategy",
           "obligation_type": "Must"
         },
         {
@@ -199,27 +192,39 @@
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should ensure regular and comprehensive cyber risk assessments are conducted",
+          "text": "CISO should ensure regular and comprehensive cyber risk assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should ensure adequate processes for monitoring IT systems to detect cybersecurity events",
+          "text": "CISO should ensure processes for monitoring IT systems to detect cybersecurity events",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should report to CEO on an agreed interval but not less than once per quarter on confidentiality, integrity, availability of information systems",
+          "text": "CISO should report to CEO on cybersecurity assessment, exceptions, effectiveness of program, and material events",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should report on detailed exceptions to approved cybersecurity policies and procedures",
+          "text": "CISO should ensure timely update of incident response mechanism and Business Continuity Plan",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should report on assessment of effectiveness of approved cybersecurity program",
+          "text": "CISO should incorporate scenario analysis to consider material cyber-attacks",
           "obligation_type": "Must"
         },
         {
-          "text": "CISO should report on all material cybersecurity events affecting the institution",
+          "text": "CISO should ensure frequent data backups of critical IT systems to separate storage locations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CISO should ensure roles and responsibilities for managing cyber risks are clearly defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CISO should continuously test disaster recovery and Business Continuity Plans",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Institutions should engage external consultants with sufficient cybersecurity expertise",
           "obligation_type": "Must"
         },
         {
@@ -227,91 +232,95 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions should incorporate qualified ICT Auditors within Internal Audit team",
+          "text": "Institutions should incorporate qualified ICT auditors within Internal Audit team",
           "obligation_type": "Must"
         },
         {
-          "text": "Internal ICT Auditors should continuously review and report on cyber risks and controls of ICT systems",
+          "text": "Internal ICT auditors should continuously review and report on cyber risks and controls",
           "obligation_type": "Must"
         },
         {
-          "text": "Internal ICT Auditors should assess design and effectiveness of cybersecurity framework",
+          "text": "Internal ICT auditors should assess design and effectiveness of cybersecurity framework",
           "obligation_type": "Must"
         },
         {
-          "text": "Internal ICT Auditors should conduct regular independent threat and vulnerability assessment tests",
+          "text": "Internal ICT auditors should conduct regular independent threat and vulnerability assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "Internal ICT Auditors should report to the board findings of assessments",
+          "text": "Internal ICT auditors should report to board findings of assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "Internal ICT Auditors should conduct comprehensive penetration tests",
+          "text": "Internal ICT auditors should conduct comprehensive penetration tests",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should assess cybersecurity risks and determine alignment with institution's risk appetite",
+          "text": "Risk management function should assess cybersecurity risks and determine alignment with risk appetite",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should monitor current and emerging cybersecurity risks",
+          "text": "Risk management function should monitor current and emerging cybersecurity risks",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should collaborate with system administrators to ensure appropriate control design",
+          "text": "Risk management function should collaborate with system administrators to ensure appropriate control design",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should maintain comprehensive cyber risk registers",
+          "text": "Risk management function should maintain comprehensive cyber risk registers",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should ensure implementation of cyber and information risk management strategy",
+          "text": "Risk management function should ensure implementation of cyber risk management strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should safeguard confidentiality, integrity and availability of information",
+          "text": "Risk management function should safeguard confidentiality, integrity and availability of information",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should establish comprehensive inventory of IT assets by business criticality",
+          "text": "Risk management function should establish comprehensive inventory of IT assets",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should quantify potential impact by assessing residual cyber risk",
+          "text": "Risk management function should quantify potential impact by assessing residual cyber risk",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should report all enterprise risks consistently and comprehensively to the board",
+          "text": "Risk management function should report all enterprise risks consistently to the board",
           "obligation_type": "Must"
         },
         {
-          "text": "Risk Management Function should conduct red team exercises",
+          "text": "Risk management function should conduct red team exercises",
           "obligation_type": "Must"
         },
         {
-          "text": "External Auditors should ensure IT audit scope includes understanding institution's IT infrastructure",
+          "text": "External auditors should ensure IT audit scope includes understanding institution's IT infrastructure",
           "obligation_type": "Must"
         },
         {
-          "text": "External Auditors should understand extent of institution's automated controls as they relate to financial reporting",
+          "text": "External auditors should understand extent of institution's automated controls",
           "obligation_type": "Must"
         },
         {
-          "text": "External Auditors should conduct independent threat and vulnerability assessment",
+          "text": "External auditors should conduct independent threat and vulnerability assessment",
           "obligation_type": "Must"
         },
         {
-          "text": "External Auditors should conduct comprehensive review of approved cybersecurity strategy and policy",
+          "text": "External auditors should conduct comprehensive review of approved cybersecurity strategy",
           "obligation_type": "Must"
         },
         {
-          "text": "External Auditors should conduct comprehensive penetration tests",
-          "obligation_type": ""
+          "text": "External auditors should conduct comprehensive penetration tests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "External auditors should report annually to board and CBK on assessment findings",
+          "obligation_type": "Must"
         }
       ],
-      "source_quote": ""
+      "source_quote": "Institutions should carry out an independent cyber threat test at least once a year."
     },
     {
       "section": "3 (part 2)",
@@ -343,62 +352,61 @@
       "page_start": 10,
       "page_end": 14,
       "primary_category": "Third Party Processing",
-      "summary": "Financial institutions must implement robust governance for outsourcing agreements, including due diligence on service providers, documented contracts, and monitoring of service delivery. They must treat outsourcing agreements as critical infrastructure, select vendors based on compliance and risk assessments, ensure computing resources are secured, and require service providers to comply with applicable legal frameworks. Institutions must also understand third-party risks, perform analytics on their outsourcing portfolio, collaborate with third parties to mitigate risks, and monitor for changes in third parties' cyber posture.",
-      "dtia_summary": "This section mandates specific cybersecurity controls for third-party relationships, requiring institutions to assess and manage risks associated with outsourcing to ensure data security and compliance during cross-border data transfers involving third parties.",
+      "summary": "Financial institutions must implement robust governance for outsourcing agreements, including due diligence on service providers, documented contracts, and monitoring of service delivery. They must treat outsourcing agreements as critical infrastructure, select vendors based on compliance and risk assessments, ensure computing resources are secured, and require service providers to comply with all applicable legal and regulatory frameworks. Institutions must also assess third-party risks, perform analytics on their outsourcing portfolio, collaborate with third parties to mitigate risks, and monitor for changes in third parties' business and cyber posture.",
+      "dtia_summary": "This section mandates specific cybersecurity controls for third-party relationships, requiring institutions to assess and manage risks from outsourcing agreements to ensure data security during cross-border or international transfers involving third parties.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Third Party Processing",
-        "Outsourcing",
-        "Security"
+        "Outsourcing"
       ],
       "data_types": [
         "Financial Data"
       ],
       "requirements": [
         {
-          "text": "Have in place adequate governance of outsourcing agreements including due diligence on prospective service providers, documented outsourcing agreements and adequate monitoring of service delivery.",
+          "text": "Have in place adequate governance of outsourcing agreements including due diligence on prospective service providers, documented outsourcing agreements and adequate monitoring of service delivery",
           "obligation_type": "Must"
         },
         {
-          "text": "Consider all outsourcing agreements as critical infrastructure for regulation and protection for purposes of security of the banking sector and the economy at large.",
+          "text": "Consider all outsourcing agreements as critical infrastructure for regulation and protection for purposes of security of the banking sector and the economy at large",
           "obligation_type": "Must"
         },
         {
-          "text": "Select their vendors based on compliance and risk assessments.",
+          "text": "Select their vendors based on compliance and risk assessments",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure all computing resources are secured including registrations, licensing, compliance and verification.",
+          "text": "Ensure all computing resources are secured including registrations, licensing, compliance and verification",
           "obligation_type": "Must"
         },
         {
-          "text": "Ensure all outsourcing contracts require service providers to comply with applicable legal and regulatory frameworks.",
+          "text": "Ensure all outsourcing contracts require service providers to comply with applicable legal and regulatory frameworks",
           "obligation_type": "Must"
         },
         {
-          "text": "Understand the inherent risk arising from each third party.",
+          "text": "Understand the inherent risk arising from each third party",
           "obligation_type": "Must"
         },
         {
-          "text": "Perform analytics on an institution's outsourcing portfolio to understand which pose the most relative risk to an institution.",
+          "text": "Perform analytics on an institution's outsourcing portfolio to understand which pose the most relative risk to an institution",
           "obligation_type": "Must"
         },
         {
-          "text": "Work collaboratively with third parties to mitigate risks that pose the most risk to an institution.",
+          "text": "Work collaboratively with third parties to mitigate risks that pose the most risk to an institution",
           "obligation_type": "Must"
         },
         {
-          "text": "Monitor contracted third parties for changes in their business and cyber posture including expansions, divestitures, breaches and new attacks that may alter the third parties' exposure.",
+          "text": "Monitor contracted third parties for changes in their business and cyber posture including expansions, divestitures, breaches and new attacks that may alter the third parties' exposure",
           "obligation_type": "Must"
         },
         {
-          "text": "Service Level Agreements should have robust provisions in relation to security, service availability, performance metrics or penalties.",
+          "text": "Service Level Agreements should have robust provisions in relation to security, service availability, performance metrics or penalties",
           "obligation_type": "Must"
         },
         {
-          "text": "Develop exit management strategies and contingency plans.",
+          "text": "Develop exit management strategies and contingency plans",
           "obligation_type": "Must"
         }
       ],
