@@ -42,9 +42,14 @@ POST_DROP_NOISE = os.getenv("POST_DROP_NOISE", "1") == "1"
 COLUMNS = [
     "Country", "Act", "Section", "Heading", "Pages",
     "Financial Relevance", "Confidence", "Topics", "Data Types",
-    "Authority", "Summary", "DTIA Summary", "Requirements",
+    "Authority", "Summary", "DTIA Summary",
+    "Requirements", "Requirements (2)",
     "Source Quote", "Source",
 ]
+
+# The two Requirements columns split a section's checklist in half so rows
+# are ~half as tall (less vertical scrolling).
+REQ_COLS = ("Requirements", "Requirements (2)")
 
 # Topics that make a section financially relevant on their own.
 _FIN_TOPICS = {"Financial Data", "KYC", "AML", "Customer Information"}
@@ -76,9 +81,8 @@ def _one_line(text):
     return text
 
 
-def _requirements_text(section):
-    """Render a section's requirements as a bulleted checklist, one line
-    each (truncated to keep rows manageable)."""
+def _requirement_bullets(section):
+    """One '• …' line per requirement (truncated to keep rows manageable)."""
     parts = []
     for req in section.get("requirements", []):
         if isinstance(req, dict):
@@ -90,12 +94,24 @@ def _requirements_text(section):
             parts.append(prefix + _one_line(text))
         elif str(req).strip():
             parts.append("• " + _one_line(str(req).strip()))
-    return "\n".join(parts)
+    return parts
+
+
+def _requirements_split(section):
+    """Split the checklist into two roughly equal columns."""
+    bullets = _requirement_bullets(section)
+    half = (len(bullets) + 1) // 2
+    return "\n".join(bullets[:half]), "\n".join(bullets[half:])
 
 
 def _pdf_url(country, act):
     rel = f"data/acts/{country}/{act}.pdf"
     return PDF_BASE_URL + urllib.parse.quote(rel)
+
+
+def _reqs(row):
+    """Combined requirements text across both columns."""
+    return (str(row["Requirements"]) + "\n" + str(row["Requirements (2)"]))
 
 
 def _financial_signal(row):
@@ -104,14 +120,18 @@ def _financial_signal(row):
     topics = {t.strip() for t in row["Topics"].split(",") if t.strip()}
     if topics & _FIN_TOPICS:
         return "topic"
-    blob = f"{row['Heading']} {row['Summary']} {row['Requirements']}"
+    blob = f"{row['Heading']} {row['Summary']} {_reqs(row)}"
     return "keyword" if _FIN_KEYWORDS.search(blob) else None
 
 
 def _signal_score(row):
     """How many of topics/requirements/DTIA-summary/authority are present."""
-    return sum(bool(str(row[c]).strip()) for c in
-               ("Topics", "Requirements", "DTIA Summary", "Authority"))
+    return sum([
+        bool(str(row["Topics"]).strip()),
+        bool(_reqs(row).strip()),
+        bool(str(row["DTIA Summary"]).strip()),
+        bool(str(row["Authority"]).strip()),
+    ])
 
 
 class DataLoader:
@@ -163,6 +183,7 @@ class DataLoader:
     def _process_section(self, country, act, section):
         topics = section.get("topics", []) or []
         dtypes = section.get("data_types", []) or []
+        req1, req2 = _requirements_split(section)
         self.rows.append({
             "Country": country,
             "Act": act,
@@ -178,7 +199,8 @@ class DataLoader:
             "Authority": section.get("authority", ""),
             "Summary": section.get("summary", ""),
             "DTIA Summary": section.get("dtia_summary", ""),
-            "Requirements": _requirements_text(section),
+            "Requirements": req1,
+            "Requirements (2)": req2,
             "Source Quote": section.get("source_quote", ""),
             "Source": "",
         })
@@ -201,7 +223,7 @@ class DataLoader:
         if POST_DEDUP:
             seen, kept = set(), []
             for r in self.rows:
-                summ, req = r["Summary"].strip(), r["Requirements"].strip()
+                summ, req = r["Summary"].strip(), _reqs(r).strip()
                 key = (r["Country"], r["Act"], summ, req)
                 if (summ or req) and key in seen:
                     continue
@@ -254,12 +276,12 @@ class DataLoader:
             for r in self.rows:
                 r["Source"] = _pdf_url(r["Country"], r["Act"])
             return
-        # Internal link to the act's row on the Acts sheet (built in the
-        # same order write_acts iterates self.acts, so the rows line up).
+        # Store the act's row number on the Acts sheet (write_acts iterates
+        # self.acts in this same order).  The Query builds a valid internal
+        # HYPERLINK("#Acts!A"&row) from it.
         act_row = {key: i + 2 for i, key in enumerate(self.acts)}
         for r in self.rows:
-            row = act_row.get((r["Country"], r["Act"]))
-            r["Source"] = f"#'Acts'!A{row}" if row else ""
+            r["Source"] = act_row.get((r["Country"], r["Act"]), "")
 
     # -----------------------------------------------------------------
 

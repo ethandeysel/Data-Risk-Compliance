@@ -16,6 +16,7 @@ import os
 from openpyxl.styles import Font, Alignment
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.worksheet.hyperlink import Hyperlink
 
 # Excel's hard ceiling on row height (points).
 _EXCEL_MAX_ROW_HEIGHT = 409
@@ -31,15 +32,15 @@ _SOURCE_LABEL = "Open PDF" if SOURCE_LINK == "pdf" else "Go to Act"
 
 WRAP_COLUMNS = {
     "Heading", "Topics", "Data Types", "Summary", "DTIA Summary",
-    "Requirements", "Source Quote",
+    "Requirements", "Requirements (2)", "Source Quote",
 }
 
 
 def _col_width(name):
-    """Display width per column — Requirements is widest so each one-line
-    requirement fits without wrapping."""
-    if name == "Requirements":
-        return 100
+    """Display width per column — the two Requirements columns are wide
+    enough that each one-line requirement fits without wrapping."""
+    if name in ("Requirements", "Requirements (2)"):
+        return 78
     if name in WRAP_COLUMNS:
         return 45
     return 18
@@ -52,7 +53,10 @@ def _result_formula(header, match, col, last):
     functions newer than 2003)."""
     index = f"INDEX('Compliance Database'!${col}$2:${col}${last},{match})"
     if header == "Source":
-        return f'=IF(ISNA({match}),"",HYPERLINK({index},"{_SOURCE_LABEL}"))'
+        # acts mode: the cell holds the Acts-sheet row number, so build a
+        # valid internal target "#Acts!A<row>"; pdf mode: the cell is a URL.
+        target = index if SOURCE_LINK == "pdf" else f'"#Acts!A"&{index}'
+        return f'=IF(ISNA({match}),"",HYPERLINK({target},"{_SOURCE_LABEL}"))'
     return f'=IF(ISNA({match}),"",{index})'
 
 
@@ -79,16 +83,22 @@ class ExcelWriter:
         override = os.getenv("EXCEL_ROW_HEIGHT")
         if override:
             return min(int(override), _EXCEL_MAX_ROW_HEIGHT)
-        chars = 95  # approx chars per line at the Requirements column width
+        chars = 74  # approx chars per line at each Requirements column width
+        df = self.loader.df
+        cols = [c for c in ("Requirements", "Requirements (2)")
+                if c in df.columns]
+
+        def _lines(text):
+            if not text:
+                return 1
+            return sum(max(1, math.ceil(len(line) / chars))
+                       for line in str(text).split("\n"))
+
         line_counts = [1]
-        if "Requirements" in self.loader.df.columns:
-            for text in self.loader.df["Requirements"]:
-                if not text:
-                    continue
-                line_counts.append(sum(
-                    max(1, math.ceil(len(line) / chars))
-                    for line in str(text).split("\n")
-                ))
+        if cols:
+            for _, r in df[cols].iterrows():
+                # both columns sit on the same row, so size to the taller
+                line_counts.append(max(_lines(r[c]) for c in cols))
         line_counts.sort()
         lines = line_counts[int(0.9 * (len(line_counts) - 1))]
         return min(15 * lines + 8, 260)
@@ -163,10 +173,18 @@ class ExcelWriter:
         if "Source" in columns:
             letter = get_column_letter(columns.index("Source") + 1)
             for cell in ws[letter][1:]:
-                if isinstance(cell.value, str) and cell.value.startswith("http"):
-                    cell.hyperlink = cell.value
+                v = cell.value
+                if isinstance(v, str) and v.startswith("http"):
+                    cell.hyperlink = v
                     cell.font = Font(color="0563C1", underline="single")
-            ws.column_dimensions[letter].width = 22
+                elif isinstance(v, (int, float)) and v:
+                    # act-row number -> valid internal link (location, not
+                    # target, so Excel keeps it).
+                    cell.hyperlink = Hyperlink(
+                        ref=cell.coordinate, location=f"Acts!A{int(v)}",
+                        display="Go to Act")
+                    cell.font = Font(color="0563C1", underline="single")
+            ws.column_dimensions[letter].width = 12
 
     # =================================================================
     # QUERY ENGINE
@@ -278,7 +296,7 @@ class ExcelWriter:
             keyword = '&" "&'.join(
                 f"{db}!${C(name)}{i}" for name in (
                     "Heading", "Summary", "DTIA Summary",
-                    "Requirements", "Source Quote",
+                    "Requirements", "Requirements (2)", "Source Quote",
                 )
             )
             # Filters: B4 Country, B5 Topic, B6 Data Type,
@@ -413,7 +431,7 @@ class ExcelWriter:
             keyword = '&" "&'.join(
                 f"{db}!${C(name)}{i}" for name in (
                     "Heading", "Summary", "DTIA Summary",
-                    "Requirements", "Source Quote",
+                    "Requirements", "Requirements (2)", "Source Quote",
                 )
             )
             # Row kept if its Country is either selected country and the
