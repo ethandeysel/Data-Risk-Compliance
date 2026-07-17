@@ -24,7 +24,7 @@ from .workbook import finish_sheet
 from .styles import (
     TITLE_FONT, TITLE_FILL, HEADER_FILL, HEADER_FONT, WRAP, THIN_BORDER,
 )
-from .loaders import SOURCE_LINK
+from .loaders import SOURCE_LINK, _pdf_url
 
 # Link text for the Source column — matches where the link points.
 _SOURCE_LABEL = "Open PDF" if SOURCE_LINK == "pdf" else "Go to Act"
@@ -155,14 +155,15 @@ class ExcelWriter:
                 for cell in ws[letter][1:]:
                     cell.alignment = WRAP
 
-        # Make the Source column clickable WITHOUT changing its value — the
-        # Query INDEXes this column, so the cell must still hold the real
-        # link target (overwriting it with "Open PDF" is what broke the
-        # Query links).
+        # The Query INDEXes this column, so keep the raw link target as the
+        # value.  Only attach a real hyperlink for external (http) targets —
+        # an internal "#'Sheet'!A1" target written this way is invalid and
+        # makes Excel strip links on open, which broke "Go to Act".  The
+        # Query builds a valid internal HYPERLINK() for those instead.
         if "Source" in columns:
             letter = get_column_letter(columns.index("Source") + 1)
             for cell in ws[letter][1:]:
-                if cell.value:
+                if isinstance(cell.value, str) and cell.value.startswith("http"):
                     cell.hyperlink = cell.value
                     cell.font = Font(color="0563C1", underline="single")
             ws.column_dimensions[letter].width = 22
@@ -481,7 +482,7 @@ class ExcelWriter:
         ws = self.wb["Acts"]
         ws.append([
             "Country", "Act", "Sections", "Regulators", "Topics",
-            "Financial Relevance",
+            "Financial Relevance", "Source PDF",
         ])
         for act in self.loader.acts.values():
             ws.append([
@@ -489,8 +490,19 @@ class ExcelWriter:
                 ", ".join(sorted(act["Regulators"])),
                 ", ".join(sorted(act["Topics"])),
                 act["Financial Relevance"],
+                _pdf_url(act["Country"], act["Act"]),
             ])
         finish_sheet(ws, "ActsTable")
+
+        # The Query's "Go to Act" link lands here; each act's PDF link lives
+        # in this column (external URL → clickable "Open PDF").
+        pdf_col = get_column_letter(7)
+        for cell in ws[pdf_col][1:]:
+            if cell.value:
+                cell.hyperlink = cell.value
+                cell.value = "Open PDF"
+                cell.font = Font(color="0563C1", underline="single")
+        ws.column_dimensions[pdf_col].width = 12
 
     # =================================================================
     # REGULATORS
