@@ -1,0 +1,848 @@
+{
+  "country": "Singapore",
+  "document": "Cybersecurity Act 2018 (Singapore - Row 7)",
+  "generated": "2026-07-17T22:23:47",
+  "sections": [
+    {
+      "section": "9",
+      "heading": "The Commissioner may, by written notice, withdraw the designation of any",
+      "title": "Commissioner may withdraw critical information infrastructure designation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "The Commissioner can revoke the designation of a provider-owned critical information infrastructure at any time if they believe the computer system no longer meets the criteria for such designation. This power is exercised through written notice and does not require ongoing compliance with specific conditions beyond the Commissioner's assessment of the system's criteria.",
+      "dtia_summary": "This section allows the Commissioner to withdraw critical infrastructure designation, which may impact data transfer if systems are designated as critical infrastructure but later withdrawn.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may withdraw designation of provider-owned critical information infrastructure by written notice",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commissioner may, by written notice, withdraw the designation of any provider-owned critical information infrastructure at any time if the Commissioner is of the opinion that the computer or computer system no longer fulfils the criteria to be designated as a provider-owned critical information infrastructure."
+    },
+    {
+      "section": "11",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025]",
+      "title": "Section 11 deleted by Act 19 of 2024",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 30,
+      "primary_category": "Exemptions",
+      "summary": "Section 11 has been deleted by the Act 19 of 2024, meaning it no longer applies. This section was previously about the Commissioner's power to issue written directions for cybersecurity purposes, but it is now inoperative.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "[Deleted by Act 19 of 2024 wef 31/10/2025]"
+    },
+    {
+      "section": "11 (part 2)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Cybersecurity risk assessments for critical infrastructure owners",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 34,
+      "primary_category": "Security",
+      "summary": "Critical infrastructure owners must conduct cybersecurity risk assessments for their systems. They must appoint a cybersecurity service provider to conduct another assessment if required, and bear the costs. The Commissioner may direct owners to carry out additional assessments if material changes are made to their infrastructure. Non-compliance with these requirements constitutes an offence with fines up to $100,000 and imprisonment.",
+      "dtia_summary": "Requires owners of critical infrastructure to maintain up-to-date cybersecurity assessments and notify the Commissioner of material changes to their systems. This impacts DTIA by mandating regular reassessments and change notifications for cross-border data transfers involving critical infrastructure.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Owner must appoint cybersecurity service provider to conduct another cybersecurity risk assessment of provider-owned critical information infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cost of cybersecurity risk assessment must be borne by the owner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner may direct owner to carry out additional cybersecurity risk assessment if material changes are made to infrastructure",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Commissioner may by written notice direct the owner to carry out another audit or cybersecurity risk assessment in addition to the audit or cybersecurity risk assessment mentioned in subsection (1)."
+    },
+    {
+      "section": "11 (part 3)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Designation of providers for third-party critical infrastructure cybersecurity",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 38,
+      "primary_category": "Security",
+      "summary": "The Commissioner may designate providers of essential services responsible for cybersecurity of third-party-owned critical information infrastructure. Designated providers must obtain legally binding commitments from owners to share design, configuration, security details, and notify of material changes within 30 days. Non-compliance with information sharing or change notifications results in fines up to $100,000 and imprisonment.",
+      "dtia_summary": "Requires third-party critical infrastructure owners to share detailed cybersecurity information with designated providers, impacting DTIA by mandating specific data sharing protocols and change notifications for cross-border critical infrastructure.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Designated provider must obtain legally binding commitment from owner to share design, configuration and security details within reasonable period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Owner must notify designated provider of material changes within 30 days after change is made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designated provider must notify Commissioner of material changes within 14 days after becoming aware",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A designated provider responsible for third-party-owned critical information infrastructure must obtain a legally binding commitment from the owner of the third-party-owned critical information infrastructure for which the provider is responsible for its cybersecurity, that the owner will — (a) upon request, furnish the provider with information on design, configuration and security within reasonable period."
+    },
+    {
+      "section": "11 (part 4)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Commissioner's authority to issue cybersecurity directions for third-party infrastructure",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 42,
+      "primary_category": "Regulator Powers",
+      "summary": "The Commissioner may issue written directions to designated providers responsible for third-party-owned critical information infrastructure to address cybersecurity threats or ensure effective administration of the Act. Directions can cover actions for cybersecurity threats, compliance with codes of practice, maintaining technical standards, auditor appointments, or other matters deemed necessary for cybersecurity. Each direction must specify a compliance deadline and may be revoked by the Commissioner. The Commissioner must provide notice to the recipient before issuing a direction, considering any representations or objections.",
+      "dtia_summary": "This section establishes the Commissioner's power to issue binding cybersecurity directions for third-party infrastructure, requiring specific compliance deadlines and mechanisms for stakeholder consultation. It impacts DTIAs by mandating that third-party data transfers must align with cybersecurity standards and undergo regulatory oversight.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commissioner may issue written direction to designated provider for third-party-owned critical information infrastructure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Direction must specify compliance deadline",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner may revoke direction at any time",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commissioner must give notice to recipient before issuing direction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notice must state proposed direction and its effect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notice must specify time for representations or objections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner must consider representations or objections before issuing direction",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16G.—(1) The Commissioner may, if the Commissioner thinks — it is necessary or expedient for ensuring the cybersecurity of a third-party-owned critical information infrastructure or a class of third-party-owned critical information infrastructure; or it is necessary or expedient for the effective administration of this Act, issue a written direction, either of a general or specific nature, to a designated provider responsible for third-party-owned critical information infrastructure or a class of such providers."
+    },
+    {
+      "section": "11 (part 5)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Cybersecurity exercises for third-party critical infrastructure",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 46,
+      "primary_category": "Incident Reporting",
+      "summary": "The Commissioner may conduct cybersecurity exercises to test the readiness of designated providers in responding to significant cybersecurity incidents. Designated providers must participate in exercises if directed by the Commissioner. Non-compliance may result in fines up to $100,000.",
+      "dtia_summary": "This section mandates cybersecurity exercises for third-party critical infrastructure, which is essential for DTIAs to evaluate incident response capabilities and data breach mitigation strategies when transferring data across borders.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commissioner may conduct cybersecurity exercises for testing provider readiness",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Designated providers must participate in exercises if directed by Commissioner",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16L.—(1) The Commissioner may conduct cybersecurity exercises for the purpose of testing the state of readiness of different designated providers responsible for third-party-owned critical information infrastructure in responding to significant cybersecurity incidents."
+    },
+    {
+      "section": "11 (part 6)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Temporary cybersecurity designation procedures and obligations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 50,
+      "primary_category": "Security",
+      "summary": "This section establishes procedures for designating computer systems as temporary cybersecurity concerns. It requires the Commissioner to issue notices specifying the system, owner, duties, designation period (up to one year), supervising officer, and appeal rights. The designated system must comply with cybersecurity obligations during the period, with provisions for transferring control to another entity and notifying the Commissioner if control ceases. The Commissioner may extend or withdraw the designation based on criteria fulfillment.",
+      "dtia_summary": "This section creates specific conditions for temporary cybersecurity designations that impact cross-border data transfers by requiring detailed cybersecurity assessments and ongoing compliance for systems located in Singapore, affecting data storage and processing security requirements.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Designate a computer system as temporary cybersecurity concern if it jeopardises national security or has serious detrimental effects on Singapore's economy, public health, or public order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify the computer system and owner for temporary cybersecurity designation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify designation period not exceeding one year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide name and contact of supervising officer for the designated system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Inform owner of duties and responsibilities arising from designation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Allow owner to appeal designation to Minister within 14 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Designation expires unless withdrawn by Commissioner before expiry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Owner may request Commissioner to amend designation if unable to comply due to lack of control",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commissioner may amend designation if another entity has control over the system",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Amended designation applies to new owner as if they were the owner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify Commissioner if control ceases during designation period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Government-owned systems have Permanent Secretary as owner for purposes of this Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Singapore Statutes Online: Current version as at 13 Jul 2026"
+    },
+    {
+      "section": "11 (part 7)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 52,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "18",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025]",
+      "title": "Investigation powers for cybersecurity incidents",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 57,
+      "primary_category": "Incident Reporting",
+      "summary": "The Commissioner may investigate cybersecurity threats or incidents to assess impact, prevent harm, or stop further incidents. The incident response officer can require individuals to attend, produce records, inspect documents, and examine oral statements. Statements must be written, read aloud, interpreted if needed, and signed. Non-compliance may lead to court orders and fines up to $5,000.",
+      "dtia_summary": "This section establishes investigation powers for cybersecurity incidents, requiring data production and cooperation from individuals. It impacts DTIAs through mandatory data access and disclosure procedures during incident response.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The incident response officer must specify in the notice the time, place, and manner for producing records or information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A statement made by a person examined must be written, read aloud, interpreted if needed, and signed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If a person fails to comply with a written notice, the incident response officer may report to a Magistrate for court orders",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A person examined or notified under this section is not obliged to disclose information subject to legal privilege or professional conduct rules",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person examined or notified under this section is not in breach of contractual obligations if acting with reasonable care and good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with written notices or court orders may result in fines up to $5,000 or imprisonment for 6 months",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Where information regarding a cybersecurity threat or incident has been received by the Commissioner, the Commissioner may exercise, or may authorise the Deputy Commissioner, an Assistant Commissioner, a cybersecurity officer or an authorised officer to exercise, such of the powers mentioned in subsection (2) as are necessary to investigate the cybersecurity threat or incident, for the purpose of —"
+    },
+    {
+      "section": "18 (part 2)",
+      "heading": "[Deleted by Act 19 of 2024 wef 31/10/2025] (cont.)",
+      "title": "Investigation powers for serious cybersecurity incidents",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Incident Reporting",
+      "summary": "The Commissioner may investigate serious cybersecurity incidents that meet severity thresholds to assess impact, eliminate threats, or prevent further harm. The incident response officer can require remedial actions, preserve systems, monitor for vulnerabilities, and access systems with consent. Non-compliance may lead to fines up to $25,000 or imprisonment for 2 years.",
+      "dtia_summary": "This section details enhanced investigation powers for critical cybersecurity incidents, including system access and remedial actions. It affects DTIAs through strict data handling requirements during serious incident response.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The incident response officer must specify in the notice the time, place, and manner for producing records or information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person examined or notified under this section is not obliged to disclose information subject to legal privilege or professional conduct rules",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person examined or notified under this section is not in breach of contractual obligations if acting with reasonable care and good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with written notices or court orders may result in fines up to $25,000 or imprisonment for 2 years",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Where the Commissioner receives information regarding a cybersecurity threat or incident which satisfies the severity threshold in subsection (3), the Commissioner may exercise, or may authorise the Deputy Commissioner, an Assistant Commissioner, a cybersecurity officer or an authorised officer to exercise, such of the powers mentioned in subsection (2) as are necessary to investigate the cybersecurity threat or incident, for the purpose of —"
+    },
+    {
+      "section": "21",
+      "heading": "Every incident response officer, when exercising any of the powers under this",
+      "title": "Identification card requirements for incident response officers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 62,
+      "primary_category": "Incident Reporting",
+      "summary": "Incident response officers must declare their office and produce identification cards when exercising powers under this Part. The Commissioner may appoint cybersecurity technical experts with specific qualifications to assist investigations, who must carry identification cards at all times during their role.",
+      "dtia_summary": "This section mandates identification for incident response officers and technical experts, ensuring accountability during cybersecurity investigations. It impacts DTIAs through identity verification requirements for data access.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Every incident response officer must declare their office and produce identification cards when exercising powers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may appoint cybersecurity technical experts with specific qualifications to assist investigations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Cybersecurity technical experts must carry identification cards at all times during their role",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every incident response officer, when exercising any of the powers under this Part, must declare the incident response officer's office and must, on demand, produce to any person affected by the exercise of that power such identification card as the Commissioner may direct to be carried by the incident response officer when exercising such power."
+    },
+    {
+      "section": "21 (part 2)",
+      "heading": "Every incident response officer, when exercising any of the powers under this (cont.)",
+      "title": "Licensing requirements for cybersecurity service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 62,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "This section prohibits unlicensed provision of cybersecurity services. It requires that only licensed entities may offer licensable cybersecurity services to others, and prohibits advertising or claiming to provide such services without a license. Related companies are exempt from this requirement. Violations incur fines up to $50,000 or imprisonment for two years.",
+      "dtia_summary": "Licensing is mandatory for cybersecurity service providers operating in Singapore. This affects data transfer as licensed providers are the only entities permitted to handle sensitive data security services across borders.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No person may engage in the business of providing any licensable cybersecurity service to other persons without a license",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person may advertise or hold out that they provide licensable cybersecurity services without a license",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Related companies are exempt from this licensing requirement",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "No person to provide licensable cybersecurity service without licence. Except under and in accordance with a cybersecurity service provider's licence granted or renewed under section 26, no person — (a) may engage in the business of providing any licensable cybersecurity service to other persons; or (b) being a person who is in the business of providing a licensable cybersecurity service, may advertise, or in any way hold out, that the person provides, or is willing to provide, the licensable cybersecurity service."
+    },
+    {
+      "section": "21 (part 3)",
+      "heading": "Every incident response officer, when exercising any of the powers under this (cont.)",
+      "title": "Record-keeping obligations for cybersecurity licensees",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 70,
+      "primary_category": "Record Keeping",
+      "summary": "This section mandates that licensees maintain detailed records of each service engagement, including client information, service details, and dates. Records must be retained for at least three years. Licensees must provide these records to the licensing officer upon request. Falsifying records is a criminal offense punishable by fines up to $10,000 or imprisonment for 12 months.",
+      "dtia_summary": "Mandatory record-keeping for cybersecurity service engagements impacts data transfer assessments by requiring detailed documentation of client-service relationships and data handling activities across borders.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Licensees must keep records of client name, address, service provider name, service date, service type, and any other prescribed details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be retained for at least three years from the service date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must provide records to the licensing officer in required format and medium",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Falsifying or omitting material information from records is a criminal offense punishable by fines up to $10,000 or imprisonment for 12 months",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A licensee must — (a) in relation to each occasion on which the licensee is engaged to provide its cybersecurity service, keep a record of the following information: (i) the name and address of the person engaging the licensee for the service; (ii) the name of the person providing the service on behalf of the licensee; (iii) the date on which the service is provided; (iv) details of the type of service provided; (v) any other particulars that may be prescribed; and (b) retain every such record for a period of not less than 3 years after the date of the occasion to which the record relates."
+    },
+    {
+      "section": "31",
+      "heading": "Any person who provides any licensable cybersecurity service is not entitled to",
+      "title": "Prohibition on recovering commissions without cybersecurity license",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 75,
+      "primary_category": "Other",
+      "summary": "A person providing licensable cybersecurity services cannot recover commissions, fees, gains, or rewards for services unless they hold a valid cybersecurity service provider's licence at the time of service provision. This section applies to all individuals offering such services in Singapore under the Cybersecurity Act 2018.",
+      "dtia_summary": "This section restricts cross-border financial transactions involving cybersecurity services by requiring license holders for such services to be verified before any commission recovery, impacting data transfer assessments for service providers.",
+      "authority": "Cybersecurity and Information Security Agency of Singapore (CISAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person providing licensable cybersecurity services cannot recover commissions, fees, gains, or rewards for services unless they hold a valid cybersecurity service provider's licence at the time of service provision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "31. Any person who provides any licensable cybersecurity service is not entitled to bring any proceeding in any court to recover any commission, fee, gain or reward for the service provided unless, at the time of providing the service, the person is the holder of a valid cybersecurity service provider's licence."
+    },
+    {
+      "section": "31 (part 2)",
+      "heading": "Any person who provides any licensable cybersecurity service is not entitled to (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 75,
+      "page_end": 80,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "31 (part 3)",
+      "heading": "Any person who provides any licensable cybersecurity service is not entitled to (cont.)",
+      "title": "Liability for unincorporated associations in cyber offences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 80,
+      "page_end": 84,
+      "primary_category": "Other",
+      "summary": "This section establishes that individuals providing licensable cybersecurity services can be held liable for offences committed by unincorporated associations or partnerships if they consented, connived, or were knowingly involved in the commission of the offence. It specifies that such individuals are liable on conviction to the same penalties as the unincorporated association or partnership. The section also outlines that these individuals may rely on defences available to the unincorporated entity and bears the same burden of proof.",
+      "dtia_summary": "This section clarifies liability for individuals associated with unincorporated entities in cyber offences, which may impact DTIA assessments by defining when third parties are liable for cross-border data processing violations.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Individuals providing licensable cybersecurity services are liable for offences committed by unincorporated associations or partnerships if they consented, connived, or were knowingly involved.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individuals must be liable on conviction to the same penalties as the unincorporated association or partnership.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individuals may rely on defences available to the unincorporated entity if charged.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Individuals bear the same burden of proof as the unincorporated entity.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any person who provides any licensable cybersecurity service is not entitled to (cont.) (i) consented or connived, or conspired with others, to effect the commission of the offence; (ii) is in any other way, whether by act or omission, knowingly concerned in, or is party to, the commission of the offence by the unincorporated association or the partnership; or (iii) knew or ought reasonably to have known that the offence by the unincorporated association or the partnership (or an offence of the same type) would be or is being committed, and failed to take all reasonable steps to prevent or stop the commission of that offence, shall be guilty of the same offence as is that unincorporated association or that partnership, and shall be liable on conviction to be punished accordingly."
+    },
+    {
+      "section": "40",
+      "heading": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a",
+      "title": "District Court jurisdiction for cyber offences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 84,
+      "page_end": 90,
+      "primary_category": "Other",
+      "summary": "This section grants District Courts exclusive jurisdiction to try offences under the Cybersecurity Act and impose full penalties, overriding provisions in the Criminal Procedure Code 2010. It ensures that cyber-related offences can be prosecuted in District Courts without referral to higher courts, providing a clear legal pathway for enforcement.",
+      "dtia_summary": "This section ensures that cyber offences can be prosecuted in District Courts, which may impact DTIA assessments by clarifying jurisdictional boundaries for cross-border enforcement actions.",
+      "authority": "District Court",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "District Courts have jurisdiction to try any offence under this Act.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "District Courts have power to impose full penalties for offences under this Act.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a District Court has jurisdiction to try any offence under this Act and has power to impose the full penalty or punishment in respect of the offence."
+    },
+    {
+      "section": "40 (part 2)",
+      "heading": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a (cont.)",
+      "title": "Liability exemption for public information errors",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 90,
+      "page_end": 94,
+      "primary_category": "Other",
+      "summary": "This section exempts the Commissioner and persons acting under their direction from liability for losses or damages arising from errors or omissions in public information supplied under written law, provided the error was made in good faith and despite reasonable care. The exemption applies to information provided to the public through the Commissioner's services.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it addresses liability for public information errors, not data transfers or cross-border processing.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Commissioner and persons acting under their direction are not liable for losses or damages from errors or omissions in public information",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The error or omission must have been made in good faith",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The error or omission must have been made despite reasonable care",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Where the Commissioner provides a service to the public whereby information is supplied to the public pursuant to any written law, neither the Commissioner nor any person acting under the direction of the Commissioner who is involved in the supply of such information is liable for any loss or damage suffered by any person by reason of any error or omission of whatever nature appearing in the information or however caused, if the error or omission was made in good faith and despite the exercise of reasonable care in the ordinary course of the discharge of the duties of the Commissioner or such person."
+    },
+    {
+      "section": "46",
+      "heading": "Security printing services",
+      "title": "General exemption authority for the Cybersecurity Act",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 96,
+      "primary_category": "Exemptions",
+      "summary": "This section grants the Minister the authority to exempt persons or classes of persons from all or part of the Act's provisions through Gazette orders, subject to conditions. The exemption only operates if the conditions are met, ensuring that exemptions are conditional and not automatic.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it addresses general exemptions from the Act, not specific data transfer mechanisms.",
+      "authority": "Minister",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may exempt any person or class of persons from all or any provisions of this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Exemptions operate only if conditions are complied with",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Minister may, by order in the Gazette, exempt any person or any class of persons from all or any of the provisions of this Act, either generally or in a particular case and subject to such conditions as may be prescribed."
+    },
+    {
+      "section": "1",
+      "heading": "The following cybersecurity services are licensable cybersecurity services for the purposes of this",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 96,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2",
+      "heading": "In this Schedule —",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "1",
+      "heading": "Act 9 of 2018—Cybersecurity Act 2018",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2",
+      "heading": "2020 Revised Edition—Cybersecurity Act 2018",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "Act 9 of 2018—Cybersecurity Act 2018",
+      "title": "Cybersecurity Act 2018 legislative process timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "This section details the legislative history of the Cybersecurity Act 2018, including its bill number (2/2018), first reading date (8 January 2018), second and third reading dates (5 February 2018), and commencement date for Part 5 and the Second Schedule (11 April 2022). It provides no substantive legal obligations or requirements for data transfers or processing.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 2/2018",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "First reading on 8 January 2018",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "Second and third readings on 5 February 2018",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "Commencement of Part 5 and Second Schedule on 11 April 2022",
+          "obligation_type": "Information"
+        }
+      ],
+      "source_quote": "Act 9 of 2018—Cybersecurity Act 2018\nBill: 2/2018\nFirst Reading: 8 January 2018\nSecond and Third Readings: 5 February 2018\nCommencement: 11 April 2022 (Part 5 and the Second Schedule)"
+    },
+    {
+      "section": "4",
+      "heading": "Act 19 of 2024—Cybersecurity (Amendment) Act 2024",
+      "title": "Cybersecurity (Amendment) Act 2024 legislative process timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 99,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative process for the Cybersecurity (Amendment) Act 2024, including its bill number (15/2024), first reading date (3 April 2024), and second and third reading dates (7 May 2024). It specifies the commencement date of the amendments as 31 October 2025. The section contains no substantive legal obligations for data transfers or processing.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 15/2024",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "First reading on 3 April 2024",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "Second and third readings on 7 May 2024",
+          "obligation_type": "Information"
+        },
+        {
+          "text": "Commencement of amendments on 31 October 2025",
+          "obligation_type": "Information"
+        }
+      ],
+      "source_quote": "Act 19 of 2024—Cybersecurity (Amendment) Act 2024\n(Amendments made by the above Act)\nBill: 15/2024\nFirst Reading: 3 April 2024\nSecond and Third Readings: 7 May 2024"
+    }
+  ]
+}

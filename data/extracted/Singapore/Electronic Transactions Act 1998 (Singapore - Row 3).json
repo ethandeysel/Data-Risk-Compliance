@@ -1,0 +1,652 @@
+{
+  "country": "Singapore",
+  "document": "Electronic Transactions Act 1998 (Singapore - Row 3)",
+  "generated": "2026-07-17T22:11:29",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "In this Act, unless the context otherwise requires —",
+      "title": "Definitions of cryptographic terms and digital signature components",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 9,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms related to electronic records and signatures, including asymmetric cryptosystems, digital signatures, electronic records, and cryptographic key pairs. It specifies that a digital signature uses a private key to create a signature and a public key to verify it, ensuring authenticity and integrity of electronic records. The definitions establish the technical foundation for electronic transactions and signatures under this Act.",
+      "dtia_summary": "Provides foundational definitions for cryptographic terms critical to data transfer security, including digital signatures and key pairs. These definitions are essential for understanding how data transfers can be authenticated and verified across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Encryption",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Asymmetric cryptosystem means a system capable of generating a secure key pair",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Authorised officer means a person authorised by the Controller under section 50",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Certificate means a record issued for the purpose of supporting digital signatures",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Certification authority means a person who or an organisation that issues a certificate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Certification practice statement means a statement issued by a certification authority to specify the practices that the certification authority employs in issuing certificates",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Controller means the Controller of Certification Authorities appointed under section 41(1)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Correspond, in relation to a private key or public key, means to belong to the same key pair",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Digital signature means an electronic signature consisting of a transformation of an electronic record using an asymmetric cryptosystem and a hash function",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Electronic record means a record generated, communicated, received or stored by electronic means",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Hash function means an algorithm mapping one sequence of bits into another",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Information includes data, text, images, sound, codes, computer programs, software and databases",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Key pair means a private key and its mathematically related public key",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Licensed certification authority means a certification authority licensed by the Controller",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Operational period of a certificate begins on the date it is issued and ends on the date it expires",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Private key means the key of a key pair used to create a digital signature",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Public key means the key of a key pair used to verify a digital signature",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Record means information that is inscribed, stored or otherwise fixed on a tangible medium",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Repository means a system for storing and retrieving certificates",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Revoke a certificate means to permanently end the operational period of a certificate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Rule of law includes written law",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Security procedure means a procedure for verifying electronic records or detecting errors",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Signed or signature includes any symbol executed or adopted to authenticate a record",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Subscriber means a person who is the subject named in a certificate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Suspend a certificate means to temporarily suspend the operational period of a certificate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Trustworthy system means computer hardware, software, and procedures that are reasonably secure",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Valid certificate means a certificate that a certification authority has issued and the subscriber has accepted",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Verify a digital signature means to determine that the signature was created using the private key",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. In this Act, unless the context otherwise requires —"
+    },
+    {
+      "section": "3",
+      "heading": "This Act shall be construed consistently with what is commercially reasonable",
+      "title": "Commercially reasonable interpretation of electronic transactions",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Definitions",
+      "summary": "This section states that the Act should be interpreted consistently with what is commercially reasonable to achieve purposes such as facilitating electronic communications, electronic commerce, government services, and reducing fraud. It emphasizes the need for practical application of electronic records and signatures in business contexts without unnecessary legal barriers.",
+      "dtia_summary": "Clarifies the commercial applicability of electronic records and signatures, ensuring that data transfers and processing can be conducted in a manner that is both legally sound and practically feasible for businesses.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "This Act shall be construed consistently with what is commercially reasonable under the circumstances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act aims to facilitate electronic communications and electronic commerce",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act aims to promote efficient government services through electronic records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act aims to minimize fraud in electronic transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act aims to establish uniformity in authentication and integrity of electronic records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act aims to foster public confidence in electronic records and commerce",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3. This Act shall be construed consistently with what is commercially reasonable"
+    },
+    {
+      "section": "5",
+      "heading": "As between parties involved in generating, sending, receiving, storing or otherwise",
+      "title": "Agreement to vary electronic record provisions",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section allows parties involved in electronic records to vary provisions of Part II or IV through mutual agreement. It provides flexibility in how electronic records are handled without requiring formal legal changes, which is particularly relevant for cross-border data transfers where parties may have differing requirements.",
+      "dtia_summary": "Allows flexibility in cross-border data transfers by permitting parties to agree on variations to electronic record handling, reducing the need for complex legal mechanisms.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "As between parties involved in generating, sending, receiving, storing or processing electronic records, any provision of Part II or IV may be varied by agreement",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "5. As between parties involved in generating, sending, receiving, storing or otherwise processing electronic records, any provision of Part II or IV may be varied by agreement."
+    },
+    {
+      "section": "7",
+      "heading": "Where a rule of law requires information to be written, in writing, to be presented",
+      "title": "Electronic records satisfy written requirements",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This section states that an electronic record satisfies a rule of law requiring information to be written if it is accessible for subsequent reference. It establishes that electronic records can fulfill legal requirements for written documentation, which is critical for data transfers and processing across jurisdictions.",
+      "dtia_summary": "Allows electronic records to meet legal requirements for written documentation, facilitating data transfers without the need for physical documents.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Where a rule of law requires information to be written, in writing, to be presented in writing, an electronic record satisfies that rule if the information is accessible for subsequent reference",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "7. Where a rule of law requires information to be written, in writing, to be presented in writing or provides for certain consequences if it is not, an electronic record satisfies that rule of law if the information contained therein is accessible so as to be usable for subsequent reference."
+    },
+    {
+      "section": "12",
+      "heading": "As between the originator and the addressee of an electronic record, a declaration",
+      "title": "Electronic record validity and originator attribution",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 17,
+      "primary_category": "Definitions",
+      "summary": "This section establishes that electronic records have legal effect and enforceability as long as they are sent by the originator or an authorized agent. It defines when an electronic record is deemed to be that of the originator, including automatic systems and procedures agreed upon by the parties. It also specifies conditions under which the addressee may not rely on the record being the originator's, such as when the addressee has received notice of non-originator status or when the record is unconscionable.",
+      "dtia_summary": "This section ensures electronic records are legally valid and attributable to the originator, which is critical for data transfer impact assessments involving electronic records across borders. It defines conditions under which the addressee can trust the record's originator status, impacting cross-border data transfers.",
+      "authority": "Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic record shall not be denied legal effect, validity or enforceability solely on the ground that it is in the form of an electronic record.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is that of the originator if sent by the originator himself.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is deemed to be that of the originator if sent by an authorized agent of the originator.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is deemed to be that of the originator if sent by an information system programmed by or on behalf of the originator to operate automatically.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The addressee may regard an electronic record as that of the originator if they properly applied a previously agreed procedure for ascertaining origin.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The addressee may regard an electronic record as that of the originator if the data message resulted from actions of a person with access to the originator's identification method.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The addressee is not entitled to regard the electronic record as that of the originator if they have received notice that it is not the originator's and had reasonable time to act.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The addressee is not entitled to regard the electronic record as that of the originator if they knew or should have known it was not the originator's.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The addressee is not entitled to regard the electronic record as that of the originator if it is unconscionable to do so.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The addressee is entitled to regard the electronic record as what the originator intended to send, and to act on that assumption.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The addressee is not entitled to regard the electronic record as what the originator intended to send if the addressee knew or should have known there was an error in the record.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "As between the originator and the addressee of an electronic record, a declaration of intent or other statement shall not be denied legal effect, validity or enforceability solely on the ground that it is in the form of an electronic record."
+    },
+    {
+      "section": "17",
+      "heading": "If, through the application of a prescribed security procedure or a commercially",
+      "title": "",
+      "chapter": "Chapter 97",
+      "part": "PART V",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "20",
+      "heading": "When any portion of an electronic record is signed with a digital signature, the",
+      "title": "",
+      "chapter": "Chapter 97",
+      "part": "PART V",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "22",
+      "heading": "Unless otherwise provided by law or contract, a person relying on a digitally",
+      "title": "",
+      "chapter": "Chapter 97",
+      "part": "PART V",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "27",
+      "heading": "A certification authority must utilise trustworthy systems in performing its",
+      "title": "Certification authority trustworthy systems",
+      "chapter": "Chapter 97",
+      "part": "PART V",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 23,
+      "primary_category": "Definitions",
+      "summary": "This section requires certification authorities to utilize trustworthy systems in performing their services. It mandates that certification authorities disclose their certificates, certification practice statements, notices of revocation or suspension, and any other facts that materially and adversely affect the reliability of certificates or the authority's ability to perform services. It also requires certification authorities to notify affected parties in the event of occurrences that materially and adversely affect their trustworthy systems.",
+      "dtia_summary": "This section ensures certification authorities use trustworthy systems, which is critical for data transfer impact assessments involving digital certificates across borders. It defines the disclosure and notification requirements for certification authorities.",
+      "authority": "Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A certification authority must utilize trustworthy systems in performing its services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall disclose its certificate that contains the public key corresponding to the private key used by that certification authority to digitally sign another certificate.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall disclose any relevant certification practice statement.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall disclose notice of the revocation or suspension of its certification authority certificate.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall disclose any other fact that materially and adversely affects either the reliability of a certificate it has issued or its ability to perform services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the event of an occurrence that materially and adversely affects a certification authority's trustworthy system or its certification authority certificate, the certification authority shall use reasonable efforts to notify any person who is known to be or foreseeably will be affected by that occurrence.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A certification authority must utilise trustworthy systems in performing its services."
+    },
+    {
+      "section": "32",
+      "heading": "A certification authority shall revoke a certificate that it issued —",
+      "title": "Certificate revocation procedures",
+      "chapter": "Chapter 97",
+      "part": "PART V",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Definitions",
+      "summary": "This section outlines the conditions under which a certification authority must revoke a certificate, including when the subscriber requests revocation, the subscriber is dead, or the subscriber has been dissolved. It also specifies that revocation must be confirmed by the certification authority and that the subscriber must be notified of revocation.",
+      "dtia_summary": "This section governs certificate revocation procedures, which is critical for data transfer impact assessments involving digital certificates across borders. It ensures that revoked certificates do not continue to be used.",
+      "authority": "Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A certification authority shall revoke a certificate after receiving a request for revocation by the subscriber named in the certificate and confirming that the person requesting revocation is the subscriber or an authorized agent.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall revoke a certificate after receiving a certified copy of the subscriber's death certificate or confirming by other evidence that the subscriber is dead.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification authority shall revoke a certificate after receiving documents effecting a dissolution of the subscriber or confirming by other evidence that the subscriber has been dissolved or ceased to exist.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A certification authority shall revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber named in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist."
+    },
+    {
+      "section": "37",
+      "heading": "All material representations made by the subscriber to a certification authority for",
+      "title": "Subscriber's accuracy and completeness in certificate representations",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Data Sharing",
+      "summary": "Subscribers must ensure all material representations to certification authorities for certificate issuance are accurate and complete to the best of their knowledge and belief, regardless of confirmation by the authority. This obligation applies to the subscriber when obtaining a certificate and covers information included in the certificate. The subscriber certifies the truthfulness of representations and information listed in the certificate to those who reasonably rely on it.",
+      "dtia_summary": "Subscribers must verify accuracy and completeness of data shared with certification authorities before issuing certificates, impacting data transfer integrity and trust in digital signatures across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "All material representations made by the subscriber to a certification authority for obtaining a certificate must be accurate and complete to the best of the subscriber's knowledge and belief",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The subscriber certifies to all who reasonably rely on the information in the certificate that representations made to the certification authority are true",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The subscriber certifies to all who reasonably rely on the information in the certificate that information within the subscriber's knowledge is true",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "37. All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, shall be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority."
+    },
+    {
+      "section": "40",
+      "heading": "A subscriber who has accepted a certificate shall as soon as possible request the",
+      "title": "Reporting compromised private keys",
+      "chapter": "Chapter 97",
+      "part": "PART I",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Security",
+      "summary": "Subscribers who have accepted a certificate must request suspension or revocation of the certificate as soon as possible if the private key corresponding to the public key in the certificate has been compromised.",
+      "dtia_summary": "Immediate reporting of compromised keys is required to prevent unauthorized data transfers, critical for maintaining data security during cross-border digital transactions.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Subscribers must request suspension or revocation of the certificate as soon as possible if the private key corresponding to the public key in the certificate has been compromised",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "40. A subscriber who has accepted a certificate shall as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised."
+    },
+    {
+      "section": "46",
+      "heading": "The Minister may make regulations for the purpose of ensuring the quality of",
+      "title": "Quality standards for repositories",
+      "chapter": "Chapter 97",
+      "part": "PART X",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 30,
+      "primary_category": "Data Storage",
+      "summary": "The Minister may make regulations to ensure quality standards for repositories and services, including standards, licensing, or accreditation of repositories.",
+      "dtia_summary": "Regulations for repository quality standards impact data storage security and compliance, particularly for cross-border data transfers.",
+      "authority": "Minister",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Minister may make regulations for ensuring quality of repositories and services",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "46. The Minister may make regulations for the purpose of ensuring the quality of repositories and the services they provide including provisions for the standards, licensing or accreditation of repositories."
+    },
+    {
+      "section": "49",
+      "heading": "Where an offence under this Act or any regulations made thereunder is",
+      "title": "Corporate liability for offences",
+      "chapter": "Chapter 97",
+      "part": "PART X",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 31,
+      "primary_category": "Enforcement",
+      "summary": "If an offence under this Act is committed by a body corporate with the consent or connivance of a director, manager, secretary, or other officer, both the body corporate and the officer are liable for the offence.",
+      "dtia_summary": "Corporate liability for offences impacts data transfer compliance, as directors and officers can be held responsible for breaches in cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A body corporate and any director, manager, secretary or other officer who consents or connives with the commission of an offence under this Act are liable for the offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "49. Where an offence under this Act or any regulations made thereunder is committed by a body corporate, and it is proved to have been committed with the consent or connivance of a director, manager, secretary or other officer, both the body corporate and the officer are liable for the offence."
+    },
+    {
+      "section": "55",
+      "heading": "The Controller or an authorised officer shall, for the purposes of the execution of",
+      "title": "",
+      "chapter": "Chapter 97",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "63",
+      "heading": "The Interpretation Act (Cap 1) is amended —",
+      "title": "Amendments to Gazette publication",
+      "chapter": "Chapter 97",
+      "part": "part o",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Data Storage",
+      "summary": "The Interpretation Act is amended to allow Gazette publication in electronic or other forms and to define the publication date as the first date of publication in any form.",
+      "dtia_summary": "Amendments to Gazette publication standards impact data storage and record-keeping practices, particularly for cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Gazette publication may be in electronic or other forms",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The publication date of a Gazette is deemed to be the date it is first published in any form",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "63. The Interpretation Act (Cap 1) is amended — (a) by inserting, immediately after the words \"Gazette published\", in the definition of \"Gazette\" or \"words \"in electronic or other form\"; (b) by inserting immediately after subsection (4) of section 2, the following subsection: (5) Where a Gazette is published in more than one form, the date of publication of that Gazette shall be deemed to be the date that Gazette is first published in any form."
+    }
+  ]
+}

@@ -1,0 +1,1491 @@
+{
+  "country": "Mauritius",
+  "document": "Information-and-Communication-Technologies-Act-2001 (Mauritius - Row 20)",
+  "generated": "2026-07-17T19:14:13",
+  "sections": [
+    {
+      "section": "32",
+      "heading": "Confidentiality",
+      "title": "Confidentiality and message interception rules",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Security",
+      "summary": "Authority members must maintain secrecy of matters known during their duties. Licensees must treat messages as confidential. Unauthorized use of confidential messages is an offense. Public operators may intercept messages deemed indecent, illegal, or threatening national security. Interceptions must be reported to the Authority.",
+      "dtia_summary": "Regulates confidentiality and message interception; relevant for data security and privacy in telecom services.",
+      "authority": "Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority members must maintain secrecy of matters known during duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must treat messages as confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unauthorized use of confidential messages is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Public operators may intercept messages deemed indecent, illegal, or threatening national security",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Interceptions must be reported to the Authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every member or officer of the Authority shall maintain, and aid in maintaining, the secrecy of any matter which comes to his knowledge in the performance, or as a result, of his duties under this Act."
+    },
+    {
+      "section": "33",
+      "heading": "Data protection",
+      "title": "Data protection standards for information and communication services",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section mandates data protection standards for information and communication services. It requires licensees to implement appropriate safeguards to protect personal data and ensure confidentiality. The obligations apply to all licensees operating information and communication networks in Mauritius.",
+      "dtia_summary": "Data protection standards relevant for assessing the security of data transfers across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must implement appropriate safeguards for data protection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Data protection"
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions for information and communication technologies",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "This section provides comprehensive definitions for key terms used throughout the Act. It establishes precise meanings for terms such as 'access', 'data', 'information and communication network', 'licensee', and 'telecommunication service'. These definitions are critical for interpreting the Act's provisions and ensuring consistent application across different contexts.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "2. Interpretation"
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "Interpretation (cont.)",
+      "title": "Additional definitions for information and communication technologies",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Definitions",
+      "summary": "This section extends the definitions provided in section 2 by adding terms such as 'SIM', 'tariff', 'telecommunication', and 'universal service'. These definitions are essential for understanding the scope and application of the Act in specific contexts like mobile services and telecommunications infrastructure.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "2 (part 2) Interpretation (cont.)"
+    },
+    {
+      "section": "3",
+      "heading": "Application of the Act",
+      "title": "Application of the Act to government entities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "This section specifies that the Act applies to the State but allows the Minister to exempt government departments, statutory corporations, NGOs, or foreign entities from compliance if they are signatories to international conventions or treaties that align with national security, sovereignty, or public order. The exemptions require specific terms and conditions.",
+      "dtia_summary": "",
+      "authority": "Minister",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may exempt government entities from compliance with this Act",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "3. Application of the Act"
+    },
+    {
+      "section": "7",
+      "heading": "Disqualification from membership",
+      "title": "Disqualification for members of the ICT Authority",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Governance",
+      "summary": "This section outlines disqualification criteria for members of the ICT Authority. Individuals cannot be appointed or remain members if they are shareholders/directors/employees of public operators, are undischarged bankrupts, are incapacitated by illness, or act contrary to the Act. Removal from membership is only permitted for reasons specified in this section.",
+      "dtia_summary": "",
+      "authority": "ICT Authority",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No person shall be eligible to be appointed or remain a member of the Authority if they are a shareholder or director or employee of a public operator",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person shall be eligible to be appointed or remain a member of the Authority if they are an undischarged bankrupt or have made any arrangement with creditors",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person shall be eligible to be appointed or remain a member of the Authority if they are incapacitated by physical or mental illness",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person shall be eligible to be appointed or remain a member of the Authority if they act contrary to this Act",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "7. Disqualification from membership"
+    },
+    {
+      "section": "8",
+      "heading": "Disclosure of interest",
+      "title": "Disclosure of pecuniary interests to Board",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "A member with direct or indirect financial or other interests in matters under consideration by the Board must disclose these interests promptly upon becoming aware of them. The member must abstain from participating in deliberations or decisions related to the matter of interest. This applies to Board members and ensures transparency in decision-making processes.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A member must disclose pecuniary or other interests in matters being considered by the Board promptly upon becoming aware of them.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A member must not participate in Board deliberations regarding the matter of interest.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A member must not take part in Board decisions regarding the matter of interest.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A member who has a direct or indirect pecuniary or other interest in a matter being considered or about to be considered by the Board shall forthwith, or as soon as is practicable after the relevant facts have come to his knowledge, disclose on record or in writing the nature of his interests to the Board and shall not - (a) be present during any deliberation of the Board with respect to that matter; and (b) take part in any decision of the Board with respect to that matter."
+    },
+    {
+      "section": "16",
+      "heading": "Objects of the Authority",
+      "title": "Authority's core objectives",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The Authority aims to democratize information access, create fair competition, license telecom services, ensure affordable nationwide access, encourage technology use, promote international competitiveness, advance tech research, and advise the Minister on ICT matters. These objectives guide the Authority's regulatory activities and policy implementation across Mauritius.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority shall democratize access to information considering quality, diversity, and plurality in ICT services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall create a level playing field for all operators to benefit consumers.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall license and regulate information and communication services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall ensure ICT services are reasonably accessible at affordable cost nationwide.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall encourage optimal use of ICT in business, industry, and the country.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall promote efficiency and international competitiveness in Mauritius' ICT sector.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall further technology, research, and development in ICT through modern infrastructure.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall advise the Minister on all ICT matters and general Authority matters.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The objects of the Authority shall be - (a) to democratise access to information taking into account the quality, diversity and plurality in the choice of services available through the use of information and communication technologies; (b) to create a level playing field for all operators in the interest of consumers in general; (c) to license and regulate the information and communication services; (d) to ensure that information and communication services including telecommunication services are reasonably accessible at affordable cost nationwide and are supplied as efficiently and economically as practicable and at performance standards that reasonably meet the social, educational, industrial, commercial and, other needs of Mauritius; (e) to encourage the optimum use of information and communication technologies in business, industry and the country at large, the introduction of new technology and the investment in infrastructure and services; (f) to promote the efficiency and international competitiveness of Mauritius in the information and communication sector; (g) to further the advancement of technology, research and development relating to information and communication technologies through modern and effective infrastructure taking into account the convergence of information technology, media, telecommunications and consumer electronics; (h) to advise the Minister on all matters relating to information and communication technologies and on matters relating to the Authority generally."
+    },
+    {
+      "section": "17",
+      "heading": "Powers of the Authority",
+      "title": "Authority's regulatory powers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The Authority may commission expert evaluations, conduct studies, collect industry data, authorize technical tests, and require licensed public operators to provide service information. It also has broad powers to issue determinations, directives, guidelines, authorizations, and approvals to achieve its objectives. These powers enable the Authority to regulate ICT services effectively.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority may commission expert evaluations, conduct studies, and collect data related to the ICT industry.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may authorize any person to conduct technical tests or evaluations of ICT services.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may require licensed public operators to provide information on service use, coverage, and access.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may make determinations, issue directives, grant authorizations, approvals, or clearances, and do acts incidental to achieving its objects.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority, in addition to the powers it has under section 37 of the Interpretation and General Clauses Act, may - (a) commission expert evaluations, conduct studies, collect data related to the information and communication industry; (b) authorise any person to conduct such technical tests or evaluations relating to information and communication services including telecommunication as it thinks fit. (2) For the purposes of subsection (1), the Authority may require a public operator who holds a licence granted under this Act to provide information on the use, area of coverage and means of access to his service. (3) The Authority shall have the power to make such determinations, issue such directives and guidelines grant such authorisation, approval or clearance, and do such acts and things, as are incidental or conducive to the attainment of its objects and the discharge of its functions."
+    },
+    {
+      "section": "18",
+      "heading": "Functions of the Authority",
+      "title": "Authority's key functions",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "The Authority implements government ICT policies, monitors the industry, promotes competition, advises on national policies, acts internationally, licenses services, sets performance standards, reports on service quality, ensures compliance with laws, regulates SIM registrations, monitors financial reports, ensures data security, regulates harmful internet content, ensures service quality, manages frequency allocation, determines numbering systems, establishes radio frequency units, monitors access agreements, and regulates equipment for message interception. These functions cover comprehensive ICT regulation in Mauritius.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority shall implement government policy relating to the ICT industry.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall provide economic and technical monitoring of the ICT industry.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall promote and maintain effective competition and fair market conduct in the ICT industry.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall advise and assist in formulating national ICT policies.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall act internationally as the national regulatory body for ICT matters.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall exercise licensing and regulatory functions for ICT services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall establish performance standards for public operators.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall report on public operator performance, consumer service quality, and satisfaction.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall ensure public operators fulfill obligations under enactments.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall regulate SIM registration.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall regulate filing of financial and costing reports by licensees.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall regulate data security.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall regulate harmful and illegal content on the Internet.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall ensure safety and quality of ICT services and determine technical standards.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall entertain consumer complaints and refer them to appropriate authorities.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall allocate frequencies and manage, review, and reorganize the spectrum.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall determine the numbering system for ICT services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall establish a radio frequency management unit.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall monitor access or interconnection agreements and resolve disputes.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall monitor ICT use on ships or aircraft.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall control the importation of equipment capable of intercepting messages.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall regulate examinations and certificates for operating ICT apparatus.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall manage the Universal Service Fund.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall determine universal service obligations and requirements.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall authorize or regulate domain name registration for Mauritius.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall act as Controller of Certification Authorities.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall determine essential facilities.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority shall - (a) implement the policy of government relating to the information and communication industry; (b) provide economic and technical monitoring of the information and communication industry in accordance with recognized international standard practices, protocols and having regard to the convergence of technology; (c) promote and maintain effective competition, fair and efficient market conduct between entities engaged in the information and communication industry in Mauritius and to ensure that this Act is implemented with due regard to the public interest and so as to prevent any unfair or anti-competitive practices by licensees; (d) advise and assist in the formulation of national policies with respect to the regulation of the information and communication industry; (e) act internationally as the national regulatory body of Mauritius in respect of information and communication technologies matters; (f) exercise licensing and regulatory functions, or grant such authorisation, approval or clearance, in respect of information and communication services in Mauritius including the determination of types and classes of licences and the regulation of tariffs and alterations thereto; (g) establish, for public operators, performance standards and linkage standards in relation to the provision of international and local telephone services, and monitor compliance with both of those standards; (h) report, in such manner as may be required, to the Minister or to any other person on any matter that lies within its purview, such as the performance of public operators, the quality of consumer service and consumer satisfaction, measured against the best available international standards of practice; (i) ensure the fulfilment by public operators of their obligations under any enactment; (j) regulate the registration of SIMs; (k) establish and monitor the filing of reports, including financial, costing and other related reports, by licensees on the provision of information and communication services, including telecommunication services, in conformity with such guidelines, directives and determinations as the Authority may issue or review from time to time; (l) regulate the security of data; (m) take steps to regulate or curtail the harmful and illegal content on the Internet and other information and communication services; (n) ensure the safety and quality of every information and communication services including telecommunication service and, for that purpose, determine technical standards for telecommunication network, the connection of customer equipment to telecommunication networks; (o) entertain complaints from consumers in relation to any information and communication service in Mauritius and, where necessary, refer them to the appropriate authorities; (p) allocate frequencies and manage, review, and, where appropriate, reorganise the frequency spectrum; (q) determine the numbering system to be used for every information and communication services including telecommunication service, and manage, review, and, where appropriate, reorganise the numbering system; (r) set up a radio frequency management unit for the allocation, monitoring, control and regulation of radio frequencies and, with the approval of the Minister, participate in any regional monitoring system; (s) monitor every access or interconnection agreement and assist in the resolution of any dispute relating thereto; (t) monitor the use of information and communication services on any ship or aircraft; (u) control the importation of any equipment capable of being used to intercept a message; (v) regulate the conduct of examinations for, and the issue of, certificates of competency to persons wishing to operate any apparatus used for purposes of information and communication services including telecommunication; (w) manage the Universal Service Fund set up under section 21; (x) determine, whether as conditions of licences or otherwise, the universal service obligations and requirements; (y) authorise or regulate the registration, administration and management of domain names for Mauritius; (z) be the Controller of Certification Authorities; and (aa) determine facilities which are essential facilities."
+    },
+    {
+      "section": "19",
+      "heading": "Powers of the Minister",
+      "title": "Minister's directional powers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "The Minister may issue general directions to the Board that are consistent with the Authority's objects and necessary for the public interest. The Board must comply with these directives. This provision allows the Minister to influence the Board's actions while maintaining alignment with the Authority's objectives.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may give general directions to the Board consistent with the Authority's objects and necessary for the public interest.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Board shall comply with the Minister's directions.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Minister may give such directions of a general character to the Board, not inconsistent with the objects of the Authority, which fie considers to be necessary in the public interest, and the Board shall comply with those directives."
+    },
+    {
+      "section": "20",
+      "heading": "Establishment of the General Fund",
+      "title": "General Fund establishment",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "The Authority establishes a General Fund to collect all money, dues, fees, and charges. It transfers 85% of surplus funds to the Consolidated Fund by October 31 each year, with any balance exceeding 50 million rupees also transferred. The Authority may charge remuneration, allowances, salaries, and other expenses to the fund. It must submit an annual financial estimate to the Minister for approval.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority shall establish a General Fund into which all money, dues, fees, and charges received by the Authority shall be paid.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall transfer any balance exceeding 50 million rupees to the Consolidated Fund by October 31 each year.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may charge remuneration, allowances, salaries, grants, fees, pensions, superannuation contributions, gratuities, working expenses, and capital expenditure to the General Fund.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority shall derive income from prescribed charges, appropriations from the Consolidated Fund, and other approved sources.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority shall submit a detailed annual financial estimate to the Minister for approval at least three months before the financial year begins.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority shall establish a General Fund - (a) into which all money, dues, fees and charges received by the Authority shall be paid; and (b) out of which – (i) all payments required to be made by the Authority shall be effected; (ii) shall be transferred, not later than 31 October after the end of every financial year, to the Consolidated Fund – (A) 85 per cent of the surplus money not required for the purpose of subparagraph (i); and (B) any balance in excess of 50 million rupees, if any, after the transfer made under sub subparagraph (A). (2) The Authority may, in furtherance of its objects and in accordance with the terms and conditions upon which its funds may have been obtained or derived, charge to the General Fund all remuneration, allowances, salaries, grants, fees, pensions and superannuation fund contributions, gratuities, working expenses and all other charges properly arising, including any necessary capital expenditure. (3) The Authority shall derive its income from - (a) any charge or fee that may be prescribed; (b) any sum appropriated from the Consolidated Fund; and (c) such other source as may be approved by the Minister. (4) The Authority shall, not later than 3 months before the commencement of every financial year, submit to the Minister for his approval a detailed estimate of its income and expenditure for that year."
+    },
+    {
+      "section": "21",
+      "heading": "Establishment of a Universal Service Fund",
+      "title": "Universal Service Fund establishment and exemptions",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "The Authority must establish a Universal Service Fund to collect contributions from licensees for universal service projects. Payments from the fund must exclusively support universal service and access projects. Public operators implementing such projects are exempt from section 31. The Minister may prescribe contribution amounts, payment dates, and methods. This section applies to licensees and the Authority.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority shall establish a Universal Service Fund",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contributions from licensees must be paid into the Universal Service Fund",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fund payments must exclusively support universal service and access projects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public operators implementing universal service projects are exempt from section 31",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister may prescribe contribution basis, payment dates, and methods",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "21. Establishment of a Universal Service Fund (1) The Authority shall establish a Universal Service Fund - (a) into which shall be paid any contribution received from licensees in pursuance of subsection (2); (b) out of which payments may be made to any licensee required by the terms of his licence, or otherwise directed by the Authority, to provide a universal service and universal access in accordance with paragraph (c); and (c) out of which payments shall be made exclusively towards universal service projects and universal access projects."
+    },
+    {
+      "section": "22",
+      "heading": "Donations and exemptions",
+      "title": "Authority exemptions from charges and duties",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "The Authority is exempt from all charges, duties, fees, rates, and taxes under Article 910 of the Code Napoleon. This exemption applies to the Authority regardless of other enactments. The exemption covers all financial obligations related to the Authority's operations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Authority is exempt from payment of all charges, duties, fees, rates or taxes",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "22. Donations and exemptions (2) Notwithstanding any other enactment, the Authority shall be exempt from payment of all charges, duties, fees, rates or taxes."
+    },
+    {
+      "section": "24",
+      "heading": "Licensing",
+      "title": "Licensing requirements for telecom services",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 31,
+      "primary_category": "Other",
+      "summary": "No person may operate telecom services without a license from the Authority. Applicants must submit written applications for licenses, which may be granted via competitive processes or class licenses. The Authority must publish applications, allow objections, inspect premises, and determine license terms based on public interest, security, technical compatibility, and international agreements. Licenses must be issued within 30 days of complete application and include specific details about the licensee, services, and conditions.",
+      "dtia_summary": "Licensing requirements impact data transfer as telecom licenses govern infrastructure access and data handling across borders. The Authority's oversight of network operations affects cross-border data flows through infrastructure requirements.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person may operate telecom services without a license from the Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must submit written applications for licenses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may use competitive processes including auctions for license grants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority must publish applications in 2 newspapers and invite objections within 14 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require additional information or inspect premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority must determine license terms based on public interest, security, technical compatibility, and international agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licenses must be issued within 30 days of complete application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licenses must specify licensee name, premises, services, and conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must pay fees and bank guarantees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unpaid fees for over one year cause license lapse",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may forfeit bank guarantees or revoke licenses for contraventions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority must provide written reasons for decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "24. Licensing (1) No person shall operate an information and communication network or service including telecommunication network or service unless he holds a licence from the Authority."
+    },
+    {
+      "section": "25",
+      "heading": "Special powers",
+      "title": "Special powers for Authority enforcement",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "The Authority may designate authorized officers to inspect premises, enforce compliance, and issue warrants for searches. Authorized officers can enter properties, inspect installations, and work with police. The Authority may require remedies for contraventions, suspend licenses, revoke licenses, or impose fines up to 3% of the previous year's net turnover or 5,000,000 rupees.",
+      "dtia_summary": "Special powers enable the Authority to enforce compliance with data infrastructure, including inspections and penalties for non-compliance with data handling practices across borders.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may designate authorized officers to perform duties",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authorized officers may require licensees to produce licenses",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authorized officers may inspect installations at any reasonable time",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authorized officers may obtain warrants for searches and inspections",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may require licensees to remedy contraventions within a specified period",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may revoke or vary licenses for non-compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may suspend licenses for up to 30 days",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may cancel licenses for share capital changes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority must provide written reasons for decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-compliance with Authority decisions may result in fines up to 3% of net turnover or 5,000,0.000 rupees",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "25. Special powers (3) Where a Magistrate is satisfied, by information upon oath, that there is reasonable ground to suspect that a person is contravening this Act or any regulations made there under, he may grant a warrant to an authorised officer enabling him to- (a) enter any premises named in the warrant and search those premises or any person found therein; (b) inspect, remove and take copies of any document found which he considers relevant; (c) inspect and remove any installation or apparatus found therein which he has reason to suspect is operating in contravention of this Act."
+    },
+    {
+      "section": "26",
+      "heading": "Obligations of licensees",
+      "title": "Licensee obligations for infrastructure",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "Licensees must comply with license terms, maintain infrastructure in safe condition, provide access to authorized officers, submit reports and accounts, and follow written directions from the Authority. These obligations ensure operational compliance and transparency in telecom infrastructure management.",
+      "dtia_summary": "Licensee obligations directly impact data transfer as infrastructure maintenance and reporting requirements affect data storage and processing across borders.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensees must comply with all license terms and conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must maintain infrastructure in safe, adequate, and efficient condition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must provide access to authorized officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must submit reports, accounts, and other information as required",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must follow written directions from the Authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "26. Obligations of licensees Every licensee shall - (a) comply with every term and condition attached to his licence; (b) maintain an installation, apparatus or premises relating to his licence in such condition as to enable him to provide a safe, adequate and efficient service; (c) provide access thereto to an authorised officer; (d) furnish to the Authority such reports, accounts and other information relating to his operations as the Authority relay require; (e) comply with any written direction, including but not limited to guidelines and determinations given to him by the Authority in relation to the exercise of his rights and obligations under a licence."
+    },
+    {
+      "section": "27",
+      "heading": "Public operators entering premises",
+      "title": "Public operators' property access rights",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "Public operators may enter private property for infrastructure installation with 4-day written notice, but must compensate affected parties for property damage. The Authority handles compensation claims within 30 days and may require operators to modify installations at the property owner's request.",
+      "dtia_summary": "Public operators' property access rights affect data storage and infrastructure deployment across borders, requiring compensation mechanisms for data-related property impacts.",
+      "authority": "Authority",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Public operators may enter private property for infrastructure installation with 4-day written notice",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Public operators must compensate affected parties for property damage",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must award compensation within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must communicate compensation awards within 7 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require operators to modify installations at property owner's request",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "27. Public operators entering premises (1) A public operator shall, subject to subsection (2), have authority to - (a) enter any property for the purpose of exercising any of his powers under his licence; (b) establish any installation or apparatus on, over, under or across any land or road."
+    },
+    {
+      "section": "28",
+      "heading": "Interconnection agreements",
+      "title": "Interconnection agreements between network licensees",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 37,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Network licensees must grant access to their networks upon application. Applicants must submit written applications to the relevant network licensee, which must be copied to the Authority. The licensee must negotiate interconnection terms in good faith unless the Authority intervenes. If terms cannot be agreed within 60 days, the Authority acts as arbitrator. The award specifies technical standards, rates, and effective dates. Both parties must submit agreements to the Authority within 14 days.",
+      "dtia_summary": "Requires interconnection agreements with technical specifications and rate compliance; relevant for cross-border data transfer mechanisms between telecom providers.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Network licensees must grant access to their networks upon application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must submit written applications to the relevant network licensee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Network licensees must negotiate interconnection terms in good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Either party may request the Authority to act as a representative during negotiations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Interconnection rates must comply with charging principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agreements must be amended to comply with future charging principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parties must resolve disputes within 60 days or request Authority arbitration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must issue arbitration awards within 60 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Awards specify technical standards, rates, and effective dates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parties must submit agreements to Authority within 14 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every network licensee or public operator shall grant access to his network in accordance with this section."
+    },
+    {
+      "section": "29",
+      "heading": "Access Agreement",
+      "title": "Access agreements for non-network facilities",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 38,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Any person may apply to a public operator for access to non-network facilities. Public operators may grant access after consideration, negotiate terms in good faith, or refuse applications. Essential facilities must be accessible if economically feasible. Applicants may refer disputes to the Authority if they believe the operator acted unreasonably. Disputes must be resolved within 60 days or through arbitration.",
+      "dtia_summary": "Regulates access to non-network facilities; relevant for data transfer mechanisms between service providers.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Access Control"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person may apply to a public operator for access to non-network facilities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Public operators may grant access after consideration",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Public operators must negotiate terms in good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public operators must provide access to essential facilities if economically feasible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants may refer disputes to Authority if they believe operator acted unreasonably",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Parties must resolve disputes within 60 days or request Authority arbitration",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any person may make an application to a public operator or network licensee for access to its facilities or services other than its network."
+    },
+    {
+      "section": "30",
+      "heading": "Market definition and determination of significant market power",
+      "title": "Market power determination for telecom services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 40,
+      "primary_category": "Other",
+      "summary": "The Authority must conduct market analyses to identify telecom markets, designate markets requiring tariff approval, and determine which operators have significant market power. Operators must disclose market intentions before launching services. The Authority may impose conditions on operators with significant market power. Operators must notify the Authority before entering new markets.",
+      "dtia_summary": "Involves market power assessments for telecom services; relevant for data transfer mechanisms in competitive markets.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority must hold public consultations and conduct market analyses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must designate markets requiring tariff approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must determine operators with significant market power",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operators must disclose market intentions before commercial launch",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may issue guidelines for determining market power",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Operators with market power must submit cost breakdowns for promotional offers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operators must notify Authority before entering new markets",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority shall, at such times as it may determine, hold a public consultation and carry out a market analysis, to enable it to identify information and communication service markets or market segments."
+    },
+    {
+      "section": "31",
+      "heading": "Tariffs",
+      "title": "Tariff submission and approval for telecom services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 44,
+      "primary_category": "Other",
+      "summary": "Public operators must submit tariffs for services at least 15 days before implementation. Tariffs must include detailed cost breakdowns, service descriptions, and technical specifications. Operators cannot charge tariffs not approved by the Authority. Approved tariffs must be publicly displayed. The Authority must review tariffs within 15-30 days and may impose additional conditions.",
+      "dtia_summary": "Regulates tariff structures for telecom services; relevant for data transfer pricing and cost transparency.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Public operators must submit tariffs at least 15 days before implementation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tariffs must include detailed cost breakdowns and technical specifications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operators cannot charge tariffs not approved by the Authority",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Approved tariffs must be publicly displayed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must review tariffs within 15-30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may impose additional conditions on tariffs",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Every public operator shall submit to the Authority, in such form and manner as the Authority may determine, a tariff for every information and communication service which it wishes to supply and every intended alteration to a tariff, at least 15 working days before the proposed implementation of the tariff or the alteration, as the case may be."
+    },
+    {
+      "section": "32",
+      "heading": "Confidentiality",
+      "title": "Confidentiality and message interception rules",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 46,
+      "primary_category": "Security",
+      "summary": "Authority members must maintain secrecy of matters known during their duties. Licensees must treat messages as confidential. Unauthorized use of confidential messages is an offense. Public operators may intercept messages deemed indecent, illegal, or threatening national security. Interceptions must be reported to the Authority.",
+      "dtia_summary": "Regulates confidentiality and message interception; relevant for data security and privacy in telecom services.",
+      "authority": "Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority members must maintain secrecy of matters known during duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must treat messages as confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unauthorized use of confidential messages is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Public operators may intercept messages deemed indecent, illegal, or threatening national security",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Interceptions must be reported to the Authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every member or officer of the Authority shall maintain, and aid in maintaining, the secrecy of any matter which comes to his knowledge in the performance, or as a result, of his duties under this Act."
+    },
+    {
+      "section": "39",
+      "heading": "Jurisdiction of the Tribunal",
+      "title": "Tribunal jurisdiction for telecom appeals",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 50,
+      "primary_category": "Enforcement",
+      "summary": "The Tribunal handles appeals against Authority decisions on telecom services. Appeals must be filed within 21 days of notification. The Tribunal may allow appeals after the deadline if there's sufficient cause. The Tribunal must resolve appeals within 6 months and send copies of orders to all parties.",
+      "dtia_summary": "Provides a mechanism for resolving disputes over telecom service decisions; relevant for data transfer compliance.",
+      "authority": "Tribunal",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Tribunal handles appeals against Authority decisions on telecom services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appeals must be filed within 21 days of notification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Tribunal may allow appeals after 21 days if there's sufficient cause",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Tribunal must resolve appeals within 6 months",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Tribunal shall hear and dispose of any appeal against a decision of the Authority regarding information and communication technologies."
+    },
+    {
+      "section": "40",
+      "heading": "Procedure and powers of the Tribunal",
+      "title": "Tribunal procedures and powers for appeals",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 52,
+      "primary_category": "Other",
+      "summary": "The Tribunal may set its venue and time for proceedings. It can resume adjourned cases at determined locations. Appeals must follow civil procedures, evidence laws, and public hearings unless public safety or privacy concerns require otherwise. The Tribunal can compel attendance, document production, oath-taking, and witness testimony. Failure to comply with these procedures constitutes an offence.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Tribunal shall sit at such place and time as the Chairperson may determine",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may resume adjourned proceedings at such place and time as the Chairperson may determine",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appeals shall be instituted and conducted as far as possible in the same manner as civil proceedings before a District Magistrate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appeals shall be conducted in accordance with the law of evidence in force in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appeals shall be in public except where public safety, public order, or privacy concerns require otherwise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may make orders requiring attendance and production of documents or electronic records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may take evidence on oath and administer oaths",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may call and hear any person as witness on its own motion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may adopt procedures necessary for its proper functioning",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "40. Procedure and powers of the Tribunal (1) The Tribunal shall sit at such place and time as the Chairperson of the Tribunal may determine. (2) Where the Tribunal adjourns any proceedings, it may resume them at such place and time as the Chairperson of the Tribunal may determine. (3) Subject to any regulations made under section 48, all appeals before the Tribunal shall be instituted and conducted - (a) as far as possible in the same manner as proceedings in a civil matter before a District Magistrate; (b) in accordance with the law of evidence in force in Mauritius; (c) in public, except where the Tribunal otherwise orders on the ground of public safety or public order or the privacy of persons concerned."
+    },
+    {
+      "section": "45",
+      "heading": "Protection of members and officers",
+      "title": "Protection of Authority members and officers from liability",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 55,
+      "primary_category": "Other",
+      "summary": "Members and officers of the Authority are immune from civil or criminal liability for losses arising from their good faith performance of duties under the Act. Documents related to financial matters must be signed by the Chairperson or designated member and the Executive Director or designated employee. Devices connected to GMPCS systems require specific authorization to use, possess, or import.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No civil or criminal liability shall attach to any member or officer of the Authority for losses arising from good faith exercise of functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial documents must be signed by the Chairperson or designated member and Executive Director or designated employee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person may use, possess, or import devices connected to GMPCS systems without authorization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with device authorization requirements constitutes an offence with fines up to 1 million rupees and penal servitude up to 20 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authorized persons may use, import, possess devices connected to GMPCS systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Persons in possession of devices must apply for licenses within 30 days of the section's commencement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Persons with rejected license applications must surrender devices to the Commissioner of Police",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "45. Protection of members and officers No liability, civil or criminal, shall attach to any member or officer of the Authority, or to the Authority, in respect of any loss arising from the exercise in good faith by a member or an officer or the Authority of his or its functions under this Act. 45A. Execution of documents No deed or document relating to financial matters shall be executed or signed by or on behalf of the Authority unless it is signed by - (a) the Chairperson or, in his absence, any other member designated by the Board; and (b) the Executive Director or, in his absence, any other employee designated by the Executive Director. 45B. Importation, possession and use of devices in GMPCS system (1) No person shall – (a) use; (b) possess; or (c) import or cause to import, a phone, a router or any other device that may be connected to a GMPCS system."
+    },
+    {
+      "section": "46",
+      "heading": "Offences",
+      "title": "Offences related to information and communication services",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 59,
+      "primary_category": "Other",
+      "summary": "The Act defines various offences related to information and communication services, including harming services, intercepting messages, sending fraudulent messages, tampering with IMEI numbers, and unauthorized network operations. The Court may consider factors like message extremity, victim characteristics, and likelihood of harm when determining if an offence has caused serious emotional distress.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Harming information and communication services through electromagnetic effects constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Taking messages with intent to defraud or prevent delivery constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Stealing, secreting, or destroying messages constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Omitting or delaying message transmission constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Forging messages or using forged messages constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sending false or fraudulent messages constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Using communication services to send obscene or harmful messages constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Impersonating others using communication services constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Dishonestly obtaining services without paying fees constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fraudulently installing access to telecommunication lines constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wilfully damaging communication installations constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Wilfully tampering with IMEI numbers constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operating networks without a license constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Importing intercepting equipment without authorization constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclosing messages without consent or legal authority constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Providing false information constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intercepting messages without authorization constitutes an offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "46. Offences (1) Any person who - (a) by any form of emission, radiation, induction or other electromagnetic effect, harms the functioning of an information and communication service, including telecommunication service; (b) with intent to defraud or to prevent the sending or delivery of a message, takes an information and communication message, including telecommunication message from the employee or agent of a licensee; (c) with intent to defraud, takes a message from a place or vehicle used by a licensee in the performance of his functions; (d) steals, secretes or destroys a message; (e) wilfully or negligently omits or delays the transmission or delivery of a message; (f) forges a message or transmits or otherwise makes use of a message knowing that it has been forged; (g) knowingly sends, transmits or causes to be transmitted a false or fraudulent message; (ga) uses a telecommunication equipment... to send... a message which is obscene, indecent, offensive, abusive, threatening, menacing, false or misleading, which is likely to cause or causes harm to a person; (ha) uses a telecommunication equipment... to impersonate, or by any other means impersonates, another person which is likely to cause or causes harm to that person; (i) dishonestly obtains or makes use of an information and communication service... with intent to avoid payment of any applicable fee or charge; (j) by means of an apparatus or device connected to an installation maintained or operated by a licensee - (i) defrauds the licensee of any fee or charge properly payable for the use of a service; (ii) causes the licensee to provide a service to some other person without payment by such other person of the appropriate fee or charge; or (iii) fraudulently installs or causes to be installed an access to a telecommunication line; (k) wilfully damages, interferes with, removes or destroys an information and communication installation or service including telecommunication installation or service maintained or operated by a licensee; (ka) wilfully tampers or causes to be tampered the International Mobile Station Equipment (IMEI) of any mobile device; (l) establishes, maintains or operates a network or service without a licence or in breach of the terms or conditions of a licence; (m) without the prior approval of the Authority, imports any equipment capable of intercepting a message; (n) discloses a message or information relating to such a message to any other person otherwise than - (i) in accordance with this Act; (ii) with the consent of each of the sender of the message and each intended recipient of the message; (iii) for the purpose of the administration of justice, or (iv) as authorised by a Judge; (na) knowingly provides information which is false or fabricated; (o) except as expressly permitted by this Act or as authorized by a Judge, intercepts, authorises or permits another person to intercept, or does any act or thing that will enable him or another person to intercept, a message passing over a network; (p) in any other manner contravenes this Act or any regulations made under this Act, shall commit an offence."
+    },
+    {
+      "section": "48",
+      "heading": "Regulations",
+      "title": "Regulations for the Authority",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 61,
+      "primary_category": "Other",
+      "summary": "The Minister may make regulations for the purpose of the Act after consulting the Board. Regulations may cover fees, schedule amendments, charging principles, SIM registration, economic and technical monitoring of licensees, reporting requirements, and technical standards for telecommunication networks. Violations of regulations may result in fines up to 50,00.000 rupees and imprisonment up to one year.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may make regulations after consulting the Board",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may prescribe fees and charges",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may amend the Schedules",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may prescribe charging principles based on Board recommendations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may require SIM registration",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may mandate economic and technical monitoring of licensees",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may require financial and costing reports from licensees",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may determine technical standards for telecommunication networks",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Violations of regulations may result in fines up to 50,000 rupees and imprisonment up to one year",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "48. Regulations (1) The Minister may, after consultation with the Board, make such regulations as he thinks fit for the purpose of this Act. (2) Any regulation made under subsection (1) may provide - (a) for the levying of fees and taking of charges; (b) for an amendment of the Schedules; (c) for the prescription of charging principles on the recommendation of the Board and such other matters as may be prescribed under this Act; (ca) for the registration of SIMs; (cb) for economic and technical monitoring of licensees in the information and communication industry in accordance with recognised international standard practices, protocols and having regard to the convergence of technology; (cc) for the establishment and monitoring of the filing of reports, including financial, costing and other related reports, by licensees on the provision of information and communication services, including telecommunication services, in conformity with such guidelines, directives and determinations as the Authority may issue or review from time to time; (cd) for the safety and quality of every information and communication services, including telecommunication services, and, for that purpose, determine technical standards for telecommunication network, the connection of customer equipment to telecommunication networks; (d) that any person who contravenes them shall commit an offence and shall, on conviction, be liable to a fine not exceeding 50,000 rupees and to imprisonment for a term not exceeding one year."
+    },
+    {
+      "section": "50",
+      "heading": "Consequential amendments",
+      "title": "Consequential amendments to other Acts",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 61,
+      "page_end": 62,
+      "primary_category": "Other",
+      "summary": "The Act amends the Central Tender Board Act by adding the Information and Communication Technologies Authority to its First Schedule. It also amends the Statutory Bodies (Accounts and Audit) Act by adding the Authority to its Schedule and establishing its first financial year as the period from the Act's commencement to 30 June of the following year. The Director of Audit is appointed as the Authority's auditor.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Information and Communication Technologies Authority is added to the Central Tender Board Act's First Schedule",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Information and Communication Technologies Authority is added to the Statutory Bodies (Accounts and Audit) Act's Schedule",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The period from the Act's commencement to 30 June next is deemed the Authority's first financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Section 7(1) of the Statutory Bodies (Accounts and Audit) Act does not apply to the Authority's first financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Director of Audit is appointed as the Authority's auditor",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "50. Consequential amendments (1) The Central Tender Board Act is amended in the First Schedule, in Part IV, by inserting in its appropriate alphabetical order, the following item - The Information and Communication Technologies Authority. (2) Subject to subsections (3) and (4), the Schedule to the Statutory Bodies (Accounts and Audit) Act is amended in Part II by adding the item - The Information and Communication Technologies Authority. (3) For the purposes of the Statutory Bodies (Accounts and Audit) Act, the period extending from the commencement of this Act to 30 June next following shall be deemed to be the first financial year of the Authority. (4) Section 7(1) of the Statutory Bodies (Accounts and Audit) Act shall not apply in relation to the first financial year of the Authority. (5) The auditor to be appointed under section 5(1) of the Statutory Bodies (Accounts and Audit) Act shall be the Director of Audit."
+    },
+    {
+      "section": "52",
+      "heading": "Commencement",
+      "title": "Commencement dates for telecommunications licenses",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 63,
+      "page_end": 72,
+      "primary_category": "Other",
+      "summary": "This section specifies the effective dates for the commencement of different parts of the Act. Section 1 and Part VII came into effect on 11 February 2002. Sections 2 and 3, Parts II to VI, and Part IX commenced on 1 June 2002. Part VIII commenced on 1 December 2003. These dates determine when specific provisions of the Act become operational for telecommunications licensing.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Section 1 and Part VII commence on 11 February 2002",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Sections 2 and 3, Parts II to VI, and Part IX commence on 1 June 2002",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Part VIII commences on 1 December 2003",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "52. Commencement Proclaimed by [Proclamation of 2002] w.e.f. 11th February 2002 (Section 1 and Part VII) [Proclamation of 2002] w.e.f. 1st June 2002 (Sections 2 and 3, PARTS II to VI and PART IX) [Proclamation of 2003] w.e.f. 1st December 2003 Part VIII"
+    },
+    {
+      "section": "5",
+      "heading": "The liabilities of my spouse, minor children, are:",
+      "title": "Oath of secrecy for ICT Authority officials",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 74,
+      "page_end": 76,
+      "primary_category": "Other",
+      "summary": "This section outlines the oath of secrecy that ICT Authority officials must take. Officials sworn in under this section must treat all documents and information related to the Authority's operations as secret and confidential, and refrain from disclosing them to unauthorized persons. The oath is administered before a District Magistrate in the Supreme Court.",
+      "dtia_summary": "",
+      "authority": "Supreme Court",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "ICT Authority officials must treat all documents and information related to the Authority's operations as secret and confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICT Authority officials must refrain from disclosing such documents and information to unauthorized persons",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "I hereby make oath/solemn affirmation as a ... and declare that in the discharge of my duties under the ICT Authority Act 2001, I will deal with and regard all documents and information relating to the operations of the Authority and to which I have access as SECRET AND CONFIDENTIAL and refrain from delivering disclosing any such document and information to any unauthorized person."
+    }
+  ]
+}

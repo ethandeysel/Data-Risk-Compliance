@@ -1,0 +1,528 @@
+{
+  "country": "Singapore",
+  "document": "Final_Consultation_Paper_on_Guidelines_on_AI_Risk_Management_ForRelease (Singapore - Row 16)",
+  "generated": "2026-07-17T22:04:34",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "",
+      "title": "MAS proposes AI risk management guidelines for financial institutions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "MAS proposes Guidelines on Artificial Intelligence Risk Management to enhance oversight of AI risks in financial institutions. The Guidelines focus on AI risk management systems, policies, procedures, life cycle controls, and capabilities needed for AI use. They aim to establish generally applicable expectations across the financial sector that can be proportionally applied based on FI size and risk profile. The Guidelines will be updated as AI technology evolves.",
+      "dtia_summary": "",
+      "authority": "Monetary Authority of Singapore (MAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "MAS proposes to introduce Guidelines on Artificial Intelligence Risk Management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines focus on oversight of AI risk management in FIs, key AI risk management systems, policies and procedures, key AI life cycle controls, and capabilities needed for AI use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines aim to establish generally applicable expectations across the financial sector",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines may be applied in a proportionate manner across FIs of different sizes and risk profiles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Guidelines should be generally applicable to different AI applications and technologies including Generative AI and AI agents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MAS will update or augment Guidelines when necessary due to evolving AI",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "MAS is proposing to introduce Guidelines on Artificial Intelligence (AI) Risk Management (the \"Guidelines\") 1 to enhance management of AI risks in financial institutions (FIs), and set out MAS' supervisory expectations relating to AI risk management in the financial sector."
+    },
+    {
+      "section": "2",
+      "heading": "",
+      "title": "AI risks in financial sector including generative AI and AI agents",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "The section details risks associated with AI in financial institutions, particularly generative AI and AI agents. It highlights potential financial losses from poor AI model performance, operational disruptions, customer harm, security vulnerabilities, privacy risks, intellectual property issues, concentration risks, and human-factor risks. The section also references MAS's FEAT principles and initiatives like Veritas and Project MindForge to support responsible AI implementation.",
+      "dtia_summary": "",
+      "authority": "Monetary Authority of Singapore (MAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Poor performance of AI models used for risk assessments could lead to substantial financial losses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unexpected behaviours in AI systems could disrupt critical operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Inappropriate outputs from customer-facing AI systems could result in harm or financial loss to customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Generative AI introduces risks such as hallucinations, unpredictable behaviours, and challenges in explaining decision-making processes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security vulnerabilities such as prompt injection attacks could occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Privacy risks from potential data leakage when using third-party services could arise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intellectual property violations from training on copyrighted content could occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Concentration risks from over-reliance on a few dominant Generative AI providers could emerge",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Human-factor risks arising from over-reliance on Generative AI could occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AI agents with greater autonomy could introduce significant risks including misaligned actions and data exfiltration",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The use of AI in the financial sector is not new. However, recent advancements in AI have led to an increased interest in leveraging AI in the financial sector."
+    },
+    {
+      "section": "3",
+      "heading": "",
+      "title": "Applicability of AI risk management guidelines to financial institutions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "The Guidelines apply to all financial institutions in Singapore. Branches or subsidiaries with parent entities in other jurisdictions may leverage their parent entities' AI risk management frameworks if they meet the Guidelines' expectations. FIs may implement the Guidelines proportionally based on their size, risk profile, AI usage, and specific use cases. The section defines AI scope to include models, systems, and use cases that learn from inputs to generate outputs, excluding predefined programming logic.",
+      "dtia_summary": "",
+      "authority": "Monetary Authority of Singapore (MAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Guidelines apply to all FIs in Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FI branches or subsidiaries with parent entities in other jurisdictions may leverage parent entities' AI risk management frameworks if they meet the Guidelines' expectations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FIs may implement Guidelines in a proportionate manner based on size, nature of activities, AI usage, and risk profiles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "AI scope includes models, systems, and use cases that learn from inputs to generate outputs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Calculators or tools with outputs based solely on predefined programming logic are not considered AI under the Guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "MAS proposes to apply the Guidelines to all FIs."
+    },
+    {
+      "section": "4",
+      "heading": "AI Oversight",
+      "title": "AI Oversight Responsibilities for Financial Institutions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "Financial institutions must establish robust frameworks, policies, and processes for identifying AI use cases, assessing risk materiality, maintaining AI inventories, and managing AI throughout its lifecycle. Board and senior management must foster an appropriate risk culture and ensure existing risk management practices are updated to address AI-related risks. If AI risk exposure is deemed material, FIs must create a dedicated cross-functional committee for oversight.",
+      "dtia_summary": "This section mandates specific governance structures for AI risk management, requiring institutions to identify AI usage, assess materiality, maintain inventories, and implement lifecycle controls. It directly impacts DTIAs by establishing baseline oversight requirements for cross-border AI deployments.",
+      "authority": "MAS (Monetary Authority of Singapore)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Board and senior management must establish frameworks, policies, and processes to identify AI use cases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and senior management must assess risk materiality of AI use cases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and senior management must maintain an up-to-date inventory of AI use cases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and senior management must manage AI throughout its lifecycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Board and senior management must foster appropriate risk culture for AI",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If AI risk exposure is material, establish a dedicated cross-functional committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update existing risk management practices to address AI-related risks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Board and senior management should also foster the appropriate risk culture for the use of AI, and ensure that existing organisation-wide risk management is updated to address risks introduced by the use of AI."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "AI Oversight (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4 (part 3)",
+      "heading": "AI Oversight (cont.)",
+      "title": "AI Oversight Responsibilities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 19,
+      "primary_category": "Governance",
+      "summary": "The Board and senior management must ensure consistent standards and coordination across financial institutions for AI risk management. They must establish clear roles, responsibilities, and policies for updating the Board on breaches of risk thresholds and AI incidents. Financial institutions should also form dedicated committees when AI risk exposure is material to ensure adequate oversight and address potential gaps in risk management.",
+      "dtia_summary": "This section mandates clear oversight responsibilities for AI risk management, requiring financial institutions to define roles, monitor risk thresholds, and establish reporting mechanisms for breaches. It directly impacts DTIAs by specifying governance structures and accountability frameworks for cross-border AI data transfers.",
+      "authority": "Board and senior management",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Monitor indicators and adherence to risk appetite thresholds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Articulate clear roles and responsibilities for managing AI risks across business lines and functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Set out clear policies for updating the Board on breaches of risk appetite thresholds and AI incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Perform regular reviews to account for newer AI developments, changes in risk profile, business strategies, and regulatory developments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure consistent standards, clear accountability, and robust coordination across the FI for AI risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish a dedicated cross-functional committee when overall AI risk exposure is deemed material",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure compliance with all existing regulatory requirements relevant to AI risk areas",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Board and senior management should ensure consistent standards, clear accountability, and robust coordination across the FI to manage AI risks."
+    },
+    {
+      "section": "4 (part 4)",
+      "heading": "AI Oversight (cont.)",
+      "title": "AI Lifecycle Controls and Data Management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 22,
+      "primary_category": "Governance",
+      "summary": "Financial institutions must implement robust lifecycle controls for AI use cases, including identification, inventory, risk materiality assessment, and data management. They should define roles, conduct risk assessments, maintain accurate inventories, and ensure data quality, security, and privacy throughout the AI lifecycle. Third-party AI management requires specific onboarding and monitoring protocols.",
+      "dtia_summary": "This section establishes comprehensive lifecycle controls for AI, directly impacting DTIAs by requiring institutions to assess and manage data risks across borders, ensure data quality and privacy, and implement third-party AI oversight mechanisms.",
+      "authority": "Financial Institutions",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Plan and implement robust controls covering the entire AI life cycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define use cases and assign roles for AI lifecycle across business units",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct risk materiality assessments and update inventory information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Implement lifecycle controls proportionate to assessed risk materiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop contingency plans for high-risk AI use cases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Put in place data management controls for fit-for-purpose, representativeness, quality, classification, security, privacy, and auditability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine transparency and explainability requirements based on risk materiality",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define 'fair' outcomes and implement controls to mitigate harmful biases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure appropriate human oversight across the AI lifecycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure adequate onboarding, development, and deployment controls for third-party AI",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An FI should plan for and implement robust controls covering the entire life cycle of an AI use case, system or model."
+    },
+    {
+      "section": "4 (part 5)",
+      "heading": "AI Oversight (cont.)",
+      "title": "AI oversight requirements for third-party AI providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 25,
+      "primary_category": "Third Party Processing",
+      "summary": "Financial institutions must assess transparency, fairness, supply chain risks, concentration risks, and contingency plans for third-party AI providers. They must update legal agreements to clarify responsibilities, build staff capabilities, and conduct detailed assessments for complex AI products. FIs must ensure transparency and explainability where available, employ compensatory measures if not, and maintain robust oversight for high-risk AI deployments.",
+      "dtia_summary": "This section mandates specific oversight mechanisms for third-party AI providers, including transparency checks, supply chain assessments, and contingency planning. It directly impacts DTIAs by requiring FIs to evaluate third-party AI risks before integration and establish safeguards for high-risk deployments.",
+      "authority": "MAS",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Assess transparency from third-party AI providers on how key risks are addressed during development and deployment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Set clear expectations on transparency needed from third-party AI providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider compensatory measures if transparency and explainability are not available",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Exercise due diligence regarding fairness practices of third-party AI providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Check supply chain risk assessments for key third-party and open-source AI models",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess potential concentration risks from over-reliance on key third-party AI providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Develop robust contingency plans for third-party AI failures or discontinuation of support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update legal agreements to clarify performance guarantees, data protection, audit rights, and notification clauses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Build staff awareness and capabilities for AI procurement, development, deployment and use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct detailed assessments for complex third-party AI products with limited FI experience",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An FI should consider the objectives and risks of the AI use case, system or model. The FI should require developers to justify and document their selection process, particularly when selecting more complex algorithms or less understood features over simpler or conventional alternatives."
+    },
+    {
+      "section": "4 (part 6)",
+      "heading": "AI Oversight (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "5",
+      "heading": "AI Risk Management Capabilities",
+      "title": "AI Risk Management Capabilities for Financial Institutions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 30,
+      "primary_category": "Other",
+      "summary": "Financial institutions must ensure personnel involved in AI development and deployment possess adequate competence and conduct. This requires recruiting talent, providing training, and allocating resources proportional to the AI risk profile. Regular reviews are needed to maintain capabilities and address emerging AI technology risks.",
+      "dtia_summary": "This section establishes baseline capabilities for AI risk management that must be maintained across AI use cases, impacting how financial institutions assess and manage risks during data transfers involving AI systems.",
+      "authority": "MAS",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions should determine and ensure necessary competence and proper conduct of personnel involved in developing and deploying AI use cases, systems or models",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should recruit necessary talent and provide appropriate training and support to equip employees with AI skills, knowledge and culture",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should allocate adequate resources, including human, technological, and financial, proportionate to the AI risk profile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should conduct regular reviews to ensure personnel are equipped with adequate capabilities for effective AI risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should regularly review programmes for building capabilities and capacity to ensure they are up to date and incorporate training for newer AI technologies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An FI should determine and ensure the necessary competence and proper conduct of personnel involved in developing and deploying an AI use case, system or model. This includes recruiting the necessary talent and providing appropriate training and support to equip employees with the skills, knowledge, and culture for the appropriate use of AI, as well as effective AI risk management. Adequate resources, including human, technological, and financial, should be allocated proportionate to the risk profile of the AI use case, system or model."
+    }
+  ]
+}

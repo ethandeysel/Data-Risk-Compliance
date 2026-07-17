@@ -1,0 +1,426 @@
+{
+  "country": "Singapore",
+  "document": "FEAT Principles Updated 7 Feb 19 (Singapore - Row 15)",
+  "generated": "2026-07-17T22:08:22",
+  "sections": [
+    {
+      "section": "10",
+      "heading": "Data subjects are provided with channels to enquire about, submit appeals for and",
+      "title": "Data subjects must have channels to appeal AIDA decisions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Data subjects must be provided with channels to inquire about, submit appeals for, and request reviews of AIDA-driven decisions that affect them. This ensures data subjects can seek clarification or correction of decisions made by AI systems, maintaining transparency and accountability in the decision-making process.",
+      "dtia_summary": "Requires data subject appeal mechanisms, critical for ensuring compliance with data subject rights in cross-border data transfers involving AI.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must have channels to inquire about, submit appeals for, and request reviews of AIDA-driven decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. Data subjects are provided with channels to enquire about, submit appeals for and request reviews of AIDA-driven decisions that affect them."
+    },
+    {
+      "section": "11",
+      "heading": "Verified and relevant supplementary data provided by data subjects are taken into",
+      "title": "Verified supplementary data from data subjects must be considered",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "When reviewing AIDA-driven decisions, firms must take into account verified and relevant supplementary data provided by data subjects. This allows data subjects to update or correct information for accuracy and relevance, ensuring decisions are based on the most current and reliable data.",
+      "dtia_summary": "Requires incorporation of data subject-provided corrections, important for maintaining data accuracy in cross-border AI-driven decision-making.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Verified and relevant supplementary data provided by data subjects must be taken into account during AIDA decision reviews",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Verified and relevant supplementary data provided by data subjects are taken into account when performing a review of AIDA-driven decisions."
+    },
+    {
+      "section": "12",
+      "heading": "To increase public confidence, use of AIDA is proactively disclosed to data subjects as",
+      "title": "AIDA usage disclosed to data subjects for transparency",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Data Subject Rights",
+      "summary": "Entities must proactively disclose to data subjects the use of AIDA systems as part of their communication to build public confidence. This transparency measure ensures data subjects are informed about how automated decision-making systems are applied in their financial interactions.",
+      "dtia_summary": "This section mandates disclosure of AIDA usage to data subjects, which impacts DTIAs by requiring transparency in how automated decisions are communicated to individuals.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Use of AIDA is proactively disclosed to data subjects as part of general communication",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "To increase public confidence, use of AIDA is proactively disclosed to data subjects as part of general communication."
+    },
+    {
+      "section": "13",
+      "heading": "Data subjects are provided, upon request, clear explanations on what data is used to",
+      "title": "Data subjects must receive clear explanations of data used in AIDA decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "Data subjects must be provided with clear explanations upon request about what data is used to make AIDA-driven decisions and how that data affects the decision. This ensures transparency without exposing proprietary information, allowing data subjects to understand the decision-making process.",
+      "dtia_summary": "Requires transparent explanations of data usage, critical for assessing data transfer compliance with data subject rights in cross-border contexts.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must receive clear explanations upon request about data used in AIDA decisions and how it affects the decision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. Data subjects are provided, upon request, clear explanations on what data is used to make AIDA-driven decisions about the data subject and how the data affects the decision."
+    },
+    {
+      "section": "14",
+      "heading": "Data subjects are provided, upon request, clear explanations on the consequences",
+      "title": "Explanations for AIDA-driven decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Data Subject Rights",
+      "summary": "This section mandates that data subjects receive clear explanations of how AIDA-driven decisions affect them when they request it. The explanations must cover the consequences of specific decisions, such as premium adjustments for insurance. The requirements include providing illustrative materials, user interfaces for input variation, and sharing relevant data used in analysis. These obligations apply to AIDA firms operating in Singapore's financial sector.",
+      "dtia_summary": "This section requires transparency in AIDA-driven decisions, mandating that financial institutions provide clear explanations to customers about the impact of AI decisions on their outcomes. This directly affects data transfer impact assessments by requiring explanations for decisions made using AI models, especially when data is processed across borders.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must receive clear explanations of consequences of AIDA-driven decisions upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide illustrative diagrams and charts showing how driving patterns affect premiums",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must develop user interfaces for customers to vary inputs and see premium impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must share which customer group a data subject falls into and corresponding premium impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must disclose data used to analyze driving patterns and allow updates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide meaningful explanations for premium increases upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. Data subjects are provided, upon request, clear explanations on the consequences that AIDA-driven decisions may have on them."
+    },
+    {
+      "section": "2",
+      "heading": "Use of personal attributes as input factors for AIDA-driven decisions is",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "AIDA-driven decisions are regularly reviewed so that models behave as",
+      "title": "Regular review of AIDA models to ensure intended behavior",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "AIDA-driven decisions must undergo regular reviews to ensure they function as designed and intended. The review frequency depends on the decision's materiality and model complexity, with more frequent checks required for highly material and complex models. These reviews help identify and correct errors or unintended biases in the decision-making process.",
+      "dtia_summary": "Requires regular model validation to ensure AIDA decisions align with intended behavior, critical for assessing model reliability in cross-border data transfers involving AI.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "AIDA-driven decisions must be regularly reviewed to ensure they behave as designed and intended",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review frequency depends on decision materiality and model complexity",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "More frequent validation required for highly material and complex models",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Quarterly, annual, or less frequent validations sufficient for less material and straightforward models",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "4. AIDA-driven decisions are regularly reviewed so that models behave as designed and intended."
+    },
+    {
+      "section": "6",
+      "heading": "AIDA-driven decisions are held to at least the same ethical standards as",
+      "title": "AIDA decisions must meet same ethical standards as human decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "AIDA-driven decisions must adhere to at least the same ethical standards as human-driven decisions. Firms must ensure their algorithms do not violate existing ethical principles, such as fairness and non-discrimination, by excluding protected attributes like gender in hiring decisions. This requires internal governance frameworks to maintain ethical alignment throughout the decision-making process.",
+      "dtia_summary": "Ensures AIDA decisions comply with ethical standards, reducing risks of biased outcomes in cross-border data transfers involving sensitive personal information.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "AIDA-driven decisions must be held to at least the same ethical standards as human-driven decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Model or algorithm must not use gender as an input or derived attribute in hiring decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must establish ethical review boards to oversee ethical standards",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "6. AIDA-driven decisions are held to at least the same ethical standards as human driven decisions."
+    },
+    {
+      "section": "9",
+      "heading": "Firms using AIDA proactively raise management and Board awareness of their",
+      "title": "Firms must raise management and Board awareness of AIDA use",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Firms using AIDA must proactively inform management and the Board about their AIDA usage. This includes setting approval authorities based on decision materiality and complexity, with higher-level approvals for significant decisions. Regular updates to the Board ensure oversight of material AIDA-driven decisions and their impacts.",
+      "dtia_summary": "Ensures board-level oversight of AIDA usage, critical for assessing risks in cross-border data transfers involving AI-driven decisions.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must proactively raise management and Board awareness of AIDA use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Approval authorities must consider decision materiality and complexity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Higher-level approvals (e.g., CEO or Board) required for highly material decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. Firms using AIDA proactively raise management and Board awareness of their use of AIDA."
+    },
+    {
+      "section": "10",
+      "heading": "Data subjects are provided with channels to enquire about, submit appeals",
+      "title": "Data subjects must have channels to appeal AIDA decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "Data subjects must be provided with channels to inquire about, submit appeals for, and request reviews of AIDA-driven decisions that affect them. This ensures data subjects can seek clarification or correction of decisions made by AI systems, maintaining transparency and accountability in the decision-making process.",
+      "dtia_summary": "Requires data subject appeal mechanisms, critical for ensuring compliance with data subject rights in cross-border data transfers involving AI.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must have channels to inquire about, submit appeals for, and request reviews of AIDA-driven decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. Data subjects are provided with channels to enquire about, submit appeals for and request reviews of AIDA-driven decisions that affect them."
+    },
+    {
+      "section": "11",
+      "heading": "Verified and relevant supplementary data provided by data subjects are taken",
+      "title": "Verified supplementary data from data subjects must be considered",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "When reviewing AIDA-driven decisions, firms must take into account verified and relevant supplementary data provided by data subjects. This allows data subjects to update or correct information for accuracy and relevance, ensuring decisions are based on the most current and reliable data.",
+      "dtia_summary": "Requires incorporation of data subject-provided corrections, important for maintaining data accuracy in cross-border AI-driven decision-making.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Verified and relevant supplementary data provided by data subjects must be taken into account during AIDA decision reviews",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Verified and relevant supplementary data provided by data subjects are taken into account when performing a review of AIDA-driven decisions."
+    },
+    {
+      "section": "13",
+      "heading": "Data subjects are provided, upon request, clear explanations on what data is",
+      "title": "Data subjects must receive clear explanations of data used in AIDA decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "Data subjects must be provided with clear explanations upon request about what data is used to make AIDA-driven decisions and how that data affects the decision. This ensures transparency without exposing proprietary information, allowing data subjects to understand the decision-making process.",
+      "dtia_summary": "Requires transparent explanations of data usage, critical for assessing data transfer compliance with data subject rights in cross-border contexts.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must receive clear explanations upon request about data used in AIDA decisions and how it affects the decision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. Data subjects are provided, upon request, clear explanations on what data is used to make AIDA-driven decisions about the data subject and how the data affects the decision."
+    },
+    {
+      "section": "14",
+      "heading": "Data subjects are provided, upon request, clear explanations on the",
+      "title": "Explanations for AIDA-driven decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 15,
+      "primary_category": "Data Subject Rights",
+      "summary": "This section mandates that data subjects receive clear explanations of how AIDA-driven decisions affect them when they request it. The explanations must cover the consequences of specific decisions, such as premium adjustments for insurance. The requirements include providing illustrative materials, user interfaces for input variation, and sharing relevant data used in analysis. These obligations apply to AIDA firms operating in Singapore's financial sector.",
+      "dtia_summary": "This section requires transparency in AIDA-driven decisions, mandating that financial institutions provide clear explanations to customers about the impact of AI decisions on their outcomes. This directly affects data transfer impact assessments by requiring explanations for decisions made using AI models, especially when data is processed across borders.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects must receive clear explanations of consequences of AIDA-driven decisions upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide illustrative diagrams and charts showing how driving patterns affect premiums",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must develop user interfaces for customers to vary inputs and see premium impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must share which customer group a data subject falls into and corresponding premium impact",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must disclose data used to analyze driving patterns and allow updates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide meaningful explanations for premium increases upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. Data subjects are provided, upon request, clear explanations on the consequences that AIDA-driven decisions may have on them."
+    }
+  ]
+}

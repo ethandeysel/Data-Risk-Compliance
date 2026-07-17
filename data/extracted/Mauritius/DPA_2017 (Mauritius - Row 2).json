@@ -1,0 +1,3268 @@
+{
+  "country": "Mauritius",
+  "document": "DPA_2017 (Mauritius - Row 2)",
+  "generated": "2026-07-17T20:11:04",
+  "sections": [
+    {
+      "section": "3",
+      "heading": "Application of Act",
+      "title": "Application of Act to Data Processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "This section defines when the Data Protection Act applies to personal data processing. It specifies that the Act binds the State, treats each government department as separate, applies to automated and non-automated processing where data forms part of a filing system, and excludes exchanges between government entities on a need-to-know basis and purely personal data processing activities. It also establishes criteria for when entities outside Mauritius are covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Processing",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Act shall bind the State",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Each Ministry or Government department shall be treated as separate from any other Ministry or Government department",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall apply to the processing of personal data, wholly or partly, by automated means and to any processing otherwise than by automated means where the personal data form part of a filing system or are intended to form part of a filing system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall not apply to the exchange of information between Ministries, Government departments and public sector agencies where such exchange is required on a need-to-know basis",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Act shall not apply to the processing of personal data by an individual in the course of a purely personal or household activity",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Act shall apply to a controller or processor who is established in Mauritius and processes personal data in the context of that establishment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall apply to a controller or processor who is not established in Mauritius but uses equipment in Mauritius for processing personal data, other than for the purpose of transit through Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every controller or processor referred to in subsection (5)(b) shall nominate a representative established in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purpose of subsection (5)(a), any person who is ordinarily resident in Mauritius or carries out data processing operations through an office, branch or agency in Mauritius shall be treated as being established in Mauritius",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3. Application of Act (1) This Act shall bind the State. (2) For the purposes of this Act, each Ministry or Government department shall be treated as separate from any other Ministry or Government department. (3) This Act shall apply to the processing of personal data, wholly or partly, by automated means and to any processing otherwise than by automated means where the personal data form part of a filing system or are intended to form part of a filing system. (4) This Act shall not apply to – (a) the exchange of information between Ministries, Government departments and public sector agencies where such exchange is required on a need-to-know basis; (b) the processing of personal data by an individual in the course of a purely personal or household activity. (5) Subject to section 44, this Act shall apply to a controller or processor who – (a) is established in Mauritius and processes personal data in the context of that establishment; and (b) is not established in Mauritius but uses equipment in Mauritius for processing personal data, other than for the purpose of transit through Mauritius."
+    },
+    {
+      "section": "21",
+      "heading": "Principles relating to processing of personal data",
+      "title": "Principles for lawful processing of personal data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "Controllers must ensure personal data processing complies with six principles: lawfulness and transparency, explicit legitimate purposes, relevance and minimization, accuracy and timeliness, limited retention, and respect for data subject rights.",
+      "dtia_summary": "Critical for DTIA as it defines core data processing principles that must be adhered to across all data handling activities, including cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data must be processed lawfully, fairly and transparently",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be collected for explicit, specified and legitimate purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be adequate, relevant and limited to necessary purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be accurate and kept up to date with timely corrections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be kept for no longer than necessary for processing purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be processed in accordance with data subject rights",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every controller or processor shall ensure that personal data are – (a) processed lawfully, fairly and in a transparent manner in relation to any data subject; (b) collected for explicit, specified and legitimate purposes and not further processed in a manner incompatible with those purposes; (c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed; (d) accurate and, where necessary, kept up to date, with every reasonable step being taken to ensure that any inaccurate personal data are erased or rectified without delay; (e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; and (f) processed in accordance with the rights of data subjects."
+    },
+    {
+      "section": "23",
+      "heading": "Collection of personal data",
+      "title": "Rules for collecting personal data from data subjects",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Data Collection",
+      "summary": "Controllers may not collect personal data unless it serves a lawful purpose and is necessary for that purpose. Direct collection requires informing data subjects of specific details including purpose, recipients, consent status, rights, and data retention periods, with exceptions for pre-existing information or legal requirements.",
+      "dtia_summary": "Critical for DTIA as it details requirements for data collection, including transparency and consent mechanisms that impact cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller may not collect personal data unless it serves a lawful purpose connected with controller's function",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller may not collect personal data unless it is necessary for that purpose",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must inform data subject of identity, contact details, purpose, recipients, consent status, withdrawal rights, data subject rights, automated decisions, retention period, complaint rights, and cross-border transfers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data subject already has the information",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data collection is impossible or disproportionate effort",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data disclosure is legally mandated",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Subject to section 44, a controller shall not collect personal data unless – (a) it is done for a lawful purpose connected with a function or activity of the controller; and (b) the collection of the data is necessary for that purpose. Subject to subsection (3), where a controller collects personal data directly from a data subject, the controller shall, at the time of collecting the personal data, ensure that the data subject concerned is informed of – (a) the identity and contact details of the controller and, where applicable, its representative and any data protection officer; (b) the purpose for which the data are being collected; (c) the intended recipients of the data; (d) whether or not the supply of the data by that data subject is voluntary or mandatory; (e) the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (f) the existence of the right to request from the controller access to and rectification, restriction or erasure of personal data concerning the data subject or to object to the processing; (g) the existence of automated decision making, including profiling, and information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject; (h) the period for which the personal data shall be stored; (i) the right to lodge a complaint with the Commissioner; (j) where applicable, that the controller intends to transfer personal data to another country and on the level of suitable protection afforded by that country; and (k) any further information necessary to guarantee fair processing in respect of the data subject's personal data, having regard to the specific circumstances in which the data are collected."
+    },
+    {
+      "section": "25",
+      "heading": "Notification of personal data breach",
+      "title": "Notification of personal data breach to Commissioner",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Breach Notification",
+      "summary": "Controllers must notify the Commissioner within 72 hours of becoming aware of a personal data breach, including details on affected data subjects and records. Processors must notify controllers without undue delay. Notifications must describe the breach, provide contact details for the data protection officer, and recommend remedial actions. Controllers must specify facts to enable verification of compliance.",
+      "dtia_summary": "Requires timely breach notification to the Commissioner with specific details, impacting DTIA by mandating breach reporting timelines and content for cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must notify Commissioner within 72 hours of becoming aware of a personal data breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide reasons for delay if notification is late",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processor must notify controller without undue delay upon becoming aware of breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must describe nature of breach, affected data subjects and records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must include contact details of data protection officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must recommend measures to address breach and mitigate adverse effects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must specify facts to enable Commissioner verification of compliance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "25. Notification of personal data breach (1) (a) In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the Commissioner."
+    },
+    {
+      "section": "26",
+      "heading": "Communication of personal data breach to data subject",
+      "title": "Communication of personal data breach to data subject",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Breach Notification",
+      "summary": "Controllers must inform data subjects of a breach likely to cause high risk to their rights if they have not already done so, after notifying the Commissioner. Communications must be in clear language and include details from section 25. Exceptions include when technical measures like encryption prevent breach impact, subsequent measures mitigate risk, or public communication is equally effective.",
+      "dtia_summary": "Defines when and how data subjects must be notified of breaches, impacting DTIA by requiring breach communication protocols for cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must communicate breach to data subject without undue delay if breach likely to cause high risk to rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Communication must describe breach in clear language and include information from section 25",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No communication required if controller has implemented encryption or other technical measures",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No communication required if subsequent measures mitigate high risk",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No communication required if disproportionate effort and public communication is equally effective",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Commissioner may require communication if controller has not already done so",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "26. Communication of personal data breach to data subject (1) Subject to subsection (3), where a personal data breach is likely to result in a high risk to the rights and freedoms of a data subject, the controller shall, after the notification referred to in section 25, communicate the personal data breach to the data subject without undue delay."
+    },
+    {
+      "section": "27",
+      "heading": "Duty to destroy personal data",
+      "title": "Duty to destroy personal data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "Controllers must destroy personal data as soon as reasonably practicable when the purpose for keeping it lapses, and notify processors holding the data. Processors must destroy specified data as soon as reasonably practicable upon receiving such notification.",
+      "dtia_summary": "Requires data destruction upon purpose lapse, impacting DTIA by mandating deletion timelines and notification for cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must destroy personal data as soon as reasonably practicable when purpose lapses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must notify processors holding the data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processor must destroy specified data as soon as reasonably practicable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "27. Duty to destroy personal data (1) Where the purpose for keeping personal data has lapsed, every controller shall – (a) destroy the data as soon as is reasonably practicable; and (b) notify any processor holding the data."
+    },
+    {
+      "section": "29",
+      "heading": "Special categories of personal data",
+      "title": "Special categories of personal data processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Special Personal Information",
+      "summary": "Special categories of personal data may only be processed if consent is given, processing is necessary for legal claims, health care, or specific rights, or the data subject is incapable of consent. Processing must be conducted by not-for-profit bodies with safeguards and limited disclosure.",
+      "dtia_summary": "Restricts processing of special categories, impacting DTIA by requiring specific safeguards for sensitive data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Special categories may only be processed if section 28 applies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be carried out by not-for-profit bodies with political, philosophical, religious or trade union aims",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must relate solely to members or former members of the body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must not disclose data outside the body without consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing may be necessary for legal claims",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing may be necessary for health care, medical diagnosis, treatment or social care",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "29. Special categories of personal data (1) Special categories of personal data shall not be processed unless – (a) section 28 applies to the processing; and (b) the processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects; (c) the processing relates to personal data which are manifestly made public by the data subject; or (d) the processing is necessary for – (i) the establishment, exercise or defence of a legal claim; (ii) the purpose of preventive or occupational medicine, for the assessment of the working capacity of an employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services or pursuant to a contract with a health professional and subject to the conditions and safeguards referred to in subsection (2); (iii) the purpose of carrying out the obligations and exercising specific rights of the controller or of the data subject; or (iv) protecting the vital interests of the data subject or of another person where the data subject is physically or legally incapable of giving consent."
+    },
+    {
+      "section": "30",
+      "heading": "Personal data of child",
+      "title": "Personal data of child below 16 years",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Children",
+      "summary": "Personal data of children below 16 years may only be processed with consent from parents or guardians. Controllers must verify consent through reasonable efforts considering available technology.",
+      "dtia_summary": "Requires parental consent for children under 16, impacting DTIA by mandating consent verification for cross-border data transfers involving minors.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Children"
+      ],
+      "data_types": [
+        "Children's Data"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data of children below 16 years may only be processed with consent from parent or guardian",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must verify consent through reasonable efforts considering available technology",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. Personal data of child (1) No person shall process the personal data of a child below the age of 16 years unless consent is given by the child's parent or guardian."
+    },
+    {
+      "section": "34",
+      "heading": "Data protection impact assessment",
+      "title": "Data protection impact assessment for high-risk processing",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must conduct data protection impact assessments before processing operations that pose high risks to data subjects' rights and freedoms, such as large-scale profiling, special category data processing, or systematic monitoring. The assessment must evaluate necessity, proportionality, risks, and risk-mitigation measures, including safeguards and security protocols.",
+      "dtia_summary": "Mandates DTIAs for high-risk processing, ensuring adequate safeguards for cross-border data transfers and sensitive data handling.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must conduct data protection impact assessments before high-risk processing operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes systematic and extensive automated profiling with legal effects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes large-scale processing of special categories of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes systematic large-scale monitoring of publicly accessible areas",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes other operations requiring consultation with the Office",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must describe envisaged processing operations and purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must evaluate necessity and proportionality of processing operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must evaluate risks to data subjects' rights and freedoms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must include measures to address risks and safeguards for data protection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where processing operations are likely to result in a high risk to the rights and freedoms of data subjects by virtue of their nature, scope, context and purposes, every controller or processor shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data."
+    },
+    {
+      "section": "35",
+      "heading": "Prior authorisation and consultation",
+      "title": "Prior authorisation and consultation for data processing",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must obtain prior authorisation from the Commissioner before processing personal data, especially when transfers to other countries are involved. They must also consult the Commissioner if data protection impact assessments indicate high risks or if the Commissioner deems consultation necessary. The Commissioner can prohibit non-compliant processing and require remedial actions.",
+      "dtia_summary": "Requires prior authorisation for cross-border data transfers, ensuring DTIAs meet regulatory standards and mitigate risks for international data flows.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must obtain authorisation from the Commissioner before processing personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must consult the Commissioner before processing personal data if data protection impact assessments indicate high risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must consult the Commissioner before processing personal data if the Commissioner deems consultation necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may prohibit processing if it does not comply with the Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may require remedial actions for non-compliant processing",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Every controller or processor shall obtain authorisation from the Office prior to processing personal data in order to ensure compliance of the intended processing with this Act and in particular to mitigate the risks involved for the data subjects where a controller or processor cannot provide for the appropriate safeguards referred to in section 36 in relation to the transfer of personal data to another country."
+    },
+    {
+      "section": "36",
+      "heading": "Transfer of personal data outside Mauritius",
+      "title": "Transfer of personal data outside Mauritius",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Personal data may be transferred outside Mauritius if the Commissioner is satisfied with appropriate safeguards, data subjects provide explicit consent after being informed of risks, transfers are necessary for contractual or legal purposes, or transfers occur from public registers. The Commissioner may prohibit or condition transfers to protect data subjects' rights.",
+      "dtia_summary": "Defines conditions for cross-border data transfers, requiring safeguards, consent, or legal necessity, which are critical for DTIAs involving international data flows.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Transfers may occur if the Commissioner is satisfied with appropriate safeguards for data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if data subjects provide explicit consent after being informed of transfer risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary for contractual performance or pre-contractual measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary for legal claims or public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary to protect vital interests of data subjects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if legitimate interests are not overridden and safeguards are proven",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers from public registers must not involve entire data sets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may request proof of safeguards or compelling legitimate interests",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may prohibit, suspend or condition transfers to protect data subjects' rights",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A controller or processor may transfer personal data to another country where – (a) he or it has provided to the Commissioner proof of appropriate safeguards with respect to the protection of the personal data;"
+    },
+    {
+      "section": "42",
+      "heading": "Unlawful disclosure of personal data",
+      "title": "Unlawful disclosure of personal data",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "Controllers and processors who disclose personal data without lawful excuse commit offences. Unauthorized access to personal data and disclosure to others also constitute offences, except for employees acting within their mandate. Offering to sell personal data obtained unlawfully is also prohibited.",
+      "dtia_summary": "Prohibits unlawful disclosure of personal data, impacting cross-border data transfers through data security and confidentiality requirements.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers who disclose personal data without lawful excuse commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Processors who disclose personal data without controller's prior authority commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Unauthorized access to personal data and disclosure to others commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Employees acting within mandate are exempt from offences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Offering to sell personal data obtained unlawfully commits offences",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any controller who, without lawful excuse, discloses personal data in any manner that is incompatible with the purpose for which such data has been collected shall commit an offence."
+    },
+    {
+      "section": "58",
+      "heading": "Commencement",
+      "title": "Commencement date for the Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Exemptions",
+      "summary": "This section specifies the commencement date of the Act, stating that it comes into operation on a date to be fixed by Proclamation, with the possibility of different dates for different sections. The Act was proclaimed by a specific Proclamation in 2018, effective from 15 January 2018.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "This Act shall come into operation on a date to be fixed by Proclamation.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Different dates may be fixed for the coming into operation of different sections of this Act.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "58. Commencement Proclaimed by [Proclamation of 2018] w.e.f. 15 January 2018 (1) Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation. (2) Different dates may be fixed for the coming into operation of different sections of this Act."
+    },
+    {
+      "section": "1",
+      "heading": "Short title",
+      "title": "Short title of Data Protection Act 2017",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Definitions",
+      "summary": "This section defines the short title of the Act as the Data Protection Act 2017, providing a clear reference for legal documents and proceedings. It establishes the official name of the legislation governing data protection in Mauritius.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Act may be cited as the Data Protection Act 2017",
+          "obligation_type": "Authorisation"
+        }
+      ],
+      "source_quote": "1. Short title This Act may be cited as the Data Protection Act 2017."
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions for Data Protection Act 2017",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "This section provides comprehensive definitions for key terms used throughout the Data Protection Act 2017, including 'personal data', 'data subject', 'controller', 'processor', and 'data breach'. These definitions establish the legal framework for data processing activities and accountability.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "\"authorised officer\" means an officer to whom the Commissioner has delegated his powers under section 13",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"biometric data\" means any personal data relating to the physical, physiological or behavioural characteristics of an individual which allow his unique identification",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"collect\" does not include receive unsolicited information",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Commissioner\" means the Data Protection Commissioner referred to in section 4",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"consent\" means any freely given specific, informed and unambiguous indication of the wishes of a data subject",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" means a person who or public body which, alone or jointly with others, determines the purposes and means of the processing of personal data",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"data subject\" means an identified or identifiable individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes – (a) a disc, tape or other device in which information other than visual images are embodied",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"encryption\" means the process of transforming data into coded form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"filing system\" means a structured set of personal data which is accessible according to specific criteria",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"genetic data\" means personal data relating to the general characteristics of an individual which are inherited or acquired",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"physical or mental health\" includes information on the provision of health care services to the individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"individual\" means a living individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"information and communication network\" means a network for the transmission of messages",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Minister\" means the Minister to whom responsibility for the subject of data protection is assigned",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"network\" means a communication transmission system that provides interconnection among a number of local and remote devices",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Office\" means the Data Protection Office referred to in section 4",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"personal data\" means any information relating to a data subject",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"personal data breach\" means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"proceedings\" means any proceedings conducted by or under the supervision of a Judge or Magistrate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"processor\" means a person who, or public body which, processes personal data on behalf of a controller",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"processing\" means an operation or set of operations performed on personal data",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"profiling\" means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to an individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"pseudonymisation\" means the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"recipient\" means a person to whom, or a public body to which, personal data are disclosed",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"register\" means the register referred to in section 20",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"registration certificate\" means the registration certificate referred to in section 16 (2)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"restriction of processing\" means the marking of stored personal data with the aim of limiting their processing in the future",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"special categories of personal data\" means personal data pertaining to racial or ethnic origin",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"telecommunication network\" means a system, or a series of systems, operating within such boundaries as may be prescribed",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"third party\" means a person or public body other than a data subject, a controller, a processor",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"traffic data\" means any data relating to a communication by means of a computer system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Tribunal\" means the ICT Appeal Tribunal set up under section 35 of the Information and Communication Technologies Act",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2. Interpretation In this Act – \"authorised officer\" means an officer to whom the Commissioner has delegated his powers under section 13; \"biometric data\" means any personal data relating to the physical, physiological or behavioural characteristics of an individual which allow his unique identification, including facial images or dactyloscopic data; \"collect\" does not include receive unsolicited information; \"Commissioner\" means the Data Protection Commissioner referred to in section 4; \"consent\" means any freely given specific, informed and unambiguous indication of the wishes of a data subject, either by a statement or a clear affirmative action, by which he signifies his agreement to personal data relating to him being processed; \"controller\" means a person who or public body which, alone or jointly with others, determines the purposes and means of the processing of personal data and has decision making power with respect to the processing; \"data subject\" means an identified or identifiable individual, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that individual; \"document\" includes – (a) a disc, tape or other device in which information other than visual images are embodied so as to be capable, with or without the aid of some other equipment, of being reproduced from the disc, tape or other device; and (b) a film, tape or other device in which visual images are embodied so as to be capable, with or without the aid of some other equipment, of being reproduced from the film, tape or other device; \"encryption\" means the process of transforming data into coded form; \"filing system\" means a structured set of personal data which is accessible according to specific criteria, whether centralised, decentralised or dispersed on a functional or geographical basis; \"genetic data\" means personal data relating to the general characteristics of an individual which are inherited or acquired and which provide unique information about the physiology or health of the individual and which result, in particular, from an analysis of a biological sample from the individual in question; \"physical or mental health\", in relation to personal data, includes information on the provision of health care services to the individual, which reveals his health status; \"individual\" means a living individual; \"information and communication network\" – (a) means a network for the transmission of messages; and (b) includes a telecommunication network; \"Minister\" means the Minister to whom responsibility for the subject of data protection is assigned; \"network\" means a communication transmission system that provides interconnection among a number of local and remote devices; \"Office\" means the Data Protection Office referred to in section 4; \"personal data\" means any information relating to a data subject; \"personal data breach\" means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed; \"proceedings\" – (a) means any proceedings conducted by or under the supervision of a Judge or Magistrate; and (b) may include – (i) an inquiry or investigation into an offence; and (ii) disciplinary proceedings; \"processor\" means a person who, or public body which, processes personal data on behalf of a controller; \"processing\" means an operation or set of operations performed on personal data or sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction; \"profiling\" means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to an individual, in particular to analyse or predict aspects concerning that individual's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements; \"pseudonymisation\" means the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information and the additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable individual; \"recipient\" means a person to whom, or a public body to which, personal data are disclosed, whether a third party or not; \"register\" means the register referred to in section 20; \"registration certificate\" means the registration certificate referred to in section 16 (2); \"restriction of processing\" means the marking of stored personal data with the aim of limiting their processing in the future; \"special categories of personal data\", in relation to a data subject, means personal data pertaining to – (a) his racial or ethnic origin; (b) his political opinion or adherence; (c) his religious or philosophical beliefs; (d) his membership of a trade union; (e) his physical or mental health or condition; (f) his sexual orientation, practices or preferences; (g) his genetic data or biometric data uniquely identifying him; (h) the commission or alleged commission of an offence by him; (i) any proceedings for an offence committed or alleged to have been committed by him, the disposal of such proceedings or the sentence of any Court in the proceedings; or (j) such other personal data as the Commissioner may determine to be sensitive personal data; \"telecommunication network\" means a system, or a series of systems, operating within such boundaries as may be prescribed, for the transmission or reception of messages by means of guided or unguided electro magnetic energy or both; \"third party\" means a person or public body other than a data subject, a controller, a processor or a person who, under the direct authority of a controller or processor, who or which is authorised to process personal data; \"traffic data\" means any data relating to a communication by means of a computer system and generated by the system that form part in the chain of communication, indicating the communication's origin, destination, route, time, date, size, duration, or type of underlying service; \"Tribunal\" means the ICT Appeal Tribunal set up under section 35 of the Information and Communication Technologies Act."
+    },
+    {
+      "section": "3",
+      "heading": "Application of Act",
+      "title": "Application of Act to Data Processing",
+      "chapter": null,
+      "part": "part i",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This section defines when the Data Protection Act applies to personal data processing. It specifies that the Act binds the State, treats each government department as separate, applies to automated and non-automated processing where data forms part of a filing system, and excludes exchanges between government entities on a need-to-know basis and purely personal data processing activities. It also establishes criteria for when entities outside Mauritius are covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Processing",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Act shall bind the State",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Each Ministry or Government department shall be treated as separate from any other Ministry or Government department",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall apply to the processing of personal data, wholly or partly, by automated means and to any processing otherwise than by automated means where the personal data form part of a filing system or are intended to form part of a filing system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall not apply to the exchange of information between Ministries, Government departments and public sector agencies where such exchange is required on a need-to-know basis",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Act shall not apply to the processing of personal data by an individual in the course of a purely personal or household activity",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Act shall apply to a controller or processor who is established in Mauritius and processes personal data in the context of that establishment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Act shall apply to a controller or processor who is not established in Mauritius but uses equipment in Mauritius for processing personal data, other than for the purpose of transit through Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every controller or processor referred to in subsection (5)(b) shall nominate a representative established in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purpose of subsection (5)(a), any person who is ordinarily resident in Mauritius or carries out data processing operations through an office, branch or agency in Mauritius shall be treated as being established in Mauritius",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3. Application of Act (1) This Act shall bind the State. (2) For the purposes of this Act, each Ministry or Government department shall be treated as separate from any other Ministry or Government department. (3) This Act shall apply to the processing of personal data, wholly or partly, by automated means and to any processing otherwise than by automated means where the personal data form part of a filing system or are intended to form part of a filing system. (4) This Act shall not apply to – (a) the exchange of information between Ministries, Government departments and public sector agencies where such exchange is required on a need-to-know basis; (b) the processing of personal data by an individual in the course of a purely personal or household activity. (5) Subject to section 44, this Act shall apply to a controller or processor who – (a) is established in Mauritius and processes personal data in the context of that establishment; and (b) is not established in Mauritius but uses equipment in Mauritius for processing personal data, other than for the purpose of transit through Mauritius."
+    },
+    {
+      "section": "4",
+      "heading": "Establishment of Office",
+      "title": "Establishment of Data Protection Office",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "This section establishes the Data Protection Office as a public office with complete independence and impartiality. It specifies that the head of the Office must be a barrister with at least five years' standing and that the Office shall be assisted by public officers under the Commissioner's administrative control. The Office is designed to ensure compliance with the Act, issue guidelines, maintain registers, and exercise oversight over data processing operations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "There shall, for the purposes of this Act, be a public office to be known as the Data Protection Office",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In the discharge of its functions under this Act, the Office shall act with complete independence and impartiality and shall not be subject to the control or direction of any other person or authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The head of the Office, who shall be known as the Data Protection Commissioner, shall be a barrister of not less than 5 years' standing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall be assisted by such public officers as may be necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every public officer referred to in subsection (4) shall be under the administrative control of the Commissioner",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Establishment of Office (1) There shall, for the purposes of this Act, be a public office to be known as the Data Protection Office. (2) In the discharge of its functions under this Act, the Office shall act with complete independence and impartiality and shall not be subject to the control or direction of any other person or authority. (3) The head of the Office, who shall be known as the Data Protection Commissioner, shall be a barrister of not less than 5 years' standing. (4) The Commissioner shall be assisted by such public officers as may be necessary. (5) Every public officer referred to in subsection (4) shall be under the administrative control of the Commissioner."
+    },
+    {
+      "section": "5",
+      "heading": "Functions of Commissioner",
+      "title": "Functions of Data Protection Commissioner",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section outlines the Commissioner's responsibilities including ensuring compliance with the Act, issuing guidelines, maintaining registers of controllers and processors, exercising control over data processing operations, promoting self-regulation, investigating complaints, taking measures to publicize the Act, monitoring data processing developments, and examining proposals for automated decision making or data linkage that could impact privacy.",
+      "dtia_summary": "",
+      "authority": "Data Protection Commissioner",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner shall ensure compliance with this Act and any regulations made under it",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall issue or approve such Codes of Practice or Guidelines for the purposes of this Act as he thinks fit",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner shall maintain a register of controllers and processors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall exercise control on all data processing operations, either of his own motion or at the request of a data subject, and verify whether the processing of data is done in accordance with this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall promote self-regulation among controllers and processors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall investigate any complaint or information which gives rise to a suspicion that an offence may have been, is being or is about to be, committed under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall take such measures as may be necessary to bring the provisions of this Act to the knowledge of the general public",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner shall undertake research into, and monitor developments in, data processing, and ensure that there is no significant risk or adverse effect of any developments on the privacy of individuals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall examine any proposal for automated decision making or data linkage that may involve an interference with, or may otherwise have an adverse effect, on the privacy of individuals and ensure that any adverse effect of the proposal on the privacy of individuals is minimised",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall cooperate with supervisory authorities of other countries, to the extent necessary for the performance of his duties under this Act, in particular by exchanging relevant information in accordance with any other enactment",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner shall do anything incidental or conducive to the attainment of the objects of and to the better performance of his duties and functions under this Act",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "5. Functions of Commissioner The Commissioner shall – (a) ensure compliance with this Act and any regulations made under it; (b) issue or approve such Codes of Practice or Guidelines for the purposes of this Act as he thinks fit; (c) maintain a register of controllers and processors; (d) exercise control on all data processing operations, either of his own motion or at the request of a data subject, and verify whether the processing of data is done in accordance with this Act; (e) promote self-regulation among controllers and processors; (f) investigate any complaint or information which gives rise to a suspicion that an offence may have been, is being or is about to be, committed under this Act; (g) take such measures as may be necessary to bring the provisions of this Act to the knowledge of the general public; (h) undertake research into, and monitor developments in, data processing, and ensure that there is no significant risk or adverse effect of any developments on the privacy of individuals; (i) examine any proposal for automated decision making or data linkage that may involve an interference with, or may otherwise have an adverse effect, on the privacy of individuals and ensure that any adverse effect of the proposal on the privacy of individuals is minimised; (j) cooperate with supervisory authorities of other countries, to the extent necessary for the performance of his duties under this Act, in particular by exchanging relevant information in accordance with any other enactment; and (k) do anything incidental or conducive to the attainment of the objects of and to the better performance of his duties and functions under, this Act."
+    },
+    {
+      "section": "6",
+      "heading": "Investigation of complaints",
+      "title": "Investigation of complaints: complaint handling procedures",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 18,
+      "primary_category": "Enforcement",
+      "summary": "The Commissioner must investigate complaints about alleged contraventions of the Act or its regulations. If the complaint is not resolved amicably, the Commissioner must notify the complainant of their decision and allow an appeal under section 51. The Commissioner may order individuals to attend examinations, produce documents, or submit sworn statements. All orders must be written and signed. Failure to comply with orders is an offence punishable by fines up to 50,000 rupees and imprisonment for up to two years. The Commissioner may also take copies of documents and require access to digital information. No person may be compelled to answer questions that could incriminate them.",
+      "dtia_summary": "This section outlines procedures for investigating complaints and enforcing compliance, which may impact data transfer assessments by requiring access to data for investigations and imposing obligations on data controllers/processors during investigations.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner shall investigate complaints or cause them to be investigated by an authorised officer unless the complaint is frivolous or vexatious",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner shall notify the complainant in writing of the decision if unable to resolve the complaint amicably within a reasonable time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may order a person to attend for examination",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may order a person to produce documents relevant to the investigation",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may order a person to submit a sworn or affirmed statement",
+          "obligation_type": "May"
+        },
+        {
+          "text": "All orders must be written and signed by the Commissioner or an authorised officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person served with an order must comply with it",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person served with an order must attend as directed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person served with an order must answer questions and provide information as ordered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may take copies of documents produced under orders",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may require digital information to be produced in a visible and legible form",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failure to attend, produce documents, or comply with orders without lawful excuse is an offence punishable by fines up to 50,000 rupees and imprisonment up to two years",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may be required to answer questions that could incriminate them",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Where a complaint is made to the Commissioner that this Act or any regulations made under it, has or have been, is or are being, or is or are about to be, contravened, the Commissioner shall – (a) investigate into the complaint or cause it to be investigated by an authorised officer, unless he is of the opinion that the complaint is frivolous or vexatious; and (b) where he is unable to arrange, within a reasonable time, for the amicable resolution by the parties concerned of the complaint, notify, in writing, the individual who made the complaint of his decision in relation to it so that the individual may, where he considers that he is aggrieved by the decision, appeal against it under section 51."
+    },
+    {
+      "section": "7",
+      "heading": "Power to require information",
+      "title": "Power to require information: data collection authority",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Data Collection",
+      "summary": "The Commissioner may request information necessary for their functions from individuals or entities, including digital data. The requested information must be provided in a visible and legible form. Failure to comply or providing false information is an offence punishable by fines up to 50,000 rupees and imprisonment for up to two years. This power is subject to specific banking and financial regulations.",
+      "dtia_summary": "This section allows the Commissioner to collect data for investigations, which may impact data transfer assessments by requiring data access and imposing obligations on data controllers/processors during investigations.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may request information necessary for the discharge of functions and exercise of powers under this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The person named in the notice must produce or give access to digital information in a visible and legible form",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with a request or providing false information is an offence punishable by fines up to 50,000 rupees and imprisonment up to two years",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Subject to section 26 of the Bank of Mauritius Act, section 64 of the Banking Act, section 83 of the Financial Services Act, section 30 of the Financial Intelligence and Anti-Money Laundering Act and section 81 of the Prevention of Corruption Act – (a) the Commissioner may, by written notice served on a person, request from that person such information as is necessary or expedient for the discharge of his functions and the exercise of his powers under this Act; and (b) where the information requested by the Commissioner is stored in a computer, disc or cassette, or on microfilm, or preserved by any mechanical or electronic device, the person named in the notice shall produce or give access to the information in a form in which it can be taken away and in which it is visible and legible."
+    },
+    {
+      "section": "8",
+      "heading": "Preservation Order",
+      "title": "Preservation Order: data preservation for investigations",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "The Commissioner may apply to a Judge for a Preservation Order to preserve data vulnerable to loss or modification. The order lasts up to 90 days and may be extended. This section applies to data including traffic data and is part of the Commissioner's powers to ensure data integrity during investigations.",
+      "dtia_summary": "This section enables data preservation during investigations, which may impact data transfer assessments by requiring data to be preserved for specific periods and potentially affecting data storage and retention policies.",
+      "authority": "Judge",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may apply to a Judge for a Preservation Order for data vulnerable to loss or modification",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Preservation Order specifies a period not exceeding 90 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Judge may extend the Preservation Order for a period as deemed fit",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Commissioner may apply to a Judge in Chambers for a Preservation Order for the expeditious preservation of data, including traffic data, where he has reasonable ground to believe that the data are vulnerable to loss or modification."
+    },
+    {
+      "section": "9",
+      "heading": "Enforcement notice",
+      "title": "Enforcement notice: corrective actions for violations",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 21,
+      "primary_category": "Enforcement",
+      "summary": "The Commissioner may serve an enforcement notice requiring data controllers or processors to take corrective actions within 21 days to address alleged violations. The notice specifies the violated provision, required remedial steps, and a 21-day compliance period. Non-compliance is an offence punishable by fines up to 50,000 rupees and imprisonment for up to two years. The Commissioner may vary the notice if compliance is not feasible.",
+      "dtia_summary": "This section mandates corrective actions for violations, which may impact data transfer assessments by requiring data controllers/processors to implement specific measures and potentially affecting data storage and processing.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may serve an enforcement notice requiring corrective actions within a specified period",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The enforcement notice must specify the violated provision, required remedial steps, and a 21-day compliance period",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-compliance with an enforcement notice is an offence punishable by fines up to 50,000 rupees and imprisonment up to two years",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The Commissioner may vary the enforcement notice if compliance is not feasible",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Where the Commissioner is of the opinion that a controller or a processor has contravened, is contravening or is about to contravene this Act, the Commissioner may serve an enforcement notice on him requiring him to take such steps within such period as may be specified in the notice."
+    },
+    {
+      "section": "10",
+      "heading": "Power to seek assistance",
+      "title": "Power to seek assistance: investigation support",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "The Commissioner may seek assistance from persons or authorities for investigations, including gathering information. Those assisting are considered authorised officers under section 49. This power supports the Commissioner's ability to conduct investigations and enforce compliance.",
+      "dtia_summary": "This section enables the Commissioner to gather information during investigations, which may impact data transfer assessments by requiring data access and potentially affecting data collection and processing.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may seek assistance from persons or authorities for investigations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Persons assisting the Commissioner are considered authorised officers under section 49",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purpose of gathering information or for the proper conduct of any investigation under this Act, the Commissioner may seek the assistance of such person or authority as he thinks fit and that person or authority may do such things as are reasonably necessary to assist the Commissioner in the discharge of his functions."
+    },
+    {
+      "section": "11",
+      "heading": "Power of entry and search",
+      "title": "Power of entry and search: physical data access",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "Authorised officers may enter and search premises for data collection purposes with a warrant from a Magistrate. They may request documents, examine data, and take copies. Digital data must be produced in a visible and legible form. This section enables physical data access during investigations.",
+      "dtia_summary": "This section allows physical data access during investigations, which may impact data transfer assessments by requiring data to be accessible for inspection and potentially affecting data storage and processing.",
+      "authority": "Authorised Officer",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An authorised officer may enter and search premises for data collection purposes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "An authorised officer must show a warrant issued by a Magistrate to enter or search premises",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A Magistrate may issue a warrant authorising entry and search if necessary for the Commissioner's functions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A warrant issued under subsection (3) is valid for the period stated and may have conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An authorised officer may request documents, examine data, and take copies",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Digital data must be produced in a visible and legible form",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to this section, an authorised officer may enter and search any premises for the purpose of discharging any function or exercising any power under this Act."
+    },
+    {
+      "section": "12",
+      "heading": "Obstruction of Commissioner or authorised officer",
+      "title": "Obstruction of Commissioner or authorized officer",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "Any person obstructing the Commissioner or authorized officer in exercising powers under section 11, failing to provide requested assistance or information, refusing entry to premises, or providing false/misleading information commits an offence. Offenders face fines up to 50,000 rupees and imprisonment up to 2 years.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Obstructs or impedes the Commissioner or authorized officer in exercising powers under section 11",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Fails to provide assistance or information requested by Commissioner or authorized officer",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Refuses to allow Commissioner or authorized officer to enter premises or take persons",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Gives false or misleading information in a material particular to Commissioner or authorized officer",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any person who, in relation to the exercise of a power conferred by section 11 – (a) obstructs or impedes the Commissioner or an authorised officer in the exercise of such power; (b) fails to provide assistance or information requested by the Commissioner or authorised officer; (c) refuses to allow the Commissioner or an authorised officer to enter any premises or to take any person with him in the exercise of his functions; (d) gives to the Commissioner or an authorised officer any information which is false or misleading in a material particular"
+    },
+    {
+      "section": "13",
+      "heading": "Delegation of power by Commissioner",
+      "title": "Delegation of power by Commissioner",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "The Commissioner may delegate investigating or enforcement powers to an officer of the Office or a police officer designated by the Commissioner of Police for specific purposes.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commissioner may delegate investigating or enforcement powers to an officer of the Office",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commissioner may delegate investigating or enforcement powers to a police officer designated by Commissioner of Police",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Commissioner may delegate any investigating or enforcement power conferred on him by this Act to an officer of the Office or to a police officer designated for that purpose by the Commissioner of Police."
+    },
+    {
+      "section": "15",
+      "heading": "Application for registration",
+      "title": "Application for registration",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must apply to the Commissioner with specific details including personal data description, data subjects, special categories, processing purposes, data recipients, transfer countries, and risk/safeguards. Knowingly providing false information commits an offence with fines up to 100,000 rupees and imprisonment up to 5 years.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Apply to Commissioner in approved form to be registered as controller or processor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide name and address",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide representative name and address if nominated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Describe personal data to be processed and data subjects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "State whether special categories of personal data are held or likely to be held",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Describe purpose for processing personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Describe any recipients to whom data may be disclosed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "State any country to which data may be transferred directly or indirectly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide general description of risks, safeguards, security measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Knowingly supplying false or misleading information commits an offence",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Every person who intends to act as a controller or processor shall apply to the Commissioner, in such form as the Commissioner may approve, to be registered as controller or processor."
+    },
+    {
+      "section": "16",
+      "heading": "Issue of registration certificate",
+      "title": "Issue of registration certificate",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "The Commissioner grants registration if criteria are met and issues a certificate valid for 3 years upon payment of fees. Registration requires compliance with specified terms and conditions.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commissioner grants application for registration as controller or processor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issue registration certificate on payment of prescribed fee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Registration certificate valid for 3 years",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the Commissioner considers that an applicant meets the criteria to be registered as a controller or processor, as the case may be, he shall grant the application."
+    },
+    {
+      "section": "17",
+      "heading": "Change in particulars",
+      "title": "Change in particulars",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must notify the Commissioner within 14 days of any changes to application details. The Commissioner amends the register upon verification of changes. Failure to notify commits an offence with fines up to 50,000 rupees.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Notify Commissioner in writing within 14 days of any change in particulars",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner amends register upon satisfaction of change in particulars",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with notification commits an offence",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Where, following the grant of an application, there is a change in any of the particulars referred to in section 15(2), the controller or processor, shall, within 14 days of the date of the change, notify the Commissioner in writing of the nature and date of the change."
+    },
+    {
+      "section": "18",
+      "heading": "Renewal of registration certificate",
+      "title": "Renewal of registration certificate",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "Registrants may apply for renewal up to 3 months before certificate expiry. The Commissioner issues a new certificate upon payment of fees and meeting specified terms and conditions.",
+      "dtia_summary": "",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Apply for renewal of certificate not later than 3 months before expiry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issue new registration certificate on payment of prescribed fee",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The holder of a registration certificate may apply for the renewal of the certificate not later than 3 months before the date of its expiry."
+    },
+    {
+      "section": "19",
+      "heading": "Cancellation or variation of terms and conditions of",
+      "title": "Cancellation of registration certificates for false information or non-compliance",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 28,
+      "primary_category": "Other",
+      "summary": "The Commissioner may cancel or vary a registration certificate if the applicant provided false information or the holder failed to comply with the Act or certificate terms without lawful excuse. The holder must show cause within 14 days before cancellation or variation occurs.",
+      "dtia_summary": "Relevant for DTIA as it outlines conditions under which registration certificates can be revoked, impacting data processing authority and requiring due diligence on data subject compliance.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commissioner may cancel registration certificate or vary terms if applicant provided false information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner may cancel registration certificate or vary terms if holder fails to comply with Act or certificate terms without lawful excuse",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner must require written show cause within 14 days before cancellation or variation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to this section, the Commissioner may cancel a registration certificate or vary its terms and conditions where – (a) any information given to him by the applicant is false or misleading in any material particular; (b) the holder of the registration certificate fails, without lawful excuse, to comply with – (i) any requirement of this Act; or (ii) any term or condition specified in the certificate. The Commissioner shall, before cancelling or varying the terms and conditions of a registration certificate, require, by notice in writing, the holder of the certificate to show cause, within 14 days of the notice, why the registration certificate should not be cancelled or its terms and conditions should not be varied"
+    },
+    {
+      "section": "20",
+      "heading": "Register of controllers and processors",
+      "title": "Public register for data protection controllers and processors",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 28,
+      "primary_category": "Other",
+      "summary": "A public Data Protection Register must be maintained by the Commissioner, allowing free inspection and certified copies for fee payment. The Commissioner may remove details of ceased entities from the register upon request.",
+      "dtia_summary": "Relevant for DTIA as it establishes transparency requirements for data processing entities, impacting data subject visibility and regulatory oversight.",
+      "authority": "Commissioner",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commissioner must maintain a public Data Protection Register",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commissioner may remove details of ceased entities from register upon request",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Register must be available for free inspection by any person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person may obtain certified copy of register entry for fee payment",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "There shall be a register of controllers and processors to be known as the Data Protection Register, which shall be kept and maintained by the Commissioner in such form and manner as he may determine. The Commissioner may, at any time, at the request of a controller or processor, in respect of which there is an entry in the register and which has ceased to exist, remove its details from the register. The register shall, at all reasonable times, be available for inspection by any person free of charge. Any person may, on payment of such fee as may be prescribed, obtain from the Commissioner a certified copy of, or of an extract from, any entry in the register."
+    },
+    {
+      "section": "21",
+      "heading": "Principles relating to processing of personal data",
+      "title": "Principles for lawful processing of personal data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "Controllers must ensure personal data processing complies with six principles: lawfulness and transparency, explicit legitimate purposes, relevance and minimization, accuracy and timeliness, limited retention, and respect for data subject rights.",
+      "dtia_summary": "Critical for DTIA as it defines core data processing principles that must be adhered to across all data handling activities, including cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data must be processed lawfully, fairly and transparently",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be collected for explicit, specified and legitimate purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be adequate, relevant and limited to necessary purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be accurate and kept up to date with timely corrections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be kept for no longer than necessary for processing purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data must be processed in accordance with data subject rights",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every controller or processor shall ensure that personal data are – (a) processed lawfully, fairly and in a transparent manner in relation to any data subject; (b) collected for explicit, specified and legitimate purposes and not further processed in a manner incompatible with those purposes; (c) adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed; (d) accurate and, where necessary, kept up to date, with every reasonable step being taken to ensure that any inaccurate personal data are erased or rectified without delay; (e) kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed; and (f) processed in accordance with the rights of data subjects."
+    },
+    {
+      "section": "22",
+      "heading": "Duties of controller",
+      "title": "Controller's data protection duties and measures",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 30,
+      "primary_category": "Other",
+      "summary": "Controllers must implement technical and organizational measures to ensure compliance with the Act, including data security, record-keeping, data protection impact assessments, prior authorization compliance, and designating a data protection officer.",
+      "dtia_summary": "Directly relevant for DTIA as it mandates specific technical and organizational measures for data processing, including impact assessments and compliance verification.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers must adopt policies and implement technical/organizational measures for compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Technical measures must align with section 31 (data security)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must keep records of all processing operations per section 33",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must perform data protection impact assessments per section 34",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must comply with prior authorization requirements per section 35",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must designate an officer responsible for data protection compliance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every controller shall adopt policies and implement appropriate technical and organisational measures so as to ensure and be able to demonstrate that the processing of personal data is performed in accordance with this Act. The measures referred to in subsection (1) shall include – (a) implementing appropriate data security and organisational measures in accordance with section 31; (b) keeping a record of all processing operations in accordance with section 33; (c) performing a data protection impact assessment in accordance with section 34; (d) complying with the requirements for prior authorisation from, or consultation with the Commissioner pursuant to section 35; and (e) designating an officer responsible for data protection compliance issues."
+    },
+    {
+      "section": "23",
+      "heading": "Collection of personal data",
+      "title": "Rules for collecting personal data from data subjects",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 33,
+      "primary_category": "Data Collection",
+      "summary": "Controllers may not collect personal data unless it serves a lawful purpose and is necessary for that purpose. Direct collection requires informing data subjects of specific details including purpose, recipients, consent status, rights, and data retention periods, with exceptions for pre-existing information or legal requirements.",
+      "dtia_summary": "Critical for DTIA as it details requirements for data collection, including transparency and consent mechanisms that impact cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller may not collect personal data unless it serves a lawful purpose connected with controller's function",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller may not collect personal data unless it is necessary for that purpose",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must inform data subject of identity, contact details, purpose, recipients, consent status, withdrawal rights, data subject rights, automated decisions, retention period, complaint rights, and cross-border transfers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data subject already has the information",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data collection is impossible or disproportionate effort",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Controller must not be required to comply with subsection (2) if data disclosure is legally mandated",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Subject to section 44, a controller shall not collect personal data unless – (a) it is done for a lawful purpose connected with a function or activity of the controller; and (b) the collection of the data is necessary for that purpose. Subject to subsection (3), where a controller collects personal data directly from a data subject, the controller shall, at the time of collecting the personal data, ensure that the data subject concerned is informed of – (a) the identity and contact details of the controller and, where applicable, its representative and any data protection officer; (b) the purpose for which the data are being collected; (c) the intended recipients of the data; (d) whether or not the supply of the data by that data subject is voluntary or mandatory; (e) the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal; (f) the existence of the right to request from the controller access to and rectification, restriction or erasure of personal data concerning the data subject or to object to the processing; (g) the existence of automated decision making, including profiling, and information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject; (h) the period for which the personal data shall be stored; (i) the right to lodge a complaint with the Commissioner; (j) where applicable, that the controller intends to transfer personal data to another country and on the level of suitable protection afforded by that country; and (k) any further information necessary to guarantee fair processing in respect of the data subject's personal data, having regard to the specific circumstances in which the data are collected."
+    },
+    {
+      "section": "24",
+      "heading": "Conditions for consent",
+      "title": "Conditions for valid consent in data processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 33,
+      "primary_category": "Consent",
+      "summary": "Controllers bear the burden of proof for data subject consent, which may be withdrawn at any time. Consent must be freely given, with special consideration for cases where contract performance is conditional on consent.",
+      "dtia_summary": "Relevant for DTIA as it defines consent requirements that impact data processing legitimacy and cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller bears burden of proof for data subject consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data subject may withdraw consent at any time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent must be freely given, with consideration for contractual conditions",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "The controller shall bear the burden of proof for establishing a data subject's consent to the processing of his personal data for a specified purpose. The data subject shall have the right to withdraw his consent at any time. In determining whether consent was freely given, account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract."
+    },
+    {
+      "section": "25",
+      "heading": "Notification of personal data breach",
+      "title": "Notification of personal data breach to Commissioner",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Breach Notification",
+      "summary": "Controllers must notify the Commissioner within 72 hours of becoming aware of a personal data breach, including details on affected data subjects and records. Processors must notify controllers without undue delay. Notifications must describe the breach, provide contact details for the data protection officer, and recommend remedial actions. Controllers must specify facts to enable verification of compliance.",
+      "dtia_summary": "Requires timely breach notification to the Commissioner with specific details, impacting DTIA by mandating breach reporting timelines and content for cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must notify Commissioner within 72 hours of becoming aware of a personal data breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide reasons for delay if notification is late",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processor must notify controller without undue delay upon becoming aware of breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must describe nature of breach, affected data subjects and records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must include contact details of data protection officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must recommend measures to address breach and mitigate adverse effects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must specify facts to enable Commissioner verification of compliance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "25. Notification of personal data breach (1) (a) In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the Commissioner."
+    },
+    {
+      "section": "26",
+      "heading": "Communication of personal data breach to data subject",
+      "title": "Communication of personal data breach to data subject",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 36,
+      "primary_category": "Breach Notification",
+      "summary": "Controllers must inform data subjects of a breach likely to cause high risk to their rights if they have not already done so, after notifying the Commissioner. Communications must be in clear language and include details from section 25. Exceptions include when technical measures like encryption prevent breach impact, subsequent measures mitigate risk, or public communication is equally effective.",
+      "dtia_summary": "Defines when and how data subjects must be notified of breaches, impacting DTIA by requiring breach communication protocols for cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must communicate breach to data subject without undue delay if breach likely to cause high risk to rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Communication must describe breach in clear language and include information from section 25",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No communication required if controller has implemented encryption or other technical measures",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No communication required if subsequent measures mitigate high risk",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No communication required if disproportionate effort and public communication is equally effective",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Commissioner may require communication if controller has not already done so",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "26. Communication of personal data breach to data subject (1) Subject to subsection (3), where a personal data breach is likely to result in a high risk to the rights and freedoms of a data subject, the controller shall, after the notification referred to in section 25, communicate the personal data breach to the data subject without undue delay."
+    },
+    {
+      "section": "27",
+      "heading": "Duty to destroy personal data",
+      "title": "Duty to destroy personal data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "Controllers must destroy personal data as soon as reasonably practicable when the purpose for keeping it lapses, and notify processors holding the data. Processors must destroy specified data as soon as reasonably practicable upon receiving such notification.",
+      "dtia_summary": "Requires data destruction upon purpose lapse, impacting DTIA by mandating deletion timelines and notification for cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must destroy personal data as soon as reasonably practicable when purpose lapses",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must notify processors holding the data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processor must destroy specified data as soon as reasonably practicable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "27. Duty to destroy personal data (1) Where the purpose for keeping personal data has lapsed, every controller shall – (a) destroy the data as soon as is reasonably practicable; and (b) notify any processor holding the data."
+    },
+    {
+      "section": "28",
+      "heading": "Lawful processing",
+      "title": "Lawful processing of personal data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "Personal data may only be processed if consent is given, processing is necessary for a contract, legal obligation, vital interests, public interest, legitimate interests, or historical/statistical research. Violations incur fines up to 100,000 rupees and imprisonment up to 5 years.",
+      "dtia_summary": "Defines lawful processing conditions, impacting DTIA by requiring consent or legal basis for cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data may only be processed with consent from data subject",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary for performance of contract",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary for compliance with legal obligation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary to protect vital interests of data subject or another person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary for public interest or official authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary for legitimate interests of controller or third party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be necessary for historical, statistical or scientific research",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "28. Lawful processing (1) No person shall process personal data unless – (a) the data subject consents to the processing for one or more specified purposes; (b) the processing is necessary – (i) for the performance of a contract to which the data subject is a party or in order to take steps at the request of the data subject before entering into a contract; (ii) for compliance with any legal obligation to which the controller is subject; (iii) in order to protect the vital interests of the data subject or another person; (iv) for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller; (v) the performance of any task carried out by a public authority; (vi) the exercise, by any person in the public interest, of any other functions of a public nature; (vii) for the legitimate interests pursued by the controller or by a third party to whom the data are disclosed, except if the processing is unwarranted in any particular case having regard to the harm and prejudice to the rights and freedoms or legitimate interests of the data subject; or (vii) for the purpose of historical, statistical or scientific research."
+    },
+    {
+      "section": "29",
+      "heading": "Special categories of personal data",
+      "title": "Special categories of personal data processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 40,
+      "primary_category": "Special Personal Information",
+      "summary": "Special categories of personal data may only be processed if consent is given, processing is necessary for legal claims, health care, or specific rights, or the data subject is incapable of consent. Processing must be conducted by not-for-profit bodies with safeguards and limited disclosure.",
+      "dtia_summary": "Restricts processing of special categories, impacting DTIA by requiring specific safeguards for sensitive data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Special categories may only be processed if section 28 applies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must be carried out by not-for-profit bodies with political, philosophical, religious or trade union aims",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must relate solely to members or former members of the body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing must not disclose data outside the body without consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing may be necessary for legal claims",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing may be necessary for health care, medical diagnosis, treatment or social care",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "29. Special categories of personal data (1) Special categories of personal data shall not be processed unless – (a) section 28 applies to the processing; and (b) the processing is carried out in the course of its legitimate activities with appropriate safeguards by a foundation, association or any other not-for-profit body with a political, philosophical, religious or trade union aim and on condition that the processing relates solely to the members or to former members of the body or to persons who have regular contact with it in connection with its purposes and that the personal data are not disclosed outside that body without the consent of the data subjects; (c) the processing relates to personal data which are manifestly made public by the data subject; or (d) the processing is necessary for – (i) the establishment, exercise or defence of a legal claim; (ii) the purpose of preventive or occupational medicine, for the assessment of the working capacity of an employee, medical diagnosis, the provision of health or social care or treatment or the management of health or social care systems and services or pursuant to a contract with a health professional and subject to the conditions and safeguards referred to in subsection (2); (iii) the purpose of carrying out the obligations and exercising specific rights of the controller or of the data subject; or (iv) protecting the vital interests of the data subject or of another person where the data subject is physically or legally incapable of giving consent."
+    },
+    {
+      "section": "30",
+      "heading": "Personal data of child",
+      "title": "Personal data of child below 16 years",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 40,
+      "primary_category": "Children",
+      "summary": "Personal data of children below 16 years may only be processed with consent from parents or guardians. Controllers must verify consent through reasonable efforts considering available technology.",
+      "dtia_summary": "Requires parental consent for children under 16, impacting DTIA by mandating consent verification for cross-border data transfers involving minors.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Children"
+      ],
+      "data_types": [
+        "Children's Data"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data of children below 16 years may only be processed with consent from parent or guardian",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must verify consent through reasonable efforts considering available technology",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. Personal data of child (1) No person shall process the personal data of a child below the age of 16 years unless consent is given by the child's parent or guardian."
+    },
+    {
+      "section": "31",
+      "heading": "Security of processing",
+      "title": "Security measures for data processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 43,
+      "primary_category": "Security",
+      "summary": "Controllers and processors must implement security and organisational measures to prevent unauthorised access, alteration, disclosure, accidental loss, or destruction of data they control. These measures must be appropriate for the potential harm and the nature of the data. The measures include pseudonymisation, encryption, system resilience, and regular testing of security protocols. Controllers must also ensure processors provide sufficient security guarantees and enter written contracts with specific obligations.",
+      "dtia_summary": "Requires robust security measures for data processing, including encryption and regular testing, which are critical for DTIAs involving cross-border data transfers to ensure adequate protection.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must implement security and organisational measures to prevent unauthorised access to data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must implement security and organisational measures to prevent alteration of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must implement security and organisational measures to prevent disclosure of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must implement security and organisational measures to prevent accidental loss of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must implement security and organisational measures to prevent destruction of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must provide a level of security appropriate for the harm that might result from unauthorised access to data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must provide a level of security appropriate for the harm that might result from alteration of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must provide a level of security appropriate for the harm that might result from disclosure of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must provide a level of security appropriate for the harm that might result from destruction of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must provide a level of security appropriate for the nature of the data concerned",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must include pseudonymisation and encryption of personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must include the ability to ensure ongoing confidentiality, integrity, availability and resilience of processing systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must include the ability to restore availability and access to personal data in a timely manner after incidents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security measures must include a process for regularly testing, assessing and evaluating technical and organisational measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Office may lay down technical standards for security measures",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Controllers must consider technological development, cost, special risks, and data nature when determining security measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must choose processors providing sufficient security guarantees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must enter written contracts specifying processor actions only on controller instructions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must enter written contracts specifying processor obligations under section 31",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processors must be considered controllers if they process data without controller instructions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must ensure employees are aware and comply with security measures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A controller or processor shall, at the time of the determination of the means for processing and at the time of the processing – implement appropriate security and organisational measures for – (i) the prevention of unauthorised access to; (ii) the alteration of; (iii) the disclosure of; (iv) the accidental loss of; and (v) the destruction of, the data in his control"
+    },
+    {
+      "section": "32",
+      "heading": "Prior security check",
+      "title": "Prior security inspection by regulator",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Security",
+      "summary": "The Commissioner may inspect and assess security measures under section 31 before processing or data transfers begin if they pose specific risks to data subjects' privacy rights. The Commissioner can also conduct further inspections during working hours to ensure ongoing compliance with security measures.",
+      "dtia_summary": "Allows regulator to verify security measures before data transfers, ensuring DTIAs meet necessary safeguards for cross-border transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commissioner may inspect and assess security measures under section 31 before processing or data transfers begin",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commissioner may conduct further inspections during working hours to ensure ongoing compliance",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Where the Commissioner is of the opinion that the processing or transfer of data by a controller or processor may entail a specific risk to the privacy rights of data subjects, he may inspect and assess the security measures taken under section 31 prior to the beginning of the processing or transfer."
+    },
+    {
+      "section": "33",
+      "heading": "Record of processing operations",
+      "title": "Record of processing operations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 45,
+      "primary_category": "Record Keeping",
+      "summary": "Controllers and processors must maintain detailed records of all processing activities, including controller details, processing purposes, data categories, recipients, data transfers to other countries, erasure timelines, and mechanisms from section 22. These records must be available to the Office upon request.",
+      "dtia_summary": "Requires comprehensive records for DTIAs to track data flows, transfers, and safeguards, ensuring transparency and accountability in cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must maintain a record of all processing operations under their responsibility",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include controller/processor name and contact details, and data protection officer information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must describe the purpose of processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must describe categories of data subjects and personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must describe categories of recipients, including international recipients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include any transfers of data to another country and suitable safeguards for transfers under section 36",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must specify envisaged time limits for erasure of different data categories",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must describe mechanisms from section 22(3)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must make records available to the Office upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every controller or processor shall maintain a record of all processing operations under his or its responsibility."
+    },
+    {
+      "section": "34",
+      "heading": "Data protection impact assessment",
+      "title": "Data protection impact assessment for high-risk processing",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 47,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must conduct data protection impact assessments before processing operations that pose high risks to data subjects' rights and freedoms, such as large-scale profiling, special category data processing, or systematic monitoring. The assessment must evaluate necessity, proportionality, risks, and risk-mitigation measures, including safeguards and security protocols.",
+      "dtia_summary": "Mandates DTIAs for high-risk processing, ensuring adequate safeguards for cross-border data transfers and sensitive data handling.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must conduct data protection impact assessments before high-risk processing operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes systematic and extensive automated profiling with legal effects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes large-scale processing of special categories of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes systematic large-scale monitoring of publicly accessible areas",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "High-risk processing includes other operations requiring consultation with the Office",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must describe envisaged processing operations and purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must evaluate necessity and proportionality of processing operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must evaluate risks to data subjects' rights and freedoms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assessments must include measures to address risks and safeguards for data protection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where processing operations are likely to result in a high risk to the rights and freedoms of data subjects by virtue of their nature, scope, context and purposes, every controller or processor shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data."
+    },
+    {
+      "section": "35",
+      "heading": "Prior authorisation and consultation",
+      "title": "Prior authorisation and consultation for data processing",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 48,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must obtain prior authorisation from the Commissioner before processing personal data, especially when transfers to other countries are involved. They must also consult the Commissioner if data protection impact assessments indicate high risks or if the Commissioner deems consultation necessary. The Commissioner can prohibit non-compliant processing and require remedial actions.",
+      "dtia_summary": "Requires prior authorisation for cross-border data transfers, ensuring DTIAs meet regulatory standards and mitigate risks for international data flows.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers and processors must obtain authorisation from the Commissioner before processing personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must consult the Commissioner before processing personal data if data protection impact assessments indicate high risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers and processors must consult the Commissioner before processing personal data if the Commissioner deems consultation necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may prohibit processing if it does not comply with the Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may require remedial actions for non-compliant processing",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Every controller or processor shall obtain authorisation from the Office prior to processing personal data in order to ensure compliance of the intended processing with this Act and in particular to mitigate the risks involved for the data subjects where a controller or processor cannot provide for the appropriate safeguards referred to in section 36 in relation to the transfer of personal data to another country."
+    },
+    {
+      "section": "36",
+      "heading": "Transfer of personal data outside Mauritius",
+      "title": "Transfer of personal data outside Mauritius",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 51,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Personal data may be transferred outside Mauritius if the Commissioner is satisfied with appropriate safeguards, data subjects provide explicit consent after being informed of risks, transfers are necessary for contractual or legal purposes, or transfers occur from public registers. The Commissioner may prohibit or condition transfers to protect data subjects' rights.",
+      "dtia_summary": "Defines conditions for cross-border data transfers, requiring safeguards, consent, or legal necessity, which are critical for DTIAs involving international data flows.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Transfers may occur if the Commissioner is satisfied with appropriate safeguards for data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if data subjects provide explicit consent after being informed of transfer risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary for contractual performance or pre-contractual measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary for legal claims or public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if necessary to protect vital interests of data subjects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers may occur if legitimate interests are not overridden and safeguards are proven",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfers from public registers must not involve entire data sets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner may request proof of safeguards or compelling legitimate interests",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may prohibit, suspend or condition transfers to protect data subjects' rights",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A controller or processor may transfer personal data to another country where – (a) he or it has provided to the Commissioner proof of appropriate safeguards with respect to the protection of the personal data;"
+    },
+    {
+      "section": "37",
+      "heading": "Right of access",
+      "title": "Data subject access to personal data records",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 54,
+      "primary_category": "Data Subject Rights",
+      "summary": "Controllers must provide data subjects with free copies of their personal data upon written request, within one month, with possible extension for complex cases. They must also disclose processing purposes, data categories, recipients, retention periods, and rights to rectification or erasure. Controllers must use plain language and may charge fees for manifestly excessive requests, but must justify such fees.",
+      "dtia_summary": "Requires controllers to provide data subjects with access to their personal data and related processing information, impacting cross-border data transfers through transparency requirements for international data flows.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers must provide data subjects with free copies of personal data upon written request within one month",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must disclose processing purposes, data categories, recipients, retention periods, and rights to rectification or erasure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must provide information in plain language",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers may charge fees for manifestly excessive requests",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Controllers must justify fees for manifestly excessive requests",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every controller shall, on the written request of a data subject provide, at reasonable intervals, without excessive delay and, subject to subsection (7), free of charge, confirmation as to whether or not personal data relating to the data subject are being processed and forward to him a copy of the data."
+    },
+    {
+      "section": "38",
+      "heading": "Automated individual decision making",
+      "title": "Prohibition on automated decisions affecting individuals",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 55,
+      "primary_category": "Other",
+      "summary": "Data subjects have the right not to be subject to decisions based solely on automated processing that produce legal effects or significantly affect them. Exceptions include contractual necessity, legally authorized processing with safeguards, and explicit consent. Controllers must implement safeguards for automated processing involving special categories of data.",
+      "dtia_summary": "Restricts automated decision-making that could impact individuals, requiring safeguards for cross-border data transfers involving profiling and automated processing.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects have the right not to be subject to decisions based solely on automated processing that produce legal effects or significantly affect them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Automated decisions for contractual purposes are exempt",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Automated decisions based on legally authorized processing with safeguards are exempt",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Automated decisions based on explicit consent are exempt",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Automated processing of special categories of data is prohibited",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Every data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or significantly affects him."
+    },
+    {
+      "section": "39",
+      "heading": "Rectification, erasure or restriction of processing",
+      "title": "Data rectification, erasure, and processing restrictions",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 58,
+      "primary_category": "Data Subject Rights",
+      "summary": "Controllers must rectify inaccurate personal data, erase data when no longer necessary or upon data subject withdrawal of consent, and restrict processing under specific conditions. Controllers must inform third parties when erasing public data links and implement mechanisms to ensure timely compliance with data retention periods.",
+      "dtia_summary": "Requires controllers to manage data subject rights for erasure and restriction, impacting cross-border data transfers through data minimization and retention controls.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers must rectify inaccurate personal data without undue delay",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must erase data when no longer necessary for the purpose of processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must erase data upon data subject withdrawal of consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must erase data when data subject objects to processing and there are no overriding legitimate grounds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must erase data that has been unlawfully processed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must inform third parties when erasing public data links",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must implement mechanisms to ensure timely compliance with data retention periods",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A controller shall erase personal data without undue delay where the data are no longer necessary in relation to the purpose for which they were collected or otherwise processed."
+    },
+    {
+      "section": "40",
+      "heading": "Right to object",
+      "title": "Right to object to data processing",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 59,
+      "primary_category": "Data Subject Rights",
+      "summary": "Data subjects can object to processing of personal data unless the controller demonstrates compelling legitimate grounds overriding their interests or for legal claims. Processing for direct marketing must cease upon objection, and these rights must be explicitly communicated to data subjects.",
+      "dtia_summary": "Allows data subjects to object to data processing, impacting cross-border data transfers through data minimization and purpose limitation.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects have the right to object to processing unless compelling legitimate grounds override their interests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing for direct marketing must cease upon objection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controllers must explicitly communicate these rights to data subjects",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The data subject shall have the right to object in writing at any time to the processing of personal data concerning him unless the controller demonstrates compelling legitimate grounds for the processing which override the data subject's interests, rights and freedoms or for the establishment, exercise or defence of a legal claim."
+    },
+    {
+      "section": "41",
+      "heading": "Exercise of rights",
+      "title": "Exercise of data subject rights by authorized persons",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 59,
+      "primary_category": "Data Subject Rights",
+      "summary": "Data subjects may exercise their rights through authorized persons, including guardians for minors, legally appointed administrators for physically or mentally unfit individuals, or written authorizations from the data subject.",
+      "dtia_summary": "Allows data subjects to delegate rights to authorized persons, impacting cross-border data transfers through data subject representation.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data subjects may exercise rights through a person with parental authority for minors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data subjects may exercise rights through a legally appointed guardian for physically or mentally unfit individuals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data subjects may exercise rights through a person duly authorized in writing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any right conferred on an individual in this Act may be exercised where the data subject is a minor, by a person who has parental authority over the minor or has been appointed as his guardian"
+    },
+    {
+      "section": "42",
+      "heading": "Unlawful disclosure of personal data",
+      "title": "Unlawful disclosure of personal data",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "Controllers and processors who disclose personal data without lawful excuse commit offences. Unauthorized access to personal data and disclosure to others also constitute offences, except for employees acting within their mandate. Offering to sell personal data obtained unlawfully is also prohibited.",
+      "dtia_summary": "Prohibits unlawful disclosure of personal data, impacting cross-border data transfers through data security and confidentiality requirements.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controllers who disclose personal data without lawful excuse commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Processors who disclose personal data without controller's prior authority commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Unauthorized access to personal data and disclosure to others commit offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Employees acting within mandate are exempt from offences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Offering to sell personal data obtained unlawfully commits offences",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any controller who, without lawful excuse, discloses personal data in any manner that is incompatible with the purpose for which such data has been collected shall commit an offence."
+    },
+    {
+      "section": "43",
+      "heading": "Offence for which no specific penalty provided",
+      "title": "Penalties for contraventions without specific penalties",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 61,
+      "primary_category": "Other",
+      "summary": "This section establishes penalties for individuals or entities that commit offences under the Act without specific penalties being outlined. Conviction may result in a fine up to 200,000 rupees and imprisonment for up to five years. Additionally, courts can order the forfeiture of equipment used in the offence or prohibit actions to stop ongoing contraventions.",
+      "dtia_summary": "This section sets general penalties for non-compliance, which could impact DTIA by imposing financial and operational consequences for breaches of data protection obligations.",
+      "authority": "Court",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who commits an offence under this Act for which no specific penalty is provided or who otherwise contravenes this Act shall, on conviction, be liable to a fine not exceeding 200,000 rupees and to imprisonment for a term not exceeding 5 years.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Court may order the forfeiture of any equipment or any article used or connected in any way with the commission of an offence.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The Court may order or prohibit the doing of any act to stop a continuing contravention.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Any person who commits an offence under this Act for which no specific penalty is provided or who otherwise contravenes this Act shall, on conviction, be liable to a fine not exceeding 200, 000 rupees and to imprisonment for a term not exceeding 5 years."
+    },
+    {
+      "section": "44",
+      "heading": "Exceptions and restrictions",
+      "title": "Exceptions and restrictions for data processing",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 61,
+      "page_end": 62,
+      "primary_category": "Other",
+      "summary": "This section outlines exceptions where data processing may be exempt from the Act's provisions. These include national security, public safety, criminal investigations, public interest, judicial independence, data subject rights, and specific COVID-19-related licenses. It also permits research activities with adequate security measures and allows data subjects or the Commissioner to seek judicial protection for rights.",
+      "dtia_summary": "This section defines critical exceptions that could affect DTIA by allowing certain data transfers or processing activities without full compliance, particularly in national security or public interest contexts.",
+      "authority": "Prime Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for the protection of national security, defence or public security.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for the prevention, investigation, detection or prosecution of an offence, including the execution of a penalty.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for an objective of general public interest, including an economic or financial interest of the State.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for the protection of judicial independence and judicial proceedings.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for the protection of a data subject or the rights and freedoms of others.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for the issue of any licence, permit or authorisation during the COVID-19 period.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The processing of personal data for the purpose of historical, statistical or scientific research may be exempt from the provisions of this Act where the security and organisational measures specified in section 31 are implemented to protect the rights and freedoms of data subjects involved.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where this section has been breached, a data subject or the Commissioner may apply for a Judge's order to protect the rights of individuals.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Personal data shall be exempt from any provision of this Act where the non-application of such provision would, in the opinion of the Prime Minister, be required for the purpose of safeguarding national security, defence or public security.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In any proceedings in which the non-application of any provision of this Act on grounds of national security, defence or public security is in question, a certificate under the hand of the Prime Minister certifying that the non-application of the provision is required for the purpose of safeguarding national security, defence or public security shall be conclusive evidence of that fact.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "No exception to this Act shall be allowed except where it constitutes a necessary and proportionate measure in a democratic society for – (a) the protection of national security, defence or public security; (b) the prevention, investigation, detection or prosecution of an offence, including the execution of a penalty; (c) an objective of general public interest, including an economic or financial interest of the State; (d) the protection of judicial independence and judicial proceedings; (e) the protection of a data subject or the rights and freedoms of others; or (f) issue of any licence, permit or authorisation during the COVID-19 period."
+    },
+    {
+      "section": "45",
+      "heading": "Annual report",
+      "title": "Annual reporting obligations for the Commissioner",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 62,
+      "page_end": 64,
+      "primary_category": "Other",
+      "summary": "This section mandates that the Commissioner must submit an annual report to the National Assembly within three months after the end of each fiscal year. The report includes details on the operation of Codes of Practice and Guidelines issued by the Commissioner, as well as any recommendations related to compliance with the Act.",
+      "dtia_summary": "This section ensures transparency by requiring annual reporting on compliance activities, which could inform DTIA by highlighting regulatory oversight and the Commissioner's role in data protection.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner shall, not later than 3 months after the end of every year, lay an annual report of the activities of the Office before the National Assembly.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The report shall include a statement about the operation of Codes of Practice issued or approved, or Guidelines issued, by the Commissioner.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The report shall include any recommendations that the Commissioner thinks fit, in relation to compliance with this Act.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Commissioner shall, not later than 3 months after the end of every year, lay an annual report of the activities of the Office before the National Assembly."
+    },
+    {
+      "section": "47",
+      "heading": "Codes and Guidelines",
+      "title": "Codes and Guidelines for data protection",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 64,
+      "page_end": 64,
+      "primary_category": "Other",
+      "summary": "This section allows the Commissioner to issue or approve Codes of Practice and Guidelines to support compliance with the Act. It requires consultation with relevant parties before issuing any Code of Practice or Guidelines and permits variation or revocation of Codes of Practice, with approved Codes coming into effect on a specified date.",
+      "dtia_summary": "This section provides mechanisms for regulatory guidance, which could influence DTIA by establishing standards for data processing activities and compliance.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner may, for the purposes of this Act, issue or approve Codes of Practice, or issue Guidelines.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commissioner may, before issuing or approving a Code of Practice, or issuing Guidelines, consult such person or authority as he thinks fit.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Any Code of Practice may be varied or revoked.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Any Code of Practice shall, where it is approved under subsection (1), come into operation on a day specified by the Commissioner.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Commissioner may, for the purposes of this Act, issue or approve Codes of Practice, or issue Guidelines."
+    },
+    {
+      "section": "48",
+      "heading": "Certification",
+      "title": "Data protection certification mechanisms",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 64,
+      "page_end": 65,
+      "primary_category": "Other",
+      "summary": "This section establishes voluntary data protection certification for controllers and processors, with certification valid for up to three years and renewable under the same conditions. Certification requires disclosure of processing activities to the Office and does not relieve the controller or processor of their compliance responsibilities under the Act.",
+      "dtia_summary": "This section introduces certification as a compliance mechanism that could impact DTIA by providing a framework for data protection standards and third-party validation.",
+      "authority": "Office",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Office may, in order to encourage compliance of processing operations by controllers and processors with this Act, lay down technical standards for data protection certification mechanisms and data protection seals and marks.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A certification shall be voluntary.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification shall be issued to a controller or processor for a maximum period of 3 years and may be renewed under the same conditions where the relevant requirements continue to be met.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A certification shall be withdrawn where the requirements for the certification are no longer met.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Where a controller or processor seeks certification under this section, he or it shall provide to the Office all information and access to his or its processing activities which are necessary to conduct the certification procedure.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certification issued under this section shall not alter the responsibility of the controller or processor for compliance with this Act.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Office may, in order to encourage compliance of processing operations by controllers and processors with this Act, lay down technical standards for data protection certification mechanisms and data protection seals and marks."
+    },
+    {
+      "section": "49",
+      "heading": "Confidentiality and oath",
+      "title": "Confidentiality and oath obligations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 66,
+      "primary_category": "Other",
+      "summary": "This section requires the Commissioner and authorized officers to take an oath as per the Schedule and prohibits disclosure of confidential information obtained during the exercise of powers under the Act. Violation of confidentiality can result in fines up to 50,000 rupees and imprisonment for up to two years.",
+      "dtia_summary": "This section ensures confidentiality of sensitive data, which is critical for DTIA to maintain trust in data handling processes and prevent unauthorized disclosures.",
+      "authority": "Commissioner",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner and every authorised officer shall take the oath as set out in the Schedule.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person who is or has been the Commissioner or an authorised officer shall, except in accordance with this Act or any other enactment, divulge any confidential information obtained in the exercise of a power or in the performance of a duty under this Act.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person who, without lawful excuse, contravenes subsection (2) shall commit an offence and shall, on conviction, be liable to a fine not exceeding 50,000 rupees and to imprisonment for a term not exceeding 2 years.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commissioner and every authorised officer shall take the oath as set out in the Schedule."
+    },
+    {
+      "section": "50",
+      "heading": "Protection from liability",
+      "title": "Court immunity for Commissioner's actions",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 66,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "This section provides immunity from civil and criminal liability for the Commissioner or authorized officers acting within their duties under the Act. The Court may declare immunity if it finds reasonable cause for the action, and the Commissioner is immune from proceedings related to that action. This immunity applies to actions taken in good faith during the execution of duties.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Court shall declare immunity for Commissioner or authorized officer actions taken in good faith with reasonable cause",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Notwithstanding the Public Officers' Protection Act, where any action has been entered before a Court pursuant to an act done by the Commissioner or an authorised officer in the execution of his duties under this Act and it appears to the Court that there was reasonable cause to do such act, the Court shall so declare and thereafter the Commissioner or authorised officer shall be immune from all proceedings, whether civil or criminal, on account of such act."
+    },
+    {
+      "section": "51",
+      "heading": "Right of appeal",
+      "title": "Right to appeal decisions within 21 days",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "This section grants a right to appeal decisions made by the Commissioner within 21 days of becoming aware of the decision. The appeal must be filed with the Tribunal, and the appeal process is governed by specific timeframes and procedures outlined in this section.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any person aggrieved by a Commissioner's decision may appeal to the Tribunal within 21 days of becoming aware of the decision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any person aggrieved by a decision of the Commissioner under this Act may, within 21 days from the date when the decision is made known to that person, appeal to the Tribunal."
+    },
+    {
+      "section": "52",
+      "heading": "Special jurisdiction of Tribunal",
+      "title": "Tribunal's special jurisdiction for appeals",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 68,
+      "primary_category": "Other",
+      "summary": "This section outlines the Tribunal's authority to hear appeals under the Act, including specific application of the Information and Communication Technologies Act, timeframes for appeal processing, and consequences for non-compliance with orders. The Tribunal must handle appeals expeditiously within six weeks and may allow late appeals with sufficient cause.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Tribunal shall hear and dispose of appeals under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sections 40 to 44 of the Information and Communication Technologies Act apply to appeals under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sections 39 and 42(5) of the Information and Communication Technologies Act do not apply to appeals under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Appeals must be filed in prescribed form and accompanied by prescribed fees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may entertain late appeals if satisfied there was sufficient cause for delay",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal may pass orders confirming, varying, or setting aside the decision appealed against after hearing parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal shall send copies of all orders to the parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Tribunal shall dispose of appeals within six weeks of lodgement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-compliance with Tribunal orders constitutes an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No appeal lies against decisions following settlements reached with consent of parties",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to subsections (2) and (3), the Tribunal shall hear and dispose of any appeal under this Act."
+    },
+    {
+      "section": "53",
+      "heading": "Prosecution and jurisdiction",
+      "title": "Prosecution and jurisdiction for offences",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 69,
+      "primary_category": "Other",
+      "summary": "This section specifies that authorized officers may swear information for offences under the Act before a Magistrate, and the Intermediate Court has exclusive jurisdiction to try such offences. Prosecutions must be initiated by or with the consent of the Director of Public Prosecutions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "An authorized officer may swear an information for offences under this Act before a Magistrate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Intermediate Court has jurisdiction to try offences under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prosecutions under this Act must be initiated by or with the consent of the Director of Public Prosecutions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An authorised officer may swear an information in respect of an offence under this Act or any regulations made under it before a Magistrate."
+    },
+    {
+      "section": "54",
+      "heading": "Certificate issued by Commissioner",
+      "title": "Commissioner's certified copies and certificates",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 69,
+      "primary_category": "Other",
+      "summary": "This section establishes that copies of entries in the register certified by the Commissioner are admissible evidence, and certificates signed by the Commissioner stating the absence of an entry for a specified person are also admissible evidence.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A copy of, or extract from, an entry in the register certified by the Commissioner is evidence of the entry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A certificate signed by the Commissioner stating no entry exists for a specified person is evidence of that fact",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "a copy of, or of an extract from, an entry in the register duly certified by the Commissioner to be a true copy shall be evidence of the entry or extract; and a certificate signed by the Commissioner and stating that there is not an entry in the register in respect of a specified person as a controller or processor shall be evidence of that fact."
+    },
+    {
+      "section": "55",
+      "heading": "Regulations",
+      "title": "Regulations for the Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 70,
+      "primary_category": "Other",
+      "summary": "This section allows the Minister to make regulations for the purposes of the Act after consulting with the Commissioner. Regulations may cover amendments to the Schedule, requirements for controllers and processors, notice and registration contents, information to data subjects, fees, Codes of Practice, and penalties for contraventions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may make regulations for the purposes of this Act after consulting with the Commissioner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may provide for amendment of the Schedule",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify requirements for controllers or processors when processing personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may define contents for notices or registrations by controllers or processors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify information to be provided to data subjects and how it shall be provided",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may provide for levying fees and taking charges",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may issue and approve Codes of Practice and Guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may provide that contraventions constitute offences punishable by fines up to 100,000 rupees and imprisonment up to 5 years",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Minister may, for the purposes of this Act, after consultation with the Commissioner, make such regulations as he thinks fit."
+    },
+    {
+      "section": "56",
+      "heading": "Repeal",
+      "title": "Repeal of Data Protection Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 70,
+      "primary_category": "Exemptions",
+      "summary": "This section explicitly repeals the Data Protection Act. It states that the repealed Act is no longer in force and its provisions are replaced by the current Act. The repeal is effective from the commencement of the current Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Data Protection Act is repealed.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "56. Repeal The Data Protection Act is repealed."
+    },
+    {
+      "section": "57",
+      "heading": "Transitional provisions",
+      "title": "Transitional provisions for Data Protection Office assets",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 72,
+      "primary_category": "Exemptions",
+      "summary": "This section outlines transitional arrangements for assets, rights, and obligations related to the Data Protection Office under the repealed Act. It ensures continuity of assets, rights, and liabilities, and transfers the register of controllers and processors to the new system. Pending applications and codes of practice continue to be valid under the new Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "All assets and funds of the Data Protection Office under the repealed Act shall remain vested in the Office.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All rights, obligations and liabilities subsisting in favour of or against the Data Protection Office under the repealed Act shall continue to exist under the same terms and conditions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The contents of the register of controllers and processors kept under the repealed Act shall be transferred to the register kept under this Act.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any registration granted under the repealed Act, which is valid at the commencement of this Act, shall be deemed to have been granted under this Act.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any application made to the Data Protection Office under the repealed Act and which is pending at the commencement of this Act shall be dealt with in accordance with this Act.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any Code of Practice or Guideline issued under the repealed Act shall continue to remain in force.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any act or thing done, or any contract or agreement entered into by the Data Protection Office shall be deemed to have been done or entered into by the Office.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All proceedings, judicial or otherwise, initiated before and pending at the commencement of this Act, by or against the Data Protection Office or the Commissioner, may be continued by or against the Office or the Commissioner.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "For the purpose of section 45, the period starting from the commencement of this Act to the end of the year of such commencement shall be deemed to be the first year for the filing of the annual report.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Where this Act does not make provision for any transition, the Minister may make such regulations as may be necessary for such transition.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "57. Transitional provisions (1) In this section – \"repealed Act\" means the Data Protection Act. (2) All assets and funds of the Data Protection Office under the repealed Act shall, at the commencement of this Act, remain vested in the Office. (3) All rights, obligations and liabilities subsisting in favour of or against the Data Protection Office under the repealed Act shall, at the commencement of this Act, continue to exist under the same terms and conditions in favour of or against the Office. (4) The contents of the register of controllers and processors kept under the repealed Act shall, at the commencement of this Act, be transferred to the register kept under this Act. (5) Any registration granted under the repealed Act, which is valid at the commencement of this Act, shall be deemed to have been granted under this Act. (6) Any application made to the Data Protection Office under the repealed Act and which is pending at the commencement of this Act shall be dealt with in accordance with this Act. (7) Any Code of Practice or Guideline issued under the repealed Act shall, at the commencement of this Act, continue to remain in force. (8) Any act or thing done, or any contract or agreement entered into, by the Data Protection Office shall, at the commencement of this Act, be deemed to have been done or entered into by the Office. (9) All proceedings, judicial or otherwise, initiated before and pending at the commencement of this Act, by or against the Data Protection Office or the Commissioner, may be continued, by or against the Office or the Commissioner, as the case may be. (10) For the purpose of section 45, the period starting from the commencement of this Act to the end of the year of such commencement shall be deemed to be the first year for the filing of the annual report. (11) Where this Act does not make provision for any transition, the Minister may make such regulations as may be necessary for such transition."
+    },
+    {
+      "section": "58",
+      "heading": "Commencement",
+      "title": "Commencement date for the Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 73,
+      "primary_category": "Exemptions",
+      "summary": "This section specifies the commencement date of the Act, stating that it comes into operation on a date to be fixed by Proclamation, with the possibility of different dates for different sections. The Act was proclaimed by a specific Proclamation in 2018, effective from 15 January 2018.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "This Act shall come into operation on a date to be fixed by Proclamation.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Different dates may be fixed for the coming into operation of different sections of this Act.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "58. Commencement Proclaimed by [Proclamation of 2018] w.e.f. 15 January 2018 (1) Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation. (2) Different dates may be fixed for the coming into operation of different sections of this Act."
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "country": "Singapore",
+  "document": "Computer Misuse Act 1993 (Singapore - Row 29)",
+  "generated": "2026-07-17T22:12:56",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "This Act is the Computer Misuse Act 1993.",
+      "title": "Definition of Computer Misuse Act 1993",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 8,
+      "primary_category": "Definitions",
+      "summary": "This section establishes the Computer Misuse Act 1993 as the governing legislation. It defines key terms including 'computer', 'computer output', 'computer service', 'damage', 'data', and other technical terms essential for the Act's application. The definitions specify what constitutes unauthorized access, modification, and use of computer systems, and outline the scope of protected data and systems.",
+      "dtia_summary": "This section defines critical terms used in data protection and cybersecurity contexts, including 'computer', 'data', and 'unauthorized access', which are foundational for understanding data transfer and system security requirements.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Act is the Computer Misuse Act 1993",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "1. This Act is the Computer Misuse Act 1993."
+    },
+    {
+      "section": "1 (part 2)",
+      "heading": "This Act is the Computer Misuse Act 1993. (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "1 (part 3)",
+      "heading": "This Act is the Computer Misuse Act 1993. (cont.)",
+      "title": "Offences for obtaining or using personal information unlawfully",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "This section defines offences for obtaining, retaining, or supplying personal information obtained through unlawful means. It specifies that a person commits an offence if they knowingly or with reason to believe the information was obtained in contravention of sections 3, 4, 5, or 6, and then obtain or retain the information or supply it. The section also outlines exceptions where the person did not use the information for criminal purposes or did not know it would be used for criminal purposes.",
+      "dtia_summary": "This section establishes conditions under which personal data transfers are unlawful, relevant for DTIAs involving cross-border data flows where data was obtained through unauthorized access.",
+      "authority": "Singapore Police Force",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person commits an offence if they knowingly or with reason to believe personal information was obtained in contravention of sections 3, 4, 5, or 6 and then obtain or retain the information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "It is not an offence if the person obtained or retained the information for a purpose other than using it to commit or facilitate criminal offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "It is not an offence if the person did not know or have reason to believe the information would be used to commit or facilitate criminal offences",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person does not transmit personal information merely because they provide network access or services",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A person shall be guilty of an offence if the person, knowing or having reason to believe that any personal information about another person (being an individual) was obtained by an act done in contravention of section 3, 4, 5 or 6 — (a) obtains or retains the personal information; or (b) supplies, offers to supply, transmits or makes available, by any means the personal information."
+    },
+    {
+      "section": "1 (part 4)",
+      "heading": "This Act is the Computer Misuse Act 1993. (cont.)",
+      "title": "Territorial scope of computer misuse offences",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "This section establishes that offences under the Act apply to persons outside Singapore and that offences committed outside Singapore may be treated as if committed within Singapore. It specifies conditions for applicability, including whether the accused was in Singapore, the computer was in Singapore, or the offence causes serious harm in Singapore.",
+      "dtia_summary": "This section affects DTIAs by defining when cross-border data misuse offences apply, relevant for data transfers involving Singaporean entities operating internationally.",
+      "authority": "Singapore Police Force",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Act applies to persons outside Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Offences committed outside Singapore may be treated as if committed within Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act applies if the accused was in Singapore at the material time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act applies if the computer was in Singapore at the material time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act applies if the offence causes serious harm in Singapore",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to subsection (3), the provisions of this Act have effect, in relation to any person, whatever the person's nationality or citizenship, outside as well as within Singapore."
+    },
+    {
+      "section": "15",
+      "heading": "A District Court or a Magistrate's Court has jurisdiction to hear and determine all",
+      "title": "Criminal Law (Miscellaneous Amendments) Act 2025",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act 1993 by incorporating the Act 21 of 2025—Criminal Law (Miscellaneous Amendments) Act 2025. It specifies the bill number (15/2025), first reading date (14 October 2025), second and third reading dates (4 November 2025), and commencement date (30 December 2025). The amendment focuses on cybersecurity enhancements without detailing specific obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 15/2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First reading date 14 October 2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and third reading dates 4 November 2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement date 30 December 2025",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "15.  Act 21 of 2025—Criminal Law (Miscellaneous Amendments) Act 2025 Bill: 15/2025 First Reading: 14 October 2025 Second and Third Readings: 4 November 2025 Commencement: 30 December 2025"
+    },
+    {
+      "section": "18",
+      "heading": "Nothing in this Act prohibits a police officer, an authorised person within the",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "20",
+      "heading": "The Minister may, by order in the Gazette, amend the First and Second",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2",
+      "heading": "An abetment of, or a conspiracy or an attempt to commit, an offence mentioned in item 1.",
+      "title": "Abetment of scam offences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section defines abetment, conspiracy, or attempt to commit offences mentioned in item 1 of the Scam Offences list, which are specific cyber-related offences under the Act.",
+      "dtia_summary": "This section is relevant for DTIAs as it addresses the legal framework for handling third-party involvement in data misuse, particularly in cross-border contexts.",
+      "authority": "Singapore Police Force",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any person who abets the commission of or attempts to commit an offence under this Act is guilty of that offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An abetment of, or a conspiracy or an attempt to commit, an offence mentioned in item 1."
+    },
+    {
+      "section": "3",
+      "heading": "Act 8 of 1996—Evidence (Amendment) Act 1996",
+      "title": "Amendment of Evidence Act 1996",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section amends the Evidence Act 1996 through the Evidence (Amendment) Act 1996. The amendment was enacted via Bill 45/1995 and came into effect on 8 March 1996. It outlines the legislative process and commencement date for the amendment.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Evidence (Amendment) Act 1996",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 8 of 1996—Evidence (Amendment) Act 1996 (Amendments made by section 9 of the above Act)"
+    },
+    {
+      "section": "4",
+      "heading": "Act 21 of 1998—Computer Misuse (Amendment) Act 1998",
+      "title": "Amendment of Computer Misuse Act 1998",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act through the Computer Misuse (Amendment) Act 1998. The amendment was enacted via Bill 24/1998 and came into effect on 1 August 1998. It details the legislative process and commencement date for the amendment.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Computer Misuse (Amendment) Act 1998",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 21 of 1998—Computer Misuse (Amendment) Act 1998"
+    },
+    {
+      "section": "6",
+      "heading": "Act 25 of 2003—Computer Misuse (Amendment) Act 2003",
+      "title": "Amendment of Computer Misuse Act 2003",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act through the Computer Misuse (Amendment) Act 2003. The amendment was enacted via Bill 22/2003 and came into effect on 14 June 2004 (except section 2) and 1 September 2004 (section 2). It details the legislative process and commencement dates for the amendment.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Computer Misuse (Amendment) Act 2003",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 25 of 2003—Computer Misuse (Amendment) Act 2003"
+    },
+    {
+      "section": "7",
+      "heading": "Act 42 of 2005—Statutes (Miscellaneous Amendments) () Act 2005",
+      "title": "Amendment of Statutes 2005",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section amends the Statutes through the Statutes (Miscellaneous Amendments) Act 2005. The amendment was enacted via Bill 30/2005 and came into effect on 1 January 2006 (section 14). It details the legislative process and commencement date for the amendment.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 14 of the Statutes (Miscellaneous Amendments) Act 2005",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 42 of 2005—Statutes (Miscellaneous Amendments) () Act 2005"
+    },
+    {
+      "section": "9",
+      "heading": "Act 15 of 2010—Criminal Procedure Code 2010",
+      "title": "Amendment of Criminal Procedure Code 2010",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section amends the Criminal Procedure Code 2010 through the Criminal Procedure Code 2010. The amendment was enacted via Bill 11/2010 and came into effect on 2 January 2011 (section 430 read with item 24 of the Sixth Schedule). It details the legislative process and commencement date for the amendment.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 430 read with item 24 of the Sixth Schedule to the Criminal Procedure Code 2010",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 15 of 2010—Criminal Procedure Code 2010 (Amendments made by section 430 read with item 24 of the Sixth Schedule to the above Act)"
+    },
+    {
+      "section": "10",
+      "heading": "Act 3 of 2013—Computer Misuse (Amendment) Act 2013",
+      "title": "Amendment of Computer Misuse Act 2013",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act through the Computer Misuse (Amendment) Act 2013. The amendment was enacted via Bill 36/2012 and came into effect on 13 March 2013. It details the legislative process and commencement date for the amendment, and notes that the Computer Misuse Act was renamed as the Computer Misuse and Cybersecurity Act by this Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Computer Misuse (Amendment) Act 2013",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 3 of 2013—Computer Misuse (Amendment) Act 2013"
+    },
+    {
+      "section": "11",
+      "heading": "Act 22 of 2017—Computer Misuse and Cybersecurity (Amendment) Act 2017",
+      "title": "Amendment of Computer Misuse Act 2017",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act 1993 by incorporating the Act 22 of 2017—Computer Misuse and Cybersecurity (Amendment) Act 2017. It specifies the bill number (15/2017), first reading date (9 March 2017), second and third reading dates (3 April 2017), and commencement date (1 June 2017). The amendment focuses on cybersecurity enhancements without detailing specific obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 15/2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First reading date 9 March 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and third reading dates 3 April 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement date 1 June 2017",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "11.  Act 22 of 2017—Computer Misuse and Cybersecurity (Amendment) Act 2017 Bill: 15/2017 First Reading: 9 March 2017 Second and Third Readings: 3 April 2017 Commencement: 1 June 2017"
+    },
+    {
+      "section": "12",
+      "heading": "Act 9 of 2018—Cybersecurity Act 2018",
+      "title": "Cybersecurity Act 2018 Amendment",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act 1993 by incorporating the Act 9 of 2018—Cybersecurity Act 2018. It specifies the bill number (2/2018), first reading date (8 January 2018), second and third reading dates (5 February 2018), and commencement date (31 August 2018) for section 49. The amendment renames the Computer Misuse and Cybersecurity Act as the Computer Misuse Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 2/2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First reading date 8 January 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and third reading dates 5 February 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement date 31 August 2018 (section 49)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Renamed Computer Misuse and Cybersecurity Act as Computer Misuse Act",
+          "obligation_type": "Restriction"
+        }
+      ],
+      "source_quote": "12.  Act 9 of 2018—Cybersecurity Act 2018 (Amendments made by section 49 of the above Act) Bill: 2/2018 First Reading: 8 January 2018 Second and Third Readings: 5 February 2018 Commencement: 31 August 2018 (section 49) Note: The Computer Misuse and Cybersecurity Act was renamed as the Computer Misuse Act by this Act."
+    },
+    {
+      "section": "14",
+      "heading": "Act 16 of 2023—Computer Misuse (Amendment) Act 2023",
+      "title": "Computer Misuse (Amendment) Act 2023",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act 1993 by incorporating the Act 16 of 2023—Computer Misuse (Amendment) Act 2023. It specifies the bill number (13/2023), first reading date (18 April 2023), second and third reading dates (9 May 2023), and commencement date (8 February 2024). The amendment focuses on cybersecurity enhancements without detailing specific obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 13/2023",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First reading date 18 April 2023",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and third reading dates 9 May 2023",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement date 8 February 2024",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "14.  Act 16 of 2023—Computer Misuse (Amendment) Act 2023 Bill: 13/2023 First Reading: 18 April 2023 Second and Third Readings: 9 May 2023 Commencement: 8 February 2024"
+    },
+    {
+      "section": "15",
+      "heading": "Act 21 of 2025—Criminal Law (Miscellaneous Amendments) Act 2025",
+      "title": "Criminal Law (Miscellaneous Amendments) Act 2025",
+      "chapter": "Chapter 50A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "This section amends the Computer Misuse Act 1993 by incorporating the Act 21 of 2025—Criminal Law (Miscellaneous Amendments) Act 2025. It specifies the bill number (15/2025), first reading date (14 October 2025), second and third reading dates (4 November 2025), and commencement date (30 December 2025). The amendment focuses on cybersecurity enhancements without detailing specific obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 15/2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First reading date 14 October 2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and third reading dates 4 November 2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement date 30 December 2025",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "15.  Act 21 of 2025—Criminal Law (Miscellaneous Amendments) Act 2025 Bill: 15/2025 First Reading: 14 October 2025 Second and Third Readings: 4 November 2025 Commencement: 30 December 2025"
+    }
+  ]
+}

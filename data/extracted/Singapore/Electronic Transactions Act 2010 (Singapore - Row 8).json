@@ -1,0 +1,931 @@
+{
+  "country": "Singapore",
+  "document": "Electronic Transactions Act 2010 (Singapore - Row 8)",
+  "generated": "2026-07-17T22:19:02",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "This Act is the Electronic Transactions Act 2010.",
+      "title": "Digital signatures: definitions and key terms",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 8,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms related to digital signatures, including asymmetric cryptosystems, certificates, certification authorities, and trustworthiness. It specifies the technical requirements for digital signatures to ensure authenticity and integrity of electronic records. The definitions apply to the Electronic Transactions Act and its implementation through the Third Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In this Schedule, unless the context otherwise requires —",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"accredited certification authority\" means a certification authority accredited by the Controller pursuant to any regulations made under section 22",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"asymmetric cryptosystem\" means a system capable of generating a secure key pair, consisting of a private key for creating a digital signature, and a public key to verify the digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certificate\" means a record issued for the purpose of supporting digital signatures which purports to confirm the identity or other significant characteristics of the person who holds a particular key pair",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certification authority\" means a person who issues a certificate",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certification practice statement\" means a statement issued by a certification authority to specify the practices that the certification authority employs in issuing certificates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"correspond\", in relation to a private key or public key, means to belong to the same key pair",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"digital signature\" means an electronic signature consisting of a transformation of an electronic record using an asymmetric cryptosystem and a hash function such that a person having the initial untransformed electronic record and the signer's public key can accurately determine — (a) whether the transformation was created using the private key that corresponds to the signer's public key; and (b) whether the initial electronic record has been altered since the transformation was made",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"hash function\" means an algorithm mapping or translating one sequence of bits into another, generally smaller, set (the hash result) such that — (a) a record yields the same hash result every time the algorithm is executed using the same record as input; (b) it is computationally infeasible that a record can be derived or reconstituted from the hash result produced by the algorithm; and (c) it is computationally infeasible that 2 records can be found that produce the same hash result using the algorithm",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"key pair\", in an asymmetric cryptosystem, means a private key and its mathematically related public key, having the property that the public key can verify a digital signature that the private key creates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"operational period\", in relation to a certificate, means a period beginning on the date and time the certificate is issued by a certification authority (or on a later date and time if stated in the certificate), and ending on the date and time the certificate expires (as stated in the certificate) or is earlier revoked or suspended",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"private key\" means the key of a key pair used to create a digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"public certification authority\" means a public agency that is approved by the Minister under paragraph 3(b)(iii) to act as a certification authority",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"public key\" means the key of a key pair used to verify a digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"recognised certificate\" means a certificate recognised pursuant to regulations made under section 22(3)",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"recognised certification authority\" means a certification authority recognised pursuant to regulations made under section 22(3)",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"repository\" means a system for storing and retrieving certificates or other information relevant to certificates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"revoke\", in relation to a certificate, means to permanently end the operational period of the certificate from a specified time",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"subscriber\" means a person who is the subject named or identified in a certificate issued to the person and who holds a private key that corresponds to a public key listed in that certificate",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"suspend\", in relation to a certificate, means to temporarily suspend the operational period of the certificate from a specified time",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"trustworthy system\" means computer hardware, software and procedures that — (a) are reasonably secure from intrusion and misuse; (b) provide a reasonable level of availability, reliability and correct operation; (c) are reasonably suited to performing their intended functions; and (d) adhere to generally accepted security procedures",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"valid certificate\" means a certificate that a certification authority has issued and which the subscriber listed in it has accepted",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"verify a digital signature\", in relation to a given digital signature, record and public key, means to determine accurately that — (a) the digital signature was created using the private key corresponding to the public key listed in the certificate; and (b) the record has not been altered since its digital signature was created",
+          "obligation_type": "[]"
+        }
+      ],
+      "source_quote": "1.  Digital signatures, as defined in the Third Schedule."
+    },
+    {
+      "section": "3",
+      "heading": "This Act is to be construed consistently with what is commercially reasonable",
+      "title": "Conditions for digital signatures to be secure electronic signatures",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 8,
+      "page_end": 10,
+      "primary_category": "Definitions",
+      "summary": "This section specifies when a digital signature is treated as a secure electronic signature. It requires that the digital signature was created during the operational period of a valid certificate, verified by the public key, and the certificate is trustworthy through specific conditions including being issued by an accredited or recognised authority or mutual agreement between parties.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity because —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(i) the certificate was issued by an accredited certification authority operating in compliance with the regulations made under section 22",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(ii) the certificate was issued by a recognised certification authority",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iii) the certificate was issued by a public agency approved by the Minister to act as a certification authority on such conditions as the Minister may by regulations impose or specify",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iv) the parties have expressly agreed between themselves (sender and recipient) to use digital signatures as a security procedure, and the digital signature was properly verified by reference to the sender's public key",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+    },
+    {
+      "section": "8",
+      "heading": "Where a rule of law requires a signature, or provides for certain consequences if a",
+      "title": "Signature requirements for electronic records",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 10,
+      "page_end": 13,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section specifies that a rule of law requiring a signature or consequences for unsigned documents is satisfied by an electronic record if a method identifies the person and indicates their intention. The method must be reliable for the purpose or proven to fulfill the functions described. This section ensures electronic records meet signature requirements under applicable laws, which is critical for legal validity in transactions.",
+      "dtia_summary": "This section establishes requirements for electronic signatures that must be reliable for the purpose of the transaction, which impacts how data is authenticated across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Where a rule of law requires a signature, or provides for certain consequences if a document or record is not signed, that requirement is satisfied in relation to an electronic record if a method is used to identify the person and indicate their intention",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The method used is either as reliable as appropriate for the purpose for which the electronic record was generated or communicated",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The method used is proven in fact to have fulfilled the functions described by itself or together with further evidence",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Where a rule of law requires a signature, or provides for certain consequences if a document or record is not signed, that requirement is satisfied in relation to an electronic record if — (a) a method is used to identify the person and to indicate that person's intention in respect of the information contained in the electronic record; and (b) the method used is either — (i) as reliable as appropriate for the purpose for which the electronic record was generated or communicated, in the light of all the circumstances, including any relevant agreement; or (ii) proven in fact to have fulfilled the functions described in paragraph (a), by itself or together with further evidence."
+    },
+    {
+      "section": "15",
+      "heading": "A contract formed by the interaction of an automated message system and a",
+      "title": "Certification authority representations upon certificate issuance",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 20,
+      "primary_category": "Security",
+      "summary": "By issuing a certificate, certification authorities represent that they issued it in accordance with applicable certification practice statements or confirmed requirements. They must confirm the subscriber holds the private key, the key pair functions, information is accurate, and they have no knowledge of material facts affecting reliability.",
+      "dtia_summary": "Requires certification authorities to make specific representations about certificate validity, impacting trust in cross-border digital transactions.",
+      "authority": "Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "By issuing a certificate, certification authority represents that it issued the certificate in accordance with applicable certification practice statement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must confirm subscriber holds private key corresponding to public key",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must confirm subscriber's public key and private key constitute functioning key pair",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must confirm all information in certificate is accurate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must have no knowledge of material facts that would adversely affect certificate reliability",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15.—(1) By issuing a certificate, a certification authority represents to any person who reasonably relies on the certificate or a digital signature verifiable by the public key listed in the certificate that the certification authority has issued the certificate in accordance with any applicable certification practice statement incorporated by reference in the certificate, or of which the relying person has notice."
+    },
+    {
+      "section": "15 (part 2)",
+      "heading": "A contract formed by the interaction of an automated message system and a (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "15 (part 3)",
+      "heading": "A contract formed by the interaction of an automated message system and a (cont.)",
+      "title": "Secure electronic records and signatures: verification and presumptions",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 30,
+      "primary_category": "Security",
+      "summary": "This section defines when an electronic record or signature is treated as secure. A secure electronic record must be verified using a specified or commercially reasonable security procedure that confirms it has not been altered since a specific point in time. Similarly, a secure electronic signature must meet four criteria: uniqueness to the user, identification capability, creation under sole control, and linkage to the record that invalidates if changed. The commercial reasonableness of security procedures depends on transaction nature, party sophistication, transaction volume, alternatives, costs, and industry practices.",
+      "dtia_summary": "This section establishes technical safeguards for electronic records and signatures, requiring verification mechanisms to ensure data integrity across borders. It impacts DTIAs by mandating specific security procedures that must be validated for cross-border data transfers involving electronic records.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic record is treated as secure if a specified or commercially reasonable security procedure verifies it has not been altered since a specific point in time.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A security procedure is commercially reasonable if it considers transaction nature, party sophistication, transaction volume, alternatives, costs, and industry practices.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "An electronic signature is treated as secure if it is unique to the user, identifies the user, created under sole control, and links to the record such that changes invalidate the signature.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commercial reasonableness of security procedures for signatures follows the same criteria as for records.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "If a specified security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specific point in time, such record is treated as a secure electronic record from such specific point in time to the time of verification."
+    },
+    {
+      "section": "15 (part 4)",
+      "heading": "A contract formed by the interaction of an automated message system and a (cont.)",
+      "title": "Cross-border recognition of security procedures and providers",
+      "chapter": null,
+      "part": "Part a",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 34,
+      "primary_category": "International Data Transfer Mechanisms",
+      "summary": "This section allows for cross-border recognition of specified security procedures and providers, including requirements for interoperability, compliance with local standards, and recognition under bilateral or multilateral agreements. It enables Singapore to recognize foreign security procedures and providers that meet local requirements, facilitating international data transfers while maintaining regulatory oversight.",
+      "dtia_summary": "This section directly impacts DTIAs by establishing conditions for cross-border recognition of security procedures and providers, which is critical for international data transfers involving electronic records and signatures.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulations may specify cross-border recognition of security procedures and providers, including interoperability arrangements.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may require specified security procedures to satisfy local requirements for recognition.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may require cross-border recognition under bilateral or multilateral agreements.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Minister may make regulations to provide for the cross-border recognition of specified security procedure providers or specified security procedures or any processes or records related thereto."
+    },
+    {
+      "section": "38",
+      "heading": "The Minister may make regulations to prescribe anything which is required to be",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "1",
+      "heading": "Digital signatures, as defined in the Third Schedule.",
+      "title": "Digital signatures: definitions and key terms",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 40,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms related to digital signatures, including asymmetric cryptosystems, certificates, certification authorities, and trustworthiness. It specifies the technical requirements for digital signatures to ensure authenticity and integrity of electronic records. The definitions apply to the Electronic Transactions Act and its implementation through the Third Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In this Schedule, unless the context otherwise requires —",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"accredited certification authority\" means a certification authority accredited by the Controller pursuant to any regulations made under section 22",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"asymmetric cryptosystem\" means a system capable of generating a secure key pair, consisting of a private key for creating a digital signature, and a public key to verify the digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certificate\" means a record issued for the purpose of supporting digital signatures which purports to confirm the identity or other significant characteristics of the person who holds a particular key pair",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certification authority\" means a person who issues a certificate",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"certification practice statement\" means a statement issued by a certification authority to specify the practices that the certification authority employs in issuing certificates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"correspond\", in relation to a private key or public key, means to belong to the same key pair",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"digital signature\" means an electronic signature consisting of a transformation of an electronic record using an asymmetric cryptosystem and a hash function such that a person having the initial untransformed electronic record and the signer's public key can accurately determine — (a) whether the transformation was created using the private key that corresponds to the signer's public key; and (b) whether the initial electronic record has been altered since the transformation was made",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"hash function\" means an algorithm mapping or translating one sequence of bits into another, generally smaller, set (the hash result) such that — (a) a record yields the same hash result every time the algorithm is executed using the same record as input; (b) it is computationally infeasible that a record can be derived or reconstituted from the hash result produced by the algorithm; and (c) it is computationally infeasible that 2 records can be found that produce the same hash result using the algorithm",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"key pair\", in an asymmetric cryptosystem, means a private key and its mathematically related public key, having the property that the public key can verify a digital signature that the private key creates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"operational period\", in relation to a certificate, means a period beginning on the date and time the certificate is issued by a certification authority (or on a later date and time if stated in the certificate), and ending on the date and time the certificate expires (as stated in the certificate) or is earlier revoked or suspended",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"private key\" means the key of a key pair used to create a digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"public certification authority\" means a public agency that is approved by the Minister under paragraph 3(b)(iii) to act as a certification authority",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"public key\" means the key of a key pair used to verify a digital signature",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"recognised certificate\" means a certificate recognised pursuant to regulations made under section 22(3)",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"recognised certification authority\" means a certification authority recognised pursuant to regulations made under section 22(3)",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"repository\" means a system for storing and retrieving certificates or other information relevant to certificates",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"revoke\", in relation to a certificate, means to permanently end the operational period of the certificate from a specified time",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"subscriber\" means a person who is the subject named or identified in a certificate issued to the person and who holds a private key that corresponds to a public key listed in that certificate",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"suspend\", in relation to a certificate, means to temporarily suspend the operational period of the certificate from a specified time",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"trustworthy system\" means computer hardware, software and procedures that — (a) are reasonably secure from intrusion and misuse; (b) provide a reasonable level of availability, reliability and correct operation; (c) are reasonably suited to performing their intended functions; and (d) adhere to generally accepted security procedures",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"valid certificate\" means a certificate that a certification authority has issued and which the subscriber listed in it has accepted",
+          "obligation_type": "[]"
+        },
+        {
+          "text": "\"verify a digital signature\", in relation to a given digital signature, record and public key, means to determine accurately that — (a) the digital signature was created using the private key corresponding to the public key listed in the certificate; and (b) the record has not been altered since its digital signature was created",
+          "obligation_type": "[]"
+        }
+      ],
+      "source_quote": "1.  Digital signatures, as defined in the Third Schedule."
+    },
+    {
+      "section": "3",
+      "heading": "When any portion of an electronic record is signed with a digital signature, the digital signature is",
+      "title": "Conditions for digital signatures to be secure electronic signatures",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 41,
+      "primary_category": "Definitions",
+      "summary": "This section specifies when a digital signature is treated as a secure electronic signature. It requires that the digital signature was created during the operational period of a valid certificate, verified by the public key, and the certificate is trustworthy through specific conditions including being issued by an accredited or recognised authority or mutual agreement between parties.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity because —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(i) the certificate was issued by an accredited certification authority operating in compliance with the regulations made under section 22",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(ii) the certificate was issued by a recognised certification authority",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iii) the certificate was issued by a public agency approved by the Minister to act as a certification authority on such conditions as the Minister may by regulations impose or specify",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iv) the parties have expressly agreed between themselves (sender and recipient) to use digital signatures as a security procedure, and the digital signature was properly verified by reference to the sender's public key",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+    },
+    {
+      "section": "4",
+      "heading": "It is presumed, unless evidence to the contrary is adduced, that the information (except for",
+      "title": "Presumption of certificate information accuracy",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 41,
+      "primary_category": "Definitions",
+      "summary": "This section presumes that information listed in a certificate (except subscriber information not verified) is correct if the certificate was accepted by the subscriber, unless evidence to the contrary is presented. This presumption applies to certificates issued by accredited, public, or recognised certification authorities.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "It is presumed, unless evidence to the contrary is adduced, that the information (except for information identified as subscriber information which has not been verified) listed in a certificate issued by an accredited certification authority, a public certification authority or a recognised certification authority, or in a recognised certificate, is correct if the certificate was accepted by the subscriber",
+          "obligation_type": "Presumption"
+        }
+      ],
+      "source_quote": "4.  It is presumed, unless evidence to the contrary is adduced, that the information (except for information identified as subscriber information which has not been verified) listed in a certificate issued by an accredited certification authority, a public certification authority or a recognised certification authority, or in a recognised certificate, is correct if the certificate was accepted by the subscriber."
+    },
+    {
+      "section": "5",
+      "heading": "Unless otherwise provided by law or contract, a person relying on a digitally signed electronic",
+      "title": "Risks of relying on digitally signed electronic records",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 41,
+      "primary_category": "Definitions",
+      "summary": "This section states that a person relying on a digitally signed electronic record assumes the risk that the digital signature is invalid if reliance is not reasonable under the circumstances, considering factors such as known facts, the record's value, the relationship between parties, and the use of trustworthy systems.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Unless otherwise provided by law or contract, a person relying on a digitally signed electronic record assumes the risk that the digital signature is invalid as a signature or an authentication of the signed electronic record, if reliance on the digital signature is not reasonable under the circumstances having regard to the following factors",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(a) facts which the person relying on the digitally signed electronic record knows or has notice of, including all facts listed in the certificate or incorporated in it by reference",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(b) the value or importance of the digitally signed electronic record, if known",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(c) the course of dealing between the person relying on the digitally signed electronic record and the subscriber and any available indicia of reliability or unreliability apart from the digital signature",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(d) any usage of trade, particularly trade conducted by trustworthy systems or other electronic means",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "5.  Unless otherwise provided by law or contract, a person relying on a digitally signed electronic record assumes the risk that the digital signature is invalid as a signature or an authentication of the signed electronic record, if reliance on the digital signature is not reasonable under the circumstances having regard to the following factors:"
+    },
+    {
+      "section": "9",
+      "heading": "Any person who knowingly misrepresents to a certification authority the person's identity or",
+      "title": "Penalty for misrepresentation in certificate applications",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 42,
+      "primary_category": "Enforcement",
+      "summary": "This section imposes a criminal penalty for knowingly misrepresenting one's identity or authorization when requesting a certificate or for suspending or revoking a certificate from a certification authority. The penalty includes a fine of up to $10,000 or imprisonment for up to six months.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who knowingly misrepresents to a certification authority the person's identity or authorisation for the purpose of requesting for a certificate or for suspension or revocation of a certificate shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 6 months or to both",
+          "obligation_type": "Penalty"
+        }
+      ],
+      "source_quote": "9.  Any person who knowingly misrepresents to a certification authority the person's identity or authorisation for the purpose of requesting for a certificate or for suspension or revocation of a certificate shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 6 months or to both."
+    },
+    {
+      "section": "11",
+      "heading": "Unless an accredited certification authority, a public certification authority or a recognised",
+      "title": "Liability exemptions for certification authorities",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 43,
+      "primary_category": "Enforcement",
+      "summary": "This section exempts accredited, public, or recognised certification authorities from liability for losses caused by reliance on false or forged digital signatures if they complied with the Act's requirements. The exemption applies to losses up to the recommended reliance limit specified in the certificate.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Unless an accredited certification authority, a public certification authority or a recognised certification authority waives the application of this paragraph, an accredited certification authority, a public certification authority or a recognised certification authority shall not be liable —",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "(a) for any loss caused by reliance on a false or forged digital signature of a subscriber, if, with respect to the false or forged digital signature, the accredited certification authority, public certification authority or recognised certification authority complied with the requirements of this Act",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "(b) in excess of the amount specified in the certificate as its recommended reliance limit for either —",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "(i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the accredited certification authority, public certification authority or recognised certification authority is required to confirm",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "(ii) failure to comply with paragraphs 14 and 15 in issuing the certificate",
+          "obligation_type": "Exemption"
+        }
+      ],
+      "source_quote": "11.  Unless an accredited certification authority, a public certification authority or a recognised certification authority waives the application of this paragraph, an accredited certification authority, a public certification authority or a recognised certification authority shall not be liable —"
+    },
+    {
+      "section": "12",
+      "heading": "A certification authority must utilise trustworthy systems in performing its services.",
+      "title": "Certification authority must use trustworthy systems for services",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Security",
+      "summary": "Certification authorities must use trustworthy systems to perform their services. They must disclose their certification authority certificate, relevant certification practice statements, suspension or revocation notices, and other facts affecting certificate reliability. If a trustworthy system is compromised, they must notify affected parties or follow procedures in their certification practice statement.",
+      "dtia_summary": "Requires certification authorities to maintain trustworthy systems and disclose critical information, impacting how digital certificates are issued and managed across borders.",
+      "authority": "Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Certification authority must utilise trustworthy systems in performing its services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must disclose its certificate containing the public key corresponding to the private key used to digitally sign another certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must disclose any relevant certification practice statement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must disclose notice of suspension or revocation of its certification authority certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must disclose any other fact that materially and adversely affects certificate reliability or its ability to perform services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In case of occurrence materially affecting trustworthy system or certificate, certification authority must use reasonable efforts to notify affected persons",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In case of occurrence materially affecting trustworthy system or certificate, certification authority must act per procedures in certification practice statement",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12. A certification authority must utilise trustworthy systems in performing its services."
+    },
+    {
+      "section": "17",
+      "heading": "A certification authority must revoke a certificate that it issued —",
+      "title": "Certification authority revocation requirements",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 46,
+      "primary_category": "Security",
+      "summary": "Certification authorities must revoke certificates upon receiving revocation requests, death certificates, dissolution documents, or confirming material facts are false. They must also notify subscribers if revocation is due to non-consent, except for death or dissolution cases.",
+      "dtia_summary": "Sets conditions for certificate revocation, impacting data security and trust in cross-border digital transactions.",
+      "authority": "Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Certification authority must revoke certificate after receiving request for revocation by subscriber",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must confirm person requesting revocation is subscriber or authorized agent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate after receiving certified copy of subscriber's death certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate upon confirming subscriber is dead by other evidence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate upon presentation of documents effecting subscriber dissolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate upon confirming subscriber has been dissolved or ceased to exist",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate regardless of subscriber consent if material fact in certificate is false",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate regardless of subscriber consent if requirement for issuance was not satisfied",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate regardless of subscriber consent if private key or trustworthy system compromised",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate regardless of subscriber consent if subscriber is dead",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification authority must revoke certificate regardless of subscriber consent if subscriber has been dissolved or ceased to exist",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon revocation except for death or dissolution, certification authority must immediately notify subscriber",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "17. A certification authority must revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber listed in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist."
+    },
+    {
+      "section": "22",
+      "heading": "All material representations made by the subscriber to a certification authority for purposes of",
+      "title": "Subscriber's accuracy obligations for certificate representations",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 47,
+      "primary_category": "Data Sharing",
+      "summary": "Subscribers must ensure all information provided to certification authorities for certificate issuance is accurate and complete to the best of their knowledge. This includes all details represented in the certificate. Acceptance of a certificate by publishing it or demonstrating approval triggers certification that the subscriber holds the correct private key and that all material representations are true. The subscriber also certifies that information within their knowledge is truthful.",
+      "dtia_summary": "This section requires subscribers to verify data accuracy before certifying digital identities, impacting DTIA by mandating thorough validation of personal information before cross-border data transfers via digital certificates.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "All material representations made by the subscriber to a certification authority for certificate issuance must be accurate and complete to the best of the subscriber's knowledge and belief",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subscriber certifies that all information in the certificate within their knowledge is true",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subscriber certifies that all material representations made to the certification authority are true",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subscriber must hold the private key corresponding to the public key listed in the certificate",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, must be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority."
+    },
+    {
+      "section": "25",
+      "heading": "A subscriber who has accepted a certificate must as soon as possible request the issuing",
+      "title": "Mandatory suspension or revocation after key compromise",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 47,
+      "primary_category": "Security",
+      "summary": "Subscribers must immediately request suspension or revocation of a certificate if their private key is compromised. This obligation ensures timely security measures after a breach, preventing unauthorized use of the compromised key for data transfers.",
+      "dtia_summary": "This section requires immediate action to revoke compromised certificates, which is vital for DTIA to assess the risk of unauthorized data transfers following key compromise events.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Subscriber must request suspension or revocation of the certificate as soon as possible if the private key corresponding to the public key listed in the certificate has been compromised",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A subscriber who has accepted a certificate must as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised."
+    },
+    {
+      "section": "3",
+      "heading": "Act 26 of 2012—Personal Data Protection Act 2012",
+      "title": "Conditions for digital signatures to be secure electronic signatures",
+      "chapter": "Chapter 88",
+      "part": "part o",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section specifies when a digital signature is treated as a secure electronic signature. It requires that the digital signature was created during the operational period of a valid certificate, verified by the public key, and the certificate is trustworthy through specific conditions including being issued by an accredited or recognised authority or mutual agreement between parties.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity because —",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(i) the certificate was issued by an accredited certification authority operating in compliance with the regulations made under section 22",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(ii) the certificate was issued by a recognised certification authority",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iii) the certificate was issued by a public agency approved by the Minister to act as a certification authority on such conditions as the Minister may by regulations impose or specify",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "(iv) the parties have expressly agreed between themselves (sender and recipient) to use digital signatures as a security procedure, and the digital signature was properly verified by reference to the sender's public key",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+    }
+  ]
+}

@@ -1,0 +1,1807 @@
+{
+  "country": "Mauritius",
+  "document": "guideline_on_aml-cft_jan_2020_15.01.2020_0 (Mauritius - Row 5)",
+  "generated": "2026-07-17T19:25:48",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "INTRODUCTION",
+      "title": "Introduction to money laundering and terrorism financing risks",
+      "chapter": "Chapter 11",
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section explains the threats posed by money laundering and terrorism financing through global financial systems. It highlights how increased financial integration and electronic banking facilitate criminal activities, including terrorist funding and weapons of mass destruction proliferation. The section emphasizes the importance of international standards like the FATF Recommendations and Mauritius' commitment to combating these threats through legislative enhancements since 2000.",
+      "dtia_summary": "This section establishes the context for financial crime risks but does not directly specify transfer conditions or safeguards relevant to data transfers. It sets the stage for regulatory requirements but lacks explicit data transfer mechanisms.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must understand, identify and assess their ML/TF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must take appropriate actions to mitigate ML/TF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must allocate resources efficiently by focusing on higher risk areas",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Financial Action Task Force (FATF) has developed a series of Recommendations that are recognised as the international standard for combating money laundering and the financing of terrorism and proliferation of weapons of mass destruction."
+    },
+    {
+      "section": "2",
+      "heading": "AUTHORITY",
+      "title": "Bank of Mauritius as AML/CFT supervisory authority",
+      "chapter": "Chapter 11",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "This section defines the Bank of Mauritius as the designated AML/CFT supervisory authority for financial institutions in Mauritius. It specifies the types of financial institutions covered, including banks, non-bank deposit taking institutions, cash dealers, and money lenders. The Guideline is issued by the Bank under specific legal powers and supersedes previous guidance.",
+      "dtia_summary": "This section establishes the regulatory authority responsible for AML/CFT compliance but does not directly address data transfer mechanisms or safeguards relevant to DTIAs.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "AML",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Bank of Mauritius is the designated AML/CFT supervisory authority for financial institutions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain updated anti-money laundering and terrorist financing deterrence policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must conduct regular training for staff to keep up with emerging typologies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Bank of Mauritius (‘Bank') is the designated AML/CFT supervisory authority of financial institutions under its purview and is required to supervise financial institutions with respect to the AML/CFT requirements set out under the banking laws."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "AUTHORITY (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "WHAT IS MONEY LAUNDERING?",
+      "title": "Definition of money laundering and its stages",
+      "chapter": "Chapter 11",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "This section defines money laundering as the process by which criminals conceal the true origin and ownership of criminal proceeds. It outlines three stages: placement (physical disposal of illicit funds), layering (separating proceeds through complex transactions), and integration (reintroducing laundered funds into the economy). The section emphasizes the transient nature of criminally earned money and its risks to financial systems.",
+      "dtia_summary": "This section defines the stages of money laundering and the legal framework for combating it, which directly impacts cross-border data transfers by requiring financial institutions to implement robust anti-money laundering measures to prevent illicit financial flows.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Money laundering is the process by which criminals attempt to conceal the true origin and ownership of the proceeds of their criminal activities.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Money laundering allows criminals to maintain control over proceeds and provide legitimate cover for their income.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The laundering process occurs in three stages: placement, layering, and integration.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Placement involves the physical disposal of initial proceeds from illegal activity.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Layering separates illicit proceeds from their source through complex transactions to disguise the audit trail.",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Integration provides apparent legitimacy to criminally derived wealth by reintroducing funds into the economy.",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Money laundering is the process by which criminals attempt to conceal the true origin and ownership of the proceeds of their criminal activities."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "WHAT IS MONEY LAUNDERING? (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "INTRODUCTION",
+      "title": "Risk-based approach for AML/CFT in financial institutions",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 19,
+      "primary_category": "AML",
+      "summary": "Financial institutions must implement a risk-based approach to identify, assess and manage money laundering and terrorist financing risks. This requires senior management to lead risk mitigation efforts, ensure proportionate measures, and maintain documented risk assessments that align with business size and risk profile. The approach mandates ongoing monitoring of transactions and regular review of risk controls.",
+      "dtia_summary": "This section establishes that financial institutions must conduct risk assessments to determine appropriate AML/CFT measures for cross-border data transfers involving high-risk customers, products, or transactions. The risk-based approach requires specific safeguards for high-risk scenarios including enhanced due diligence and transaction monitoring.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must apply a risk-based approach to identify, assess and manage money laundering and terrorist financing risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must lead and be responsible for AML/CFT risk mitigation decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk assessments must be documented, updated and available to competent authorities upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must conduct risk assessments for new products, services, technologies and business practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk assessments must consider customer risk, product/service/transaction risk, business practice/delivery channel risk and geographical risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk mitigation strategies must be approved by senior management and documented",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must monitor transactions based on risk level with enhanced scrutiny for high-risk situations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior management must review risk assessments and mitigation strategies at least biannually",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Financial institutions are required to apply a risk-based approach to the implementation of the AML/CFT regime."
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "Risk-based approach for money laundering and terrorist financing assessments",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 23,
+      "primary_category": "AML",
+      "summary": "Financial institutions must conduct risk assessments for money laundering and terrorist financing (ML/TF) risks specific to their business. The assessment must consider the nature, size, and complexity of their operations. Institutions must identify and evaluate risks across four categories: customers, products/services/transactions, business practices/delivery channels, and geography. They must document segmentation criteria and risk levels for customer groups and apply appropriate risk mitigation measures without necessarily refusing transactions. Financial institutions must apply simplified customer due diligence (CDD) measures when assessing clients as low risk, ensuring these measures align with national risk assessments or Bank of Mauritius evaluations. The simplified measures must be proportionate to the identified low risk and comply with Bank guidance. Simplified CDD does not apply if there is suspicion of money laundering or terrorist financing.",
+      "dtia_summary": "This section mandates risk-based assessments for ML/TF that directly impact cross-border data transfers by requiring institutions to evaluate customer and transaction risks, including geolocation and digital channels, which affect data handling protocols in international financial operations. This section allows simplified data sharing practices for low-risk clients, reducing data collection requirements while maintaining alignment with risk assessments. It impacts DTIA by permitting reduced identity verification steps for low-risk transactions.",
+      "authority": "National Regulatory Authority (NRA)",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must conduct risk assessments for ML/TF risks commensurate with their business size and complexity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify and assess ML/TF risks in customer, products/services/transactions, business practices/delivery channels, and geography",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine customer risk by understanding client activities, transaction patterns, and operations beyond basic identification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group customers by category based on business nature for risk assessment clusters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document rationale for customer segmentation and risk level allocation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Apply enhanced due diligence for higher ML/TF risk customers or situations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Do not refuse transactions or end business relationships for higher risk customers",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Financial institutions must ensure low risk identified is consistent with national risk assessment or Bank of Mauritius evaluations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Simplified CDD measures must be commensurate with lower risk factors and in accordance with Bank guidance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Simplified CDD measures shall not apply where there is suspicion of ML/TF",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Simplified measures can include obtaining less information (e.g., not requiring address or occupation)",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Simplified measures can include seeking less robust verification of customer identity",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Simplified measures can include postponing verification of customer identity",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The first step in a risk-based approach is to conduct a risk assessment, that is, an analysis of potential threats and vulnerabilities to ML/TF to which the financial institution's business is exposed. The assessment should be commensurate with the nature, size and complexity of the financial institution's business."
+    },
+    {
+      "section": "4 (part 3)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4 (part 4)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "Monitoring client activities for money laundering risks",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 30,
+      "primary_category": "AML",
+      "summary": "Financial institutions must document unjustified changes in client activities, flag transactions deviating from normal patterns, establish monitoring parameters to trigger early warnings, review high-risk transactions more frequently, and report suspicious transactions to the Financial Intelligence Unit (FIU). These obligations apply to all financial institutions conducting business relationships with clients. This section identifies specific behavioral indicators that may signal money laundering risks in agents. Agents failing to provide originator information, having lax record-keeping, accepting false identification, showing inconsistent transaction patterns, or exhibiting unusual customer ratios are subject to probation, suspension, or termination. These criteria apply to agents operating within the financial sector.",
+      "dtia_summary": "This section requires robust monitoring mechanisms for cross-border transactions, including flagging unusual activity, setting transaction thresholds, and reporting suspicious transactions to the FIU, which directly impacts data transfer assessments for financial institutions operating internationally. This section outlines risk indicators for agents that could impact cross-border data transfers by requiring enhanced due diligence on agents with suspicious activity patterns.",
+      "authority": "Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "AML",
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must document unjustified or abnormal changes in client activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Flag transactions contrary to normal transaction patterns or client activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish monitoring parameters to trigger early warning signals for high-risk transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review high-risk transactions more frequently against suspicious transaction indicators",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report suspicious transactions to the Financial Intelligence Unit (FIU)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agents who fail to provide required originator information upon request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Agents whose data collection or record keeping is lax, sloppy or inconsistent",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Agents willing to accept false identification or identification records that contain false information",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Agents with a send-to-receive ratio that is not balanced, consistent with other agents in the locale",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Agents whose seasonal business fluctuation is not consistent with their incomes or with other agents in the locale",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Agents whose ratio of questionable or anomalous customers to customers who are not in such groups is out of the norm for comparable locations",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Unjustified or abnormal changes in the activities of your client are documented – The financial institution should flag changes in activities that is contrary to normal transaction patterns or client activities."
+    },
+    {
+      "section": "4 (part 5)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "High-risk geographical risk factors for AML/CFT",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "This section identifies specific geographical risk factors that may elevate a country's risk profile for money laundering and terrorist financing. It includes countries under international sanctions, those with high organized crime activity, non-cooperative jurisdictions with FATF, countries lacking AML/CFT legislation, and jurisdictions supporting terrorist activities. These risk factors are used to determine enhanced due diligence requirements for financial institutions.",
+      "dtia_summary": "This section defines high-risk geographical factors that trigger enhanced due diligence requirements for cross-border transactions. Financial institutions must assess these risk factors when establishing relationships with clients in high-risk jurisdictions to mitigate money laundering and terrorist financing risks.",
+      "authority": "Mauritius Financial Intelligence Unit",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Identify countries under UN or international sanctions, embargoes, or similar measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify countries with high organized crime activity, corruption, arms trade, human trafficking, or human rights violations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify countries classified as non-cooperative by FATF or FATF-style regional bodies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify countries lacking appropriate AML/CFT legislation and regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify countries supporting terrorist activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify jurisdictions subject to national sanctions or embargoes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify jurisdictions providing support for terrorist activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify jurisdictions not members of FATF or FATF-style regional bodies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess regional or local geographical factors related to risk such as urban/rural differences, known crime areas",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "High Risk Situations Related To Geographical Risk May Include: A country against which the United Nations or other international institutions have imposed sanctions, embargo or other similar measures; A country which is known, based on the knowledge of relevant international organizations for a high degree of organized criminal, particularly corruption, arms trade, trafficking in human beings or for breaching human rights, production or organized and developed drug trade; A country which, according to the data of the international organization FATF or a FATF-style regional body, pertains to non-cooperative countries or territories or if it is about an offshore financial centre; Countries which are estimated by relevant international organizations as countries lacking the appropriate AML/CFT legislation, regulations and other measures; Countries in which the undertaking of terrorist activities is being supported or enabled; A country subject to Mauritius or other national sanctions, embargoes or similar measures; A jurisdiction identified by credible sources as providing support for terrorist activities; A jurisdiction not member of the FATF or a FATF Style Regional Body (FSRB); Regional or local geographical factors related to risk (e.g., Mauritius domestic risk based on urban vs. rural; known crime/gang areas, etc.)"
+    },
+    {
+      "section": "5",
+      "heading": "A. RISK MANAGEMENT",
+      "title": "AML/CFT risk management framework and responsibilities",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 36,
+      "primary_category": "Governance",
+      "summary": "This section establishes a three-tier risk management framework where business units form the first line of defense, the compliance function the second line, and internal audit the third line. It mandates written policies, training, risk-based controls, and periodic reviews to ensure effective money laundering and terrorist financing risk management. Financial institutions must also implement external audits and maintain records of their AML/CFT programs.",
+      "dtia_summary": "This section requires financial institutions to implement a risk-based AML/CFT framework with clear lines of authority, internal controls, and periodic reviews. It directly impacts cross-border data transfers by mandating enhanced due diligence for high-risk jurisdictions and robust internal controls to prevent money laundering.",
+      "authority": "Mauritius Financial Intelligence Unit",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Business units must identify, assess and control AML/CFT risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must establish written AML/CFT policies and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must train employees on AML/CFT policies and obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Compliance officers must be designated at senior management level",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal audit must independently evaluate first and second line of defense functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain written records of AML/CFT policies, procedures and changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must periodically review and update AML/CFT policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must implement an independent audit function",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure AML/CFT programs are proportional to business size and risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must conduct periodic audits of AML/CFT controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure AML/CFT programs are risk-based and commensurate with business",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "As a general rule and for the purposes of AML/CFT, the business units, namely the front office, customer-facing activity, are the first line of defence in charge of identifying, assessing and controlling the risks of their business. They should be allotted sufficient resources to execute their duties effectively. The financial institution's policies, procedures and controls on AML/CFT should be clearly specified in writing, and communicated to all relevant employees in the business units. The financial institution should adequately train employees to implement the AML/CFT policies and procedures and to be aware of their obligations in ensuring compliance with prevailing AML/CFT laws, regulations and guidelines."
+    },
+    {
+      "section": "5 (part 2)",
+      "heading": "A. RISK MANAGEMENT (cont.)",
+      "title": "Group-wide AML/CFT program implementation for financial institutions",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 41,
+      "primary_category": "AML",
+      "summary": "Financial institutions operating in group structures must implement group-wide anti-money laundering and counter-terrorism financing programs applicable to all branches and subsidiaries. These programs must include internal policies, information sharing procedures for customer due diligence, authority for requesting customer information, transaction analysis, and confidentiality safeguards to prevent tipping-off. The requirements apply to all financial institutions within the group structure.",
+      "dtia_summary": "Group structures must implement coordinated AML/CFT programs across all branches and subsidiaries with specific information sharing protocols and risk-based controls to ensure consistent compliance across international operations.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions operating in group structures must implement group-wide AML/CFT program applicable to all branches and subsidiaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group program must include internal policies, procedures and controls set out in regulation 22",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group program must include policies and procedures for sharing information required for customer due diligence and ML/TF risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group-level compliance, audit, MLRO must have authority to request customer, account and transaction information from branches and subsidiaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group must provide branches and subsidiaries with information and analysis of unusual transactions relevant to risk management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Group must implement adequate safeguards on confidentiality and use of exchanged information including anti-tipping-off measures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Financial institutions operating in a group structure are required in terms of section 64A(2) of the Banking Act and Regulation 23 (1) of Financial Intelligence and Anti-Money Laundering Regulations 2018 shall implement group-wide programme against money laundering and terrorism financing, which shall be applicable, and appropriate to, all branches and subsidiaries of the group and which shall include —"
+    },
+    {
+      "section": "5 (part 3)",
+      "heading": "A. RISK MANAGEMENT (cont.)",
+      "title": "",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "5 (part 4)",
+      "heading": "A. RISK MANAGEMENT (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6",
+      "heading": "PROCEDURES",
+      "title": "Customer due diligence for financial institutions",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 49,
+      "primary_category": "Customer Information",
+      "summary": "Financial institutions must implement risk-based customer due diligence (CDD) measures, including enhanced due diligence (EDD) for high-risk customers and simplified due diligence (SDD) for low-risk customers. The risk assessment framework must identify specific customer categories requiring EDD, and the approach must be dynamic, adjusting based on changing risk indicators. Institutions must verify customer identities, maintain accurate records, and update information as circumstances change to prevent money laundering and terrorism financing.",
+      "dtia_summary": "This section mandates dynamic risk-based CDD procedures that directly impact cross-border data transfers by requiring institutions to verify customer identities and monitor transactions, especially for high-risk categories like politically exposed persons or cross-border wire transfers.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must develop and implement risk-based policies and procedures to mitigate ML/TF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Risk assessment framework must identify customers or categories requiring enhanced due diligence (EDD)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Simplified due diligence (SDD) must be applied to low-risk customers with clear rationale and measures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Customer risk profile must be dynamic and updated based on changing factors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must increase due diligence when circumstances change or doubts exist about risk category",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must verify true identity of customers before opening accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain properly named accounts to ensure public identifiability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must not open anonymous or fictitious accounts",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Financial institutions must conduct CDD measures for transactions equal to or above 500,000 rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must conduct CDD for cross-border wire transfers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must verify beneficial owners using reliable sources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must monitor transactions for consistency with customer profiles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must update customer information when doubts exist about identification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must file suspicious transaction reports when money laundering is suspected",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must not proceed with transactions if CDD measures cannot be completed",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Financial institutions must develop and implement risk based policies and procedures to mitigate the ML/TF risks identified in their business and customer risk assessments."
+    },
+    {
+      "section": "6 (part 2)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 53,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 3)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Beneficial ownership verification for financial institutions",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "Financial institutions must identify and verify beneficial owners using reliable sources to justify assessments to authorities. This includes obtaining information on controlling natural persons, alternative control mechanisms, and senior managing officials where applicable. The verification process must be commensurate with money laundering or terrorist financing risks and documented for regulatory review.",
+      "dtia_summary": "Requires verification of beneficial ownership to prevent misuse of corporate structures for illicit activities; impacts cross-border data transfers involving beneficial ownership information.",
+      "authority": "Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must identify beneficial owners using reliable sources to verify identity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Obtain information on natural persons with controlling ownership interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify natural persons exercising control through other means if ownership is unclear",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify senior managing officials when no natural persons are identified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document actions taken during verification and any difficulties encountered",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Regulation 3(c) of the FIAML Regulation requires financial institutions to identify the beneficial owner and take reasonable measures... to verify the identity of the beneficial owner, using relevant information or data obtained from a reliable source such that the financial institution is able to justify his assessment to competent authorities"
+    },
+    {
+      "section": "6 (part 4)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Customer identification and verification procedures",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 59,
+      "primary_category": "Other",
+      "summary": "Financial institutions must verify customer identity and beneficial ownership before or during business relationships. They should cross-check information using public and private databases, maintain updated records, and implement enhanced procedures when suspicious activity is detected. This includes specific requirements for legal persons, legal arrangements, and joint accounts.",
+      "dtia_summary": "Mandates identity verification procedures that impact data transfer compliance, particularly for cross-border transactions involving beneficial ownership information.",
+      "authority": "Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Verify customer and beneficial owner identity before or during business relationship establishment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cross-check customer information using public and private databases",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maintain updated records of customer and beneficial owner information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document grounds for suspecting third-party involvement and make suspicious transaction reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Require written declaration of ultimate beneficial owners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Verify identity of joint account holders",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Financial institutions should establish to its satisfaction that it is dealing with a real person or organisation, and verify the identity of the person or organisation accordingly."
+    },
+    {
+      "section": "6 (part 5)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Risk-based verification of customer identity for financial institutions",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 63,
+      "primary_category": "Customer Information",
+      "summary": "Financial institutions must conduct risk-sensitive verification of customer identity, including sources of wealth and funds, for both legal persons and individuals. They should assess transaction patterns, account usage, and fund flows to establish risk profiles. Additional information like financial status and fund origins may be requested based on risk assessment levels.",
+      "dtia_summary": "This section establishes risk-based identity verification requirements that impact cross-border data transfers by mandating specific documentation and validation procedures for customer identity, particularly relevant for international transactions.",
+      "authority": "Mauritius Financial Services Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions should consider whether information regarding sources of wealth and funds or destination of funds should be corroborated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions may consider the nature and purpose of legal entity activities and legitimacy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions may consider expected account usage including amount, number, type, purpose and frequency of transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions may request financial situation of the entity",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial institutions may request sources of funds paid into account and destination of funds passing through account",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial institutions should collect description of purpose/activities of legal arrangement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should collect expected account usage including amount, number, type, purpose and frequency of transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions may request source of funds",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial institutions may request origin and destination of funds passing through account",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Financial institutions should also consider, on a risk-sensitive basis, whether the information regarding sources of wealth and funds or destination of funds should be corroborated."
+    },
+    {
+      "section": "6 (part 6)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 63,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 7)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Client accounts with professional intermediaries: identification requirements",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 71,
+      "primary_category": "Customer Information",
+      "summary": "Financial institutions must identify customers when professional intermediaries open single-client accounts. For non-mingled funds with sub-accounts, institutions must identify all beneficial owners. When funds are mingled, institutions may rely on intermediaries' due diligence if the intermediary meets equivalent standards and provides verified client details. For investment vehicles, institutions must identify specific entities like directors, trustees, and account signatories if the intermediary meets equivalent due diligence standards. Financial institutions must implement enhanced due diligence for cross-border correspondent banking relationships. They must gather sufficient information about respondent institutions to understand their business nature. This applies to financial institutions that do not offer services directly to end customers. The requirements are particularly critical when correspondent institutions lack physical presence in the jurisdiction.",
+      "dtia_summary": "Requires financial institutions to verify beneficial owners of client funds held by intermediaries, with exceptions for intermediaries meeting equivalent due diligence standards. Critical for cross-border data transfers involving client accounts. Requires enhanced due diligence for cross-border correspondent banking to mitigate risks of terrorism, corruption, fraud, and other illegal activities. This impacts DTIA by mandating specific information gathering for correspondent relationships.",
+      "authority": "Mauritius Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [
+        "Customer Information",
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institution must identify customer when professional intermediary opens single-client account",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institution must identify all beneficial owners for non-mingled funds with sub-accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institution may not need to look beyond intermediary if intermediary meets equivalent due diligence standards",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial institution must obtain undertaking from intermediary verifying client identity and securing particulars",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institution must identify fund, directors, trustees, managing partners, account signatories, and others with control for investment vehicles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must gather sufficient information about respondent institutions to understand their business nature",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6.127 When a professional intermediary opens a customer account on behalf of a single customer, the financial institution must identify the customer."
+    },
+    {
+      "section": "6 (part 8)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Correspondent banking due diligence requirements",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 74,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Financial institutions must determine respondent institutions' reputation and regulatory quality, assess AML/CFT controls, obtain senior management approval for new correspondent relationships, and document responsibilities. These requirements apply to all financial institutions establishing correspondent banking relationships with foreign entities.",
+      "dtia_summary": "Requires thorough due diligence on correspondent banks to ensure they meet AML/CFT standards before establishing cross-border relationships, directly impacting data transfer safeguards for financial institutions.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Determine respondent institution's reputation and quality of supervision from publicly available information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess respondent institution's anti-money laundering and combating terrorism financing controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Obtain senior management approval before establishing new correspondent relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document respective responsibilities of each institution in the relationship",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure respondent bank has performed CDD obligations on customers with direct access to correspondent accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure respondent bank can provide relevant CDD information upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "determine from publicly available information the reputation of the respondent institution and the quality of supervision, including whether it has been subject to a money laundering or terrorist financing investigation or regulatory action"
+    },
+    {
+      "section": "6 (part 9)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 74,
+      "page_end": 77,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 10)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Cross-border wire transfer compliance requirements",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 77,
+      "page_end": 81,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Financial institutions must ensure cross-border wire transfers comply with specific originator and beneficiary information requirements. Intermediary institutions must retain originator and beneficiary information for at least 7 years if technical limitations prevent retention with the domestic transfer. Institutions must implement risk-based policies to identify incomplete information and take appropriate follow-up actions for transfers lacking required details. Beneficiary institutions must verify beneficiary identity and maintain records as per section 17F of the Act and regulation 14.",
+      "dtia_summary": "Cross-border wire transfers require complete originator and beneficiary information to be retained throughout the payment chain. Institutions must implement risk-based procedures to identify incomplete information and maintain records for at least 7 years where technical limitations prevent retention with the domestic transfer.",
+      "authority": "Mauritius Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Intermediary financial institutions must retain originator and beneficiary information for at least 7 years if technical limitations prevent retention with the domestic transfer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intermediary financial institutions must take reasonable measures to identify cross-border wire transfers lacking required originator or beneficiary information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intermediary financial institutions must have risk-based policies for determining when to execute, reject, or suspend wire transfers lacking required information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intermediary financial institutions must have risk-based policies for determining appropriate follow-up actions for incomplete information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Beneficiary financial institutions must verify beneficiary identity and maintain this information as per section 17F of the Act and regulation 14",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Beneficiary financial institutions must have risk-based policies for determining when to execute, reject, or suspend wire transfers lacking required information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Beneficiary financial institutions must have risk-based policies for determining appropriate follow-up actions for incomplete information",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6.176 The ordering relevant person shall not execute the wire transfer where it does not comply with the requirements specified in paragraphs (1) to (4)."
+    },
+    {
+      "section": "6 (part 11)",
+      "heading": "PROCEDURES (cont.)",
+      "title": "Politically exposed persons definition",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 81,
+      "page_end": 82,
+      "primary_category": "Definitions",
+      "summary": "This section defines Politically Exposed Persons (PEPs) as natural persons entrusted with prominent public functions. It specifies domestic PEPs including heads of state, government officials, judges, and members of political parties. Foreign PEPs include heads of state, government officials, and members of international organizations. The definition covers both domestic and foreign PEPs with specific roles in government, judiciary, and international bodies.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Politically exposed persons include domestic PEPs such as President/Vice President of Republic of Mauritius",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as members of the National Assembly and the Speaker",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Chief Judge and Senior Puisne Judge",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Director of Public Prosecutions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Attorney General",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Commissioners of Police/Prison",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Leaders and Senior Office Bearers of major Political Parties",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Members of Rodrigues Regional Assembly",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Governors/Deputy Governors of the Central Bank",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Chairmen and Chief Executives of Parastatal Organisations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Commissioners of Various Government Bodies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Advisors/Counsellors to Heads of States and Ministers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Heads of Mauritian Embassies abroad, Consulates and Diplomats",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Mayors and Presidents of District Councils",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include domestic PEPs such as Heads of National Secret Services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as Heads of state, heads of government, ministers and deputy or assistant ministers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as members of parliament or of similar legislative bodies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as members of governing bodies of political parties",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as members of supreme courts, constitutional courts or high-level judicial bodies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as members of courts of auditors or boards of central banks",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as ambassadors, chargés d'affaires and high-ranking officers in armed forces",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as members of administrative, management or supervisory bodies of state-owned enterprises",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Politically exposed persons include foreign PEPs such as directors, deputy directors and members of boards of international organizations",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘natural persons who are or have been entrusted with prominent public functions' shall include the following: Domestic PEPs 1. President/Vice President of Republic of Mauritius"
+    },
+    {
+      "section": "7",
+      "heading": "INTRODUCTION",
+      "title": "Ongoing monitoring for KYC compliance and risk-based transaction oversight",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 82,
+      "page_end": 86,
+      "primary_category": "AML",
+      "summary": "Financial institutions must continuously monitor customer transactions to detect suspicious activity requiring reporting to the FIU. They must maintain updated client identification, beneficial ownership details, and business relationship purpose. Institutions must reassess risk based on transactions and activities, ensuring consistency with client information. Failure to implement these measures risks criminal abuse, inadequate internal controls, and regulatory breaches under the FIAMLA and Banking Act.",
+      "dtia_summary": "Ongoing monitoring requirements directly impact cross-border data transfers by mandating real-time transaction scrutiny for suspicious activity. Financial institutions must maintain risk-based monitoring systems that track transactions across borders, affecting data transfer compliance with AML regulations.",
+      "authority": "FIU (Financial Intelligence Unit)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must conduct ongoing monitoring to detect suspicious transactions required to be reported to the FIU",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must keep client identification, beneficial ownership information, and business relationship purpose up to date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must re-assess risk associated with business relationships based on transactions and activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must determine if transactions or activities are consistent with client information and risk assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions have an ongoing duty to keep CDD information up to date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must adopt ongoing monitoring measures commensurate with ML/TF risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to adequately monitor customers' activities exposes financial institutions to criminal abuse and regulatory breaches",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Regulation 3(e) requires ongoing monitoring of all business relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ongoing monitoring must include scrutiny of transactions for consistency with customer knowledge and risk profile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ongoing monitoring must ensure CDD information is kept up to date and relevant through record reviews",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulation 12(1) requires enhanced CDD where higher ML/TF risks are identified or unusual activity occurs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulation 12(2) requires enhanced monitoring for higher risk relationships including increased controls and transaction patterns for examination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulation 15 requires enhanced ongoing monitoring for foreign PEPs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulation 14 requires records to enable prompt reconstruction of individual transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must terminate relationships and file suspicious transaction reports if unable to perform enhanced CDD",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain risk rating frameworks and conduct customer risk assessments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ongoing monitoring measures must be commensurate with customer risk levels",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Low-risk relationships require less frequent monitoring than high-risk relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must develop policies on frequency of periodic review and trigger events",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must review CDD information periodically to ensure accuracy, relevance, and currency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions should not re-verify identities unless trigger events occur or doubts arise",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial institutions must update identification information when changes occur",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must record updated CDD information obtained through customer communications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Periodic reviews for high-risk customers must not exceed one year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must monitor transactions for unusual patterns including cash deposits, large transactions, and inconsistent activity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must establish systems to detect complex, unusual, or suspicious transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must conduct transaction monitoring based on risk-based approach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must analyze transaction backgrounds and purposes for complex or large transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must document changes in client activities that contradict normal patterns",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must set transaction monitoring parameters to trigger early warning signals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must have robust monitoring systems to detect material changes in transaction profiles",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Ongoing monitoring is an essential aspect of effective KYC procedures. Every financial institution should conduct ongoing monitoring to, inter alia: detect suspicious transactions that are required to be reported to the FIU; keep client identification, beneficial ownership information, and the purpose and intended nature of the business relationship record up to date; re-assess the risk associated with a business relationship based on their transactions and activities; and determine whether the transactions or activities are consistent with the information and risk assessment of that client."
+    },
+    {
+      "section": "7 (part 2)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "",
+      "chapter": "chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 86,
+      "page_end": 88,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "8",
+      "heading": "TRAVEL BAN) SANCTIONS ACT 2019",
+      "title": "Prohibition on dealing with terrorist and proliferation-related funds",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 88,
+      "page_end": 92,
+      "primary_category": "AML",
+      "summary": "Section 8 prohibits financial institutions from dealing with funds or assets of designated or listed parties under UN sanctions, including those derived from or controlled by such parties. It also bans providing funds to these parties or entities owned by them. Violations incur fines up to 5 million rupees or twice the asset value and imprisonment of at least 3 years. Financial institutions must verify customer matches, report identified assets to authorities, and implement internal controls to comply.",
+      "dtia_summary": "This section imposes strict prohibitions on cross-border transfers involving sanctioned entities, requiring immediate reporting of matches and asset identification for DTIA purposes. Financial institutions must assess risks of terrorist or proliferation financing in transactions.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person shall deal with funds or assets of designated or listed parties under UN sanctions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person shall make funds or assets available to designated or listed parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must verify customer details against designated or listed parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must identify if customers own funds or assets of designated or listed parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must report identified funds or assets to National Sanctions Secretariat and supervisory authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must submit nil reports if no funds or assets are identified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must report suspicious information to FIU under AML Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must implement internal controls to comply with the Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 23(1) of United Nations (Financial Prohibitions, Arms Embargo and Travel Ban) Sanctions Act 2019 provides that subject to this Act, no person shall deal with the funds or other assets of a designated party or listed party..."
+    },
+    {
+      "section": "8 (part 2)",
+      "heading": "TRAVEL BAN) SANCTIONS ACT 2019 (cont.)",
+      "title": "",
+      "chapter": "Chapter 10",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 92,
+      "page_end": 95,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "8 (part 3)",
+      "heading": "TRAVEL BAN) SANCTIONS ACT 2019 (cont.)",
+      "title": "Proliferation Financing Risk Assessment for Financial Institutions",
+      "chapter": "Chapter 10",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 95,
+      "page_end": 96,
+      "primary_category": "AML",
+      "summary": "Financial institutions must identify customers and products at risk of proliferation financing. They must implement enhanced due diligence for high-risk transactions and entities, and pay special attention to trade finance and insurance products. These obligations apply to financial institutions handling customer transactions globally.",
+      "dtia_summary": "Requires financial institutions to assess proliferation risks in customer transactions, which impacts cross-border data transfers involving high-risk entities or trade finance products.",
+      "authority": "United Nations",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Institutions must implement enhanced KYC and CDD measures for proliferation financing risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Institutions must adhere to UNSC Resolution 1518 (2003) obligations regarding proliferation financing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Financial institutions must adhere to the obligations set out under United Nations Sanctions Act regarding parties listed by the UNSC under Resolution 1518 (2003)."
+    },
+    {
+      "section": "9",
+      "heading": "INTRODUCTION",
+      "title": "Suspicious Transaction Reporting Requirements for Financial Institutions",
+      "chapter": "Chapter 10",
+      "part": "part f",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 100,
+      "primary_category": "AML",
+      "summary": "Financial institutions must report suspicious transactions to the Financial Intelligence Unit (FIU) within 15 working days. A suspicious transaction is defined as one involving money laundering, terrorism, or proliferation financing, or lacking economic justification. Institutions must maintain records for 7 years and ensure confidentiality of reports while complying with FIU requests.",
+      "dtia_summary": "Mandates timely reporting of suspicious transactions to the FIU, which affects data transfer compliance for financial institutions handling cross-border transactions involving high-risk activities.",
+      "authority": "Financial Intelligence Unit",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification",
+        "Financial Data",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must report suspicious transactions to the FIU within 15 working days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A suspicious transaction involves money laundering, terrorism, proliferation financing, or lacks economic justification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must keep suspicious transaction records for 7 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must not disclose that a suspicious transaction report has been filed",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Financial institutions must appoint a Money Laundering Reporting Officer (MLRO) and Deputy MLRO",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must establish internal reporting procedures for suspicious transactions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 14 of the FIAMLA stipulates that every financial institution should, as soon as practicable but not later than 15 working days from the day on which it becomes aware of a transaction which it has reason to believe may be a suspicious transaction, make a report to the FIU of such transaction."
+    },
+    {
+      "section": "9 (part 2)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "Internal disclosure of suspicious transactions to MLRO",
+      "chapter": "Chapter 10",
+      "part": "Part s",
+      "condition": null,
+      "page_start": 100,
+      "page_end": 103,
+      "primary_category": "Other",
+      "summary": "Financial institutions must report internal disclosures of suspicious transactions to the MLRO immediately. The MLRO must then determine if the disclosure constitutes a suspicious transaction and report it to the FIU within 15 working days. Internal disclosures must be written, documented, and include full customer details and the basis for suspicion. The MLRO must also ensure staff do not tip off customers during investigations.",
+      "dtia_summary": "Requires written internal reporting of suspicious transactions to MLRO before external reporting to FIU; mandates specific disclosure content to ensure thoroughness and prevent tipping off.",
+      "authority": "FIU",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "MLRO must report suspicious internal disclosures to FIU within 15 working days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Internal disclosures must be written, documented, and include full customer details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MLRO must evaluate internal disclosures against all available information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MLRO must prevent staff from tipping off customers during investigations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the MLRO knows or has reason to believe that an internal disclosure may be suspicious, he must forthwith make a report in accordance with section 14 of the FIAMLA to the FIU."
+    },
+    {
+      "section": "9 (part 3)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "Part s",
+      "condition": null,
+      "page_start": 103,
+      "page_end": 107,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "9 (part 4)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "Cash and electronic money transaction reporting requirements",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 107,
+      "page_end": 109,
+      "primary_category": "Financial Data",
+      "summary": "Financial institutions must report cash transactions exceeding prescribed amounts to the FIU within specified timeframes. They also must report electronic transfers from outside Mauritius on behalf of others to the FIU with required details. Currency transaction reports for amounts equal to or above prescribed thresholds must be submitted to the FIU within prescribed time limits. These reports cover both single and linked transactions.",
+      "dtia_summary": "Requires financial institutions to maintain detailed records of cross-border transactions for 7 years, which impacts data transfer impact assessments by mandating specific transaction data retention and reporting mechanisms for international transfers.",
+      "authority": "FIU",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must report cash transactions exceeding prescribed amounts to FIU within specified timeframes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must report electronic transfers from outside Mauritius on behalf of others to FIU with required details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must submit currency transaction reports for amounts equal to or above prescribed thresholds to FIU within prescribed time limits",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Under section 14A of the FIAMLA, every financial institution should report to the FIU, in such matter and within such time as may be specified, particulars of any cash transaction in excess of the prescribed amount."
+    },
+    {
+      "section": "10",
+      "heading": "INTRODUCTION",
+      "title": "Record-keeping requirements for financial institutions",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 113,
+      "primary_category": "Record Keeping",
+      "summary": "Financial institutions must maintain records of customer transactions, identity verification, and suspicious activity for minimum 7 years. They must keep records in formats that allow reconstruction of transactions, provide full names of parties involved in payments, and ensure records are readily available to authorities upon request. Specific records include CDD documentation, transaction records, and suspicious transaction reports.",
+      "dtia_summary": "Mandates 7-year retention of transaction records for cross-border transfers, impacting DTIA by requiring detailed transaction data to be retained internationally for regulatory compliance.",
+      "authority": "FIU",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must maintain records of customer transactions for 7 years after transaction completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain CDD documentation for 7 years after transaction completion or account closure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain transaction records in a form enabling prompt reconstruction of individual transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must provide full names of parties making and receiving payments upon request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must retain suspicious transaction reports for 7 years from report date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure records are readily available to authorities upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 17F of the Financial Intelligence and Anti-Money Laundering Act requires financial institution to maintain, and keep for the specified period, all books and records with respect to his customers and transactions"
+    },
+    {
+      "section": "10 (part 2)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "Record-keeping for ongoing investigations and electronic transactions",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 113,
+      "page_end": 115,
+      "primary_category": "Record Keeping",
+      "summary": "Records related to ongoing investigations must be retained until case closure is confirmed. Electronic payment records must be treated like other records with 7-year retention. Financial institutions must maintain comprehensive identification documents for customers and ensure electronic records are legally valid. Suspicious transaction reports must be retained for 7 years from report date, with potential extensions by FIU.",
+      "dtia_summary": "Requires 7-year retention of transaction records for cross-border transfers, impacting DTIA by mandating detailed transaction data retention mechanisms for international transfers.",
+      "authority": "FIU",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Records related to ongoing investigations must be retained until case closure is confirmed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic payment records must be treated like other records with 7-year retention",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain comprehensive identification documents for customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records are legally valid with personal identification marks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Suspicious transaction reports must be retained for 7 years from report date",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Records of electronic payments and messages must be treated in the same way as any other records and kept for the period mentioned in paragraph 10.10 above."
+    },
+    {
+      "section": "11",
+      "heading": "INTRODUCTION",
+      "title": "Ongoing staff training for AML/CFT compliance",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 115,
+      "page_end": 119,
+      "primary_category": "AML",
+      "summary": "Financial institutions must implement ongoing staff training programs for directors, officers, and employees to recognize money laundering and terrorist financing risks, handle suspicious transactions, and comply with relevant laws. Training must cover client risk assessment, suspicious transaction reporting, and regulatory obligations. The training must be tailored to the institution's risk profile and updated regularly to address evolving threats and regulatory changes.",
+      "dtia_summary": "Requires financial institutions to maintain staff training programs that address cross-border money laundering risks, ensuring employees can identify and report suspicious transactions involving international transfers, which impacts data transfer assessments for financial institutions handling cross-border transactions.",
+      "authority": "Financial Intelligence Unit (FIU)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial institutions must implement ongoing training programs for directors, officers, and employees to recognize money laundering and terrorist financing risks",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Training must cover client risk assessment, suspicious transaction reporting, and regulatory obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Training must be tailored to the institution's risk profile and updated regularly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must document their training approach, including frequency, delivery channels, and content",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must ensure employees understand their statutory obligations and personal liability for non-reporting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must provide refresher training at least once every 2 years or after regulatory changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial institutions must maintain training records for at least 7 years",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 11.01: Ongoing staff training is an integral element of an effective AML/CFT system to prevent and detect potential illicit transactions pertaining to money laundering, terrorist or proliferation financing activities."
+    },
+    {
+      "section": "11 (part 2)",
+      "heading": "INTRODUCTION (cont.)",
+      "title": "",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 119,
+      "page_end": 119,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

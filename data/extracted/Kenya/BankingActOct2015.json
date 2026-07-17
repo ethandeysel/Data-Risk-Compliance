@@ -1,7 +1,7 @@
 {
   "country": "Kenya",
   "document": "BankingActOct2015",
-  "generated": "2026-07-16T18:14:13",
+  "generated": "2026-07-17T18:48:57",
   "sections": [
     {
       "section": "2",
@@ -48,38 +48,33 @@
       "page_start": 12,
       "page_end": 12,
       "primary_category": "Definitions",
-      "summary": "This section defines terms related to the relationships between institutions and their stakeholders, including 'associate', 'control', and their specific applications in the context of institutional management and ownership. It specifies how control is determined, including voting rights, influence over boards, and agreements that may grant dominant influence over management.",
-      "dtia_summary": "These definitions clarify the relationships between institutions and their stakeholders, which is critical for understanding data sharing and transfer mechanisms involving related entities. They help determine when data transfers between related entities require specific regulatory oversight.",
-      "authority": "",
+      "summary": "This section defines terms related to ownership and control structures, including 'associate', 'control', and family relationships. It specifies how entities are connected through ownership, control, or familial ties, which is essential for understanding institutional relationships and regulatory oversight.",
+      "dtia_summary": "Defines how institutions are related through ownership and control, which impacts data sharing and transfer between related entities. Helps determine whether data flows between connected entities require specific safeguards.",
+      "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Financial Data",
-        "Customer Information",
-        "Employee Information",
-        "Special Personal Information",
-        "Children"
+        "Customer Information"
       ],
       "data_types": [
-        "Personal Information",
-        "Financial Data",
-        "Customer Data"
+        "Personal Information"
       ],
       "requirements": [
         {
-          "text": "For the purposes of this Act, 'associate' in relation to a company or other body corporate means its holding company or its subsidiary, a subsidiary of its holding company, a holding company of its subsidiary, its non-operating holding company as its subsidiary, a subsidiary of a non-operating holding company, and any person who controls the company or body corporate",
+          "text": "associate in relation to a company or other body corporate means its holding company or its subsidiary",
           "obligation_type": "Definition"
         },
         {
-          "text": "In relation to an individual, 'associate' means any member of his family, any company or other body corporate controlled directly or indirectly by him, and any person who is deemed to be a member of a family",
+          "text": "in relation to an individual means any member of his family",
           "obligation_type": "Definition"
         },
         {
-          "text": "For purposes of subsection (2), the term 'control' includes the ability to influence board decisions, failure to comply with this Act, the Central Bank of Kenya Act, or any rules, regulations, orders or directions issued under those Acts, or any condition of a licence",
+          "text": "control includes the ability to influence the composition of the board of directors of a company or any other body corporate",
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "2 (part 2) For the purposes of this Act, 'associate' in relation to a company or other body corporate means its holding company or its subsidiary, a subsidiary of its holding company, a holding company of its subsidiary, its non-operating holding company as its subsidiary, a subsidiary of a non-operating holding company, and any person who controls the company or body corporate"
+      "source_quote": "2 (part 2) For the purposes of this Act, 'associate'- (a) in relation to a company or other body corporate means- (i) its holding company or its subsidiary"
     },
     {
       "section": "3",
@@ -491,104 +486,84 @@
     {
       "section": "15",
       "heading": "(1) A mortgage finance company shall make loans:-",
-      "title": "Mortgage finance company loan requirements",
+      "title": "Mortgage finance company lending requirements",
       "chapter": "CHAPTER 488",
       "part": "part o",
       "condition": null,
       "page_start": 34,
       "page_end": 34,
       "primary_category": "Cross-border Transfer",
-      "summary": "This section requires mortgage finance companies to make loans secured by land in Kenya for acquisition, construction, improvement, development, alteration, or adaptation purposes, with repayment secured by first mortgage or charge over land.",
-      "dtia_summary": "Restricts cross-border data transfers by mandating land-related loans to be secured by property, reducing data transfer risk for real estate transactions.",
-      "authority": "Central Bank of Kenya",
+      "summary": "This section requires mortgage finance companies to make loans for land acquisition, construction, improvement, development, or alteration in Kenya, with repayment secured by first mortgages or charges over land. It allows mortgage finance companies to engage in other credit facilities against securities other than land.",
+      "dtia_summary": "Specifies land-related lending requirements for mortgage finance companies, ensuring loans are secured by land titles.",
+      "authority": "",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
       "topics": [
         "Cross-border Transfer",
-        "Data Storage"
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
       ],
       "data_types": [
-        "Financial Data"
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
       ],
       "requirements": [
         {
-          "text": "Mortgage finance companies must make loans for acquisition, construction, improvement, development, alteration, or adaptation of land in Kenya",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Mortgage finance company loans must be secured by first mortgage or charge over land",
+          "text": "Mortgage finance companies must make loans for land acquisition, construction, improvement, development, or alteration in Kenya",
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A mortgage finance company shall make loans: for the purpose of the acquisition, construction, improvement, development, alteration or adaptation for a particular purpose of land in Kenya"
+      "source_quote": ""
     },
     {
       "section": "16",
       "heading": "(1)  Subject to this section, no person, other than an institution",
-      "title": "Deposit-taking business restrictions",
+      "title": "",
       "chapter": "CHAPTER 488",
       "part": "part o",
       "condition": null,
       "page_start": 34,
       "page_end": 37,
-      "primary_category": "Cross-border Transfer",
-      "summary": "This section defines deposit-taking businesses, prohibits non-institutions from accepting deposits, and mandates interest payments on savings accounts. It specifies that deposits must be repayable with or without interest and not referable to property/services or security.",
-      "dtia_summary": "Restricts cross-border data transfers by defining deposit-taking activities, impacting data storage and processing for financial transactions.",
-      "authority": "Central Bank of Kenya",
-      "financial_relevance": "High",
-      "confidence": "High (explicit)",
-      "topics": [
-        "Cross-border Transfer",
-        "Data Storage"
-      ],
-      "data_types": [
-        "Financial Data"
-      ],
-      "requirements": [
-        {
-          "text": "No person other than licensed institutions or approved agencies may invite or accept deposits",
-          "obligation_type": "Must Not"
-        },
-        {
-          "text": "Deposits must be repayable with or without interest and on demand or at agreed terms",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Deposits must not be referable to property/services or security",
-          "obligation_type": "Must Not"
-        }
-      ],
-      "source_quote": "No person, other than an institution which holds a valid licence, or a duly approved agency conducting banking business on behalf of an institution shall invite or accept deposits in the course of carrying on a deposit-taking business"
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
     },
     {
       "section": "17",
       "heading": "The core capital of an institution shall at all times be not",
-      "title": "Core capital requirement",
+      "title": "",
       "chapter": "CHAPTER 488",
       "part": "PART I",
       "condition": null,
       "page_start": 37,
       "page_end": 37,
-      "primary_category": "Cross-border Transfer",
-      "summary": "This section mandates that banking institutions maintain core capital at least 8% of total deposit liabilities to ensure financial stability and regulatory compliance.",
-      "dtia_summary": "Requires institutions to maintain minimum core capital, impacting data storage and processing capacity for financial transactions.",
-      "authority": "Central Bank of Kenya",
-      "financial_relevance": "High",
-      "confidence": "High (explicit)",
-      "topics": [
-        "Cross-border Transfer",
-        "Data Storage"
-      ],
-      "data_types": [
-        "Financial Data"
-      ],
-      "requirements": [
-        {
-          "text": "Core capital of an institution must be at least 8% of total deposit liabilities",
-          "obligation_type": "Must"
-        }
-      ],
-      "source_quote": "The core capital of an institution shall at all times be not less than eight per cent of its total deposit liabilities"
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
     },
     {
       "section": "18",
@@ -601,7 +576,7 @@
       "page_end": 37,
       "primary_category": "Other",
       "summary": "The Central Bank of Kenya has the authority to establish minimum capital ratios for banking institutions and groups, measured as core capital to total capital and risk-weighted assets. These ratios can be adjusted based on the institution's risk profile. Non-operating holding companies must maintain adequate capital and liquidity to support their institutions and comply with Central Bank regulations.",
-      "dtia_summary": "This section establishes regulatory capital requirements that impact cross-border banking operations by mandating minimum liquidity and capital ratios for institutions operating in Kenya, affecting data storage and financial stability.",
+      "dtia_summary": "This section establishes capital adequacy requirements that impact cross-border banking operations by mandating minimum capital ratios for institutions, which affects risk assessment for international transfers and operations.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -636,15 +611,15 @@
     {
       "section": "19",
       "heading": "(1) An institution shall maintain such minimum holding of",
-      "title": "Minimum liquid assets requirement for banking institutions",
+      "title": "Minimum liquid assets requirement for institutions",
       "chapter": "CHAPTER 488",
       "part": "PART I",
       "condition": null,
       "page_start": 37,
       "page_end": 38,
       "primary_category": "Other",
-      "summary": "Banking institutions in Kenya must maintain a minimum holding of liquid assets as determined by the Central Bank. Liquid assets include legal tender, balances at the Central Bank, balances at other Kenyan banks, foreign bank balances, treasury bills, and other assets specified by the Central Bank. Non-compliance incurs a penalty interest charge of up to 1% per day on the deficiency.",
-      "dtia_summary": "This section mandates specific liquid asset holdings that impact data storage and financial stability, requiring institutions to maintain certain types of assets to ensure liquidity for cross-border operations.",
+      "summary": "Institutions must maintain a minimum holding of liquid assets as determined by the Central Bank. Liquid assets include legal tender, balances at the Central Bank, balances at other Kenyan banks, foreign bank balances, treasury bills, and other assets specified by the Central Bank. Non-compliance incurs a penalty interest charge of up to 1% per day on the deficiency.",
+      "dtia_summary": "This section mandates liquid asset requirements that affect cross-border operations by specifying acceptable liquid assets, including foreign bank balances, which are critical for international transactions and financial stability.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -697,15 +672,15 @@
     {
       "section": "20",
       "heading": "(1)    No institution incorporated in Kenya shall pay any",
-      "title": "Dividend restrictions and capital provisions for banking institutions",
+      "title": "Dividend restrictions and capital provisions",
       "chapter": "CHAPTER 488",
       "part": "PART I",
       "condition": null,
       "page_start": 38,
       "page_end": 39,
       "primary_category": "Other",
-      "summary": "Banking institutions in Kenya cannot pay dividends or distribute profits to shareholders until all capitalized expenditure has been written off and provisions for loans, advances, and other assets have been made. Institutions must make provisions for loans and advances before declaring profits and ensure these provisions are adequate according to Central Bank guidelines.",
-      "dtia_summary": "This section imposes restrictions on dividend payments and requires capital provisions, impacting financial stability and data storage practices for institutions operating across borders.",
+      "summary": "No Kenyan institution can pay dividends or distribute shares until all capitalized expenditure is written off and provisions for loans, advances, and other assets are made. Institutions must make provisions for loans and advances before declaring profits or losses and ensure these provisions are adequate according to Central Bank guidelines.",
+      "dtia_summary": "This section restricts dividend payments and requires capital provisions, which impact cross-border financial operations by ensuring institutions maintain sufficient capital before engaging in international distributions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -717,7 +692,7 @@
       ],
       "requirements": [
         {
-          "text": "No institution incorporated in Kenya shall pay dividends on shares or make distributions to shareholders until all capitalized expenditure has been written off",
+          "text": "No institution incorporated in Kenya shall pay dividends on shares or make distributions to shareholders until all capitalized expenditure is written off",
           "obligation_type": "Must Not"
         },
         {
@@ -741,8 +716,8 @@
       "page_start": 39,
       "page_end": 40,
       "primary_category": "Other",
-      "summary": "Banking institutions in Kenya must record all financial entries in English using government numerals. The Central Bank may require additional books and records as needed. Financial statements must comply with international financial reporting standards (IFRS) and consolidated accounting principles for groups. The Central Bank may require additional accounting consolidations excluding insurance subsidiaries.",
-      "dtia_summary": "This section mandates specific accounting standards and language requirements for financial records, impacting data storage and reporting practices for institutions operating across borders.",
+      "summary": "All financial records must be in English using government numerals. The Central Bank may require additional records as needed. Financial statements must follow international financial reporting standards (IFRS) and consolidated accounting principles for groups. The Central Bank may require additional accounting consolidations excluding insurance subsidiaries.",
+      "dtia_summary": "This section mandates specific accounting standards and language requirements for financial records, which impact cross-border data transfers by ensuring consistent financial reporting practices across international operations.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -775,15 +750,15 @@
     {
       "section": "22",
       "heading": "(1) Every institution shall:",
-      "title": "Public disclosure of financial statements for banking institutions",
+      "title": "Public disclosure of financial statements",
       "chapter": "CHAPTER 488",
       "part": "PART V",
       "condition": null,
       "page_start": 40,
       "page_end": 40,
       "primary_category": "Other",
-      "summary": "Banking institutions in Kenya must display audited financial statements in conspicuous positions in all offices and branches. They must publish balance sheets and income statements in newspapers with wide circulation within three months of the financial year end. Financial statements must comply with international financial reporting standards.",
-      "dtia_summary": "This section requires public disclosure of financial statements, impacting data storage and transparency for institutions operating across borders.",
+      "summary": "Institutions must display audited financial statements in conspicuous positions in all Kenyan offices and branches. They must publish balance sheets and income statements in newspapers with wide circulation within three months of the financial year end. Financial statements must align with international financial reporting standards.",
+      "dtia_summary": "This section requires public disclosure of financial statements, which affects cross-border data transfers by mandating transparency in financial reporting for international stakeholders.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -803,7 +778,7 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "22. (1) Every institution shall: (c) exhibit throughout the year in a conspicuous position in every office and branch in Kenya a copy of its last audited financial statements which shall be in conformity with the minimum financial disclosure requirements prescribed from time to time by the Central Bank together with the full and correct names of all persons who are officers of the institution in Kenya; and (d) within three months of the end of each financial year, cause a copy of the balance sheet and last audited income statements for that financial year to be published in a newspaper with wide circulation."
+      "source_quote": "22. (1) Every institution shall: (c) exhibit throughout the year in a conspicuous position in every office and branch in Kenya' a copy of its last audited financial statements which shall be in conformity with the minimum financial disclosure requirements prescribed from time to time by the Central Bank together with the full and correct names of all persons who are officers of the institution in Kenya; and (d) within three months of the end of each financial year, cause a copy of the balance sheet and last audited income statements for that financial year to be published in a newspaper with wide circulation."
     },
     {
       "section": "23",
@@ -815,8 +790,8 @@
       "page_start": 40,
       "page_end": 40,
       "primary_category": "Other",
-      "summary": "Banking institutions in Kenya must submit audited balance sheets and profit and loss accounts to the Central Bank within three months of the financial year end. Institutions incorporated outside Kenya or with subsidiaries/branches abroad must submit consolidated financial statements to the Central Bank.",
-      "dtia_summary": "This section mandates the submission of audited financial statements to the Central Bank, impacting data storage and reporting practices for institutions operating across borders.",
+      "summary": "Institutions must submit audited balance sheets and profit and loss accounts to the Central Bank within three months of the financial year end. Institutions with overseas subsidiaries or branches must submit consolidated financial statements covering all operations.",
+      "dtia_summary": "This section requires timely submission of audited financial statements to the Central Bank, which impacts cross-border data transfers by ensuring financial transparency for institutions operating internationally.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -832,11 +807,7 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions incorporated outside Kenya must submit consolidated financial statements to the Central Bank",
-          "obligation_type": "Must"
-        },
-        {
-          "text": "Institutions incorporated in Kenya with subsidiaries or branches abroad must submit consolidated financial statements to the Central Bank",
+          "text": "Institutions with overseas subsidiaries or branches must submit consolidated financial statements to the Central Bank",
           "obligation_type": "Must"
         }
       ],
@@ -852,8 +823,8 @@
       "page_start": 40,
       "page_end": 43,
       "primary_category": "Governance",
-      "summary": "Financial institutions must appoint an auditor qualified under section 161 and approved by the Central Bank. The auditor must audit annual financial statements and submit reports to the Central Bank. If an institution fails to appoint an auditor, the Central Bank may appoint one. Auditors must report serious breaches, criminal offenses, significant capital losses, or security risks to the Central Bank. The Central Bank may require additional duties from auditors including special investigations and reports. Auditors who fail to comply may be removed by the Central Bank.",
-      "dtia_summary": "Requires auditors to report critical financial risks to the Central Bank, impacting data transfer assessments for financial institutions by mandating robust internal controls and reporting mechanisms.",
+      "summary": "Every financial institution must appoint an auditor qualified under section 161 and approved by the Central Bank. The auditor must audit annual financial statements and submit reports to the Central Bank. If an institution fails to appoint an auditor, the Central Bank may appoint one. The auditor must report serious breaches, criminal offenses, significant capital losses, or threats to depositor security to the Central Bank. The Central Bank may require additional duties from auditors including special investigations and reports. Auditors who fail to comply may be removed by the Central Bank.",
+      "dtia_summary": "Requires auditors to report material breaches, financial irregularities, and risks to depositors to the Central Bank, creating a reporting obligation that impacts data transfer assessments for financial institutions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -867,15 +838,15 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Auditor must audit and submit annual balance sheet and profit and loss account report to Central Bank",
+          "text": "Auditor must audit and report on annual balance sheet and profit and loss account to Central Bank",
           "obligation_type": "Must"
         },
         {
-          "text": "If institution fails to appoint auditor, Central Bank may appoint one and fix remuneration",
+          "text": "Central Bank may appoint auditor if institution fails to appoint one",
           "obligation_type": "May"
         },
         {
-          "text": "Auditor must report serious breaches of the Act or regulations to Central Bank",
+          "text": "Auditor must report serious breaches of Banking Act or regulations to Central Bank",
           "obligation_type": "Must"
         },
         {
@@ -887,15 +858,15 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Auditor must report security risks to depositors or creditors to Central Bank",
+          "text": "Auditor must report threats to depositor security to Central Bank",
           "obligation_type": "Must"
         },
         {
-          "text": "Central Bank may require additional duties from auditors including special investigations",
+          "text": "Central Bank may require additional duties from auditor including special investigations",
           "obligation_type": "May"
         },
         {
-          "text": "Auditor must submit reports on special investigations to Central Bank",
+          "text": "Auditor must submit reports on special investigations",
           "obligation_type": "Must"
         },
         {
@@ -903,7 +874,7 @@
           "obligation_type": "May"
         },
         {
-          "text": "Auditor who fails to comply may be removed by Central Bank",
+          "text": "Central Bank may remove auditor who fails to comply with this Act",
           "obligation_type": "May"
         }
       ],
@@ -919,8 +890,8 @@
       "page_start": 43,
       "page_end": 43,
       "primary_category": "Governance",
-      "summary": "Financial institutions must obtain Central Bank approval before removing or changing auditors. Auditors must notify the Central Bank immediately if they resign, do not seek reappointment, or include new qualifications in reports. Institutions can appeal Central Bank decisions within 14 days, and the Minister's decision is final.",
-      "dtia_summary": "Mandates approval process for auditor changes, affecting data transfer assessments by requiring institutional oversight of auditor continuity and reporting.",
+      "summary": "Financial institutions cannot change auditors without prior written approval from the Central Bank. Auditors must notify the Central Bank immediately if they resign, do not seek reappointment, or include new qualifications in reports. Institutions can appeal Central Bank decisions within 14 days, and the Minister's decision is final.",
+      "dtia_summary": "Requires explicit approval for auditor changes and immediate notification of auditor changes, impacting data transfer assessments for financial institutions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -930,7 +901,7 @@
       ],
       "requirements": [
         {
-          "text": "No institution may remove or change auditors without prior written approval from Central Bank",
+          "text": "No institution may remove or change auditors without prior written approval of Central Bank",
           "obligation_type": "Must Not"
         },
         {
@@ -938,11 +909,11 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Auditor must notify Central Bank if not seeking reappointment",
+          "text": "Auditor must give written notice to Central Bank if not seeking reappointment",
           "obligation_type": "Must"
         },
         {
-          "text": "Auditor must notify Central Bank if report includes new qualifications",
+          "text": "Auditor must give written notice to Central Bank if including new qualifications in reports",
           "obligation_type": "Must"
         },
         {
@@ -962,8 +933,8 @@
       "page_start": 43,
       "page_end": 44,
       "primary_category": "Governance",
-      "summary": "Auditors may communicate information to the Central Bank without it being considered a breach of duty, even if the information relates to the institution's business or affairs. This applies to any information relevant to the Central Bank's functions under the Act.",
-      "dtia_summary": "Protects auditor confidentiality, ensuring data transfers to the Central Bank are not subject to breach reporting requirements.",
+      "summary": "Auditors are not liable for communicating information to the Central Bank in good faith, whether in response to requests or independently, as long as the information relates to the institution's business or affairs. This section protects auditors from legal consequences when sharing relevant information with the Central Bank.",
+      "dtia_summary": "Provides legal protection for auditors sharing information with the Central Bank, which may impact data transfer assessments by reducing liability concerns for financial institutions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "Medium",
       "confidence": "High (explicit)",
@@ -973,7 +944,7 @@
       ],
       "requirements": [
         {
-          "text": "No duty is contravened by auditor communicating information to Central Bank in good faith",
+          "text": "No duty of an auditor may be contravened by communicating information to Central Bank in good faith",
           "obligation_type": "Must"
         }
       ],
@@ -988,9 +959,9 @@
       "condition": null,
       "page_start": 44,
       "page_end": 44,
-      "primary_category": "Data Collection",
-      "summary": "The Central Bank must collect data necessary for supervising institutions and protecting depositors. Institutions must submit statistical and other returns periodically to the Central Bank for this purpose.",
-      "dtia_summary": "Requires institutions to provide data to the Central Bank, impacting data transfer assessments by mandating data sharing with regulatory authorities.",
+      "primary_category": "Governance",
+      "summary": "The Central Bank must collect data and information necessary for supervising financial institutions and protecting depositors. It may require institutions to submit statistical and other returns periodically to maintain supervision and surveillance of institutions' affairs.",
+      "dtia_summary": "Requires institutions to provide data to the Central Bank for supervision, which impacts data transfer assessments for financial institutions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1000,12 +971,12 @@
       ],
       "requirements": [
         {
-          "text": "Central Bank must collect data necessary for supervision and protection of depositors",
+          "text": "Central Bank shall collect data and information necessary for supervision and protection of depositors",
           "obligation_type": "Must"
         },
         {
-          "text": "Institutions must submit statistical and other returns periodically to Central Bank",
-          "obligation_type": "Must"
+          "text": "Central Bank may require institutions to submit statistical and other returns periodically",
+          "obligation_type": "May"
         }
       ],
       "source_quote": "27. The Central Bank shall collect such data and other information as may be necessary to enable it to maintain supervision and surveillance of the affairs of institutions or their duly authorized agencies and the protection of their depositors and, for this purpose, may require institutions or their duly authorized agencies to submit statistical and other returns on a periodic basis in addition to any other returns required by law."
@@ -1013,15 +984,15 @@
     {
       "section": "28",
       "heading": "(1) The Central Bank may require any institution and their",
-      "title": "Central Bank information requirements for institutions",
+      "title": "Information reporting requirements for financial institutions",
       "chapter": "CHAPTER 488",
       "part": "PART V",
       "condition": null,
       "page_start": 44,
       "page_end": 45,
-      "primary_category": "Data Collection",
-      "summary": "The Central Bank may require institutions to provide information for supervision purposes. This includes information from affiliates, associates, and subsidiaries, as well as financial statements and records to assess compliance with the Act.",
-      "dtia_summary": "Mandates comprehensive data sharing with the Central Bank, affecting data transfer assessments through extensive information requirements for financial institutions.",
+      "primary_category": "Governance",
+      "summary": "The Central Bank may require financial institutions and their agencies to provide information for supervision purposes. This includes information about affiliates, associates, and subsidiaries, as well as details on the group's risk profile, internal risk management, and financial linkages.",
+      "dtia_summary": "Requires detailed reporting on institutional relationships and risk profiles, which impacts data transfer assessments for financial institutions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1031,19 +1002,15 @@
       ],
       "requirements": [
         {
-          "text": "Central Bank may require institutions to furnish information for supervision",
+          "text": "Central Bank may require institutions and agencies to furnish information for supervision",
           "obligation_type": "May"
         },
         {
-          "text": "Information may include affiliates, associates, and subsidiaries",
+          "text": "Information may include affiliates, associates, and non-operating holding companies",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may require financial statements and records to assess compliance",
-          "obligation_type": "May"
-        },
-        {
-          "text": "Central Bank must determine group structure, risk profile, and internal risk management",
+          "text": "Central Bank may require information on group structure, risk profile, and internal risk management",
           "obligation_type": "May"
         }
       ],
@@ -1058,9 +1025,9 @@
       "condition": null,
       "page_start": 45,
       "page_end": 45,
-      "primary_category": "Data Collection",
-      "summary": "The Minister may require the Central Bank or an institution to provide information for the Minister's purposes, including financial data and records.",
-      "dtia_summary": "Allows the Minister to access institution data, potentially impacting data transfer assessments through additional regulatory information flows.",
+      "primary_category": "Governance",
+      "summary": "The Minister may require the Central Bank or financial institutions to provide information for the Minister's purposes, including data on institutional operations and financial status.",
+      "dtia_summary": "Allows the Minister to access institutional information, which may impact data transfer assessments for financial institutions.",
       "authority": "Minister",
       "financial_relevance": "Medium",
       "confidence": "High (explicit)",
@@ -1124,8 +1091,8 @@
       "page_start": 45,
       "page_end": 47,
       "primary_category": "Data Sharing",
-      "summary": "The Central Bank or Minister may publish information received under the Act, but only with written consent from the person whose financial affairs are disclosed. No person may publish information obtained through their duties under the Act without consent, except for specific disclosures to monetary authorities, financial regulators, tax agencies, fraud investigations, licensed institutions, and credit reference bureaus as permitted under the Act. Violations of these rules constitute contraventions.",
-      "dtia_summary": "Sets conditions for publishing sensitive financial data; critical for DTIA to ensure compliance with data sharing and publication restrictions across borders.",
+      "summary": "The Central Bank or Minister may publish information received under the Act, but only after written consent from the person whose financial affairs are disclosed. No person may publish information obtained through their duties under the Act without consent, except for specific disclosures to monetary authorities, financial regulators, tax agencies, fraud investigations, licensed institutions, and credit reference bureaus as permitted under the Act. Violations of these rules constitute contraventions.",
+      "dtia_summary": "Sets conditions for publishing sensitive financial data; critical for DTIA to ensure consent and lawful data sharing with third parties.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1145,7 +1112,7 @@
           "obligation_type": "May"
         },
         {
-          "text": "Publish information only with written consent from the person whose financial affairs are disclosed",
+          "text": "Publish information only after written consent from the person whose financial affairs are disclosed",
           "obligation_type": "Must"
         },
         {
@@ -1157,11 +1124,11 @@
           "obligation_type": "May"
         },
         {
-          "text": "Disclosure to institutions outside Kenya requires a reciprocal arrangement",
+          "text": "Disclosure to institutions outside Kenya requires reciprocal arrangements",
           "obligation_type": "Condition"
         },
         {
-          "text": "Licensed institutions must exchange non-performing loan information as specified by the Central Bank",
+          "text": "Licensed institutions must exchange non-performing loan information as specified by Central Bank guidelines",
           "obligation_type": "Must"
         },
         {
@@ -1174,7 +1141,7 @@
         },
         {
           "text": "No action lies against institutions for disclosing information in good faith to authorized entities",
-          "obligation_type": "Must"
+          "obligation_type": "Must Not"
         }
       ],
       "source_quote": "(1) The Central Bank or the Minister may publish in whole or in part, at such times and in such manner as it or he thinks fit, any information furnished to it or him under this Act: Provided that the information so furnished shall not be published if it would disclose the financial affairs of any person, unless the consent in writing of that person has first been given."
@@ -1190,7 +1157,7 @@
       "page_end": 50,
       "primary_category": "Other",
       "summary": "The Central Bank may conduct inspections of institutions and their records, requiring institutions to produce all relevant documents within seven days. Inspections must be conducted by authorized personnel, and all information obtained must be confidential. The Central Bank must submit reports highlighting breaches, irregularities, or management issues. The Central Bank may also assist investigative agencies in fraud cases and coordinate group supervision.",
-      "dtia_summary": "Requires detailed inspections and reporting; critical for DTIA to assess data access, confidentiality, and compliance during cross-border data handling.",
+      "dtia_summary": "Requires detailed inspections and reporting; critical for DTIA to assess compliance with regulatory inspections and data handling during audits.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1213,7 +1180,7 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Books and documents cannot be removed from the institution's premises during inspections",
+          "text": "Inspected documents may not be removed from the institution's premises",
           "obligation_type": "Must"
         },
         {
@@ -1225,15 +1192,15 @@
           "obligation_type": "Must"
         },
         {
-          "text": "Central Bank must submit reports highlighting breaches, irregularities, and management issues",
+          "text": "Central Bank must submit inspection reports highlighting breaches, irregularities, and management issues",
           "obligation_type": "Must"
         },
         {
-          "text": "Central Bank may assist investigative agencies in fraud or malfeasance cases",
+          "text": "Central Bank may assist investigative agencies in suspected fraud or malfeasance cases",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank coordinates supervision of groups and may appoint competent authorities for inspections",
+          "text": "Central Bank coordinates consolidated supervision of groups",
           "obligation_type": "May"
         }
       ],
@@ -1249,8 +1216,8 @@
       "page_start": 50,
       "page_end": 54,
       "primary_category": "Enforcement",
-      "summary": "The Central Bank may issue directions to institutions to improve compliance, cease practices, or appoint advisors if it believes an institution is acting contrary to the Act or in the public's best interest. The Central Bank may also restrict dividends, prohibit profit conversions, remove officers, reconstitute boards, and require capital restoration plans if an institution is undercapitalized or non-compliant. Failure to comply with directions results in penalties.",
-      "dtia_summary": "Provides extensive enforcement powers; critical for DTIA to assess regulatory oversight and corrective actions for data handling failures.",
+      "summary": "The Central Bank may issue directions to institutions to improve compliance, cease practices, or appoint advisors if it believes an institution is acting contrary to the Act or in a manner detrimental to depositors. The Central Bank may also restrict dividends, prohibit profit conversions, remove officers, reconstitute boards, and require capital restoration plans for undercapitalized institutions. Non-compliance with directions constitutes an offense with penalties.",
+      "dtia_summary": "Provides extensive enforcement powers; critical for DTIA to assess risks of regulatory interventions and data handling during compliance actions.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1269,7 +1236,7 @@
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may issue directions to cease practices likely to contravene the Act",
+          "text": "Central Bank may issue directions to cease practices likely to cause contraventions",
           "obligation_type": "May"
         },
         {
@@ -1277,15 +1244,15 @@
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may restrict dividends if an institution is non-compliant",
+          "text": "Central Bank may restrict, suspend, or prohibit dividend payments by institutions",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may prohibit profit conversions into capital",
+          "text": "Central Bank may prohibit conversion of profits into capital",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may remove officers involved in contraventions",
+          "text": "Central Bank may direct suspension or removal of officers involved in misconduct",
           "obligation_type": "May"
         },
         {
@@ -1293,23 +1260,23 @@
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may withhold branch approvals",
+          "text": "Central Bank may withhold branch approvals for institutions",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may order capital restoration plans to meet capital adequacy standards",
+          "text": "Central Bank may order capital restoration plans for undercapitalized institutions",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may impose restrictions on asset growth",
+          "text": "Central Bank may impose restrictions on asset or liability growth",
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may restrict interest rates on deposits",
+          "text": "Central Bank may restrict interest rates on savings and time deposits",
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Central Bank may issue directions to institutions generally for the better carrying out of its functions under this Act and in particular, with respect to the standards to be adhered to by an institution in the conduct of its business in Kenya or in any country where a branch or subsidiary of the institution is located."
+      "source_quote": "The Central Bank may issue directions to institutions generally for the better carrying out of its functions under this Act and in particular, with respect to: the standards to be adhered to by an institution in the conduct of its business in Kenya or in any country where a branch or subsidiary of the institution is located."
     },
     {
       "section": "34",
@@ -1321,8 +1288,8 @@
       "page_start": 54,
       "page_end": 57,
       "primary_category": "Enforcement",
-      "summary": "The Central Bank may intervene in institutions that fail financial obligations, are wound up, or are undercapitalized. It may appoint the Kenya Deposit Insurance Corporation to manage the institution, remove officers, restrict foreign exchange business, prohibit off-balance sheet transactions, and terminate agency arrangements. The Central Bank may also approve voluntary liquidations if institutions meet all liabilities.",
-      "dtia_summary": "Provides intervention powers for financial distress; critical for DTIA to assess data handling during institutional failures.",
+      "summary": "The Central Bank may appoint the Kenya Deposit Insurance Corporation to manage an institution in financial distress, remove officers responsible for contraventions, restrict new foreign exchange business, prohibit off-balance sheet transactions, and terminate agency arrangements. The Central Bank may also approve voluntary liquidations if institutions meet all liabilities.",
+      "dtia_summary": "Provides intervention powers during financial distress; critical for DTIA to assess risks of regulatory takeovers and data handling during liquidation.",
       "authority": "Central Bank of Kenya",
       "financial_relevance": "High",
       "confidence": "High (explicit)",
@@ -1360,7 +1327,7 @@
           "obligation_type": "May"
         },
         {
-          "text": "Central Bank may approve voluntary liquidations if satisfied with the institution's solvency",
+          "text": "Central Bank may approve voluntary liquidation applications if satisfied with solvency",
           "obligation_type": "May"
         }
       ],

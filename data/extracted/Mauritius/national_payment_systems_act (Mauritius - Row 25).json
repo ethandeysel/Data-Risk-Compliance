@@ -1,0 +1,2565 @@
+{
+  "country": "Mauritius",
+  "document": "national_payment_systems_act (Mauritius - Row 25)",
+  "generated": "2026-07-17T20:00:45",
+  "sections": [
+    {
+      "section": "19",
+      "heading": "Outsourcing of activities",
+      "title": "Outsourcing requirements for payment systems",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Third Party Processing",
+      "summary": "Payment service providers and operators must get central bank approval before outsourcing operational functions. Outsourcing must not impair internal controls or central bank oversight. Important functions require 30 days' notice for changes. Third-party providers must meet probity, integrity, diligence, competence and business experience standards.",
+      "dtia_summary": "Outsourcing rules affect DTIAs by requiring third-party data handling compliance and central bank oversight for financial data transfers.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must get central bank approval before outsourcing operational functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outsourcing must not impair internal controls or central bank oversight",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Important operational functions require 30 days' notice for changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Third-party providers must meet probity, integrity, diligence, competence and business experience standards",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A payment service provider or an operator shall not outsource any of its operational functions without the prior written approval of the central bank."
+    },
+    {
+      "section": "22",
+      "heading": "Compliance with anti-money laundering laws",
+      "title": "AML compliance for payment providers",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "AML",
+      "summary": "Payment service providers and operators must comply with anti-money laundering laws and ensure third parties acting on their behalf also adhere to these laws. This section mandates adherence to relevant legal frameworks and applies Part VIIIA of the Banking Act to licensees.",
+      "dtia_summary": "Requires payment providers to comply with AML laws and ensure third parties follow them, critical for DTIA when transferring data across borders involving financial transactions.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "AML",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers or operators must comply with anti-money laundering obligations under relevant enactments, directives, instructions and guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agents or third parties acting on behalf of payment providers must comply with anti-money laundering obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Part VIIIA of the Banking Act applies to licensees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every payment service provider or operator shall comply with the obligations and requirements under any enactment, directives, instructions and guidelines relating to anti-money laundering and the prevention of terrorism. Every payment service provider or operator shall guarantee that any agent or other third party acting on its behalf shall comply with the enactments, directives, instructions and guidelines referred to in subsection (1). Part VIIIA of the Banking Act shall apply to a licensee."
+    },
+    {
+      "section": "27",
+      "heading": "Appointment, powers and duties of auditors",
+      "title": "Auditor appointments and responsibilities for payment service providers",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "Payment service providers must appoint auditors annually, with approval from the central bank. Auditors cannot serve for more than 5 years continuously, and must be rotated after 3 years. Auditors must review financial statements against International Accounting Standards and central bank guidelines, report findings to the central bank, and have access to all financial records. The central bank may require additional reports on anti-money laundering compliance and financial systems.",
+      "dtia_summary": "Auditor rotation requirements and mandatory anti-money laundering reporting affect cross-border data transfers by payment service providers operating in Mauritius.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must appoint auditors annually with central bank approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors cannot serve for more than 5 years continuously",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Auditors must rotate after 3 years of continuous service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must review financial statements against International Accounting Standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report on financial statement completeness and accuracy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must have access to all financial records electronically or otherwise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may require additional anti-money laundering compliance reports",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A payment service provider or an operator, other than the central bank, shall, at each annual meeting appoint, and at all times, have one or more firms of auditors."
+    },
+    {
+      "section": "54",
+      "heading": "Commencement",
+      "title": "Commencement of the Act",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section specifies the effective date of the National Payment Systems Act, indicating when the Act comes into force for payment system operations in Mauritius. The obligations apply to the Bank of Mauritius and other relevant authorities.",
+      "dtia_summary": "The commencement date establishes when payment system data transfers become subject to the Act's requirements.",
+      "authority": "Bank of Mauritius",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Act comes into force on the date specified in the commencement order",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Commencement"
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions for payment systems",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "This section provides detailed definitions for key terms used throughout the National Payment Systems Act, including payment systems, payment service providers, and related financial concepts. The definitions are essential for understanding the scope and application of the Act.",
+      "dtia_summary": "Definitions clarify the scope of payment systems and data transfers, ensuring consistent interpretation across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Key terms related to payment systems are defined for clarity and consistency",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Interpretation"
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "Interpretation (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "Application of Act",
+      "title": "Execution of payment transactions with payment service providers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "Payment transactions, including direct debits, one-off direct debits, payment card transactions, credit transfers, and standing orders, may be executed with the user's payment service provider or another payment service provider.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment transactions may be executed with the user's payment service provider",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions may be executed with another payment service provider",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Direct debits and one-off direct debits may be executed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions through payment cards or similar devices may be executed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Credit transfers and standing orders may be executed",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Execution of payment transactions, including transfers of funds on a payment account with the payment service provider of the user or with another payment service provider, including the execution of – (a) direct debits and one-off direct debits; (b) payment transactions through a payment card or a similar device; (c) credit transfers and standing orders"
+    },
+    {
+      "section": "4",
+      "heading": "General powers and duties of central bank",
+      "title": "Execution of payment transactions with credit lines",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Payment transactions where funds are covered by a credit line for a payment service user may include direct debits, one-off direct debits, payment card transactions, credit transfers, and standing orders.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include direct debits",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include one-off direct debits",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include payment card transactions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include credit transfers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include standing orders",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Execution of payment transactions where the funds are covered by a credit line for a payment service user, including the execution of – (a) direct debits and one-off direct debits; (b) payment transactions through a payment card or a similar device; (c) credit transfers and standing orders"
+    },
+    {
+      "section": "5",
+      "heading": "Operational role of central bank",
+      "title": "Central bank's operational role in payment systems",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "The central bank may provide facilities to payment systems, clearing systems, settlement systems, and their operators. It may establish, own, operate, or participate in payment systems, act as a central counter-party, open cash accounts, hold securities, extend credit with collateral, set up committees, act as a central securities depository, securities settlement agent, and trade repository. Systems owned by the central bank do not require Financial Services Commission licensing or supervision.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Cloud Services",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank may provide facilities to payment systems, clearing systems or settlement systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may provide facilities to operators and participants of payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may establish, own, operate and participate in payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may act as a central counter-party to participants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may open and hold cash accounts for operators and participants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may hold securities on accounts for operators and participants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may extend intraday, overnight, term or other credit to participants subject to adequate collateral",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may set up a committee for advising on regulation, oversight and supervision",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may act as a central securities depository for Government securities and Bank of Mauritius Securities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may act as a securities settlement agent",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may act as a trade repository",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Systems owned or operated by the central bank do not require a licence by, or be subject to supervision of, the Financial Services Commission",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "The central bank may provide facilities to – (a) a payment system, clearing system or settlement system; and (b) the operators and participants of a payment system, clearing system or settlement system."
+    },
+    {
+      "section": "6",
+      "heading": "Cooperation with other authorities",
+      "title": "Central bank's cooperation with other authorities",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "The central bank and Financial Services Commission must cooperate for effective oversight of national payment systems. The central bank may cooperate with local or foreign authorities regulating payment service providers and capital markets, and with monetary authorities and international organizations dealing with payment system regulation. The central bank may enter into memoranda of understanding with these authorities.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank and Financial Services Commission shall cooperate for effective oversight of national payment systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank may cooperate with local or foreign public authorities engaged in regulation and supervision of payment service providers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may cooperate with monetary authorities and international or regional organizations dealing with payment system regulation",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank may enter into a memorandum of understanding with authorities specified in subsections (1) and (2)",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The central bank and the Financial Services Commission shall cooperate for the purpose of the effective oversight and supervision of the national payment systems."
+    },
+    {
+      "section": "7",
+      "heading": "Authority for grant of authorisation and issue of licence",
+      "title": "Central bank's authority to grant authorisations and licenses",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The central bank is the sole authority to authorise payment system operators and issue licenses to payment service providers. It may grant in-principle approvals after receiving relevant documents, but these do not constitute authorisations or licenses, create legitimate expectations for final determination, or automatically lapse if the applicant fails to meet the terms and conditions.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank shall be the authority to authorise payment system operators",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank shall be the authority to issue licenses to payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank may grant in-principle approval to applicants after receiving relevant documents",
+          "obligation_type": "May"
+        },
+        {
+          "text": "In-principle approval does not constitute authorisation to operate payment systems or act as payment service providers",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "In-principle approval does not create legitimate expectations for positive final determination",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "In-principle approval automatically lapses if the applicant fails to satisfy terms and conditions",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "The central bank shall be the authority which may – (a) authorise a person to operate a payment system, clearing pairing system or settlement system; and (b) issue a licence to a person to act as a payment service provider."
+    },
+    {
+      "section": "8",
+      "heading": "Authorisation to operators",
+      "title": "Requirements for payment system operators",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "No person may operate a payment system, clearing system or settlement system without central bank authorisation. Applications must be submitted in prescribed form with non-refundable fees. The central bank specifies terms and conditions for authorisation, may suspend or revoke authorisations, and may renew them subject to fees.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person other than the central bank may operate a payment system, clearing system or settlement system without authorisation",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Applications for authorisation must be made to the central bank in prescribed form and manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications must be accompanied by non-refundable fee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank specifies terms and conditions for authorisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank may suspend or revoke authorisations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authorisations may be renewed subject to payment of fee",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "No person, other than the central bank, shall operate a payment system, clearing system or settlement system without an authorisation."
+    },
+    {
+      "section": "9",
+      "heading": "Licensing of payment service providers",
+      "title": "Services functional to money transfer including electronic money issuance",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines services that function in money transfers, such as electronic money and instruments, but excludes online or telecommunication services. These services must be considered when assessing cross-border data transfers for payment systems. The definition clarifies what constitutes relevant services under the National Payment Systems Act 2018.",
+      "dtia_summary": "This section defines services that may be involved in cross-border money transfers, requiring DTIAs to identify which services fall under the scope of electronic money issuance and related transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any other services functional to the transfer of money, including the issuance of electronic money and electronic money instruments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. Any other services functional to the transfer of money, including the issuance of electronic money and electronic money instruments, but excluding the provision of solely online or telecommunication services or network access"
+    },
+    {
+      "section": "10",
+      "heading": "Variation of authorisation or licence",
+      "title": "Variation of authorisation or licence",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "The central bank can amend, vary, or cancel licence conditions with written notice to the licensee, allowing 15 days for written representations before finalizing changes. The central bank must consider these representations when deciding on amendments.",
+      "dtia_summary": "Central bank can adjust licence terms, impacting DTIA by requiring reassessment of compliance with evolving regulatory conditions for payment service providers.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank may amend, vary, or cancel conditions attached to authorisations or licences.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank must serve written notice to the licensee with reasons for proposed amendments.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The licensee may submit written representations within 15 days of receiving notice.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank must consider representations before confirming, modifying, or abandoning amendments.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The central bank may, at any time, amend, vary or cancel any condition attached to, or impose new conditions on, an authorisation granted or a licence issued under this Act."
+    },
+    {
+      "section": "11",
+      "heading": "Indirect participant treated as participant",
+      "title": "Indirect participant treated as participant",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "The central bank may treat indirect participants as system participants if systemic risk is a concern, providing written notice to the system operator. This applies to risk management in payment systems.",
+      "dtia_summary": "Central bank can classify indirect participants as system participants for systemic risk, affecting DTIA by requiring assessment of indirect participants' roles in cross-border payment systems.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank may treat an indirect participant as a system participant where systemic risk is considered appropriate.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The central bank must give written notice to the system operator of its decision.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The central bank may treat – (a) an indirect participant as a participant in a system; or (b) a class of indirect participants as participants in a system, where it considers it appropriate on the ground of systemic risk and shall give written notice of its decision to the operator of the system."
+    },
+    {
+      "section": "12",
+      "heading": "Powers of central bank with respect to consumer protection",
+      "title": "Central bank powers for consumer protection",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "The central bank can establish rules for payment service transparency, require providers to communicate user-friendly information, and regulate fees where public interest dictates.",
+      "dtia_summary": "Central bank rules ensure transparency in payment services, critical for DTIA to assess how consumer data is handled across borders with clear information requirements.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The central bank may establish rules for transparency of conditions and information requirements for payment services.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment service providers must communicate information proportionate to user needs in standard manner.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank may regulate fees where public interest requires it.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The central bank may establish rules to ensure transparency of conditions and information requirements for payment services."
+    },
+    {
+      "section": "13",
+      "heading": "Transparency of fees and charges",
+      "title": "Transparency of fees and charges",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "Payment service providers must notify customers of fees in prominent locations, with central bank approval, and cannot charge fees without prior notice. Fees must be separate and not deducted from transaction amounts.",
+      "dtia_summary": "Clear fee transparency rules impact DTIA by requiring payment service providers to disclose fees to customers before cross-border transactions, ensuring transparency in financial data handling.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must notify customers of fee imposition and amount in prominent locations.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The central bank must approve fee notices.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment service providers cannot impose fees without prior customer notice.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Fees must not be deducted from transaction amounts by participants.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Fees must be charged separately by participants to ensure transparency.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any rules established by the central bank under section 12 may require a payment service provider which imposes a fee or charge on any customer for executing a payment service, to give notice, in accordance with subsections (2) and (3), to the customer of - (a) the fact that a fee or charge is being imposed; and (b) the amount of the fee or charge."
+    },
+    {
+      "section": "14",
+      "heading": "Disclosure of terms and conditions",
+      "title": "Disclosure of terms and conditions",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "Payment service providers must disclose payment terms and conditions in a clear, understandable manner at the time of contracting with customers, following central bank rules.",
+      "dtia_summary": "Clear disclosure of terms affects DTIA by ensuring customers understand payment service terms before cross-border transactions, reducing ambiguity in data handling.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must disclose terms and conditions in a manner clearly understood by customers at the time of contracting.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A payment service provider shall, in accordance with any rules established by the central bank under section 12, disclose the terms and conditions of a payment service in a manner which may be clearly understood by a customer, at the time he contracts for the payment service."
+    },
+    {
+      "section": "15",
+      "heading": "Complaints",
+      "title": "Customer complaints process for payment service providers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "Customers can submit written complaints to payment service providers regarding acts or omissions within 7 years of the event. Providers must respond within 2 months with a written decision. Unresolved complaints can be escalated to the Ombudsperson for Financial Services. The central bank may issue guidelines for this process.",
+      "dtia_summary": "Complaint handling timelines and escalation paths affect data transfer DTIAs by defining customer grievance procedures for financial data.",
+      "authority": "Ombudsperson for Financial Services",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A customer may make a written complaint to a payment service provider regarding acts or omissions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment service providers must respond to complaints within 2 months of receipt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Complaints beyond 7 years from the event are not entertainable",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Unresolved complaints may be escalated to the Ombudsperson for Financial Services",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may issue guidelines for complaint handling",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A customer of a payment service provider who is aggrieved by an act or omission of the payment service provider may make a complaint in writing to the payment service provider for remedial action."
+    },
+    {
+      "section": "16",
+      "heading": "Rules of systems",
+      "title": "System governance and operational rules for payment systems",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "System operators must create written rules covering liquidity, credit, settlement risk, access, contingency, and recovery plans. Rules require central bank approval and must comply with the Act. The central bank can vary rules for public interest, participants, and financial stability. Operators need 30 days' notice before system changes affecting operations.",
+      "dtia_summary": "System rules govern data storage and processing requirements for payment systems, impacting cross-border data transfers through operational controls.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System operators must create written rules for governance, management and operation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules must cover liquidity, credit, settlement risk, access, contingency, and recovery plans",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules require central bank approval and compliance with the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may vary rules for public interest, participants, and financial stability",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Operators need 30 days' notice before system changes affecting operations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may allow shorter notice for public interest or financial stability",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Access rules must be objective, non-discriminatory and proportionate",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every operator of a system shall make written rules for the governance, management and operation of the system, including rules on the management of liquidity, credit and settlement risk..."
+    },
+    {
+      "section": "17",
+      "heading": "Directives, instructions and guidelines",
+      "title": "Central bank directives and administrative penalties",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 26,
+      "primary_category": "Regulator Powers",
+      "summary": "The central bank may issue directives, instructions, and guidelines for payment systems and service providers. Operators must comply with these directives. The central bank can impose administrative penalties for non-compliance, considering breach severity and duration. Penalties may be published publicly without sensitive information and recovered from balances with the central bank.",
+      "dtia_summary": "Central bank directives directly impact data transfer DTIAs by establishing regulatory oversight and penalty mechanisms for financial data handling.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank may issue directives, instructions and guidelines for payment systems",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Guidelines may apply to all or specific operators, participants or service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operators must comply with directives, instructions and guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may impose administrative penalties for non-compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Penalties must consider breach severity and duration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalties may be published publicly without sensitive information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalties may be recovered from balances with the central bank",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The central bank may issue directives, instructions and guidelines – with respect to the governance, management or operation of payment systems and payment service providers"
+    },
+    {
+      "section": "18",
+      "heading": "Confidentiality",
+      "title": "Confidentiality obligations for financial system personnel",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "Personnel with access to financial records must maintain confidentiality of customer information except with customer authorization, for duty performance, as directed by the central bank, or court requirements. Directors must take confidentiality oaths or make declarations before the central bank. The duty does not apply to Ombudsperson requests or Banking Act licensees.",
+      "dtia_summary": "Confidentiality rules protect customer data during transfers and processing, critical for DTIAs involving financial information.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Personnel with access to financial records must not disclose customer information without authorization",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosure permitted for duty performance, central bank directives or court requirements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors must take confidentiality oaths or make declarations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Confidentiality duty does not apply to Ombudsperson requests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Confidentiality duty does not apply to Banking Act licensees",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A person who has access to the books, accounts, records, financial statements or other document... shall not disclose to any person any information relating to the affairs of a customer..."
+    },
+    {
+      "section": "19",
+      "heading": "Outsourcing of activities",
+      "title": "Outsourcing requirements for payment systems",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 29,
+      "primary_category": "Third Party Processing",
+      "summary": "Payment service providers and operators must get central bank approval before outsourcing operational functions. Outsourcing must not impair internal controls or central bank oversight. Important functions require 30 days' notice for changes. Third-party providers must meet probity, integrity, diligence, competence and business experience standards.",
+      "dtia_summary": "Outsourcing rules affect DTIAs by requiring third-party data handling compliance and central bank oversight for financial data transfers.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must get central bank approval before outsourcing operational functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outsourcing must not impair internal controls or central bank oversight",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Important operational functions require 30 days' notice for changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Third-party providers must meet probity, integrity, diligence, competence and business experience standards",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A payment service provider or an operator shall not outsource any of its operational functions without the prior written approval of the central bank."
+    },
+    {
+      "section": "20",
+      "heading": "Use of agents",
+      "title": "Agent use requirements for payment services",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 29,
+      "primary_category": "Third Party Processing",
+      "summary": "Payment service providers may appoint agents with agency agreements covering non-exclusive use, anti-money laundering compliance, consumer protection, and central bank requirements. Providers are liable for agents' actions and must publish agent lists online and quarterly to the central bank.",
+      "dtia_summary": "Agent use rules impact DTIAs by defining third-party data handling responsibilities and transparency requirements for financial data transfers.",
+      "authority": "Central Bank",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers may appoint agents with agency agreements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Agency agreements must cover non-exclusive use, anti-money laundering compliance, consumer protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment service providers are liable for agents' actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment service providers must publish updated agent lists online",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment service providers must provide updated agent lists to central bank quarterly",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A payment service provider may appoint an agent to undertake services on its behalf by entering into an agency agreement."
+    },
+    {
+      "section": "21",
+      "heading": "Liability",
+      "title": "Liability for third-party activities",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 30,
+      "primary_category": "Governance",
+      "summary": "Payment service providers and operators must ensure compliance with the Act when using third parties for operational functions. They are liable for the actions of employees, agents, or outsourced entities under their control. This section establishes accountability for third-party activities within the payment system framework.",
+      "dtia_summary": "Requires payment providers to ensure third-party compliance with the Act, relevant for DTIA when outsourcing payment processing functions across borders.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers or operators must take steps to ensure compliance with this Act when using third parties for operational functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operators or payment service providers are liable for acts of employees, agents, or outsourced entities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where a payment service provider or an operator relies on third parties for the performance of operational functions, it shall take steps to ensure that this Act is complied with. An operator or a payment service provider shall be liable for any acts of its employees, or any agent, branch or entity to which activities are outsourced."
+    },
+    {
+      "section": "22",
+      "heading": "Compliance with anti-money laundering laws",
+      "title": "AML compliance for payment providers",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 30,
+      "primary_category": "AML",
+      "summary": "Payment service providers and operators must comply with anti-money laundering laws and ensure third parties acting on their behalf also adhere to these laws. This section mandates adherence to relevant legal frameworks and applies Part VIIIA of the Banking Act to licensees.",
+      "dtia_summary": "Requires payment providers to comply with AML laws and ensure third parties follow them, critical for DTIA when transferring data across borders involving financial transactions.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "AML",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers or operators must comply with anti-money laundering obligations under relevant enactments, directives, instructions and guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Agents or third parties acting on behalf of payment providers must comply with anti-money laundering obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Part VIIIA of the Banking Act applies to licensees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every payment service provider or operator shall comply with the obligations and requirements under any enactment, directives, instructions and guidelines relating to anti-money laundering and the prevention of terrorism. Every payment service provider or operator shall guarantee that any agent or other third party acting on its behalf shall comply with the enactments, directives, instructions and guidelines referred to in subsection (1). Part VIIIA of the Banking Act shall apply to a licensee."
+    },
+    {
+      "section": "23",
+      "heading": "Records",
+      "title": "Record-keeping for payment transactions",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 31,
+      "primary_category": "Record Keeping",
+      "summary": "Payment service providers must maintain written or electronic records of all transactions for at least 7 years. Records include accounting data, financial statements, customer account files, credit documentation, and other central bank-approved records. Records must be stored in approved formats, for 7 years, at the registered office or approved location, and in chronological order.",
+      "dtia_summary": "Requires detailed transaction records for 7 years, critical for DTIA when storing or transferring financial data across borders due to long retention periods and specific storage requirements.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must keep full and true written records of every transaction for at least 7 years from the date of record creation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include accounting records showing business affairs, financial statements, customer account files, credit documentation, and other central bank-approved records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be stored in written form or approved electronic formats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be retained for at least 7 years from transaction completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be stored at the registered office or approved location",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be organized in chronological or sequential order in batches of convenient size",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every payment service provider, operator or participant shall, for the purposes of this Act, keep in relation to its activities, a full and true written record of every transaction it conducts for a period of at least 7 years from the date the record is made."
+    },
+    {
+      "section": "24",
+      "heading": "Submission of information to central bank",
+      "title": "Central bank information submission requirements",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 32,
+      "primary_category": "Regulator Powers",
+      "summary": "Payment service providers must submit information to the central bank as required, including timely compliance with submissions, participation in data collection systems, and allowing central bank examinations. Failure to comply may result in administrative penalties up to 50,000 rupees per day.",
+      "dtia_summary": "Requires payment providers to submit data to the central bank, relevant for DTIA when transferring data across borders due to mandatory reporting and potential penalties for non-compliance.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank may require payment service providers to submit information for proper discharge of functions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment providers must comply with information submission requirements in a timely manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payment providers must participate in central bank systems for automatic data collection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may examine accounts, books, records and documents to assess compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failure to comply with submission requirements may result in administrative penalties up to 50,000 rupees per day",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The central bank may require a payment service provider, an operator or a participant to furnish, at such time and in such manner as it may determine, such information and data as it may require for the proper discharge of its functions and responsibilities under this Act."
+    },
+    {
+      "section": "25",
+      "heading": "Regular and special examinations",
+      "title": "Central bank examinations for payment providers",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 33,
+      "primary_category": "Regulator Powers",
+      "summary": "The central bank conducts regular and special examinations of payment service providers to assess compliance with the Act and financial soundness. Examiners have broad powers to access premises, books, records, electronic data, and require information from providers and their affiliates both in Mauritius and overseas.",
+      "dtia_summary": "Central bank examinations apply to payment providers globally, relevant for DTIA when storing or processing data across borders due to examination powers extending to overseas branches and affiliates.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank conducts regular examinations of payment service providers' operations and affairs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Examiners may access premises, books, records, cash, securities, and electronic data of providers and affiliates",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Examiners may require information and copies of relevant documents from providers and affiliates",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may conduct special examinations to assess financial soundness and compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Costs of examinations are borne by payment providers or may be recovered from their balances with the central bank",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Examiners must comply with confidentiality provisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The central bank shall conduct regular examinations of the operations and affairs of every payment service provider, operator or participant of a system at such time as it may determine, including, where the central bank so specifies, of affiliates and overseas branches and affiliates of the payment service provider, operator or participant of a system."
+    },
+    {
+      "section": "26",
+      "heading": "Fees and charges",
+      "title": "Central bank fee imposition authority",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "The central bank may impose fees for oversight services and operational infrastructure. Fees cover costs related to regulatory services and infrastructure under sections 8 and 9 of the Act.",
+      "dtia_summary": "Central bank may impose fees for oversight services, relevant for DTIA when assessing financial impact of regulatory compliance activities.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank may impose charges for oversight, supervisory and regulatory services",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may impose charges for operational services and infrastructure",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The central bank may impose charges or fees – (a) for the purpose of – (i) meeting its direct and indirect costs incurred in providing oversight, supervisory and regulatory services to payment service providers, operators other than the central bank and participants; and (ii) sections 8 and 9; and (b) for the provision of operational services and infrastructure under section 4."
+    },
+    {
+      "section": "27",
+      "heading": "Appointment, powers and duties of auditors",
+      "title": "Auditor appointments and responsibilities for payment service providers",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 39,
+      "primary_category": "Other",
+      "summary": "Payment service providers must appoint auditors annually, with approval from the central bank. Auditors cannot serve for more than 5 years continuously, and must be rotated after 3 years. Auditors must review financial statements against International Accounting Standards and central bank guidelines, report findings to the central bank, and have access to all financial records. The central bank may require additional reports on anti-money laundering compliance and financial systems.",
+      "dtia_summary": "Auditor rotation requirements and mandatory anti-money laundering reporting affect cross-border data transfers by payment service providers operating in Mauritius.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers must appoint auditors annually with central bank approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors cannot serve for more than 5 years continuously",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Auditors must rotate after 3 years of continuous service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must review financial statements against International Accounting Standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report on financial statement completeness and accuracy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must have access to all financial records electronically or otherwise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may require additional anti-money laundering compliance reports",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A payment service provider or an operator, other than the central bank, shall, at each annual meeting appoint, and at all times, have one or more firms of auditors."
+    },
+    {
+      "section": "27 (part 2)",
+      "heading": "Appointment, powers and duties of auditors (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 41,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "28",
+      "heading": "Infringement and remedial measures",
+      "title": "Infringement and remedial measures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 41,
+      "primary_category": "Enforcement",
+      "summary": "The central bank may issue warnings, orders to cease contraventions, fines up to 100,000 rupees per day, suspend directors, or revoke licenses for violations of the Act or central bank guidelines.",
+      "dtia_summary": "Enforcement powers allow the central bank to address data transfer violations, including fines and license revocation for non-compliance.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank may issue warnings for violations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may order cessation of contraventions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may impose fines up to 100,00:00 rupees per day",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Central bank may suspend or revoke licenses for violations",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The central bank may take one or more of the following administrative actions with respect to a payment service provider, an operator, a participant or its directors where it determines that one or more entities has or have contravened this Act or any directives, instructions or guidelines issued by the central bank"
+    },
+    {
+      "section": "29",
+      "heading": "Offences",
+      "title": "Offences and penalties",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 42,
+      "primary_category": "Enforcement",
+      "summary": "Violations of the Act or central bank guidelines can result in fines up to 1 million rupees, imprisonment, or other penalties. Specific offences include obstructing auditors, falsifying records, and failing to comply with requirements.",
+      "dtia_summary": "Offences and penalties apply to data transfer violations, including non-compliance with audit requirements and financial record-keeping.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Violations of the Act or central bank guidelines can result in fines up to 1 million rupees",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failing to comply with audit requirements can result in fines up to 1 million rupees",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Falsifying financial records can result in fines up to 500,000 rupees and imprisonment",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Any person who contravenes section 8 or 9 shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees"
+    },
+    {
+      "section": "30",
+      "heading": "Compounding of offences",
+      "title": "Compounding of offences",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 43,
+      "primary_category": "Enforcement",
+      "summary": "The central bank may compound offences with the consent of the Director of Public Prosecutions, allowing offenders to pay a fine up to the maximum penalty specified for the offence.",
+      "dtia_summary": "Compounding of offences provides a mechanism for resolving violations without criminal prosecution, relevant for data transfer compliance.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central bank may compound offences with Director of Public Prosecutions consent",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Offenders must pay a fine up to the maximum penalty specified for the offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The central bank may, with the consent of the Director of Public Prosecutions, compound any offence committed by a person under this Act where the person agrees in writing to pay such amount not exceeding the maximum penalty specified for the offence, acceptable to the central bank."
+    },
+    {
+      "section": "31",
+      "heading": "Settlement accounts",
+      "title": "Settlement accounts for payment systems",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Other",
+      "summary": "Participants must maintain settlement accounts with the operator or appoint a settlement agent to manage obligations. Settlement accounts are protected from attachment or seizure except by the central bank or settlement agent.",
+      "dtia_summary": "Settlement account requirements ensure secure handling of financial transactions, critical for cross-border data transfers.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Participants must maintain settlement accounts with the operator",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants may appoint settlement agents to manage obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Settlement accounts are protected from attachment or seizure except by central bank or settlement agent",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every participant in a system shall open and maintain settlement accounts in the books of the operator, including the maintenance of minimum balances, on such terms and conditions as the operator may specify"
+    },
+    {
+      "section": "32",
+      "heading": "Finality of transfer orders, netting and close-out netting",
+      "title": "Finality of payment orders and netting arrangements",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 46,
+      "primary_category": "Cross-border Transfer",
+      "summary": "System operators must define rules for transfer order finality, including irrevocability and binding effect on third parties. Transfer orders become final and unrevocable once determined by the system rules. Courts cannot rectify or stay such orders during insolvency proceedings. Exceptionally valid transfer orders apply if executed on the same date as bankruptcy orders. Netting arrangements must be enforceable and participants must comply with them. Netting obligations are treated as dischargeable in insolvency proceedings but remain enforceable.",
+      "dtia_summary": "Ensures payment orders and netting arrangements remain enforceable across borders during insolvency, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "System operator shall specify rules for finality of transfer orders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfer orders must be valid, legally enforceable, and binding on third parties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transfer orders must be final and irrevocable once determined final",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Courts cannot rectify or stay transfer orders during insolvency proceedings",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Exceptionally valid transfer orders apply if executed on same date as bankruptcy order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Netting arrangements must be valid and enforceable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "System operator may net obligations before insolvency proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Netted obligations are disregarded in bankruptcy proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Net obligations not discharged are provable in insolvency proceedings",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A system operator shall specify the rules of the system to determine the finality of transfer orders entered into in accordance with this Act."
+    },
+    {
+      "section": "33",
+      "heading": "Collateral for payment and settlement obligation",
+      "title": "Collateral for payment and settlement obligations",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 47,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Collateral provided by participants to central banks or operators for settlement obligations remains enforceable during insolvency. Security pledges are endorsed under Mauritian civil law and can be realized without notice. Collateral arrangements are valid across insolvency proceedings and do not require prior consent for realization. Realization must be commercially reasonable.",
+      "dtia_summary": "Ensures collateral for payment obligations remains enforceable across borders during insolvency, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Collateral may be used to discharge settlement obligations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Security pledges are endorsed under Mauritian civil law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator may realize collateral without notice to participant",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Collateral rights are unaffected by insolvency proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Realization of collateral requires no prior notice or consent",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Realization must be conducted commercially reasonably",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Notwithstanding any other enactment, any asset of a participant which was, before the issue of any order for the winding-up of that participant, provided by that participant to the central bank, or an operator, as security for a loan in respect of its settlement obligations, may be utilised by the central bank or the operator, as the case may be, to the extent required for the discharge of the settlement obligations of the participant."
+    },
+    {
+      "section": "34",
+      "heading": "Law of insolvency",
+      "title": "Insolvency law applicability to payment systems",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 47,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Insolvency law applies to transfer orders and system actions but excludes non-participants. This Part governs bankruptcy, judicial management, and winding-up proceedings for participants. Rights and liabilities from transfer orders are not subject to insolvency proceedings for non-participants.",
+      "dtia_summary": "Defines when insolvency law applies to payment systems, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Insolvency law applies to transfer orders and system actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Part applies to bankruptcy, judicial management, and winding-up proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rights and liabilities from transfer orders are not subject to insolvency proceedings for non-participants",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "The law of insolvency shall have effect in relation to a transfer order effected through a system; and any action taken under the rules of a system with respect to transfer orders, subject to this Part."
+    },
+    {
+      "section": "35",
+      "heading": "Precedence over law of insolvency",
+      "title": "Precedence of payment system rules over insolvency law",
+      "chapter": null,
+      "part": "Part s",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 48,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Payment system rules override insolvency law for transfer orders, default arrangements, and settlement obligations. Insolvency proceedings cannot interfere with system settlement actions. Debts arising from transfer orders are not provable until default arrangements are completed.",
+      "dtia_summary": "Ensures payment system rules take precedence over insolvency law, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Transfer orders and default arrangements are not invalid due to insolvency law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insolvency proceedings cannot prevent system settlement actions",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Debts from transfer orders are not provable until default arrangements complete",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Notwithstanding the Insolvency Act or any other enactment, none of the following shall be regarded as invalid on the ground of inconsistency with the law for distribution of the assets of a person on bankruptcy or winding up..."
+    },
+    {
+      "section": "36",
+      "heading": "Default arrangements",
+      "title": "Default arrangements for insolvency",
+      "chapter": null,
+      "part": "Part s",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Default arrangements apply to net sums owed by or to defaulter participants. Net sums become provable in insolvency proceedings or payable to office holders. These net sums are taken into account under specific insolvency sections.",
+      "dtia_summary": "Defines how default arrangements affect insolvency proceedings for payment systems, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Net sums owed by or to defaulter are provable in insolvency proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Net sums are payable to relevant office holders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Net sums are taken into account under sections 92, 305, and 309 of the Insolvency Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Notwithstanding the Insolvency Act, where a Court has made an order for bankruptcy or winding-up of a participant or a resolution for the voluntary winding-up of a participant has been passed, the net sum owed by or to a defaulter on the completion of any action taken under default arrangements shall be provable in the bankruptcy or winding-up or, as the case may be, payable to the relevant office holder."
+    },
+    {
+      "section": "37",
+      "heading": "Notification of insolvency",
+      "title": "Insolvency notification requirements",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 49,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Participants and operators must immediately notify insolvency status to system participants. Insolvency proceedings do not retroactively affect rights and obligations from the time of notification. Netting arrangements remain enforceable despite insolvency proceedings.",
+      "dtia_summary": "Requires timely insolvency notifications for payment systems, critical for DTIA when assessing cross-border payment systems and settlement obligations.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Operator must notify participants of insolvency or payment suspension",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participant must notify operator of insolvency or payment suspension",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insolvency proceedings do not retroactively affect rights and obligations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Netting arrangements remain enforceable despite insolvency proceedings",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where an operator is insolvent or is likely to become insolvent; is unable or is likely to be unable to meet any or all of its obligations; or has suspended payments or compounded with its creditors, it shall immediately notify the participants of the payment system..."
+    },
+    {
+      "section": "38",
+      "heading": "Notification of winding-up or receivership",
+      "title": "Notification requirements for payment system winding-up",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 50,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Payment system operators and participants must notify the central bank and Financial Services Commission before winding up or entering receivership. They must submit copies of winding-up applications and orders within one business day. The central bank then notifies all relevant domestic and foreign system operators of the proceedings. Participants must enforce winding-up orders immediately upon notification. Voluntary windings require 24-hour notification to other participants with central bank approval.",
+      "dtia_summary": "Requires notification to regulators before system winding-up, affecting cross-border data transfers if payment systems handle financial data internationally.",
+      "authority": "Central Bank of Mauritius, Financial Services Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No operator or participant in payment, clearing or settlement systems may be wound up or placed in receivership without notifying central bank and Financial Services Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Submit copies of winding-up application and subsequent order within one business day to central bank and Financial Services Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank must notify all relevant domestic and foreign system operators of winding-up proceedings within one business day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Participants must enforce winding-up orders immediately upon central bank notification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Voluntary windings require central bank or Financial Services Commission approval before notifying other participants within 24 hours",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "No operator of, or participant in, a payment system, clearing system or settlement system shall be wound up or placed into receivership except after notification to the central bank and the Financial Services Commission."
+    },
+    {
+      "section": "39",
+      "heading": "Prohibition",
+      "title": "Prohibition on payment system operations during winding-up",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 50,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Operators or participants facing winding-up applications or voluntary dissolution decisions are prohibited from operating or participating in payment, clearing or settlement systems until the winding-up process is resolved or finalized. This prohibition applies to all systems covered by the Act.",
+      "dtia_summary": "Prohibits data transfers during system winding-up, ensuring financial data continuity until resolution.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Operators or participants against whom winding-up applications are lodged or voluntary dissolution decisions are made are prohibited from operating or participating in payment, clearing or settlement systems",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "An operator or a participant against whom a winding-up application has been lodged or a decision for voluntary dissolution is made, or which is placed in receivership, is prohibited from operating or participating in any payment system, clearing system or settlement system until such application or scheme is disposed of or finally determined."
+    },
+    {
+      "section": "40",
+      "heading": "System Rules to bind liquidators",
+      "title": "Binding system rules on liquidators",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 51,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Liquidators or receivers of insolvent payment system operators or participants must honor netting arrangements and settlement obligations from before or after the winding-up order. They may credit/debit settlement accounts for payment obligations, collateral management, and settlement purposes as per system rules.",
+      "dtia_summary": "Ensures continuity of financial data transfers during system winding-up through binding settlement rules.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Netting arrangements and settlement rules applicable to the system remain binding on liquidators for payments determined before winding-up order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Netting arrangements and settlement rules remain binding on liquidators for payments due after winding-up order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liquidators may credit and debit settlement accounts to discharge outstanding payments",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Liquidators may use credit lines for settlement purposes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Liquidators may realize collateral to enable settlement",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Notwithstanding any other enactment, where an operator of, or a participant in, a system is wound up or placed in receivership or otherwise declared insolvent by a Court, any provision contained in a written clearing, netting and settlement arrangement to which the participant or the operator is a party or any clearing, netting and settlement rules and practices applicable to the system, shall be binding on the liquidator or receiver, as the case may be, of the operator or participant concerned in respect of any payment or settlement obligation"
+    },
+    {
+      "section": "41",
+      "heading": "Preservation of rights",
+      "title": "Preservation of rights during winding-up",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 52,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Act does not limit or affect rights, titles, interests, or liabilities from underlying transactions in payment systems. It preserves transfer orders and legal proceedings related to these rights, preventing unwinding of netting, reversal of transfer orders, or reversal of payments made under system rules.",
+      "dtia_summary": "Preserves financial data rights during winding-up, ensuring continuity of data transfers without disruption.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Act does not limit, restrict or affect rights, titles, interests, privileges, obligations or liabilities from underlying transactions in payment systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Act does not require unwinding of netting arrangements",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The Act does not require revocation of transfer orders entered into systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The Act does not require reversal of payments made under system rules",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Except where expressly provided, this Act shall not limit, restrict or otherwise affect – any right, title, interest, privilege, obligation or liability of a person resulting from the underlying transaction in respect of a transfer order which has been entered into a system"
+    },
+    {
+      "section": "42",
+      "heading": "Conflict of laws",
+      "title": "Conflict of laws for foreign participants",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 52,
+      "primary_category": "Cross-border Transfer",
+      "summary": "In the event of a foreign participant's insolvency, Mauritius law governs rights and obligations related to system participation, book entry securities collateral, and collateral arrangements. Domestic participants in foreign systems must follow the law governing that system.",
+      "dtia_summary": "Determines jurisdiction for financial data transfers involving foreign participants during insolvency, critical for cross-border data handling.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Rights and obligations of foreign participants in insolvency are governed by Mauritius law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Book entry securities collateral requirements are governed by Mauritius law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial collateral arrangements must be effective against third parties under Mauritius law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Domestic participants in foreign systems must follow the law governing that system",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In the event of the insolvency of a foreign participant, the following shall be governed by Mauritius laws – the rights and obligations arising from, or in connection with, the participation of such participant in the system"
+    },
+    {
+      "section": "43",
+      "heading": "Presentation of cheque by electronic means",
+      "title": "Electronic cheque presentation rules",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 52,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Electronic cheque presentation and image handling must comply with the Bills of Exchange Act and central bank guidelines. This section does not directly address data transfers but affects cheque-related financial data handling.",
+      "dtia_summary": "Governs electronic cheque data handling, relevant for financial data transfers involving cheques.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Cheque image and electronic presentation for payment must follow section 44A of the Bills of Exchange Act and central bank guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Cheque image and presentation of cheque for payment by electronic means shall be governed by section 44A of the Bills of Exchange Act and any guidelines, rules, instructions or directives issued by the central bank."
+    },
+    {
+      "section": "44",
+      "heading": "Electronic fund transfers",
+      "title": "Electronic fund transfers: legal effect and record validity",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 53,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Electronic fund transfers and their records must comply with the Electronic Transactions Act for enforceability and evidential value. Participants and operators cannot deny legal effect to electronic records or records referenced in other electronic records, regardless of their form or content.",
+      "dtia_summary": "Ensures electronic fund transfers have legal validity across borders, critical for cross-border payment systems and data transfers involving electronic records.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Electronic fund transfers and records must comply with the Electronic Transactions Act for enforceability and evidential value",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records cannot be denied legal effect solely because they are electronic",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records referenced in other electronic records cannot be denied legal effect solely because they are not the primary electronic record",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Electronic fund transfers and records shall be those provided in the Electronic Transactions Act. Notwithstanding subsection (1), any information stored, disseminated or used by participants and operators shall not be denied legal effect solely on the ground that it is in the form of an electronic record or it is not contained in the electronic record purporting to give it legal force and validity but is referred to in another electronic record."
+    },
+    {
+      "section": "45",
+      "heading": "Electronic money",
+      "title": "Electronic money licensing conditions",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 54,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Payment service providers issuing electronic money must not provide credit, issue electronic money in equivalent Mauritius rupees, ensure it never expires, prohibit converting loyalty points to electronic money, provide periodic statistics, ensure transparency to the central bank, facilitate settlement within 24 hours, redeem at par with central bank money, and define float management. Funds are not deposits and abandoned funds are transferred to the central bank after 7 years.",
+      "dtia_summary": "Sets strict conditions for electronic money issuance, including settlement timelines, trust accounts, and fund safeguarding, directly impacting cross-border data transfers and financial stability.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Electronic money shall not include credit provision",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Electronic money must be issued in equivalent Mauritius rupees acceptable by the central bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic money shall never expire",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Loyalty points cannot be converted into electronic money",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Periodic reports must include statistics on electronic money loaded and redeemed values",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The scheme must provide sufficient information to the central bank to monitor electronic money supply",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Clearing and settlement must occur within 24 hours of payment initiation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issuers must redeem electronic money at par with central bank money on request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Management of underlying float and redemption must be clearly defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Funds received in exchange for electronic money are not deposits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unreclaimed funds after 7 years, with no customer response within 6 months, are deemed abandoned and transferred to the central bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Funds must be safeguarded via trust accounts administered solely for customers' benefit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Funds must be covered by insurance or comparable guarantee from an insurer or bank",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In addition to the general requirements provided for in this Act for obtaining a licence as a payment service provider, an applicant shall be required to meet the following conditions – (a) the provision of electronic money shall not include the provision of credit; (b) electronic money shall be issued in exchange for the equivalent of Mauritius rupees acceptable by the central bank; (c) electronic money shall never expire; (d) any points or rewards accruing under loyalty schemes cannot be converted into electronic money; (e) statistics on electronic money loaded and redeemed values shall be provided in the periodic reports; (f) the scheme shall provide sufficient and reliable information to the central bank to monitor and control the quantity and velocity of electronic money supply in the economy; (g) clearing and settlement mechanisms shall facilitate provision of final settlement not more than 24 hours after a payment instruction has been initiated; (h) issuers shall be obliged to redeem electronic money value in central bank money, at par, on request; and (i) the management of the underlying float and redemption of electronic money value by the issuer to the holder shall be clearly defined."
+    },
+    {
+      "section": "46",
+      "heading": "Limited network",
+      "title": "Limited network payment services",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 55,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Payment services restricted to specific premises or commercial agreements within a limited network of providers or for limited goods/services are exempt from this Act. Service providers must notify the central bank before operating and meet thresholds for transaction value or user numbers to qualify for limited network recognition.",
+      "dtia_summary": "Defines exemptions for payment services with limited scope, reducing regulatory burden for specific cross-border payment scenarios.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment services based on instruments for goods/services only in specific premises or commercial agreements are exempt from this Act",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Service providers must notify the central bank of services offered before operating",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Service providers must meet central bank thresholds for transaction value or user numbers to qualify for limited network recognition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank must decide within one month on recognition as a limited network",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to subsections (2) and (3), this Act shall not apply to payment services based on instruments that may be used to acquire goods or services only in the premises used by the issuer or under a commercial agreement with the issuer either within a limited network of payment service providers or for a limited range of goods or services. A service provider shall, before taking up an activity referred to in subsection (1), send a written notification to the central bank containing a description of the services offered and submit a request for recognition as a limited network, where – (a) the total value of payment transactions executed over the preceding 12 months exceeds the amount specified by the central bank; or (b) the total number of users of the service exceeds the number specified by the central bank. Within one month from the date of receipt of a request for recognition, the central bank shall take a decision on the basis of the criteria referred to in subsection (1) to recognise the activity as a limited network or not and inform the service provider accordingly."
+    },
+    {
+      "section": "47",
+      "heading": "Admissibility of computer entries and electronic copy of document",
+      "title": "Admissibility of electronic documents",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 55,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Photographic images, microfilm, microfiche, and computer images of original documents (e.g., cheques, securities) are admissible as prima facie evidence if supported by written affidavit or oral testimony.",
+      "dtia_summary": "Allows electronic copies of documents to be used as evidence in cross-border disputes, relevant for data transfer compliance.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Photographic images, microfilm, microfiche, and computer images of original documents are admissible as prima facie evidence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Notwithstanding any other enactment, a photographic image such as a film, microfilm, microfiche or computer images of original documents such as cheques or other payment instruments, securities, certificates of deposits, account ledgers and electronic messages exchanged in the context of a financial collateral arrangement shall be admissible as prima facie evidence of the matters, or transactions of the original instrument, on proof being given on written affidavit or oral testimony."
+    },
+    {
+      "section": "48",
+      "heading": "Settlement of disputes",
+      "title": "Dispute resolution for payment systems",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 56,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Disputes between payment system participants must be resolved through written statements within 7 business days, with mediation within 10 business days if unresolved, and arbitration by a single arbitrator if still unresolved, following the Code de Procédure Civile.",
+      "dtia_summary": "Provides a structured dispute resolution process for cross-border payment system participants, critical for data transfer integrity.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Parties must provide written statements of grievances within 7 business days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parties may attempt mediation within 10 business days if unresolved",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central bank may refer disputes to a single arbitrator under Code de Procédure Civile",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Arbitrator must decide within one month of appointment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any dispute arising between an operator and a participant or between participants in a payment system in relation to any matter arising from the operation of the system, shall be settled in accordance with this section. The aggrieved party shall provide the other party with a written statement setting out the full particulars of its grievance, and the parties shall attempt to settle the matter amicably within 7 business days. Where the parties are unable to settle the matter amicably under subsection (2), they may attempt to settle it within a further period of 10 business days with the assistance of a mediator whose costs shall be shared equally by the parties. Where the parties are unable to settle the matter, the central bank may, at the request of the parties, refer the matter to a single arbitrator, and the provisions of the Code de Procédure Civile relating to arbitration shall apply."
+    },
+    {
+      "section": "49",
+      "heading": "Protection from liability",
+      "title": "Central bank immunity from liability",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 56,
+      "primary_category": "Governance",
+      "summary": "The central bank, its officers, employees, and agents are immune from liability for acts done in good faith while discharging functions under this Act.",
+      "dtia_summary": "Provides immunity for central bank actions related to payment systems, reducing legal risks in cross-border data transfers.",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No action shall lie against the central bank, any officer, employee, agent or examiner appointed by the central bank in respect of any act done or omitted to be done by the central bank in the discharge, in good faith, of its or his functions under this Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "No action shall lie against the central bank, any officer, employee, agent or examiner appointed by the central bank in respect of any act done or omitted to be done by the central bank, any officer, employee, agent or examiner appointed by the central bank, in the discharge, in good faith, of its or his functions under this Act."
+    },
+    {
+      "section": "50",
+      "heading": "Use of information for personal gain",
+      "title": "Prohibition on using participant information for personal gain",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "An officer or employee of the central bank or payment system operator who uses participant information for personal gain commits an offence. Conviction may result in a fine up to one million rupees or double the gain, whichever is greater, and imprisonment up to six months. Publicly known information is a defence.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Employee Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person who is an officer or employee of the central bank or payment system operator",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Makes use of participant information for personal gain",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Commit an offence on conviction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Be liable to a fine not exceeding one million rupees or double the gain, whichever is greater",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Be liable to imprisonment for up to six months",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Publicly known information is a defence",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A person who, being – (a) an officer or employee of the central bank; or (b) an officer or employee of an operator, makes use, for personal gain, of any information relating to the affairs of a participant, acquired in the performance of the person's duties under this Act or regulations made thereunder, shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees or double the amount of the person's gain, whichever is greater, and imprisonment for a term not exceeding 6 months."
+    },
+    {
+      "section": "51",
+      "heading": "Regulations",
+      "title": "Central bank's power to make payment system regulations",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 57,
+      "primary_category": "Other",
+      "summary": "The Central Bank may make regulations for payment systems, including authorisation of payment service providers, licensing requirements, suspension of licences, payment order rules, user protection, fee structures, and schedule amendments. The Financial Services Commission may also make regulations for matters under its purview without ministerial approval.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Central Bank may make regulations for the purposes of this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for authorisation, licensing, regulation, supervision and oversight of payment service providers and operators",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify form and manner for applying for authorisation or licence",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may define suspension or revocation of authorisation or licence",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may cover payment orders and money transfers executed by electronic messages",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for user protection measures",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may impose fees or charges",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may amend Schedules",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may cover any matter prescribed under this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial Services Commission may make regulations for matters under its purview",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations do not require ministerial approval",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The central bank may, for the purposes of this Act, make such regulations as it thinks fit."
+    },
+    {
+      "section": "52",
+      "heading": "Consequential amendments",
+      "title": "Amendments to other acts for payment systems",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 58,
+      "primary_category": "Other",
+      "summary": "This section amends the Bank of Mauritius Act, Banking Act, Securities (Central Depository, Clearing and Settlement) Act, and Financial Services (Other Financial Business Activity) Rules 2008 to include the National Payment Systems Act 2018. It adds definitions for 'banking laws' and 'professional relationship' and specifies that payment services must be conducted exclusively outside Mauritius.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Bank of Mauritius Act amended to include National Payment Systems Act 2018",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banking Act amended to include National Payment Systems Act 2018",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Securities (Central Depository, Clearing and Settlement) Act amended by repealing sections 13(1) and 14",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial Services (Other Financial Business Activity) Rules 2008 amended to require payment services conducted exclusively outside Mauritius",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Bank of Mauritius Act is amended – (a) in section 26 – (i) in subsection (4) – (A) in paragraph (a), by inserting, after the words \"under this Act\", the words \"or the National Payment Systems Act 2018\"; (B) by inserting, after paragraph (aa), the following new paragraph – (ab) the Bank from publishing, in whole or in part and at such time as it may decide, any information or data furnished to it under section 24 of the National Payment Systems Act 2018; (ii) by adding the following new subsection – (6) For the purposes of this section – \"banking laws\" includes the National Payment Systems Act 2018."
+    },
+    {
+      "section": "53",
+      "heading": "Transitional provisions",
+      "title": "Transitional provisions for payment service providers",
+      "chapter": null,
+      "part": "part a",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 59,
+      "primary_category": "Other",
+      "summary": "Payment service providers and operators may continue their activities for six months after the Act comes into force. Licences for payment intermediary services lapse after 12 months from the commencement of the Act or on a prescribed date. Applicants must apply for licences or authorisations within 90 days of the Act's commencement.",
+      "dtia_summary": "",
+      "authority": "Central Bank of Mauritius",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment service providers may continue for six months after Act commencement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licences for payment intermediary services lapse after 12 months from Act commencement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licences may lapse on a prescribed date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must apply for licences or authorisations within 90 days of Act commencement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central Bank must determine applications before expiry of the six-month or 12-month period",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any person, other than the central bank, which is acting as a payment service provider or operating a payment system on the commencement of this Act, may continue to do so for a period of 6 months from the date of commencement of this Act."
+    },
+    {
+      "section": "3",
+      "heading": "Execution of payment transactions, including transfers of funds on a payment account",
+      "title": "Execution of payment transactions with payment service providers",
+      "chapter": null,
+      "part": "part a",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "Payment transactions, including direct debits, one-off direct debits, payment card transactions, credit transfers, and standing orders, may be executed with the user's payment service provider or another payment service provider.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment transactions may be executed with the user's payment service provider",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions may be executed with another payment service provider",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Direct debits and one-off direct debits may be executed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions through payment cards or similar devices may be executed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Credit transfers and standing orders may be executed",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Execution of payment transactions, including transfers of funds on a payment account with the payment service provider of the user or with another payment service provider, including the execution of – (a) direct debits and one-off direct debits; (b) payment transactions through a payment card or a similar device; (c) credit transfers and standing orders"
+    },
+    {
+      "section": "4",
+      "heading": "Execution of payment transactions where the funds are covered by a credit line for a",
+      "title": "Execution of payment transactions with credit lines",
+      "chapter": null,
+      "part": "part a",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "Payment transactions where funds are covered by a credit line for a payment service user may include direct debits, one-off direct debits, payment card transactions, credit transfers, and standing orders.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include direct debits",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include one-off direct debits",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include payment card transactions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include credit transfers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Payment transactions where funds are covered by a credit line may include standing orders",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Execution of payment transactions where the funds are covered by a credit line for a payment service user, including the execution of – (a) direct debits and one-off direct debits; (b) payment transactions through a payment card or a similar device; (c) credit transfers and standing orders"
+    },
+    {
+      "section": "9",
+      "heading": "Any other services functional to the transfer of money, including the issuance of",
+      "title": "Services functional to money transfer including electronic money issuance",
+      "chapter": null,
+      "part": "part a",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 62,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines services that function in money transfers, such as electronic money and instruments, but excludes online or telecommunication services. These services must be considered when assessing cross-border data transfers for payment systems. The definition clarifies what constitutes relevant services under the National Payment Systems Act 2018.",
+      "dtia_summary": "This section defines services that may be involved in cross-border money transfers, requiring DTIAs to identify which services fall under the scope of electronic money issuance and related transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any other services functional to the transfer of money, including the issuance of electronic money and electronic money instruments",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. Any other services functional to the transfer of money, including the issuance of electronic money and electronic money instruments, but excluding the provision of solely online or telecommunication services or network access"
+    }
+  ]
+}

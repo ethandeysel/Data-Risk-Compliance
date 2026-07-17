@@ -1,0 +1,2354 @@
+{
+  "country": "Australia",
+  "document": "C2026C00058VOL01 (Australia - Row 13)",
+  "generated": "2026-07-17T10:52:41",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "3…) and the sections are divided into paragraphs (numbered 1.1,",
+      "title": "Legal entity and shareholder protections for small businesses",
+      "chapter": "Chapter 2M",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 269,
+      "page_end": 275,
+      "primary_category": "Other",
+      "summary": "This section explains that a company has a separate legal existence distinct from its owners, managers, and employees. Shareholders are not personally liable for company debts beyond unpaid shares. Directors may be liable for company debts if the company cannot pay them, but this liability is limited in certain circumstances. The section also covers the continuous existence of companies even after shareholders or directors leave, and the rules for internal management.",
+      "dtia_summary": "This section establishes the legal foundation for company structures, which is critical for DTIAs as it defines how data subjects and entities interact with company structures during cross-border data transfers.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company has a separate legal existence distinct from its owners, managers, employees, and agents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders are not liable for company debts beyond unpaid shares",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors may be liable for company debts if the company cannot pay them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company continues to exist even if shareholders or directors leave",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A company has a separate legal existence that is distinct from that of its owners, managers, operators, employees and agents. A company has its own property, its own rights and its own obligations."
+    },
+    {
+      "section": "3",
+      "heading": "or set up new companies themselves.",
+      "title": "Company registration and basic requirements for small businesses",
+      "chapter": "Chapter 2M",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 275,
+      "page_end": 279,
+      "primary_category": "Other",
+      "summary": "This section outlines the process for setting up a company, including the requirement to apply to ASIC for registration, the need for at least one shareholder, and the rules for company names and Australian Company Numbers (ACNs). It also covers the use of 'shelf' companies and the implications of contracts entered into before registration.",
+      "dtia_summary": "This section is relevant for DTIAs as it defines the legal structure of companies and the requirements for registration, which impact how data is structured and transferred across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A proprietary company must have at least one shareholder",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must have a name different from existing companies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A proprietary company must include 'Proprietary Limited' or 'Pty Ltd' in its name",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must have a unique 9-digit Australian Company Number (ACN)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A proprietary company limited by shares must have at least 1 shareholder. To obtain registration, a person must lodge a properly completed application form with ASIC."
+    },
+    {
+      "section": "4",
+      "heading": "the Corporations Act are discussed below.",
+      "title": "Ongoing obligations for registered companies",
+      "chapter": "Chapter 2M",
+      "part": "part o",
+      "condition": null,
+      "page_start": 279,
+      "page_end": 281,
+      "primary_category": "Other",
+      "summary": "This section details the ongoing obligations for companies after registration, including the use of company names and ACNs, annual extracts of particulars, review fees, and notification requirements for changes to company details. It emphasizes the need for companies to maintain accurate records with ASIC.",
+      "dtia_summary": "This section is relevant for DTIAs as it outlines the ongoing compliance requirements for companies, which impact data retention, record-keeping, and cross-border data transfers.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company must display its name at all business premises",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must pay an annual review fee to ASIC",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must notify ASIC of changes to directors, company secretaries, or registered office within 28 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Each year, ASIC issues each company with an extract of particulars within 2 weeks of the company's review date."
+    },
+    {
+      "section": "5",
+      "heading": "5  Company directors and company secretaries",
+      "title": "Director and company secretary responsibilities",
+      "chapter": "Chapter 2M",
+      "part": "part o",
+      "condition": null,
+      "page_start": 281,
+      "page_end": 285,
+      "primary_category": "Other",
+      "summary": "This section covers the qualifications, appointment, and duties of directors and company secretaries, including their legal responsibilities, potential liabilities, and the requirements for their registration with ASIC. It emphasizes the importance of directors acting in good faith and the company's obligations to maintain accurate records.",
+      "dtia_summary": "This section is relevant for DTIAs as it defines the roles and responsibilities of individuals involved in company operations, which impact data handling and transfer processes.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Directors must act in good faith and in the best interests of the company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors must avoid conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors must notify ASIC of changes to directors or company secretaries within 28 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Directors must act in good faith, act in the best interests of the company, avoid conflicts between the interests of the company and the director's interests."
+    },
+    {
+      "section": "6",
+      "heading": "[sections 461—462]",
+      "title": "Shareholder registration and share transfer mechanisms",
+      "chapter": "Chapter 2M",
+      "part": "part o",
+      "condition": null,
+      "page_start": 285,
+      "page_end": 293,
+      "primary_category": "Other",
+      "summary": "A person may become a shareholder through company registration, share issuance, or purchase from existing shareholders. Shareholders cease to be shareholders by selling all shares, company buyback, or ASIC cancellation. The section outlines specific transfer mechanisms and conditions for share transfers, including the requirement for company registration of transfers. Shareholders with at least 5% voting rights can call meetings and request meeting records.",
+      "dtia_summary": "This section defines share transfer mechanisms relevant to cross-border data transfers involving shareholder information, but does not directly impact data transfer impact assessments as it concerns company structures rather than data flows.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A person may become a shareholder through company registration, share issuance, or purchase from existing shareholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must register transfers of shares",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders with at least 5% voting rights may call meetings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Shareholders may request copies of meeting records",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A person may become a shareholder of a company in several ways, including the following: the person being listed as a shareholder of the company in the application for registration of the company, the company issuing shares to the person, the person buying shares in the company from an existing shareholder and the company registering the transfer."
+    },
+    {
+      "section": "6 (part 2)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 6D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 293,
+      "page_end": 301,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 3)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Types of companies that can be registered",
+      "chapter": "Chapter 2N",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 301,
+      "page_end": 308,
+      "primary_category": "Other",
+      "summary": "This section specifies the types of companies that can be registered under the Act, including limited by shares, unlimited with share capital, limited by guarantee, no liability companies, and corporate collective investment vehicles. It also outlines conditions for registering a no liability company, such as having share capital, specific constitutional requirements, and restrictions on activities outside mining purposes.",
+      "dtia_summary": "This section defines company types relevant to data processing structures but does not directly impact data transfer mechanisms or international data flows.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company may be registered as a no liability company only if it has share capital",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company's constitution states that its sole objects are mining purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company has no contractual right to recover calls made on shares from shareholders who fail to pay",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A no liability company must not engage in activities outside its mining purposes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors must not let whole or proportion of a mine on tribute without special resolution approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors must not make contracts for working land on tribute without special resolution approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company must have no more than 50 non-employee shareholders to be registered as a proprietary company",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 112(2) states: A company may be registered as a no liability company only if: (a) the company has a share capital; and (b) the company's constitution states that its sole objects are mining purposes; and (c) the company has no contractual right under its constitution to recover calls made on its shares from a shareholder who fails to pay them."
+    },
+    {
+      "section": "6 (part 4)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Application requirements for company registration",
+      "chapter": "Chapter 6D",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 308,
+      "page_end": 315,
+      "primary_category": "Other",
+      "summary": "This section details the information required for applying to register a company with ASIC, including company type, proposed name, member and director details, registered office address, and share information. It specifies that the application must be in prescribed form and that consents and agreements must be provided by applicants.",
+      "dtia_summary": "This section outlines registration requirements but does not directly impact data transfer mechanisms or international data flows.",
+      "authority": "ASIC",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The application must state the type of company proposed to be registered",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must specify the company's proposed name (unless ACN is used)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must list the name and address of each person consenting to become a member",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must include present and former given and family names, dates and places of birth for directors and company secretaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must state the address of the company's proposed registered office",
+          "obligation_type": ""
+        },
+        {
+          "text": "The application must specify the address of the company's principal place of business (if different from registered office)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must include share details for companies limited by shares or unlimited companies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 117(2) requires: The application must state: (a) the type of company; (b) the company's proposed name; (c) the name and address of each person who consents to become a member; (d) the present given and family name, all former given and family names and date and place of birth of each person who consents to become a director; etc."
+    },
+    {
+      "section": "6 (part 6)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Contracts entered before company registration",
+      "chapter": "Chapter 2B",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 321,
+      "page_end": 328,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A person entering into a contract on behalf of or for a company before registration becomes bound by the contract if the company later registers and ratifies it within a reasonable time. The person is liable for damages if the company fails to register or ratify. Courts may order the company to pay damages, transfer property, or pay an amount to contract parties. A party may release the person from liability through a written release, but the person has no right of indemnity against the company regardless of acting as trustee.",
+      "dtia_summary": "This section establishes contractual obligations for pre-registration agreements, requiring ratification by the company within a reasonable time to avoid liability. It impacts DTIAs by defining when contracts are binding and the remedies available if the company fails to ratify.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "If a person enters into a contract before company registration, the company becomes bound by the contract if it registers and ratifies within a reasonable time.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The person is liable to pay damages to contract parties if the company fails to register or ratify the contract.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The amount of damages is the amount the company would pay if it ratified and failed to perform.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Courts may order the company to pay damages, transfer property, or pay an amount to contract parties.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A party may release the person from liability through a written release.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The person has no right of indemnity against the company regardless of acting as trustee.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 131(1): If a person enters into, or purports to enter into, a contract on behalf of, or for the benefit of, a company before it is registered, the company becomes bound by the contract and entitled to its benefit if the company, or a company that is reasonably identifiable with it, is registered and ratifies the contract: (a) within the time agreed to by the parties to the contract; or (b) if there is no agreed time—within a reasonable time after the contract is entered into."
+    },
+    {
+      "section": "6 (part 7)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Replaceable rules for company governance",
+      "chapter": "Chapter 2B",
+      "part": "part o",
+      "condition": null,
+      "page_start": 328,
+      "page_end": 336,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section lists replaceable rules that govern company operations, including director powers, meetings, share transfers, and registered office requirements. These rules apply to companies registered after July 1, 1998, and can be modified by the company's constitution. Failure to comply with replaceable rules does not constitute a contravention of the Act, but the rules have effect as contracts between the company and its members, directors, and other members.",
+      "dtia_summary": "Replaceable rules define operational frameworks for companies, impacting DTIAs by establishing contractual obligations and governance structures that affect data handling and cross-border transfers.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Replaceable rules apply to companies registered after July 1, 1998, and those that repealed constitutions after that date.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company's constitution can displace or modify replaceable rules.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failure to comply with replaceable rules does not constitute a contravention of the Act.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Replaceable rules have effect as contracts between the company and each member, director, and other members.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 141: The following table sets out the provisions of this Act that apply as replaceable rules. These rules govern company operations and have effect as contracts between the company and its members, directors, and other members."
+    },
+    {
+      "section": "6 (part 8)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Company name requirements and name change procedures",
+      "chapter": "Chapter 2B",
+      "part": "part o",
+      "condition": null,
+      "page_start": 336,
+      "page_end": 344,
+      "primary_category": "Other",
+      "summary": "Companies in Australia must have names that include specific words like 'Limited', 'Proprietary', or 'No Liability' depending on their type. Limited companies must end with 'Limited' or 'Proprietary Limited', unlimited proprietary companies must end with 'Proprietary', and no liability companies must end with 'No Liability'. Companies must also include their Australian Company Number (ACN) in their names or documents. Name changes require special resolutions and ASIC approval, with specific rules for companies under administration, liquidation, or restructuring. ASIC can direct companies to change names if they breach conditions.",
+      "dtia_summary": "This section governs company naming conventions and name change procedures, which are relevant for DTIAs when assessing the impact of name changes on data processing across borders, particularly for companies operating internationally with Australian entities.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A company may have as its name an available name or the expression 'Australian Company Number' followed by the company's ACN.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A limited public company must have the word 'Limited' at the end of its name unless section 150 or 151 applies.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A limited proprietary company must have the words 'Proprietary Limited' at the end of its name.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An unlimited proprietary company must have the word 'Propri",
+          "obligation_type": ""
+        },
+        {
+          "text": "A no liability company must have the words 'No Liability' at the end of its name.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A public company must not include the word 'Proprietary' (or an abbreviation of it) in its name unless it was a public company before 1 July 1998 and included 'Proprietary' in its name before that date.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company must set out its name on all public documents and negotiable instruments.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the company's ACN is not used in its name, the company must also set out 'Australian Company Number' followed by the ACN or 'Australian Business Number' followed by the ABN (if the last 9 digits match).",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must pass a special resolution adopting a new name to change its name.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must lodge an application with ASIC to change its name after passing a special resolution.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC must change the company's name by altering the registration details if the proposed name is available.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC may direct a company to change its name within 2 months if the name should not have been registered or the company breaches conditions on name usage.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A company must comply with ASIC's name change direction within 2 months.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC may change a company's name to include 'Limited' if the company contravenes constitutional requirements or modifies its constitution to remove them.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 148: A company may have as its name: (a) an available name; or (b) the expression 'Australian Company Number' followed by the company's ACN."
+    },
+    {
+      "section": "6 (part 9)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2B",
+      "part": "part o",
+      "condition": null,
+      "page_start": 344,
+      "page_end": 351,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 10)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Company type conversion requirements and applications",
+      "chapter": "Chapter 2B",
+      "part": "part o",
+      "condition": null,
+      "page_start": 351,
+      "page_end": 357,
+      "primary_category": "Other",
+      "summary": "This section outlines the process for companies to change their legal structure, including specific requirements for applications to ASIC. It mandates that companies must lodge applications with ASIC, include special resolutions, and provide detailed information about share changes. The section also specifies conditions under which certain types of companies can convert to others, such as public companies converting to proprietary companies with fully paid shares.",
+      "dtia_summary": "This section is relevant for DTIAs as it details the conditions and documentation required when companies change their legal structure, which may impact data storage and processing across borders due to changes in company type and associated data handling requirements.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company must lodge an application with ASIC to change its type",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The application must include a copy of the special resolution resolving to change the type",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a company limited by guarantee changing to a company limited by shares, the application must include a statement signed by directors that creditors are not likely to be materially prejudiced",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For companies changing to an unlimited company, the application must include an assent to the change signed by all members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For proprietary companies changing to public companies, the application must include a consolidated copy of the constitution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must lodge a copy of any special resolution modifying its constitution after the application is lodged",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must lodge information relating to any change of rights attached to shares after the application is lodged",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For a company limited by guarantee changing to a company limited by shares, the application must include a list of details about persons receiving shares",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must have consents from persons receiving shares when the application is lodged",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 163: To change its type, a company must lodge an application with ASIC."
+    },
+    {
+      "section": "6 (part 11)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "ASIC authority to direct company type changes and effect of conversion",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 357,
+      "page_end": 365,
+      "primary_category": "Other",
+      "summary": "This section details ASIC's authority to direct proprietary companies to change to public companies if they contravene proprietary company requirements. It specifies that the company must comply within two months, and failure to do so results in ASIC automatically changing the company type. The section also clarifies that a change of type does not create a new legal entity or affect existing property, rights, or obligations.",
+      "dtia_summary": "This section is relevant for DTIAs as it outlines the conditions under which company type changes occur, which may impact data storage and processing across borders due to changes in company structure and associated data handling requirements.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "ASIC may direct a proprietary company to change to a public company within 2 months if it contravenes section 113",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must comply with the direction within 2 months by changing to a public company under section 164",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A change of type does not create a new legal entity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A change of type does not affect the company's existing property, rights or obligations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 165: ASIC may direct a proprietary company in writing to change to a public company within 2 months if it is satisfied that the company has contravened section 113."
+    },
+    {
+      "section": "6 (part 12)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Registration of members and option holders for companies and schemes",
+      "chapter": "Chapter 5",
+      "part": "Part p",
+      "condition": null,
+      "page_start": 365,
+      "page_end": 372,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that companies and registered schemes maintain specific registers, including a register of members, option holders, and debenture holders. The registers must contain detailed information about members, such as names, addresses, share details, and dates of entry. For companies with share capital, the register must also include share allotment dates, share numbers, and the status of shares. The section specifies that registers must be updated for transfers and options, and that companies must keep these records at designated locations within Australia.",
+      "dtia_summary": "This section establishes requirements for maintaining detailed member and option registers, which are critical for data storage compliance. It specifies data retention periods, update procedures, and geographic constraints on where registers must be kept, directly impacting cross-border data storage and transfer scenarios.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company or registered scheme must set up and maintain a register of members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The register of members must contain the name, address, and date of entry for each member",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For companies with share capital, the register must show allotment dates, share numbers, and share status",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The register must include information about option holders, including grant dates and exercise terms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The register must be updated whenever options are exercised or expire",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must keep the register at its registered office or principal place of business in Australia",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must notify ASIC within 7 days of moving the register from its registered office to another location",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 167A(1) This Chapter covers: (a) all companies; and (b) all registered schemes."
+    },
+    {
+      "section": "6 (part 13)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2C",
+      "part": "Part p",
+      "condition": null,
+      "page_start": 372,
+      "page_end": 379,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 14)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Notification of member register changes to ASIC within timeframes",
+      "chapter": "Chapter 2C",
+      "part": "part o",
+      "condition": null,
+      "page_start": 379,
+      "page_end": 386,
+      "primary_category": "Data Sharing",
+      "summary": "Proprietary companies must notify ASIC within specified timeframes when they add or alter entries in their member register following certain events, including court orders for corrections, share divisions, share conversions, share issuances, or share capital reductions. The notification deadlines are tied to the company's existing notification obligations under other sections of the Corporations Act. This applies to proprietary companies and requires adherence to specific timeframes for each event type.",
+      "dtia_summary": "Requires timely notification of member register changes to ASIC, which impacts data transfer impact assessments by establishing time-bound obligations for sharing corporate information across borders where ASIC is the regulator.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Residency",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Company must notify ASIC within timeframes for member register changes following court orders for corrections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Company must notify ASIC within timeframes for member register changes following share divisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Company must notify ASIC within timeframes for member register changes following share conversions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Company must notify ASIC within timeframes for member register changes following share issuances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Company must notify ASIC within timeframes for member register changes following share capital reductions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Company must notify ASIC within 28 days after adding or altering member register entries for events not covered by items 1-4",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The company must notify ASIC within this time... within 28 days after the day on which it adds or alters the particular in the register"
+    },
+    {
+      "section": "6 (part 15)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Corporate directors' and secretaries' civil obligations",
+      "chapter": "Chapter 2D",
+      "part": "Part s",
+      "condition": null,
+      "page_start": 386,
+      "page_end": 393,
+      "primary_category": "Governance",
+      "summary": "Directors, secretaries, and other officers of corporations must exercise care, diligence, and good faith in their duties, avoiding improper use of position or information, and not causing detriment to the corporation. These obligations apply to civil liabilities and are distinct from criminal offenses. The duties include acting in good faith for the corporation's best interests, avoiding conflicts of interest, and ensuring proper use of information obtained in their capacity as officers.",
+      "dtia_summary": "Establishes civil obligations for corporate officers that impact data transfer impact assessments by requiring adherence to governance standards when handling corporate data across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Data Sharing",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Directors and officers must exercise care and diligence with the degree a reasonable person would exercise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors and officers must make business judgments in good faith for proper purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors and officers must not improperly use their position to gain advantage or cause detriment",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors and officers must not improperly use information obtained in their capacity as officers",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors and officers must act in good faith in the best interests of the corporation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors and officers must act for a proper purpose",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A director or other officer of a corporation must exercise their powers and discharge their duties with the degree of care and diligence that a reasonable person would exercise if they: (a) were a director or officer of a corporation in the corporation's circumstances; and (b) occupied the office held by, and had the same responsibilities within the corporation as, the director or officer."
+    },
+    {
+      "section": "6 (part 16)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Director disclosure of personal interests in company matters",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 393,
+      "page_end": 400,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Directors must disclose material personal interests in company matters to other directors. The disclosure must be made in writing to individual directors if given to directors, and recorded in meeting minutes. The standing notice takes effect immediately upon disclosure and ceases if a new director is appointed who wasn't a director at the time of disclosure. If the interest materially increases, the standing notice ceases to apply. This section also specifies that directors may vote and proceed with transactions related to their interest if disclosure is made before the transaction, but they must not be present or vote on matters involving their interest unless specific conditions are met.",
+      "dtia_summary": "This section establishes disclosure requirements for directors with material personal interests in company matters, which could impact data transfer assessments when directors handle personal data across borders. The disclosure process and conditions for voting on transactions involving personal interests affect how data is processed by directors in cross-border contexts.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Standing notice must be given to every director",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standing notice must be tabled at next directors' meeting if given to directors individually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Nature and extent of interest disclosed in standing notice must be recorded in meeting minutes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standing notice takes effect immediately upon disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standing notice ceases to have effect if a new director is appointed who wasn't a director at time of disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standing notice reactivates if given to the new director",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Standing notice ceases if interest materially increases above disclosed level",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors may vote on matters related to interest if disclosure made before transaction",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Transactions related to interest may proceed if disclosure made before transaction",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors may retain benefits from transactions related to interest",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Company cannot avoid transaction due to director's interest",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors must not be present while considering matters involving their interest",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors must not vote on matters involving their interest",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Directors may be present and vote if other directors pass resolution identifying interest and confirming it doesn't disqualify them",
+          "obligation_type": "May"
+        },
+        {
+          "text": "ASIC may declare director may be present and vote despite interest if quorum would be less than required without director",
+          "obligation_type": "May"
+        },
+        {
+          "text": "ASIC may make class orders allowing directors with interest to be present and vote",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 192(3): If the standing notice is given to the other directors individually in writing, it must be tabled at the next directors' meeting after it is given."
+    },
+    {
+      "section": "6 (part 17)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Directors' powers to manage company affairs",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 400,
+      "page_end": 407,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Directors may exercise all company powers except those requiring general meeting approval. Directors can delegate powers to committees, directors, employees, or others. Directors may sign negotiable instruments, appoint managing directors, and access company books for legal proceedings. Directors who are sole shareholders may exercise all powers without general meeting approval. This section also covers restrictions on officers' powers during external administration.",
+      "dtia_summary": "This section defines directors' authority to manage company affairs, which impacts data transfer assessments by establishing who can access and process personal data across borders. The delegation of powers and access to company books affect how data is handled by directors in cross-border contexts.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Directors may exercise all company powers except those requiring general meeting approval",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Any 2 directors may sign negotiable instruments",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors may confer powers on managing directors",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors may delegate powers to committees, directors, employees, or others",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Delegated powers must be exercised according to directors' directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors may inspect company books for legal proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Directors may take copies of books for legal proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Company must allow access to books for legal proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sole directors may exercise all company powers without general meeting approval",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Sole directors may sign negotiable instruments",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 198A(1): The business of a company is to be managed by or under the direction of the directors."
+    },
+    {
+      "section": "6 (part 18)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Indemnity and insurance restrictions for officers and auditors",
+      "chapter": "Chapter 2D",
+      "part": "part f",
+      "condition": null,
+      "page_start": 407,
+      "page_end": 413,
+      "primary_category": "Other",
+      "summary": "A company cannot indemnify a person against legal costs incurred in defending actions where the person is found liable for which they could not be indemnified under section 199A. This includes defending criminal proceedings, proceedings by ASIC or liquidators for court orders, and proceedings for relief under the Act where the court denies relief. The company may provide loans or advances for legal costs instead. The outcome of proceedings includes any related appeals.",
+      "dtia_summary": "Restricts indemnification of officers and auditors against legal costs in specific scenarios, impacting cross-border data transfer where legal costs are involved in disputes over data processing.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A company must not indemnify a person against legal costs incurred in defending actions where the person is found liable for which they could not be indemnified under subsection (2)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company must not indemnify a person against legal costs incurred in defending criminal proceedings where the person is found guilty",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company must not indemnify a person against legal costs incurred in defending proceedings by ASIC or liquidators for court orders where the grounds for the order are established",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company must not indemnify a person against legal costs incurred in proceedings for relief under this Act where the court denies the relief",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The company may provide a loan or advance for legal costs",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A company or related body corporate must not indemnify a person against legal costs incurred in defending an action for a liability incurred as an officer or auditor of the company if the costs are incurred: (a) in defending or resisting proceedings in which the person is found to have a liability for which they could not be indemnified under subsection (2); or (b) in defending or resisting criminal proceedings in which the person is found guilty; or (c) in defending or resisting proceedings brought by ASIC or a liquidator for a court order if the grounds for making the order are found by the court to have been established; or (d) in connection with proceedings for relief to the person under this Act in which the Court denies the relief."
+    },
+    {
+      "section": "6 (part 19)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 413,
+      "page_end": 419,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 20)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Pension and lump sum payment calculations for retirement benefits",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 419,
+      "page_end": 426,
+      "primary_category": "Other",
+      "summary": "This section defines the calculation method for pension and lump sum payments upon retirement from a company or related body corporate. It specifies that the value of benefits must not exceed the amount calculated based on the relevant period, which is determined by the duration the person held managerial or executive office. The calculation varies depending on the length of the relevant period (less than 1 year, 1-2 years, 2-3 years, or 3+ years) and involves estimating annual base salary. The section also states that any pension or lump sum payment attributable to contributions made by the person or other entities must be disregarded when determining the value for the purpose of this calculation.",
+      "dtia_summary": "This section specifies how to calculate the value of retirement benefits for data transfer impact assessments, particularly when determining the scope of data that may be transferred across borders related to pension and lump sum payments. The calculation method based on relevant periods and base salary estimates affects the data types and financial relevance of cross-border transfers involving retirement benefits.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The relevant period for a person holding managerial or executive office is the period they held that office throughout a single period or multiple periods.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For benefits related to retirement, the value must not exceed the amount calculated based on the relevant period and the person's annual base salary.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The calculation for the amount worked out depends on the length of the relevant period (less than 1 year, 1-2 years, 2-3 years, or 3+ years).",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The amount worked out for the relevant period is the average annual base salary over the last 3 years of the relevant period if the period is 3 years or more.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Any pension or lump sum payment attributable to contributions made by the person must be disregarded when determining the value.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any pension or lump sum payment attributable to contributions made by other entities must be disregarded when determining the value.",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 200G: (1) Subsection 200B(1) does not apply to a benefit if: (a) the benefit is a payment in connection with a person's retirement from an office or position in a company or a related body corporate; and (b) the payment is for past services the person rendered to: (i) the company; or (ii) a related body corporate; or (iii) a body that was a related body corporate of the company when the past services were rendered; and (c) the value of the benefit, when added to the value of all other benefits (if any) already given in connection with the person's retirement from offices or positions in the company and related bodies corporate does not exceed the amount worked out under whichever of subsections (2) and (3) is applicable."
+    },
+    {
+      "section": "6 (part 21)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Director appointments and confirmations for proprietary and public companies",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 426,
+      "page_end": 432,
+      "primary_category": "Other",
+      "summary": "This section outlines the rules for appointing directors, including the requirement for a company to confirm appointments within 2 months for proprietary companies or at the next general meeting for public companies. It specifies that a director may appoint an alternate director to exercise some or all of their powers for a specified period, and that such appointments must be in writing and notified to ASIC. The section also addresses the effectiveness of acts by directors even if their appointment is invalid due to non-compliance with the company's constitution.",
+      "dtia_summary": "This section impacts data transfer impact assessments by defining the conditions under which director appointments and confirmations must occur, particularly for proprietary and public companies. The requirement for written confirmations and ASIC notifications affects the data types and financial relevance of cross-border transfers involving director information.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company may appoint a person as a director by resolution passed in general meeting.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If a person is appointed as a director of a proprietary company, the company must confirm the appointment by resolution within 2 months after the appointment.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If a person is appointed as a director of a public company by other directors, the company must confirm the appointment by resolution at the next general meeting.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A director may appoint an alternate to exercise some or all of their powers for a specified period with the other directors' approval.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The appointment of an alternate director must be in writing and a copy must be given to the company.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must notify ASIC within 28 days if a person is appointed as a director or alternate director.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An act done by a director is effective even if their appointment is invalid due to non-compliance with the company's constitution.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 201G: A company may appoint a person as a director by resolution passed in general meeting. Section 201H: The directors of a company may appoint a person as a director. A person can be appointed as a director in order to make up a quorum for a directors' meeting even if the total number of directors of the company is not enough to make up that quorum."
+    },
+    {
+      "section": "6 (part 22)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Director resignation and effectiveness conditions",
+      "chapter": "Chapter 2D",
+      "part": "part o",
+      "condition": null,
+      "page_start": 432,
+      "page_end": 439,
+      "primary_category": "Other",
+      "summary": "This section outlines conditions under which a director's resignation takes effect. It specifies that resignation takes effect on the day the person stops being a director unless ASIC or the Court fixes a different day. The Court may adjust the resignation date if the resignation takes effect on a day that is not the day the person stopped being a director, provided the applicant satisfies the conditions for equity and fairness. The resignation does not take effect if the company has no directors remaining after the resignation.",
+      "dtia_summary": "This section affects data transfer impact assessments by establishing conditions for director resignation effectiveness, which could impact data handling continuity if directors are involved in data processing activities across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person's resignation as a director takes effect on the day they stopped being a director unless ASIC or the Court fixes a different day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC or the Court may fix the resignation day as the day the person's resignation takes effect if the applicant satisfies conditions for equity and fairness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The resignation does not take effect if the company has no directors remaining after the resignation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company."
+    },
+    {
+      "section": "6 (part 23)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Director resignation and effectiveness conditions for public companies",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 439,
+      "page_end": 447,
+      "primary_category": "Other",
+      "summary": "This section specifies that a director's resignation takes effect on the day they stop being a director unless ASIC or the Court fixes a different day. The Court may adjust the resignation date if the resignation takes effect on a day that is not the day the person stopped being a director, provided the applicant satisfies conditions for equity and fairness. The resignation does not take effect if the company has no directors remaining after the resignation.",
+      "dtia_summary": "This section affects data transfer impact assessments by establishing conditions for director resignation effectiveness, which could impact data handling continuity if directors are involved in data processing activities across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person's resignation as a director takes effect on the day they stopped being a director unless ASIC or the Court fixes a different day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC or the Court may fix the resignation day as the day the person's resignation takes effect if the applicant satisfies conditions for equity and fairness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The resignation does not take effect if the company has no directors remaining after the resignation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company."
+    },
+    {
+      "section": "6 (part 24)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Alternative address for service in legal notices",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 447,
+      "page_end": 454,
+      "primary_category": "Other",
+      "summary": "This section allows individuals to provide an alternative Australian address for receiving legal notices if their residential address is not on an electoral roll or if ASIC determines including their residential address risks their safety. The alternative address must be within Australia and must be a valid address for service. Individuals must notify ASIC of their usual residential address before using the alternative address and must update ASIC within 14 days of any change. ASIC may disclose the usual residential address to courts to enforce judgments.",
+      "dtia_summary": "This section establishes conditions for alternative addresses used in legal notices, which could impact data transfer if addresses are shared across borders for service purposes.",
+      "authority": "ASIC",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Alternative address must be in Australia and be one at which documents can be served on the person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person is entitled to have only 1 alternative address under this section",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Before or at the same time as the alternative address is first included in a notice or application, lodge with ASIC notice of the person's usual residential address",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Lodge with ASIC notice of any change in the person's usual residential address within 14 days after the change",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC may give details of the person's usual residential address to an officer of the court for the purposes of enforcing the judgment debt",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 205E(2) - A person who takes advantage of subsection (2) must: (a) before or at the same time as the alternative address is first included in a notice or application, lodge with ASIC notice of the person's usual residential address; and (b) lodge with ASIC notice of any change in the person's usual residential address within 14 days after the change."
+    },
+    {
+      "section": "6 (part 25)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Court power to disqualify for repeated contraventions",
+      "chapter": "Chapter 6",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 454,
+      "page_end": 461,
+      "primary_category": "Other",
+      "summary": "Courts may disqualify persons who have at least twice been officers of a body corporate that has contravened the Act or Corporations Act, failed to take reasonable steps to prevent contraventions, or have repeated contraventions while in office. The disqualification period is determined by the court.",
+      "dtia_summary": "This section allows courts to disqualify persons for repeated contraventions, which could impact data transfer if corporate compliance details are shared across borders.",
+      "authority": "Court",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Governance"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Courts may disqualify persons who have at least twice been officers of a body corporate that has contravened this Act or the Corporations Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Courts may disqualify persons who have at: (i) at least twice failed to take reasonable steps to prevent contraventions; (ii) at least twice contravened this Act or the Corporations Act while in office; (iii) done something that would have contravened subsection 180(1) or section 181 if the body corporate had been a corporation",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 206E(3) - Courts may disqualify persons who have at least twice been officers of a body corporate that has contravened this Act or the Corporations Act, failed to take reasonable steps to prevent contraventions, or have repeated contraventions while in office."
+    },
+    {
+      "section": "6 (part 26)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Disqualification of corporate officers under competition and consumer laws",
+      "chapter": "Chapter 6",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 461,
+      "page_end": 468,
+      "primary_category": "Other",
+      "summary": "A person is disqualified from managing corporations if a court order under the Competition and Consumer Act 2010 or ASIC Act is in force. ASIC may disqualify a person for up to 5 years if they were an officer of multiple corporations that wound up within 7 years, with specific conditions on financial recoveries and employee entitlements. Disqualification takes effect immediately after notice is served and may be subject to court review for leave to manage corporations.",
+      "dtia_summary": "This section establishes conditions for disqualifying corporate officers, which could impact data transfer if disqualified individuals handle sensitive financial data across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person is disqualified from managing corporations if a court order disqualifying the person from managing corporations is in force under section 86E of the Competition and Consumer Act 2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person is disqualified from managing corporations if a court order disqualifying the person from managing corporations is in force under section 248 of Schedule 2 to the ASIC Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC may disqualify a person from managing corporations for up to 5 years if within 7 years before notice, the person was an officer of 2 or more corporations that wound up with liquidators reporting inability to pay debts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC must give the person a notice in prescribed form requiring them to demonstrate why they should not be disqualified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC must give the person an opportunity to be heard on the question",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASIC must be satisfied that disqualification is justified",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disqualification takes effect from the time when ASIC serves notice on the person",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person is disqualified from managing corporations if a court order disqualifying the person from managing corporations is in force under: (a) section 86E of the Competition and Consumer Act 2010; or (b) section 248 of Schedule 2 to that Act, as that section applies as a law of the Commonwealth, a State or a Territory."
+    },
+    {
+      "section": "6 (part 27)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Ban on hedging remuneration of key management personnel",
+      "chapter": "Chapter 6",
+      "part": "Part w",
+      "condition": null,
+      "page_start": 468,
+      "page_end": 478,
+      "primary_category": "Other",
+      "summary": "Key management personnel for disclosing entities cannot enter into arrangements that limit their exposure to risk related to remuneration that has not vested or remains subject to a holding lock. Remuneration not payable until a specific date is considered unvested until that date. Contravention is an offence of strict liability, with additional offences for reckless or intentional contraventions by closely related parties.",
+      "dtia_summary": "This section restricts remuneration arrangements for key management personnel, which could affect data transfer if remuneration involves cross-border financial transactions.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A member of key management personnel for a disclosing entity must not enter into arrangements limiting exposure to risk relating to remuneration that has not vested or remains subject to a holding lock",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Remuneration not payable until a specific date is considered unvested until that date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contravention of subsection (1) is an offence of strict liability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A closely related party of a key management personnel member commits an offence if they intentionally contravene subsection (1)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A member of the key management personnel for a company that is a disclosing entity, or a closely related party of such a member, must not enter into an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock."
+    },
+    {
+      "section": "6 (part 28)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Exceptions to member approval for financial benefits to related parties",
+      "chapter": "Chapter 2E",
+      "part": "Part f",
+      "condition": null,
+      "page_start": 478,
+      "page_end": 485,
+      "primary_category": "Other",
+      "summary": "This section outlines exceptions where member approval is not required for financial benefits to related parties. It specifies that benefits for related parties acting as officers, indemnities, exemptions, insurance premiums, legal costs, and small amounts under certain thresholds do not require approval if they are reasonable and meet specific conditions. The section also defines related parties and the circumstances under which benefits are considered to be given.",
+      "dtia_summary": "This section provides exceptions for financial benefits to related parties without requiring member approval, which can impact data transfer assessments when related parties are involved in financial transactions.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Member approval is not needed for financial benefits to related parties who are officers of the public company or entity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The benefit must be an indemnity, exemption, or insurance premium for liabilities incurred as an officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The benefit must be reasonable in the circumstances of the public company or entity giving the benefit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member approval is not needed for payments in respect of legal costs incurred by officers defending actions for liabilities incurred as officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The officer must repay the amount paid if costs become costs for which the company must not give indemnity under section 199A",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member approval is not needed for financial benefits to related parties if the total amount is less than or equal to the prescribed amount for the financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The financial benefit must be given by a body corporate to a closely-held subsidiary or vice versa",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A body corporate is a closely-held subsidiary if no member is a person other than the other body, a nominee of the other body, or a closely-held subsidiary of the other body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member approval is not needed for financial benefits to members if the benefit does not discriminate unfairly against other members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Member approval is not needed for financial benefits under a court order",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Member approval is not needed to give a financial benefit if: (a) the benefit is for a related party who is an officer of the public company or entity; and (b) the benefit is an indemnity, exemption or insurance premium in respect of a liability incurred as an officer of the public company or entity; and (c) to give the benefit would be reasonable in the circumstances of the public company or entity giving the benefit."
+    },
+    {
+      "section": "6 (part 29)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2E",
+      "part": "Part f",
+      "condition": null,
+      "page_start": 485,
+      "page_end": 493,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 30)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Membership and oppressive conduct of company affairs",
+      "chapter": "Chapter 2E",
+      "part": "Part f",
+      "condition": null,
+      "page_start": 493,
+      "page_end": 500,
+      "primary_category": "Other",
+      "summary": "A person becomes a company member if registered, agrees to join after registration, or joins via conversion from a guarantee company. The court may order remedies if company conduct is oppressive to members, unfairly prejudicial, or discriminatory. A person inheriting shares is treated as a member. The court can order winding up, constitutional changes, future conduct regulation, share purchases, legal proceedings, or appointments of receivers. The company cannot change its constitution if inconsistent with court orders without court permission.",
+      "dtia_summary": "This section establishes conditions for court intervention when company conduct is oppressive to members, relevant for DTIAs involving cross-border company structures where member rights or constitutional changes affect data flows.",
+      "authority": "Court",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person is a member of a company if they are registered, agree to join after registration, or become a member under section 167",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court may make orders if company conduct is oppressive to members, unfairly prejudicial, or discriminatory",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can order winding up of the company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can order modification or repeal of the company's constitution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can regulate future conduct of the company's affairs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can order purchase of shares by members or persons inheriting shares",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can order purchase of shares with reduction of company share capital",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can authorize members or persons inheriting shares to institute proceedings on behalf of the company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can appoint a receiver or receiver and manager of company property",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can restrain a person from engaging in specified conduct",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court can require a person to do a specified act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person inheriting shares is treated as a member of the company",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 231: A person is a member of a company if they: (a) are a member of the company on its registration; or (b) agree to become a member of the company after its registration and their name is entered on the register of members; or (c) become a member of the company under section 167 (membership arising from conversion of a company from one limited by guarantee to one limited by shares)."
+    },
+    {
+      "section": "6 (part 31)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2F",
+      "part": "Part f",
+      "condition": null,
+      "page_start": 500,
+      "page_end": 507,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 32)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Company must lodge share division or conversion documents with ASIC",
+      "chapter": "Chapter 2F",
+      "part": "Part d",
+      "condition": null,
+      "page_start": 507,
+      "page_end": 516,
+      "primary_category": "Other",
+      "summary": "A company must lodge with ASIC a notice in prescribed form when dividing shares into classes or converting shares between classes. The notice must be lodged within 14 days after the division or conversion. Public companies must also lodge copies of documents or resolutions that attach, vary or cancel share rights or bind classes of members. The company must send members copies of documents within 7 days after payment or approval by ASIC.",
+      "dtia_summary": "Requires companies to notify ASIC of share class changes and provide members with document copies within 14 or 7 days. Relevant for DTIA as it involves record-keeping and member access to company documents.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company must lodge with ASIC a notice in prescribed form when dividing shares into classes or converting shares between classes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The notice must be lodged within 14 days after the division or conversion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public companies must lodge copies of documents or resolutions that attach, vary or cancel share rights or bind classes of members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must send members copies of documents within 7 days after payment or approval by ASIC",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 246F(1): A company must lodge with ASIC a notice in the prescribed form setting out particulars of any of the following: (a) a division of shares in the company into classes if the shares were not previously so divided; (b) a conversion of shares in a class of shares in the company into shares in another class. Note: (2) The notice must be lodged within 14 days after the division or conversion."
+    },
+    {
+      "section": "6 (part 34)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Members' right to request company to distribute statements",
+      "chapter": "Chapter 2G",
+      "part": "Part d",
+      "condition": null,
+      "page_start": 524,
+      "page_end": 531,
+      "primary_category": "Other",
+      "summary": "Members may request a company to distribute statements about resolutions or other matters to all members. The request must be in writing and signed by at least 100 members entitled to vote. The company must distribute the statement within 7 days after receipt, unless the statement is over 1,000 words or defamatory. Members are liable for distribution costs if the company doesn't receive the request in time.",
+      "dtia_summary": "Allows members to request company statements for distribution. Relevant for DTIA as it involves member access to company information and distribution requirements.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Members may request a company to give to all its members a statement provided by the members making the request about a resolution or other matter",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The request must be in writing and signed by at least 100 members entitled to vote",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must distribute the statement within 7 days after receipt",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company need not comply if the statement is over 1,000 words or defamatory",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 249P(1): Members may request a company to give to all its members a statement provided by the members making the request about: (a) a resolution that is proposed to be moved at a general meeting; or (b) any other matter that may be properly considered at a general meeting."
+    },
+    {
+      "section": "6 (part 35)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Member participation and quorum requirements for company meetings",
+      "chapter": "Chapter 2G",
+      "part": "Part d",
+      "condition": null,
+      "page_start": 531,
+      "page_end": 538,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Companies must provide members entitled to attend meetings with a reasonable opportunity to participate. Meetings must be held at a reasonable physical venue, with a quorum of at least two members present at all times. If a meeting is adjourned, the resumed meeting must address unfinished business and follow specific rules for venue, time, and virtual technology use. Proxies may be appointed but their authority is suspended if the member attends.",
+      "dtia_summary": "This section establishes requirements for meeting participation and quorum that could impact data transfer if members' participation data is shared across borders, though it is not directly relevant to cross-border data transfers.",
+      "authority": "ASIC",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company must give members entitled to attend meetings a reasonable opportunity to participate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Meetings must be held at a reasonable physical venue",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Quorum for meetings is two members present at all times",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If a meeting is adjourned, the resumed meeting must address unfinished business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Proxies' authority is suspended if the member attends the meeting",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 249S(1): A company that holds a meeting of its members must give the members entitled to attend the meeting, as a whole, a reasonable opportunity to participate in the meeting."
+    },
+    {
+      "section": "6 (part 36)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 2G",
+      "part": "part o",
+      "condition": null,
+      "page_start": 538,
+      "page_end": 544,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 37)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Proxy voting validity and representative appointments",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 544,
+      "page_end": 552,
+      "primary_category": "Other",
+      "summary": "This section establishes that a proxy vote remains valid even if the appointing member dies, becomes mentally incapacitated, revokes the proxy appointment, or transfers shares. It also permits a body corporate to appoint representatives for voting purposes at meetings, with specific rules on the number of representatives, their powers, and the requirement that a representative may exercise all powers of the body corporate unless restricted.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it concerns corporate voting mechanisms and does not address data flows, transfers, or processing across borders.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A proxy who is not entitled to vote on a resolution as a member may vote as a proxy for another member who can vote if their appointment specifies the way they are to vote on the resolution and they vote that way.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A vote cast by a proxy will be valid even if the appointing member dies, becomes mentally incapacitated, revokes the proxy's appointment, or transfers shares before voting.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A body corporate may appoint an individual as a representative to exercise powers at meetings of members, creditors, debenture holders, or for resolutions without meetings.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The appointment may set out restrictions on the representative's powers, and if by reference to a position, must identify the position.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A body corporate may appoint more than one representative but only one may exercise powers at any time.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Unless otherwise specified, the representative may exercise all powers the body corporate could exercise at a meeting or in voting on a resolution.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 250C(1): A proxy who is not entitled to vote on a resolution as a member may vote as a proxy for another member who can vote if their appointment specifies the way they are to vote on the resolution and they vote that way."
+    },
+    {
+      "section": "6 (part 38)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "AGM requirements and auditor questions for listed companies",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 552,
+      "page_end": 559,
+      "primary_category": "Other",
+      "summary": "This section mandates that public companies hold annual general meetings (AGMs) within specific timeframes, including holding at least one AGM per calendar year. It also outlines procedures for members to submit written questions to auditors before AGMs, requiring the company to pass these questions to the auditor and the auditor to prepare a question list for members at the AGM.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it concerns corporate governance and AGM procedures without addressing data flows or transfers.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A public company must hold an annual general meeting (AGM) within 18 months after registration and at least once per calendar year within 5 months after the financial year ends.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A member of a listed company may submit written questions to the auditor relevant to auditor reports or audit conduct before the AGM, no later than the fifth business day before the AGM.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The listed company must pass the submitted questions to the auditor as soon as practicable.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The auditor must prepare a question list that includes relevant questions from the company and their assessment of relevance, available to members at the AGM.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 250N(1): A public company must hold an annual general meeting (AGM) within 18 months after its registration."
+    },
+    {
+      "section": "6 (part 39)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Remuneration report voting thresholds for special meetings",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 559,
+      "page_end": 566,
+      "primary_category": "Other",
+      "summary": "This section establishes conditions for holding special meetings when at least 25% of votes oppose remuneration reports at two consecutive annual general meetings. It requires a resolution to hold fresh elections for directors within 90 days if the voting thresholds are met, with specific rules for director appointments and the spill meeting timeline. The company must ensure the spill meeting occurs within 90 days after the resolution passes, and directors who meet the criteria cease holding office immediately before the spill meeting.",
+      "dtia_summary": "This section creates specific conditions for holding special meetings when remuneration report voting thresholds are met, requiring a 90-day timeline for the spill meeting and specific director appointment rules that could impact cross-border data transfers if the company operates internationally.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "At the later AGM, there must be put to vote a resolution that another meeting be held within 90 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All directors who were directors when the resolution was passed and are not managing directors may continue indefinitely without re-election",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directors described in paragraph 250V(1)(b) cease holding office immediately before the spill meeting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must hold the spill meeting within 90 days after the spill resolution is passed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the company does not hold the spill meeting within 90 days, directors commit an offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 250V(1) requires a resolution to hold fresh elections for directors at special meeting to be put to vote at AGM within 90 days."
+    },
+    {
+      "section": "6 (part 40)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Minutes and members' access to minutes for listed companies",
+      "chapter": "Chapter 2E",
+      "part": "Part d",
+      "condition": null,
+      "page_start": 566,
+      "page_end": 573,
+      "primary_category": "Other",
+      "summary": "This section mandates that companies must maintain minute books recording meetings and resolutions, ensure minutes are signed by appropriate individuals, and provide members with access to minutes within 14 days for free. It also requires recording proxy votes and resolutions in minutes, with specific rules for when companies must notify market operators about resolutions passed by members.",
+      "dtia_summary": "This section requires detailed record-keeping of company meetings and resolutions, which could impact data transfer impact assessments by creating obligations for maintaining and sharing minute records across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company must keep minute books recording proceedings and resolutions of meetings within 1 month",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Minutes of meetings must be signed by the chair or chair of next meeting within reasonable time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must ensure members can access minute books free of charge",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must provide copies of minutes within 14 days after request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company must record proxy votes in minutes for each resolution",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 251A(1) requires a company to keep minute books recording proceedings and resolutions of meetings within 1 month."
+    },
+    {
+      "section": "6 (part 41)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Member meeting notices and proxy arrangements",
+      "chapter": "Chapter 2E",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 573,
+      "page_end": 581,
+      "primary_category": "Other",
+      "summary": "This section specifies when a notice of meeting is deemed given for members of a registered scheme. It outlines the timeframes for different notification methods: 3 days after posting for postal notices, 3 days after information is posted for member information via postal, and the business day after sending for electronic communications. It also requires the responsible entity to provide auditors with any communications a member is entitled to receive.",
+      "dtia_summary": "",
+      "authority": "ASIC",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Notice of meeting is taken to be given 3 days after posting if sent by post",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notice of meeting is taken to be given 3 days after information is posted if sent by member information via post",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notice of meeting is taken to be given on the business day after sending if sent by electronic communication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notice of meeting is taken to be given on the business day after information is sent to the member if sent by giving member information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Responsible entity must give auditors any communications a member is entitled to receive",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Unless the scheme's constitution provides otherwise, a notice of meeting is taken to be given: (a) if it is sent by post—3 days after it is posted; or (aa) if it is sent by sending the member information in accordance with paragraph 110D(1)(b) by post—3 days after the information is posted; or (b) if it is sent by means of an electronic communication in accordance with paragraph 110D(1)(c)—on the business day after it is sent; or (c) if it is sent by giving the member information in accordance with paragraph 110D(1)(d)—on the business day after the day on which the information is sent to the member."
+    },
+    {
+      "section": "6 (part 43)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Proxy voting and member resolutions",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 588,
+      "page_end": 596,
+      "primary_category": "Other",
+      "summary": "This section details the conditions under which proxy votes are valid, including the ability to vote even if the appointing member dies, becomes mentally incapacitated, revokes the proxy, or transfers their interest. It also specifies that a proxy who is not entitled to vote on a resolution may vote for another member if their appointment specifies how they should vote. Additionally, it outlines the requirements for members to request statements from the responsible entity for resolutions or other matters.",
+      "dtia_summary": "",
+      "authority": "ASIC",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Proxy vote is valid even if appointing member dies, is mentally incapacitated, revokes proxy, or transfers interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Proxy who is not entitled to vote may vote for another member if appointment specifies voting method",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Members may request responsible entity to distribute statements about resolutions or other matters",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Unless the responsible entity has received written notice of the matter before the start or resumption of the meeting at which a proxy votes, a vote cast by the proxy will be valid even if, before the proxy votes: (a) the appointing member dies; or (b) the member is mentally incapacitated; or (c) the member revokes the proxy's appointment; or (d) the member revokes the authority under which the proxy was appointed by a third party; or (e) the member transfers the interest in respect of which the proxy was given."
+    },
+    {
+      "section": "6 (part 44)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Electronic minute books and independent observer rights for shareholder meetings",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 596,
+      "page_end": 604,
+      "primary_category": "Other",
+      "summary": "This section requires companies to maintain minute books in electronic form if the information is reasonably accessible for subsequent reference. It also mandates that companies appoint independent persons to observe and report on shareholder meetings when members hold at least 5% of voting rights. Companies must respond to such requests within 5 business days and provide reasonable steps to ensure independent observers. Failure to comply constitutes an offence of strict liability.",
+      "dtia_summary": "This section establishes requirements for electronic minute books and independent observer rights for shareholder meetings, which may impact data transfer assessments when companies store or share meeting records across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Minute books may be recorded electronically if reasonably accessible for subsequent reference",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic minute books must be open for inspection at the place of keeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic minute books must maintain integrity of information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must appoint independent persons to observe shareholder meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must respond to independent observer requests within 5 business days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must take reasonable steps to ensure independent observers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must pay independent persons' fees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 253S(1): If information is required to be recorded in a minute book, the information may be recorded in electronic form if, at the time of the recording of the information, it was reasonable to expect that the information would be readily accessible so as to be useable for subsequent reference."
+    },
+    {
+      "section": "6 (part 45)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Shareholder meeting exceptions and independent observer rights",
+      "chapter": "Chapter 2E",
+      "part": "Part t",
+      "condition": null,
+      "page_start": 604,
+      "page_end": 611,
+      "primary_category": "Other",
+      "summary": "This section provides exceptions for holding shareholder meetings in exceptional circumstances, including virtual meetings. It also establishes independent observer rights for shareholders to request independent persons to observe and report on shareholder meetings. Companies and registered schemes must appoint independent observers within 5 business days of receiving requests and provide reports to shareholders within a reasonable time. Failure to comply constitutes an offence of strict liability.",
+      "dtia_summary": "This section allows for virtual shareholder meetings and independent observer rights, which may impact data transfer assessments when companies store meeting records across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Companies may hold virtual meetings if specified in ASIC determination",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Companies must appoint independent persons to observe shareholder meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must respond to independent observer requests within 5 business days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must take reasonable steps to ensure independent observers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Companies must pay independent persons' fees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 253TA(1): An entity may hold a meeting of its members, using virtual meeting technology only (even if this is not required or permitted by the entity's constitution expressly), if: (a) the entity is specified in a determination under subsection (2); or (b) the entity is in a class of entities specified in a determination under subsection (2)."
+    },
+    {
+      "section": "6 (part 46)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Share conversion and redemption rules for companies",
+      "chapter": "Chapter 2H",
+      "part": "Part t",
+      "condition": null,
+      "page_start": 611,
+      "page_end": 619,
+      "primary_category": "Other",
+      "summary": "Companies may convert ordinary shares to preference shares or vice versa, but must specify repayment of capital, profit participation, dividend terms, voting rights, and priority of payment in their constitution or by special resolution. Redeemable preference shares cannot be converted into redeemable preference shares after issuance. Redemption must follow terms of issue, be fully paid-up, and use profits or new share proceeds. Forfeited shares in no liability companies are sold after 14 days of unpaid calls, with specific procedures for sale, notice, and redemption.",
+      "dtia_summary": "This section governs share conversion and redemption processes, which may impact data transfer if company structures involve cross-border data processing or storage of financial records. Specific rules on share conversions and forfeitures could affect data residency and retention.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company may convert an ordinary share into a preference share",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company may convert a preference share into an ordinary share",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The holders' rights with respect to repayment of capital, participation in surplus assets and profits, cumulative and non-cumulative dividends, voting, and priority of payment must be set out in the company's constitution or approved by special resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A share that is not a redeemable preference share when issued cannot afterwards be converted into a redeemable preference share",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A company may redeem redeemable preference shares only on the terms on which they are on issue",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company may only redeem redeemable preference shares if the shares are fully paid-up",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company may only redeem redeemable preference shares out of profits or the proceeds of a new issue of shares made for the purpose of the redemption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A share in a no liability company is immediately forfeited if a call is made on the share and the call is unpaid at the end of 14 days after it became payable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The forfeited share must be offered for sale by public auction within 6 weeks after the call became payable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may redeem a forfeited share by paying all calls due on the share and any expenses incurred by the company in respect of the forfeiture",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 254G(1): A company may: (a) convert an ordinary share into a preference share; and (b) convert a preference share into an ordinary share."
+    },
+    {
+      "section": "6 (part 47)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 619,
+      "page_end": 627,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 48)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Share capital reductions and buy-backs: shareholder approval and procedures",
+      "chapter": "Chapter 5",
+      "part": "Part d",
+      "condition": null,
+      "page_start": 627,
+      "page_end": 635,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines rules for companies reducing share capital or buying back shares without legal authorization. It requires reductions to be fair and reasonable to shareholders, not materially prejudicial to creditors, and approved by shareholders. Cancellations of shares for no consideration are treated as reductions but exempt from creditor protection. The rules specify whether reductions are equal or selective, and mandate shareholder approval through ordinary or special resolutions depending on the type of reduction. Companies must also lodge resolutions with ASIC within 14 days.",
+      "dtia_summary": "This section establishes requirements for shareholder approval and procedural compliance for share capital reductions and buy-backs, which may impact data transfers if a company's share structure affects data processing or storage across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company may reduce its share capital in a way not otherwise authorized by law if the reduction is fair and reasonable to shareholders as a whole",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The reduction must not materially prejudice the company's ability to pay creditors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The reduction must be approved by shareholders under section 256C",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A cancellation of a share for no consideration is a reduction of share capital",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The reduction is an equal reduction if it relates only to ordinary shares and applies proportionally to each holder",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The reduction is a selective reduction if it does not apply proportionally",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For equal reductions, shareholder approval requires ordinary resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For selective reductions, shareholder approval requires special or unanimous resolution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must lodge with ASIC a copy of any resolution within 14 days after passing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must not make the reduction until 14 days after lodgment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 256B(1): A company may reduce its share capital in a way that is not otherwise authorised by law if the reduction: (a) is fair and reasonable to the company's shareholders as a whole; and (b) does not materially prejudice the company's ability to pay its creditors; and (c) is approved by shareholders under section 256C."
+    },
+    {
+      "section": "6 (part 49)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Share buy-back procedures: shareholder approval and regulatory compliance",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 635,
+      "page_end": 643,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section details procedures for share buy-backs, including shareholder approval requirements, disclosure obligations, and ASIC lodgments. It specifies that buy-backs must not materially prejudice creditors, follow defined procedures, and require shareholder approval through ordinary or special resolutions depending on the type of buy-back. Companies must lodge documents with ASIC 14 days before the buy-back agreement is entered into or the resolution is passed, and include material information in the buy-back offer.",
+      "dtia_summary": "This section governs share buy-back procedures that may affect data transfers if a company's share structure influences data processing or storage across borders.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A company may buy back its own shares if the buy-back does not materially prejudice the company's ability to pay creditors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must follow procedures laid down in this Division",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must lodge with ASIC a copy of the terms of the offer before the buy-back agreement is entered into",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must satisfy the lodgment requirement at least 14 days before the resolution is passed or the agreement is entered into",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must include with the offer a statement of all material information known to the company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Once a buy-back agreement is entered into, all rights attaching to the shares are suspended",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The company must not dispose of shares it buys back; agreements in contravention are void",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 257A(1): A company may buy back its own shares if: (a) the buy-back does not materially prejudice the company's ability to pay its creditors; and (b) the company follows the procedures laid down in this Division."
+    },
+    {
+      "section": "6 (part 50)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Share capital reductions and cancellations for companies",
+      "chapter": "Chapter 2E",
+      "part": "part o",
+      "condition": null,
+      "page_start": 643,
+      "page_end": 650,
+      "primary_category": "Other",
+      "summary": "This section authorizes share capital reductions from redemption of redeemable preference shares using new share issues, buying back shares with share capital, and cancellations under specific sections. It also permits reductions due to lost capital or orders under section 1325A. The section specifies conditions under which share cancellations are authorized, including accounting standards compliance.",
+      "dtia_summary": "This section outlines conditions for share capital reductions that could impact data transfers if shares contain personal or financial data, particularly regarding cancellations and capital reductions affecting data subjects.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any reduction in share capital involving redemption of redeemable preference shares out of proceeds of new share issues for redemption is authorized",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any reduction in share capital from buying back shares with share capital is authorized",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company may cancel shares returned under section 651C, 724(2), 737 or 738",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Any reduction in share capital due to an order under section 1325A is authorized",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A company may reduce share capital by cancelling paid-up shares lost or not represented by assets",
+          "obligation_type": "May"
+        },
+        {
+          "text": "This power does not apply if the company cancels shares",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "This power does not apply if cancellation of paid-up share capital is inconsistent with accounting standards",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Any reduction in share capital involved in: (a) the redemption of redeemable preference shares out of the proceeds of a new issue of shares made for the purpose of the redemption (see section 254K); or (b) a company's buying-back of its own shares under sections 257A to 257J if the shares are paid for out of share capital."
+    },
+    {
+      "section": "6 (part 51)",
+      "heading": "[sections 461—462] (cont.)",
+      "title": "Financial assistance for share acquisitions and exemptions",
+      "chapter": "Chapter 2E",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 650,
+      "page_end": 657,
+      "primary_category": "Other",
+      "summary": "This section details financial assistance rules for companies acquiring shares in themselves or holding companies, requiring shareholder approval, exemptions for ordinary commercial dealing, financial institutions, and subsidiaries of debenture issuers. It specifies conditions for exemptions and the consequences of non-compliance.",
+      "dtia_summary": "This section governs financial assistance for share acquisitions, which could impact data transfers if shares contain personal or financial data, particularly through exemptions for financial institutions and their operations.",
+      "authority": "ASIC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company may financially assist a person to acquire shares in the company or holding company only if giving assistance does not materially prejudice company interests or ability to pay creditors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial assistance must be approved by shareholders under section 260B",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial assistance may be given before or after acquisition of shares",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial assistance may take the form of paying a dividend",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Financial assistance is exempted if given in ordinary course of commercial dealing for partly-paid shares",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "Financial assistance is exempted if given in ordinary course of business for finance provision",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "Financial assistance is exempted if given by a subsidiary of a debenture borrower for repayment",
+          "obligation_type": "Exemption"
+        },
+        {
+          "text": "Financial assistance is exempted under approved employee share schemes",
+          "obligation_type": "Exemption"
+        }
+      ],
+      "source_quote": "A company may financially assist a person to acquire shares (or units of shares) in the company or a holding company of the company only if: (a) giving the assistance does not materially prejudice: (i) the interests of the company or its shareholders; or (ii) the company's ability to pay its creditors; or (b) the assistance is approved by shareholders under section 260B (that section also requires advance notice to ASIC); or (c) the assistance is exempted under section 2: 260C."
+    }
+  ]
+}

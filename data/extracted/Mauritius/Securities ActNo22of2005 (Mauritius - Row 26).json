@@ -1,0 +1,2451 @@
+{
+  "country": "Mauritius",
+  "document": "Securities ActNo22of2005 (Mauritius - Row 26)",
+  "generated": "2026-07-17T19:43:34",
+  "sections": [
+    {
+      "section": "51",
+      "heading": "Investment dealers – advances to",
+      "title": "Prohibition on advances to clients without contracts",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section prohibits investment dealers from making advances to clients for securities purchases without a pre-executed contract that complies with FSC Rules and without the advance amount being limited to a specified percentage of the market value of securities.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Client must execute contract before advance for securities purchase",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contract must comply with FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Advance amount must not exceed percentage of market value of securities specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "51. Investment dealers – advances to clients (1) No investment dealer shall make an advance to his client by way of loan, to be applied to buy securities unless— (a) before the advance is made, the client has executed a contract that sets out the terms on which the advance is made and such contract complies with the FSC Rules; and (b) the amount advanced does not exceed the percentage of the market value of the securities specified in FSC Rules made for the purposes of this paragraph."
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Key terms and definitions for securities regulation",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 10,
+      "primary_category": "Definitions",
+      "summary": "This section provides comprehensive definitions for terms used throughout the Securities Act, including critical concepts like 'securities', 'investment dealer', 'securities exchange', and 'sophisticated investor'. These definitions establish the foundational language for regulatory compliance and market operations, ensuring clarity in the application of securities laws across different contexts.",
+      "dtia_summary": "These definitions are crucial for DTIAs as they specify the scope of data types and entities involved in financial transactions, directly impacting cross-border data flows and regulatory oversight.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Define 'securities' as shares, debentures, rights, warrants, options, and other transferable instruments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define 'investment dealer' as a person holding an investment dealer licence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Define 'sophisticated investor' as entities including government bodies, banks, and investment dealers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. Interpretation In this Act—"
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "Interpretation (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "Companies Act interpretation to apply",
+      "title": "Companies Act definitions apply",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Definitions",
+      "summary": "This section states that unless otherwise specified in the Securities Act, terms and expressions have the same meaning as in the Companies Act. This ensures consistency in legal terminology across different regulatory frameworks, particularly important for entities operating under both acts.",
+      "dtia_summary": "This section clarifies the scope of definitions by aligning the Securities Act with the Companies Act, which may affect how financial data is classified and handled across jurisdictions.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Terms in Securities Act have same meaning as in Companies Act unless otherwise provided",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Companies Act interpretation to apply Unless otherwise provided in this Act, words and expressions in this Act have the same meaning as in the Companies Act."
+    },
+    {
+      "section": "6",
+      "heading": "Objects of Commission",
+      "title": "Commission's regulatory objectives",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Governance",
+      "summary": "This section outlines the key objectives of the Financial Services Commission in administering the Securities Act, including promoting investor confidence, protecting investors from fraud, fostering transparent markets, reducing systemic risk, and regulating disclosure practices. These objectives guide the Commission's regulatory activities and oversight mechanisms.",
+      "dtia_summary": "These objectives establish the regulatory framework for financial data handling, emphasizing transparency and risk management that directly influence data transfer and storage practices across borders.",
+      "authority": "Financial Services Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission must promote confident and informed participation of investors in securities markets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must improve protection of investors from unfair practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must foster fair, efficient, transparent and informed markets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must reduce systemic risk in the financial sector",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must regulate disclosure of information by persons issuing securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must monitor and regulate securities exchanges and clearing services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must suppress and prevent financial crimes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must cooperate with domestic and international organizations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must carry out research and disseminate data on the securities industry",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Objects of Commission (1) This Act shall be administered by the Commission."
+    },
+    {
+      "section": "8",
+      "heading": "Code of ethics",
+      "title": "Code of ethics for Commission staff",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Governance",
+      "summary": "This section mandates that the Minister may create regulations for the Commission's staff code of ethics, covering areas such as acceptance of gifts, employment within the securities industry, acting as an officer of reporting issuers, and involvement in securities transactions. Violations may result in fines up to 500,000 rupees.",
+      "dtia_summary": "This section establishes ethical standards for Commission staff that impact data handling practices, particularly in cross-border financial transactions involving sensitive information.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission staff must follow code of ethics regarding acceptance of gifts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission staff must avoid employment within the securities industry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission staff must not act as officers of reporting issuers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission staff must not engage in securities transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Violations of code of ethics may result in fines up to 500,000 rupees",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "8. Code of ethics (1) The Minister may, by regulations, make code of ethics for the members of the Board of the Commission, the Chief Executive and the staff of the Commission relating to—"
+    },
+    {
+      "section": "13",
+      "heading": "Securities exchange rules",
+      "title": "Securities exchange rulemaking authority",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Securities exchanges can establish rules for operations, including access conditions, listing requirements, trading terms, enforcement procedures, conflict of interest management, buy-back rules, derivatives, and conduct standards. These rules must be approved by the Commission and function as binding contracts with issuers and market participants.",
+      "dtia_summary": "Rules for securities exchanges must be approved by the Commission and form binding contracts with market participants, affecting data transfer and processing within exchange systems.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Securities exchanges may make rules consistent with this Act, regulations, or FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may specify access terms including financial integrity and business ethics conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may define listing conditions for securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may establish trading conditions for securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may include enforcement procedures and sanctions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may address conflict of interest management",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may cover buy-back conditions for listed securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may regulate derivatives contracts and settlement procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules must implement Commission directives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules must specify conduct standards for exchange officers and committee members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules must be approved by the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules form binding contracts with issuers and market participants",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. Securities exchange rules (1) A securities exchange may make rules, not inconsistent with this Act, any regulations made under this Act or any FSC Rules, for or with respect to the operation of the securities exchange."
+    },
+    {
+      "section": "20",
+      "heading": "Annual reports",
+      "title": "Annual financial reporting requirements",
+      "chapter": null,
+      "part": "Part f",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Licensed entities must file audited annual reports within 90 days of their balance sheet date, including corporate governance reports, IFRS-compliant financial statements, and consolidated financial statements where applicable. Financial statements must be audited by Commission-approved firms following International Standards on Auditing.",
+      "dtia_summary": "Annual reporting requirements affect data storage and financial data handling, with specific audit and governance standards impacting data transfer and processing.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensed entities must file annual reports within 90 days of balance sheet date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include corporate governance policy reports",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include IFRS-compliant financial statements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include consolidated financial statements for holding companies or subsidiaries",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial statements must be audited by Commission-approved firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Clearing facilities must include risk management reports",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "20. Annual reports (1) A person licensed under this Sub-Part shall file with the Commission, within 90 days of its balance sheet date, an annual report which shall include— (a) a report on the corporate governance policy of the licensee and any other information required by the Commission; (b) audited financial statements prepared in accordance with IFRS and such other standards issued under the Financial Reporting Act and such other requirements as may be specified in the FSC Rules; and (c) consolidated financial statements, where the person is a holding company or a subsidiary."
+    },
+    {
+      "section": "24",
+      "heading": "Regulatory functions",
+      "title": "Market supervision and regulatory oversight",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "The Securities and Markets Authority (SEM) must supervise market operations, ensure internal controls, enforce capital adequacy rules, investigate misconduct and market abuses, and report findings to the Commission. SEM must also maintain adequate budgets and submit regulatory activity reports in annual filings.",
+      "dtia_summary": "SEM's regulatory oversight directly impacts data processing and storage requirements for market participants, with specific investigation and reporting obligations affecting data transfer.",
+      "authority": "SEM",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "SEM must supervise market operations and participant conduct",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must ensure adequate internal controls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must ensure market participants follow capital adequacy rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must investigate misconduct affecting investors and report to Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must investigate market abuses including insider dealing and fraud",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must take disciplinary measures after public hearing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must inform Commission about investigations and involved persons",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must report investigation status to Commission at intervals requested",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must transmit all investigation information to Commission upon completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must inform Commission of investigation outcomes and disciplinary actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must ensure adequate budget for regulatory functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SEM must submit regulatory activity information in annual reports",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "24. Regulatory functions (1) In addition to its other functions, the SEM shall have regulatory functions and shall— (a) ensure that it adequately supervises the market operations and the conduct of market participants; (b) ensure the adequacy and efficiency of internal controls; (c) ensure that market participants follow capital adequacy rules; (d) investigate misconduct or apparent misconduct by market participants and their representatives that could seriously affect investors or other participating organisations and promptly report to the Commission on these instances of misconduct; (e) investigate possible market abuses, including insider dealing and fraudulent behaviour; (f) take disciplinary measures or agree to a settlement after a public hearing."
+    },
+    {
+      "section": "28",
+      "heading": "Transfer of ownership of securities",
+      "title": "Securities ownership transfer rules",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The Central Depository System (CDS) is the exclusive method for transferring securities ownership, with its records prevailing over any conflicting external records. This establishes a single authoritative source for securities ownership data.",
+      "dtia_summary": "CDS records are the sole authority for securities ownership, affecting data transfer and storage within the depository system.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Securities ownership transfers must follow CDS rules and procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CDS records prevail over any conflicting external records",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "28. Transfer of ownership of securities (1) Notwithstanding any other enactment, the exclusive method of transferring the ownership of securities deposited in the CDS shall be a transfer made in accordance with the rules and procedures of the CDS."
+    },
+    {
+      "section": "29",
+      "heading": "Licence for investment dealers and their representatives",
+      "title": "Investment dealer licensing requirements",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "No person may act as an investment dealer or intermediary without a Commission-issued license, including trading securities for their own account or underwriting securities. Only corporate entities may apply for investment dealer licenses, with additional rules for authorized activities.",
+      "dtia_summary": "Investment dealers must be licensed by the Commission before handling securities, affecting data transfer and processing with third parties.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person may act as an investment dealer without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may trade securities for their own account without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may underwrite securities without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Only corporate entities may apply for investment dealer licenses",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "29. Licence for investment dealers and their representatives (1) Subject to section 79A of the Financial Services Act, no person shall, by way of business— (a) act or hold himself out as an intermediary in the execution of securities transactions on behalf of other persons; (b) trade or hold himself out to trade in securities as principal for his own account with the intention of selling them to the public; or (c) underwrite or distribute or hold himself out to underwrite or distribute securities on behalf of an issuer or a holder of securities, without an investment dealer licence issued by the Commission or without being licensed as a representative of an investment dealer by the Commission."
+    },
+    {
+      "section": "30",
+      "heading": "Licence for investment advisers and their representatives",
+      "title": "Investment adviser licensing requirements",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "No person may provide investment advice or manage portfolios without a Commission-issued license, including advice on securities transactions and corporate finance matters. Only corporate entities may apply for investment adviser licenses.",
+      "dtia_summary": "Investment advisers must be licensed by the Commission before providing financial advice, affecting data transfer and processing with clients.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person may advise on securities transactions without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may manage securities portfolios without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may provide corporate finance advice without Commission license",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Only corporate entities may apply for investment adviser licenses",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. Licence for investment advisers and their representatives Subject to section 79A of the Financial Services Act, no person shall, by way of business— (a) advise, guide or recommend other persons, or hold himself out to advise, guide or recommend other persons, whether personally or through printed materials or by other means, to enter into securities transactions; (b) manage or hold himself out to manage, under a mandate, whether discretionary or not, a portfolio of securities; or (c) give advice on corporate finance advisory matters concerning securities transactions, without an investment adviser licence issued by the Commission or without being licensed as a representative of an investment adviser by the Commission."
+    },
+    {
+      "section": "32",
+      "heading": "Responsibility for conduct of representatives",
+      "title": "Responsibility for conduct of representatives",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section establishes that investment dealers or advisers are responsible for the conduct of their representatives when such conduct relates to securities, involves third parties who could reasonably rely on it, or where the client actually relied on it in good faith. The responsibility applies regardless of whether the representative was acting within their authority.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Conduct of a representative relates to securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct on which a client could reasonably be expected to rely",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conduct on which the client in fact relied in good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investment dealer or adviser is responsible for representative conduct regardless of authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Responsibility does not apply if conduct was not related to securities",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Representative must clearly disclose non-securities conduct to client before reliance",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "32. Responsibility for conduct of representatives (1) This section applies to conduct of a representative— (a) that relates to securities; (b) on which a third person (the \"client\") could reasonably be expected to rely; and (c) on which the client in fact relied in good faith. (2) The investment dealer or the investment adviser shall be responsible for the conduct of its representatives whether or not the representative was acting within his authority."
+    },
+    {
+      "section": "50",
+      "heading": "Capital and liquidity requirements",
+      "title": "Capital and liquidity requirements for investment dealers",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section mandates that the Financial Services Commission (FSC) may establish capital and liquidity requirements for investment dealers and advisers. The Commission must consider the nature of the licensed activity and the risks posed to clients or the securities market when formulating these rules.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "FSC Rules may provide capital and liquidity requirements for investment dealers and advisers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission must consider nature of licensed activity when formulating rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must consider risks posed to clients or securities market when formulating rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "50. Capital and liquidity requirements (1) The FSC Rules may provide for capital and liquidity requirements and other prudential rules for investment dealers and investment advisers. (2) In formulating rules for the purposes of subsection (1), the matters to which the Commission shall have regard include— (a) the nature of the activity authorised by the relevant licence; and (b) the nature and extent of the risks that those licensees are exposed to, and that they pose to their clients or to the integrity of the securities market."
+    },
+    {
+      "section": "51",
+      "heading": "Investment dealers – advances to clients",
+      "title": "Prohibition on advances to clients without contracts",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section prohibits investment dealers from making advances to clients for securities purchases without a pre-executed contract that complies with FSC Rules and without the advance amount being limited to a specified percentage of the market value of securities.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Client must execute contract before advance for securities purchase",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Contract must comply with FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Advance amount must not exceed percentage of market value of securities specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "51. Investment dealers – advances to clients (1) No investment dealer shall make an advance to his client by way of loan, to be applied to buy securities unless— (a) before the advance is made, the client has executed a contract that sets out the terms on which the advance is made and such contract complies with the FSC Rules; and (b) the amount advanced does not exceed the percentage of the market value of the securities specified in FSC Rules made for the purposes of this paragraph."
+    },
+    {
+      "section": "52",
+      "heading": "Custody services",
+      "title": "Custody services authorization conditions",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section authorizes investment dealers to offer custody services to clients if they meet specific conditions related to the security and safety of physical securities as defined by FSC Rules.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investment dealer must satisfy conditions relating to security and safety of physical securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conditions must be specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "52. Custody services An investment dealer who satisfies such conditions relating to security and safety of physical securities as may be specified in FSC Rules may be authorised under its licence to offer custody services to his clients."
+    },
+    {
+      "section": "53",
+      "heading": "Underwriting",
+      "title": "Underwriting services authorization conditions",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section authorizes investment dealers to offer underwriting services to clients if they meet specific conditions related to capital, infrastructure, and security as defined by FSC Rules.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investment dealer must satisfy conditions relating to capital, infrastructure and security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Conditions must be specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "53. Underwriting An investment dealer who satisfies such conditions relating to capital, infrastructure and security as may be specified in FSC Rules may be authorised under its licence to offer underwriting services."
+    },
+    {
+      "section": "54",
+      "heading": "Credit balances",
+      "title": "Credit balances management rules",
+      "chapter": null,
+      "part": "Part F",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section specifies that credit balances in client accounts not representing pledged securities must be payable on demand, not used by the investment dealer without client consent, and not part of the dealer's insolvency assets. Non-compliance incurs a fine of up to 500,000 rupees.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission (FSC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Credit balances must be payable on demand",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Credit balances must not be used by investment dealer without client written authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Credit balances must not form part of investment dealer's insolvency assets",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "54. Credit balances (1) Any credit balances in the accounts of a client of an investment dealer, not representing securities that are pledged, mortgaged, subject to a lien or other security interest or given to support a guarantee or similar arrangement, shall— (a) be payable on demand; (b) not be used or applied by the investment dealer without the express written authority of the client; and (c) not form part of the assets of the investment dealer for the purposes of the law relating to insolvency."
+    },
+    {
+      "section": "55",
+      "heading": "Annual reports",
+      "title": "Annual reports filing for investment dealers and advisers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Financial Data",
+      "summary": "Investment dealers and investment advisers licensed under this Act must file annual reports with the Commission within 90 days of their balance sheet date. The reports must include corporate governance policies, audited financial statements prepared under IFRS, consolidated financial statements if applicable, and any other requirements specified in FSC Rules. Audit firms must be approved by the Commission and meet experience, expertise, and resource standards to conduct audits.",
+      "dtia_summary": "Requires audited financial statements for investment dealers and advisers, with specific reporting timelines and governance standards that impact cross-border financial data transfers involving financial institutions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investment dealers and investment advisers must file annual reports with the Commission within 90 days of their balance sheet date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include corporate governance policies and any other information required by the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include audited financial statements prepared in accordance with IFRS and relevant standards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include consolidated financial statements if the investment dealer or adviser is a holding company or subsidiary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Audit firms must be approved by the Commission and have adequate experience, expertise, and resources",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "55. Annual reports (1) An investment dealer and a corporation licensed as an investment adviser shall file with the Commission, within 90 days of its balance sheet date, an annual report which shall include— (a) a report on the corporate governance policy of the licensee and any other information required by the Commission; (b) audited financial statements prepared in accordance with IFRS and such other standards as may be issued under the Financial Reporting Act; (c) such other requirements as may be specified in FSC Rules; and (d) consolidated financial statements where the investment dealer or investment adviser is a holding company or a subsidiary."
+    },
+    {
+      "section": "56",
+      "heading": "Securities transaction confirmations",
+      "title": "Securities transaction confirmations and statements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Financial Data",
+      "summary": "Investment dealers must send transaction confirmations and account statements to clients without delay in specified formats. They cannot trade as principal in listed securities without following exchange rules. For unlisted securities, dealers must disclose principal trading to clients before executing transactions. Violations incur fines up to 100,000 rupees.",
+      "dtia_summary": "Requires real-time transaction confirmations and disclosures for securities transactions, impacting data transfer timelines and transparency for cross-border financial activities.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investment dealers must send transaction confirmations to clients without delay in specified formats",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investment dealers must send account statements to clients at intervals specified in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investment dealers cannot trade as principal in listed securities without following exchange rules",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "For unlisted securities, investment dealers must disclose principal trading to clients before executing transactions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "56. Securities transaction confirmations (1) Where an investment dealer executes an order of a client to carry out a securities transaction, it shall send to its client without delay, a confirmation in such form as may be specified in the FSC Rules. (2) Every investment dealer shall send to its client a statement of account in such form and at such intervals as may be specified in the FSC Rules."
+    },
+    {
+      "section": "70",
+      "heading": "Prospectus not required",
+      "title": "Exemptions for prospectus requirements",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Financial Data",
+      "summary": "Certain securities offerings do not require a prospectus, including private placements, offers to sophisticated investors, related corporations, specific employee share plans, and amalgamations. Issuers must notify the Commission within 10 days for private placements and comply with specific timelines for other exemptions. The Commission may reject exemptions if requirements are not met.",
+      "dtia_summary": "Provides exemptions from prospectus requirements for specific financial transactions, affecting data transfer obligations when securities are issued without formal disclosure.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No prospectus required for securities issued at company formation without solicitation",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for securities transmission by succession",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for securities transfers by operation of law or court order",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for private placements of securities",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for offers to sophisticated investors",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for offers to related corporations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for specific employee share plans with compliance",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No prospectus required for amalgamations of companies",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Issuer must notify Commission within 10 days for private placements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "70. Prospectus not required (1) A prospectus shall not be needed for— (a) an issue of securities of a company at or in connection with the formation of the company, where no solicitation is made for the purchase of the securities; (b) the transmission of securities by succession; (c) the vesting or transfer of securities by operation of law or by order of a Court; (d) an offer or issue of securities that is a private placement; (e) an offer or issue of securities that is made only to sophisticated investors; (f) an offer or issue of securities only to related corporations of the issuer of the securities; (g) an offer by an issuer— (i) to allow the exercise of an exchange, conversion, or subscription rights previously issued for securities held by a reporting issuer; (ii) under a subscription plan, a share dividend plan or a dividend reinvestment plan; or (iii) under an employee share plan or a similar plan and is made only to officers or employees of the issuer, where the issuer has complied with its obligations under this Act, any regulations made under this Act or any FSC Rules as to disclosure in relation to the securities; (h) an offer of securities acquired under an offer referred to in subsection (1) (d) or (e) where— (i) a sale of securities is made in normal market operations on a securities exchange; (ii) the issuer has complied with its obligations under this Act, any regulations made under this Act or any FSC Rules and the rules of the securities exchange as to disclosure in relation to the securities; and (iii) the person making the offer has held the securities for at least the period specified in FSC Rules; (i) an offer or issue of securities for the purpose of effecting an amalgamation of companies."
+    },
+    {
+      "section": "71",
+      "heading": "General requirements",
+      "title": "Prospectus content requirements",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 27,
+      "primary_category": "Financial Data",
+      "summary": "Prospectuses must provide full, true, and plain disclosure of material facts about the issuer and securities, including financial position, profits, and rights attached to securities. They must include the prospectus date, signed director statements accepting responsibility, required signatures, and a disclaimer of Commission responsibility.",
+      "dtia_summary": "Mandates comprehensive disclosure in prospectuses, impacting data transfer transparency and compliance for cross-border financial offerings.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Prospectuses must provide full, true, and plain disclosure of material facts about the issuer and securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must include the date of the prospectus as the provisional registration date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must contain a statement signed by all directors accepting responsibility for contents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must include required signatures as specified in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must contain a statement that the Commission takes no responsibility for contents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "71. General requirements (1) A prospectus shall provide full, true and plain disclosure of all material facts concerning the securities to be offered and the person offering the securities, without omitting anything that would be required to allow investors to make an informed assessment of— (a) the assets and liabilities, financial position, profits and losses and prospects of the issuer of the securities; and (b) the rights and liabilities attaching to the securities. (2) A prospectus shall contain— (a) the date of the prospectus, which shall be the date on which the prospectus is provisionally registered with the Commission; (b) a statement signed by all the directors of the issuer to the effect that they accept responsibility for the contents of the prospectus and that, to the best of their knowledge and belief, and after making reasonable inquiries, the prospectus complies with this Act, any regulations made under this Act or any FSC Rules; (c) such signatures as may be specified in FSC Rules; and (d) a statement to the effect that the Commission takes no responsibility for its contents."
+    },
+    {
+      "section": "72",
+      "heading": "Consent to certain statements",
+      "title": "Consent for statements in prospectuses",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 28,
+      "primary_category": "Financial Data",
+      "summary": "Statements in prospectuses must have consent from the person making the statement, with the prospectus stating consent, filed consent with the Commission, and no withdrawal of consent before the prospectus is lodged for provisional registration.",
+      "dtia_summary": "Requires explicit consent for statements in prospectuses, ensuring data accuracy and compliance when transferring financial information across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Statements in prospectuses must have consent from the person making the statement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must state that the person has given consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent must be filed with the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The person must not have withdrawn consent before the prospectus is lodged for provisional registration",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "72. Consent to certain statements (1) A prospectus shall not include any statement made by a person, or any statement said in the prospectus to be based on a statement made by a person, unless— (a) the person has consented to the statement being included in the prospectus in the form and context in which it appears or referred to in the prospectus; (b) the prospectus states that the person has given his consent; (c) the consent is filed with the Commission; and (d) the person has not withdrawn his consent before the date the prospectus is lodged for provisional registration with the Commission."
+    },
+    {
+      "section": "76",
+      "heading": "Registration of prospectuses",
+      "title": "Prospectus registration requirements",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 29,
+      "primary_category": "Financial Data",
+      "summary": "Prospectuses must be registered with the Commission, including providing a certified copy of director statements, meeting disclosure requirements, and complying with specific timelines for registration and amendments. Pending registration, certain activities like subscription applications and interest indications are restricted.",
+      "dtia_summary": "Requires registration of prospectuses with specific disclosures and restrictions on activities during pending registration, impacting data transfer compliance for cross-border financial offerings.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission issues acknowledgement of filing on terms and conditions it deems appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must be accompanied by a true certified copy of the director statement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No securities advertisement may be published without a prospectus with acknowledgement of filing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Advertisements must state that applications can only be made after prospectus registration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prospectuses must be available for public inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Advertisements must provide the address for prospectus inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may grant registration if prospectus meets disclosure requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Pending registration, copies of prospectuses may be transmitted free of charge to subscribers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No subscription application forms may accompany prospectuses during pending registration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No subscription offers may be entertained during pending registration",
+          "obligation_type": ""
+        },
+        {
+          "text": "No interest indications may be accepted except without firm commitment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Only licensed investment dealers may accept interest indications",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "76. Registration of prospectuses (1) The Commission shall, on filing of a prospectus, issue an acknowledgement of filing on such terms and conditions as it may deem appropriate. (2) The prospectus shall be accompanied by a true certified copy of the statement referred to in section 71 (2) (b). (3) No person shall publish, or cause to be published, a securities advertisement for which a prospectus is required unless— (a) a prospectus in respect of the offer has been issued with an acknowledgement of filing; (b) the advertisement states that applications for subscription may only be made after the prospectus has been issued with an acknowledgement of filing and on an application form attached to the prospectus; (c) the prospectus is available for public inspection; and (d) the advertisement gives the address of the place where the prospectus can be inspected or requested. (4) The Commission may, after a review based on disclosure requirements and not on the merits of the offer, grant a registration where— (a) the person making the offer has made any required amendment to the prospectus; (b) the Commission is satisfied that the prospectus meets all disclosure requirements of the Act, any regulations made under this Act or the FSC Rules; (c) consents mentioned in section 72 have been received; and (d) a prospectus in its final form as determined by the FSC Rules has been filed with the Commission."
+    },
+    {
+      "section": "82",
+      "heading": "Civil liability on defective prospectuses",
+      "title": "Civil liability for misleading prospectuses",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "Any person harmed by misleading statements or material omissions in a prospectus can claim compensation from the issuer, directors, statement makers, underwriters, signatories, or those knowingly involved. Defences include reasonable inquiries and belief in no omission. Proceedings must be initiated within one year of the cause of action, with exceptions for court extensions. This section does not override other liabilities.",
+      "dtia_summary": "Requires identifying misleading statements or omissions in prospectuses to avoid cross-border liability claims; critical for assessing risks when transferring financial data internationally.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who suffers loss or damage due to misleading statements or material omissions in a prospectus may recover from the issuer, directors, statement makers, underwriters, signatories, or those knowingly involved.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Defence requires proving reasonable inquiries and belief in no omission.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Proceedings must be initiated within one year of the cause of action, extendable by court.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "82. Any person who suffers loss or damage because— (a) a prospectus includes a misleading or deceptive statement; or (b) there is an omission from a prospectus and the omission is materially adverse from the point of view of an investor in those securities, may recover the amount of the loss or damage from— (i) the issuer or proposed issuer; (ii) each director; (iii) the maker of the statement; (iv) any investment dealer acting as underwriter; (v) any person who has signed the prospectus; or (vi) any person knowingly concerned in making the misleading or deceptive statement or omitting the material from the prospectus."
+    },
+    {
+      "section": "83",
+      "heading": "Right to withdraw and have money returned",
+      "title": "Right to withdraw securities without prospectus",
+      "chapter": null,
+      "part": "Part D",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "Securities issued without a prospectus or proper disclosure documents are void, allowing the recipient to return securities and reclaim application money within one month. Directors are personally liable for repayment if the issuer fails to pay within seven days. Applies to both issues and sales of securities.",
+      "dtia_summary": "Ensures investors can reclaim funds if securities are issued without proper disclosure, relevant for data transfers involving financial instruments.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Securities issued without a prospectus or required disclosure documents are void.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recipient may return securities and reclaim application money within one month.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Issuer must pay application money within seven days or directors are personally liable.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "83. Where securities are issued to a person without a prospectus or any other disclosure document required under this Part, or otherwise than on an application form attached to the prospectus, such issue shall be void and the person shall have the right to return the securities and to have its application money repaid."
+    },
+    {
+      "section": "86",
+      "heading": "Persons subject to disclosure requirements",
+      "title": "Reporting issuers subject to disclosure",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "Reporting issuers include those who have issued securities via prospectus, made takeover offers, have securities listed on Mauritian exchanges, or have at least 100 shareholders. All such entities must comply with disclosure requirements, and the Commission maintains a public register indicating compliance status.",
+      "dtia_summary": "Defines entities subject to disclosure obligations, critical for determining which organizations require cross-border data transfers to comply with international disclosure standards.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Reporting issuer means an issuer who has made a prospectus offer, made a takeover offer, has securities listed on a Mauritian exchange, or has at least 100 shareholders.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every reporting issuer must comply with disclosure requirements.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission maintains a public register of reporting issuers indicating compliance status.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "86. 'Reporting issuer' means an issuer who— (a) by way of a prospectus has made an offer of securities before or after the commencement of this Act; (b) has made a takeover offer by way of exchange of securities; (c) whose securities are listed on a securities exchange in Mauritius; or (d) has not less than 100 shareholders."
+    },
+    {
+      "section": "87",
+      "heading": "Timely disclosure",
+      "title": "Timely disclosure of material changes",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "Reporting issuers must immediately disclose material changes affecting securities value, including distributions, ownership changes, name changes, mergers, asset acquisitions, capital structure changes, and other significant events. Disclosures must be in plain language, filed with the Commission, and may be issued after market close with trading halts if needed. Certain changes exempt from disclosure if they are incomplete, speculative, internal, or trade secrets.",
+      "dtia_summary": "Requires immediate disclosure of material changes to securities, critical for assessing data transfer risks when cross-border financial data is involved.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Reporting issuers must immediately issue press releases for material changes likely to affect securities value.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Press releases must be in plain language for investor understanding.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Press releases must be filed with the Commission immediately.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For listed securities, press releases must be filed with exchanges and may be issued after market close with trading halts.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Acquisitions or disposals exceeding 10% of net assets require disclosure.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exemptions apply for incomplete proposals, speculative information, internal matters, and trade secrets.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "87. Where a material change occurs in the affairs of a reporting issuer that is likely to have a significant influence on the value or market price of its securities, the reporting issuer shall immediately issue a press release disclosing the change, unless such disclosure would amount to a criminal offence."
+    },
+    {
+      "section": "88",
+      "heading": "Periodical disclosure",
+      "title": "Periodical financial disclosures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "Reporting issuers must file quarterly financial statements within 45 days of quarter-end and annual reports within 90 days of the balance sheet date, prepared in accordance with IFRS and audited. Consolidated statements apply to companies with subsidiaries, and annual reports must be approved by the board of directors.",
+      "dtia_summary": "Requires regular financial disclosures, critical for assessing data transfer risks when financial data is shared across borders.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Reporting issuers must file quarterly financial statements prepared in accordance with IFRS within 45 days of quarter-end.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Quarterly financial statements need not be audited.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reporting issuers must file annual reports with audited financial statements within 90 days of balance sheet date.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial statements for companies with subsidiaries must be consolidated.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must be approved by the board of directors.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "88. Every reporting issuer shall file with the Commission and make public comparative quarterly financial statements prepared in accordance with IFRS and such other standards as may be issued under the Financial Reporting Act, as soon as possible, but not later than 45 days after the end of each quarter."
+    },
+    {
+      "section": "89",
+      "heading": "Duties of auditors",
+      "title": "Auditor reporting duties",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "Auditors of reporting issuers must report to the Commission in writing if they become aware of material adverse changes, potential contraventions of the Act, financial crimes, or serious irregularities. This duty is not breached if the auditor communicates information in good faith.",
+      "dtia_summary": "Requires auditors to report material issues to regulators, critical for identifying cross-border data transfer risks.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Auditors must report to the Commission in writing if they believe there has been a material adverse change affecting the issuer's ability to continue as a going concern.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report if the issuer may be in contravention of the Act, regulations, FSC Rules, or Commission directions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report if financial crimes have occurred, are occurring, or are likely to occur.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report if serious irregularities have occurred.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No breach of duty occurs if the auditor communicates information in good faith.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "89. Where in the course of his work, the auditor of a reporting issuer, other than a collective investment scheme, becomes aware of any matter which is such as to give the auditor reasonable cause to believe that— (a) there has been a material adverse change in the risks inherent in the business of a reporting issuer with the potential to jeopardise the ability of the reporting issuer to continue as a going concern; (b) the reporting issuer may be in contravention of this Act, any regulations made under this Act, any FSC Rules or any directions issued by the Commission; (c) a financial crime has been, is being or is likely to be committed; or (d) serious irregularities have occurred, the auditor shall report such matter in writing to the Commission."
+    },
+    {
+      "section": "90",
+      "heading": "Notification of insiders' interests",
+      "title": "Insiders' interest notifications to reporting issuers",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 37,
+      "primary_category": "Data Sharing",
+      "summary": "Insiders of reporting issuers must notify the issuer in writing within one month of acquiring securities interests, or immediately upon initial interest at the Act's commencement. The notification must follow specified FSC Rules forms. This applies to both initial interests and subsequent acquisitions, including those that make non-insiders into insiders.",
+      "dtia_summary": "Requires written notifications of insider securities interests to reporting issuers within specific timeframes, impacting data sharing protocols for insider information across borders.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Insiders must notify reporting issuers in writing of securities interests within one month of acquisition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insiders must notify reporting issuers in writing of securities interests at commencement of Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subsection (2) applies to non-insiders who become insiders through acquisition",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "90. Where, at the commencement of this Act, an insider of a reporting issuer or any of his associates, has an interest in the securities of the reporting issuer or of an associate of the reporting issuer, that insider shall give written notice of the interest to the reporting issuer in such form as may be specified in FSC Rules."
+    },
+    {
+      "section": "91",
+      "heading": "Notification of changes in insiders' interests",
+      "title": "Insiders' interest changes notifications",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 37,
+      "primary_category": "Data Sharing",
+      "summary": "Insiders must notify reporting issuers in writing within 14 days of any change in their securities interests or those of their associates. This includes cases where an insider ceases to be an insider due to the change in interest.",
+      "dtia_summary": "Mandates timely notifications of interest changes to reporting issuers, affecting data sharing timelines for insider information across borders.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Insiders must notify reporting issuers in writing of interest changes within 14 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subsection (1) applies to insiders who cease to be insiders due to interest changes",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "91. An insider of a reporting issuer shall, within 14 days, notify the issuer of any change of his interest or that of any of his associates in the securities of the reporting issuer or of any associate of the reporting issuer in such form as may be specified in FSC Rules."
+    },
+    {
+      "section": "92",
+      "heading": "Notification to securities exchanges and Commission",
+      "title": "Insider notifications to exchanges and Commission",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 37,
+      "primary_category": "Data Sharing",
+      "summary": "Reporting issuers must forward copies of insider notifications to the Commission and relevant securities exchange within 24 hours of receiving the notification. This notification may be published per FSC Rules or exchange rules.",
+      "dtia_summary": "Requires reporting issuers to share insider notifications with regulatory bodies and exchanges, impacting data flow and transparency for cross-border securities information.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Reporting issuers must send copies of insider notifications to Commission within 24 hours",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reporting issuers must send copies of insider notifications to relevant securities exchange within 24 hours",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insider notifications may be published per FSC Rules or exchange rules",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "92. Where an issuer is given a notice under section 90 or 91, the issuer shall, before the end of the day following the day of notification, give a copy of the notice to— (a) the Commission; (b) the exchange where the securities of the reporting issuer are listed on a securities exchange."
+    },
+    {
+      "section": "96",
+      "heading": "Penalty for contravention of regulations or FSC Rules",
+      "title": "Penalties for regulatory non-compliance",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 38,
+      "primary_category": "Enforcement",
+      "summary": "Contravention of regulations or FSC Rules constitutes an offence punishable by a fine up to one million rupees. Regulations may specify daily penalties for repeated non-compliance beyond specified timeframes.",
+      "dtia_summary": "Imposes financial penalties for non-compliance with insider notification rules, affecting compliance costs and risk management for cross-border data transfers.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Contravention of regulations or FSC Rules constitutes an offence punishable by a fine up to one million rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify daily penalties for repeated non-compliance beyond specified timeframes",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "96. Any person who contravenes or fails to comply with any regulations or any FSC Rules made for the purposes of this Part shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees."
+    },
+    {
+      "section": "98",
+      "heading": "CIS managers",
+      "title": "CIS manager licensing requirements",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 39,
+      "primary_category": "Data Sharing",
+      "summary": "CIS managers must hold a valid CIS manager licence and comply with its conditions. The Commission requires applicants to be corporations, meet financial resource requirements, and be fit and proper persons.",
+      "dtia_summary": "Licensing requirements for CIS managers impact data handling protocols for collective investment schemes across borders.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CIS managers must hold and comply with CIS manager licence conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must be body corporates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must be satisfied applicant meets financial resource requirements",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Applicants and officers must be fit and proper persons",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "98. No person shall act as a CIS manager for a collective investment scheme or hold himself out to act as a CIS manager for a collective investment scheme unless the person holds and is complying with the conditions of a CIS manager licence."
+    },
+    {
+      "section": "99",
+      "heading": "CIS administrators",
+      "title": "CIS administrator approvals",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 40,
+      "primary_category": "Data Sharing",
+      "summary": "CIS administrators must obtain Commission approval before providing administration services to collective investment schemes. Administrators must be corporations and meet fit and proper criteria.",
+      "dtia_summary": "Requires Commission approval for CIS administrators, affecting data handling and service provision across borders for collective investment schemes.",
+      "authority": "FSC",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CIS administrators must obtain Commission approval before providing services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicants must be body corporates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must be satisfied applicants are fit and proper persons",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "99. No person shall, by way of business, provide administration services to a collective investment scheme unless the CIS manager or the collective investment scheme, as the case may be, seeks the prior approval of the Commission."
+    },
+    {
+      "section": "100",
+      "heading": "Custodian licence",
+      "title": "Custodian licensing requirements for collective investment schemes",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 40,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates that no person may hold assets of a collective investment scheme for safekeeping without holding a custodian licence. The Commission will only grant such a licence if the applicant is a bank or a bank subsidiary trust company and meets specified duties, obligations, and conditions outlined in FSC Rules. It also allows trustees under repealed trust acts to act as custodians if they comply with the Act and relevant regulations.",
+      "dtia_summary": "Requires custodian licensing for cross-border asset holding, impacting data transfer safeguards for collective investment schemes.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person shall hold assets of a collective investment scheme for safekeeping without holding a custodian licence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicant must be a bank or a trust company that is a subsidiary of a bank",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applicant must meet requirements relating to duties and obligations, use of sub-custodians and other conditions as prescribed in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Trustees under repealed Unit Trust Act or Trusts Act may act as custodians if they comply with custodian requirements under this Act, regulations, and FSC Rules",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "100. No person shall hold the assets of a collective investment scheme for safekeeping unless the person holds a custodian licence."
+    },
+    {
+      "section": "105",
+      "heading": "Duties of CIS managers and officers",
+      "title": "Duties of collective investment scheme managers and officers",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 42,
+      "primary_category": "Cross-border Transfer",
+      "summary": "CIS managers and officers must act honestly, exercise due care and diligence, prioritize participants' interests, treat participants equally, avoid misuse of information, ensure payments comply with scheme documents, and report breaches of the Act, regulations, or scheme constitutive documents to the Commission. Violations incur fines up to 500,000 rupees and imprisonment up to 5 years.",
+      "dtia_summary": "Imposes strict duties on CIS managers to prevent misuse of data and ensure transparency, critical for DTIA compliance in cross-border investment schemes.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "CIS managers and officers must act honestly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers and officers must exercise the degree of care and diligence expected of a person in that position",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers and officers must act in the best interests of participants and prioritize participants' interests over their own",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers and officers must treat participants who hold interests of the same class equally and those of different classes fairly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers and officers must not use information acquired through their role to gain improper advantage for themselves or others or cause detriment to participants",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "CIS managers and officers must ensure all payments from scheme property comply with constitutive documents, this Act, regulations, and FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers and officers must report breaches of this Act, regulations, or scheme constitutive documents to the Commission as soon as practicable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "105. CIS managers and officers shall act honestly; exercise care and diligence; act in best interests of participants; treat participants equally; not misuse information; ensure payments comply with scheme documents; report breaches to Commission."
+    },
+    {
+      "section": "106",
+      "heading": "Disclosure by CIS and CIS managers",
+      "title": "Financial disclosure requirements for collective investment schemes",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 43,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Collective investment schemes must file interim financial statements with the Commission and make them public within 45 days of the interim period's closing date, prepared in accordance with IFRS and other Financial Reporting Act standards. Annual reports must be filed within 90 days of the balance sheet date, including audited financial statements by approved audit firms. Non-compliance incurs fines up to 500,000 rupees.",
+      "dtia_summary": "Mandates timely financial disclosures for collective investment schemes, critical for DTIA compliance in cross-border data transfers involving financial reporting.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Collective investment schemes must file interim financial statements with Commission within 45 days of interim period closing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "CIS managers must file interim financial statements with Commission within 45 days of interim period closing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Interim financial statements need not be audited",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Collective investment schemes must file annual reports with Commission within 90 days of balance sheet date",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must include audited financial statements prepared in accordance with IFRS",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must be prepared by audit firms approved by Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Annual reports must be in form specified in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collective investment schemes must file prospectus or disclosure document as specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "106. Every collective investment scheme shall file interim financial statements with Commission within 45 days of interim period closing, prepared in accordance with IFRS."
+    },
+    {
+      "section": "107",
+      "heading": "Appointment and duties of auditors",
+      "title": "Auditor appointment and reporting duties",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Commission must approve audit firms for CIS managers and schemes only if they have adequate experience, expertise, and resources. Auditors must report to the Commission if they become aware of material adverse changes in risks, potential insolvency, contraventions of the Act, or criminal offences involving fraud or dishonesty. Auditors are protected from liability for communicating such information in good faith.",
+      "dtia_summary": "Requires auditors to monitor financial risks and report potential breaches, essential for DTIA compliance in cross-border financial data transfers.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission shall not approve audit firms unless they have adequate experience, expertise and resources",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may require auditors to submit additional information as necessary",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Auditors must report to Commission if they become aware of material adverse changes in risks with potential to jeopardize going concern",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report to Commission if they become aware of contraventions of the Act, regulations, or FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report to Commission if they become aware of criminal offences involving fraud or dishonesty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report to Commission if they become aware of serious irregularities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No duty of auditor is breached if they communicate information to Commission in good faith",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "107. Commission shall not approve audit firms unless they have adequate experience, expertise and resources to carry out such an audit."
+    },
+    {
+      "section": "111",
+      "heading": "Insider dealing prohibited",
+      "title": "Prohibition on insider dealing in securities",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 46,
+      "primary_category": "Cross-border Transfer",
+      "summary": "No person with inside information about securities of a reporting issuer may buy, sell, or trade in those securities, counsel others to do so, or disclose the information to others without authorization. Violations incur fines of 500,000 to 1,000,000 rupees and imprisonment up to 10 years. A defense exists if the person reasonably believed the information was publicly known.",
+      "dtia_summary": "Prohibits insider trading, critical for DTIA compliance in cross-border financial data transfers involving sensitive information.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person with inside information may buy, sell, or otherwise deal in securities of a reporting issuer",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person with inside information may counsel, procure, or cause another person to deal in securities",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person with inside information may disclose information to others without authorization",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person informed of investment program by CIS manager or investment adviser is deemed to have acted in contravention if they use information for personal benefit",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A defense exists if the person reasonably believed information was generally known to the public",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Violations incur fines of 500,000 to 1,000,000 rupees and imprisonment up to 10 years",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "111. No person who has inside information about securities of a reporting issuer shall buy, sell or otherwise deal in securities of that reporting issuer."
+    },
+    {
+      "section": "114",
+      "heading": "Market rigging",
+      "title": "Prohibition on market rigging activities",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 48,
+      "primary_category": "Cross-border Transfer",
+      "summary": "No person may engage in transactions that create or sustain artificial prices for securities on Mauritian exchanges or enter into fictitious transactions affecting security prices. Market rigging is a defense if the defendant proves they did not know and could not reasonably have known the transaction would affect prices. Underwriting activities by investment dealers during exchanges are exempt from this prohibition.",
+      "dtia_summary": "Prohibits market manipulation, critical for DTIA compliance in cross-border financial data transfers involving market stability.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person may engage in transactions that create or sustain artificial prices for securities on Mauritian exchanges",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "No person may enter into fictitious or artificial transactions affecting security prices",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Market rigging is a defense if defendant proves they did not know and could not reasonably have known the transaction would affect prices",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Underwriting activities by investment dealers during exchanges are exempt from this prohibition",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "114. No person shall engage in, or carry out, a transaction that creates or sustains an artificial price for securities on a securities exchange in Mauritius."
+    },
+    {
+      "section": "120",
+      "heading": "Interpretation under this Part",
+      "title": "Definition of licensee and Chief Executive",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in Part X of the Securities Act. A 'licensee' includes past and present licensees, their officers and partners, persons who ought to have been licensed, collective investment schemes, and SROs. The 'Chief Executive' includes any person designated by them or the Commission. The section also specifies that the Commission has additional powers from Part VIII and Sub-Parts A and B of Part IX of the Financial Services Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "any reference to a 'licensee' shall include any person who has been a licensee",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "any reference to a 'licensee' shall include any person who is a present or past officer, partner or controller of the licensee",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "any reference to a 'licensee' shall include any person who ought to have been licensed under this Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "any reference to a 'licensee' shall include a collective investment scheme",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "any reference to a 'licensee' shall include an SRO",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "any reference to the 'Chief Executive' shall include any person designated by the Chief Executive or the Commission",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "120. Interpretation under this Part (1) For the purposes of this Part— (a) any reference to a \"licensee\" shall include— (i) any person who has been a licensee; (ii) any person who is a present or past officer, partner or controller of the licensee; (iii) any person who ought to have been licensed under this Act; (iv) a collective investment scheme; (v) an SRO; (b) any reference to the \"Chief Executive\" shall include any person designated by the Chief Executive or the Commission."
+    },
+    {
+      "section": "122",
+      "heading": "Information relating to securities transactions",
+      "title": "Information sharing for securities transactions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 50,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Chief Executive may direct persons involved in securities transactions to provide information to exchanges, public agencies, international bodies, foreign regulators, or law enforcement. This includes details about transaction participants, investment amounts, instructions, and associated persons. Failure to comply with such directions constitutes an offence.",
+      "dtia_summary": "This section enables cross-border data sharing for securities transactions, requiring information disclosure to foreign supervisory institutions and law enforcement agencies, which impacts DTIA requirements for international data transfers.",
+      "authority": "Chief Executive",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Chief Executive may direct a person registered as the holder of securities to furnish information to any securities exchange, clearing and settlement facility, public sector agency, international organisation, foreign supervisory institution, or law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The information may include the name, address, contact details, and occupation of any party to the securities transaction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The information may include the nature, amount, and other details relating to the investment transaction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The information may include any instructions given to or by another party to the securities transaction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The information may include details of persons associated with or who received proceeds from the securities transaction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person who fails to comply with a direction under this section without reasonable cause commits an offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "122. Information relating to securities transactions (1) In relation to any securities or any securities transaction, whether undertaken in or outside Mauritius, the Chief Executive may, without prejudice to his powers under the Financial Services Act, for the purposes of ensuring compliance with any— (a) relevant Act; (b) regulations made under a relevant Act; (c) FSC Rules; (d) rules approved by the Commission; or (e) agreement or arrangement for the exchange of information, direct— (i) a person registered as the holder of securities; (ii) a person whom the Commission has reasonable grounds to suspect that he— (A) is the holder of securities; (B) has a beneficial interest in securities; or (C) has acquired or disposed of securities, whether directly or through a nominee, trustee or agent; or (iii) any other person, to furnish information which the Chief Executive may, in furtherance of the objects and functions of the Commission, provide to any— (aa) securities exchange, clearing and settlement facility; (ab) public sector agency; (ac) international organisation; (ad) foreign supervisory institution; or (ae) law enforcement agency."
+    },
+    {
+      "section": "133",
+      "heading": "Cease trade order",
+      "title": "Cease trade orders for securities exchanges",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 52,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Commission may order a securities exchange to close for trading due to emergencies, natural disasters, or economic crises. The Commission must consult the exchange before issuing such orders and may direct the exchange during the closure. Violation of the order by investment dealers or licensed representatives results in fines up to one million rupees and imprisonment for up to five years.",
+      "dtia_summary": "This section allows the Commission to impose temporary trading halts across borders due to crises, impacting DTIA requirements for international market operations and cross-border data flows during emergencies.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission may order that a securities exchange be closed for securities transactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may make an order where orderly transaction of business on the securities exchange is adversely affected due to an emergency, natural disaster, or economic crisis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission shall consult the securities exchange before making an order unless it is impracticable, undesirable, or inexpedient",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The order shall remain in force for the period the Commission thinks fit, but not longer than the time the exchange is affected by the events specified",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "During the order period, the Commission may give directions to the securities exchange",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any investment dealer or licensed representative who deals in securities listed on an exchange during an order commits an offence and may be fined up to one million rupees and imprisoned for up to five years",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "133. Cease trade order (1) Subject to subsections (2) and (3), the Commission may order that a securities exchange be closed for securities transactions. (2) The Commission may make an order under subsection (1) where it is of the opinion that the orderly transaction of business on the securities exchange is being or is likely to be adversely affected due to the occurrence of— (a) an emergency or a natural disaster; or (b) an economic or financial crisis."
+    },
+    {
+      "section": "135",
+      "heading": "Notification of decisions",
+      "title": "Notification of decisions",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 52,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Commission or Chief Executive must notify and publish decisions in a specified format, including the decision itself, reasons, findings on material facts, evidence, and the right to appeal to the Review Panel. SROs, exchanges, and facilities must also notify affected parties in writing when making decisions under their rules.",
+      "dtia_summary": "This section mandates transparent notification of decisions affecting data flows, ensuring stakeholders are informed of regulatory actions that could impact cross-border data transfers and international processing.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission or Chief Executive shall give notice of and publish any decision in such form and manner as they think fit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An SRO, securities exchange, clearing and settlement facility, or trading facility shall give written notice of decisions to each person whose interests are affected",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A notice shall set out the decision, reasons for the decision, findings on material questions of fact, evidence on which findings were based, and the right to appeal to the Review Panel if applicable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "135. Notification of decisions (1) Unless otherwise provided under this Act, the Financial Services Act, any regulations made under these Acts or any FSC Rules, the Commission or the Chief Executive, as the case may be, shall give notice of, and publish, any decision in such form and manner as it or he thinks fit. (2) Where an SRO, a securities exchange, a clearing and settlement facility or a trading facility makes a decision under its rules, it shall give written notice of the decision to each person whose interests are affected by the decision."
+    },
+    {
+      "section": "143",
+      "heading": "Exchange of information",
+      "title": "Information exchange with foreign entities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 55,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Commission may share information with securities exchanges, clearing facilities, or SROs for enforcement purposes, subject to conditions that restrict the use and disclosure of the information. This enables cross-border data sharing for regulatory compliance.",
+      "dtia_summary": "This section allows the Commission to exchange information with foreign entities for enforcement, requiring DTIA considerations for data sharing across borders with international regulatory bodies.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission may give a securities exchange, clearing and settlement facility or any SRO information relevant to enforcement of this Act, regulations, or FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Information given under this section may be subject to conditions restricting use and disclosure",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "143. Exchange of information (1) Notwithstanding section 83 of the Financial Services Act, the Commission may give a securities exchange, a clearing and settlement facility or any SRO any information relevant to the enforcement of this Act, any regulations made under this Act or any FSC Rules for the purpose of discharging their respective functions."
+    },
+    {
+      "section": "148",
+      "heading": "Compensation fund",
+      "title": "Compensation fund for investors",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 57,
+      "primary_category": "Financial Data",
+      "summary": "A compensation fund must be established to cover pecuniary losses from licensees' insolvency, fraud, or bankruptcy. The fund is administered by the Commission through regulations, including contributions from licensees, claims settlement, and insurance policies. The fund may also be established by SROs with Commission approval.",
+      "dtia_summary": "This section establishes a compensation fund for investors, which may impact DTIA requirements for financial data handling and cross-border transfers of investor data in cases of insolvency or fraud.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "There shall be established and maintained one or more compensation funds for purposes prescribed by regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A compensation fund may provide for compensation of investors who suffer pecuniary loss due to inability of a licensee to satisfy claims, fraud by a licensee, or insolvency of a licensee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A compensation fund shall be administered in accordance with regulations",
+          "obligation_type": ""
+        },
+        {
+          "text": "Regulations may provide for management of the fund by a committee, levying contributions from licensees, subscribing to insurance policies, determining compensation quantum, settling claims, subrogation rights, and account-keeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SROs, exchanges, or clearing facilities may establish compensation funds under their rules with Commission approval",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "148. Compensation fund (1) There shall be established and maintained in such manner as may be prescribed, one or more compensation funds, for such purposes as may be prescribed."
+    },
+    {
+      "section": "150",
+      "heading": "Publicity",
+      "title": "Public access to documents lodged with Commission",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 58,
+      "primary_category": "Other",
+      "summary": "Any person may request to review or copy documents lodged with the Commission under this Act, regulations, or FSC Rules. The Commission may specify procedures, fees, and refuse access if the information is confidential with real commercial value or personal information in the public interest.",
+      "dtia_summary": "Allows public access to documents but restricts disclosure of confidential commercial information or personal data where public interest requires privacy.",
+      "authority": "Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person may review or copy documents lodged with the Commission under this Act, regulations, or FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may specify reasonable procedures for requests and fees",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may refuse access if information is confidential with real commercial value",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The Commission may refuse access if personal information is in the public interest",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "150. Publicity (1) Subject to this section, any person may, on request, review or copy any document lodged with the Commission under this Act, any regulations made under this Act or any FSC Rules."
+    },
+    {
+      "section": "153",
+      "heading": "Immunity",
+      "title": "Immunity for good faith reports to Commission",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 59,
+      "primary_category": "Other",
+      "summary": "Persons making good faith reports to the Commission under this Act, regulations, or FSC Rules are immune from legal action. They cannot face employment prejudice or penalties for reporting suspected breaches of this Act, regulations, or FSC Rules.",
+      "dtia_summary": "Provides immunity for reporting breaches, ensuring staff can report concerns without fear of retaliation.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No action shall lie against persons who make good faith reports to the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person shall face employment prejudice or penalties for reporting suspected breaches",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "153. Immunity (1) No action shall lie against any person who makes a report in good faith to the Commission that is required or permitted under this Act..."
+    },
+    {
+      "section": "154",
+      "heading": "Regulations",
+      "title": "Regulations for Commission functions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 59,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "The Minister may make regulations for this Act, amend the Schedule, and specify criteria for companies as SROs, takeover requirements, board duties, collective investment schemes, and penalties up to 2 million rupees.",
+      "dtia_summary": "Allows the Minister to create detailed rules for financial institutions, including penalties for breaches, affecting data handling and reporting.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Minister may make regulations for the purposes of this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Minister may amend the Schedule by regulations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide criteria for declaring companies as SROs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify takeover requirements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may define board duties and obligations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may cover collective investment schemes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may impose penalties up to 2 million rupees for breaches",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "154. Regulations (1) The Minister may— (a) make such regulations, as he thinks fit for the purposes of this Act; (b) by regulations, amend the Schedule."
+    },
+    {
+      "section": "155",
+      "heading": "FSC Rules",
+      "title": "FSC Rules for securities regulation",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 62,
+      "primary_category": "Other",
+      "summary": "The Commission may publish FSC Rules covering prospectuses, financial statements, licensing, reporting requirements, prudential rules, and administrative penalties up to 2 million rupees for breaches.",
+      "dtia_summary": "Defines detailed rules for securities reporting and licensing, including penalties for non-compliance, affecting data handling and transparency.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Commission may make FSC Rules published in the Gazette",
+          "obligation_type": "May"
+        },
+        {
+          "text": "FSC Rules may cover prospectuses and financial statements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "FSC Rules may specify licensing criteria",
+          "obligation_type": "May"
+        },
+        {
+          "text": "FSC Rules may require reporting to the Commission",
+          "obligation_type": "May"
+        },
+        {
+          "text": "FSC Rules may impose prudential rules including capital requirements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "FSC Rules may allow administrative penalties up to 2 million rupees",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "155. FSC Rules (1) The Commission may, for the purposes of this Act, make rules to be known as FSC Rules and such rules shall be published in the Gazette."
+    },
+    {
+      "section": "161",
+      "heading": "Transitional provisions – reporting issuers and insiders of reporting",
+      "title": "Transitional reporting requirements",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 64,
+      "page_end": 65,
+      "primary_category": "Other",
+      "summary": "Reporting issuers must file annual reports starting 6 months after Part VI commences and quarterly reports from the first quarter after 6 months. Insiders must file reports 3 months after the Act commences.",
+      "dtia_summary": "Sets transitional reporting timelines for financial institutions, affecting data retention and reporting obligations.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Reporting issuers must file annual reports as from the end of the financial year ending 6 months after Part VI commences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reporting issuers must file quarterly reports as from the first quarter of the financial year starting 6 months after Part VI commences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insiders must file reports 3 months after the Act commences",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "161. Transitional provisions – reporting issuers and insiders of reporting issuers (1) Reporting issuers in existence immediately before the commencement of this Act, shall meet the requirements of— (a) filing of annual report as from the end of the financial year ending 6 months after the commencement of Part VI;"
+    },
+    {
+      "section": "15",
+      "heading": "A document issued or executed by a bank or deposit taking non-bank",
+      "title": "Bank-issued debt acknowledgment documents",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "A document issued by a bank or deposit-taking non-bank financial institution licensed under the Banking Act that acknowledges indebtedness in the ordinary course of banking or deposit-taking business.",
+      "dtia_summary": "Defines specific debt acknowledgment documents issued by financial institutions, relevant for data classification and handling.",
+      "authority": "Banking Act",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A document issued or executed by a bank or deposit taking non-bank financial institution licensed under the Banking Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15. A document issued or executed by a bank or deposit taking non-bank financial institution licensed or authorised under the Banking Act, being a document issued or executed in the ordinary course of its banking or deposit taking business, that acknowledges the indebtedness of the bank or institution arising in the ordinary course of that business."
+    },
+    {
+      "section": "16",
+      "heading": "A foreign exchange contract as defined in the Banking Act.",
+      "title": "Foreign exchange contracts defined under Banking Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Definitions",
+      "summary": "This section defines a foreign exchange contract as per the Banking Act. The definition is used to determine what constitutes a foreign exchange contract for regulatory purposes. The definition is specific to the context of the Securities Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A foreign exchange contract as defined in the Banking Act",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "16.   A foreign exchange contract as defined in the Banking Act."
+    }
+  ]
+}

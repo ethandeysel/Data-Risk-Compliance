@@ -70,7 +70,7 @@ NUM_GPU = int(_num_gpu) if _num_gpu not in (None, "") else None
 # The KV cache is allocated for the whole context window, so an oversized
 # num_ctx wastes memory and slows prompt processing.  We size the window
 # to the actual prompt at call time and clamp it here.
-NUM_CTX_MAX = int(os.getenv("LLM_NUM_CTX_MAX", "16384"))
+NUM_CTX_MAX = int(os.getenv("LLM_NUM_CTX_MAX", "8192"))
 NUM_CTX_MIN = 2048
 
 # Approximate token budget for a single batch prompt (excluding the

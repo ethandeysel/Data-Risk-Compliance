@@ -1,0 +1,886 @@
+{
+  "country": "Mauritius",
+  "document": "COMPUTER MISUSE AND CYBERCRIME ACT, No 22 of 2003 (Mauritius - Row 9)",
+  "generated": "2026-07-17T19:07:04",
+  "sections": [
+    {
+      "section": "22",
+      "heading": "– 23.   —",
+      "title": "Section 22: Computer Misuse and Cybercrime Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "This section establishes the legal framework for the Computer Misuse and Cybercrime Act, defining key terms such as 'computer system', 'data', 'digital signature', and 'electronic record' to ensure clarity in subsequent provisions. It specifies the technical and operational contexts for these terms, including their application to digital communications and information processing. The definitions are critical for interpreting the Act's provisions on unauthorized access and cybercrime.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act—",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2.   Interpretation In this Act—"
+    },
+    {
+      "section": "1",
+      "heading": "Short title",
+      "title": "Short title of the Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "This section provides the official title of the Act as 'Computer Misuse and Cybercrime Act', which is essential for legal reference and identification purposes. It establishes the name under which the legislation operates, facilitating consistent application across all sections.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Act may be cited as the Computer Misuse and Cybercrime Act.",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "1.   Short title This Act may be cited as the Computer Misuse and Cybercrime Act."
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Interpretation of key terms",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 4,
+      "primary_category": "Definitions",
+      "summary": "This section defines critical terms such as 'computer system', 'data', 'digital signature', and 'electronic record' to ensure precise application of the Act. It clarifies the scope of these terms, including their relevance to digital communications, information processing, and cybersecurity measures. These definitions are foundational for understanding unauthorized access and cybercrime provisions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "\"access\", in relation to any computer system, means instruct, communicate with, store data in, retrieve data from, or otherwise make use of any of the resources of the computer system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"asymmetric cryptosystem\" means a system capable of generating a secure key pair, consisting of a private key for creating a digital signature, and a public key to verify the digital signature",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"computer service\" includes data processing and the storage or retrieval of data",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"computer system\" means a device or combination of devices, including input and output devices, but excluding calculators which are not programmable, and capable of being used in conjunction with external files, which contain computer programs, electronic instructions, input data and output data that performs logic, arithmetic, data storage and retrieval, communication control and other functions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"data\" means information recorded in a form in which it can be processed by equipment operating automatically in response to instructions given for that purpose, and includes representations of facts, information and concepts held in any removable storage medium",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"digital signature\" means an electronic signature consisting of a transformation of an electronic record using an asymmetric cryptosystem such that a person having the initial untransformed electronic record and the signer's public key can accurately determine whether the transformation was created using the private key that corresponds to the signer's public key and whether the initial electronic record has been altered since the transformation was made",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"electronic\" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"electronic record\" means a record created, generated, sent, communicated, received or stored by electronic means",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"function\" includes logic, control, arithmetic, deletion, storage and retrieval and communication or telecommunication to, from or within a computer system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"information and communication service\" means any service involving the use of information and communication technologies, including telecommunication services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"information and communication technologies\" means technologies employed in collecting, storing, using or sending out information and include those involving the use of computers or any telecommunication system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"intercept\", in relation to a function of a computer, includes listen to, or record a function of a computer, or acquire the substance, its meaning or purport of such function",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"investigatory authority\" means the police or any other body lawfully empowered to investigate any offence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"key\" means either a public or private key",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"modification\" means a modification of the contents of any computer system by the operation of any function of that computer system or any other computer system as a result of which any program or data held in the computer system is altered or erased, any program or data is added to its contents, or any act occurs which impairs the normal operation of the computer system",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"password\" means any data by which a computer service or a computer system is capable of being obtained or used",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"private key\" means the key of a key pair used to create a digital signature",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"program\" means a set of instructions, expressed in words, codes, schemes or any other form, which is capable, when incorporated in a machine readable medium, of causing a computer to perform or achieve a particular task or result",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"property\" means property of any kind, nature or description, whether moveable or immoveable, tangible or intangible and includes any currency, information, any right or interest in property",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"public key\" means the key of a key pair used to verify a digital signature",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"record\" means information that is inscribed, stored or otherwise fixed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"service provider\" means any person who provides an information and communication service, including a telecommunication service",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"subscriber\" means a person using the services of a service provider",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"subscriber information\" means any information, contained in the form of computer data or any other form, that is held by a service provider, relating to subscribers, other than traffic or other data, by which can be established the type of the communication service used, the technical provisions taken to use the communication service and the period of the service, the subscriber's identity, postal or geographical address, telephone and other access number, billing and payment information, available on the basis of a service agreement or arrangement",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"telecommunication\" means a transmission, emission or reception of signs, signals, writing, images, sounds or intelligence of any nature by wire, radio, optical or other electro-magnetic systems",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"traffic data\" means any data relating to a communication by means of a computer system and generated by the system that form part in the chain of communication, indicating the communication's origin, destination, route, time, date, size, duration, or type of underlying service",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"underlying service\" means the type of service that is being used within the computer system",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "2.   Interpretation In this Act—"
+    },
+    {
+      "section": "3",
+      "heading": "Unauthorised access to computer data",
+      "title": "Unauthorised access to computer data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines the offence of unauthorized access to computer data, specifying that unauthorized access is prohibited unless the person has lawful authority, consent, or is acting under specific legal measures. It defines when access is unauthorized and sets penalties for violations, including fines and imprisonment. The section applies to individuals who access computer systems without proper authorization.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Subject to subsections (2) and (3), any person who causes a computer system to perform a function, knowing that the access he intends to secure is unauthorised, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 50,000 rupees and to penal servitude for a term not exceeding 5 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he is a person with a right to control the operation or use of the computer system and exercises such right in good faith",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he has the express or implied consent of the person, empowered to authorise him, to have such an access",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he has reasonable grounds to believe that he had such consent as specified in paragraph (b)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he is acting pursuant to measures that can be taken under Part III of this Act",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he is acting in reliance of any statutory power arising under any enactment for the purpose of obtaining information, or of taking possession of, any document or other property",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "An access by a person to a computer system shall be unauthorised where the person is not himself entitled to control access of the kind in question",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An access by a person to a computer system shall be unauthorised where the person does not have consent to access by him of the kind in question from any person who is so entitled",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "3.   Unauthorised access to computer data (1) Subject to subsections (2) and (3), any person who causes a computer system to perform a function, knowing that the access he intends to secure is unauthorised, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 50,000 rupees and to penal servitude for a term not exceeding 5 years."
+    },
+    {
+      "section": "4",
+      "heading": "Access with intent to commit offences",
+      "title": "Access with intent to commit offences",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section addresses the offence of accessing computer systems with the intent to commit other offences. It specifies that unauthorized access for criminal purposes is prohibited and imposes severe penalties, including fines up to 200,000 rupees and imprisonment for up to 20 years. The section clarifies that the intent to commit an offence is central to the offence, regardless of whether the access is authorized or unauthorized.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who causes a computer system to perform any function for the purpose of securing access to any program or data held in any computer system with intent to commit an offence under any other enactment, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 200,000 rupees and to penal servitude for a term not exceeding 20 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of this section, it is immaterial that the access referred to in subsection (1) is authorised or unauthorised",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "For the purposes of this section, it is immaterial that the further offence to which this section applies is committed at the same time when the access is secured or at any other time",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "4.   Access with intent to commit offences (1) Any person who causes a computer system to perform any function for the purpose of securing access to any program or data held in any computer system with intent to commit an offence under any other enactment, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 200,000 rupees and to penal servitude for a term not exceeding 20 years."
+    },
+    {
+      "section": "5",
+      "heading": "Unauthorised access to and interception of computer service",
+      "title": "Unauthorised access to and interception of computer service",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section prohibits unauthorized access to and interception of computer services, defining offences that involve obtaining computer services or intercepting functions/data without authorization. It specifies penalties for such actions, including fines up to 100,000 rupees and imprisonment up to 10 years, with enhanced penalties if the computer system's operation is impaired or data is suppressed or modified.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Subject to subsection (5), any person who, by any means, knowingly secures access to any computer system for the purpose of obtaining, directly or indirectly, any computer service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subject to subsection (5), any person who, by any means, knowingly intercepts or causes to be intercepted, directly or indirectly, any function of, or any data within, a computer system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person convicted of an offence under subsection (1) shall be liable to a fine not exceeding 100,000 rupees and to penal servitude for a term not exceeding 10 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where, as a result of the commission of an offence under subsection (1), the operation of the computer system is impaired, or data contained in the computer system is suppressed or modified, a person convicted of such offence shall be liable to a fine not exceeding 200,000 rupees and to penal servitude for a term not exceeding 20 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purpose of this section, it is immaterial that the unauthorised access or interception is not directed at any particular program or data",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "For the purpose of this section, it is immaterial that the unauthorised access or interception is not directed at a program or data of any kind",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "For the purpose of this section, it is immaterial that the unauthorised access or interception is not directed at a program or data held in any particular computer system",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he has the express or implied consent of both the person who sent the data and the intended recipient of such data",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person shall not be liable under subsection (1) where he is acting in reliance of any statutory power",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "5.   Unauthorised access to and interception of computer service (1) Subject to subsection (5), any person who, by any means, knowingly— (a) secures access to any computer system for the purpose of obtaining, directly or indirectly, any computer service; (b) intercepts or causes to be intercepted, directly or indirectly, any function of, or any data within, a computer system, shall commit an offence."
+    },
+    {
+      "section": "6",
+      "heading": "Unauthorised modification of computer material",
+      "title": "Unauthorised modification of computer data",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section prohibits knowingly causing unauthorised modifications to computer data. Offenders face fines up to 100,000 rupees and penal servitude up to 10 years. Exceptions apply if actions are authorised under Part III of the Act or other statutory powers. The modification must be unauthorised if the person lacks authority to determine it or consent from an entitled party.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who knowingly causes unauthorised modification of data in a computer system is liable to a fine not exceeding 100,000 rupees and penal servitude up to 10 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the modification causes system operation, access to programs or data, or program reliability to be suppressed, modified or impaired, the fine increases to 200,000 rupees and penal servitude up to 20 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person is not liable if acting under measures in Part III of this Act or other statutory powers",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A modification is unauthorised if the person lacks authority to determine it or consent from an entitled party",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Unauthorised modification of computer material (1) Subject to subsections (3) and (4), any person who knowingly does an act which causes an unauthorised modification of data held in any computer system shall, on conviction, be liable to a fine not exceeding 100,000 rupees and to penal servitude for a term not exceeding 10 years."
+    },
+    {
+      "section": "7",
+      "heading": "Damaging or denying access to computer system",
+      "title": "Damaging computer systems without lawful authority",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section prohibits damaging or denying access to computer systems without lawful authority. Offenders face fines up to 200,000 rupees and penal servitude up to 20 years. The offence covers causing degradation, failure, interruption, or obstruction of system operations or denial of access to programs and data.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who without lawful authority or excuse causes degradation, failure, interruption or obstruction of computer system operations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who without lawful authority or excuse causes denial of access to or impairment of programs or data in a computer system",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "7. Damaging or denying access to computer system Any person who without lawful authority or lawful excuse, does an act which causes directly or indirectly— (a) a degradation, failure, interruption or obstruction of the operation of a computer system; or (b) a denial of access to, or impairment of any program or data stored in, the computer system, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 200,000 rupees and to penal servitude not exceeding 20 years."
+    },
+    {
+      "section": "8",
+      "heading": "Unauthorised disclosure of password",
+      "title": "Unauthorised disclosure of access credentials",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section prohibits knowingly disclosing passwords, access codes, or other access means for wrongful gain, unlawful purposes, or causing prejudice. Offenders face fines up to 50,000 rupees and imprisonment up to 5 years.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who knowingly discloses a password, access code, or other access means for wrongful gain",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who knowingly discloses a password, access code, or other access means for unlawful purposes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who knowingly discloses a password, access code, or other access means likely to cause prejudice",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "8. Unauthorised disclosure of password Any person who, knowingly discloses any password, access code, or any other means of gaining access to any program or data held in any computer system— (a) for any wrongful gain; (b) for any unlawful purpose; or (c) knowing that it is likely to cause prejudice to any person, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 50,000 rupees and to imprisonment for a term not exceeding 5 years."
+    },
+    {
+      "section": "9",
+      "heading": "Unlawful possession of devices and data",
+      "title": "Unlawful possession of devices for cybercrime",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section prohibits manufacturing, selling, procuring, importing, distributing, or making available devices designed for cybercrime offences. It also prohibits receiving or possessing such devices without sufficient excuse, and possessing data or programs intended for committing offences.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who knowingly manufactures, sells, procures for use, imports, distributes or makes available a computer system or device designed for committing offences under sections 3 to 8",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who knowingly receives or is in possession of devices without sufficient excuse or justification",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who is in possession of data or programs with intent to use them for committing or facilitating offences",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "9. Unlawful possession of devices and data (1) Any person who knowingly manufactures, sells, procures for use, imports, distributes or otherwise makes available, a computer system or any other device, designed or adapted primarily for the purpose of committing any offence under sections 3 to 8, shall commit an offence. (2) Any person who knowingly receives, or, without sufficient excuse or justification, is in possession of, one or more of the devices under subsection (1) shall commit an offence. (3) Any person who is found in possession of any data or program with the intention that the data or program be used, by the person himself or another person, to commit or facilitate the commission of an offence under this Act, shall commit an offence."
+    },
+    {
+      "section": "10",
+      "heading": "Electronic fraud",
+      "title": "Electronic fraud through data manipulation",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section prohibits fraudulently causing property loss through data input, alteration, deletion, or suppression, or interference with computer systems. Offenders face fines up to 200,000 rupees and penal servitude up to 20 years.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who fraudulently causes loss of property through input, alteration, deletion or suppression of data",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who fraudulently causes loss of property through interference with computer system functioning",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "10. Electronic fraud Any person who fraudulently causes loss of property to another person by— (a) any input, alteration, deletion or suppression of data; or (b) any interference with the functioning of a computer system, with intent to procure for himself or another person, an advantage, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 200,000 rupees and to penal servitude for a term not exceeding 20 years."
+    },
+    {
+      "section": "11",
+      "heading": "Preservation order",
+      "title": "Preservation of digital evidence",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section allows investigatory authorities to request judges to preserve digital data vulnerable to loss or modification. The order remains in force until the investigation concludes, prosecution is completed, or the judge deems it necessary.",
+      "dtia_summary": "",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any investigatory authority may apply to the Judge in Chambers for an order to preserve data vulnerable to loss or modification",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Data includes traffic data and subscriber information",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "An order remains in force until the investigation concludes, prosecution is completed, or the judge deems it necessary",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "11. Preservation order (1) Any investigatory authority may apply to the Judge in Chambers for an order for the expeditious preservation of data that has been stored or processed by means of a computer system or any other information and communication technologies, where there are reasonable grounds to believe that such data is vulnerable to loss or modification."
+    },
+    {
+      "section": "12",
+      "heading": "Disclosure of preserved data",
+      "title": "Disclosure of preserved data for criminal investigations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The investigatory authority may request a judge to order disclosure of preserved data for criminal investigations or prosecutions. This includes all preserved data regardless of service providers involved, sufficient data to identify service providers and data transmission paths, or electronic keys for data access. The disclosure applies to data stored in computer systems.",
+      "dtia_summary": "This section allows authorities to compel disclosure of data across systems, relevant for assessing data transfer risks when investigating cross-border data flows.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The investigatory authority may apply to the Judge in Chambers for an order for the disclosure of all preserved data, irrespective of whether one or more service providers were involved in the transmission of such data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The investigatory authority may apply to the Judge in Chambers for an order for the disclosure of sufficient data to identify the service providers and the path through which the data was transmitted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The investigatory authority may apply to the Judge in Chambers for an order for the disclosure of electronic key enabling access to or the interpretation of data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "12. The investigatory authority may, for the purposes of a criminal investigation or the prosecution of an offence, apply to the Judge in Chambers for an order for the disclosure of— (a) all preserved data, irrespective of whether one or more service providers were involved in the transmission of such data; (b) sufficient data to identify the service providers and the path through which the data was transmitted; or (c) electronic key enabling access to or the interpretation of data."
+    },
+    {
+      "section": "13",
+      "heading": "Production order",
+      "title": "Compelling data production for criminal investigations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Cross-border Transfer",
+      "summary": "An investigatory authority may compel a person or service provider to submit specified data for criminal investigations. This includes data stored in computer systems and subscriber information from service providers. The order requires data to be produced in a visible and legible form for physical removal.",
+      "dtia_summary": "This section enables data production orders that could impact cross-border data transfers by requiring disclosure of data from foreign service providers.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An investigatory authority may apply to the Judge in Chambers for an order compelling any person to submit specified data in that person's possession or control, which is stored in a computer system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An investigatory authority may apply to the Judge in Chambers for an order compelling any service provider offering its services to submit subscriber information in relation to such services in that service provider's possession or control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where any material to which an investigation relates consists of data stored in a computer, disc, cassette, or on microfilm, or preserved by any mechanical or electronic device, the request shall be deemed to require the person to produce or give access to it in a form in which it can be taken away and in which it is visible and legible",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "13. (1) Where the disclosure of data is required for the purposes of a criminal investigation or the prosecution of an offence, an investigatory authority may apply to the Judge in Chambers for an order compelling— (a) any person to submit specified data in that person's possession or control, which is stored in a computer system; and (b) any service provider offering its services to submit subscriber information in relation to such services in that service provider's possession or control. (2) Where any material to which an investigation relates consists of data stored in a computer, disc, cassette, or on microfilm, or preserved by any mechanical or electronic device, the request shall be deemed to require the person to produce or give access to it in a form in which it can be taken away and in which it is visible and legible."
+    },
+    {
+      "section": "14",
+      "heading": "Powers of access, search and seizure for purposes of investigation",
+      "title": "Powers for accessing, searching and seizing data during investigations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Cross-border Transfer",
+      "summary": "An investigatory authority may obtain a warrant to access, search and seize data from premises for criminal investigations. The warrant allows seizure of computer systems, making copies of data, maintaining data integrity, or rendering data inaccessible or removing it from systems.",
+      "dtia_summary": "This section grants broad powers for data access during investigations, relevant for assessing data transfer risks when authorities need to seize data across borders.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Where an investigatory authority has reasonable grounds to believe that stored data would be relevant for the purposes of an investigation or the prosecution of an offence, it may apply to a Judge in Chambers for the issue of a warrant to enter any premises to access, search and seize such data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The powers of the investigatory authority shall include the power to seize or secure a computer system or any information and communication technologies medium",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The powers of the investigatory authority shall include the power to make and retain a copy of such data or information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The powers of the investigatory authority shall include the power to maintain the integrity of the relevant stored data or information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The powers of the investigatory authority shall include the power to render inaccessible or remove the stored data or information from the computer system, or any information and communication technologies medium",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. (1) Where an investigatory authority has reasonable grounds to believe that stored data would be relevant for the purposes of an investigation or the prosecution of an offence, it may apply to a Judge in Chambers for the issue of a warrant to enter any premises to access, search and seize such data. (2) In the execution of a warrant under subsection (1), the powers of the investigatory authority shall include the power to— (a) seize or secure a computer system or any information and communication technologies medium; (b) make and retain a copy of such data or information; (c) maintain the integrity of the relevant stored data or information; or (d) render inaccessible or remove the stored data or information from the computer system, or any information and communication technologies medium."
+    },
+    {
+      "section": "15",
+      "heading": "Real time collection of traffic data",
+      "title": "Real-time traffic data collection for investigations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Cross-border Transfer",
+      "summary": "An investigatory authority may request real-time collection of traffic data for criminal investigations. This includes ordering the collection of traffic data associated with specified communications or compelling service providers to assist in real-time data collection within their technical capabilities.",
+      "dtia_summary": "This section allows real-time data collection, relevant for assessing the risks of cross-border data transfers during active investigations.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Where the investigatory authority has reasonable grounds to believe that any data would be relevant for the purposes of investigation and prosecution of an offence under this Act, it may apply to the Judge in Chambers for an order allowing the collection or recording of traffic data, in real time, associated with specified communications transmitted by means of any computer system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where the investigatory authority has reasonable grounds to believe that any data would be relevant for the purposes of investigation and prosecution of an offence under this Act, it may apply to the Judge in Chambers for an order compelling a service provider, within its technical capabilities, to effect such collection and recording",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15. Where the investigatory authority has reasonable grounds to believe that any data would be relevant for the purposes of investigation and prosecution of an offence under this Act, it may apply to the Judge in Chambers for an order— (a) allowing the collection or recording of traffic data, in real time, associated with specified communications transmitted by means of any computer system; or (b) compelling a service provider, within its technical capabilities, to— (i) effect such collection and recording referred to in paragraph (a); or (ii) assist the investigatory authority to effect such collection and recording."
+    },
+    {
+      "section": "16",
+      "heading": "Deletion order",
+      "title": "Deletion order for child-related data",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A Judge in Chambers may order deletion of data containing indecent photographs of children upon application by an investigatory authority. This includes ensuring data is no longer stored on systems or deleted/destroyed to prevent child exploitation.",
+      "dtia_summary": "This section addresses specific child data deletion, relevant for assessing data transfer risks involving child-related information across borders.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A Judge in Chambers may order that such data be no longer stored on and made available through the computer system or any other medium",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A Judge in Chambers may order that such data be deleted or destroyed",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16. A Judge in Chambers may, upon application by an investigatory authority, and being satisfied that a computer system or any other information and communication technologies medium contains an indecent photograph of a child, order that such data be— (a) no longer stored on and made available through the computer system or any other medium; or (b) deleted or destroyed."
+    },
+    {
+      "section": "17",
+      "heading": "Limited use of disclosed data and information",
+      "title": "Limited use of disclosed data for investigations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Data obtained under sections 11 to 15 may only be used for the original purpose of the investigation or prosecution, except for specific exceptions including compliance with other laws, court orders, preventing crime, public interest, or tax collection purposes.",
+      "dtia_summary": "This section restricts data usage, relevant for ensuring data transferred for investigations is not misused across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "No data obtained under sections 11 to 15 shall be used for any purpose other than that for which the data was originally sought",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In accordance with any other enactment",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "In compliance with an order of a Court or Judge",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Where such data is required for the purpose of preventing, detecting or investigating offences, apprehending or prosecuting offenders, assessing or collecting tax, duty or other monies owed or payable to the Government",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "For the prevention of injury or other damage to the health of a person or serious loss of or damage to property",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "In the public interest",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "17. No data obtained under sections 11 to 15 shall be used for any purpose other than that for which the data was originally sought except— (a) in accordance with any other enactment; (b) in compliance with an order of a Court or Judge; (c) where such data is required for the purpose of preventing, detecting or investigating offences, apprehending or prosecuting offenders, assessing or collecting tax, duty or other monies owed or payable to the Government; (d) for the prevention of injury or other damage to the health of a person or serious loss of or damage to property; or (e) in the public interest."
+    },
+    {
+      "section": "19",
+      "heading": "Jurisdiction",
+      "title": "Jurisdiction for offences committed outside Mauritius",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "The Intermediate Court has jurisdiction over offences under this Act committed outside Mauritius if they occur on a Mauritian ship or aircraft registered in Mauritius. The court may impose penalties or forfeitures as provided by the Act. This applies to offences covered by sections 3, 4, 5, 6, 7, and 10 of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Intermediate Court has jurisdiction to try offences under this Act or its regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Intermediate Court may impose penalties or forfeitures as provided by this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Intermediate Court has jurisdiction for offences committed outside Mauritius on a Mauritian ship",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Intermediate Court has jurisdiction for offences committed outside Mauritius on a Mauritian aircraft",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "19. Jurisdiction (1) Notwithstanding any other enactment, the Intermediate Court shall have jurisdiction to try any offence under this Act or any regulations made under it and may, on conviction, impose any penalty or forfeiture provided for under this Act. (2) The Intermediate Court shall also have jurisdiction where the act constituting an offence under this Act has been committed outside Mauritius— (a) on board a Mauritian ship; or (b) on board an aircraft registered in Mauritius."
+    },
+    {
+      "section": "20",
+      "heading": "Extradition",
+      "title": "Extradition of specified offences",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "Offences under sections 3, 4, 5, 6, 7, and 10 of this Act are considered extraditable crimes under the Extradition Act. This means that these offences can be subject to extradition procedures if the relevant conditions are met.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Offences under sections 3, 4, 5, 6, 7, and 10 of this Act are extraditable crimes",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "20. Extradition Any offence under sections 3, 4, 5, 6, 7 and 10 of this Act shall be considered to be an extraditable crime for which extradition may be granted or obtained under the Extradition Act."
+    },
+    {
+      "section": "21",
+      "heading": "Forfeiture",
+      "title": "Forfeiture of property related to offences",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "A court may order the forfeiture of any apparatus, article, or thing that is the subject of an offence or used in connection with its commission, in addition to any other penalties imposed. This applies to convicted persons under this Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The court may order forfeiture of any apparatus, article, or thing subject to the offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The court may order forfeiture of any apparatus, article, or thing used in connection with the commission of the offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "21. Forfeiture The Court before which a person is convicted of an offence may, in addition to any other penalty imposed, order the forfeiture of any apparatus, article or thing which is the subject matter of the offence or is used in connection with the commission of the offence."
+    }
+  ]
+}

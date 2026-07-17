@@ -1,0 +1,3194 @@
+{
+  "country": "Mauritius",
+  "document": "THE-FINANCIAL-SERVICES-ACT-2007 (Mauritius - Row 13)",
+  "generated": "2026-07-17T19:54:00",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions in Financial Services Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "This section provides detailed definitions for key terms used throughout the Financial Services Act 2007. It clarifies the meaning of terms such as 'controller', 'corporation', 'financial services', 'global business', and 'Global Business Licence', among others. These definitions are critical for understanding the scope and application of the Act, particularly in regulatory contexts involving financial services and global business activities.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless otherwise expressly provided –",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "\"audit firm\" has the same meaning as in the Financial Reporting Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Authorised Company\" means a company issued with an authorisation under section 71A",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"bank\" has the same meaning as in the Banking Act 2",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Bank of Mauritius\" means the Bank of Mauritius established under the Bank of Mauritius Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Board\" means the Board referred to in section 4",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Chairperson\" means the Chairperson of the Board",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Chief Executive\" means the Chief Executive of the Commission appointed under section 9",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Commission\" means the Financial Services Commission established under section 3",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"confidential information\" includes any document, books of account, balance sheet, profit and loss account or any matter which is to be treated as confidential under section 83",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"consumer of financial services\" includes a beneficiary under the Private Pension Schemes Act 2012",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who has the power to appoint or remove a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person whose consent is needed for the appointment of a person to be a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who, either by himself or through one or more other persons, is able to control, or exert significant influence over, the business or financial operations of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who holds or controls not less than 20 percent of the shares of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who has the power to control not less than 20 percent of the voting power in the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who holds rights in relation to the corporation that, if exercised, would result in paragraphs (ii) and (iii)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a parent undertaking of that corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a beneficial owner or ultimate beneficial owner of the persons specified in paragraphs (a) to (e) and who appears to the Commission to be a controller of that corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"corporation\" means a body corporate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"corporation\" includes, where specified in FSC Rules, any trust, société or partnership or any other body of persons",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Council\" means the Financial Services Consultative Council established under section 12",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" means a document in any form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes any writing on any material",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes a book, graph or drawing",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes information recorded or stored by any electronic or other technological means and capable with or without the aid of any equipment of being reproduced",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"employee\" means an employee of the Commission appointed under section 80",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Enforcement Committee\" means the Enforcement Committee established under section 52",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"external insurer\" has the same meaning as in the Insurance Act 2005",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial crime\" means an offence that involves fraud or dishonesty under the relevant Acts or any other enactment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial crime\" means an offence under the Financial Intelligence and Anti-Money Laundering Act 2002",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial services\" means any financial services or financial business activities governed by the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial services\" includes the financial business activities specified in Part I of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"fintech\" means technologically enabled financial innovations which could result in new business models, applications, processes or products with an associated material effect on financial markets and institutions and the provision of financial services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"FSC Rules\" means the Financial Services Commission Rules made by the Commission under section 93",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Fund\" means the Financial Services Fund established under section 68",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global business\" means the business to which Part X applies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Global Business Corporation\" means a corporation holding a Global Business Licence issued under section 71",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Global Business Licence\" means a licence issued under section 72 (6)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global headquarters administration\" means the activities specified in Part III of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global treasury activities\" means the activities specified in Part II of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"guidelines\" includes codes, guidance notes, practice notes and such other similar instruments issued by the Commission",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"insurance manager\" has the same meaning as in the Insurance Act 2005",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"law firm\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"law practitioner\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"legal consultant\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" means any licence issued under any relevant Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" includes a Global Business Licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" includes a management licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" means the holder of a licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" includes any person authorised, registered or approved under the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" includes any institution established to provide any service under the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"management company\" means a company holding a management licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"management licence\" means a licence referred to in section 77",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"member\" means a member of the Board and includes the Chairperson and the Vice-Chairperson",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Minister\" means the Minister to whom responsibility for the subject of financial services is assigned",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"moneylender\" means a person, other than a bank or a non-bank deposit taking institution, whose business is that of moneylending",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"officer\" means a member of the board of directors, a chief executive, a managing director, a chief financial officer or chief financial controller, a manager, a company secretary, a partner, a trustee, a money laundering reporting officer, a deputy money laundering reporting officer, a compliance officer or a person holding any similar function with a licensee",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Ombudsperson for Financial Services\" has the same meaning as in the Ombudsperson for Financial Services Act 2018",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Peer-to-Peer Lending\" means a financial business activity which enables a person to lend funds through an online portal or electronic platform which matches lenders and borrowers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"public sector agency\" includes any Ministry or Government Department, local authority or statutory body",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"qualified auditor\" has the same meaning as in the Companies Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"technical committees\" means committees set up by the Board to examine and report on matters in relation to the administration of any relevant Act",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "\"controller\" in relation to a corporation means a person who is a member of the governing body of the corporation"
+    },
+    {
+      "section": "29",
+      "heading": "Record keeping",
+      "title": "Record keeping for financial services licenses",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Record Keeping",
+      "summary": "Licensees must maintain customer identity records and full transaction records for at least 7 years. Records must be in English or French, include account files and correspondence, and apply to both existing and new customers. Qualified trustees must also maintain beneficial owner registers. These requirements do not apply to Global Business Licenses or Authorised Companies unless they also hold financial services licenses.",
+      "dtia_summary": "Mandatory record keeping for 7 years impacts data retention and storage across borders, requiring detailed documentation of financial transactions and customer identities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensee must keep internal records of customer identity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee must keep full transaction records in English or French",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include account files and business correspondence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be kept for at least 7 years after transaction completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records do not apply to Global Business Licenses unless they also hold financial services licenses",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Licensee must maintain beneficial owner register for each customer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Qualified trustees must maintain trust registers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "every licensee shall – keep and maintain internal records of the identity of each of his customers; keep in relation to his business activities, a full and true written record, whether electronic or otherwise, in the English or French language of every transaction he makes"
+    },
+    {
+      "section": "32",
+      "heading": "Protection of consumers of financial services and financial products",
+      "title": "Consumer protection and information disclosure obligations",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Data Subject Rights",
+      "summary": "This section requires financial service licensees to provide specific information to the Ombudsperson for Financial Services upon request. The obligation applies to consumers seeking resolution of disputes or complaints related to financial services. This ensures transparency and access to dispute resolution mechanisms for financial customers.",
+      "dtia_summary": "Financial institutions must disclose consumer information to the Ombudsperson for Financial Services to resolve disputes, impacting data sharing practices.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Furnish information to Ombudsperson for Financial Services upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Obligation of licensee to furnish information to Ombudsperson for Financial Services"
+    },
+    {
+      "section": "79",
+      "heading": "Special Provisions for Global Business",
+      "title": "Special provisions for global business corporations",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Parts VIII and IX of the Act do not apply to Global Business Licence holders unless they also hold financial services authorizations. The Commission may create exceptions, limitations, or restrictions for applicants or authorized companies through FSC Rules. This section addresses the scope of applicability for global business operations.",
+      "dtia_summary": "This section clarifies the scope of financial services regulations for global business entities, affecting data transfer compliance frameworks.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Parts VIII and IX of the Act do not apply to a corporation holding a Global Business Licence unless it also holds a financial services authorization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may provide exceptions, limitations, or restrictions for Global Business Licence applicants or authorized companies through FSC Rules",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Parts VIII and IX of this Act shall not apply to a corporation holding a Global Business licence or an authorisation under section 71A unless the corporation also holds a licence, authorisation, approval or registration for the conduct of a financial services activity under a relevant Act."
+    },
+    {
+      "section": "83",
+      "heading": "Confidentiality",
+      "title": "Confidentiality obligations for Commission staff and licensees",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Other",
+      "summary": "Employees and licensees must take an oath of confidentiality before starting duties and maintain confidentiality of relevant Acts matters. They cannot disclose such matters to unauthorized persons except for administering the Acts or with Commission authorization. The Commission must provide information to the Bank of Mauritius for its functions, but publication is restricted to avoid disclosing financial affairs without consent. Licensees must treat corporate documents as confidential. No disclosure to courts is permitted without Supreme Court order for financial crime investigations. The Commission may disclose information to public agencies or foreign bodies under confidentiality agreements for regulatory purposes.",
+      "dtia_summary": "Requires strict confidentiality for financial data, with specific conditions for disclosure to regulators or foreign authorities in financial crime investigations. Critical for cross-border data transfers involving financial institutions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Employees must take confidentiality oath before duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees must maintain confidentiality of relevant Acts matters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees cannot disclose relevant Acts matters to unauthorized persons",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Commission must provide information to Bank of Mauritius for its functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank of Mauritius may publish information but not disclosing financial affairs without consent",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Licensees must treat corporate documents as confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No disclosure to courts without Supreme Court order for financial crime investigations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Supreme Court may order disclosure only for financial crime investigations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may disclose information to public agencies or foreign bodies under confidentiality agreements",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Every member of the Board, the technical committee, the Enforcement Committee, the Chief Executive, and every employee of the Commission shall – before he begins to perform any duties under the relevant Acts, take an oath of confidentiality in the form set out in Part II of the Third Schedule"
+    },
+    {
+      "section": "87",
+      "heading": "Exchange of information and mutual assistance",
+      "title": "Information exchange with foreign authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Other",
+      "summary": "The Commission may exchange information with supervisory bodies or public agencies for regulatory purposes. Information may be subject to conditions restricting use and disclosure. The Commission may enter into agreements with foreign bodies where they can protect confidentiality. Agreements may provide for mutual assistance in regulatory functions for financial crime investigations.",
+      "dtia_summary": "Allows controlled data exchange with foreign authorities for regulatory purposes, critical for cross-border data transfers in financial crime investigations.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commission may exchange information with supervisory bodies or public agencies for regulatory purposes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Information may be subject to conditions restricting use and disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may enter into agreements with foreign bodies where they can protect confidentiality",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Agreements may provide for mutual assistance in regulatory functions for financial crime investigations",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Notwithstanding section 83, the Commission may exchange with a supervisory body or any other public sector agency any information relevant to the administration of the relevant Acts for the purpose of discharging the functions of the Commission or of that body."
+    },
+    {
+      "section": "98",
+      "heading": "Commencement",
+      "title": "Commencement date for Financial Services Act",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section specifies the commencement date for the Financial Services Act 2007. It states that the Act comes into operation on a date to be fixed by Proclamation, subject to the provision that different provisions may have different effective dates. The Act was passed by the National Assembly on July 24, 2007.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "This Act shall come into operation on a date to be fixed by Proclamation",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Different dates may be fixed for the coming into operation of different provisions of this Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "98. Commencement Proclaimed by [Proclamation of 2007] w.e.f. 28 September 2007 (1) Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation. (2) Different dates may be fixed for the coming into operation of different provisions of this Act."
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions in Financial Services Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 13,
+      "primary_category": "Definitions",
+      "summary": "This section provides detailed definitions for key terms used throughout the Financial Services Act 2007. It clarifies the meaning of terms such as 'controller', 'corporation', 'financial services', 'global business', and 'Global Business Licence', among others. These definitions are critical for understanding the scope and application of the Act, particularly in regulatory contexts involving financial services and global business activities.",
+      "dtia_summary": "",
+      "authority": "Financial Services Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In this Act, unless otherwise expressly provided –",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "\"audit firm\" has the same meaning as in the Financial Reporting Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Authorised Company\" means a company issued with an authorisation under section 71A",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"bank\" has the same meaning as in the Banking Act 2",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Bank of Mauritius\" means the Bank of Mauritius established under the Bank of Mauritius Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Board\" means the Board referred to in section 4",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Chairperson\" means the Chairperson of the Board",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Chief Executive\" means the Chief Executive of the Commission appointed under section 9",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Commission\" means the Financial Services Commission established under section 3",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"confidential information\" includes any document, books of account, balance sheet, profit and loss account or any matter which is to be treated as confidential under section 83",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"consumer of financial services\" includes a beneficiary under the Private Pension Schemes Act 2012",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who has the power to appoint or remove a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person whose consent is needed for the appointment of a person to be a member of the governing body of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who, either by himself or through one or more other persons, is able to control, or exert significant influence over, the business or financial operations of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who holds or controls not less than 20 percent of the shares of the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who has the power to control not less than 20 percent of the voting power in the corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who holds rights in relation to the corporation that, if exercised, would result in paragraphs (ii) and (iii)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a parent undertaking of that corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"controller\" in relation to a corporation means a person who is a beneficial owner or ultimate beneficial owner of the persons specified in paragraphs (a) to (e) and who appears to the Commission to be a controller of that corporation",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"corporation\" means a body corporate",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"corporation\" includes, where specified in FSC Rules, any trust, société or partnership or any other body of persons",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Council\" means the Financial Services Consultative Council established under section 12",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" means a document in any form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes any writing on any material",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes a book, graph or drawing",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"document\" includes information recorded or stored by any electronic or other technological means and capable with or without the aid of any equipment of being reproduced",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"employee\" means an employee of the Commission appointed under section 80",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Enforcement Committee\" means the Enforcement Committee established under section 52",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"external insurer\" has the same meaning as in the Insurance Act 2005",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial crime\" means an offence that involves fraud or dishonesty under the relevant Acts or any other enactment",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial crime\" means an offence under the Financial Intelligence and Anti-Money Laundering Act 2002",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial services\" means any financial services or financial business activities governed by the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"financial services\" includes the financial business activities specified in Part I of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"fintech\" means technologically enabled financial innovations which could result in new business models, applications, processes or products with an associated material effect on financial markets and institutions and the provision of financial services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"FSC Rules\" means the Financial Services Commission Rules made by the Commission under section 93",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Fund\" means the Financial Services Fund established under section 68",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global business\" means the business to which Part X applies",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Global Business Corporation\" means a corporation holding a Global Business Licence issued under section 71",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Global Business Licence\" means a licence issued under section 72 (6)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global headquarters administration\" means the activities specified in Part III of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"global treasury activities\" means the activities specified in Part II of the Second Schedule",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"guidelines\" includes codes, guidance notes, practice notes and such other similar instruments issued by the Commission",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"insurance manager\" has the same meaning as in the Insurance Act 2005",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"law firm\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"law practitioner\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"legal consultant\" has the same meaning as in the Law Practitioners Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" means any licence issued under any relevant Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" includes a Global Business Licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licence\" includes a management licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" means the holder of a licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" includes any person authorised, registered or approved under the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"licensee\" includes any institution established to provide any service under the relevant Acts",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"management company\" means a company holding a management licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"management licence\" means a licence referred to in section 77",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"member\" means a member of the Board and includes the Chairperson and the Vice-Chairperson",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Minister\" means the Minister to whom responsibility for the subject of financial services is assigned",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"moneylender\" means a person, other than a bank or a non-bank deposit taking institution, whose business is that of moneylending",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"officer\" means a member of the board of directors, a chief executive, a managing director, a chief financial officer or chief financial controller, a manager, a company secretary, a partner, a trustee, a money laundering reporting officer, a deputy money laundering reporting officer, a compliance officer or a person holding any similar function with a licensee",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Ombudsperson for Financial Services\" has the same meaning as in the Ombudsperson for Financial Services Act 2018",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"Peer-to-Peer Lending\" means a financial business activity which enables a person to lend funds through an online portal or electronic platform which matches lenders and borrowers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"public sector agency\" includes any Ministry or Government Department, local authority or statutory body",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"qualified auditor\" has the same meaning as in the Companies Act 2004",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "\"technical committees\" means committees set up by the Board to examine and report on matters in relation to the administration of any relevant Act",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "\"controller\" in relation to a corporation means a person who is a member of the governing body of the corporation"
+    },
+    {
+      "section": "5",
+      "heading": "Objects of Commission",
+      "title": "Technical committees in Financial Services Act",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section outlines the structure and functions of technical committees established by the Board under the Financial Services Act 2007. It specifies that technical committees must have between 3 and 7 members, including a chairperson appointed by the Board. These committees can co-opt members and sub-committees, and their appointments can be terminated for misconduct or breach of trust.",
+      "dtia_summary": "",
+      "authority": "Board",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Board may set up such technical committees as may be necessary to examine and report on any matter in relation to the administration of any relevant Act referred to them by the Board or the Chief Executive",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Every technical committee shall consist of not less than 3 and not more than 7 members including a chairperson, who shall be appointed by the Board on such terms and conditions as the Board thinks fit",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A technical committee may co-opt, with the approval of the Board, any person and may set up such sub-committees as it considers necessary",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The Board may, at any time, terminate the appointment of any member of a technical committee for misconduct, default or breach of trust in the discharge of his duties as member or for any other good or sufficient cause",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A technical committee shall meet as often as is necessary and at such time and place as the chairperson of the Committee thinks fit",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A technical committee shall meet when required to do so by the Board",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "A technical committee shall subject to the other provisions of this section, regulate its meetings and procedures as it thinks fit",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Board may set up such technical committees as may be necessary to examine and report on any matter in relation to the administration of any relevant Act referred to them by the Board or the Chief Executive."
+    },
+    {
+      "section": "6",
+      "heading": "Functions of Commission",
+      "title": "",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 17,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "7",
+      "heading": "Powers of Commission",
+      "title": "",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "11",
+      "heading": "Technical committees",
+      "title": "Definition of specialised financial institution engaged in lending",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Definitions",
+      "summary": "This section defines a specialised financial institution that is licensed by the central bank to engage in lending activities. The definition is used to identify entities that may be subject to the Financial Services Act 2007's lending regulations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any specialised financial institution licensed by the central bank to engage in lending activities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Any specialised financial institution licensed by the central bank to engage in lending activities."
+    },
+    {
+      "section": "12",
+      "heading": "Establishment of Council",
+      "title": "Establishment of Financial Services Consultative Council",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Governance",
+      "summary": "This section establishes a Financial Services Consultative Council that operates as a non-corporate body. The Council is chaired by the Minister, with the Financial Secretary as Vice-Chairperson, the Governor of the Bank of Mauritius, the Commission Chairperson, the Chief Executive, and up to six additional members appointed by the Minister. The Council regulates its own proceedings and may co-opt members or establish sub-committees as needed.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "There is established for the purposes of this Act a Financial Services Consultative Council, which shall not be a body corporate.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of the Minister who shall be the Chairperson",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of the Financial Secretary, who shall be the Vice-Chairperson",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of the Governor of the Bank of Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of the Chairperson of the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of the Chief Executive",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall consist of not more than 6 other members designated by the Minister from amongst persons of high calibre and of international repute in their relevant fields",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall meet at such time and place as the Chairperson thinks fit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council shall regulate its own proceedings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Council may co-opt any person",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Council may set up such sub-committees as it considers necessary to attain its objects",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "12. Establishment of Council (1) There is established for the purposes of this Act a Financial Services Consultative Council, which shall not be a body corporate."
+    },
+    {
+      "section": "14",
+      "heading": "Requirement to be licensed",
+      "title": "Requirement to be licensed for financial services",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "This section mandates that no person may carry out financial services in Mauritius without a license from the Commission. It specifies penalties for unauthorized activities, including fines up to one million rupees and imprisonment up to eight years. The section also covers licensing for moneylenders, requiring compliance with prudential requirements, and allowing the Commission to conduct inspections and recover costs. It further includes provisions for regulatory sandboxes and fintech innovation hubs.",
+      "dtia_summary": "",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No person shall carry out, or hold himself out as carrying out, in Mauritius any financial services without a licence issued by the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person who contravenes subsection (1) shall commit an offence and shall on conviction, be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 8 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Subject to subsection (2), no person shall engage in the business of moneylending in Mauritius without a licence granted by the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Section 14 shall apply to the grant of a licence to a moneylender as it applies to a licence granted under that section, with such modifications, adaptations and exceptions as may be necessary",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No person, other than a company, shall be granted a licence under this section",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every moneylender shall comply with such prudential requirements as by the Commission may specify",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may, by guidelines, instructions or directives, require every moneylender to comply with such provisions of this Act as it considers appropriate, so as to ensure effective supervision of moneylenders",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may cause an inspection of the operations and affairs of a moneylender to be made by its officers or such other duly qualified person as it may appoint, so as to assess whether the moneylender is complying with the financial services laws and any guidelines, instructions or directives issued by the Commission",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Where the Commission appoints a duly qualified person to conduct an inspection under paragraph (a), the costs incurred in that connection may be recovered, in whole or in part, by the Commission as if it were a civil debt",
+          "obligation_type": "May"
+        },
+        {
+          "text": "This section shall not apply to a loan made by or provided by any person specified in the Fifth Schedule",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person who contravenes this section shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 5 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee or body corporate may apply to the Commission for a regulatory sandbox authorisation in such form and manner as the Commission may determine",
+          "obligation_type": "May"
+        },
+        {
+          "text": "On receipt of an application under subsection (1), the Commission may grant a regulatory sandbox authorisation where it is satisfied that the applicant – is of good standing",
+          "obligation_type": "May"
+        },
+        {
+          "text": "On receipt of an application under subsection (1), the Commission may grant a regulatory sandbox authorisation where it is satisfied that the applicant – proposes to conduct an activity which, in the opinion of the Commission – is viable",
+          "obligation_type": "May"
+        },
+        {
+          "text": "On receipt of an application under subsection (1), the Commission may grant a regulatory sandbox authorisation where it is satisfied that the applicant – proposes to conduct an activity which, in the opinion of the Commission – does not present a risk to the stability and soundness of the financial system of Mauritius",
+          "obligation_type": "May"
+        },
+        {
+          "text": "On receipt of an application under subsection (1), the Commission may grant a regulatory sandbox authorisation where it is satisfied that the applicant – proposes to conduct an activity which, in the opinion of the Commission – complies with such conditions as may be prescribed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Where the Commission grants an application under subsection (2), it may, for a specified period and subject to such terms and conditions as it may determine, issue a regulatory sandbox authorisation",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may, in such circumstances as it may determine, exempt a person who has obtained a regulatory sandbox authorisation from any applicable regulatory requirement",
+          "obligation_type": "May"
+        },
+        {
+          "text": "An exemption under paragraph (a) shall be specified in the regulatory sandbox authorisation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "At the expiry of the time period specified in subsection (3), the Commission may, subject to such conditions as may be prescribed, revoke or renew a regulatory sandbox authorisation",
+          "obligation_type": "May"
+        },
+        {
+          "text": "At the expiry of the time period specified in subsection (3), the Commission may, subject to such conditions as may be prescribed, issue to the holder of a regulatory sandbox authorisation, a licence under this Act or the relevant Acts where it is satisfied that the holder of the authorisation satisfies the conditions for holding such licence",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may, for the purpose of this section, issue such guidelines, instructions or directives as it may deem fit",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may cause an inspection of the operations and affairs of a holder of a regulatory sandbox authorisation to be made by its officers or such other duly qualified person as it may appoint, so as to assess whether the holder of the regulatory sandbox authorisation is complying with the terms and conditions of its authorisation or guidelines, instructions or directives issued by the Commission under this section",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Any person who contravenes this section shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 5 years",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. Requirement to be licensed (1) No person shall carry out, or hold himself out as carrying out, in Mauritius any financial services without a licence issued by the Commission."
+    },
+    {
+      "section": "15",
+      "heading": "Application of Part IV",
+      "title": "Application of licensing requirements to financial activities",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 30,
+      "primary_category": "Other",
+      "summary": "This section specifies that applications for financial services licenses must follow this Part, with necessary adaptations for other relevant Acts. It excludes certain licenses, such as those under the Insurance Act 2005, Global Business Licenses, Private Pension Schemes Act 2012, Captive Insurance Act 2015, and authorizations under section 71A. It also clarifies that corporations holding Global Business Licenses must also have relevant financial services licenses unless otherwise specified.",
+      "dtia_summary": "",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Subject to subsection (3), where under any relevant Act, the conduct of an activity is subject to the requirement of a licence, the application for such licence shall be made in accordance with this Part",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Part shall apply, with necessary modifications and adaptations, to the licensing of an activity under any relevant Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to an application for - a licence under the Insurance Act 2005",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to an application for - a Global Business Licence",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to an application for - a licence under the Private Pension Schemes Act 2012",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to an application for - a license under the Captive Insurance Act 2015",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to an application for - an authorisation under section 71A",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Except as otherwise expressly provided under this Act, this Part shall not apply to a corporation holding a Global Business Licence or an Authorised Company unless the corporation or the company, as the case may be, also holds a licence, authorisation, approval or registration for the conduct of a financial services activity under a relevant Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15. Application of Part IV (1) Subject to subsection (3), where under any relevant Act, the conduct of an activity is subject to the requirement of a licence, the application for such licence shall be made in accordance with this Part."
+    },
+    {
+      "section": "16",
+      "heading": "Application for a licence",
+      "title": "Application for financial license: required documents and notifications",
+      "chapter": null,
+      "part": "Part s",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 31,
+      "primary_category": "Data Collection",
+      "summary": "An applicant for a financial license must submit a business plan, customer due diligence information for promoters and directors, applicable fees, and other specified details. The applicant must also notify the Commission of any material changes to the application information after license issuance. The application requires an authority for the Commission to access information about the applicant from regulatory bodies or financial institutions in Mauritius or foreign countries.",
+      "dtia_summary": "This section requires detailed customer due diligence information for applicants, which impacts data transfer impact assessments by mandating specific data collection practices and cross-border information sharing authorities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Submit business plan or feasibility study outlining proposed business activity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide customer due diligence information for promoters, beneficial owners, controllers and proposed directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Pay specified fees as per FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify Commission of material changes to application information after license issuance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Include authority for Commission to access applicant information from regulatory bodies or financial institutions in Mauritius or foreign countries",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An application for a licence shall be made in such form and manner as may be specified in FSC Rules, and shall be accompanied by – (a) a business plan or feasibility study outlining the proposed business activity of the applicant; (b) particulars and information relating to customer due diligence of promoters, beneficial owners, controllers and proposed directors in such form as may be specified in FSC Rules; (c) such fees, as may be specified in FSC Rules; and (d) such other information as may be specified in FSC Rules or otherwise required by the Commission to determine the application."
+    },
+    {
+      "section": "20",
+      "heading": "Matters related to fit and proper person requirements",
+      "title": "Fit and proper person assessment criteria",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Data Collection",
+      "summary": "The Commission may assess whether a person is fit and proper by considering financial standing, education, experience, ability to perform functions, reputation, character, financial integrity and reliability. It may also consider matters related to employees, agents, representatives, and related corporations. The Commission may use any other information it possesses for this assessment.",
+      "dtia_summary": "This section defines criteria for assessing fit and proper persons, which impacts data transfer impact assessments by requiring detailed information collection and assessment of individuals and entities involved in financial activities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Consider financial standing of the person and their officers/beneficial owners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess relevant education, qualifications and experience",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Evaluate ability to perform functions properly, efficiently, honestly and fairly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess reputation, character, financial integrity and reliability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider matters related to employees, agents, representatives and related corporations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Use any other information in possession for fit and proper assessment",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "In considering whether a person is a fit and proper person the Commission may have regard to – (a) in relation to the person and, where the person is a corporation, the officers and beneficial owners of the corporation – (i) financial standing; (ii) relevant education, qualifications and experience; (iii) ability to perform the relevant functions properly, efficiently, honestly and fairly; and (iv) reputation, character, financial integrity and reliability; (b) any matter relating to – (i) any person who is or is to be employed by, or associated with, the person; (ii) any agent or representative of the person; (iii) where the person is a corporation, the officers and any shareholder of the corporation, the related corporations of the corporation and the officers of those related corporations; (c) any matter specified in a relevant Act as relating to the fit and proper person requirement."
+    },
+    {
+      "section": "23",
+      "heading": "Approval of controllers and beneficial owners",
+      "title": "Controller and beneficial owner approval requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 37,
+      "primary_category": "Data Collection",
+      "summary": "No shares or beneficial interests in a licensee may be issued or transferred without Commission approval, except for less than 5% shares that don't result in control changes. Licensees must notify the Commission of share transfers below 5%. The Commission may direct disposal of shares, restriction of voting rights, or remedial measures if a controller or beneficial owner is not fit and proper. The Commission may impose conditions on share transfers.",
+      "dtia_summary": "This section requires approval for share transfers and beneficial ownership changes, impacting data transfer impact assessments through strict control over ownership structures and beneficial interests.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Customer Information",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "No shares or beneficial interests in licensee may be issued or transferred without Commission approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Less than 5% share transfers without control change require Commission approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee must notify Commission of less than 5% share transfers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may direct disposal of shares if controller/beneficial owner is not fit and proper",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may restrict voting rights of non-fit and proper controllers/beneficial owners",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may require remedial measures for non-fit and proper controllers/beneficial owners",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may impose conditions on share transfers for specific licensees",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Subject to subsection (1A), no shares, or any legal or beneficial interest in a licensee shall be issued or transferred except with the approval of the Commission."
+    },
+    {
+      "section": "27",
+      "heading": "Suspension of licence",
+      "title": "Suspension of financial services license due to urgent industry or client protection",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 40,
+      "primary_category": "Regulator Powers",
+      "summary": "The Chief Executive may suspend a financial services license if satisfied it is urgent to prevent damage to the financial services industry, protect client interests, or safeguard Mauritius' financial reputation. Suspension requires prior notice and opportunity for the licensee to respond, with exceptions for immediate action if client or industry interests are at risk. The suspension also affects the licensee's agents and requires the licensee to remain subject to obligations until license cancellation.",
+      "dtia_summary": "Suspension mechanisms require regulators to assess urgent threats to financial stability or client interests before halting operations, impacting cross-border data transfers if licensees operate internationally.",
+      "authority": "Chief Executive",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Chief Executive may suspend license for prevention of damage to financial services industry",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive must give prior notice and reasons for suspension to licensee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive must provide opportunity for licensee to make representations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive may suspend license with immediate effect if delay causes client or industry prejudice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive must give opportunity for representations within 7 days after suspension",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Suspension operates as suspension of any agent or representative's permission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee must cease activities but remain subject to obligations until license cancellation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee may continue activities if authorized by Chief Executive with conditions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Chief Executive must give public notice of license suspension",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the Chief Executive is satisfied on reasonable grounds that it is urgent and necessary to do so – for the prevention or mitigation of damage to the integrity of the financial services industry or to any part thereof; for the protection of the interest of clients of a licensee or of the interest of the public in general; or for the protection of the good repute of Mauritius as a centre for financial services, he may, by notice, suspend the licence of a licensee."
+    },
+    {
+      "section": "28",
+      "heading": "Termination of licence",
+      "title": "Termination of financial services license through surrender or liquidation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 40,
+      "page_end": 43,
+      "primary_category": "Regulator Powers",
+      "summary": "A license terminates when a licensee surrenders it, goes into liquidation, receivership, bankruptcy, or when terminated under section 22(4). Licensees must inform the Commission of petitions, cannot dissolve without surrendering, and must follow specific surrender procedures including 30-day notice, client account transfers, and certification of transfers. Termination does not end obligations for orderly dissolution and liability discharge.",
+      "dtia_summary": "Termination procedures affect data handling continuity, requiring licensees to transfer client data and maintain records during transitions, critical for cross-border data transfers.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "License terminates when licensee surrenders license or goes into liquidation, receivership, bankruptcy",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to any other enactment, a licence shall terminate on the date – specified in the notice served in accordance with subsection (6), where a licensee surrenders its licence"
+    },
+    {
+      "section": "29",
+      "heading": "Record keeping",
+      "title": "Record keeping for financial services licenses",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 44,
+      "primary_category": "Record Keeping",
+      "summary": "Licensees must maintain customer identity records and full transaction records for at least 7 years. Records must be in English or French, include account files and correspondence, and apply to both existing and new customers. Qualified trustees must also maintain beneficial owner registers. These requirements do not apply to Global Business Licenses or Authorised Companies unless they also hold financial services licenses.",
+      "dtia_summary": "Mandatory record keeping for 7 years impacts data retention and storage across borders, requiring detailed documentation of financial transactions and customer identities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensee must keep internal records of customer identity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee must keep full transaction records in English or French",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must include account files and business correspondence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records must be kept for at least 7 years after transaction completion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Records do not apply to Global Business Licenses unless they also hold financial services licenses",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Licensee must maintain beneficial owner register for each customer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Qualified trustees must maintain trust registers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "every licensee shall – keep and maintain internal records of the identity of each of his customers; keep in relation to his business activities, a full and true written record, whether electronic or otherwise, in the English or French language of every transaction he makes"
+    },
+    {
+      "section": "30",
+      "heading": "Audited financial statements",
+      "title": "Annual financial statements for licensed financial entities",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 47,
+      "primary_category": "Financial Data",
+      "summary": "Licensed corporations must file audited financial statements annually in accordance with International Financial Reporting Standards. Filing must occur within 6 months of the financial year end, with specific definitions for financial years. Global Business Licensees may use internationally recognized standards instead. The Commission may exempt certain entities from filing requirements under specific conditions.",
+      "dtia_summary": "Annual financial statement requirements affect data handling and storage for financial entities, with implications for cross-border data transfers if entities operate internationally.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Corporations must file audited financial statements annually in accordance with IFRS",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Filing must occur within 6 months after financial year end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial year definition: 18 months for first year, 12 months for subsequent years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licensees may file using internationally recognized standards",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may exempt classes of corporations from filing requirements",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "a corporation licensed under this Act shall file with the Commission every year audited financial statements prepared in accordance with International Financial Reporting Standards"
+    },
+    {
+      "section": "32",
+      "heading": "Protection of consumers of financial services and financial products",
+      "title": "Consumer protection and information disclosure obligations",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Data Subject Rights",
+      "summary": "This section requires financial service licensees to provide specific information to the Ombudsperson for Financial Services upon request. The obligation applies to consumers seeking resolution of disputes or complaints related to financial services. This ensures transparency and access to dispute resolution mechanisms for financial customers.",
+      "dtia_summary": "Financial institutions must disclose consumer information to the Ombudsperson for Financial Services to resolve disputes, impacting data sharing practices.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Furnish information to Ombudsperson for Financial Services upon request",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Obligation of licensee to furnish information to Ombudsperson for Financial Services"
+    },
+    {
+      "section": "33",
+      "heading": "Declaration or recognition of an SRO",
+      "title": "SRO recognition and delegation of regulatory powers",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 50,
+      "primary_category": "Other",
+      "summary": "The Commission may recognize companies or organizations as Self-Regulatory Organizations (SROs) if they meet criteria including consistent internal rules, financial capacity, non-discrimination, fit and proper management, and compliance with FSC Rules. SROs may be delegated regulatory powers by the Commission with specific terms and conditions.",
+      "dtia_summary": "SRO recognition affects data handling through delegated regulatory oversight, potentially impacting cross-border data transfers if SROs operate internationally.",
+      "authority": "Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "SRO must have consistent internal rules with this Act and applicable laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO must have financial and administrative resources for regulatory functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO must not discriminate unreasonably in service access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO must be a fit and proper person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO must have fit and proper officers and controllers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO must satisfy FSC Rules criteria",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may delegate powers to SROs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Delegated powers must include terms and conditions for exercise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commission may, subject to such terms and conditions as it thinks fit, declare or recognise that a company or organisation shall be an SRO in relation to a specified sector or industry"
+    },
+    {
+      "section": "34",
+      "heading": "Rules of an SRO",
+      "title": "SRO rulemaking authority and approval process",
+      "chapter": null,
+      "part": "part \nt",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 50,
+      "primary_category": "Regulator Powers",
+      "summary": "SROs can create rules for their regulatory functions but must align with the Financial Services Act, FSC Rules, or other laws. These rules require Commission approval before taking effect. The Commission approves rules within one month unless it objects. Rules may cover shareholding and voting rights for SRO members, consumers, investors, and service users.",
+      "dtia_summary": "SROs must follow Commission approval for rules affecting their operations; this impacts DTIA by requiring oversight of regulatory frameworks before implementation.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "An SRO may make rules not inconsistent with this Act, FSC Rules, or other applicable enactments for regulatory functions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules made by an SRO must be approved by the Commission.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission approves rules within one month unless it objects.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SRO rules may cover shareholding and voting rights for members, consumers, investors, and service users.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "34. Rules of an SRO (1) An SRO may make rules, not inconsistent with this Act, any regulations made under this Act or FSC Rules or any other applicable enactment, with respect to the matters for which it has regulatory or supervisory functions, including such functions as may be delegated to it by the Commission."
+    },
+    {
+      "section": "38",
+      "heading": "Termination of arrangements and revocation of declaration or recognition",
+      "title": "Conditions for revoking SRO recognition",
+      "chapter": null,
+      "part": "part \nt",
+      "condition": null,
+      "page_start": 52,
+      "page_end": 53,
+      "primary_category": "Regulator Powers",
+      "summary": "The Commission can revoke an SRO's declaration or recognition if the SRO fails to start operations within three months, doesn't perform delegated functions properly, commits material breaches, is involved in financial crime, or ignores Commission directions. Revocation requires the SRO to agree or a reasonable opportunity to respond before revocation.",
+      "dtia_summary": "SROs must meet operational and compliance thresholds to avoid revocation; this affects DTIA by requiring robust operational and compliance frameworks.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission may revoke an SRO's declaration or recognition if the SRO fails to commence operations within 3 months.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may revoke an SRO's declaration or recognition if it is not satisfied the SRO is properly performing delegated functions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may revoke an SRO's declaration or recognition if the SRO commits a material breach of an arrangement or law.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may revoke an SRO's declaration or recognition if it appears the SRO is involved in financial crime.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may revoke an SRO's declaration or recognition if the SRO fails to comply with Commission directions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission must notify the SRO of revocation intentions and reasons before revoking.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission must give the SRO a reasonable opportunity to respond before revoking.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission must publish revocation notices in the Gazette.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "38. Termination of arrangements and revocation of declaration or recognition (1) The Commission may revoke a declaration or recognition where – (a) the SRO has failed to commence operation within 3 months after an arrangement under this Part has been entered into; (b) the Commission is not satisfied that the SRO is properly performing or is able to perform the functions or powers delegated to it, or its other functions and powers; (c) the Commission is satisfied that the SRO has committed a material breach of an arrangement or of a relevant Act or other applicable enactment; (d) it appears to the Commission that the SRO is involved in a financial crime; (e) the SRO fails to comply with a direction of the Commission."
+    },
+    {
+      "section": "40",
+      "heading": "Protection for an SRO",
+      "title": "SRO liability protection",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 53,
+      "primary_category": "Regulator Powers",
+      "summary": "SROs, their officers, employees, or committee members are immune from liability for losses or damages caused by actions taken in good faith while performing regulatory duties, including delegated functions.",
+      "dtia_summary": "SROs are protected from liability for regulatory actions, which is relevant for DTIA as it reduces legal risk for regulatory bodies.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "An SRO, officer, employee, or committee member is not liable for losses or damages from actions taken in good faith while performing regulatory duties.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "40. Protection for an SRO An SRO, an officer or employee of an SRO or a member of a committee of an SRO shall not be liable for any loss sustained by or damage caused to any person as a result of anything done or omitted by them in the performance, in good faith, of their functions and duties in connection with the regulatory or supervisory functions of the SRO, including those delegated to it by the Commission."
+    },
+    {
+      "section": "41",
+      "heading": "Annual report of SRO",
+      "title": "SRO annual reporting requirements",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 55,
+      "primary_category": "Regulator Powers",
+      "summary": "SROs must submit annual reports to the Commission within 90 days of their balance sheet date, including corporate governance policies, audited financial statements under IFRS, and other specified information. Auditors must be approved by the Commission and report material risks or breaches to the Commission.",
+      "dtia_summary": "SROs must provide detailed annual reports with audited financials and risk disclosures, which impacts DTIA by requiring thorough financial oversight.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "An SRO must file an annual report with the Commission within 90 days of its balance sheet date.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The annual report must include a corporate governance policy report and any other information required by the Commission.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The annual report must include financial statements prepared and audited in accordance with IFRS.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission must approve audit firms for SROs based on experience, expertise, and resources.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Auditors must report material risks, breaches, or financial crimes to the Commission.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "41. Annual report of SRO (1) An SRO shall file with the Commission, within 90 days of its balance sheet date, an annual report which shall include – (a) a report on the corporate governance policy of the SRO and any other information required by the Commission; (b) financial statements prepared and audited in accordance with International Financial Reporting Standards and such other auditing standards as may be issued under the Financial Reporting Act 2004; and (c) such other requirements as may be specified in FSC Rules."
+    },
+    {
+      "section": "42",
+      "heading": "Request for information",
+      "title": "Information requests from licensees",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 56,
+      "primary_category": "Regulator Powers",
+      "summary": "Licensees must provide all information and records to the Commission as required by the Chief Executive. This includes data related to financial crime investigations, beneficial ownership verification, and due diligence on customers. The Commission may verify information at the cost of the supplier.",
+      "dtia_summary": "Licensees must share customer and financial data with regulators for compliance checks, which impacts DTIA by requiring data sharing protocols.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Every licensee must furnish all information and records to the Commission as required by the Chief Executive.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee includes controllers, past licensees, or persons who ought to be licensed under relevant Acts.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Information includes data related to financial crime investigations and beneficial ownership verification.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may require information to be verified or authenticated at the supplier's cost.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "42. Request for information (1) Every licensee shall furnish to the Commission all such information and produce such records or documents at such time and place as may be required of him in writing by the Chief Executive."
+    },
+    {
+      "section": "43",
+      "heading": "On-site inspections",
+      "title": "On-site inspections and audits",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 58,
+      "primary_category": "Regulator Powers",
+      "summary": "The Commission may conduct on-site inspections of licensees to verify compliance with financial crime laws, regulatory conditions, or internal controls. Licensees must provide full access to records, and obstructing inspections is an offense.",
+      "dtia_summary": "On-site inspections ensure compliance with financial regulations, which is critical for DTIA to assess operational and compliance risks.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission may inspect business premises to check compliance with financial crime laws or regulatory conditions.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive may direct licensees or relevant persons to produce documents for inspections.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive may examine, copy, or take extracts from relevant documents.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive may retain documents deemed necessary for inspections.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive may direct officers to provide information relevant to inspections.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must grant full access to records for inspections.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intentionally obstructing inspections or failing to comply with directions is an offense.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "43. On-site inspections (1) The Commission may, at any time, cause to be carried on the business premises of a licensee, or at such other place and at such time as the Commission may determine, an inspection and an audit of its books and records to check whether the licensee – (a) is complying or has complied with the requirements of the Financial Intelligence and Anti-Money Laundering Act, the Prevention of Terrorism Act and any applicable enactment, or guidelines or the conditions of its licence, authorisation or registration; or (b) satisfies criteria or standards set out in or made under any of the relevant Acts under which it is regulated, or any regulations made thereunder."
+    },
+    {
+      "section": "44",
+      "heading": "Investigations",
+      "title": "Investigations by Chief Executive",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 63,
+      "primary_category": "Enforcement",
+      "summary": "The Chief Executive may order investigations into licensees who breach relevant Acts, licence conditions, or regulatory directions, or engage in activities threatening financial system stability. Investigations grant investigators broad powers to access documents, conduct interviews, search premises, and seize evidence. Investigators must submit reports to the Chief Executive and Board within practicable time. Licensees must pay investigation costs if found liable. The Commission may conduct investigations for corporations with global business licences.",
+      "dtia_summary": "Investigations require detailed evidence collection across borders for financial institutions, impacting data transfer assessments through access to records and electronic data.",
+      "authority": "Chief Executive",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Chief Executive may order investigations into licensees who breach relevant Acts, licence conditions, or regulatory directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investigators may enter premises, search documents, administer oaths, seize evidence, and access electronic data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Investigators must submit reports to Chief Executive and Board within practicable time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must pay investigation costs if found liable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may conduct investigations for corporations with global business licences",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the Chief Executive has reasonable cause to believe that a licensee has committed, is committing or is likely to commit, a breach of – (i) any of the relevant Acts; (ii) any condition of his licence, authorisation or registration; or (iii) any direction issued by the Commission under a relevant Act, the Chief Executive may order that an investigation be conducted"
+    },
+    {
+      "section": "45",
+      "heading": "Tampering with evidence",
+      "title": "Tampering with evidence",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 63,
+      "page_end": 65,
+      "primary_category": "Enforcement",
+      "summary": "Any person who destroys, falsifies, conceals, or disposes of documents, computer-stored information, or other relevant items may be prosecuted. This includes causing or permitting such actions. The offence covers both intentional and negligent acts related to evidence relevant to the Commission's investigations.",
+      "dtia_summary": "Tampering with evidence directly affects data transfer assessments by prohibiting destruction or alteration of records, ensuring evidence integrity for cross-border investigations.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who destroys, falsifies, conceals or disposes of relevant documents, computer-stored information, or other items may commit an offence",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any person who destroys, falsifies, conceals or disposes of, or causes or permits the destruction, falsification, concealment or disposal of, any document, information stored on a computer or other device or other thing that the person knows or ought reasonably to know is relevant to the Commission, shall commit an offence."
+    },
+    {
+      "section": "46",
+      "heading": "Power to give directions",
+      "title": "Power to give directions",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 67,
+      "primary_category": "Enforcement",
+      "summary": "The Chief Executive may issue written directions to licensees who contravene Acts, engage in improper financial practices, or are involved in financial crime. Directions can require specific actions to remedy contraventions, comply with laws, or implement corrective measures. Licensees must comply with directions regardless of constitutions or contracts. The Chief Executive must provide reasonable opportunity for written representations before issuing directions.",
+      "dtia_summary": "Directions impose specific operational requirements on financial institutions, affecting data transfer assessments through mandated compliance actions and record-keeping.",
+      "authority": "Chief Executive",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Chief Executive may issue written directions to licensees who contravene Acts, engage in improper financial practices, or are involved in financial crime",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Directions may require specific actions to remedy contraventions or prevent future breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensees must comply with directions regardless of constitutions or contracts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive must provide reasonable opportunity for written representations before issuing directions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the Chief Executive has reasonable cause to believe that a licensee has contravened or is likely to contravene a relevant Act, section 52 or 52A of the Bank of Mauritius Act, the Chief Executive may give the licensee a written direction as he deems appropriate"
+    },
+    {
+      "section": "50",
+      "heading": "Freezing of assets",
+      "title": "Freezing of assets",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 73,
+      "primary_category": "Enforcement",
+      "summary": "The Commission may request judges to freeze assets of suspects involved in financial crimes or breaches of Acts. This includes prohibiting asset disposal, attaching funds, requiring full disclosure of possessions, and opening safe deposit boxes. The Commission may publish orders to banks and financial institutions to enforce asset freezes.",
+      "dtia_summary": "Asset freezing mechanisms impact data transfer assessments by restricting cross-border asset movements and requiring disclosure of financial records.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Judge may prohibit suspects from disposing, transferring, or pledging assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Judge may attach funds and property due to or belonging to suspects",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Suspects must disclose all possessions and the nature and source of such possessions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where, on an application by the Commission, the Judge in Chambers is satisfied that the Commission has found the suspect has committed an offence under the relevant Acts or has been involved in a financial crime, the Judge in Chambers may order the prohibition by the suspect or any other person acting on his behalf from disposing, transferring or pledging any of his assets"
+    },
+    {
+      "section": "51",
+      "heading": "Enforceable undertakings",
+      "title": "Enforceable undertakings",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 73,
+      "page_end": 75,
+      "primary_category": "Enforcement",
+      "summary": "The Commission may accept written undertakings from persons unable to comply with directions. Undertakings can be revoked or varied only with Commission approval. The Commission may apply to judges for orders to enforce undertakings if breached, including requiring specific actions to remedy breaches or compensate victims.",
+      "dtia_summary": "Enforceable undertakings provide mechanisms for financial institutions to rectify compliance issues without penalties, impacting data transfer assessments through corrective actions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission may accept written undertakings from persons unable to comply with directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Undertakings can be revoked or varied only with Commission approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may apply to judges for orders to enforce undertakings if breached",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where a person is unable to comply with the requirements of a direction under any of the relevant Acts, the Commission may accept a written undertaking from that person in connection with any matter relating to its functions under the relevant Acts."
+    },
+    {
+      "section": "53",
+      "heading": "Disciplinary proceedings",
+      "title": "Disciplinary proceedings against financial licensees",
+      "chapter": null,
+      "part": "Part A",
+      "condition": null,
+      "page_start": 76,
+      "page_end": 81,
+      "primary_category": "Regulator Powers",
+      "summary": "The Chief Executive may refer matters to the Enforcement Committee if a licensee has contravened laws, threatens financial system integrity, committed financial crimes, or fails to meet licensing conditions. The Enforcement Committee must issue a notice detailing sanctions before imposing them, allowing 21 days for written representations. The Review Panel can review decisions and may suspend sanctions. The Commission may direct remedial actions. Administrative penalties are recoverable civil debts.",
+      "dtia_summary": "Disciplinary procedures for licensees involve regulatory oversight, sanctions, and review mechanisms that impact data transfer compliance through licensing conditions and enforcement actions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Chief Executive may refer matters to Enforcement Committee if licensee contravenes laws or threatens financial system integrity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enforcement Committee must issue notice detailing sanctions before imposing them",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Licensee has 21 days to make written representations to Enforcement Committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel may review decisions and suspend sanctions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may direct remedial actions if licensee is aggrieved",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Administrative penalties are recoverable civil debts",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the Chief Executive has reasonable cause to believe that a licensee has contravened any relevant Act, direction or order issued under a relevant Act or any condition of his licence"
+    },
+    {
+      "section": "54",
+      "heading": "Establishment of the Financial Services Review Panel",
+      "title": "Financial Services Review Panel establishment",
+      "chapter": null,
+      "part": "Part B",
+      "condition": null,
+      "page_start": 81,
+      "page_end": 82,
+      "primary_category": "Regulator Powers",
+      "summary": "The Financial Services Review Panel is established to review decisions of the Enforcement Committee. It cannot hear applications related to licensing decisions, investigations, or specific sections of the Insurance Act and Securities Act. The Panel operates independently and has specific exclusions for certain regulatory decisions.",
+      "dtia_summary": "The Review Panel's role in reviewing disciplinary decisions affects data transfer compliance by ensuring regulatory oversight of financial activities across borders.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial Services Review Panel is established to review Enforcement Committee decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel cannot hear applications related to licensing decisions, investigations, or specific sections of Insurance Act and Securities Act",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "There is set up for the purposes of this Sub-Part an ad-hoc review panel which shall be known as the Financial Services Review Panel"
+    },
+    {
+      "section": "55",
+      "heading": "Membership of the Review Panel",
+      "title": "Review Panel membership requirements",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 82,
+      "page_end": 82,
+      "primary_category": "Regulator Powers",
+      "summary": "The Review Panel consists of a Chairperson (barrister-at-law with 5+ years experience), Vice-Chairperson (Solicitor-General), and Financial Secretary. The Panel operates independently, requires a quorum of two members, and members take an oath of confidentiality.",
+      "dtia_summary": "Panel composition and independence ensure regulatory oversight of financial activities, impacting data transfer compliance through licensing and enforcement mechanisms.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Review Panel Chairperson must be barrister-at-law with 5+ years standing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel Vice-Chairperson must be Solicitor-General or representative",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel includes Financial Secretary or representative",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel operates independently without external direction",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Review Panel requires quorum of two members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Panel members take oath of confidentiality",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Review Panel shall consist of – (a) a Chairperson, who shall be a barrister-at-law of not less than 5 years standing"
+    },
+    {
+      "section": "70",
+      "heading": "Annual report of Managing Committee",
+      "title": "Managing Committee annual report",
+      "chapter": null,
+      "part": "Part C",
+      "condition": null,
+      "page_start": 89,
+      "page_end": 89,
+      "primary_category": "Record Keeping",
+      "summary": "The Managing Committee must publish an annual report with audited accounts within four months after each financial year. The report must be forwarded to the Minister and Commission. This ensures transparency and accountability in financial operations.",
+      "dtia_summary": "Annual reporting requirements ensure transparency in financial operations, which is relevant for data transfer impact assessments through record-keeping obligations.",
+      "authority": "Managing Committee",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Managing Committee must publish annual report with audited accounts within 4 months of financial year end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Managing Committee must forward annual report to Minister and Commission",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Managing Committee shall, not later than 4 months after the close of every financial year, cause to be published a report of its activities together with its audited accounts"
+    },
+    {
+      "section": "71",
+      "heading": "Global Business Corporation",
+      "title": "Global Business Corporation licensing",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 89,
+      "page_end": 94,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A corporation holding non-Mauritian shares or voting rights must apply for a Global Business Licence if it conducts business outside Mauritius. Licensees must carry out core activities in Mauritius, be managed from Mauritius, and have a management company. Failure to comply results in fines up to one million rupees.",
+      "dtia_summary": "Global Business Licence requirements mandate data processing within Mauritius, affecting cross-border data transfers through residency and management controls.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Corporation must apply for Global Business Licence if majority shares held by non-Mauritian citizens and conducts business outside Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must carry out core income generating activities in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must be managed and controlled from Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must be administered by a management company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must have at least 2 Mauritian directors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must maintain principal bank account in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must keep accounting records in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must prepare audited financial statements in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Global Business Licence holder must have at least 2 Mauritian directors at board meetings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with Global Business Licence requirements results in fines up to one million rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Subject to this section and to section 71A, where the majority of shares or voting rights or the legal or beneficial interest in a resident corporation, other than a bank licensed by the Bank of Mauritius and such other corporation as may be specified in FSC Rules, are held or controlled, as the case may be, by a person who is not a citizen of Mauritius and such corporation proposes to conduct or conducts business principally outside Mauritius or with such category of persons as may be specified in FSC Rules, it shall apply to the Commission for a Global Business Licence"
+    },
+    {
+      "section": "72",
+      "heading": "Application for Global Business Licence",
+      "title": "Global Business Licence application process",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 94,
+      "page_end": 96,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Applications for Global Business Licences must be made through a management company and certified by a law practitioner. The Chief Executive may require additional information, seek opinions from agencies, or refer applications to the Board. Applications are approved within 7 days if they meet requirements and do not cause prejudice to Mauritius.",
+      "dtia_summary": "Global Business Licence application process ensures data processing within Mauritius, impacting cross-border data transfers through licensing requirements.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Global Business Licence applications must be made through management company and certified by law practitioner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive may require additional information within 7 days of application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive may seek opinions from public sector agencies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive may approve applications on terms and conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chief Executive may refer applications to Board for further review",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications must not be unlawful or contrary to public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Applications must not cause prejudice to Mauritius as a financial services center",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An application for a Global Business Licence shall be made through a management company in such form and in such manner as may be approved by the Commission"
+    },
+    {
+      "section": "73",
+      "heading": "Conduct of global business",
+      "title": "Global business operations deemed outside Mauritius",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 97,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for specific activities including maintaining accounts in Mauritius currency, holding property in Mauritius, investing in listed securities, maintaining foreign currency accounts, holding shares in other Global Business Licence holders, entering business relationships with Mauritian professionals, and employing Mauritian staff. This applies regardless of the transactions being with Mauritian residents.",
+      "dtia_summary": "This section establishes that certain activities with Mauritian residents constitute cross-border business operations, requiring compliance with the Global Business Licence framework for data transfers involving Mauritian entities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data",
+        "Employee Information"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for day-to-day transactions in Mauritius currency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for property transactions in Mauritius",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for investments in listed securities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for foreign currency accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for holding shares in other Global Business Licence holders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for business relationships with Mauritian professionals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A resident corporation holding a Global Business Licence is deemed to conduct business outside Mauritius for employing Mauritian staff",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A resident corporation holding a Global Business Licence shall be held to be conducting business outside Mauritius, notwithstanding the following dealings and transactions with residents of Mauritius –"
+    },
+    {
+      "section": "74",
+      "heading": "Validity of Global Business Licence and effect of its revocation",
+      "title": "Global Business Licence validity and revocation procedures",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 98,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A Global Business Licence lapses if annual fees are not paid within the timeframe specified in FSC Rules. Lapsed licences require reinstatement applications with fees and conditions. The Commission may revoke licences to protect Mauritius' financial reputation, prevent damage to the financial system, or protect the public. Revocation requires suspension, prior notice, and opportunity to respond. Revoked licences must be published in the Gazette and may include dissolution directions.",
+      "dtia_summary": "This section defines licence validity conditions and revocation procedures that impact data transfer compliance, particularly for financial institutions operating globally with Mauritian entities.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A corporation holding a Global Business Licence must pay annual licence fees specified in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A Global Business Licence lapses if annual licence fees are not paid within the timeframe specified in FSC Rules",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A corporation with a lapsed Global Business Licence may apply for reinstatement within the timeframe specified in FSC Rules",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may issue a Global Business Licence as from the date it lapsed after reinstatement application",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may revoke a Global Business Licence to protect Mauritius' financial reputation, prevent damage to the financial system, or protect the public",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Prior to revoking a Global Business Licence, the Commission must suspend the licence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prior to revoking a Global Business Licence, the Commission must give prior notice of intention and reasons",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prior to revoking a Global Business Licence, the Commission must afford the holder an opportunity to make written representations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive must publish revocation notices in the Gazette",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Chief Executive may issue directions for orderly dissolution of business and discharge of liabilities",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A Global Business Licence shall lapse where the annual licence fee in respect of the licence is not paid within the time specified in the FSC Rules."
+    },
+    {
+      "section": "75",
+      "heading": "Power of Inquiry",
+      "title": "Power of inquiry for financial institutions",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 98,
+      "page_end": 100,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Corporations with Global Business Licences must provide information and documents to the Commission when requested for supervision or information exchange. The Commission may conduct inquiries if a corporation breaches regulations, licence conditions, or directions, or engages in activities threatening financial stability. Inquiries include document production, copying, and issuing directions. Failure to comply or obstruction constitutes an offence punishable by a fine up to one million rupees.",
+      "dtia_summary": "This section grants the Commission authority to investigate financial institutions, impacting data transfer compliance through mandatory information sharing and potential regulatory actions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Incident Reporting",
+        "Breach Notification",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A corporation holding a Global Business Licence must furnish information and produce documents when required by the Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may make an inquiry into a corporation's business if it breaches regulations, licence conditions, or directions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may request documents at reasonable times and places including business premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may take copies of or extracts from documents produced",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Commission may issue directions to corporations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failure to comply with information requests constitutes an offence punishable by a fine up to one million rupees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Obstructing Commission inquiries constitutes an offence punishable by a fine up to one million rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A corporation holding a Global Business Licence shall, when so required by the Commission in exercising its general powers of supervision or in discharging its obligations under an agreement or arrangement for the exchange of information, furnish all such information and produce such documents as may be required of him by the Commission."
+    },
+    {
+      "section": "78",
+      "heading": "Nominee company",
+      "title": "Nominee company formation for financial services",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 103,
+      "page_end": 103,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Companies with management licences may form nominee companies with Commission approval. Nominee companies must be private companies registered under the Companies Act 2001, limit their objects to acting as nominee companies, and pay fees to the Commission. This facilitates structured operations for financial services entities.",
+      "dtia_summary": "This section enables the use of nominee companies for financial services operations, which may impact data transfer structures and compliance with cross-border data handling requirements.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Employee Information"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "A company holding a management licence may form a nominee company with Commission approval",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The nominee company must be a private company registered under the Companies Act 2.001",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The nominee company must limit its objects to acting as a nominee company",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The nominee company must pay fees to the Commission as specified in FSC Rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any company holding a management licence may, for the purposes of performing the functions of a nominee company and subject to the approval of the Commission, form a nominee company."
+    },
+    {
+      "section": "79",
+      "heading": "Special Provisions for a Global Business Corporation or any Authorised Company",
+      "title": "Special provisions for global business corporations",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 103,
+      "page_end": 105,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Parts VIII and IX of the Act do not apply to Global Business Licence holders unless they also hold financial services authorizations. The Commission may create exceptions, limitations, or restrictions for applicants or authorized companies through FSC Rules. This section addresses the scope of applicability for global business operations.",
+      "dtia_summary": "This section clarifies the scope of financial services regulations for global business entities, affecting data transfer compliance frameworks.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Special Personal Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Parts VIII and IX of the Act do not apply to a corporation holding a Global Business Licence unless it also holds a financial services authorization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may provide exceptions, limitations, or restrictions for Global Business Licence applicants or authorized companies through FSC Rules",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Parts VIII and IX of this Act shall not apply to a corporation holding a Global Business licence or an authorisation under section 71A unless the corporation also holds a licence, authorisation, approval or registration for the conduct of a financial services activity under a relevant Act."
+    },
+    {
+      "section": "82",
+      "heading": "General Fund",
+      "title": "General Fund management for financial services",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 105,
+      "page_end": 109,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Commission establishes a General Fund for all money received and payments. Funds are derived from fees and other approved sources. The Commission submits annual financial estimates to the Minister. The General Fund transfers balances to other funds like the Financial Services Fund and General Reserve Fund as specified. This section governs financial management for the Commission.",
+      "dtia_summary": "This section outlines the financial management structure for the Commission, which indirectly affects data transfer compliance through fund allocation and financial oversight mechanisms.",
+      "authority": "Commission",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission shall establish a General Fund into which all money received by the Commission shall be paid",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission shall derive funds from fees or other charges levied under relevant Acts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission shall submit an annual estimate of income and expenditure to the Minister within 3 months before each financial year",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No fund other than the General Fund, Financial Services Fund, and General Reserve Fund shall be created under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The balance of any fund other than the General Fund and Financial Services Fund as at 31 December 2010 shall be transferred to the General Fund on 1 January 2011",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A sum equivalent to 2 per cent of the excess income over expenditure shall be paid from the General Fund into the Financial Services Fund",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any balance in the General Fund after transfers shall be transferred to the Consolidated Fund within specific timelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commission shall establish a General Fund – into which all money received by the Commission shall be paid"
+    },
+    {
+      "section": "83",
+      "heading": "Confidentiality",
+      "title": "Confidentiality obligations for Commission staff and licensees",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 112,
+      "primary_category": "Other",
+      "summary": "Employees and licensees must take an oath of confidentiality before starting duties and maintain confidentiality of relevant Acts matters. They cannot disclose such matters to unauthorized persons except for administering the Acts or with Commission authorization. The Commission must provide information to the Bank of Mauritius for its functions, but publication is restricted to avoid disclosing financial affairs without consent. Licensees must treat corporate documents as confidential. No disclosure to courts is permitted without Supreme Court order for financial crime investigations. The Commission may disclose information to public agencies or foreign bodies under confidentiality agreements for regulatory purposes.",
+      "dtia_summary": "Requires strict confidentiality for financial data, with specific conditions for disclosure to regulators or foreign authorities in financial crime investigations. Critical for cross-border data transfers involving financial institutions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Employees must take confidentiality oath before duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees must maintain confidentiality of relevant Acts matters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Employees cannot disclose relevant Acts matters to unauthorized persons",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Commission must provide information to Bank of Mauritius for its functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bank of Mauritius may publish information but not disclosing financial affairs without consent",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Licensees must treat corporate documents as confidential",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "No disclosure to courts without Supreme Court order for financial crime investigations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Supreme Court may order disclosure only for financial crime investigations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may disclose information to public agencies or foreign bodies under confidentiality agreements",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Every member of the Board, the technical committee, the Enforcement Committee, the Chief Executive, and every employee of the Commission shall – before he begins to perform any duties under the relevant Acts, take an oath of confidentiality in the form set out in Part II of the Third Schedule"
+    },
+    {
+      "section": "84",
+      "heading": "Disclosure of interest",
+      "title": "Conflict of interest disclosure for Commission members",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 112,
+      "page_end": 112,
+      "primary_category": "Other",
+      "summary": "Commission members and their spouses/next of kin must disclose any direct or indirect interest in matters before the Board or technical committee. They must not participate in deliberations or decision-making for that matter. Such disclosures are recorded in the minutes of the relevant committee.",
+      "dtia_summary": "Ensures transparency in decision-making for financial institutions, critical for assessing conflicts of interest in cross-border regulatory contexts.",
+      "authority": "Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Members must disclose direct or indirect interest in matters before the Board or technical committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Members must not participate in deliberations or decision-making for that matter",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosures must be recorded in the minutes of the Board or committee",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where any member of the Board, the technical committee or their spouse or next kin has any direct or indirect interest in relation to any matter before the Board or technical committee, as the case may be, he shall – disclose at or before the meeting convened to discuss that matter, the nature of his interest"
+    },
+    {
+      "section": "85",
+      "heading": "Annual report of Commission",
+      "title": "Annual reporting obligations for Commission",
+      "chapter": null,
+      "part": "part i",
+      "condition": null,
+      "page_start": 112,
+      "page_end": 113,
+      "primary_category": "Data Storage",
+      "summary": "The Commission must publish an annual report with audited accounts within six months of the financial year end. The Commission must forward a copy to the Minister, who must lay the report before the National Assembly. This ensures transparency in financial operations and regulatory oversight.",
+      "dtia_summary": "Mandates regular financial reporting for transparency, critical for assessing data storage and reporting obligations in financial institutions.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commission must publish annual report with audited accounts within six months of financial year end",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must forward copy of annual report to Minister",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Minister must lay annual report before National Assembly",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commission shall, not later than 6 months after the close of every financial year, cause to be published a report on its activities together with its audited accounts in respect of the previous financial year."
+    },
+    {
+      "section": "87",
+      "heading": "Exchange of information and mutual assistance",
+      "title": "Information exchange with foreign authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 113,
+      "page_end": 115,
+      "primary_category": "Other",
+      "summary": "The Commission may exchange information with supervisory bodies or public agencies for regulatory purposes. Information may be subject to conditions restricting use and disclosure. The Commission may enter into agreements with foreign bodies where they can protect confidentiality. Agreements may provide for mutual assistance in regulatory functions for financial crime investigations.",
+      "dtia_summary": "Allows controlled data exchange with foreign authorities for regulatory purposes, critical for cross-border data transfers in financial crime investigations.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commission may exchange information with supervisory bodies or public agencies for regulatory purposes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Information may be subject to conditions restricting use and disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may enter into agreements with foreign bodies where they can protect confidentiality",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Agreements may provide for mutual assistance in regulatory functions for financial crime investigations",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Notwithstanding section 83, the Commission may exchange with a supervisory body or any other public sector agency any information relevant to the administration of the relevant Acts for the purpose of discharging the functions of the Commission or of that body."
+    },
+    {
+      "section": "94",
+      "heading": "Regulations",
+      "title": "Regulatory powers for financial services",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 118,
+      "page_end": 119,
+      "primary_category": "Other",
+      "summary": "The Minister may make regulations for the Act, including fees, costs, ethics codes, and a centralized KYC database for non-banking financial services. Regulations may also exempt classes of Authorised Companies from compliance with certain provisions.",
+      "dtia_summary": "Empowers regulators to create specific data handling rules, including KYC databases, critical for cross-border data transfers in financial services.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Minister may make regulations for the purposes of the Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for fees and levying of charges",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for payment of costs in relation to matters before the Review Panel",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for a code of ethics for Commission members",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for setting up an online centralized KYC database",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may exempt classes of Authorised Companies from compliance",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Minister may – make such regulations as he thinks fit for the purposes of this Act"
+    },
+    {
+      "section": "97",
+      "heading": "Consequential amendments",
+      "title": "Consequential amendments to other acts",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 122,
+      "page_end": 126,
+      "primary_category": "Other",
+      "summary": "This section amends multiple acts to reference the Financial Services Act 2007 instead of the Financial Services Development Act 2. It ensures consistency across related legislation by updating references to the correct act.",
+      "dtia_summary": "Updates references to the Financial Services Act 2007 across multiple acts, ensuring consistent regulatory framework for financial data.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "International Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Multiple acts amended to reference Financial Services Act 2007 instead of Financial Services Development Act 2001",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Banking Act 2004 is amended by deleting the words 'Financial Services Development Act 2001' wherever they appear and replacing them by the words 'Financial Services Act 2007'"
+    },
+    {
+      "section": "98",
+      "heading": "Commencement",
+      "title": "Commencement date for Financial Services Act",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 126,
+      "page_end": 132,
+      "primary_category": "Other",
+      "summary": "This section specifies the commencement date for the Financial Services Act 2007. It states that the Act comes into operation on a date to be fixed by Proclamation, subject to the provision that different provisions may have different effective dates. The Act was passed by the National Assembly on July 24, 2007.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "This Act shall come into operation on a date to be fixed by Proclamation",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Different dates may be fixed for the coming into operation of different provisions of this Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "98. Commencement Proclaimed by [Proclamation of 2007] w.e.f. 28 September 2007 (1) Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation. (2) Different dates may be fixed for the coming into operation of different provisions of this Act."
+    },
+    {
+      "section": "1",
+      "heading": "Any person bona fide carrying on the business of banking or insurance or bona fide",
+      "title": "Definition of person carrying on banking or insurance business",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 132,
+      "page_end": 132,
+      "primary_category": "Definitions",
+      "summary": "This section defines a person who is bona fide carrying on the business of banking or insurance, or bona fide carrying on any business not primarily focused on lending money where they lend funds. The definition is used to identify entities that may be subject to the Financial Services Act 2007.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information",
+        "Employee Information"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person bona fide carrying on the business of banking or insurance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person bona fide carrying on any business not having as its primary object the lending of money",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "1. Any person bona fide carrying on the business of banking or insurance or bona fide carrying on any business not having as its primary object the lending of money, in the course of which and for the purposes of which he lends money."
+    },
+    {
+      "section": "11",
+      "heading": "Any specialised financial institution licensed by the central bank to engage in lending",
+      "title": "Definition of specialised financial institution engaged in lending",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 133,
+      "page_end": 133,
+      "primary_category": "Definitions",
+      "summary": "This section defines a specialised financial institution that is licensed by the central bank to engage in lending activities. The definition is used to identify entities that may be subject to the Financial Services Act 2007's lending regulations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any specialised financial institution licensed by the central bank to engage in lending activities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Any specialised financial institution licensed by the central bank to engage in lending activities."
+    }
+  ]
+}

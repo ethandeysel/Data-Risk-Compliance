@@ -1,0 +1,2472 @@
+{
+  "country": "India",
+  "document": "Information Technology Act, 2000 (India - Row 7)",
+  "generated": "2026-07-17T16:15:05",
+  "sections": [
+    {
+      "section": "3",
+      "heading": "Authentication of electronic records.",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "4",
+      "heading": "Legal recognition of electronic records.",
+      "title": "Omitted section from IT Act schedule",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section states that serial number 5 and related entries in the Second Schedule have been omitted by a specific order dated 26-9-2022. The omission pertains to the electronic signature and authentication procedures outlined in the Second Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022."
+    },
+    {
+      "section": "6",
+      "heading": "Use of electronic records and electronic signatures in Government and its agencies.",
+      "title": "e-authentication techniques for digital signatures",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section details the e-authentication techniques and procedures for creating and accessing subscriber's signature keys. It specifies that authentication must use e-authentication, hash, and asymmetric crypto system techniques, involve trusted third parties, and comply with digital signature guidelines issued by the Controller.",
+      "dtia_summary": "This section establishes technical requirements for digital signatures, including trusted third parties and cryptographic standards, which impact cross-border data transfers involving digital signatures.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "e-authentication technique using Aadhaar or other e-KYC services for authentication of electronic records by e-authentication technique",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Signature Certificate issuance by Certifying Authority based on e-authentication, particulars specified in Form C of Schedule IV of the Information Technology (Certifying Authorities) Rules, 2000, digitally signed verified information from Aadhaar or other e-KYC services and electronic consent of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for e-authentication shall be as issued by the Controller from time to time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The standards referred to in Rule 6 of the Information Technology (Certifying Authorities) Rules, 2000 shall be complied with, in so far as they relate to the certification function of public key of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner in which information is authenticated by means of digital signature shall comply with the manner and standards specified in Rules 3 to 12 of the Digital Signature (End entity) Rules, 2015 in so far as they relate to the creation, storage, and verification of Digital Signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "e-authentication technique and procedure for creating and accessing subscriber's signature key facilitated by trusted third party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identity verification of Digital Signature Certificate applicant shall be in accordance with the Identity Verification Guidelines issued by Controller from time-to-time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The requirement to operate as trusted third party shall be specified under e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate Identity verification of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall establish secure storage for subscriber to have sole control for creation and subsequent usage of subscriber's signature key by sole authentication of subscriber",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate key pair-generation, secure storage of subscriber's signature key and facilitate signature creation functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate the submission of DSC application form and certificate signing request to the Certifying Authority for issuing a Digital Signature Certificate to the DSC applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate revocation of Digital Signature Certificate and destruction of subscriber's signature key",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for authentication and storage of keys shall be as issued by the Controller from time to time under e-authentication guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Ins. by S.O. 1119(E), dated 1-3-2019. ... e-authentication technique using Aadhaar or other e-KYC services ... The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller."
+    },
+    {
+      "section": "7",
+      "heading": "Retention of electronic records.",
+      "title": "Computer system misuse and data manipulation prohibitions",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section prohibits unauthorized access, data extraction, introduction of malware, system damage, disruption, denial of access, and other malicious activities on computer systems. It applies to any person who uses computer resources without authorization or causes harm to computer systems. The section also establishes liability for damages caused by such activities.",
+      "dtia_summary": "This section defines prohibited activities that could impact data transfer security, particularly where data manipulation or system damage occurs across borders. It requires safeguards against unauthorized data access and manipulation during cross-border transfers.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Prohibits downloading, copying or extracting data from computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits introducing computer contaminants or viruses into computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits damaging computer systems, data or programs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits disrupting computer systems or networks",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits denying authorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits providing assistance to unauthorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits charging services to another person through tampering with computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits destroying, deleting or altering information in computer resources",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits stealing, concealing, destroying or altering computer source code",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "7. Ins. by s. 21, ibid. (w.e.f. 27-10-2009). (b) downloads, copies or extracts any data, computer data base or information from such computer, computer system or computer network including information or data held or stored in any removable storage medium; (c) introduces or causes to be introduced any computer contaminant or computer virus into any computer, computer system or computer network; (d) damages or causes to be damaged any computer, computer system or computer network, data, computer data base or any other programmes residing in such computer, computer system or computer network; (e) disrupts or causes disruption of any computer, computer system or computer network; (f) denies or causes the denial of access to any person authorised to access any computer, computer system or computer network by any means; (g) provides any assistance to any person to facilitate access to a computer, computer system or computer network in contravention of the provisions of this Act, rules or regulations made thereunder; (h) charges the services availed of by a person to the account of another person by tampering with or manipulating any computer, computer system, or computer network;"
+    },
+    {
+      "section": "10",
+      "heading": "Power to make rules by Central Government in respect of electronic signature.",
+      "title": "Rules for electronic signatures and electronic records",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "The Central Government may prescribe rules for electronic signatures, including their types, formats, identification methods, security controls, and other matters necessary for legal effect. These rules apply to the implementation of electronic signatures under the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Central Government may prescribe rules for electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe the type of electronic signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe the manner and format for affixing electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe identification procedures for the person affixing electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe control processes for electronic records or payments security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe other matters necessary for legal effect of electronic signatures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. Power to make rules by Central Government in respect of 1[electronic signature].–The Central Government may, for the purposes of this Act, by rules, prescribe–"
+    },
+    {
+      "section": "11",
+      "heading": "Attribution of electronic records.",
+      "title": "Attribution of electronic records to originator",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Definitions",
+      "summary": "An electronic record is attributed to the originator if it was sent by them, by an authorized representative, or by an automated system programmed by the originator. This defines the originator of electronic records for legal purposes.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "An electronic record is attributed to the originator if sent by the originator",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is attributed to the originator if sent by an authorized representative",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is attributed to the originator if sent by an automated system programmed by the originator",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Attribution of electronic records.–An electronic record shall be attributed to the originator–"
+    },
+    {
+      "section": "13",
+      "heading": "Time and place of despatch and receipt of electronic record.",
+      "title": "Time and place for electronic record despatch and receipt",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Other",
+      "summary": "This section specifies the time and place where electronic records must be despatched and received. It applies to entities creating or handling electronic records under the Secure Electronic Records and Secure Electronic Signature chapter. The section establishes procedural requirements for the timing and location of electronic record transfers.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Electronic records must be despatched and received at specified times and places",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "13. Time and place of despatch and receipt of electronic record."
+    },
+    {
+      "section": "66",
+      "heading": "Computer related offences.",
+      "title": "Computer-related offences and penalties",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section outlines various computer-related offences including identity theft, cyber terrorism, privacy violations, and cheating by personation. It specifies penalties for these offences, applying to individuals and entities that commit such acts using computer resources. The section does not define specific offences but lists them for legal reference.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Punishment for dishonestly receiving stolen computer resource or communication device",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Punishment for identity theft",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Punishment for cheating by personation using computer resource",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Punishment for violation of privacy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Punishment for cyber terrorism",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "66. Computer related offences. 66A. [Omitted.]. 66B. Punishment for dishonestly receiving stolen computer resource or communication device. 66C. Punishment for identity theft. 66D. Punishment for cheating by personation by using computer resource. 66E. Punishment for violation of privacy. 66F. Punishment for cyber terrorism."
+    },
+    {
+      "section": "69",
+      "heading": "Power to issue directions for interception or monitoring or decryption of any information through",
+      "title": "Government authority to block public access to information",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Data Storage",
+      "summary": "This section empowers the Central Government to block public access to information in specific circumstances, such as national security or public order. Intermediaries must comply with these blocking orders, with non-compliance resulting in penalties up to 7 years. The law applies to entities hosting or processing data electronically.",
+      "dtia_summary": "This section allows for blocking data access across borders, which could impact data storage and transfer. Entities must comply with blocking orders to avoid severe penalties.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [],
+      "source_quote": "Section 69A(1) of the Information Technology Act, 2000"
+    },
+    {
+      "section": "70",
+      "heading": "Protected system.",
+      "title": "Critical information infrastructure protection",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section defines critical information infrastructure as computer resources whose incapacitation or destruction would have a debilitating impact on national security, economy, public health, or safety. The appropriate government may declare such systems as protected, and unauthorized access to these systems is punishable by imprisonment up to 10 years.",
+      "dtia_summary": "This section identifies critical infrastructure that requires special protection, which could impact cross-border data transfers involving sensitive systems. Entities must ensure compliance with protection measures.",
+      "authority": "Appropriate Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Appropriate government may declare computer resources affecting critical infrastructure as protected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unauthorized access to protected systems is punishable by imprisonment up to 10 years",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 70(1) and (3) of the Information Technology Act, 2000"
+    },
+    {
+      "section": "72",
+      "heading": "Penalty for Breach of confidentiality and privacy.",
+      "title": "Penalty for unauthorized disclosure of electronic records",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "Any person who accesses electronic records without consent and discloses them to others faces a penalty of up to five lakh rupees. This applies to individuals acting under the powers of the Act or regulations. The penalty is subject to other laws in force at the time.",
+      "dtia_summary": "Imposes a financial penalty for unauthorized disclosure of electronic records, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who accesses electronic records without consent and discloses them to others faces a penalty of up to five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "72. Penalty for Breach of confidentiality and privacy.–Save as otherwise provided in this Act or any other law for the time being in force, if any person who, in pursuance of any of the powers conferred under this Act, rules or regulations made thereunder, has secured access to any electronic record, book, register, correspondence, information, document or other material without the consent of the person concerned discloses such electronic record, book, register, correspondence, information, document or other material to any other person shall be 3[liable to penalty which may extend to five lakh rupees]."
+    },
+    {
+      "section": "84",
+      "heading": "Protection of action taken in good faith.",
+      "title": "Protection of good faith actions and encryption methods",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section provides protection for actions taken in good faith and specifies modes or methods for encryption. It also includes penalties for abetment and attempt to commit offences. The section applies to entities that act in good faith and those involved in encryption practices, ensuring legal safeguards for cybersecurity measures.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Protection for actions taken in good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Modes or methods for encryption",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalty for abetment of offences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalty for attempt to commit offences",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "84. Protection of action taken in good faith. 84A. Modes or methods for encryption. 84B. Punishment for abetment of offences. 84C. Punishment for attempt to commit offences."
+    },
+    {
+      "section": "94",
+      "heading": "[Omitted].",
+      "title": "Omitted section with schedule references",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Other",
+      "summary": "This section is omitted and references the first, second, third, and fourth schedules of the Act. The section does not contain any operative provisions but serves as a placeholder for the schedules that outline specific technical and procedural details related to electronic commerce and data handling.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Section 94 is omitted",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "94. [Omitted]. THE FIRST SCHEDULE. THE SECOND SCHEDULE. THE THIRD SCHEDULE. [Omitted.] THE FOURTH SCHEDULE. [Omitted.]"
+    },
+    {
+      "section": "2",
+      "heading": "Definitions.–(1) In this Act, unless the context otherwise requires,–",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": null,
+      "condition": null,
+      "page_start": 5,
+      "page_end": 5,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "2",
+      "heading": "Subs. by Act 10 of 2009, s. 3, for sub-section (4) (w.e.f. 27-10-2009).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "5",
+      "heading": "Clause (n) omitted by 7 of 2017, s.169 (w.e.f. 26-5-2017)",
+      "title": "Penalty for wrongful disclosure of personal information",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees. This applies to individuals and intermediaries acting under lawful contracts.",
+      "dtia_summary": "Imposes a high financial penalty for wrongful disclosure of personal information, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Subs. by Act 18 of 2023, s. 2 and Schedule, for \"Punishment\" (w.e.f. 30-11-2023). containing personal information about another person, with the intent to cause or knowing that he is likely to cause wrongful loss or wrongful gain discloses, without the consent of the person concerned, or in breach of a lawful contract, such material to any other person, shall be 1[liable to penalty which may extend to twenty-five lakh rupees]."
+    },
+    {
+      "section": "3",
+      "heading": "Subs. by s. 4, ibid., for clause (w) (w.e.f. 27-10-2009).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "3",
+      "heading": "Authentication of electronic records.–(1) Subject to the provisions of this section any subscriber",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "3",
+      "heading": "Ins. by s. 6, ibid. (w.e.f. 27-10-2009).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "4",
+      "heading": "Legal recognition of electronic records.–Where any law provides that information or any other",
+      "title": "Omitted section from IT Act schedule",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "This section states that serial number 5 and related entries in the Second Schedule have been omitted by a specific order dated 26-9-2022. The omission pertains to the electronic signature and authentication procedures outlined in the Second Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022."
+    },
+    {
+      "section": "6",
+      "heading": "Use of electronic records and 1[electronic signatures] in Government and its agencies.–(1)",
+      "title": "e-authentication techniques for digital signatures",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "This section details the e-authentication techniques and procedures for creating and accessing subscriber's signature keys. It specifies that authentication must use e-authentication, hash, and asymmetric crypto system techniques, involve trusted third parties, and comply with digital signature guidelines issued by the Controller.",
+      "dtia_summary": "This section establishes technical requirements for digital signatures, including trusted third parties and cryptographic standards, which impact cross-border data transfers involving digital signatures.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "e-authentication technique using Aadhaar or other e-KYC services for authentication of electronic records by e-authentication technique",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Signature Certificate issuance by Certifying Authority based on e-authentication, particulars specified in Form C of Schedule IV of the Information Technology (Certifying Authorities) Rules, 2000, digitally signed verified information from Aadhaar or other e-KYC services and electronic consent of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for e-authentication shall be as issued by the Controller from time to time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The standards referred to in Rule 6 of the Information Technology (Certifying Authorities) Rules, 2000 shall be complied with, in so far as they relate to the certification function of public key of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner in which information is authenticated by means of digital signature shall comply with the manner and standards specified in Rules 3 to 12 of the Digital Signature (End entity) Rules, 2015 in so far as they relate to the creation, storage, and verification of Digital Signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "e-authentication technique and procedure for creating and accessing subscriber's signature key facilitated by trusted third party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identity verification of Digital Signature Certificate applicant shall be in accordance with the Identity Verification Guidelines issued by Controller from time-to-time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The requirement to operate as trusted third party shall be specified under e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate Identity verification of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall establish secure storage for subscriber to have sole control for creation and subsequent usage of subscriber's signature key by sole authentication of subscriber",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate key pair-generation, secure storage of subscriber's signature key and facilitate signature creation functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate the submission of DSC application form and certificate signing request to the Certifying Authority for issuing a Digital Signature Certificate to the DSC applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate revocation of Digital Signature Certificate and destruction of subscriber's signature key",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for authentication and storage of keys shall be as issued by the Controller from time to time under e-authentication guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Ins. by S.O. 1119(E), dated 1-3-2019. ... e-authentication technique using Aadhaar or other e-KYC services ... The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller."
+    },
+    {
+      "section": "1",
+      "heading": "Subs. by Act 10 of 2009, s. 2, for \"digital signatures\" (w.e.f. 27-10-2009).",
+      "title": "Substitution of Cyber Appellate Tribunal members",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "This section is a substitution notice for the Cyber Appellate Tribunal members, effective from May 26, 2017, updating the definition of adjudicating officers.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 7 of 2017, s. 169, for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate Tribunal\" (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "7",
+      "heading": "Retention of electronic records.–(1) Where any law provides that documents, records or",
+      "title": "Computer system misuse and data manipulation prohibitions",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "This section prohibits unauthorized access, data extraction, introduction of malware, system damage, disruption, denial of access, and other malicious activities on computer systems. It applies to any person who uses computer resources without authorization or causes harm to computer systems. The section also establishes liability for damages caused by such activities.",
+      "dtia_summary": "This section defines prohibited activities that could impact data transfer security, particularly where data manipulation or system damage occurs across borders. It requires safeguards against unauthorized data access and manipulation during cross-border transfers.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Prohibits downloading, copying or extracting data from computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits introducing computer contaminants or viruses into computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits damaging computer systems, data or programs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits disrupting computer systems or networks",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits denying authorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits providing assistance to unauthorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits charging services to another person through tampering with computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits destroying, deleting or altering information in computer resources",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits stealing, concealing, destroying or altering computer source code",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "7. Ins. by s. 21, ibid. (w.e.f. 27-10-2009). (b) downloads, copies or extracts any data, computer data base or information from such computer, computer system or computer network including information or data held or stored in any removable storage medium; (c) introduces or causes to be introduced any computer contaminant or computer virus into any computer, computer system or computer network; (d) damages or causes to be damaged any computer, computer system or computer network, data, computer data base or any other programmes residing in such computer, computer system or computer network; (e) disrupts or causes disruption of any computer, computer system or computer network; (f) denies or causes the denial of access to any person authorised to access any computer, computer system or computer network by any means; (g) provides any assistance to any person to facilitate access to a computer, computer system or computer network in contravention of the provisions of this Act, rules or regulations made thereunder; (h) charges the services availed of by a person to the account of another person by tampering with or manipulating any computer, computer system, or computer network;"
+    },
+    {
+      "section": "2",
+      "heading": "Ins. by s. 8, ibid. (w.e.f. 27-10-2009).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "10",
+      "heading": "Power to make rules by Central Government in respect of 1[electronic signature].–The",
+      "title": "Rules for electronic signatures and electronic records",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "The Central Government may prescribe rules for electronic signatures, including their types, formats, identification methods, security controls, and other matters necessary for legal effect. These rules apply to the implementation of electronic signatures under the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Central Government may prescribe rules for electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe the type of electronic signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe the manner and format for affixing electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe identification procedures for the person affixing electronic signatures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe control processes for electronic records or payments security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prescribe other matters necessary for legal effect of electronic signatures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. Power to make rules by Central Government in respect of 1[electronic signature].–The Central Government may, for the purposes of this Act, by rules, prescribe–"
+    },
+    {
+      "section": "11",
+      "heading": "Attribution of electronic records.–An electronic record shall be attributed to the originator–",
+      "title": "Attribution of electronic records to originator",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 11,
+      "primary_category": "Definitions",
+      "summary": "An electronic record is attributed to the originator if it was sent by them, by an authorized representative, or by an automated system programmed by the originator. This defines the originator of electronic records for legal purposes.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "An electronic record is attributed to the originator if sent by the originator",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is attributed to the originator if sent by an authorized representative",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is attributed to the originator if sent by an automated system programmed by the originator",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "11. Attribution of electronic records.–An electronic record shall be attributed to the originator–"
+    },
+    {
+      "section": "3",
+      "heading": "Subs. by s. 10, ibid., for \"agreed with the addressee\" (w.e.f. 27-10-2009).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "14",
+      "heading": "Secure electronic record.–Where any security procedure has been applied to an electronic record",
+      "title": "Secure electronic records and signatures",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 12,
+      "primary_category": "Definitions",
+      "summary": "An electronic record is deemed secure if a security procedure is applied at a specific point and verified. An electronic signature is secure if the signature creation data is under the signatory's exclusive control and stored in a secure manner.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic record deemed secure from point of application of security procedure to verification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic signature deemed secure if signature creation data under signatory's exclusive control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic signature deemed secure if signature creation data stored in exclusive manner",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. Secure electronic record.–Where any security procedure has been applied to an electronic record at a specific point of time, then such record shall he deemed to be a secure electronic record from such point of time to the time of verification."
+    },
+    {
+      "section": "18",
+      "heading": "Functions of Controller.–The Controller may perform all or any of the following functions,",
+      "title": "Controller's functions for Certifying Authorities",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Definitions",
+      "summary": "The Controller may supervise Certifying Authorities, certify public keys, set standards, specify qualifications, and regulate their operations, including financial and operational aspects of electronic signature certification.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Controller may supervise activities of Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may certify public keys of Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may lay down standards for Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify qualifications and experience for Certifying Authority employees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify conditions for Certifying Authorities' business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify contents of materials distributed by Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify form and content of electronic signature certificates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify account maintenance procedures for Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify terms and conditions for auditors and their remuneration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may facilitate electronic systems by Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may specify manner of dealings with subscribers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may resolve conflicts of interest between Certifying Authorities and subscribers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may lay down duties of Certifying Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may maintain public database of Certifying Authorities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "18. Functions of Controller.–The Controller may perform all or any of the following functions, namely:–"
+    },
+    {
+      "section": "19",
+      "heading": "Recognition of foreign Certifying Authorities.–(1) Subject to such conditions and restrictions as",
+      "title": "Recognition of foreign Certifying Authorities",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Definitions",
+      "summary": "The Controller may recognize foreign Certifying Authorities with Central Government approval and notification in the Official Gazette, subject to conditions and restrictions. Recognized certificates are valid under the Act, and recognition can be revoked if conditions are breached.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Controller may recognize foreign Certifying Authorities with Central Government approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recognized foreign Certifying Authorities' certificates are valid under the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may revoke recognition if conditions are breached",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "19. Recognition of foreign Certifying Authorities.–(1) Subject to such conditions and restrictions as may be specified by regulations, the Controller may with the previous approval of the Central Government, and by notification in the Official Gazette, recognise any foreign Certifying Authority as a Certifying Authority for the purposes of this Act."
+    },
+    {
+      "section": "2",
+      "heading": "Subs. by notification No. S.O. 1015(E) (w.e.f. 19-9-2002).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 15,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "30",
+      "heading": "Certifying Authority to follow certain procedures.–Every Certifying Authority shall,–",
+      "title": "Certifying Authority security and reliability requirements",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "Certifying Authorities must implement secure hardware, software, and procedures to prevent intrusion and misuse. They must ensure service reliability for intended functions, maintain secrecy and privacy of electronic signatures, store all issued certificates, publish practices and certificate status, and comply with additional standards specified by regulations. These requirements apply to all Certifying Authorities under the Act.",
+      "dtia_summary": "Certifying Authorities must maintain robust security measures and transparency in certificate management, directly affecting the reliability of electronic signatures used in cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "make use of hardware, software and procedures that are secure from intrusion and misuse",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "provide a reasonable level of reliability in its services which are reasonably suited to the performance of intended functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "adhere to security procedures to ensure that the secrecy and privacy of the electronic signatures are assured",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "be the repository of all electronic signature Certificates issued under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "publish information regarding its practices, electronic signature Certificates and current status of such certificates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "observe such other standards as may be specified by regulations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every Certifying Authority shall,– (a) make use of hardware, software and procedures that are secure from intrusion and misuse; (b) provide a reasonable level of reliability in its services which are reasonably suited to the performance of intended functions; (c) adhere to security procedures to ensure that the secrecy and privacy of the electronic signatures are assured; 3*** 4[(ca) be the repository of all electronic signature Certificates issued under this Act; (cb) publish information regarding its practices, electronic signature Certificates and current status of such certificates; and ] (d) observe such other standards as may be specified by regulations."
+    },
+    {
+      "section": "34",
+      "heading": "Disclosure.–(1) Every Certifying Authority shall disclose in the manner specified by regulations–",
+      "title": "Certifying Authority disclosure and notification obligations",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Security",
+      "summary": "Certifying Authorities must disclose their electronic signature certificates, certification practice statements, revocation notices, and other facts affecting certificate reliability or service ability. They must notify affected parties if events compromise system integrity or certificate conditions, and follow their certification practice statements for such events. These obligations apply to all Certifying Authorities under the Act.",
+      "dtia_summary": "Mandates disclosure of certificate reliability issues and timely notification of system compromises, critical for assessing data transfer risks with electronic signatures.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Every Certifying Authority shall disclose in the manner specified by regulations– (a) its electronic signature Certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "disclose any certification practice statement relevant thereto",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "disclose notice of the revocation or suspension of its Certifying Authority certificate, if any",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "disclose any other fact that materially and adversely affects either the reliability of a electronic signature Certificate, which that Authority has issued, or the Authority's ability to perform its services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "use reasonable efforts to notify any person who is likely to be affected by that occurrence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "act in accordance with the procedure specified in its certification practice statement to deal with such event or situation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Every Certifying Authority shall disclose in the manner specified by regulations– (a) its electronic signature Certificate; (b) any certification practice statement relevant thereto; (c) notice of the revocation or suspension of its Certifying Authority certificate, if any; and (d) any other fact that materially and adversely affects either the reliability of a electronic signature Certificate, which that Authority has issued, or the Authority's ability to perform its services."
+    },
+    {
+      "section": "35",
+      "heading": "Certifying authority to issue 2[electronic signature] Certificate.–(1) Any person may make an",
+      "title": "Application process for electronic signature certificates",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Any person may apply to a Certifying Authority for an electronic signature certificate with a fee not exceeding twenty-five thousand rupees. Applications must include a certification practice statement or equivalent statement. The Certifying Authority may grant or reject applications after considering the statement and making inquiries, but must provide a reasonable opportunity to show cause against rejection. This applies to all applicants seeking electronic signature certificates.",
+      "dtia_summary": "Defines the application process for electronic signature certificates, including fee structures and requirements for certification practice statements, relevant for data transfer mechanisms involving electronic signatures.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Any person may make an application to the Certifying Authority for the issue of a electronic signature Certificate in such form as may be prescribed by the Central Government",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Every such application shall be accompanied by such fee not exceeding twenty-five thousand rupees as may be prescribed by the Central Government, to be paid to the Certifying Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every such application shall be accompanied by a certification practice statement or where there is no such statement, a statement containing such particulars, as may be specified by regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "On receipt of an application under sub-section (1), the Certifying Authority may, after consideration of the certification practice statement or the other statement under sub-section (3) and after making such enquiries as it may deem fit, grant the electronic signature Certificate or for reasons to be recorded in writing, reject the application",
+          "obligation_type": "May"
+        },
+        {
+          "text": "no application shall be rejected unless the applicant has been given a reasonable opportunity of showing cause against the proposed rejection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "35. Certifying authority to issue 2[electronic signature] Certificate.–(1) Any person may make an application to the Certifying Authority for the issue of a 2[electronic signature] Certificate in such form as may be prescribed by the Central Government. (2) Every such application shall be accompanied by such fee not exceeding twenty-five thousand rupees as may be prescribed by the Central Government, to be paid to the Certifying Authority: Provided that while prescribing fees under sub-section (2) different fees may be prescribed for different classes of applicants. (3) Every such application shall be accompanied by a certification practice statement or where there is no such statement, a statement containing such particulars, as may be specified by regulations."
+    },
+    {
+      "section": "38",
+      "heading": "Revocation of Digital Signature Certificate.–(1) A Certifying Authority may revoke a Digital",
+      "title": "Revocation of Digital Signature Certificates",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 17,
+      "primary_category": "Security",
+      "summary": "Certifying Authorities may revoke digital signature certificates under specific conditions: subscriber request, subscriber death, firm/company dissolution, false material facts, unsatisfied requirements, compromised security systems, or subscriber insolvency/death. Revocation must provide the subscriber a hearing opportunity and notify the subscriber immediately upon revocation. These obligations apply to all Certifying Authorities under the Act.",
+      "dtia_summary": "Provides conditions for revoking digital signature certificates, including security and reliability checks, critical for assessing data transfer risks when certificates are compromised.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate issued by it where the subscriber or any other person authorised by him makes a request to that effect",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate issued by it upon the death of the subscriber",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate issued by it upon the dissolution of the firm or winding up of the company where the subscriber is a firm or a company",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time if it is of opinion that a material fact represented in the Digital Signature Certificate is false or has been concealed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time if it is of opinion that a requirement for issuance of the Digital Signature Certificate was not satisfied",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time if it is of opinion that the Certifying Authority's private key or security system was compromised in a manner materially affecting the Digital Signature Certificate's reliability",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time if it is of opinion that the subscriber has been declared insolvent or dead or where a subscriber is a firm or a company, which has been dissolved, wound-up or otherwise ceased to exist",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A Digital Signature Certificate shall not be revoked unless the subscriber has been given an opportunity of being heard in the matter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "38. Revocation of Digital Signature Certificate.–(1) A Certifying Authority may revoke a Digital Signature Certificate issued by it– (a) where the subscriber or any other person authorised by him makes a request to that effect; or (b) upon the death of the subscriber; or (c) upon the dissolution of the firm or winding up of the company where the subscriber is a firm or a company. (2) Subject to the provisions of sub-section (3) and without prejudice to the provisions of sub-section (1), a Certifying Authority may revoke a Digital Signature Certificate which has been issued by it at any time, if it is of opinion that– (a) a material fact represented in the Digital Signature Certificate is false or has been concealed; (b) a requirement for issuance of the Digital Signature Certificate was not satisfied; (c) the Certifying Authority's private key or security system was compromised in a manner materially affecting the Digital Signature Certificate's reliability; (d) the subscriber has been declared insolvent or dead or where a subscriber is a firm or a company, which has been dissolved, wound-up or otherwise ceased to exist. (3) A Digital Signature Certificate shall not be revoked unless the subscriber has been given an opportunity of being heard in the matter. (4) On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall communicate the same to the subscriber."
+    },
+    {
+      "section": "42",
+      "heading": "Control of private key.–(1) Every subscriber shall exercise reasonable care to retain control of",
+      "title": "Private key control and compromise notification",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 18,
+      "primary_category": "Security",
+      "summary": "Subscribers must exercise reasonable care to retain control of their private keys and prevent disclosure. If a private key is compromised, subscribers must immediately notify the Certifying Authority. The subscriber remains liable until they inform the Certifying Authority of the compromise. These obligations apply to all subscribers of digital signature certificates.",
+      "dtia_summary": "Mandates immediate notification of private key compromise, critical for maintaining data security during cross-border electronic signature transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Every subscriber shall exercise reasonable care to retain control of the private key corresponding to the public key listed in his Digital Signature Certificate and take all steps to prevent its disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the private key corresponding to the public key listed in the Digital Signature Certificate has been compromised, then, the subscriber shall communicate the same without any delay to the Certifying Authority in such manner as may be specified by the regulations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "42. Control of private key.–(1) Every subscriber shall exercise reasonable care to retain control of the private key corresponding to the public key listed in his Digital Signature Certificate and take all steps to prevent its disclosure. (2) If the private key corresponding to the public key listed in the Digital Signature Certificate has been compromised, then, the subscriber shall communicate the same without any delay to the Certifying Authority in such manner as may be specified by the regulations."
+    },
+    {
+      "section": "7",
+      "heading": "Ins. by s. 21, ibid. (w.e.f. 27-10-2009).",
+      "title": "Computer system misuse and data manipulation prohibitions",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "This section prohibits unauthorized access, data extraction, introduction of malware, system damage, disruption, denial of access, and other malicious activities on computer systems. It applies to any person who uses computer resources without authorization or causes harm to computer systems. The section also establishes liability for damages caused by such activities.",
+      "dtia_summary": "This section defines prohibited activities that could impact data transfer security, particularly where data manipulation or system damage occurs across borders. It requires safeguards against unauthorized data access and manipulation during cross-border transfers.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Prohibits downloading, copying or extracting data from computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits introducing computer contaminants or viruses into computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits damaging computer systems, data or programs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits disrupting computer systems or networks",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits denying authorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits providing assistance to unauthorized access to computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits charging services to another person through tampering with computer systems",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits destroying, deleting or altering information in computer resources",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Prohibits stealing, concealing, destroying or altering computer source code",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "7. Ins. by s. 21, ibid. (w.e.f. 27-10-2009). (b) downloads, copies or extracts any data, computer data base or information from such computer, computer system or computer network including information or data held or stored in any removable storage medium; (c) introduces or causes to be introduced any computer contaminant or computer virus into any computer, computer system or computer network; (d) damages or causes to be damaged any computer, computer system or computer network, data, computer data base or any other programmes residing in such computer, computer system or computer network; (e) disrupts or causes disruption of any computer, computer system or computer network; (f) denies or causes the denial of access to any person authorised to access any computer, computer system or computer network by any means; (g) provides any assistance to any person to facilitate access to a computer, computer system or computer network in contravention of the provisions of this Act, rules or regulations made thereunder; (h) charges the services availed of by a person to the account of another person by tampering with or manipulating any computer, computer system, or computer network;"
+    },
+    {
+      "section": "3",
+      "heading": "Ins. by s. 22, ibid. (w.e.f. 27-10-2009).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "44",
+      "heading": "Penalty for failure to furnish information, return, etc.–If any person who is required under this",
+      "title": "Penalties for non-compliance with reporting obligations",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "This section imposes penalties for failing to furnish documents, returns, or reports to the Controller or Certifying Authority. It specifies penalties for non-compliance with reporting timelines, including fines up to 15 lakhs rupees per failure and up to 50,000 rupees per day for delayed filings.",
+      "dtia_summary": "This section outlines financial penalties for non-compliance with reporting obligations, which could impact data transfer impact assessments when cross-border data flows require timely reporting to regulatory authorities.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Failing to furnish documents, returns or reports to Controller or Certifying Authority incurs penalty of up to 15 lakhs rupees per failure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failing to file returns or furnish information within specified time incurs penalty of up to 50,000 rupees per day",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failing to maintain books of account or records incurs penalty of up to 1 lakh rupees per day",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "44. Penalty for failure to furnish information, return, etc.–If any person who is required under this Act or any rules or regulations made thereunder to– (a) furnish any document, return or report to the Controller or the Certifying Authority fails to furnish the same, he shall be liable to a penalty not exceeding fifteen lakh rupees for each such failure; (b) file any return or furnish any information, books or other documents within the time specified therefor in the regulations fails to file return or furnish the same within the time specified therefor in the regulations, he shall be liable to a penalty not exceeding fifty thousand rupees for every day during which such failure continues; (c) maintain books of account or records, fails to maintain the same, he shall be liable to a penalty not exceeding one lakh rupees for every day during which the failure continues."
+    },
+    {
+      "section": "48",
+      "heading": "Establishment of 1[Appellate Tribunal].–4[(1) The Telecom Disputes Settlement and Appellate",
+      "title": "Establishment of Appellate Tribunal for data disputes",
+      "chapter": "CHAPTER 1",
+      "part": "Part I",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "This section establishes the Telecom Disputes Settlement and Appellate Tribunal as the Appellate Tribunal for the purposes of this Act, effective from the commencement of Part XIV of Chapter VI of the Finance Act, 2017. It grants the tribunal jurisdiction over disputes related to the Act and specifies that the Central Government will notify matters and places where the tribunal may exercise jurisdiction.",
+      "dtia_summary": "This section creates a dispute resolution mechanism that could be relevant for data transfer impact assessments involving cross-border data disputes or regulatory compliance issues.",
+      "authority": "Central Government",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Telecom Disputes Settlement and Appellate Tribunal established under section 14 of the Telecom Regulatory Authority of India Act, 1997 becomes the Appellate Tribunal for this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Central Government specifies matters and places where the Appellate Tribunal may exercise jurisdiction",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "48. Establishment of 1[Appellate Tribunal].–4[(1) The Telecom Disputes Settlement and Appellate Tribunal established under section 14 of the Telecom Regulatory Authority of India Act, 1997 shall, on and from the commencement of Part XIV of Chapter VI of the Finance Act, 2017, be the Appellate Tribunal for the purposes of this Act and the said Appellate Tribunal shall exercise the jurisdiction, powers and authority conferred on it by or under this Act.] (2) The Central Government shall specify, by notification the matters and places in relation to which the 1[Appellate Tribunal] may exercise jurisdiction."
+    },
+    {
+      "section": "49",
+      "heading": "[Composition of Cyber Appellate Tribunal.]—Omitted by the Finance Act, 2017 (7 of 2017),",
+      "title": "Omitted section on Cyber Appellate Tribunal composition",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "This section has been omitted by the Finance Act, 2017 (7 of 2017) effective from May 26, 2017. It was originally intended to define the composition of the Cyber Appellate Tribunal but is no longer in force.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "49. [Composition of Cyber Appellate Tribunal.]—Omitted by the Finance Act, 2017 (7 of 2017), s. 169 (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "50",
+      "heading": "[Qualifications for appointment as Chairperson and Members of Cyber Appellate",
+      "title": "Omitted section on Cyber Appellate Tribunal qualifications",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "This section has been omitted by the Finance Act, 2017 (7 of 2017) effective from May 26, 2017. It was originally intended to specify qualifications for appointing Chairperson and Members of the Cyber Appellate Tribunal but is no longer in force.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "50. [Qualifications for appointment as Chairperson and Members of Cyber Appellate Tribunal.]—Omitted by s. 169, ibid. (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "1",
+      "heading": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017)",
+      "title": "Substitution of Cyber Appellate Tribunal members",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "This section is a substitution notice for the Cyber Appellate Tribunal members, effective from May 26, 2017, updating the definition of adjudicating officers.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 7 of 2017, s. 169, for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate Tribunal\" (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "5",
+      "heading": "Subs. by s, 169, ibid., for \"shall also specify, in the notification referred to in sub-section (1)\" (w.e.f. 26-5-2017).",
+      "title": "Penalty for wrongful disclosure of personal information",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees. This applies to individuals and intermediaries acting under lawful contracts.",
+      "dtia_summary": "Imposes a high financial penalty for wrongful disclosure of personal information, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Subs. by Act 18 of 2023, s. 2 and Schedule, for \"Punishment\" (w.e.f. 30-11-2023). containing personal information about another person, with the intent to cause or knowing that he is likely to cause wrongful loss or wrongful gain discloses, without the consent of the person concerned, or in breach of a lawful contract, such material to any other person, shall be 1[liable to penalty which may extend to twenty-five lakh rupees]."
+    },
+    {
+      "section": "58",
+      "heading": "Procedure and powers of the 2[Appellate Tribunal].–(1) The 2[Appellate Tribunal] shall not be",
+      "title": "Appellate Tribunal procedural powers",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Other",
+      "summary": "This section grants the Appellate Tribunal authority to regulate its own procedures, including the location of its sittings, while being guided by natural justice principles. It also specifies that the tribunal has the same powers as a civil court under the Code of Civil Procedure, 1908 for matters such as summoning witnesses, producing documents, and issuing commissions. The tribunal's proceedings are deemed judicial under specific sections of the Indian Penal Code and the Code of Criminal Procedure.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Appellate Tribunal shall not be bound by the Code of Civil Procedure, 1908 but shall follow natural justice principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Appellate Tribunal shall regulate its own procedure including the location of sittings",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Appellate Tribunal shall have powers equivalent to a civil court under the Code of Civil Procedure, 1908 for summoning witnesses, producing documents, and issuing commissions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Appellate Tribunal shall be deemed a judicial proceeding under sections 193 and 228 of the Indian Penal Code",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Appellate Tribunal shall be deemed a civil court for the purposes of section 195 and Chapter XXVI of the Code of Criminal Procedure, 1973",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Procedure and powers of the 2[Appellate Tribunal].–(1) The 2[Appellate Tribunal] shall not be bound by the procedure laid down by the Code of Civil Procedure, 1908 (5 of 1908) but shall be guided by the principles of natural justice and, subject to the other provisions of this Act and of any rules, the 2[Appellate Tribunal] shall have powers to regulate its own procedure including the place at which it shall have its sittings."
+    },
+    {
+      "section": "2",
+      "heading": "Subs. by 7 of 2017, s, 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "1",
+      "heading": "Subs. by 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\" (w.e.f. 26-5-2017).",
+      "title": "Substitution of Cyber Appellate Tribunal members",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Other",
+      "summary": "This section is a substitution notice for the Cyber Appellate Tribunal members, effective from May 26, 2017, updating the definition of adjudicating officers.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 7 of 2017, s. 169, for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate Tribunal\" (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "5",
+      "heading": "Subs. by s. 2, ibid., for \"digital signature\" (w.e.f. 27-10-2009).",
+      "title": "Penalty for wrongful disclosure of personal information",
+      "chapter": "CHAPTER 1",
+      "part": "Part X",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees. This applies to individuals and intermediaries acting under lawful contracts.",
+      "dtia_summary": "Imposes a high financial penalty for wrongful disclosure of personal information, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Subs. by Act 18 of 2023, s. 2 and Schedule, for \"Punishment\" (w.e.f. 30-11-2023). containing personal information about another person, with the intent to cause or knowing that he is likely to cause wrongful loss or wrongful gain discloses, without the consent of the person concerned, or in breach of a lawful contract, such material to any other person, shall be 1[liable to penalty which may extend to twenty-five lakh rupees]."
+    },
+    {
+      "section": "2",
+      "heading": "Section 66A has been struck down by supreme Court's Order dated 24-3-2015 in the Shreya Singhal Vs. Union of India, AIR",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "67",
+      "heading": "Punishment for publishing or transmitting obscene material in electronic form.–Whoever",
+      "title": "Penalties for publishing obscene or sexually explicit material online",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 26,
+      "primary_category": "Data Sharing",
+      "summary": "This section imposes penalties for publishing or transmitting obscene material in electronic form, including sexually explicit content. It specifies imprisonment terms and fines for first and subsequent convictions, with special provisions for children's material. The law excludes materials justified for public good or heritage/religious purposes. The definition of 'children' includes persons under 18 years.",
+      "dtia_summary": "This section addresses content-related data sharing risks, particularly for child sexual abuse material. It requires careful handling of sensitive data to avoid penalties under this provision.",
+      "authority": "Central Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Children's Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Whoever publishes or transmits obscene material in electronic form shall be punished on first conviction with imprisonment up to 3 years and fine up to 5 lakhs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Whoever publishes or transmits sexually explicit material shall be punished on first conviction with imprisonment up to 5 years and fine up to 10 lakhs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Whoever publishes or transmits material depicting children in sexually explicit acts shall be punished on first conviction with imprisonment up to 5 years and fine up to 10 lakhs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Whoever creates, collects, or distributes material depicting children in obscene or sexually explicit manner shall be punished on first conviction with imprisonment up to 5 years and fine up to 10 lakhs",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Whoever cultivates or induces children for online sexual relationships shall be punished on first conviction with imprisonment up to 5 years and fine up to 10 lakhs",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 67, 67A, 67B of the Information Technology Act, 2000"
+    },
+    {
+      "section": "68",
+      "heading": "Power of Controller to give directions.–(1) The Controller may, by order, direct a Certifying",
+      "title": "Controller's authority to direct intermediaries for compliance",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 26,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section grants the Controller the power to issue orders directing intermediaries to take specific measures or cease activities to ensure compliance with the Act. Non-compliance with these orders results in penalties up to 25 lakhs. The authority applies to entities handling data electronically, including internet service providers and data centers.",
+      "dtia_summary": "This section allows regulators to direct data handling practices across borders, which could impact cross-border data transfers and storage. Entities must comply with such directives to avoid penalties.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller may direct intermediaries to take measures or cease activities for compliance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Intermediaries who intentionally fail to comply with Controller's orders face penalties up to 25 lakhs",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 68(1) and (2) of the Information Technology Act, 2000"
+    },
+    {
+      "section": "3",
+      "heading": "Subs. by s. 34, ibid., for section 69 (w.e.f. 27-10-2009).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "70",
+      "heading": "Protected system.–2[(1) The appropriate Government may, by notification in the Official",
+      "title": "Critical information infrastructure protection",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 27,
+      "primary_category": "Other",
+      "summary": "This section defines critical information infrastructure as computer resources whose incapacitation or destruction would have a debilitating impact on national security, economy, public health, or safety. The appropriate government may declare such systems as protected, and unauthorized access to these systems is punishable by imprisonment up to 10 years.",
+      "dtia_summary": "This section identifies critical infrastructure that requires special protection, which could impact cross-border data transfers involving sensitive systems. Entities must ensure compliance with protection measures.",
+      "authority": "Appropriate Government",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Appropriate government may declare computer resources affecting critical infrastructure as protected systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Unauthorized access to protected systems is punishable by imprisonment up to 10 years",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 70(1) and (3) of the Information Technology Act, 2000"
+    },
+    {
+      "section": "4",
+      "heading": "Ins. by s. 36, ibid. (w.e.f. 27-10-2009).",
+      "title": "Omitted section from IT Act schedule",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 27,
+      "page_end": 28,
+      "primary_category": "Other",
+      "summary": "This section states that serial number 5 and related entries in the Second Schedule have been omitted by a specific order dated 26-9-2022. The omission pertains to the electronic signature and authentication procedures outlined in the Second Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022."
+    },
+    {
+      "section": "72",
+      "heading": "Penalty for Breach of confidentiality and privacy.–Save as otherwise provided in this Act or",
+      "title": "Penalty for unauthorized disclosure of electronic records",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 28,
+      "primary_category": "Other",
+      "summary": "Any person who accesses electronic records without consent and discloses them to others faces a penalty of up to five lakh rupees. This applies to individuals acting under the powers of the Act or regulations. The penalty is subject to other laws in force at the time.",
+      "dtia_summary": "Imposes a financial penalty for unauthorized disclosure of electronic records, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Any person who accesses electronic records without consent and discloses them to others faces a penalty of up to five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "72. Penalty for Breach of confidentiality and privacy.–Save as otherwise provided in this Act or any other law for the time being in force, if any person who, in pursuance of any of the powers conferred under this Act, rules or regulations made thereunder, has secured access to any electronic record, book, register, correspondence, information, document or other material without the consent of the person concerned discloses such electronic record, book, register, correspondence, information, document or other material to any other person shall be 3[liable to penalty which may extend to five lakh rupees]."
+    },
+    {
+      "section": "5",
+      "heading": "Subs. by Act 18 of 2023, s. 2 and Schedule, for \"Punishment\" (w.e.f. 30-11-2023).",
+      "title": "Penalty for wrongful disclosure of personal information",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees. This applies to individuals and intermediaries acting under lawful contracts.",
+      "dtia_summary": "Imposes a high financial penalty for wrongful disclosure of personal information, relevant to data transfer safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Disclosing personal information without consent or in breach of a lawful contract with intent to cause wrongful loss or gain incurs a penalty of up to twenty-five lakh rupees",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. Subs. by Act 18 of 2023, s. 2 and Schedule, for \"Punishment\" (w.e.f. 30-11-2023). containing personal information about another person, with the intent to cause or knowing that he is likely to cause wrongful loss or wrongful gain discloses, without the consent of the person concerned, or in breach of a lawful contract, such material to any other person, shall be 1[liable to penalty which may extend to twenty-five lakh rupees]."
+    },
+    {
+      "section": "79",
+      "heading": "Exemption from liability of intermediary in certain cases.–(1) Notwithstanding anything",
+      "title": "Exemption from liability for intermediaries",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 30,
+      "page_end": 30,
+      "primary_category": "Exemptions",
+      "summary": "Intermediaries are exempt from liability for third-party information if they only provide access to communication systems, do not initiate transmissions or select receivers, and observe due diligence. This exemption does not apply if the intermediary conspires in unlawful acts or fails to remove compromised data.",
+      "dtia_summary": "Provides conditions under which intermediaries are exempt from liability for data transfers, relevant to third-party processing.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Intermediaries are exempt from liability for third-party information if they only provide access to communication systems, do not initiate transmissions or select receivers, and observe due diligence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Exemption does not apply if the intermediary conspires in unlawful acts or fails to remove compromised data",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "79. Exemption from liability of intermediary in certain cases.–(1) Notwithstanding anything contained in any law for the time being in force but subject to the provisions of sub-sections (2) and (3), an intermediary shall not be liable for any third party information, data, or communication link made available or hosted by him."
+    },
+    {
+      "section": "81",
+      "heading": "Act to have overriding effect.–The provisions of this Act shall have effect notwithstanding",
+      "title": "Overriding effect of the Act",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 31,
+      "primary_category": "Other",
+      "summary": "The Information Technology Act overrides inconsistent provisions in other laws. It also applies to electronic cheques and truncated cheques with modifications necessary for the Negotiable Instruments Act.",
+      "dtia_summary": "Ensures the Act's provisions override other laws, relevant for data transfer compliance.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "81. Act to have overriding effect.–The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force."
+    },
+    {
+      "section": "4",
+      "heading": "Subs. by 7 of 2017, s. 169, for section 82 (w.e.f. 26-5-2017).",
+      "title": "Omitted section from IT Act schedule",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "This section states that serial number 5 and related entries in the Second Schedule have been omitted by a specific order dated 26-9-2022. The omission pertains to the electronic signature and authentication procedures outlined in the Second Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022."
+    },
+    {
+      "section": "1",
+      "heading": "Subs. by Act 7 of 2017, s. 169, for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate",
+      "title": "Substitution of Cyber Appellate Tribunal members",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "This section is a substitution notice for the Cyber Appellate Tribunal members, effective from May 26, 2017, updating the definition of adjudicating officers.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "1. Subs. by Act 7 of 2017, s. 169, for \"the Chairperson Members, adjudicating officers and the staff of the Cyber Appellate Tribunal\" (w.e.f. 26-5-2017)."
+    },
+    {
+      "section": "2",
+      "heading": "Ins. by 10 of 2009, s. 45 (w.e.f. 27-10-2009).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "6",
+      "heading": "Clause (g) omitted by s. 46, ibid. (w.e.f. 27-10-2009).",
+      "title": "e-authentication techniques for digital signatures",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "This section details the e-authentication techniques and procedures for creating and accessing subscriber's signature keys. It specifies that authentication must use e-authentication, hash, and asymmetric crypto system techniques, involve trusted third parties, and comply with digital signature guidelines issued by the Controller.",
+      "dtia_summary": "This section establishes technical requirements for digital signatures, including trusted third parties and cryptographic standards, which impact cross-border data transfers involving digital signatures.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "e-authentication technique using Aadhaar or other e-KYC services for authentication of electronic records by e-authentication technique",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Signature Certificate issuance by Certifying Authority based on e-authentication, particulars specified in Form C of Schedule IV of the Information Technology (Certifying Authorities) Rules, 2000, digitally signed verified information from Aadhaar or other e-KYC services and electronic consent of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for e-authentication shall be as issued by the Controller from time to time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The standards referred to in Rule 6 of the Information Technology (Certifying Authorities) Rules, 2000 shall be complied with, in so far as they relate to the certification function of public key of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner in which information is authenticated by means of digital signature shall comply with the manner and standards specified in Rules 3 to 12 of the Digital Signature (End entity) Rules, 2015 in so far as they relate to the creation, storage, and verification of Digital Signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "e-authentication technique and procedure for creating and accessing subscriber's signature key facilitated by trusted third party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identity verification of Digital Signature Certificate applicant shall be in accordance with the Identity Verification Guidelines issued by Controller from time-to-time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The requirement to operate as trusted third party shall be specified under e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate Identity verification of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall establish secure storage for subscriber to have sole control for creation and subsequent usage of subscriber's signature key by sole authentication of subscriber",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate key pair-generation, secure storage of subscriber's signature key and facilitate signature creation functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate the submission of DSC application form and certificate signing request to the Certifying Authority for issuing a Digital Signature Certificate to the DSC applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate revocation of Digital Signature Certificate and destruction of subscriber's signature key",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for authentication and storage of keys shall be as issued by the Controller from time to time under e-authentication guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Ins. by S.O. 1119(E), dated 1-3-2019. ... e-authentication technique using Aadhaar or other e-KYC services ... The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller."
+    },
+    {
+      "section": "88",
+      "heading": "Constitution of Advisory Committee.–(1) The Central Government shall, as soon as may be",
+      "title": "Cyber Regulations Advisory Committee establishment",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 34,
+      "primary_category": "Governance",
+      "summary": "This section mandates the Central Government to establish a Cyber Regulations Advisory Committee that includes both official and non-official members representing stakeholders. The Committee advises the Central Government on rules and regulations related to the Act and the Controller in framing regulations. These provisions apply to the Central Government and the Controller, with the Committee serving as a consultative body for regulatory development.",
+      "dtia_summary": "This section establishes a governance structure for regulatory development that could influence data transfer frameworks and compliance mechanisms.",
+      "authority": "Central Government",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Central Government shall constitute Cyber Regulations Advisory Committee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Committee shall consist of Chairperson and other official and non-official members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Committee shall advise Central Government on rules and regulations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Committee shall advise Controller in framing regulations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Central Government shall, as soon as may be after the commencement of this Act, constitute a Committee called the Cyber Regulations Advisory Committee"
+    },
+    {
+      "section": "3",
+      "heading": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017).",
+      "title": "Cyber Appellate Tribunal designation",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 34,
+      "primary_category": "Other",
+      "summary": "This section is a substitutional provision that updates the name of the Cyber Appellate Tribunal from the previous designation to the current one, effective from May 26, 2017. It does not contain substantive obligations or requirements but serves as a technical amendment to the tribunal's name.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Subs. by Act 7 of 2017, s. 169, for \"Cyber Appellate Tribunal\"(w.e.f. 26-5-2017)"
+    },
+    {
+      "section": "89",
+      "heading": "Power of Controller to make regulations.–(1) The Controller may, after consultation with the",
+      "title": "Controller's regulatory powers for certification authorities",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 35,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section grants the Controller authority to make regulations with Central Government approval for implementing the Act, particularly concerning certification authorities. The regulations may specify data base maintenance requirements, foreign certification authority recognition conditions, licensing terms, and procedures for disclosing information. These provisions apply to certification authorities and the Controller, with the regulations impacting cross-border data transfers involving electronic signatures.",
+      "dtia_summary": "This section establishes regulatory frameworks for certification authorities that could impact cross-border data transfers involving electronic signatures and authentication mechanisms.",
+      "authority": "Controller",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Controller may make regulations consistent with this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may provide for data base maintenance of disclosure records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify conditions for recognising foreign certification authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may define terms and conditions for licensing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify other standards for certification authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may define manner for disclosing specified matters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify statement details for applications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may specify manner for communicating private key compromise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Controller may, after consultation with the Cyber Regulations Advisory Committee and with the previous approval of the Central Government, by notification in the Official Gazette, make regulations consistent with this Act"
+    },
+    {
+      "section": "90",
+      "heading": "Power of State Government to make rules.–(1) The State Government may, by notification in",
+      "title": "State-level regulatory rules for electronic transactions",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 35,
+      "primary_category": "Data Storage",
+      "summary": "This section empowers State Governments to create rules for implementing the Act, particularly concerning electronic transaction procedures. The rules may specify electronic forms for filing, issue, grant, receipt or payment. These provisions apply to State Governments and entities operating under the Act, with the rules impacting electronic transaction processes and data storage.",
+      "dtia_summary": "This section allows state-level rules that could impact data storage and processing for electronic transactions across borders.",
+      "authority": "State Government",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "State Government may make rules to carry out provisions of this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may specify electronic form for filing, issue, grant, receipt or payment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rules may specify procedures for matters specified in sub-section (2) of section 6",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The State Government may, by notification in the Official Gazette, make rules to carry out the provisions of this Act"
+    },
+    {
+      "section": "2",
+      "heading": "Clause (c) omitted by Act 10 of 2009, s. 47 (w.e.f. 27-10-2009).",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "2",
+      "heading": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882)",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    },
+    {
+      "section": "4",
+      "heading": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022.",
+      "title": "Omitted section from IT Act schedule",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 37,
+      "primary_category": "Other",
+      "summary": "This section states that serial number 5 and related entries in the Second Schedule have been omitted by a specific order dated 26-9-2022. The omission pertains to the electronic signature and authentication procedures outlined in the Second Schedule.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. Serial number 5 and the entries relating thereto Omitted by S.O. 4720(E), Dated 26-9-2022."
+    },
+    {
+      "section": "6",
+      "heading": "Ins. by S.O. 1119(E), dated 1-3-2019.",
+      "title": "e-authentication techniques for digital signatures",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "This section details the e-authentication techniques and procedures for creating and accessing subscriber's signature keys. It specifies that authentication must use e-authentication, hash, and asymmetric crypto system techniques, involve trusted third parties, and comply with digital signature guidelines issued by the Controller.",
+      "dtia_summary": "This section establishes technical requirements for digital signatures, including trusted third parties and cryptographic standards, which impact cross-border data transfers involving digital signatures.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "e-authentication technique using Aadhaar or other e-KYC services for authentication of electronic records by e-authentication technique",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Digital Signature Certificate issuance by Certifying Authority based on e-authentication, particulars specified in Form C of Schedule IV of the Information Technology (Certifying Authorities) Rules, 2000, digitally signed verified information from Aadhaar or other e-KYC services and electronic consent of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for e-authentication shall be as issued by the Controller from time to time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The standards referred to in Rule 6 of the Information Technology (Certifying Authorities) Rules, 2000 shall be complied with, in so far as they relate to the certification function of public key of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner in which information is authenticated by means of digital signature shall comply with the manner and standards specified in Rules 3 to 12 of the Digital Signature (End entity) Rules, 2015 in so far as they relate to the creation, storage, and verification of Digital Signature",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "e-authentication technique and procedure for creating and accessing subscriber's signature key facilitated by trusted third party",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identity verification of Digital Signature Certificate applicant shall be in accordance with the Identity Verification Guidelines issued by Controller from time-to-time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The requirement to operate as trusted third party shall be specified under e-authentication guidelines issued by the Controller",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate Identity verification of Digital Signature Certificate applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall establish secure storage for subscriber to have sole control for creation and subsequent usage of subscriber's signature key by sole authentication of subscriber",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate key pair-generation, secure storage of subscriber's signature key and facilitate signature creation functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate the submission of DSC application form and certificate signing request to the Certifying Authority for issuing a Digital Signature Certificate to the DSC applicant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A trusted third party shall facilitate revocation of Digital Signature Certificate and destruction of subscriber's signature key",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The manner and requirements for authentication and storage of keys shall be as issued by the Controller from time to time under e-authentication guidelines",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "6. Ins. by S.O. 1119(E), dated 1-3-2019. ... e-authentication technique using Aadhaar or other e-KYC services ... The security procedure for creating the subscriber's key pair shall be in accordance with the e-authentication guidelines issued by the Controller."
+    },
+    {
+      "section": "2",
+      "heading": "Ins. by S.O. 3472(E), dated 29-9-2020.",
+      "title": "Excluded power-of-attorney from IT Act scope",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 41,
+      "primary_category": "Other",
+      "summary": "This section specifies that power-of-attorney instruments, excluding those empowering entities regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India, and Pension Fund Regulatory and Development Authority, are not covered by the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "2. A power-of-attorney as defined in section 1A of the Powers-of-Attorney Act, 1882 (7 of 1882) but excluding those power-of-attorney that empower an entity regulated by the Reserve Bank of India, National Housing Bank, Securities and Exchange Board of India, Insurance Regulatory and Development Authority of India and Pension Fund Regulatory and Development Authority to act for, on behalf of, and in the name of the person executing them."
+    }
+  ]
+}

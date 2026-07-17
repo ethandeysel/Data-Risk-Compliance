@@ -1,0 +1,1397 @@
+{
+  "country": "Mauritius",
+  "document": "eta (Mauritius - Row 11)",
+  "generated": "2026-07-17T19:17:23",
+  "sections": [
+    {
+      "section": "4",
+      "heading": "Application of the Act",
+      "title": "Electronic records and signatures: transaction applicability",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Data Storage",
+      "summary": "This section specifies that electronic records and signatures related to transactions or automated transactions are covered by the Act, excluding specific legal documents like wills and other prescribed instruments. It also allows parties to agree on variations to Part II or IV provisions for electronic record handling.",
+      "dtia_summary": "Defines when electronic records are covered by the Act, relevant for determining if data transfers fall under the scope of the legislation for data storage purposes.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records and signatures relating to transactions or automated transactions are covered by the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parts II and IV do not apply to enactments requiring writing or signatures in writing for wills",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Parts II and IV do not apply to enactments requiring writing or signatures in writing for other prescribed documents",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Parties may vary provisions of Part II or IV through agreement",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction."
+    },
+    {
+      "section": "5",
+      "heading": "Legal recognition of electronic records",
+      "title": "Legal recognition of electronic records",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Data Storage",
+      "summary": "This section ensures that electronic records are not denied legal effect, validity, or enforceability based solely on their electronic form, providing legal recognition for such records.",
+      "dtia_summary": "Confirms electronic records have legal standing, critical for data transfers involving electronic records across jurisdictions.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form."
+    },
+    {
+      "section": "7",
+      "heading": "Electronic records",
+      "title": "Electronic records: retention and format requirements",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that electronic records must be retained in a usable format, original or compatible format, with identifiable origin and destination, and with consent from relevant public sector agencies. It also allows using third-party services to satisfy retention requirements.",
+      "dtia_summary": "Sets specific retention and format standards for electronic records, impacting how data is stored and transferred across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Retention"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records must remain accessible for subsequent reference",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must be in original format or a format that accurately represents the information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must preserve information identifying origin, destination, and date/time of transmission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must obtain consent from the public sector agency supervising the requirement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records do not need to retain information automatically generated for transmission purposes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person may satisfy retention requirements by using third-party services",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section."
+    },
+    {
+      "section": "14",
+      "heading": "Time and place of sending and receipt",
+      "title": "Time and place of sending and receipt of electronic records",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Data Storage",
+      "summary": "This section defines when and where electronic records are sent and received, including specific conditions for time of receipt based on designated systems, and the place of business for determining location of records.",
+      "dtia_summary": "Specifies timing and location rules for electronic record transfers, important for data storage and cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records are sent when they enter an information processing system outside the originator's control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Time of receipt occurs when the electronic record enters the designated information processing system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Time of receipt occurs when the electronic record is retrieved by the addressee if not in designated system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records are deemed sent from the originator's place of business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records are deemed received at the addressee's place of business",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator."
+    },
+    {
+      "section": "15",
+      "heading": "Secure electronic records",
+      "title": "Verification of unaltered electronic records through security procedures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Security",
+      "summary": "This section establishes that an electronic record is a secure electronic record if a prescribed or commercially reasonable security procedure verifies it has not been altered since a specified point. The procedure must be applied to the record to confirm its integrity from that point until verification. The security procedure's commercial reasonableness is assessed based on transaction nature, party sophistication, transaction volume, available alternatives, alternative costs, and industry practices.",
+      "dtia_summary": "DTIAs must verify that electronic records are unaltered using a commercially reasonable security procedure before cross-border transfers, ensuring data integrity during international data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic record is treated as secure if a prescribed or commercially reasonable security procedure verifies it has not been altered since a specified point.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure must be applied to the record to confirm its integrity from the specified point until verification.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commercial reasonableness of a security procedure is determined by transaction nature, party sophistication, transaction volume, available alternatives, alternative costs, and industry practices.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification."
+    },
+    {
+      "section": "16",
+      "heading": "Secure electronic signatures",
+      "title": "Verification of authentic electronic signatures through security procedures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Security",
+      "summary": "This section defines a secure electronic signature as one that is unique to the signer, capable of identifying the signer, created under the signer's sole control, and linked to the electronic record such that any alteration invalidates the signature. The signature must meet all four criteria to be considered secure.",
+      "dtia_summary": "DTIAs must ensure electronic signatures meet specific criteria for authenticity and integrity before cross-border transfers, preventing unauthorized alterations to data.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic signature is secure if it is unique to the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be capable of identifying the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be created under the sole control of the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be linked to the electronic record such that any alteration invalidates it.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature."
+    },
+    {
+      "section": "18",
+      "heading": "Secure electronic records with digital signatures",
+      "title": "Secure electronic records with digital signatures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 1,
+      "page_end": 1,
+      "primary_category": "Security",
+      "summary": "This section states that a portion of an electronic record signed with a digital signature is treated as a secure electronic record if the digital signature is a secure electronic signature under section 19. This ensures that digitally signed records maintain integrity and authenticity.",
+      "dtia_summary": "DTIAs must ensure that digitally signed records are treated as secure electronic records to maintain data integrity during cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A portion of an electronic record signed with a digital signature is treated as a secure electronic record if the digital signature is a secure electronic signature under section 19.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record."
+    },
+    {
+      "section": "39",
+      "heading": "Liability limits for licensed certification authorities",
+      "title": "Liability limits for licensed certification authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Other",
+      "summary": "Licensed certification authorities are not liable for losses caused by reliance on false or forged digital signatures if they acted in compliance with this Act. They also have liability limits based on the certificate's recommended reliance limit for misrepresentations or non-compliance with certificate issuance requirements.",
+      "dtia_summary": "Certification authorities have liability limits for false signatures, which affects data transfer risk and trust in cross-border digital signatures.",
+      "authority": "Licensed Certification Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Not liable for loss caused by reliance on false or forged digital signature where acted in compliance with Act",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Not liable for loss exceeding certificate's recommended reliance limit for misrepresentation in certificate",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Not liable for loss exceeding certificate's recommended reliance limit for failure to comply with sections 26 and 27",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate."
+    },
+    {
+      "section": "41",
+      "heading": "Confidentiality",
+      "title": "Confidentiality of electronic records",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 2,
+      "page_end": 2,
+      "primary_category": "Security",
+      "summary": "Individuals who access electronic records under this Act must not disclose them to others except for judicial proceedings or court-ordered disclosures. The court must be satisfied that the applicant is acting in their duties, the information is material to judicial proceedings, and disclosure is otherwise necessary in all circumstances.",
+      "dtia_summary": "Requires strict confidentiality for electronic records, limiting disclosure to judicial proceedings or court orders, which impacts data transfer and storage security in cross-border contexts.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "No person who has access to an electronic record may disclose it to others except for judicial proceedings or court-ordered disclosures",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The court must be satisfied that the applicant is acting in the discharge of their duties",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The court must be satisfied that the information is material to judicial proceedings",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The court must be satisfied that disclosure is otherwise necessary in all circumstances",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers."
+    },
+    {
+      "section": "53",
+      "heading": "Commencement",
+      "title": "Commencement",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Other",
+      "summary": "This section specifies the commencement date of the Act, indicating when the legal framework for electronic records and signatures becomes effective. It does not impose any operational requirements but sets the timeline for the implementation of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Commencement\nAn Act\nTo provide for an appropriate legal framework to facilitate electronic transactions and communications by regulating electronic records and electronic signatures and the security thereof"
+    },
+    {
+      "section": "2",
+      "heading": "Interpretation",
+      "title": "Definitions of key terms for electronic records and signatures",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 3,
+      "page_end": 6,
+      "primary_category": "Definitions",
+      "summary": "This section provides detailed definitions for terms used throughout the Act, including electronic records, digital signatures, certification authorities, and security procedures. These definitions are essential for understanding the legal framework governing electronic transactions and communications.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Interpretation\nIn this Act -"
+    },
+    {
+      "section": "3",
+      "heading": "Objects of the Act",
+      "title": "Objects of the Act",
+      "chapter": null,
+      "part": "part w",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Other",
+      "summary": "This section outlines the objectives of the Act, including establishing legal infrastructure for secure electronic commerce, regulating electronic transactions, and promoting public sector services through electronic records. It does not impose specific obligations but sets the purpose of the legislation.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Objects of the Act\nThe objects of this Act are to -"
+    },
+    {
+      "section": "4",
+      "heading": "Application of the Act",
+      "title": "Electronic records and signatures: transaction applicability",
+      "chapter": null,
+      "part": "part w",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Data Storage",
+      "summary": "This section specifies that electronic records and signatures related to transactions or automated transactions are covered by the Act, excluding specific legal documents like wills and other prescribed instruments. It also allows parties to agree on variations to Part II or IV provisions for electronic record handling.",
+      "dtia_summary": "Defines when electronic records are covered by the Act, relevant for determining if data transfers fall under the scope of the legislation for data storage purposes.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records and signatures relating to transactions or automated transactions are covered by the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parts II and IV do not apply to enactments requiring writing or signatures in writing for wills",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Parts II and IV do not apply to enactments requiring writing or signatures in writing for other prescribed documents",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Parties may vary provisions of Part II or IV through agreement",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction."
+    },
+    {
+      "section": "5",
+      "heading": "Legal recognition of electronic records",
+      "title": "Legal recognition of electronic records",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 7,
+      "primary_category": "Data Storage",
+      "summary": "This section ensures that electronic records are not denied legal effect, validity, or enforceability based solely on their electronic form, providing legal recognition for such records.",
+      "dtia_summary": "Confirms electronic records have legal standing, critical for data transfers involving electronic records across jurisdictions.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form."
+    },
+    {
+      "section": "7",
+      "heading": "Electronic records",
+      "title": "Electronic records: retention and format requirements",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that electronic records must be retained in a usable format, original or compatible format, with identifiable origin and destination, and with consent from relevant public sector agencies. It also allows using third-party services to satisfy retention requirements.",
+      "dtia_summary": "Sets specific retention and format standards for electronic records, impacting how data is stored and transferred across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Retention"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records must remain accessible for subsequent reference",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must be in original format or a format that accurately represents the information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must preserve information identifying origin, destination, and date/time of transmission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records must obtain consent from the public sector agency supervising the requirement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records do not need to retain information automatically generated for transmission purposes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person may satisfy retention requirements by using third-party services",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section."
+    },
+    {
+      "section": "9",
+      "heading": "Liability of network service providers",
+      "title": "Network service provider liability limitations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Data Storage",
+      "summary": "This section limits network service providers' civil and criminal liability for third-party electronic records to specific scenarios, such as making statements in the material or infringing rights, excluding contractual obligations and regulatory requirements.",
+      "dtia_summary": "Defines when network service providers are liable for data transfers, relevant for assessing third-party data handling risks in cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Network service providers are not liable for third-party material in electronic form unless liability is limited to making statements or infringing rights",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Network service providers' liability does not affect contractual obligations",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Network service providers' liability does not affect regulatory obligations under licensing regimes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Network service providers' liability does not affect court-ordered obligations to remove, block, or deny access to material",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "9. (1) Subject to subsection (2), a network service provider shall not be subject to any civil or criminal liability in respect of third-party material in the form of an electronic record to which he merely provides access where such liability is limited to - (a) the making, publication, dissemination or distribution of such materials or any statement made in such material; or (b) the infringement of any right subsisting in or in relation to such material."
+    },
+    {
+      "section": "12",
+      "heading": "Attribution of electronic record and signature",
+      "title": "Attribution of electronic records and signatures",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Data Storage",
+      "summary": "This section outlines conditions under which electronic records can be attributed to a person, including proper application of security procedures, authorization by originators, and specific scenarios where addressees can act on assumptions about the record's origin without verification.",
+      "dtia_summary": "Details how electronic records are attributed to originators, critical for ensuring data transfers are correctly identified and handled across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "An electronic record or signature is attributable to a person where it was the act of that person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The act of a person may be shown through proper application of security procedures",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An electronic record is deemed to be that of the originator if sent by an authorized person or an information processing system programmed by the originator",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Addressees may regard electronic records as originating from the originator if they properly applied agreed procedures",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Addressees may act on the assumption that electronic records are from the originator if the data message resulted from a person with access to the originator's identification method",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Addressees cannot act on the assumption if they knew or should have known the record was not from the originator",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "12. (1) An electronic record or electronic signature shall be attributable to a person where it was the act of that person."
+    },
+    {
+      "section": "14",
+      "heading": "Time and place of sending and receipt",
+      "title": "Time and place of sending and receipt of electronic records",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Data Storage",
+      "summary": "This section defines when and where electronic records are sent and received, including specific conditions for time of receipt based on designated systems, and the place of business for determining location of records.",
+      "dtia_summary": "Specifies timing and location rules for electronic record transfers, important for data storage and cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Electronic records are sent when they enter an information processing system outside the originator's control",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Time of receipt occurs when the electronic record enters the designated information processing system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Time of receipt occurs when the electronic record is retrieved by the addressee if not in designated system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records are deemed sent from the originator's place of business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic records are deemed received at the addressee's place of business",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator."
+    },
+    {
+      "section": "15",
+      "heading": "Secure electronic records",
+      "title": "Verification of unaltered electronic records through security procedures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Security",
+      "summary": "This section establishes that an electronic record is a secure electronic record if a prescribed or commercially reasonable security procedure verifies it has not been altered since a specified point. The procedure must be applied to the record to confirm its integrity from that point until verification. The security procedure's commercial reasonableness is assessed based on transaction nature, party sophistication, transaction volume, available alternatives, alternative costs, and industry practices.",
+      "dtia_summary": "DTIAs must verify that electronic records are unaltered using a commercially reasonable security procedure before cross-border transfers, ensuring data integrity during international data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic record is treated as secure if a prescribed or commercially reasonable security procedure verifies it has not been altered since a specified point.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The security procedure must be applied to the record to confirm its integrity from the specified point until verification.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commercial reasonableness of a security procedure is determined by transaction nature, party sophistication, transaction volume, available alternatives, alternative costs, and industry practices.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification."
+    },
+    {
+      "section": "16",
+      "heading": "Secure electronic signatures",
+      "title": "Verification of authentic electronic signatures through security procedures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Security",
+      "summary": "This section defines a secure electronic signature as one that is unique to the signer, capable of identifying the signer, created under the signer's sole control, and linked to the electronic record such that any alteration invalidates the signature. The signature must meet all four criteria to be considered secure.",
+      "dtia_summary": "DTIAs must ensure electronic signatures meet specific criteria for authenticity and integrity before cross-border transfers, preventing unauthorized alterations to data.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An electronic signature is secure if it is unique to the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be capable of identifying the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be created under the sole control of the person using it.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The signature must be linked to the electronic record such that any alteration invalidates it.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature."
+    },
+    {
+      "section": "17",
+      "heading": "Presumptions relating to secure electronic records and signatures",
+      "title": "Presumptions for secure electronic records and signatures in legal proceedings",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 14,
+      "primary_category": "Security",
+      "summary": "This section presumes that a secure electronic record has not been altered since the specified point unless evidence proves otherwise. It also presumes that a secure electronic signature belongs to the intended person and was affixed with intent to sign or approve the record. These presumptions apply only when secure electronic records or signatures exist and do not extend to unsecured records.",
+      "dtia_summary": "DTIAs must consider presumptions of data integrity for secure electronic records and signatures in cross-border contexts, ensuring legal validity of data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In proceedings involving a secure electronic record, it is presumed the record has not been altered since the specified point unless evidence proves otherwise.",
+          "obligation_type": "Presumption"
+        },
+        {
+          "text": "In proceedings involving a secure electronic signature, it is presumed the signature belongs to the intended person and was affixed with intent to sign or approve the record unless evidence proves otherwise.",
+          "obligation_type": "Presumption"
+        },
+        {
+          "text": "Presumptions do not apply if there is no secure electronic record or signature.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "In any proceedings involving a secure electronic record, it shall be presumed, unless evidence to the contrary is adduced, that the secure electronic record has not been altered since the specific point in time to which the secure status relates."
+    },
+    {
+      "section": "18",
+      "heading": "Secure electronic records with digital signatures",
+      "title": "Secure electronic records with digital signatures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Security",
+      "summary": "This section states that a portion of an electronic record signed with a digital signature is treated as a secure electronic record if the digital signature is a secure electronic signature under section 19. This ensures that digitally signed records maintain integrity and authenticity.",
+      "dtia_summary": "DTIAs must ensure that digitally signed records are treated as secure electronic records to maintain data integrity during cross-border transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A portion of an electronic record signed with a digital signature is treated as a secure electronic record if the digital signature is a secure electronic signature under section 19.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record."
+    },
+    {
+      "section": "19",
+      "heading": "Secure digital signatures",
+      "title": "Conditions for secure digital signatures",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 14,
+      "primary_category": "Security",
+      "summary": "This section defines when a digital signature is a secure electronic signature: it must be created during a valid certificate's operational period, verified using the certificate's public key, and the certificate must be trustworthy through licensed certification authorities, recognized foreign authorities, public sector agencies, or mutual agreement between parties.",
+      "dtia_summary": "DTIAs must verify that digital signatures meet specific technical and trust conditions before cross-border transfers to ensure data authenticity and integrity.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A digital signature is secure if it was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The certificate must be trustworthy through licensed certification authorities, recognized foreign authorities, public sector agencies, or mutual agreement between parties.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where any portion of an electronic record is signed with a digital signature, the digital signature shall be treated as a secure electronic signature with respect to such portion of the record, where - (a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate; and (b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity on grounds that - (i) the certificate was issued by a licensed certification authority; (ii) the certificate was issued by a certification authority outside Mauritius recognised forth is purpose by the Controller; (iii) the certificate was issued by a public sector agency approved by the Minister to act as a certification authority on such conditions as he may impose; or (iv) the originator and the addressee have expressly agreed to use a digital signature as a security procedure, and the digital signature was properly verified by reference to the public key of the originator."
+    },
+    {
+      "section": "21",
+      "heading": "Unreliable digital signatutes",
+      "title": "Risks of unreliable digital signatures in cross-border contexts",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 15,
+      "primary_category": "Security",
+      "summary": "This section states that a person relying on a digitally signed electronic record assumes risk if the digital signature is invalid, unless reliance is reasonable considering known facts, record importance, relationship between parties, and industry practices. This ensures that digital signatures are only used when their reliability is justified.",
+      "dtia_summary": "DTIAs must assess the reasonableness of digital signature reliance in cross-border transfers to avoid invalid signatures and ensure data integrity.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person relying on a digitally signed electronic record assumes risk if the digital signature is invalid and reliance is not reasonable under the circumstances.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reasonableness of reliance is assessed based on known facts, record importance, relationship between parties, and industry practices.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Unless otherwise provided for in any enactment or agreement, a person relying on a digitally signed electronic record shall assume the risk that the digital signature is invalid as a signature or authentication of the signed electronic record, where reliance on the digital signature is not reasonable under the circumstances having regard to (a) any fact which the person relying on the digitally signed electronic record knows or has notice of, including a fact set out in the certificate or, incorporated in it by reference; (b) the value or importance of the digitally signed electronic record, if known; (c) the course of dealing between the person relying on the digitally signed electronic record and the subscriber and any available indication of reliability or unreliability other than the digital signature; and (d) any usage of trade, particularly trade conducted by trustworthy systems or other electronic means."
+    },
+    {
+      "section": "25",
+      "heading": "Disclosure",
+      "title": "Disclosure of certification authority information",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "Certification authorities must disclose their certification authority certificates, certification practice statements, revocation notices, and any facts that materially affect certificate reliability or their obligations. They must also notify affected parties when their trustworthy system or certificate is compromised. These obligations apply to certification authorities operating under this Act.",
+      "dtia_summary": "Certification authorities must disclose certificate reliability issues and notify affected parties when systems are compromised, which impacts data transfer security and trust in cross-border digital signatures.",
+      "authority": "Certification Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Disclose certification authority certificate containing public key corresponding to private key used for digital signing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose any certification practice statement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose notice of revocation or suspension of certification authority certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclose any fact materially and adversely affecting certificate reliability or ability to carry out obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notify affected persons when trustworthy system or certificate is materially compromised",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "25. A certification authority shall disclose- (a) its certificate that contains the public key corresponding to the private key used by that certification authority to digitally sign another certificate, hereafter referred to as a certification authority certificate; (b) any certification practice statement; (c) notice of the revocation or suspension of its certification authority certificate; and (d) any other fact that materially and adversely affects either the reliability of a certificate that the authority has issued, or the authority's ability to carry out its obligations."
+    },
+    {
+      "section": "30",
+      "heading": "Revocation without subscriber's consent",
+      "title": "Revocation without subscriber consent",
+      "chapter": null,
+      "part": "PART V",
+      "condition": null,
+      "page_start": 18,
+      "page_end": 18,
+      "primary_category": "Other",
+      "summary": "Certification authorities may revoke certificates without subscriber consent if material facts in the certificate are false, requirements for issuance were not met, private keys or systems are compromised, subscribers are deceased, or subscribers cease to exist. They must immediately notify subscribers for revocations related to false facts, unsatisfied requirements, or compromised systems.",
+      "dtia_summary": "Certification authorities can revoke certificates without consent under specific conditions, which affects data transfer security and trust in digital signatures across borders.",
+      "authority": "Certification Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Revoke certificate where material fact represented in certificate is false",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Revoke certificate where requirement for issue was not satisfied",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Revoke certificate where private key or trustworthy system is compromised materially affecting certificate reliability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Revoke certificate where subscriber is dead",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Revoke certificate where subscriber is dissolved, wound-up or ceases to exist",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Immediately notify subscriber for revocations under (a), (b) or (c) of subsection (1)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "30. A certification authority shall, without the consent of the subscriber, revoke a certificate where - (a) a material fact represented in the certificate is false; (b) a requirement for the issue of the certificate was not satisfied; (c) the certification authority's private key or trustworthy system is compromised in a manner materially affecting the certificate's reliability; (d) an individual subscriber is dead; or (e) a subscriber is dissolved, wound-up or otherwise ceases to exist."
+    },
+    {
+      "section": "35",
+      "heading": "Control of private key",
+      "title": "Control of private key",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Subscribers must exercise reasonable care to retain control of their private key corresponding to the public key in a certificate and prevent its disclosure to create digital signatures. These obligations continue during the certificate's operational period and any suspension period.",
+      "dtia_summary": "Subscribers must securely manage private keys to prevent compromise, which is critical for data transfer security and trust in digital signatures across borders.",
+      "authority": "Subscriber",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Exercise reasonable care to retain control of private key corresponding to public key in certificate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Prevent disclosure of private key to create digital signatures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "35. A subscriber identified in a certificate shall, on accepting a certificate - (a) exercise reasonable care to retain control of the private key corresponding to the public key referred to in the certificate; and (c) prevent its disclosure to create his digital signature."
+    },
+    {
+      "section": "36",
+      "heading": "Initiating suspension or revocation",
+      "title": "Initiating suspension or revocation",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Subscribers must immediately request the certification authority to suspend or revoke their certificate if the private key becomes compromised or unreliable.",
+      "dtia_summary": "Subscribers must act quickly to suspend or revoke certificates when keys are compromised, which impacts data transfer security and trust in digital signatures.",
+      "authority": "Subscriber",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Request certification authority to suspend or revoke certificate where private key is compromised or unreliable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "36. Where the private key corresponding to the public key referred to in a certificate has been compromised or otherwise becomes unreliable, a subscriber who has accepted the certificate shall forthwith request the relevant certification authority to suspend or revoke the certificate."
+    },
+    {
+      "section": "37",
+      "heading": "Controller of Certification Authorities",
+      "title": "Controller of Certification Authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "The ICT Authority serves as the Controller of Certification Authorities under this Act and must maintain a publicly accessible database of certification authority disclosure records for licensed entities. The Controller is deemed a licensed certification authority for digital signatures verified using their certificates.",
+      "dtia_summary": "The ICT Authority maintains a public database of certification authority records, which impacts data transfer transparency and trust in digital signatures across borders.",
+      "authority": "ICT Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "ICT Authority shall be the Controller of Certification Authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller shall maintain publicly accessible database of certification authority disclosure records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller shall be deemed a licensed certification authority for digital signatures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "37. Controller of Certification Authorities (1) There shall be, for the purposes of this Act, a Controller of Certification Authorities. (2) For the purposes of this Act, the ICT Authority shall be the Controller and may be assisted by such of its officers and other members of its staff as may be necessary."
+    },
+    {
+      "section": "39",
+      "heading": "Liability limits for licensed certification authorities",
+      "title": "Liability limits for licensed certification authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Other",
+      "summary": "Licensed certification authorities are not liable for losses caused by reliance on false or forged digital signatures if they acted in compliance with this Act. They also have liability limits based on the certificate's recommended reliance limit for misrepresentations or non-compliance with certificate issuance requirements.",
+      "dtia_summary": "Certification authorities have liability limits for false signatures, which affects data transfer risk and trust in cross-border digital signatures.",
+      "authority": "Licensed Certification Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Not liable for loss caused by reliance on false or forged digital signature where acted in compliance with Act",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Not liable for loss exceeding certificate's recommended reliance limit for misrepresentation in certificate",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Not liable for loss exceeding certificate's recommended reliance limit for failure to comply with sections 26 and 27",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate."
+    },
+    {
+      "section": "40",
+      "heading": "Acceptance of electronic filling and issue of documents",
+      "title": "Electronic document acceptance and processing",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Public sector agencies may accept electronic filing, creation, or storage of documents, issue electronic notices or approvals, and process payments electronically, provided they convert written records to electronic form. This section overrides prior enactments to allow electronic record handling without requiring physical documents. The electronic records must maintain integrity, security, and confidentiality.",
+      "dtia_summary": "Allows public sector agencies to use electronic records across borders, but requires specific technical safeguards for integrity and security to prevent data breaches during cross-border transfers.",
+      "authority": "Public sector agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Public sector agencies may accept electronic filing of documents",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector agencies may issue electronic notices, claims, licenses, permits, authorizations, or approvals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector agencies may make and receive electronic payments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector agencies may convert written records into electronic records",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector agencies may specify electronic record formats and signing requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector agencies must ensure adequate integrity, security, and confidentiality of electronic records",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A public sector agency which, pursuant to any enactment- (a) accepts the filing of documents, or requires that documents be created, kept or issued (b) issues any notice, claim, licence permit or authorisation or approval; (c) provides for any payment and the method and manner of such payment; or (d) has to keep records, may, notwithstanding anything to the contrary in the enactment- (i) accept the filing of such documents, or the creation or keeping of such documents in electronic form; (ii) issue such notice, claim, licence, permit, authorisation or approval in electronic form; (iii) make and receive such payment in electronic form; or (iv) convert written records into electronic records."
+    },
+    {
+      "section": "41",
+      "heading": "Confidentiality",
+      "title": "Confidentiality of electronic records",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 22,
+      "primary_category": "Security",
+      "summary": "Individuals who access electronic records under this Act must not disclose them to others except for judicial proceedings or court-ordered disclosures. The court must be satisfied that the applicant is acting in their duties, the information is material to judicial proceedings, and disclosure is otherwise necessary in all circumstances.",
+      "dtia_summary": "Requires strict confidentiality for electronic records, limiting disclosure to judicial proceedings or court orders, which impacts data transfer and storage security in cross-border contexts.",
+      "authority": "Judge in Chambers",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "No person who has access to an electronic record may disclose it to others except for judicial proceedings or court-ordered disclosures",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The court must be satisfied that the applicant is acting in the discharge of their duties",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The court must be satisfied that the information is material to judicial proceedings",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The court must be satisfied that disclosure is otherwise necessary in all circumstances",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers."
+    },
+    {
+      "section": "44",
+      "heading": "Production of documents and data",
+      "title": "Document production and data inspection powers",
+      "chapter": null,
+      "part": "Part t",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Data Collection",
+      "summary": "The Controller or authorized officers may require certification authorities to produce records, accounts, data, and documents for inspection, examine copies, and retain records for necessary periods. This includes obtaining identification documents for offenses under the Act and conducting inquiries to verify compliance.",
+      "dtia_summary": "Allows regulators to inspect electronic records and data, which impacts data transfer and storage security in cross-border contexts.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Controller may require certification authorities to produce records, accounts, data, and documents for inspection",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Controller may require identification documents from persons in relation to offenses under this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Controller may make inquiries to ascertain compliance with this Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Controller may retain records for a period as he considers necessary",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Controller or an authorised officer may - (a) require the production of records, accounts, data and documents kept by a certification authority and inspect, examine and take copies of any of them; (b) require the production of an identification document from any person in relation to any offence under this Act; (c) make such inquiry as may be necessary to ascertain whether this Act has been complied with; (d) retain, for such period as he considers necessary, any record, account, data or document specified in paragraph (a) or (b)."
+    },
+    {
+      "section": "45",
+      "heading": "Power of access to computers and data",
+      "title": "Computer access and data inspection powers",
+      "chapter": null,
+      "part": "Part t",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 23,
+      "primary_category": "Security",
+      "summary": "The Controller or authorized officers may enter business premises to inspect computer systems, search data, and require technical assistance from system operators. This power does not apply to banking businesses regulated by the Banking Act 1988 or the Bank of Mauritius Act.",
+      "dtia_summary": "Allows regulators to inspect computer systems and data, which impacts data transfer and storage security in cross-border contexts.",
+      "authority": "Controller",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Controller may enter business premises to inspect computer systems and associated apparatus",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Controller may use computer systems to search data",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Controller may require system operators to provide technical assistance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "This power does not apply to banking businesses regulated by the Banking Act 1988 or the Bank of Mauritius Act",
+          "obligation_type": "Restriction"
+        }
+      ],
+      "source_quote": "The Controller or an authorised officer may, at all reasonable times, enter any business premises or place where any business is carried on or anything is done in connection with the business and - (a) have access to and inspect and check the operation of any computer system and any associated apparatus or material which he has reasonable cause to suspect is or has been in use; (b) use or cause to be used any such computer system to search any data contained in or available to such computer system; or (c) require - (i) the person by whom or on whose behalf the Controller or authorised officer has reasonable cause to suspect the computer system is or has been so used; or (ii) any person having charge of, or otherwise concerned with the operation of, the computer system, apparatus or material, to provide him with such reasonable technical and other assistance as he may require for the purposes of paragraph (a)."
+    },
+    {
+      "section": "47",
+      "heading": "Offences",
+      "title": "Offences related to electronic records",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Enforcement",
+      "summary": "Knowingly creating, publishing, or making available certificates in breach of section 23, misrepresenting identity to certification authorities, or failing to provide accurate information to certification authorities are offenses punishable by fines up to 100,000 rupees and imprisonment up to 5 years. Contravening section 41 or failing to comply with section 43 also constitutes offenses with penalties up to 100,000 rupees and 5 years imprisonment.",
+      "dtia_summary": "Imposes penalties for unauthorized electronic record handling, which affects data transfer and storage compliance in cross-border contexts.",
+      "authority": "Offenders",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Knowingly creating, publishing, or making available certificates in breach of section 23 is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Knowingly misrepresenting identity to certification authorities is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Making inaccurate or incomplete statements to certification authorities is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Giving incorrect or false information to certification authorities is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Making material misrepresentations to certification authorities is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Contravening section 41 is an offense",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failing to comply with section 43 is an offense",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any person who knowingly and with intent to defraud, creates, publishes or otherwise make available a certificate in breach of section 23, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 100,000 rupees and to imprisonment for a term not exceeding 5 years."
+    },
+    {
+      "section": "50",
+      "heading": "Regulations",
+      "title": "Regulations for certification authorities",
+      "chapter": null,
+      "part": "PART X",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 27,
+      "primary_category": "Regulator Powers",
+      "summary": "The Minister may make regulations for certification authorities, including licensing, digital signatures, applications for licenses, activities of certification authorities, standards, qualifications, and fees. Regulations may also address international treaty obligations and the quality of repositories.",
+      "dtia_summary": "Allows the Minister to regulate certification authorities, which impacts data transfer and storage security in cross-border contexts.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Minister may make regulations for certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may regulate and license certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may secure digital signatures and electronic signatures",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may provide for applications for licenses and renewal of licenses",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may address activities of certification authorities including solicitation methods",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may set standards for certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify qualifications, experience, and training for applicants",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may address conditions for certification practice",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify content and distribution of materials for digital certificates",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may define the form and content of digital certificates",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may record particulars in accounts kept by certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may appoint and remunerate auditors for certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may establish electronic systems by certification authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may address dealings with customers and conflicts of interest",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may recognize certification authorities outside Mauritius",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may ensure quality of repositories and services",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may give effect to international treaty obligations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may levy fees and take charges",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Minister may make such regulations as he thinks fit for the purpose of this Act."
+    }
+  ]
+}
