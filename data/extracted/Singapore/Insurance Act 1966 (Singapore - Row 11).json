@@ -1,0 +1,3869 @@
+{
+  "country": "Singapore",
+  "document": "Insurance Act 1966 (Singapore - Row 11)",
+  "generated": "2026-07-18T19:20:02",
+  "sections": [
+    {
+      "section": "2",
+      "heading": "In this Act, unless the context otherwise requires —",
+      "title": "Reference to Section 138(3) of the Act",
+      "chapter": null,
+      "part": "Part\nP",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 19,
+      "primary_category": "Definitions",
+      "summary": "This section references Section 138(3) of the Insurance Act 1966, indicating that it is a legislative reference rather than a substantive definition. It does not define any new terms but points to another section for specific requirements.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Section 138(3) of the Act",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "2. Section 138(3)."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "In this Act, unless the context otherwise requires — (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part i",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2 (part 3)",
+      "heading": "In this Act, unless the context otherwise requires — (cont.)",
+      "title": "Restrictions on co-branding and solicitation of insurance business",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 29,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section prohibits licensed insurers from co-branding with other entities without prior written consent from the Authority. It also restricts solicitation of insurance business outside Singapore for insurers, requiring that any solicitation must be limited to Singapore operations and not extend to foreign branches or head offices. Violations incur fines and imprisonment.",
+      "dtia_summary": "Restricts cross-border co-branding and solicitation activities for insurers, requiring Singapore-specific advertising and business operations to prevent unauthorized international data transfers.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A licensed insurer must not use, together with its name, logo or trade mark in Singapore, the name, logo or trade mark of any person who carries on risk assumption business",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A licensed insurer must not use, together with its name, logo or trade mark in Singapore, the name, logo or trade mark of any person who is not a licensed insurer, authorized reinsurer or foreign insurer",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A person must not solicit insurance business for any insurer other than licensed insurers, authorized reinsurers, foreign insurers under foreign insurer schemes, or other insurers entitled to carry on insurance business in Singapore",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Solicitation must only be for the insurance business in Singapore of the insurer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Solicitation must not be for foreign branches or head offices of the insurer",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Any person who contravenes subsection (1), (2) or (5) shall be guilty of an offence and shall be liable on conviction — (a) in the case of an individual, to a fine not exceeding $12,500 or to imprisonment for a term not exceeding 12 months or to both and, in the case of a continuing offence, to a further fine not exceeding $1,250 for every day or part of a day during which the offence continues after conviction; or (b) in any other case, to a fine not exceeding $25,000 and, in the case of a continuing offence, to a further fine not exceeding $2,500 for every day or part of a day during which the offence continues after conviction."
+    },
+    {
+      "section": "2 (part 4)",
+      "heading": "In this Act, unless the context otherwise requires — (cont.)",
+      "title": "Licensing of insurers and representative offices",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 34,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines the licensing requirements for insurers operating in Singapore, including application procedures, financial criteria, and registration of representative offices. It mandates that representative offices must be registered with the Authority and that insurers must comply with financial requirements and conditions to maintain their licenses. Non-compliance results in fines and potential license revocation.",
+      "dtia_summary": "Requires registration of representative offices and strict licensing for insurers, impacting cross-border data transfers through insurance operations and regulatory oversight.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person must not establish or operate a representative office unless registered with the Authority",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Any person applying for a representative office must submit written application and provide required information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must refuse registration unless the applicant is a company or company incorporated outside Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must refuse registration unless the applicant satisfies criteria determined by the Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may impose conditions on registration of representative offices",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A person must pay annual fees as prescribed by the Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may waive, refund or remit annual fees in specific cases",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may cancel a license if the insurer fails to meet financial requirements",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A person must not establish or operate a representative office unless the representative office is registered with the Authority."
+    },
+    {
+      "section": "2 (part 5)",
+      "heading": "In this Act, unless the context otherwise requires — (cont.)",
+      "title": "Definitions of related entities and relationships",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 34,
+      "page_end": 39,
+      "primary_category": "Definitions",
+      "summary": "This section defines specific relationships and entities used throughout the Insurance Act. It establishes criteria for when an entity (A) is considered related to another entity (B), including familial relationships, corporate control structures, and contractual arrangements. These definitions apply to insurers and their relationships with policyholders, other entities, and the regulatory authority. The definitions are critical for determining the scope of insurance operations and regulatory oversight.",
+      "dtia_summary": "This section defines key relationships that impact data transfer assessments by clarifying when entities are considered related for regulatory purposes, which affects cross-border data sharing and processing obligations.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A is the spouse, or a parent, remoter lineal ancestor or step-parent, a son, daughter, remoter issue, stepson or stepdaughter, or a brother or sister of B",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A is a body corporate that is, or a majority of the directors of which are, accustomed or under an obligation whether formal or informal to act in accordance with the directions, instructions or wishes of B",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A is a person who is accustomed or under an obligation, whether formal or informal, to act in accordance with the directions, instructions or wishes of B",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A is a subsidiary of B",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A is a body corporate in which B, alone or together with other associates of B as described in sub-paragraphs (ii), (iii) and (iv), is in a position to control at least 20% of the voting power in A",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A is a person with whom B has an agreement or arrangement, whether oral or in writing and whether express or implied, to act together with respect to the acquisition, holding or disposal of shares or other interests in, or with respect to the exercise of their voting power in relation to, the insurer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person holds a share if they are deemed to have an interest in that share under section 7(6) of the Companies Act 1967",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person holds a share if they otherwise have a legal or an equitable interest in that share, except for such interest as is to be disregarded under section 7(7), (8) and (9) of the Companies Act 1967",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Singapore Statutes Online: Current version as at 13 Jul 2026 (PDF created date on: 13 Jul 2026)"
+    },
+    {
+      "section": "2 (part 6)",
+      "heading": "In this Act, unless the context otherwise requires — (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 41,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "18",
+      "heading": "The Authority may prescribe or specify in directions, either generally or in such",
+      "title": "Law Revision (Penalties Amendment) Ordinance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "This section amends the Law Revision (Penalties Amendment) Ordinance of 1952, which was enacted to revise penalties in Singapore law. The amendments were made by section 2 read with item 47 of the Schedule to the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 2 read with item 47 of the Schedule to the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952"
+    },
+    {
+      "section": "18 (part 2)",
+      "heading": "The Authority may prescribe or specify in directions, either generally or in such (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2016",
+      "heading": "[19/2015]",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 51,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2016 (part 2)",
+      "heading": "[19/2015] (cont.)",
+      "title": "Objection to existing control of licensed insurers incorporated in Singapore",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 55,
+      "primary_category": "Regulator Powers",
+      "summary": "The Authority may issue a written notice of objection to individuals or entities controlling licensed insurers in Singapore if they fail to comply with conditions from section 26 or 27, provide false information, cease to be fit and proper, or pose risks to prudent business conduct. The notice requires written representations within a specified timeframe before the Authority decides on objection. If objected, the person must take steps to cease control or comply with directions within a reasonable period.",
+      "dtia_summary": "This section enables regulators to intervene in cases where control of licensed insurers is at risk, requiring specific actions to prevent unauthorized control or shareholding that could compromise financial stability.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may serve a written notice of objection on any person if satisfied that they have not complied with conditions under section 26(3) or (4) or 27(4) or (5)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must give written notice of intention to serve objection before service",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must consider written representations before issuing objection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must specify a reasonable period for the person to take steps to cease effective control or comply with directions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The person must comply with the written notice of objection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority may serve a written notice of objection on any person referred to in section 26 or 27 if the Authority is satisfied that — (a) any condition of approval imposed on the person under section 26(3) or (4) or 27(4) or (5) has not been complied with; (b) the person has provided any false or misleading information or document in connection with an application under section 26 or 27; ..."
+    },
+    {
+      "section": "2016 (part 3)",
+      "heading": "[19/2015] (cont.)",
+      "title": "Appeals against Authority decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 55,
+      "primary_category": "Other",
+      "summary": "Any person aggrieved by decisions made by the Authority under sections 26, 27, 28, or 29 may appeal to the Minister within 30 days of being informed of the decision. This provides a formal mechanism for challenging regulatory actions related to insurance control and shareholding.",
+      "dtia_summary": "This section allows for appeals against regulatory decisions that could impact data transfer or control mechanisms, ensuring accountability in cross-border insurance operations.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person aggrieved by a decision of the Authority under section 26, 27, 28 or 29 may appeal to the Minister within 30 days after being informed of the decision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any person who is aggrieved by a decision of the Authority under section 26, 27, 28 or 29 may, within 30 days after being informed of the decision of the Authority, appeal to the Minister in writing in accordance with Part 3B."
+    },
+    {
+      "section": "31",
+      "heading": "Any person who is aggrieved by a decision of the Authority under section 26, 27,",
+      "title": "Power to obtain information from licensed insurers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 57,
+      "primary_category": "Regulator Powers",
+      "summary": "The Authority can direct licensed insurers in Singapore to collect and transmit information about shareholders, including whether they hold voting shares as beneficial owners or trustees, and details of beneficiaries. Shareholders must provide information within specified timeframes to assist in assessing control and voting power.",
+      "dtia_summary": "This section ensures regulators have access to shareholder information to monitor control structures, critical for assessing data transfer risks when insurers are involved in cross-border operations.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may direct a licensed insurer to obtain from shareholders information about whether they hold voting shares as beneficial owners or trustees",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The insurer must comply with the Authority's direction within the specified time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require shareholders to provide information about shareholding, voting rights, and agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Shareholders must comply with the Authority's notice within the specified time",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority may, by written notice, direct a licensed insurer that is incorporated in Singapore to obtain from any shareholder of the insurer, and to transmit to the Authority, information — (a) as to whether that shareholder holds any voting shares in the insurer as beneficial owner or as trustee; ..."
+    },
+    {
+      "section": "33",
+      "heading": "Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer",
+      "title": "Application of English Law Act 1993 commencement details",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 62,
+      "primary_category": "Other",
+      "summary": "This section details the Application of English Law Act 1993, including its bill number (26/1993), first reading date (30 August 1993), second reading date (12 October 1993), notice of amendments date (12 October 1993), third reading date (12 October 1993), and commencement date (12 November 1993). It also specifies that section 7 of the Act, read with paragraph 4 of the Second Schedule, commenced on 12 November 1993.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Application of English Law Act 1993 was introduced as Bill 26/1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its first reading on 30 August 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its second reading on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its notice of amendments on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its third reading on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 commenced on 12 November 1993",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 35 of 1993—Application of English Law Act 1993 Bill: 26/1993 First Reading: 30 August 1993 Second Reading: 12 October 1993 Notice of Amendments: 12 October 1993 Third Reading: 12 October 1993 Commencement: 12 November 1993"
+    },
+    {
+      "section": "33 (part 2)",
+      "heading": "Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer (cont.)",
+      "title": "Co-operative societies require ministerial approval for key executive appointments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 62,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "This section requires that licensed insurers operating as co-operative societies must obtain ministerial approval for key executive appointments. The Authority must ensure that appointees are fit and proper persons before approval. The Authority may grant approval with conditions and can revoke or vary those conditions. Violations result in fines up to $100,000 for insurers.",
+      "dtia_summary": "This section imposes specific ministerial approval requirements for key executive appointments in co-operative societies, which affects data processing and transfer activities involving international co-operative structures.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Licensed insurer must obtain Authority approval for key executive appointments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must ensure appointees are fit and proper persons",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may grant approval with conditions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may revoke or vary conditions on approval",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Failure to comply with conditions results in fines up to $100,000 for insurers",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "33 (part 2) Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer (cont.)"
+    },
+    {
+      "section": "33 (part 3)",
+      "heading": "Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer (cont.)",
+      "title": "Restriction on unsecured loans to directors and employees of insurers",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 72,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A licensed insurer in Singapore must not grant unsecured loans or advances to directors or employees exceeding $5,000 in aggregate at any one time, or one year's emolument for employees. The definition of 'director' includes immediate family members. This restriction applies to all licensed insurers conducting business in Singapore.",
+      "dtia_summary": "This section imposes specific financial limits on internal lending to directors and employees, requiring insurers to assess loan amounts against employee compensation to avoid cross-border data transfer risks when personal data is involved in loan agreements.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A licensed insurer must not in respect of its business in Singapore grant, directly or indirectly, unsecured loans or advances to a director of the insurer which in the aggregate and outstanding at any one time exceed the sum of $5,000",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensed insurer must not in respect of its business in Singapore grant, directly or indirectly, unsecured loans or advances to an employee of the insurer which in the aggregate and outstanding at any time exceed one year's emolument of that employee",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In this section, 'director' includes the wife, husband, father, mother, son or daughter of a director",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "A licensed insurer must not in respect of its business in Singapore grant, directly or indirectly, unsecured loans or advances — (a) to a director of the insurer which in the aggregate and outstanding at any one time exceed the sum of $5,000; or (b) to an employee of the insurer which in the aggregate and outstanding at any time exceed one year's emolument of that employee."
+    },
+    {
+      "section": "33 (part 4)",
+      "heading": "Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer (cont.)",
+      "title": "Authorisation of reinsurance businesses outside Singapore",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 77,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Reinsurers operating outside Singapore must apply to the Authority for authorisation to conduct reinsurance business in Singapore. The Authority may impose conditions, vary authorisation, or revoke authorisation based on specific grounds including failure to meet financial obligations, misconduct, or public interest considerations. Reinsurers must maintain reinsurance deposits for each class of business.",
+      "dtia_summary": "This section governs cross-border reinsurance operations, requiring insurers to maintain reinsurance deposits and comply with authorisation conditions to ensure financial stability when transferring data across borders for reinsurance purposes.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person carrying on reinsurance business outside Singapore may apply to the Authority to be authorised for the purposes of this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may authorise the applicant with or without conditions, or refuse to authorise the applicant on any prescribed ground or on any other ground that the Authority thinks fit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must cause notice of any authorisation or change of name of a reinsurer authorised under this section to be published in the Gazette",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Every authorised reinsurer must maintain a reinsurance deposit of a value of such amount as the Authority may prescribe for the purposes of this section in respect of each class of business for which it is authorised",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person carrying on reinsurance business outside Singapore may apply to the Authority to be authorised for the purposes of this Act."
+    },
+    {
+      "section": "33 (part 5)",
+      "heading": "Sections 25 to 32 apply, with the necessary modifications, to a licensed insurer (cont.)",
+      "title": "Reinsurer deposit requirements for Singapore financial regulators",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 77,
+      "page_end": 79,
+      "primary_category": "Other",
+      "summary": "This section mandates that deposits for reinsurers must comply with prescribed forms, assets, and methods as directed by the Authority. All income from such deposits must be paid to the reinsurer making the deposit. The Authority may prescribe rights, obligations, and incidental matters related to deposits. Banks can provide deposits via covenants if they meet the Authority's requirements, and these deposits are treated as if made directly by the reinsurer. The Authority may also require reinsurers to maintain minimum Singapore-based assets to meet liabilities, specify asset types and minimum amounts, and impose trustee requirements for asset custody. Failure to comply with asset maintenance directives results in fines up to $250,000 per day.",
+      "dtia_summary": "Reinsurers must maintain Singapore-based assets to meet liabilities, with specific asset types and minimum amounts prescribed by the Authority. This affects data storage and financial stability requirements for cross-border insurance operations.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Deposits must be made in prescribed form, manner, and assets as directed by the Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "All income from deposits must be payable to the reinsurer making the deposit",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may prescribe rights and obligations of parties related to deposits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may prescribe other incidental matters related to deposits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Banks may covenant to deposit cash with Authority if agreement meets requirements",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Covenants must comply with Authority's requirements for deposit circumstances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Sum covenanted for is recoverable even without consideration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Deposits by banks are treated as if made by reinsurers under section 46",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may direct reinsurers to maintain minimum Singapore-based assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may specify types of liabilities requiring Singapore-based assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may specify asset types and minimum amounts for Singapore-based assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may specify valuation methods for Singapore-based assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may direct different reinsurers to maintain different minimum assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with asset maintenance directives results in fines up to $250,000 per day",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A deposit under subsection (1) must be made in such form and manner, and in assets of such nature, as may be prescribed or specified in directions by the Authority for the purposes of this section."
+    },
+    {
+      "section": "50",
+      "heading": "The Authority may, by written notice, require any authorised reinsurer to provide",
+      "title": "Regulator's authority to require insurance information from reinsurers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 79,
+      "page_end": 79,
+      "primary_category": "Other",
+      "summary": "This section grants the Authority the power to require any authorized reinsurer to provide information about insurance business matters if the Authority deems it necessary for fulfilling its functions under the Act. The requirement must be made via written notice and relates to specific insurance business activities in Singapore.",
+      "dtia_summary": "Regulators can compel reinsurers to share insurance business information, impacting data sharing and transparency requirements for cross-border insurance operations.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may require authorized reinsurer to provide information about insurance business matters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Information must be provided if Authority considers it necessary for discharging functions under Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Requirement must be made via written notice",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority may, by written notice, require any authorised reinsurer to provide it with information about any matter related to any insurance business in respect of which the reinsurer is authorised if the Authority is of the opinion that it requires that information for the discharge of its functions under this Act."
+    },
+    {
+      "section": "52",
+      "heading": "In this Part —",
+      "title": "Insurance (Amendment) Act 2013",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 79,
+      "page_end": 80,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative amendments made by the Insurance (Amendment) Act 2013, effective from 18 April 2013 and 1 January 2014. It specifies the bill number (5/2013), the dates of first, second, and third readings, and the commencement dates for different sections of the Act. The amendments are made by section 65(a) and (b) for the second commencement date.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement on 18 April 2013 (except section 65(a) and (b))",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement on 1 January 2014 (section 65(a) and (b))",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 11 of 2013—Insurance (Amendment) Act 2013 (Commencement: 18 April 2013 (except section 65(a) and (b)); 1 January 2014 (section 65(a) and (b)))"
+    },
+    {
+      "section": "53",
+      "heading": "The Authority may by regulations establish any foreign insurer scheme for the",
+      "title": "Statutes (Miscellaneous Amendments) Act 2014",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 80,
+      "page_end": 82,
+      "primary_category": "Other",
+      "summary": "This section details the legislative amendments made by the Statutes (Miscellaneous Amendments) Act 2014, effective from 1 July 2015. It specifies the bill number (24/2014), the dates of first and second/third readings, and the commencement date for the amendments. The amendments are made by section 9 of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 35 of 2014—Statutes (Miscellaneous Amendments) () Act 2014 (Amendments made by section 9 of the above Act)"
+    },
+    {
+      "section": "56",
+      "heading": "The Business Names Registration Act 2014 and the Companies Act 1967 do not",
+      "title": "Central Provident Fund Amendment Act 2016 legislative process",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 82,
+      "page_end": 83,
+      "primary_category": "Other",
+      "summary": "This section details the legislative process for the Central Provident Fund (Amendment) Act 2016, including its bill number, first and second/third readings dates, and commencement dates. The amendments were made by section 20(2) of the Act and came into effect on 1 January 2017.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 26/2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 13 September 2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 10 October 2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 1 January 2017 (section 20(2))",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 26 of 2016—Central Provident Fund (Amendment ) Act 2016 (Amendments made by section 20(2) of the above Act) Bill: 26/2016 First Reading: 13 September 2016 Second and Third Readings: 10 October 2016 Commencement: 1 January 2017 (section 20(2))"
+    },
+    {
+      "section": "57",
+      "heading": "The Authority may by written notice prohibit any foreign insurer from carrying",
+      "title": "Monetary Authority of Singapore Amendment Act 2017 legislative process",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 83,
+      "page_end": 87,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative process for the Monetary Authority of Singapore (Amendment) Act 2017, including its bill number, first and second/third readings dates, and commencement dates. The amendments were made by section 43 of the Act and came into effect on 5 June 2018 and 29 October 2018.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 25/2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 8 May 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 4 July 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 5 June 2018 (section 43(a) and (b))",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 29 October 2018 (sections 43(c) to (i))",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 31 of 2017—Monetary Authority of Singapore (Amendment) Act 2017 (Amendments made by section 43 of the above Act) Bill: 25/2017 First Reading: 8 May 2017 Second and Third Readings: 4 July 2017 Commencement: 5 June 2018 (section 43(a) and (b)) 29 October 2018 (sections 43(c) to (i))"
+    },
+    {
+      "section": "57 (part 2)",
+      "heading": "The Authority may by written notice prohibit any foreign insurer from carrying (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 87,
+      "page_end": 92,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "57 (part 3)",
+      "heading": "The Authority may by written notice prohibit any foreign insurer from carrying (cont.)",
+      "title": "Insurance intermediaries must disclose material information to policyholders",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 92,
+      "page_end": 95,
+      "primary_category": "Data Sharing",
+      "summary": "Insurance intermediaries must disclose all material information to individuals before inviting them to enter into insurance contracts. This includes the licensed insurer's name, the intermediary's relationship with the insurer, the premium charged, and any other information specified by the Authority. The requirement applies to both individual policies and group policies where individuals are liable for premiums. Violations are punishable by fines up to $25,000 or imprisonment for up to 12 months.",
+      "dtia_summary": "This section mandates specific disclosures for insurance intermediaries, requiring transparency about the insurer, premium costs, and policy terms before data sharing with policyholders. It impacts cross-border data transfers by requiring clear information about the insurer and intermediary relationships.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Insurance intermediary must disclose licensed insurer's name to policyholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insurance intermediary must disclose relationship with licensed insurer to policyholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insurance intermediary must disclose premium charged by licensed insurer to policyholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insurance intermediary must disclose group policy conditions to insureds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insurance intermediary must disclose premium charged by licensed insurer to group policy insureds",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An insurance intermediary must not invite any person to make an offer or proposal to enter into a contract of insurance without disclosing to the person all material information, including — (a) the name of the licensed insurer; (b) the insurance intermediary's relationship with the licensed insurer; (c) the premium charged by the licensed insurer; and (d) such other information as the Authority may prescribe or specify in directions."
+    },
+    {
+      "section": "72",
+      "heading": "Without limiting section 154(1) and (4), the Authority may make regulations or",
+      "title": "Authority may regulate insurance intermediary conduct standards",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 95,
+      "page_end": 95,
+      "primary_category": "Governance",
+      "summary": "The Authority has the power to create regulations or issue directions regarding insurance intermediary conduct standards, including disclosure obligations to insureds, qualifications and training requirements, and disciplinary procedures. This section enables the Authority to set standards for how insurance intermediaries operate and interact with policyholders and insurers.",
+      "dtia_summary": "This section allows the Authority to establish standards for insurance intermediary conduct, which affects data sharing practices and transparency requirements for cross-border data transfers involving insurance intermediaries.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may make regulations for insurance intermediary conduct standards",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may regulate disclosure obligations to insureds",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may set qualifications and training requirements for intermediaries",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may establish disciplinary procedures for intermediaries",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Without limiting section 154(1) and (4), the Authority may make regulations or issue directions for or with respect to — (a) the standards to be maintained by an insurance intermediary in the conduct of business under this Act, including the standards in relation to the obligation to disclose information to insureds; (b) the qualifications, experience and training of an insurance intermediary and, where the insurance intermediary is a corporation or an association, of the officers, agents and employees of the insurance intermediary; and (c) the procedure for the conduct of disciplinary control of insurance intermediaries and, where the insurance intermediary is a corporation or an association, of the officers, agents and employees of the insurance intermediary."
+    },
+    {
+      "section": "73",
+      "heading": "The Authority may, by written notice, require any insurance intermediary to",
+      "title": "Authority may require insurance intermediaries to provide business information",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 95,
+      "page_end": 96,
+      "primary_category": "Data Sharing",
+      "summary": "The Authority can require insurance intermediaries to provide information about their business activities in Singapore or elsewhere if it deems such information necessary for fulfilling its functions under the Act. This provision enables the Authority to monitor and regulate insurance intermediaries' operations and data handling practices.",
+      "dtia_summary": "This section allows the Authority to request business information from intermediaries, which may impact data sharing practices and transparency requirements for cross-border data transfers involving insurance intermediaries.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may require insurance intermediary to provide business information",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority may, by written notice, require any insurance intermediary to provide it with information about any matter related to his, her or its business carried on in Singapore or elsewhere if, in the opinion of the Authority, it requires that information for the discharge of its functions under this Act."
+    },
+    {
+      "section": "74",
+      "heading": "[Repealed by Act 18 of 2022 wef 31/07/2024]",
+      "title": "Repealed section on insurance broker registration",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 96,
+      "page_end": 100,
+      "primary_category": "Other",
+      "summary": "This section has been repealed by Act 18 of 2022 effective 31/07/2024. It previously required insurance brokers to be registered with the Authority or exempted under section 92. The repeal means this provision no longer applies to insurance brokers in Singapore.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "[Repealed by Act 18 of 2022 wef 31/07/2024]"
+    },
+    {
+      "section": "81",
+      "heading": "Every registered insurance broker must maintain a net asset value of such amount",
+      "title": "Insurance brokers must maintain separate bank accounts for client funds",
+      "chapter": null,
+      "part": "part a",
+      "condition": null,
+      "page_start": 100,
+      "page_end": 105,
+      "primary_category": "Financial Data",
+      "summary": "Every registered insurance broker in Singapore must establish and maintain a separate bank account with a licensed bank for all client-related funds. The account must be specific to each type of insurance business if the broker operates multiple types. The Authority may prescribe rules for the types of money, payment methods, investment strategies, and distribution of funds held in these accounts. Any lien or charge on these funds is void unless it relates to fees owed to the broker.",
+      "dtia_summary": "This section requires insurance brokers to segregate client funds in licensed bank accounts, which impacts data transfer DTIAs by mandating financial isolation of client data across borders. The requirement for separate accounts per business type affects cross-border data handling and financial transparency.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Every registered insurance broker must establish and maintain a separate bank account with a bank licensed under the Banking Act 1970 for client funds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the broker operates multiple types of insurance, it must maintain separate accounts for each type",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may prescribe rules for money types, payment methods, investment strategies, and fund distribution in these accounts",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Lien or charge on funds is void unless it relates to fees owed to the broker",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Charge on funds is void",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "81. Every registered insurance broker must maintain a net asset value of such amount as may be prescribed."
+    },
+    {
+      "section": "81 (part 2)",
+      "heading": "Every registered insurance broker must maintain a net asset value of such amount (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 105,
+      "page_end": 109,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "81 (part 3)",
+      "heading": "Every registered insurance broker must maintain a net asset value of such amount (cont.)",
+      "title": "Insurance brokers: exempted entities and regulatory oversight",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 114,
+      "primary_category": "Other",
+      "summary": "This section defines who qualifies as an exempt insurance broker under the Insurance Act 1966. It includes licensed financial institutions, financial advisers, and specific insurance entities, with the Authority having power to impose conditions on exempt brokers. The Authority may withdraw exemptions for contraventions or public interest reasons, and provides appeal rights for affected brokers.",
+      "dtia_summary": "This section defines which entities qualify as exempt insurance brokers, impacting cross-border data transfers involving insurance brokers operating outside Singapore. The Authority's power to impose conditions on exempt brokers affects data handling requirements for international insurance operations.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "A bank licensed under the Banking Act 1970 may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A merchant bank licensed under the Banking Act 1970 may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensed financial adviser under the Financial Advisers Act 2001 may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A holder of a capital markets services licence under the Securities and Futures Act 2001 may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A finance company with exemption from section 25(2) of the Finance Companies Act 1967 may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A direct insurer licensed to carry on life business may be an exempt insurance broker",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may prescribe additional persons or classes of persons as exempt insurance brokers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may impose conditions on exempt insurance brokers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may withdraw exemptions for contraventions or public interest reasons",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Exempt brokers may appeal withdrawal decisions within 30 days to the Minister",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Exempt brokers who contravene conditions face fines up to $12,500 and $1,250 per day",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Singapore Statutes Online: Current version as at 13 Jul 2026"
+    },
+    {
+      "section": "81 (part 4)",
+      "heading": "Every registered insurance broker must maintain a net asset value of such amount (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part t",
+      "condition": null,
+      "page_start": 114,
+      "page_end": 117,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "99",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025]",
+      "title": "Parent supervisory authority inspections of Singapore insurers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 117,
+      "page_end": 122,
+      "primary_category": "Regulator Powers",
+      "summary": "A parent supervisory authority may inspect Singapore-based licensed insurers' books with prior written approval from the Authority, provided the inspection serves supervisory functions, the authority ensures confidentiality, and complies with conditions. The insurer must grant access to books and information but may limit access to avoid disrupting normal operations. Refusal to comply results in fines up to $100,000.",
+      "dtia_summary": "Requires parent supervisory authorities to obtain Authority approval before inspecting Singapore insurers' books, with conditions on confidentiality and access. Relevant for DTIAs involving cross-border insurer inspections.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Access Control"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Parent supervisory authority may inspect Singapore insurer books with Authority approval for supervisory functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parent supervisory authority must ensure confidentiality of inspection information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Parent supervisory authority must provide written undertaking to comply with this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insured must grant access to books and information for inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Insured must not disrupt normal business operations during inspection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Refusal to comply with inspection access results in fines up to $100,000",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A parent supervisory authority may, with the prior written approval of the Authority and under conditions of secrecy, conduct an inspection in Singapore of the books of the licensed insurer in Singapore in accordance with this section, if the following conditions are satisfied: (a) the inspection is required by the parent supervisory authority for the sole purpose of carrying out its supervisory functions; (b) the parent supervisory authority — (i) is prohibited by the laws applicable to the parent supervisory authority from disclosing information obtained by it in the course of the inspection to any other person; or (ii) has given to the Authority such written undertaking as to the confidentiality of the information obtained, as the Authority may determine; and (c) the parent supervisory authority has given a written undertaking to the Authority to comply with the provisions of this Act and such conditions as the Authority may impose under subsection (2)."
+    },
+    {
+      "section": "99 (part 2)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 122,
+      "page_end": 126,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "99 (part 3)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Examination procedures for regulatory investigations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 126,
+      "page_end": 131,
+      "primary_category": "Other",
+      "summary": "The Authority may require individuals to provide assistance and appear for examination during investigations. The examinee must answer relevant questions on oath or affirmation, and the examination must occur privately with restricted attendance. The investigator may record statements, provide copies to the examinee, and share records with legal representatives under specific conditions. Copies must be handled with restrictions to prevent misuse in legal proceedings.",
+      "dtia_summary": "This section details procedures for conducting examinations during regulatory investigations, including requirements for private settings, oath-taking, record-keeping, and controlled distribution of examination records. These procedures impact data handling during cross-border investigations but are not directly relevant to data transfer impact assessments.",
+      "authority": "Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The investigator may examine the examinee on oath or affirmation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The examinee must answer questions relevant to the investigation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The examination must take place in private with restricted attendance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The investigator may require the examinee to sign a written record of statements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The investigator must provide a copy of written records to the examinee without charge within a reasonable time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may give copies of records to legal representatives for proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Copies of records must not be used or published outside legal proceedings",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "The investigator may examine the examinee on oath or affirmation, and may, for that purpose, administer an oath or affirmation to the examinee."
+    },
+    {
+      "section": "99 (part 4)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Warrant powers for seizing books and data",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 131,
+      "page_end": 136,
+      "primary_category": "Other",
+      "summary": "The Authority may issue warrants to enter premises, seize books or computers, and access data during investigations. The warrant allows search powers, seizure of evidence, and copying of data. The Authority may retain evidence for investigations, proceedings, or legal actions. The warrant requires specific notice and conditions for execution, including informing occupants or leaving copies in prominent places.",
+      "dtia_summary": "This section provides detailed warrant powers for seizing books and data during investigations, including search, seizure, and copying of evidence. These powers impact data handling across borders but are not directly relevant to data transfer impact assessments.",
+      "authority": "Authority",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may issue a warrant for entry into premises",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The warrant allows search of premises and seizure of books or computers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The warrant permits copying of data from seized books or computers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may retain evidence for investigations or legal proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The warrant requires 2 working days' notice for entry unless exceptional circumstances apply",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The warrant must specify the subject matter and purpose of the investigation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A Magistrate may, on the application of the Authority, issue a warrant if the Magistrate is satisfied that there are reasonable grounds to suspect that there is, on any particular premises, any book, or a computer in which any data is contained or to which any data is available."
+    },
+    {
+      "section": "99 (part 5)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Offences for non-compliance with regulatory requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 136,
+      "page_end": 141,
+      "primary_category": "Regulator Powers",
+      "summary": "This section outlines specific offences and penalties for failing to comply with regulatory requirements under the Authority. It details penalties for non-compliance with various sections including data access, evidence handling, and investigation procedures. The offences cover both individuals and entities, with fines up to $50,000 and imprisonment up to 2 years for most violations, and higher penalties for certain actions like obstructing investigations or providing false information.",
+      "dtia_summary": "This section establishes penalties for non-compliance with regulatory requirements, which could impact data transfer impact assessments by creating obligations for timely and accurate reporting of data to authorities during investigations.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An advocate and solicitor who fails to comply with section 101D(5) without reasonable excuse is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who refuses or fails to comply with requirements under sections 101E(1), 101G(3), 101M(5)(b), (c) or (d), 101O(3)(d) or (7) or 101P without reasonable excuse is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who refuses or fails to comply with requirements under section 101I(2)(a) without reasonable excuse is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who refuses or fails to comply with section 101J(2) or 101K without reasonable excuse is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who refuses or fails to comply with section 101L without reasonable excuse is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who provides false or misleading information in a material part during examination is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who conceals, destroys, mutilates or alters evidence related to an investigation is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who takes or sends evidence out of Singapore without authorization is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who obstructs the Authority in exercising powers is guilty of an offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An occupier who fails to provide reasonable facilities for investigation is guilty of an offence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An advocate and solicitor or legal counsel who, without reasonable excuse, fails to comply with section 101D(5) shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $50,000 or to imprisonment for a term not exceeding 2 years or to both"
+    },
+    {
+      "section": "99 (part 6)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Control of licensed insurer business during statutory management",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 141,
+      "page_end": 146,
+      "primary_category": "Regulator Powers",
+      "summary": "This section details the Authority's powers to assume control of a licensed insurer's business when the insurer is unable to meet obligations, including appointing statutory managers. It specifies that control is limited to business conducted in or from Singapore and property located in Singapore. The Authority must publish relevant dates in the Gazette and may revoke statutory manager appointments under specific conditions.",
+      "dtia_summary": "This section impacts data transfer impact assessments by defining the scope of business control during statutory management, which affects data residency and handling requirements for insurers operating in Singapore.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Residency",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may assume control of a licensed insurer's business when the insurer is unable to meet obligations or is insolvent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Control is limited to business conducted in or from Singapore and property located in Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority must publish dates of assumption, cessation, appointment, and revocation of statutory manager control in the Gazette",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may revoke statutory manager appointments if reasons for appointment cease to exist or are no longer necessary",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority must cease to be in control of the relevant business of a licensed insurer when the Authority is satisfied that the reasons for its assumption of control of the relevant business have ceased to exist or that it is no longer necessary for the protection of the policy owners of the licensed insurer."
+    },
+    {
+      "section": "99 (part 7)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Insurer officers must surrender business records to regulator",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 146,
+      "page_end": 147,
+      "primary_category": "Data Storage",
+      "summary": "During the Authority's control of a licensed insurer's business, the High Court may direct former or current officers, directors, employees, agents, bankers, auditors, or trustees to surrender all business records, documents, or property in electronic or physical form to the Authority within a specified timeframe. Any person who fails to comply with these requirements or provides false information may be prosecuted for up to $125,000 fine or 3 years imprisonment.",
+      "dtia_summary": "Requires insurers to preserve records during regulatory control, impacting data storage and transfer procedures when regulators assume control of business operations.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Data Residency",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "General Division of High Court may direct former or current officers, directors, employees, agents, bankers, auditors, or trustees to surrender business records within specified timeframe",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Former or current officers must provide information required by Authority for regulatory duties within specified timeframe",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Failure to comply with information requirements constitutes an offence punishable by up to $125,000 fine or 3 years imprisonment",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Providing false or misleading information in material particulars constitutes an offence punishable by up to $125,000 fine or 3 years imprisonment",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "During the period when the Authority or statutory manager is in control of the relevant business of a licensed insurer — the General Division of the High Court may, on an application of the Authority or statutory manager, direct any person who has ceased to be or who is still a chief executive, director, member, executive officer, employee, agent, banker, auditor or office-holder of, or trustee for, the licensed insurer to pay, deliver, convey, surrender or transfer to the Authority or statutory manager, within such period as the General Division of the High Court may specify, any property, book, accounts, record or other documents, whether in electronic, print or other form, of the insurer which is comprised in, forms part of or relates to the relevant business of the insurer, and which is in the person's possession or control"
+    },
+    {
+      "section": "106",
+      "heading": "The Authority may at any time fix the remuneration and expenses to be paid by a",
+      "title": "Regulator may set remuneration for statutory managers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 147,
+      "page_end": 148,
+      "primary_category": "Financial Data",
+      "summary": "The Authority has the power to determine remuneration and expenses for statutory managers appointed to licensed insurers, whether the appointment has been revoked or not. The Authority may also set remuneration for itself and any personnel it employs under section 137 when it assumes control of an insurer's business. This authority applies to statutory managers and the Authority itself.",
+      "dtia_summary": "Regulator's authority to set compensation for statutory managers affects financial data handling and transfer procedures during regulatory control periods.",
+      "authority": "Insurance Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may fix remuneration and expenses for statutory manager appointed to licensed insurer",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may fix remuneration and expenses for itself and personnel employed under section 137 when it assumes control of insurer's business",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority may at any time fix the remuneration and expenses to be paid by a licensed insurer — to a statutory manager appointed in relation to a licensed insurer, whether or not the appointment has been revoked"
+    },
+    {
+      "section": "108",
+      "heading": "In sections 102 to 107, unless the context otherwise requires —",
+      "title": "Definitions for regulatory control sections",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 148,
+      "page_end": 148,
+      "primary_category": "Definitions",
+      "summary": "This section provides definitions for sections 102-107, including 'business' (affairs and property), 'office-holder' (liquidator, provisional liquidator, receiver, etc.), 'property' (all property, rights, and powers), 'relevant business' (business under authority control or statutory manager), 'relevant person' (licensed insurer or insurance intermediary), and 'statutory manager' (appointed under section 102).",
+      "dtia_summary": "Defines key terms used in regulatory control procedures, including business scope and property definitions relevant to data handling.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Business includes affairs and property",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Office-holder means liquidator, provisional liquidator, receiver, receiver and manager",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Property includes all property, rights and powers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Relevant business means business under authority control or statutory manager",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Relevant person means licensed insurer or insurance intermediary",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Statutory manager means person appointed under section 102",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "In sections 102 to 107, unless the context otherwise requires — \"business\" includes affairs and property; \"office-holder\", in relation to a licensed insurer, means any person acting in relation to the insurer as its liquidator, provisional liquidator, receiver, receiver and manager or an equivalent person"
+    },
+    {
+      "section": "109",
+      "heading": "In this Part, unless the context otherwise requires —",
+      "title": "Definitions for foreign regulatory assistance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 148,
+      "page_end": 149,
+      "primary_category": "Definitions",
+      "summary": "This section defines terms used in Part 3A for foreign regulatory assistance, including 'enforce' (criminal, civil or administrative proceedings), 'enforcement' (actions to enforce laws), 'investigation' (determining contraventions), 'material' (any information, document or record), 'prescribed written law' (Singapore insurance laws), 'regulatory authority' (foreign authority with similar functions), and 'supervision' (similar actions in foreign country).",
+      "dtia_summary": "Defines key terms for cross-border regulatory cooperation, including material definitions relevant to data transfers.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Enforce means enforce through criminal, civil or administrative proceedings",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Enforcement means taking action to enforce laws or regulatory requirements",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Investigation means determining if person contravened laws or regulatory requirements",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Material includes any information, book, document or record in any form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Prescribed written law includes Banking Act 1970 and other relevant Singapore laws",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Regulatory authority means foreign authority with similar regulatory functions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Supervision means taking actions similar to Singapore's regulatory functions",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "In this Part, unless the context otherwise requires — \"enforce\" means enforce through criminal, civil or administrative proceedings; \"enforcement\" means the taking of any action to enforce a law or regulatory requirement against a specified person"
+    },
+    {
+      "section": "110",
+      "heading": "This Part does not apply to any request for assistance mentioned in section 19(1)",
+      "title": "Regulatory assistance excludes certain requests",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 149,
+      "page_end": 151,
+      "primary_category": "Data Storage",
+      "summary": "This section states that Part 3A does not apply to requests for assistance mentioned in section 19(1) of the Financial Services and Markets Act 2022. This excludes specific financial services assistance requests from being covered by the regulatory cooperation provisions.",
+      "dtia_summary": "Excludes certain financial services assistance requests from regulatory cooperation provisions, affecting data transfer scope.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Residency"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Part 3A does not apply to requests for assistance mentioned in section 19(1) of Financial Services and Markets Act 2:2022",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "This Part does not apply to any request for assistance mentioned in section 19(1) of the Financial Services and Markets Act 2022"
+    },
+    {
+      "section": "112",
+      "heading": "In deciding whether to grant a request for assistance referred to in section 113",
+      "title": "",
+      "chapter": null,
+      "part": "Part d",
+      "condition": null,
+      "page_start": 151,
+      "page_end": 154,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "116",
+      "heading": "In this Division —",
+      "title": "Definitions for business transfers between insurers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 154,
+      "page_end": 159,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines key terms for business transfers between insurers. It specifies that a 'transferor' is a licensed insurer whose business is being transferred, and a 'transferee' is a licensed insurer or entity applying for a license to receive the business. The definitions apply to transfers of whole or part of insurance business under this Division.",
+      "dtia_summary": "Defines critical terms for cross-border insurance business transfers, ensuring clarity on who can receive transferred business and the scope of transfers. This is essential for DTIA to determine applicable transfer mechanisms.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "transferee means a licensed insurer, a company or co-operative society which has applied or will be applying for a licence to carry on the relevant class or classes of business",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "transferor means a licensed insurer, the whole or part of business of which is or is to be transferred under this Division",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "116. In this Division — \"transferee\" means a licensed insurer, a company or a co-operative society which has applied or will be applying for a licence to carry on the relevant class or classes of business, to which the whole or part of a transferor's business is or is to be, or is proposed to be, transferred under this Division; \"transferor\" means a licensed insurer, the whole or part of the business of which is or is to be, or is proposed to be, transferred under this Division."
+    },
+    {
+      "section": "116 (part 2)",
+      "heading": "In this Division — (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "Part a",
+      "condition": null,
+      "page_start": 159,
+      "page_end": 163,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "116 (part 3)",
+      "heading": "In this Division — (cont.)",
+      "title": "Priority of claims for policy owners in insolvency",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 163,
+      "page_end": 165,
+      "primary_category": "Cross-border Transfer",
+      "summary": "When a licensed insurer becomes insolvent, its assets must be available to meet specified liabilities in Singapore. These liabilities take priority over unsecured liabilities except for preferential debts under the Insolvency, Restructuring and Dissolution Act 2018. The priority order includes deposits under the Deposit Insurance and Policy Owners' Protection Schemes Act 2011, protected liabilities, direct policies, reinsurance policies, and trust-related claims.",
+      "dtia_summary": "This section establishes a priority order for policy owner claims during insurer insolvency, impacting data transfer assessments by defining which data (e.g., policy information) must be protected and paid before other liabilities.",
+      "authority": "Insolvency, Restructuring and Dissolution Act 2018",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Assets of a licensed insurer must be available to meet liabilities in Singapore specified in subsection (3)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liabilities in Singapore take priority over unsecured liabilities except preferential debts under section 203(1) of the Insolvency, Restructuring and Dissolution Act 2018",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liabilities rank in priority order: deposits under Deposit Insurance and Policy Owners' Protection Schemes Act 2011, protected liabilities, direct policies, reinsurance policies, and trust-related claims",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Liabilities of the same class rank equally and are paid in full unless assets are insufficient",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where a licensed insurer becomes unable to meet its obligations or becomes insolvent, the assets of the licensed insurer subject to section 16(12), must be available to meet all liabilities in Singapore of the licensed insurer specified in subsection (3)"
+    },
+    {
+      "section": "125",
+      "heading": "Any remuneration and expenses payable by a licensed insurer to —",
+      "title": "Recoverable costs for statutory managers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 165,
+      "page_end": 168,
+      "primary_category": "Financial Data",
+      "summary": "Remuneration and expenses paid by licensed insurers to statutory managers or independent assessors are recoverable as civil debts from the insurer to the Authority. This applies to costs incurred under the Insurance Act.",
+      "dtia_summary": "This section defines recoverable costs that could impact data transfer assessments by specifying which financial data (e.g., costs) must be accounted for during transfers.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Remuneration and expenses payable by licensed insurer to statutory manager are recoverable as civil debt due to Authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any remuneration and expenses payable by a licensed insurer to — a statutory manager appointed under section 102; and any person appointed to perform any independent assessment under this Part, is recoverable as a civil debt due to the Authority from the licensed insurer"
+    },
+    {
+      "section": "129",
+      "heading": "Nothing in this Act requires the Minister or any public servant to disclose facts",
+      "title": "",
+      "chapter": null,
+      "part": "Part t",
+      "condition": null,
+      "page_start": 168,
+      "page_end": 168,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "131",
+      "heading": "In this Part, unless the context otherwise requires —",
+      "title": "Definitions for beneficiary nominations",
+      "chapter": null,
+      "part": "Part a",
+      "condition": null,
+      "page_start": 168,
+      "page_end": 174,
+      "primary_category": "Data Sharing",
+      "summary": "Defines key terms for beneficiary nominations, including 'relevant policy' (life or accident and health policies meeting specific criteria), 'retirement sum', and 'will'. These definitions are critical for trust nomination processes.",
+      "dtia_summary": "This section provides definitions that impact data transfer assessments by clarifying what constitutes policy data subject to nomination and trust arrangements.",
+      "authority": "Central Provident Fund Board",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Relevant policy means life or accident and health policy issued by licensed insurer under Singapore law",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In this Part, unless the context otherwise requires — 'relevant policy' means any life policy or accident and health policy, whether issued before, on or after 1 September 2009, which — (a) is issued by a licensed insurer; (b) is governed by Singapore law; (c) provides death benefits; (d) insures the life of the policy owner; (e) is not the subject of any trust created under section 73 of the Conveyancing and Law of Property Act 1886; and (f) is not an annuity purchased with the retirement sum under section 15(6C) of the Central Provident Fund Act 1953"
+    },
+    {
+      "section": "131 (part 2)",
+      "heading": "In this Part, unless the context otherwise requires — (cont.)",
+      "title": "Nomination revocation and death benefit distribution rules for insurance policies",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 174,
+      "page_end": 179,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines rules for revoking nominations and distributing death benefits when nominees die. If a nominee dies before the policy owner, the nomination is deemed revoked if no surviving nominee exists. If one surviving nominee exists, their portion is increased by the deceased nominee's share. If multiple survivors exist, each receives a proportional share of the deceased nominee's portion. In cases of uncertain survival, deaths are presumed to occur in order of seniority. The section also specifies when nominations are deemed revoked, such as when the policy owner assigns the policy, makes a will, or creates a new nomination. Death benefits are distributed according to the last valid nomination, the last will, or intestate succession rules as appropriate.",
+      "dtia_summary": "This section affects data transfer impact assessments by defining how death benefit distributions are handled across jurisdictions when nominees die, requiring careful assessment of nomination validity and distribution mechanisms in cross-border insurance contexts.",
+      "authority": "Insurance Act 1966 (Singapore)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "If no surviving nominee exists after a nominee dies, the nomination is deemed revoked",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If one surviving nominee exists, their portion of death benefits is increased by the deceased nominee's share",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If multiple surviving nominees exist, each receives a proportional share of the deceased nominee's portion",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "In cases of uncertain survival, deaths are presumed to occur in order of seniority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A nomination is deemed revoked if the policy owner assigns, encumbers or deals with the policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A nomination is deemed revoked if the policy owner makes a will that provides for death benefits distribution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A nomination is deemed revoked if the policy owner makes another nomination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Death benefits are distributed according to the last valid nomination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the last nomination is revoked, death benefits are distributed according to the last will",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "If the last nomination and will are revoked, death benefits are distributed according to intestate succession rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Where the policy owner of a relevant policy has made a nomination under subsection (2), and any nominee dies before the policy owner — (a) if there is no surviving nominee, the nomination is deemed to be revoked; (b) if there is only one surviving nominee, the nomination is deemed to be varied by adding, to that surviving nominee's portion of the death benefits under the policy, the deceased nominee's portion of the death benefits under the policy; and (c) if there is more than one surviving nominee, the nomination is deemed to be varied by adding, to each surviving nominee's portion of the death benefits under the policy, a share of the deceased nominee's portion of the death benefits under the policy, such share to be calculated as follows: where A is that surviving nominee's original portion of the death benefits under the policy (as set out in the nomination); B is the aggregate of all the surviving nominees' original portions of the death benefits under the policy (as set out in the nomination); and C is the deceased nominee's portion of the death benefits under the policy."
+    },
+    {
+      "section": "131 (part 3)",
+      "heading": "In this Part, unless the context otherwise requires — (cont.)",
+      "title": "Exemptions and regulatory powers for insurance authorities",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 179,
+      "page_end": 184,
+      "primary_category": "Exemptions",
+      "summary": "This section details the Authority's power to exempt individuals or classes from insurance regulations, including making regulations for exemptions, granting exemptions on applications, imposing terms and conditions, and revoking exemptions. The Authority may exempt persons from sections 4 or 75 of the Act, and exemptions can be granted with or without publication in the Gazette. The Authority may also prescribe terms and conditions for exemptions and modify them through written notices.",
+      "dtia_summary": "This section is relevant for DTIAs as it outlines exemption mechanisms that could impact data transfer by allowing certain entities to bypass specific data handling requirements, requiring careful assessment of exemption scope and conditions.",
+      "authority": "Insurance Act 1966 (Singapore)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may make regulations to exempt any person or class of persons from section 4 or 75 of the Act",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may exempt a person from all or any provisions of the Act on application",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Exemptions may be granted with terms and conditions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may revoke exemptions through written notices",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority may provide an electronic service for the service of any document that is required or authorised by this Act to be given to or served on any person."
+    },
+    {
+      "section": "131 (part 4)",
+      "heading": "In this Part, unless the context otherwise requires — (cont.)",
+      "title": "Electronic service and enforcement provisions for insurance regulations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 184,
+      "page_end": 185,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section establishes electronic service mechanisms for document delivery, including authentication codes, electronic accounts, and admissibility of electronic records in legal proceedings. It specifies that electronic records are admissible as evidence if certified by the Authority and authenticated properly, and that electronic service does not require paper counterparts. The section also outlines penalties for breaches of duty, including fines and imprisonment for individuals and corporations.",
+      "dtia_summary": "This section impacts DTIAs by defining electronic service mechanisms that could affect cross-border data transfers, requiring assessment of electronic record handling and authentication procedures in international contexts.",
+      "authority": "Insurance Act 1966 (Singapore)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may provide an electronic service for document delivery",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Authority may assign authentication codes and electronic accounts",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Electronic records are admissible as evidence if certified by the Authority and authenticated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Electronic service does not require paper counterparts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may compound offences by collecting a sum not exceeding half the maximum fine",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Authority may provide an electronic service for the service of any document that is required or authorised by this Act to be given to or served on any person."
+    },
+    {
+      "section": "144",
+      "heading": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a",
+      "title": "Jurisdiction for insurance offences across Singapore and abroad",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 185,
+      "page_end": 188,
+      "primary_category": "Cross-border Transfer",
+      "summary": "District Courts and Magistrate's Courts in Singapore have jurisdiction to try insurance offences and impose penalties under this Act, regardless of provisions in the Criminal Procedure Code 2010. This section applies to offences committed partly within and partly outside Singapore, and extends extraterritorially to acts with substantial effects in Singapore. The Authority may issue regulations to exclude certain circumstances from this extraterritorial application.",
+      "dtia_summary": "This section establishes Singapore's jurisdiction over insurance offences committed abroad with substantial effects in Singapore, requiring data transfer impact assessments to consider extraterritorial application of insurance regulations across borders.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "District Court and Magistrate's Court have jurisdiction to try any offence under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Courts have power to impose full penalty or punishment for offences under this Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Extraterritorial application applies where act is partly in and partly outside Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Extraterritorial application applies where act outside Singapore has substantial and reasonably foreseeable effect in Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Extraterritorial application applies where act would constitute offence under sections 4, 8, 70 or 75 if done in Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may specify circumstances where subsection (2) does not apply",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a District Court and a Magistrate's Court have jurisdiction to try any offence under this Act and have power to impose the full penalty or punishment in respect of any offence under this Act."
+    },
+    {
+      "section": "2009",
+      "heading": "[57",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 188,
+      "page_end": 193,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2009 (part 2)",
+      "heading": "[57 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 193,
+      "page_end": 196,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "152",
+      "heading": "No action shall lie against a person in whose house or premises or on whose",
+      "title": "Exclusion of liability for accidental fire damage",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 196,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section excludes legal action against individuals for accidental fire damage occurring on their premises. It explicitly states that no lawsuit can be brought against a person whose house, premises, or estate experiences accidental fire. However, it preserves the validity of landlord-tenant contracts and agreements made between them, which are not affected by this exclusion.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "No action shall lie against a person in whose house or premises or on whose estate any fire accidentally began",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "No action shall lie against a person in whose house or premises or on whose estate any fire accidentally began except that no contract or agreement made between landlord and tenant shall be hereby defeated or made void."
+    },
+    {
+      "section": "152 (part 2)",
+      "heading": "No action shall lie against a person in whose house or premises or on whose (cont.)",
+      "title": "Application of policy definitions to reinsurance policies",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section specifies that certain policy definitions apply to reinsurance policies. It states that sub-paragraph (1)(b) of the policy definition applies to facultative general reinsurance policies as if the references to the insured are references to the person or persons insured by the policy under which the liability reinsured ultimately arises. This ensures that reinsurance policies are treated consistently with the original policy definitions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Sub-paragraph (1)(b) applies to a policy of facultative general reinsurance as if the references to the insured are references to the person or persons insured by the policy under which the liability reinsured ultimately arises",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Sub-paragraph (1)(b) applies to a policy of facultative general reinsurance as if the references to the insured are references to the person or persons insured by the policy under which the liability reinsured ultimately arises."
+    },
+    {
+      "section": "4",
+      "heading": "\"Policy owner\" means, where a policy has been assigned, the assignee for the time being and,",
+      "title": "Fire Insurance Companies Amendment Ordinance 1924",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section details the legislative history of the Fire Insurance Companies Amendment Ordinance 1924, including its bill number, first and second readings, and commencement date. It does not contain substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Act 20 of 1924—Fire Insurance Companies Amendment Ordinance, 1924"
+    },
+    {
+      "section": "5",
+      "heading": "\"Policy moneys\" includes any benefit, pecuniary or not, which is secured by a policy, and \"pay\"",
+      "title": "Definition of policy moneys and related terms",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section defines 'policy moneys' as any benefit, pecuniary or not, secured by a policy. It also specifies that terms like 'pay' and other expressions related to policy moneys are to be construed accordingly. This definition ensures clarity on what constitutes policy-related financial benefits and how they are treated legally.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data"
+      ],
+      "requirements": [
+        {
+          "text": "Policy moneys includes any benefit, pecuniary or not, which is secured by a policy",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "\"Policy moneys\" includes any benefit, pecuniary or not, which is secured by a policy, and \"pay\" and other expressions, where used in relation to policy moneys, are to be construed accordingly."
+    },
+    {
+      "section": "6",
+      "heading": "\"Accident and health benefits\" means policy moneys which are paid out —",
+      "title": "Definition of accident and health benefits",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section defines 'accident and health benefits' as policy moneys paid out in specific circumstances, including injuries or disabilities from accidents or sickness, conditions or diseases stated in the policy, health services, death by accident or other causes stated in the policy, or combinations thereof. It explicitly excludes policy moneys related to compensation or damages for losses.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Accident and health benefits means policy moneys which are paid out in the event of an injury to, or a disability of, the insured as a result of accident or sickness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accident and health benefits means policy moneys which are paid out in the event of the insured being found to have a condition or disease stated in the policy",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accident and health benefits means policy moneys which are paid out with respect to health services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accident and health benefits means policy moneys which are paid out on the death, by accident or some other cause stated in the policy, of the insured",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accident and health benefits means policy moneys which are paid out on the happening of a combination of any of the above",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Accident and health benefits does not include policy moneys that are payable with respect to any loss arising out of a liability to pay compensation or damages",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "\"Accident and health benefits\" means policy moneys which are paid out — (a) in the event of an injury to, or a disability of, the insured as a result of accident or sickness; (b) in the event of the insured being found to have a condition or disease stated in the policy of the insured; (c) with respect to health services; (d) on the death, by accident or some other cause stated in the policy, of the insured; or (e) on the happening of a combination of any of the above, but does not include policy moneys that are payable with respect to any loss arising out of a liability to pay compensation or damages."
+    },
+    {
+      "section": "7",
+      "heading": "\"Health services\" means —",
+      "title": "Fire Insurance Companies (Amendment) Ordinance 1949",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 201,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative history of the Fire Insurance Companies (Amendment) Ordinance 1949, including its bill number, reading dates, and commencement date. It contains no substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Act 46 of 1949—Fire Insurance Companies (Amendment) Ordinance, 1949"
+    },
+    {
+      "section": "8",
+      "heading": "\"Accident and health policy\" means any policy which provides accident and health benefits only.",
+      "title": "Law Revision (Penalties Amendment) Ordinance 1952",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 201,
+      "page_end": 202,
+      "primary_category": "Other",
+      "summary": "This section describes the legislative history of the Law Revision (Penalties Amendment) Ordinance 1952, including its bill number, reading dates, and commencement date. It does not contain substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952"
+    },
+    {
+      "section": "12",
+      "heading": "\"Living benefits\" means policy moneys which are paid out before the death of the insured.",
+      "title": "Life Assurance Companies (Amendment) Ordinance 1918",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 202,
+      "page_end": 202,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative history of the Life Assurance Companies (Amendment) Ordinance 1918, including its bill number, reading dates, and commencement date. It contains no substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance 14 of 1918—Life Assurance Companies (Amendment) Ordinance, 1918"
+    },
+    {
+      "section": "14",
+      "heading": "\"Investment-linked policy\" means any policy which provides benefits calculated by reference to",
+      "title": "Amendment of Statute Laws (Revised Edition) Ordinance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 202,
+      "page_end": 203,
+      "primary_category": "Other",
+      "summary": "This section amends the Statute Laws (Revised Edition) Amendment Ordinance of 1922, which was enacted to revise the Statute Laws of Singapore. The amendments were made by section 10 of the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 10 of the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 32 of 1922—Statute Laws (Revised Edition) Amendment Ordinance, 1922 (Amendments made by section 10 of the above Ordinance)"
+    },
+    {
+      "section": "2",
+      "heading": "Section 138(3).",
+      "title": "Reference to Section 138(3) of the Act",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 203,
+      "page_end": 203,
+      "primary_category": "Definitions",
+      "summary": "This section references Section 138(3) of the Insurance Act 1966, indicating that it is a legislative reference rather than a substantive definition. It does not define any new terms but points to another section for specific requirements.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Section 138(3) of the Act",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "2. Section 138(3)."
+    },
+    {
+      "section": "1",
+      "heading": "Ordinance 25 of 1917—Fire Insurance Companies Ordinance 1917",
+      "title": "",
+      "chapter": "CHAPTER 177",
+      "part": "part o",
+      "condition": null,
+      "page_start": 203,
+      "page_end": 204,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "Ordinance 32 of 1922—Statute Laws (Revised Edition) Amendment Ordinance, 1922",
+      "title": "",
+      "chapter": "CHAPTER 177",
+      "part": "part o",
+      "condition": null,
+      "page_start": 204,
+      "page_end": 204,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "Act 20 of 1924—Fire Insurance Companies Amendment Ordinance, 1924",
+      "title": "Fire Insurance Companies Amendment Ordinance 1924",
+      "chapter": "CHAPTER 177",
+      "part": "part o",
+      "condition": null,
+      "page_start": 204,
+      "page_end": 204,
+      "primary_category": "Other",
+      "summary": "This section details the legislative history of the Fire Insurance Companies Amendment Ordinance 1924, including its bill number, first and second readings, and commencement date. It does not contain substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Act 20 of 1924—Fire Insurance Companies Amendment Ordinance, 1924"
+    },
+    {
+      "section": "7",
+      "heading": "Act 46 of 1949—Fire Insurance Companies (Amendment) Ordinance, 1949",
+      "title": "Fire Insurance Companies (Amendment) Ordinance 1949",
+      "chapter": "Chapter 152",
+      "part": "part o",
+      "condition": null,
+      "page_start": 204,
+      "page_end": 205,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative history of the Fire Insurance Companies (Amendment) Ordinance 1949, including its bill number, reading dates, and commencement date. It contains no substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Act 46 of 1949—Fire Insurance Companies (Amendment) Ordinance, 1949"
+    },
+    {
+      "section": "8",
+      "heading": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952",
+      "title": "Law Revision (Penalties Amendment) Ordinance 1952",
+      "chapter": "Chapter 152",
+      "part": "part o",
+      "condition": null,
+      "page_start": 205,
+      "page_end": 205,
+      "primary_category": "Other",
+      "summary": "This section describes the legislative history of the Law Revision (Penalties Amendment) Ordinance 1952, including its bill number, reading dates, and commencement date. It does not contain substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952"
+    },
+    {
+      "section": "10",
+      "heading": "Ordinance XXXIII of 1914—The Life Assurance Companies' Ordinance 1914",
+      "title": "Life Assurance Companies' Ordinance 1914",
+      "chapter": "CHAPTER 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 205,
+      "page_end": 205,
+      "primary_category": "Other",
+      "summary": "This section provides the legislative history of the Life Assurance Companies' Ordinance 1914, including its bill number, reading dates, and commencement date. It contains no substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance XXXIII of 1914—The Life Assurance Companies' Ordinance 1914"
+    },
+    {
+      "section": "11",
+      "heading": "Ordinance 11 of 1916—The Life Assurance Companies (Amendment) Ordinance 1915",
+      "title": "Life Assurance Companies (Amendment) Ordinance 1915",
+      "chapter": "CHAPTER 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 205,
+      "page_end": 206,
+      "primary_category": "Other",
+      "summary": "This section details the legislative history of the Life Assurance Companies (Amendment) Ordinance 1915, including its bill number, reading dates, and commencement date. It does not contain substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance 11 of 1916—The Life Assurance Companies (Amendment) Ordinance 1915"
+    },
+    {
+      "section": "12",
+      "heading": "Ordinance 14 of 1918—Life Assurance Companies (Amendment) Ordinance, 1918",
+      "title": "Life Assurance Companies (Amendment) Ordinance 1918",
+      "chapter": "CHAPTER 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 206,
+      "page_end": 206,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative history of the Life Assurance Companies (Amendment) Ordinance 1918, including its bill number, reading dates, and commencement date. It contains no substantive legal obligations or provisions for data transfer.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Ordinance 14 of 1918—Life Assurance Companies (Amendment) Ordinance, 1918"
+    },
+    {
+      "section": "14",
+      "heading": "Ordinance 32 of 1922—Statute Laws (Revised Edition) Amendment Ordinance, 1922",
+      "title": "Amendment of Statute Laws (Revised Edition) Ordinance",
+      "chapter": "CHAPTER 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 206,
+      "page_end": 206,
+      "primary_category": "Other",
+      "summary": "This section amends the Statute Laws (Revised Edition) Amendment Ordinance of 1922, which was enacted to revise the Statute Laws of Singapore. The amendments were made by section 10 of the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 10 of the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 32 of 1922—Statute Laws (Revised Edition) Amendment Ordinance, 1922 (Amendments made by section 10 of the above Ordinance)"
+    },
+    {
+      "section": "17",
+      "heading": "Ordinance 45 of 1949—Life Assurance Companies (Amendment) Ordinance, 1949",
+      "title": "Life Assurance Companies Amendment Ordinance",
+      "chapter": "Chapter 153",
+      "part": "part o",
+      "condition": null,
+      "page_start": 206,
+      "page_end": 207,
+      "primary_category": "Other",
+      "summary": "This section amends the Life Assurance Companies (Amendment) Ordinance of 1949, which was enacted to revise regulations for life assurance companies in Singapore. The Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill: G.N. No. S 240/1949",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 45 of 1949—Life Assurance Companies (Amendment) Ordinance, 1949"
+    },
+    {
+      "section": "18",
+      "heading": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952",
+      "title": "Law Revision (Penalties Amendment) Ordinance",
+      "chapter": "Chapter 153",
+      "part": "part o",
+      "condition": null,
+      "page_start": 207,
+      "page_end": 207,
+      "primary_category": "Other",
+      "summary": "This section amends the Law Revision (Penalties Amendment) Ordinance of 1952, which was enacted to revise penalties in Singapore law. The amendments were made by section 2 read with item 47 of the Schedule to the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 2 read with item 47 of the Schedule to the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 37 of 1952—Law Revision (Penalties Amendment) Ordinance, 1952"
+    },
+    {
+      "section": "20",
+      "heading": "Ordinance 13 of 1958—Life Assurance Companies (Amendment) Ordinance, 1958",
+      "title": "Life Assurance Companies Amendment Ordinance",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 207,
+      "page_end": 207,
+      "primary_category": "Other",
+      "summary": "This section amends the Life Assurance Companies (Amendment) Ordinance of 1958, which was enacted to revise regulations for life assurance companies in Singapore. The Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill: 133/1958",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 13 of 1958—Life Assurance Companies (Amendment) Ordinance, 1958"
+    },
+    {
+      "section": "21",
+      "heading": "Ordinance 71 of 1959—Transfer of Powers Ordinance, 1959",
+      "title": "Transfer of Powers Ordinance",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 207,
+      "page_end": 208,
+      "primary_category": "Other",
+      "summary": "This section amends the Transfer of Powers Ordinance of 1959, which was enacted to transfer powers in Singapore. The amendments were made by section 4 read with the First Schedule to the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 4 read with the First Schedule to the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 71 of 1959—Transfer of Powers Ordinance, 1959"
+    },
+    {
+      "section": "22",
+      "heading": "Ordinance 14 of 1962—Life Assurance Companies (Compulsory Liquidation) Ordinance,",
+      "title": "Life Assurance Companies Compulsory Liquidation Ordinance",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 208,
+      "page_end": 208,
+      "primary_category": "Other",
+      "summary": "This section amends the Life Assurance Companies (Compulsory Liquidation) Ordinance of 1962, which was enacted to regulate the compulsory liquidation of life assurance companies in Singapore. The amendments were made by section 14 of the Ordinance, and the Ordinance was passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 14 of the above Ordinance",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Ordinance 14 of 1962—Life Assurance Companies (Compulsory Liquidation) Ordinance, 1962"
+    },
+    {
+      "section": "23",
+      "heading": "M. Act 1 of 1963—Insurance Act, 1963",
+      "title": "Commencement and application dates for Insurance Act 1963",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 208,
+      "page_end": 208,
+      "primary_category": "Other",
+      "summary": "This section specifies the commencement date of the Insurance Act 1963 as 21 January 1963 and its application date as 1 January 1965. It notes that the Act was extended to Singapore with modifications by the Modification of Laws (Insurance) (Extension) Order, 1964 on 1 January 1965.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Insurance Act 1963 commenced on 21 January 1963",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1963 applied from 1 January 1965",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "M. Act 1 of 1963—Insurance Act, 1963 Commencement: 21 January 1963 Application: 1 January 1965"
+    },
+    {
+      "section": "24",
+      "heading": "L.N. 470/1964 (G.N. Sp. No. S 14/1965)—Modification of Laws (Insurance) (Extension)",
+      "title": "Extension of Insurance Act 1963 to Singapore with modifications",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 208,
+      "page_end": 208,
+      "primary_category": "Other",
+      "summary": "This section details the Modification of Laws (Insurance) (Extension) Order, 1964, which extended the Insurance Act 1963 to Singapore with modifications. It specifies that the Order commenced on 1 January 1965 and repealed two specific ordinances while extending the Federation of Malaya Insurance Act, 1963 to Singapore.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Modification of Laws (Insurance) (Extension) Order, 1964 commenced on 1 January 1965",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Order repealed the Fire Insurance Companies Ordinance (Chapter 177, 1955 Revised Edition) and the Life Assurance Companies Ordinance (Chapter 178, 1955 Revised Edition)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Order extended the Federation of Malaya Insurance Act, 1963 with modifications to Singapore",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "L.N. 470/1964 (G.N. Sp. No. S 14/1965)—Modification of Laws (Insurance) (Extension) Order, 1964 Commencement: 1 January 1965"
+    },
+    {
+      "section": "25",
+      "heading": "L.N. 133/1965 (G.N. Sp. No. S 67/1965—Modification of Laws (Insurance) (Extension)",
+      "title": "Modification of Laws (Insurance) (Extension) Order, 1965",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 208,
+      "page_end": 209,
+      "primary_category": "Other",
+      "summary": "This section refers to the Modification of Laws (Insurance) (Extension) Order, 1965, which commenced on 1 January 1965. It is part of the Insurance Act 1966 (2020 Revised Edition) and indicates the current version of the law as of 13 July 2026.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Modification of Laws (Insurance) (Extension) Order, 1965 commenced on 1 January 1965",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "L.N. 133/1965 (G.N. Sp. No. S 67/1965—Modification of Laws (Insurance) (Extension) Order, 1964 Commencement: 1 January 1965"
+    },
+    {
+      "section": "26",
+      "heading": "Act 46 of 1966—Insurance Act, 1966",
+      "title": "Insurance Act 1966 commencement details",
+      "chapter": "Chapter 178",
+      "part": "part o",
+      "condition": null,
+      "page_start": 209,
+      "page_end": 209,
+      "primary_category": "Other",
+      "summary": "This section provides the details of the Insurance Act 1966, including its bill number (40/1966), first reading date (26 October 1966), second reading date (5 December 1966), notice of amendments date (5 December 1966), third reading date (5 December 1966), and commencement date (1 January 1967).",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Insurance Act 1966 was introduced as Bill 40/1966",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1966 had its first reading on 26 October 1966",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1966 had its second reading on 5 December 1966",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1966 had its notice of amendments on 5 December 1966",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1966 had its third reading on 5 December 1966",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance Act 1966 commenced on 1 January 1967",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 46 of 1966—Insurance Act, 1966 Bill: 40/1966 First Reading: 26 October 1966 Second Reading: 5 December 1966 Notice of Amendments: 5 December 1966 Third Reading: 5 December 1966 Commencement: 1 January 1967"
+    },
+    {
+      "section": "30",
+      "heading": "Act 50 of 1975—Insurance (Amendment) Act, 1975",
+      "title": "Insurance (Amendment) Act 1975 commencement details",
+      "chapter": "Chapter 193",
+      "part": "part o",
+      "condition": null,
+      "page_start": 209,
+      "page_end": 210,
+      "primary_category": "Other",
+      "summary": "This section outlines the Insurance (Amendment) Act 1975, including its bill number (54/1975), first reading date (11 November 1975), second and third reading dates (20 November 1975), and commencement date (1 January 1976). It also notes that section 7 of the Act, read with paragraph 4 of the Second Schedule, commenced on 12 November 1993.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Insurance (Amendment) Act 1975 was introduced as Bill 54/1975",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance (Amendment) Act 1975 had its first reading on 11 November 1975",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance (Amendment) Act 1975 had its second and third readings on 20 November 1975",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Insurance (Amendment) Act 1975 commenced on 1 January 1976",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Section 7 of the Act, read with paragraph 4 of the Second Schedule, commenced on 12 November 1993",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 50 of 1975—Insurance (Amendment) Act, 1975 Bill: 54/1975 First Reading: 11 November 1975 Second and Third Readings: 20 November 1975 Commencement: 1 January 1976"
+    },
+    {
+      "section": "33",
+      "heading": "Act 35 of 1993—Application of English Law Act 1993",
+      "title": "Application of English Law Act 1993 commencement details",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 210,
+      "page_end": 210,
+      "primary_category": "Other",
+      "summary": "This section details the Application of English Law Act 1993, including its bill number (26/1993), first reading date (30 August 1993), second reading date (12 October 1993), notice of amendments date (12 October 1993), third reading date (12 October 1993), and commencement date (12 November 1993). It also specifies that section 7 of the Act, read with paragraph 4 of the Second Schedule, commenced on 12 November 1993.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "The Application of English Law Act 1993 was introduced as Bill 26/1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its first reading on 30 August 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its second reading on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its notice of amendments on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 had its third reading on 12 October 1993",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Application of English Law Act 1993 commenced on 12 November 1993",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 35 of 1993—Application of English Law Act 1993 Bill: 26/1993 First Reading: 30 August 1993 Second Reading: 12 October 1993 Notice of Amendments: 12 October 1993 Third Reading: 12 October 1993 Commencement: 12 November 1993"
+    },
+    {
+      "section": "37",
+      "heading": "Act 25 of 1999—Drug Trafficking (Confiscation of Benefits) (Amendment) Act 1999",
+      "title": "Amendment to Drug Trafficking (Confiscation of Benefits) Act 1999",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 211,
+      "page_end": 211,
+      "primary_category": "Other",
+      "summary": "This section amends the Drug Trafficking (Confiscation of Benefits) Act 1999 through the Amendment Act 1999. It specifies the commencement date of the amendments as 13 September 1999, effective after the Bill's passage through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 31 read with item (6) of the Schedule to the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 25 of 1999—Drug Trafficking (Confiscation of Benefits) (Amendment) Act 1999 (Amendments made by section 31 read with item (6) of the Schedule to the above Act)"
+    },
+    {
+      "section": "40",
+      "heading": "Act 41 of 2001—Insurance (Amendment) Act 2001",
+      "title": "Amendment to Insurance Act 2001",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 211,
+      "page_end": 212,
+      "primary_category": "Other",
+      "summary": "This section amends the Insurance (Amendment) Act 2001, which was enacted as Bill 35/2001. The amendments came into effect on 8 January 2002, except for section 20 which commenced on 1 October 2002.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement: 8 January 2002 (except section 20)",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 1 October 2002 (section 20)",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 41 of 2001—Insurance (Amendment) Act 2001 (Commencement: 8 January 2002 (except section 20), 1 October 2002 (section 20))"
+    },
+    {
+      "section": "42",
+      "heading": "Act 23 of 2003—Insurance (Amendment) Act 2003",
+      "title": "Amendment to Insurance Act 2003",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 212,
+      "page_end": 212,
+      "primary_category": "Other",
+      "summary": "This section amends the Insurance (Amendment) Act 2003, enacted as Bill 20/2003. The amendments came into effect on 1 January 2004, except for sections 18(d), (e), 19 and 20(c) which commenced on 23 August 2004.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement: 1 January 2004 (except sections 18(d) and (e), 19 and 20(c))",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 23 August 2004 (sections 18(d) and (e), 19 and 20(c))",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 23 of 2003—Insurance (Amendment) Act 2003 (Commencement: 1 January 2004 (except sections 18(d) and (e), 19 and 20(c)), 23 August 2004 (sections 18(d) and (e), 19 and 20(c)))"
+    },
+    {
+      "section": "43",
+      "heading": "Act 24 of 2003—Monetary Authority of Singapore (Amendment) Act 2003",
+      "title": "Amendment to Monetary Authority of Singapore Act 2003",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 212,
+      "page_end": 212,
+      "primary_category": "Other",
+      "summary": "This section amends the Monetary Authority of Singapore (Amendment) Act 2003 through the Amendment Act 2003. The amendments came into effect on 1 January 2004, following the Bill's passage through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 13 read with item (5) of the Schedule to the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 24 of 2003—Monetary Authority of Singapore (Amendment) Act 2003 (Amendments made by section 13 read with item (5) of the Schedule to the above Act)"
+    },
+    {
+      "section": "44",
+      "heading": "Act 5 of 2005—Limited Liability Partnerships Act 2005",
+      "title": "Amendment to Limited Liability Partnerships Act 2005",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 212,
+      "page_end": 213,
+      "primary_category": "Other",
+      "summary": "This section amends the Limited Liability Partnerships Act 2005 through the Amendment Act 2005. The amendments came into effect on 11 April 2005, following the Bill's passage through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 60 read with item (9) of the Sixth Schedule to the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 5 of 2005—Limited Liability Partnerships Act 2005 (Amendments made by section 60 read with item (9) of the Sixth Schedule to the above Act)"
+    },
+    {
+      "section": "45",
+      "heading": "Act 21 of 2005—Companies (Amendment) Act 2005",
+      "title": "Amendment to Companies Act 2005",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 213,
+      "page_end": 213,
+      "primary_category": "Other",
+      "summary": "This section amends the Companies (Amendment) Act 2005, enacted as Bill 11/2005. The amendments came into effect on 30 January 2006, following the Bill's passage through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement: 30 January 2006 (section 58 read with item (6) of the Schedule)",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 21 of 2005—Companies (Amendment) Act 2005 (Commencement: 30 January 2006 (section 58 read with item (6) of the Schedule))"
+    },
+    {
+      "section": "46",
+      "heading": "Act 42 of 2005—Statutes (Miscellaneous Amendments) () Act 2005",
+      "title": "Amendments to Statutes (Miscellaneous Amendments) Act 2005",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 213,
+      "page_end": 213,
+      "primary_category": "Other",
+      "summary": "This section details the legislative amendments made by the Statutes (Miscellaneous Amendments) Act 2005, which came into effect on 1 April 2006. It specifies the bill number (30/2005), the dates of first and second/third readings, and the commencement date for the amendments. The amendments are made by section 5 read with item (16) of the First Schedule to the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 5 read with item (16) of the First Schedule to the Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 42 of 2005—Statutes (Miscellaneous Amendments) () Act 2005 (Amendments made by section 5 read with item (16) of the First Schedule to the above Act)"
+    },
+    {
+      "section": "47",
+      "heading": "Act 5 of 2008—Workmen's Compensation (Amendment) Act 2008",
+      "title": "Workmen's Compensation (Amendment) Act 2008",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 213,
+      "page_end": 213,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative amendments made by the Workmen's Compensation (Amendment) Act 2008, effective from 1 April 2008. It specifies the bill number (50/2007), the dates of first and second/third readings, and the commencement date for the amendments. The amendments are made by section 40 read with item (8) of the Schedule to the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 40 read with item (8) of the Schedule to the Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 5 of 2008—Workmen's Compensation (Amendment) Act 2008 (Amendments made by section 40 read with item (8) of the Schedule to the above Act)"
+    },
+    {
+      "section": "48",
+      "heading": "Act 3 of 2009—Insurance (Amendment) Act 2009",
+      "title": "Insurance (Amendment) Act 2009",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 213,
+      "page_end": 214,
+      "primary_category": "Other",
+      "summary": "This section details the legislative amendments made by the Insurance (Amendment) Act 2009, effective from 1 March 2009 and 1 September 2009. It specifies the bill number (28/2008), the dates of first and second/third readings, and the commencement dates for different sections of the Act. The amendments are made by sections 3 and 4 for the first commencement date and sections 2, 5 to 11 and 13 for the second.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement on 1 March 2009 (sections 3 and 4)",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement on 1 September 2009 (sections 2, 5 to 11 and 13)",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 3 of 2009—Insurance (Amendment) Act 2009 (Commencement: 1 March 2009 (sections 3 and 4); 1 September 2009 (sections 2, 5 to 11 and 13))"
+    },
+    {
+      "section": "52",
+      "heading": "Act 11 of 2013—Insurance (Amendment) Act 2013",
+      "title": "Insurance (Amendment) Act 2013",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 214,
+      "page_end": 214,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative amendments made by the Insurance (Amendment) Act 2013, effective from 18 April 2013 and 1 January 2014. It specifies the bill number (5/2013), the dates of first, second, and third readings, and the commencement dates for different sections of the Act. The amendments are made by section 65(a) and (b) for the second commencement date.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement on 18 April 2013 (except section 65(a) and (b))",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement on 1 January 2014 (section 65(a) and (b))",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 11 of 2013—Insurance (Amendment) Act 2013 (Commencement: 18 April 2013 (except section 65(a) and (b)); 1 January 2014 (section 65(a) and (b)))"
+    },
+    {
+      "section": "53",
+      "heading": "Act 35 of 2014—Statutes (Miscellaneous Amendments) () Act 2014",
+      "title": "Statutes (Miscellaneous Amendments) Act 2014",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 214,
+      "page_end": 215,
+      "primary_category": "Other",
+      "summary": "This section details the legislative amendments made by the Statutes (Miscellaneous Amendments) Act 2014, effective from 1 July 2015. It specifies the bill number (24/2014), the dates of first and second/third readings, and the commencement date for the amendments. The amendments are made by section 9 of the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 9 of the Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 35 of 2014—Statutes (Miscellaneous Amendments) () Act 2014 (Amendments made by section 9 of the above Act)"
+    },
+    {
+      "section": "55",
+      "heading": "Act 29 of 2014—Business Names Registration Act 2014",
+      "title": "Business Names Registration Act 2014",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 215,
+      "page_end": 215,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative amendments made by the Business Names Registration Act 2014, effective from 3 January 2016. It specifies the bill number (26/2014), the dates of first and second/third readings, and the commencement date for the amendments. The amendments are made by section 47 read with item 9 of the Schedule to the Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Commencement on 3 January 2016 (section 47 read with item 9 of the Schedule)",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 29 of 2014—Business Names Registration Act 2014 (Commencement: 3 January 2016 (section 47 read with item 9 of the Schedule))"
+    },
+    {
+      "section": "56",
+      "heading": "Act 26 of 2016—Central Provident Fund (Amendment ) Act 2016",
+      "title": "Central Provident Fund Amendment Act 2016 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 215,
+      "page_end": 215,
+      "primary_category": "Other",
+      "summary": "This section details the legislative process for the Central Provident Fund (Amendment) Act 2016, including its bill number, first and second/third readings dates, and commencement dates. The amendments were made by section 20(2) of the Act and came into effect on 1 January 2017.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 26/2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 13 September 2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 10 October 2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 1 January 2017 (section 20(2))",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 26 of 2016—Central Provident Fund (Amendment ) Act 2016 (Amendments made by section 20(2) of the above Act) Bill: 26/2016 First Reading: 13 September 2016 Second and Third Readings: 10 October 2016 Commencement: 1 January 2017 (section 20(2))"
+    },
+    {
+      "section": "57",
+      "heading": "Act 31 of 2017—Monetary Authority of Singapore (Amendment) Act 2017",
+      "title": "Monetary Authority of Singapore Amendment Act 2017 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 215,
+      "page_end": 216,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative process for the Monetary Authority of Singapore (Amendment) Act 2017, including its bill number, first and second/third readings dates, and commencement dates. The amendments were made by section 43 of the Act and came into effect on 5 June 2018 and 29 October 2018.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 25/2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 8 May 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 4 July 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 5 June 2018 (section 43(a) and (b))",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 29 October 2018 (sections 43(c) to (i))",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 31 of 2017—Monetary Authority of Singapore (Amendment) Act 2017 (Amendments made by section 43 of the above Act) Bill: 25/2017 First Reading: 8 May 2017 Second and Third Readings: 4 July 2017 Commencement: 5 June 2018 (section 43(a) and (b)) 29 October 2018 (sections 43(c) to (i))"
+    },
+    {
+      "section": "58",
+      "heading": "Act 4 of 2017—Securities and Futures (Amendment) Act 2017",
+      "title": "Securities and Futures Amendment Act 2017 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 216,
+      "page_end": 216,
+      "primary_category": "Other",
+      "summary": "This section details the legislative process for the Securities and Futures (Amendment) Act 2017, including its bill number, first and second/third readings dates, and commencement date. The amendments were made by section 205 of the Act and came into effect on 8 October 2018.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 35/2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 7 November 2016",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 9 January 2017",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 8 October 2018 (section 205)",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 4 of 2017—Securities and Futures (Amendment) Act 2017 (Amendments made by section 205 of the above Act) Bill: 35/2016 First Reading: 7 November 2016 Second and Third Readings: 9 January 2017 Commencement: 8 October 2018 (section 205)"
+    },
+    {
+      "section": "59",
+      "heading": "Act 31 of 2018—Deposit Insurance and Policy Owners' Protection Schemes (Amendment)",
+      "title": "Deposit Insurance and Policy Owners' Protection Schemes Amendment Act 2018 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 216,
+      "page_end": 216,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative process for the Deposit Insurance and Policy Owners' Protection Schemes (Amendment) Act 2018, including its bill number, first and second/third readings dates, and commencement date. The amendments were made by section 38 of the Act and came into effect on 1 April 2019.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 21/2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 17 May 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 9 July 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 1 April 2019 (section 38)",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 31 of 2018—Deposit Insurance and Policy Owners' Protection Schemes (Amendment) Act 2018 (Amendments made by section 38 of the above Act) Bill: 21/2018 First Reading: 17 May 2018 Second and Third Readings: 9 July 2018 Commencement: 1 April 2019 (section 38)"
+    },
+    {
+      "section": "60",
+      "heading": "Act 2 of 2019—Payment Services Act 2019",
+      "title": "Payment Services Act 2019 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 216,
+      "page_end": 216,
+      "primary_category": "Other",
+      "summary": "This section details the legislative process for the Payment Services Act 2019, including its bill number, first and second/third readings dates, and commencement date. The amendments were made by section 115 of the Act and came into effect on 28 January 2020.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 48/2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 19 November 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 14 January 2019",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 28 January 2020 (section 115)",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 2 of 2019—Payment Services Act 2019 (Amendments made by section 115 of the above Act) Bill: 48/2018 First Reading: 19 November 2018 Second and Third Readings: 14 January 2019 Commencement: 28 January 2020 (section 115)"
+    },
+    {
+      "section": "61",
+      "heading": "Act 40 of 2018—Insolvency, Restructuring and Dissolution Act 2018",
+      "title": "Insolvency, Restructuring and Dissolution Act 2018 legislative process",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 216,
+      "page_end": 217,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative process for the Insolvency, Restructuring and Dissolution Act 2018, including its bill number, first and second/third readings dates, and commencement date. The amendments were made by section 483 of the Act and came into effect on 30 July 2020.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 32/2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading on 10 September 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings on 1 October 2018",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement on 30 July 2020 (section 483)",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 40 of 2018—Insolvency, Restructuring and Dissolution Act 2018 (Amendments made by section 483 of the above Act) Bill: 32/2018 First Reading: 10 September 2018 Second and Third Readings: 1 October 2018 Commencement: 30 July 2020 (section 483)"
+    },
+    {
+      "section": "62",
+      "heading": "Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019",
+      "title": "Supreme Court of Judicature Amendment Act 2019",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 217,
+      "page_end": 217,
+      "primary_category": "Other",
+      "summary": "This section amends the Supreme Court of Judicature (Amendment) Act 2019, which was enacted to update the structure of Singapore's judiciary. The Act specifies the bill number, reading dates, amendment notices, and commencement dates for the legislation. It does not impose direct obligations on data transfer or processing activities.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 28(1) read with item 75 of the Schedule to the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019 (Amendments made by section 28(1) read with item 75 of the Schedule to the above Act)"
+    },
+    {
+      "section": "63",
+      "heading": "Act 1 of 2020—Banking (Amendment) Act 2020",
+      "title": "Banking (Amendment) Act 2020",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 217,
+      "page_end": 217,
+      "primary_category": "Other",
+      "summary": "This section amends the Banking (Amendment) Act 2020, which updates banking regulations in Singapore. The Act details the bill number, reading dates, and commencement date for the legislation. It does not directly address data transfer or processing obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by section 56 of the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 1 of 2020—Banking (Amendment) Act 2020 (Amendments made by section 56 of the above Act)"
+    },
+    {
+      "section": "66",
+      "heading": "Act 25 of 2021—Courts (Civil and Criminal Justice) Reform Act 2021",
+      "title": "Courts (Civil and Criminal Justice) Reform Act 2021",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 217,
+      "page_end": 218,
+      "primary_category": "Other",
+      "summary": "This section amends the Courts (Civil and Criminal Justice) Reform Act 2021, which reformed Singapore's court system. The Act specifies the bill number, reading dates, and commencement date for the legislation. It does not impose direct obligations on data transfer or processing activities.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill: 18/2021",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "First Reading: 26 July 2021",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Second and Third Readings: 14 September 2021",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 1 April 2022",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 25 of 2021—Courts (Civil and Criminal Justice) Reform Act 2021 (Bill: 18/2021; First Reading: 26 July 2021; Second and Third Readings: 14 September 2021; Commencement: 1 April 2022)"
+    },
+    {
+      "section": "67",
+      "heading": "Act 31 of 2022—Statutes (Miscellaneous Amendments) Act 2022",
+      "title": "Statutes (Miscellaneous Amendments) Act 2022",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 218,
+      "page_end": 218,
+      "primary_category": "Other",
+      "summary": "This section amends the Statutes (Miscellaneous Amendments) Act 2022, which makes various amendments to existing statutes. The Act details the bill number, reading dates, and commencement date for the legislation. It does not directly address data transfer or processing obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 31 of 2022—Statutes (Miscellaneous Amendments) Act 2022 (Amendments made by the above Act)"
+    },
+    {
+      "section": "68",
+      "heading": "Act 18 of 2022—Financial Services and Markets Act 2022",
+      "title": "Financial Services and Markets Act 2022",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 218,
+      "page_end": 218,
+      "primary_category": "Other",
+      "summary": "This section amends the Financial Services and Markets Act 2022, which regulates financial services in Singapore. The Act specifies the bill number, reading dates, and commencement dates for different sections of the legislation. It does not directly impose data transfer or processing obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill: 4/2022",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "First Reading: 14 February 2022",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Second and Third Readings: 5 April 2022",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 28 April 2023 (Section 204(5), (6) and (7))",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 10 May 2024 (Section 204(8) and (9))",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Commencement: 31 July 2024 (Section 204(1) to (4))",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 18 of 2022—Financial Services and Markets Act 2022 (Bill: 4/2022; First Reading: 14 February 2022; Second and Third Readings: 5 April 2022; Commencement: 28 April 2023 (Section 204(5), (6) and (7)); 10 May 2024 (Section 204(8) and (9)); 31 July 2024 (Section 204(1) to (4)))"
+    },
+    {
+      "section": "69",
+      "heading": "Act 37 of 2024—Insurance (Amendment) Act 2024",
+      "title": "Insurance (Amendment) Act 2024",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 218,
+      "page_end": 218,
+      "primary_category": "Other",
+      "summary": "This section amends the Insurance (Amendment) Act 2024, which updates insurance regulations in Singapore. The Act details the bill number, reading dates, and commencement date for the legislation. It does not directly impose data transfer or processing obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Amendments made by the above Act",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Act 37 of 2024—Insurance (Amendment) Act 2024 (Amendments made by the above Act)"
+    },
+    {
+      "section": "70",
+      "heading": "Act 12 of 2024—Financial Institutions (Miscellaneous Amendments) Act 2024",
+      "title": "Amendments to Financial Institutions Act 2024",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 218,
+      "page_end": 219,
+      "primary_category": "Other",
+      "summary": "This section amends the Financial Institutions (Miscellaneous Amendments) Act 2024, which updates the Insurance Act 1966. It specifies the bill number (4/2024) and legislative timeline including first and second/third readings dates, and commencement dates for the amendments. The amendments are effective from 30 August 2024 with a second commencement date of 24 January 2025.",
+      "dtia_summary": "",
+      "authority": "Singapore Statutes Online",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Amendments made by the Financial Institutions (Miscellaneous Amendments) Act 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Bill number 4/2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "First Reading on 10 January 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Second and Third Readings on 7 March 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commencement on 30 August 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commencement on 24 January 2025",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 12 of 2024—Financial Institutions (Miscellaneous Amendments) Act 2024 (Amendments made by the above Act)"
+    },
+    {
+      "section": "71",
+      "heading": "Act 5 of 2025—Electronic Gazette and Legislation Act 2025",
+      "title": "Electronic Gazette and Legislation Act 2025",
+      "chapter": "Chapter 142",
+      "part": "part o",
+      "condition": null,
+      "page_start": 219,
+      "page_end": 229,
+      "primary_category": "Other",
+      "summary": "This section details the Electronic Gazette and Legislation Act 2025, including its bill number (47/2024), first and second/third readings dates, and commencement date (9 March 2025). It provides a comparative table showing renumbering of the Insurance Act 1966 in the 2020 Revised Edition, with many sections marked as deleted or repealed by subsequent acts.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill number 47/2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "First Reading on 11 November 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Second and Third Readings on 7 January 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commencement on 9 March 2025",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Act 5 of 2025—Electronic Gazette and Legislation Act 2025"
+    }
+  ]
+}

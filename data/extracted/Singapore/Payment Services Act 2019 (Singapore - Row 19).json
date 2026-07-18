@@ -1,0 +1,2013 @@
+{
+  "country": "Singapore",
+  "document": "Payment Services Act 2019 (Singapore - Row 19)",
+  "generated": "2026-07-18T17:57:33",
+  "sections": [
+    {
+      "section": "21",
+      "heading": "Section 14 of the Currency Act 1967 does not apply to the issue of e-money.",
+      "title": "Digital payment token services: regulatory requirements for asset commingling and customer funds",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 51,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A licensee providing digital payment token services must comply with regulations under section 103(1) regarding asset commingling, customer fund safeguards, insurance against insolvency, data protection, and specific operational requirements for digital payment tokens. These obligations apply to licensees handling digital payment tokens as part of their payment services. The regulations specify detailed requirements for safeguarding customer assets, ensuring data protection, and maintaining specific financial safeguards.",
+      "dtia_summary": "This section mandates strict safeguards for customer funds in digital payment token services, requiring segregation of assets, insurance against insolvency, and specific operational procedures for handling digital payment tokens. These requirements directly impact cross-border data transfers involving digital payment tokens by imposing strict financial safeguards and operational controls.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A licensee providing digital payment token service must satisfy regulations on asset commingling with other assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must maintain prescribed amount or percentage of customer and licensee assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must safeguard customer assets in case of insolvency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must have insurance against insolvency risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must conduct dealings with customers for safeguarding assets and data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must disclose information on how it safeguards customer assets and data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must monitor digital payment token accounts and assets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must adopt standards to safeguard customer assets from unauthorized use",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must adopt standards to protect customer data from unauthorized use and disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must specify digital payment token limits in accounts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must specify digital payment token limits for holding or transferring",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must specify digital payment token exchange for Singapore currency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must not use moneys from digital payment tokens for business activities",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A licensee must not use digital payment tokens for business activities",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 21(1) of the Payment Services Act 2019: A licensee that provides a digital payment token service must satisfy the requirements prescribed by regulations made under section 103(1) in respect of —"
+    },
+    {
+      "section": "21 (part 2)",
+      "heading": "Section 14 of the Currency Act 1967 does not apply to the issue of e-money. (cont.)",
+      "title": "Safeguarding customer funds for digital payment token services",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 56,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Major payment institutions must maintain security for customer funds in specific forms, including cash deposits, bank guarantees, or trust accounts. The security must be maintained for the duration of the payment service and released upon closure. The security cannot be used for the payment of debts or subject to court enforcement. This section applies to both domestic and cross-border payment services and requires specific safeguards for customer funds.",
+      "dtia_summary": "This section mandates specific safeguards for customer funds in digital payment token services, requiring trust accounts, bank guarantees, or cash deposits. These requirements directly impact cross-border data transfers by imposing strict financial safeguards and operational controls for customer funds.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Security",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Major payment institutions must maintain security for customer funds",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security must be in cash deposit, bank guarantee, or other form approved by Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security must be released upon license surrender or revocation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security cannot be used for payment of debts",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Security cannot be subject to court enforcement",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Major payment institutions must submit closure certificate within 45 days after license surrender",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security must be held in trust account for customer funds",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 22(1) of the Payment Services Act 2019: Every major payment institution must maintain with the Authority security of a prescribed amount (or its equivalent in a foreign currency), for the due performance of the obligations of the major payment institution to every payment service user who is a customer of the major payment institution."
+    },
+    {
+      "section": "21 (part 3)",
+      "heading": "Section 14 of the Currency Act 1967 does not apply to the issue of e-money. (cont.)",
+      "title": "E-money account limits for payment institutions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 61,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Major payment institutions must limit e-money in personal payment accounts to a prescribed amount per account and per year. They must also cap total e-money across multiple accounts per user. The limits apply to currency equivalents in Singapore dollars or foreign currencies. The rules specify exclusions for small accounts, bearer accounts, and other prescribed accounts when calculating totals.",
+      "dtia_summary": "This section imposes strict limits on e-money transfers across accounts to prevent excessive risk. It requires payment institutions to monitor and cap total e-money per user, with specific exclusions for small accounts and bearer accounts. These restrictions directly impact cross-border data flows involving e-money.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Major payment institutions must ensure e-money in personal payment accounts does not exceed prescribed amount per account",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Major payment institutions must ensure total e-money transferred per year from accounts to users does not exceed prescribed amount",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Major payment institutions must ensure total e-money across multiple accounts per user does not exceed prescribed amount",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Major payment institutions may exclude small personal payment accounts from total calculations if they lack unique customer identifiers",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Major payment institutions may exclude bearer payment accounts from total calculations",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Major payment institutions may exclude other prescribed payment accounts from total calculations",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "A major payment institution that carries on a business of providing an account issuance service must — (a) ensure that the currency equivalent of the e-money contained in a personal payment account issued by the major payment institution to a payment service user does not exceed the prescribed amount (or its equivalent in a foreign currency);"
+    },
+    {
+      "section": "21 (part 4)",
+      "heading": "Section 14 of the Currency Act 1967 does not apply to the issue of e-money. (cont.)",
+      "title": "Controller approval for licensees",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 61,
+      "page_end": 66,
+      "primary_category": "Other",
+      "summary": "The Authority requires approval for individuals becoming 20% controllers of licensees. Approval is granted if the person is fit and proper, the licensee will conduct business prudently, and it is in public interest. Conditions may restrict share transfers or voting rights. The Authority may issue objections if conditions are breached or public interest is compromised.",
+      "dtia_summary": "This section governs shareholding control to ensure financial stability and compliance. It requires the Authority to approve 20% controllers, monitor compliance with conditions, and intervene if risks arise. Critical for DTIA as it affects ownership structures and data control.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "KYC"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person must not become a 20% controller of a licensee without Authority approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Authority may approve applications if licensee conducts business prudently and complies with laws",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may approve applications if person is fit and proper under Guidelines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may approve applications if it is in public interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may impose conditions restricting share transfers or voting rights",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may revoke conditions at any time",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may serve written notice of objection if conditions are breached",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority must specify reasonable period for compliance after objection",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person must not become a 20% controller of a licensee without first applying for and obtaining the approval of the Authority under subsection (2)."
+    },
+    {
+      "section": "21 (part 5)",
+      "heading": "Section 14 of the Currency Act 1967 does not apply to the issue of e-money. (cont.)",
+      "title": "False information penalties for financial services",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 66,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "This section establishes penalties for knowingly providing false or misleading information in financial services. Individuals and entities can face fines up to $250,000 and imprisonment for up to 3 years for contraventions. The section also outlines specific defences for those charged with such offences, including timely notification to the Authority and taking corrective actions regarding shareholding or voting power.",
+      "dtia_summary": "This section does not directly impact data transfers but establishes penalties for false information, which could indirectly affect data accuracy in financial services.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "AML",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person convicted of knowingly providing false or misleading information in a material particular shall be liable to a fine not exceeding $250,000 and imprisonment for up to 3 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For continuing offences, a further fine not exceeding $25,000 per day may apply",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may prove they were unaware of the contravention and notified the Authority within 14 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person must take corrective actions as directed by the Authority regarding shareholding or voting power",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Singapore Statutes Online: (3), knowingly or recklessly provides any information or document that is false or misleading in a material particular, shall be guilty of an offence."
+    },
+    {
+      "section": "33",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 28, 29",
+      "title": "Appeals against Authority decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 72,
+      "primary_category": "Other",
+      "summary": "This section allows any person aggrieved by an Authority decision under sections 28, 29 or 30 to appeal to the Minister within 30 days. The Minister's decision is final. The section also outlines the approval process for appointing chief executive officers, directors, or partners of licensees in Singapore, including specific criteria for approval and consequences of non-compliance.",
+      "dtia_summary": "This section does not directly impact data transfers but establishes procedures for regulatory oversight of financial institution personnel.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "AML",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person aggrieved by an Authority decision under sections 28, 29 or 30 may appeal to the Minister within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister's decision is final",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee must obtain Authority approval before appointing chief executive officers, directors, or partners",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may approve or refuse applications based on specified criteria",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "33. Any person that is aggrieved by a decision of the Authority under section 28, 29 or 30 may, within 30 days after receiving the decision of the Authority, appeal in writing to the Minister, whose decision is final."
+    },
+    {
+      "section": "33 (part 2)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 28, 29 (cont.)",
+      "title": "Appeals to Minister for licensing decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 77,
+      "primary_category": "Other",
+      "summary": "A licensee incorporated in Singapore may appeal to the Minister within 30 days of receiving a decision from the Authority under sections 34(3)(b) or 35(1). The appeal must be in writing and the Minister's decision is final. Similarly, a licensee's chief executive officer, director, or partner may appeal to the Minister within 30 days of receiving a written notice from the Authority under section 35(1).",
+      "dtia_summary": "Provides a mechanism for licensed entities to challenge regulatory decisions before the Minister, which may impact data transfer assessments when regulatory decisions affect cross-border data flows.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A licensee incorporated in Singapore may appeal to the Minister within 30 days of receiving a decision from the Authority under section 34(3)(b) in writing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A licensee incorporated in Singapore or its chief executive officer, director, or partner may appeal to the Minister within 30 days of receiving a written notice from the Authority under section 35(1) in writing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Minister's decision on appeals is final",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A licensee incorporated or formed in Singapore that is aggrieved by a decision of the Authority under section 34(3)(b) may, within 30 days after receiving the decision of the Authority, appeal in writing to the Minister, whose decision is final."
+    },
+    {
+      "section": "33 (part 3)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 28, 29 (cont.)",
+      "title": "Information gathering powers for payment systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 77,
+      "page_end": 82,
+      "primary_category": "Other",
+      "summary": "The Authority may require payment system participants, operators, or settlement institutions to provide information about payment system operations, pricing, and participation within a reasonable timeframe. Compliance is mandatory unless prohibited by other written law. Non-compliance incurs fines up to $100,000 and imprisonment.",
+      "dtia_summary": "Requires payment system operators to disclose operational and pricing information to the Authority, which may impact data transfer assessments when payment systems handle cross-border financial data.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may require payment system participants, operators, or settlement institutions to provide information about payment system operations within a reasonable timeframe",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require payment system participants, operators, or settlement institutions to provide pricing and other consideration information for services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require payment system participants, operators, or settlement institutions to provide information about their participation in payment systems",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Non-compliance with information requests incurs fines up to $100,000 and imprisonment",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Authority may, by notice in the form and manner prescribed, require any of the following persons to provide to the Authority, within a reasonable period specified in the notice, such information relating to a payment system as the Authority may require: (a) any participant of the payment system; (b) any operator of the payment system, or any person acting on behalf of the operator; (c) any settlement institution of the payment system."
+    },
+    {
+      "section": "33 (part 4)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 28, 29 (cont.)",
+      "title": "Notification of significant events to Payment Services Authority",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 82,
+      "page_end": 87,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Operators of designated payment systems must notify the Authority within 14 days of any material event including changes in directors, insolvency, disciplinary actions, regulatory changes, or other events the Authority prescribes. The Authority may also require notifications for substantial shareholdings in corporations outside payment system operations. Non-compliance incurs fines up to $250,000.",
+      "dtia_summary": "Requires timely notification of significant operational changes to regulators before cross-border data transfers, ensuring compliance with payment system oversight for financial data flows.",
+      "authority": "Payment Services Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Operator must notify Authority within 14 days of any change in director or CEO",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator must notify Authority within 14 days of insolvency or inability to meet obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator must notify Authority within 14 days of disciplinary actions by other regulators",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator must notify Authority within 14 days of significant regulatory changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator must notify Authority of any other event the Authority prescribes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator must notify Authority of substantial shareholdings in non-payment system corporations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may direct operator to cease or modify business activities",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "An operator of a designated payment system, and a settlement institution of a designated payment system, must notify the Authority of the occurrence of any of the following events within 14 days after the date of that occurrence: (a) any change of a director or the chief executive officer of the operator or settlement institution..."
+    },
+    {
+      "section": "33 (part 5)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 28, 29 (cont.)",
+      "title": "Legal recourse for denied payment system access",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 87,
+      "page_end": 87,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Individuals denied access to payment systems due to access regime violations can apply to the High Court for orders to enforce compliance with access regime terms. The Authority may join the applicant in proceedings and the Court may order remedies including compliance with terms, compensation for losses, or other remedies. The Authority must provide reasonable opportunity for representation before any order is made.",
+      "dtia_summary": "Provides legal mechanisms for resolving cross-border access disputes in payment systems, ensuring compliance with data transfer regimes through judicial oversight.",
+      "authority": "General Division of High Court",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Person denied access may apply to High Court for order to enforce access regime compliance",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority may join applicant in High Court proceedings",
+          "obligation_type": "May"
+        },
+        {
+          "text": "High Court may order compliance with access regime terms",
+          "obligation_type": "May"
+        },
+        {
+          "text": "High Court may order compensation for losses from contraventions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "High Court may make other orders as deemed fit",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Authority must provide reasonable opportunity for representation before orders",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "If a person has been denied access to a payment system by any participant, operator, settlement institution or other person that determines access to the payment system, in contravention of a term or condition of the access regime imposed under section 51(1) or 52(1), the person denied access may apply to the General Division of the High Court for an order under subsection (3)."
+    },
+    {
+      "section": "55",
+      "heading": "In this Division, unless the context otherwise requires —",
+      "title": "Definitions for voluntary business transfers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 87,
+      "page_end": 92,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in the voluntary transfer of business provisions including 'business', 'Court', 'debenture', 'property', 'Registrar of Companies', 'transferee', and 'transferor'. These definitions establish the scope and legal framework for business transfers between payment system operators and settlement institutions.",
+      "dtia_summary": "Provides foundational definitions for cross-border business transfers, clarifying what constitutes a transferable business in payment systems.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Business includes affairs, property, right, obligation and liability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Court means General Division of High Court",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Debenture has meaning given by Companies Act 1967",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Property includes property, right and power of every description",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Registrar of Companies means Registrar appointed under Companies Act 1967",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transferee means person carrying on business of operator in Singapore",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Transferor means operator or settlement institution transferring business",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "55. In this Division, unless the context otherwise requires — \"business\" includes affairs, property, right, obligation and liability; \"Court\" means the General Division of the High Court; ..."
+    },
+    {
+      "section": "55 (part 2)",
+      "heading": "In this Division, unless the context otherwise requires — (cont.)",
+      "title": "Shareholding control thresholds for payment system operators",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 92,
+      "page_end": 97,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section sets thresholds for shareholding control in payment system operators. It prohibits individuals or entities from becoming 5%, 12%, 20% controllers or indirect controllers without prior approval from the Monetary Authority of Singapore (MAS). It also prohibits agreements to collectively acquire voting shares exceeding 5% without MAS approval. MAS may approve applications if the applicant is fit and proper under guidelines and the operator will conduct business prudently. Approved applications may include conditions restricting share transfers or voting rights.",
+      "dtia_summary": "This section imposes shareholding thresholds for payment system operators that require MAS approval before reaching 5%, 12%, or 20% control. It affects data transfer impact assessments by requiring MAS approval for shareholding changes that could impact data processing across borders.",
+      "authority": "Monetary Authority of Singapore (MAS)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person must not become a 5% controller of an operator without first applying for and obtaining MAS approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person must not become a 12% controller of an operator without first applying for and obtaining MAS approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person must not become a 20% controller of an operator without first applying for and obtaining MAS approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person must not become an indirect controller of an operator without first applying for and obtaining MAS approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person must not enter into any agreement to act together with another person to acquire voting shares of 5% or more without first applying for and obtaining MAS approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "MAS may approve an application if the applicant is fit and proper under guidelines",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "MAS may approve an application if the operator will conduct business prudently and comply with the Act",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "MAS may impose conditions restricting share disposal or voting power",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A person must not become — (a) a 5% controller; (b) a 12% controller; (c) a 20% controller; or (d) an indirect controller, of an operator without first applying for and obtaining the approval of the Authority under subsection (3)."
+    },
+    {
+      "section": "55 (part 3)",
+      "heading": "In this Division, unless the context otherwise requires — (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 99,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "64",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 59, 60",
+      "title": "Appeal rights for aggrieved parties against Authority decisions",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 99,
+      "page_end": 104,
+      "primary_category": "Other",
+      "summary": "Any person dissatisfied with the Authority's decision under sections 59, 60 or 61 may appeal to the Minister within 30 days of receiving the decision. The Minister's decision is final. This section establishes a specific time limit and procedural pathway for challenging regulatory decisions.",
+      "dtia_summary": "Provides a mechanism for appealing regulatory decisions, relevant for DTIA where entities must consider appeal rights when assessing compliance with cross-border payment system regulations.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person aggrieved by Authority decision under sections 59, 60 or 61 may appeal to Minister within 30 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "64. Any person that is aggrieved by a decision of the Authority under section 59, 60 or 61 may, within 30 days after receiving the decision of the Authority, appeal in writing to the Minister, whose decision is final."
+    },
+    {
+      "section": "64 (part 2)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 59, 60 (cont.)",
+      "title": "Appeal rights for aggrieved parties against Authority decisions (cont.)",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 104,
+      "page_end": 109,
+      "primary_category": "Other",
+      "summary": "This section extends appeal rights to operators and settlement institutions aggrieved by the Authority's written notices under section 66(1). Appeals must be made within 30 days of receiving the notice, and the Minister's decision is final. This provides a specific remedy for regulatory actions.",
+      "dtia_summary": "Relevant for DTIA as it establishes appeal mechanisms for regulatory decisions, affecting how entities handle disputes with authorities during cross-border payment system operations.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Operator aggrieved by Authority decision under section 65(3)(b) may appeal to Minister within 30 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Operator or settlement institution aggrieved by Authority written notice under section 66(1) may appeal to Minister within 30 days",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "67. (1) An operator of a designated payment system that is aggrieved by a decision of the Authority under section 65(3)(b) may, within 30 days after receiving the decision of the Authority, appeal in writing to the Minister, whose decision is final."
+    },
+    {
+      "section": "64 (part 3)",
+      "heading": "Any person that is aggrieved by a decision of the Authority under section 59, 60 (cont.)",
+      "title": "Obligation to prove intent in audit obstruction cases",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 110,
+      "primary_category": "Other",
+      "summary": "Individuals must prove they did not act with intent to prevent, delay or obstruct an examination or audit under sections 68 or 69 if they destroyed, concealed or altered books or sent assets out of Singapore. The burden of proof lies on the individual to demonstrate lack of obstructive intent regarding book tampering or asset transfers.",
+      "dtia_summary": "This section establishes that individuals must prove they lacked intent to obstruct audits when handling financial records, which impacts DTIA assessments for financial institutions by requiring clear evidence of non-obstruction in cross-border data transfers.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Individuals must prove they did not act with intent to prevent, delay or obstruct an examination or audit under sections 68 or 69",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "the onus of proving that, in so doing, the individual did not act with intent to prevent, delay or obstruct the carrying out of an examination or audit under section 68 or 69 lies on the individual."
+    },
+    {
+      "section": "73",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025]",
+      "title": "Repealed section on confidentiality of inspection reports",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 110,
+      "page_end": 116,
+      "primary_category": "Other",
+      "summary": "This section has been repealed by Act 12 of 2024 effective 24/01/2025. It previously required that inspection reports must not be disclosed by the subject or their officers/auditors to any person without specific authorization from the Authority.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "73. [Repealed by Act 12 of 2024 wef 24/01/2025]"
+    },
+    {
+      "section": "73 (part 2)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 116,
+      "page_end": 120,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "73 (part 3)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Authority powers to copy records for investigations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 120,
+      "page_end": 125,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Authority may provide copies of written records or related books to persons other than those specified in subsection (1), subject to conditions or restrictions imposed by the Authority. This power applies during investigations and requires the recipient to comply with any imposed conditions. The provision ensures that relevant records can be accessed while maintaining control over their use.",
+      "dtia_summary": "This section establishes conditions for sharing records during investigations, which may impact data transfer if records are copied across borders. The Authority's ability to impose restrictions on copies affects cross-border data sharing.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may give copies of written records or related books to persons other than those specified in subsection (1)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Copies given subject to conditions or restrictions imposed by the Authority",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Authority may, subject to such conditions or restrictions as it may impose, give to a person other than a person mentioned in subsection (1), a copy of a written record of the examination, or the copy together with a copy of any related book."
+    },
+    {
+      "section": "73 (part 4)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Authority powers to access records during investigations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 125,
+      "page_end": 130,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Authority may require persons to produce books, provide information, or grant access to data during investigations. This includes specific conditions for when the Authority enters premises, such as providing written notice and specifying the purpose of the investigation. The provisions ensure that relevant data can be accessed while maintaining procedural safeguards.",
+      "dtia_summary": "This section details the Authority's powers to access records during investigations, which may affect data transfers if records are shared internationally. The conditions for access and notice requirements are critical for DTIA compliance.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may require persons to produce books or provide information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require persons to grant access to data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require persons to provide access to data at specified time and place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Authority may require persons to provide reasonable assistance for accessing data",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purpose of an investigation under this Division, the Authority may, in writing, require — (a) a person who is believed to possess, or to have power to access, any book, or who is believed to possess any information, relating to any matter under investigation; or (b) a person who is believed to have power to access any data relating to any matter under investigation, to — (c) produce the book or a copy of the book, or to provide the information, at the time and place specified in the written requirement; (d) give the Authority or any officer of the Authority who is authorised by the Authority for this purpose access to the book or data; or (e) provide such reasonable assistance as the Authority or an investigator may require for the purposes of accessing the book or data."
+    },
+    {
+      "section": "73 (part 5)",
+      "heading": "[Repealed by Act 12 of 2024 wef 24/01/2025] (cont.)",
+      "title": "Authority sharing data with law enforcement for investigations",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 130,
+      "page_end": 131,
+      "primary_category": "Regulator Powers",
+      "summary": "The Authority may share books, records, or data obtained under this Part with police officers, Commercial Affairs Officers, or the Public Prosecutor for criminal investigations involving alleged contraventions of this Act. This data remains admissible in criminal proceedings regardless of its origin under this Act, with admissibility determined by evidence rules.",
+      "dtia_summary": "This section allows data sharing with law enforcement for investigations but does not impose cross-border transfer restrictions. Data admissibility is governed by evidence rules, not data transfer safeguards.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may share books, records, or data obtained under this Part with police officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may share books, records, or data obtained under this Part with Commercial Affairs Officers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may share books, records, or data obtained under this Part with Public Prosecutor",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data shared under this section remains admissible in criminal proceedings regardless of origin",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "proceedings 76T.—(1) Despite the provisions of any written law or rule of law, the Authority may provide any book, written record of any examination or other information, or access to any data, obtained by the Authority under this Part to — (a) a police officer; (b) a Commercial Affairs Officer; or (c) the Public Prosecutor, for the purposes of any investigation into or criminal proceedings against a person for an alleged or suspected contravention of any provision under this Act."
+    },
+    {
+      "section": "77",
+      "heading": "In this Part, unless the context otherwise requires —",
+      "title": "",
+      "chapter": null,
+      "part": "Part t",
+      "condition": null,
+      "page_start": 131,
+      "page_end": 136,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "77 (part 2)",
+      "heading": "In this Part, unless the context otherwise requires — (cont.)",
+      "title": "Definitions for emergency powers and statutory control",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 136,
+      "page_end": 138,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms including 'business', 'emergency', 'office-holder', 'payment entity', 'relevant business', 'statutory adviser', and 'statutory manager' for emergency powers and statutory control procedures. These definitions establish the scope of authority actions during payment entity insolvency or operational crises.",
+      "dtia_summary": "Provides foundational definitions for emergency powers and statutory control mechanisms, critical for understanding when and how the Authority can intervene in payment entities.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Business includes affairs and property",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Emergency means any situation preventing payment system from carrying out functions",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Emergency means any situation where payment system operations are detrimental to participants",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Emergency means any undesirable situation constituting an emergency in Authority's opinion",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Office-holder means liquidator, provisional liquidator, receiver, receiver and manager, or equivalent",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Payment entity means licensee, credit card issuer, operator of designated payment system, or settlement institution",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Relevant business means business with statutory adviser, statutory manager, or Authority control",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Statutory adviser means adviser appointed under section 78(2)(b)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Statutory manager means manager appointed under section 78(2)(c)",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "77. In this Part, unless the context otherwise requires — \"business\" includes affairs and property; \"emergency\" means — (a) any situation that prevents a designated payment system from carrying out its functions; (b) any situation in which, in the opinion of the Authority, the operations of a designated payment system are carried on in a manner likely to be detrimental to the interests of the participants of the designated payment system; or (c) any undesirable situation or practice that, in the opinion of the Authority, constitutes an emergency; \"office-holder\", in relation to a payment entity, means any person acting as the liquidator, provisional liquidator, receiver, receiver and manager or an equivalent person of that payment entity; \"payment entity\" means any of the following entities: (a) a licensee; (b) a person that is granted a licence under section 57B of the Banking Act 1970 to carry on the business of issuing credit cards or charge cards in Singapore; (c) an operator of a designated payment system; (d) a settlement institution of a designated payment system; \"relevant business\", in relation to a payment entity, means any business of that payment entity — (a) in relation to which a statutory adviser has been appointed under section 78(2)(b); (b) in relation to which a statutory manager has been appointed under section 78(2)(c); or (c) that the Authority has assumed control of under section 78(2)(c); \"statutory adviser\" means a statutory adviser appointed under section 78(2)(b);"
+    },
+    {
+      "section": "83",
+      "heading": "The Authority may at any time fix the remuneration and expenses to be paid by a",
+      "title": "Remuneration for statutory advisers and managers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 138,
+      "page_end": 138,
+      "primary_category": "Regulator Powers",
+      "summary": "The Authority may set remuneration for statutory advisers and managers, including payments to the Authority during control periods. This ensures financial accountability for emergency interventions.",
+      "dtia_summary": "This section addresses financial obligations for statutory control mechanisms, critical for operational continuity during emergencies.",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Authority may fix remuneration for statutory advisers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may fix remuneration for statutory managers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority may fix remuneration for itself during control periods",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "83. The Authority may at any time fix the remuneration and expenses to be paid by a payment entity — (a) to a statutory adviser or statutory manager appointed in relation to the payment entity, whether or not the appointment has been revoked; and (b) where the Authority has assumed control of the relevant business of a payment entity, to the Authority and any person appointed by the Authority under section 4 in relation to the Authority's assumption of control of the relevant business, whether or not the Authority has ceased to be in control of the relevant business."
+    },
+    {
+      "section": "84",
+      "heading": "In this Part, unless the context otherwise requires —",
+      "title": "Definitions for cross-border regulatory cooperation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 138,
+      "page_end": 140,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in the Part, including 'foreign country', 'regulatory authority', 'supervision', and 'material'. It specifies that 'regulatory authority' refers to foreign entities with functions corresponding to Singapore's Monetary Authority, and 'material' encompasses all information and records. These definitions establish the scope for cross-border regulatory assistance mechanisms.",
+      "dtia_summary": "Defines critical terms for cross-border data transfers and regulatory cooperation, particularly 'foreign country' and 'regulatory authority' which are essential for understanding international data transfer mechanisms under Singapore's Payment Services Act.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "enforce means enforce through criminal or administrative proceedings",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "enforcement, in relation to a regulatory authority, means the taking of any action to enforce a law or regulatory requirement against a specified person",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "foreign country means a country or territory other than Singapore",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "investigation, in relation to a regulatory authority, means an investigation to determine if a specified person has contravened or is contravening a law or regulatory requirement",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "material includes any information, book, document or other record in any form whatsoever",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "prescribed written law means this Act, or any of the following Acts: Banking Act 1970, Finance Companies Act 1967, Financial Advisers Act 2001, Financial Holding Companies Act 2013, Financial Services and Markets Act 2022, Insurance Act 1966, Monetary Authority of Singapore Act 1970, Securities and Futures Act 2001, or such other Act as the Authority may prescribe",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "regulatory authority, in relation to a foreign country, means an authority of the foreign country exercising any function that corresponds to a regulatory function of the Authority under this Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "supervision, in relation to a regulatory authority, means the taking of any action for or in connection with the supervision of a licensee, operator, settlement institution, participant, or other regulated person",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "84. In this Part, unless the context otherwise requires — \"enforce\" means enforce through criminal or administrative proceedings; \"enforcement\", in relation to a regulatory authority, means the taking of any action to enforce a law or regulatory requirement against a specified person, being a law or regulatory requirement that relates to the payment systems or payment services of the foreign country of the regulatory authority concerned; \"foreign country\" means a country or territory other than Singapore; \"investigation\", in relation to a regulatory authority, means an investigation to determine if a specified person has contravened or is contravening a law or regulatory requirement, being a law or regulatory requirement that relates to the payment systems or payment services of the foreign country of the regulatory authority concerned; \"material\" includes any information, book, document or other record in any form whatsoever, and any container or article relating to that information, book, document or record; \"prescribed written law\" means this Act, or any of the following Acts, and any subsidiary legislation made under this Act or those Acts: (a) Banking Act 1970; (b) Finance Companies Act 1967; (c) Financial Advisers Act 2001; (d) Financial Holding Companies Act 2013; (da) Financial Services and Markets Act 2022; [Act 18 of 2022 wef 28/04/2023] (e) Insurance Act 1966; (f) Monetary Authority of Singapore Act 1970; (g) Securities and Futures Act 2001; (h) such other Act as the Authority may prescribe; \"regulatory authority\", in relation to a foreign country, means an authority of the foreign country exercising any function that corresponds to a regulatory function of the Authority under this Act; \"supervision\", in relation to a regulatory authority, means the taking of any action for or in connection with the supervision of — (a) a licensee that is regulated by the regulatory authority; (b) an operator, a settlement institution or a participant, of a designated payment system, that is regulated by the regulatory authority; or (c) any other person regulated by the regulatory authority."
+    },
+    {
+      "section": "86",
+      "heading": "In deciding whether to grant a request for assistance mentioned in section 87 from",
+      "title": "Factors for assessing cross-border regulatory assistance requests",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 140,
+      "page_end": 146,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section specifies additional factors the Monetary Authority considers when evaluating cross-border regulatory assistance requests, including the gravity of the matter, the necessity of the materials, and the public interest. It ensures that assistance is only provided when it serves a critical purpose without compromising public interest.",
+      "dtia_summary": "Provides additional criteria for assessing cross-border regulatory cooperation requests, focusing on the gravity of matters and public interest to ensure data transfers align with regulatory objectives.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Security"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "In deciding whether to grant a request for assistance, the Authority must consider the gravity of the matter",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "the materials must be of sufficient importance to the carrying out of supervision, investigation or enforcement",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "the assistance must not be contrary to public interest",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "86. In deciding whether to grant a request for assistance mentioned in section 87 from a foreign country, the Authority must consider: (i) the gravity of the matter; (ii) the necessity of the materials; (iii) whether the assistance will be contrary to public interest."
+    },
+    {
+      "section": "86 (part 2)",
+      "heading": "In deciding whether to grant a request for assistance mentioned in section 87 from (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 146,
+      "page_end": 149,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "95",
+      "heading": "A person guilty of an offence under this Act for which no penalty is expressly",
+      "title": "Penalties for offences without specified fines",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 149,
+      "page_end": 150,
+      "primary_category": "Other",
+      "summary": "A person convicted of an offence under this Act with no expressly provided penalty faces a fine of up to $50,000 for individuals or $100,000 for other cases. This section establishes the maximum penalties applicable when the Act does not specify fines for particular offences.",
+      "dtia_summary": "",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A person guilty of an offence under this Act for which no penalty is expressly provided shall be liable on conviction to a fine not exceeding $50,000",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person guilty of an offence under this Act for which no penalty is expressly provided shall be liable on conviction to a fine not exceeding $100,000",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "95. A person guilty of an offence under this Act for which no penalty is expressly provided shall be liable on conviction — (a) in the case of an individual, to a fine not exceeding $50,000; or (b) in any other case, to a fine not exceeding $100,000."
+    },
+    {
+      "section": "97",
+      "heading": "Despite any provision to the contrary in the Criminal Procedure Code 2010, a",
+      "title": "District Court jurisdiction for offences",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 150,
+      "page_end": 150,
+      "primary_category": "Other",
+      "summary": "District courts have jurisdiction to try offences under this Act and can impose full penalties or punishments as specified in the Act. This section overrides provisions in the Criminal Procedure Code 2010 regarding court jurisdiction.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A District Court has jurisdiction to try any offence under this Act and has power to impose the full penalty or punishment in respect of any offence under this Act",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "97. Despite any provision to the contrary in the Criminal Procedure Code 2010, a District Court has jurisdiction to try any offence under this Act and has power to impose the full penalty or punishment in respect of any offence under this Act."
+    },
+    {
+      "section": "98",
+      "heading": "Where this Act provides for a person to be given an opportunity to be heard by",
+      "title": "Opportunity to be heard by Authority",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 150,
+      "page_end": 156,
+      "primary_category": "Other",
+      "summary": "The Authority may prescribe the manner in which a person is given an opportunity to be heard when the Act requires such an opportunity. This section outlines the process for providing notice and hearing before taking enforcement actions.",
+      "dtia_summary": "",
+      "authority": "Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Authority may prescribe the manner in which the person is to be given such opportunity to be heard",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "98. Where this Act provides for a person to be given an opportunity to be heard by the Authority, the Authority may prescribe the manner in which the person is to be given such opportunity to be heard."
+    },
+    {
+      "section": "98 (part 2)",
+      "heading": "Where this Act provides for a person to be given an opportunity to be heard by (cont.)",
+      "title": "Opportunity to be heard for payment service providers on regulatory requirements",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 156,
+      "page_end": 161,
+      "primary_category": "Regulator Powers",
+      "summary": "This section allows the Monetary Authority of Singapore to issue notices to payment service providers, exempt entities, and designated payment system participants. The notices specify business activities, risk management standards, financial soundness requirements, and other operational duties. These notices must be followed by the affected entities, with non-compliance potentially leading to fines up to $100,000.",
+      "dtia_summary": "This section establishes regulatory notices that payment service providers must comply with, impacting data transfer and processing activities across borders through defined operational and reporting requirements.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Authority may issue notices to payment service providers, exempt entities, and designated payment system participants",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify business activities for payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require risk management standards for payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require financial soundness assessments for payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify business conduct standards for payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require independent contractor appointment conditions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify return and information submission requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require business performance reporting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify auditor remuneration and audit costs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require measures to address discriminatory practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require appointment of business advisors",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require information collection from payment service providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify customer interaction protocols",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify foreign exchange rate duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may specify money safeguarding duties",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require cautionary statements at business locations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require written cautionary statements to customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require compliance with contravened provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require actions to maintain business soundness",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notices may require director removal for companies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Without limiting subsection (1), a notice may be issued — (a) with respect to — (i) the activities that may be carried out by a licensee, an exempt payment service provider, or a person exempt under section 100, in relation to its business; (ii) the standards, framework, policies and procedures for the prudent management of risks (including information technology risks) by a licensee, an exempt payment service provider or a person exempt under section 100, or by an operator or a settlement institution of a designated payment system; (iii) the financial soundness, financial management and stability of a licensee, an exempt payment service provider or a person exempt under section 100, or of an operator, a settlement institution or a participant of a designated payment system; (iv) the standards to be maintained by a licensee, an exempt payment service provider, or a person exempt under section 100, in the conduct of its business; (v) the arrangement and conditions that are to apply if a licensee, an exempt payment service provider or a person exempt under section 100, or an operator, a settlement institution or a participant of a designated payment system, appoints any person as an independent contractor to carry out any of the functions and duties of the licensee, exempt payment service provider, person exempt under section 100, operator, settlement institution or participant, as the case may be; (vi) the type, form, manner and frequency of returns and other information to be submitted to the Authority; (vii) the preparation and publication of reports on the performance of a licensee, an exempt payment service provider or a person exempt under section 100, or of an operator, a settlement institution or a participant of a designated payment system; (viii) the remuneration of an auditor appointed under this Act and the costs of an audit carried out under this Act; (ix) any measures to be taken by any of the following persons or classes of persons to address any discriminatory measure practised by one or more of those persons or classes of persons: (A) any operator, or class of operators, of a relevant payment system; (B) any settlement institution, or class of settlement institutions, of a relevant payment system; (C) any participant, or class of participants, of a relevant payment system; (D) any person, or class of persons, that determines access to a relevant payment system; (x) the appointment of a person approved by the Authority — (A) to advise an operator, a settlement institution or a participant of a designated payment system on the proper conduct of its business; or (B) to advise a class of participants of a designated payment system on the proper conduct of the business of a participant in that class of participants; (xi) the collection by or on behalf of the Authority of information from a licensee, an exempt payment service provider or a person exempt under section 100, or from an operator, a settlement institution or a participant of a designated payment system, in relation to the conduct of its business at such intervals or on such occasions as may be set out in the notice; (xii) the manner in which a licensee, an exempt payment service provider or a person exempt under section 100, or an operator, a settlement institution or a participant of a designated payment system, deals with its customers, and any conflicts of interests between the licensee, exempt payment service provider, person exempt under section 100, operator, settlement institution or participant (as the case may be) and its customers; (xiii) the duties of a licensee, an exempt payment service provider, or a person exempt under section 100, to its customers in the operation of payment accounts maintained for those customers (including duties in relation to the foreign exchange rate to be applied, where the currency for which the licensee, exempt payment service provider or person exempt under section 100 maintains a payment account for a customer is different from the currency received for payment into that payment account); (xiv) the duties of a licensee, an exempt payment service provider, or a person exempt under section 100, to its customers in relation to the safeguarding of money under section 23 (including duties in relation to the foreign exchange rate to be applied, where the currency in which the money is safeguarded is different from the currency received by the licensee, exempt payment service provider or person exempt under section 100 from, or on account of, a customer); (xv) the display or exhibition by a licensee, an exempt payment service provider, or a person exempt under section 100, of such cautionary statements as the Authority thinks fit in a conspicuous place at every place of business of the licensee, exempt payment service provider or person exempt under section 100; and (xvi) the provision by a licensee, an exempt payment service provider, or a person exempt under section 100, of cautionary statements in writing to the customers of the licensee, exempt payment service provider or person exempt under section 100; (b) to require any person that contravenes, has contravened, or is likely to contravene, any provision of this Act — (i) to comply with, or to cease contravening, that provision; (ii) to take any action necessary to enable the person to conduct the person's business in accordance with sound principles; and (iii) where the person is a company, to remove any of its directors; and (c) for any other purpose specified in this Act."
+    },
+    {
+      "section": "98 (part 3)",
+      "heading": "Where this Act provides for a person to be given an opportunity to be heard by (cont.)",
+      "title": "Regulatory notices and penalties for non-compliance",
+      "chapter": null,
+      "part": "part \no",
+      "condition": null,
+      "page_start": 161,
+      "page_end": 165,
+      "primary_category": "Regulator Powers",
+      "summary": "This section outlines the authority of the Monetary Authority of Singapore to issue regulations related to payment services. It specifies that regulations may apply to specific entities, include saving provisions, and impose penalties for contraventions. Non-compliance with regulatory notices can result in fines up to $100,000 for individuals and $50,000 for companies.",
+      "dtia_summary": "This section details regulatory notice mechanisms that impact data transfer and processing activities, particularly through defined penalties and compliance requirements for payment service providers.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulations may be of general or specific application",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may relate to all or any class of persons or payment services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may contain saving and transitional provisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may provide for contraventions to be offences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may impose penalties of up to $50,000 for individuals",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may impose penalties of up to $100,00:00 for companies",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Except as otherwise expressly provided in this Act, regulations made under this Act — (a) may be of general or specific application; (aa) may relate to all, or any class, category or description of persons or payment services, and may make different provisions for different classes, categories or descriptions of persons or payment services or to a particular person or payment service; (b) may contain such saving and transitional provisions as the Authority may consider necessary or expedient; (c) may provide that a contravention of any specified provision of the regulations shall be an offence; and (d) may provide — (i) in the case of an individual, for penalties of up to $50,000; (ii) in the case of a company, for penalties of up to $100,000."
+    },
+    {
+      "section": "113",
+      "heading": "Section 53 of the Financial Holding Companies Act 2013 (Act 13 of 2013) is",
+      "title": "Amendment to Financial Holding Companies Act 2013",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 165,
+      "page_end": 166,
+      "primary_category": "Regulator Powers",
+      "summary": "This section amends Section 53 of the Financial Holding Companies Act 2013 by replacing the definition of 'prescribed written law' to include the Payment Services Act 2019. This update ensures the Payment Services Act 2019 is recognized as a relevant regulatory framework for financial holding companies.",
+      "dtia_summary": "This amendment integrates the Payment Services Act 2019 into the regulatory framework for financial holding companies, affecting data transfer and processing requirements.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Section 53 of the Financial Holding Companies Act 2013 is amended to include Payment Services Act 2019 in the definition of 'prescribed written law'",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 53 of the Financial Holding Companies Act 2013 (Act 13 of 2013) is amended by deleting paragraph (f) of the definition of 'prescribed written law' and substituting the following paragraph: '(f) Payment Services Act 2019;'"
+    },
+    {
+      "section": "121",
+      "heading": "In this Part, unless the context otherwise requires —",
+      "title": "Definition of payment service terms for transitional licensing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 166,
+      "page_end": 171,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in the Payment Services Act 2019, including 'approved bank', 'approved holder', 'MCRBA', 'money-changer's licence', 'remittance licence', and 'stored value facility'. It specifies that these definitions are derived from other acts and provides transitional provisions for entities that were licensed under the Money-changing and Remittance Businesses Act (MCRBA) or approved under the Payment Systems (Oversight) Act (PSOA) before January 28, 2020. The definitions establish the framework for licensing and exemptions that apply to entities transitioning to new payment service frameworks.",
+      "dtia_summary": "This section defines critical terms for payment services, which are essential for understanding the scope of data transfers and processing activities under the Payment Services Act. It establishes transitional licensing mechanisms that affect how entities handle cross-border money transfers and e-money services.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Approved bank and approved holder have meanings given by section 2(1) of the PSOA",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "MCRBA means the Money-changing and Remittance Businesses Act (Cap. 187, 2008 Revised Edition) as in force immediately before 28 January 2020",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Money-changer's licence has meaning given by section 2(1) of the MCRBA",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "PSOA means the Payment Systems (Oversight) Act (Cap. 222A, 2007 Revised Edition) as in force immediately before 28 January 2020",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Remittance licence has meaning given by section 2(1) of the MCRBA",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Stored value facility has meaning given by section 2(1) of the PSOA",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "121. In this Part, unless the context otherwise requires — \"approved bank\" and \"approved holder\" have the meanings given by section 2(1) of the PSOA; \"MCRBA\" means the Money-changing and Remittance Businesses Act (Cap. 187, 2008 Revised Edition) as in force immediately before 28 January 2020; \"money-changer's licence\" has the meaning given by section 2(1) of the MCRBA; \"PSOA\" means the Payment Systems (Oversight) Act (Cap. 222A, 2007 Revised Edition) as in force immediately before 28 January 2020; \"remittance licence\" has the meaning given by section 2(1) of the MCRBA; \"stored value facility\" has the meaning given by section 2(1) of the PSOA."
+    },
+    {
+      "section": "121 (part 2)",
+      "heading": "In this Part, unless the context otherwise requires — (cont.)",
+      "title": "Transitional licensing for payment service providers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 171,
+      "page_end": 171,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section provides transitional provisions for entities that were licensed under the Money-changing and Remittance Businesses Act (MCRBA) or approved under the Payment Systems (Oversight) Act (PSOA) before January 28, 2020. It deems these entities as having been granted major payment institution licenses under the PSOA, allowing them to provide cross-border money transfer services, money-changing services, or e-money issuance services. The section also grants a 12-month exemption from certain obligations under section 23 of the PSOA for these services.",
+      "dtia_summary": "This section establishes transitional licensing mechanisms that affect how entities handle cross-border money transfers and e-money services, which are critical for Data Transfer Impact Assessments involving international payment services.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Any person that was a holder of a remittance licence but not a money-changer's licence or approved holder of stored value facility is deemed to have been granted a major payment institution licence for cross-border money transfer services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was a holder of a money-changer's licence but not a remittance licence or approved holder of stored value facility is deemed to have been granted a money-changing licence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was an approved holder of a stored value facility but not a remittance licence or money-changer's licence is deemed to have been granted a major payment institution licence for e-money issuance services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was a holder of both a remittance licence and money-changer's licence is deemed to have been granted a major payment institution licence for cross-border money transfer and money-changing services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was both a holder of a remittance licence and approved holder of stored value facility is deemed to have been granted a major payment institution licence for cross-border money transfer and e-money issuance services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was both a holder of a money-changer's licence and approved holder of stored value facility is deemed to have been granted a major payment institution licence for money-changing and e-money issuance services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any person that was a holder of both a remittance licence, money-changer's licence and approved holder of stored value facility is deemed to have been granted a major payment institution licence for cross-border money transfer, money-changing and e-money issuance services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any condition or restriction imposed under MCRBA or PSOA to which a person is subject immediately before 28 January 2020 is deemed to be a condition or restriction under the new licence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any chief executive officer, director or partner of a person mentioned in subsections (1)-(7) is deemed to have been appointed with the approval of the Authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Any approval granted under MCRBA that remains in force immediately before 28 January 2020 is deemed to be an approval under section 14(6) of the PSOA",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "122.—(1) Any person that, immediately before 28 January 2020, is a holder of a remittance licence, but is not also a holder of a money-changer's licence or an approved holder of a stored value facility — (a) is deemed to have been granted, on 28 January 2020, a major payment institution licence under section 6(7) that entitles that person to carry on a business of providing a cross-border money transfer service; and (b) is exempt from section 23 for a period of 12 months beginning on 28 January 2020 in respect of any cross-border money transfer service provided by that person."
+    },
+    {
+      "section": "126",
+      "heading": "For a period of 2 years after the date of commencement of any provision of this",
+      "title": "2-year transitional provisions for regulatory adjustments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 171,
+      "page_end": 171,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section allows the Minister to issue regulations for up to two years after the commencement of any provision of the Act to address saving or transitional matters. It provides flexibility for regulatory adjustments that may be necessary following the enactment of new provisions, ensuring a smooth transition period for entities affected by changes in the Payment Services Act.",
+      "dtia_summary": "This section enables the Minister to create transitional provisions for up to two years after the commencement of any provision, which is relevant for Data Transfer Impact Assessments as it allows for adjustments to data transfer mechanisms during regulatory transitions.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "For a period of 2 years after the date of commencement of any provision of this Act, the Minister may prescribe additional saving or transitional provisions",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "126. For a period of 2 years after the date of commencement of any provision of this Act, the Minister may, by regulations, prescribe such additional provisions of a saving or transitional nature consequent to the enactment of that provision as the Minister may consider necessary or expedient."
+    },
+    {
+      "section": "1",
+      "heading": "Except where Part 2 of this Schedule provides otherwise, each of the following services is a",
+      "title": "Supreme Court of Judicature (Amendment) Act 2019",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 171,
+      "page_end": 172,
+      "primary_category": "Other",
+      "summary": "This section references the Supreme Court of Judicature (Amendment) Act 2019, which amended the Supreme Court of Judicature Act. It provides legislative history details for the Act, including dates of readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "1. Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019"
+    },
+    {
+      "section": "2",
+      "heading": "Despite Part 1 of this Schedule, the following services are not payment services for the purposes of",
+      "title": "Banking (Amendment) Act 2020",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 172,
+      "page_end": 173,
+      "primary_category": "Other",
+      "summary": "This section references the Banking (Amendment) Act 2020, which amended banking regulations. It provides legislative history details for the Act, including dates of readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Act 1 of 2020—Banking (Amendment) Act 2020",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "2. Act 1 of 2020—Banking (Amendment) Act 2020"
+    },
+    {
+      "section": "3",
+      "heading": "In this Schedule, unless the context otherwise requires —",
+      "title": "Definitions of payment services and digital tokens",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 173,
+      "page_end": 178,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms used in the Payment Services Act 2019, including payment account issuance services, associated companies, central bank digital payment tokens, commercial agents, cross-border money transfer services, and digital payment token exchanges. These definitions establish the scope and meaning of critical concepts for payment services regulation in Singapore.",
+      "dtia_summary": "Provides foundational definitions for digital payment tokens and cross-border services that impact data transfer assessments involving payment systems and digital assets.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Schedule, unless the context otherwise requires —",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3. In this Schedule, unless the context otherwise requires —"
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "In this Schedule, unless the context otherwise requires — (cont.)",
+      "title": "Definitions of payment services and digital tokens (continued)",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 178,
+      "page_end": 181,
+      "primary_category": "Definitions",
+      "summary": "This section continues defining terms from the Payment Services Act 2019, including digital payment token exchanges, digital payment token instruments, digital payment token services, direct debits, domestic money transfer services, e-money issuance services, and other payment-related concepts. These definitions clarify the operational scope of payment services in Singapore.",
+      "dtia_summary": "Provides additional definitions critical for understanding data flows in digital payment systems, particularly for cross-border transactions and token-based services.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "In this Schedule, unless the context otherwise requires — (cont.)",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "3 (part 2). In this Schedule, unless the context otherwise requires — (cont.)"
+    },
+    {
+      "section": "4",
+      "heading": "For the purposes of this Schedule —",
+      "title": "Timeline for Court Reform Act 2021 legislative process",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 181,
+      "page_end": 181,
+      "primary_category": "Other",
+      "summary": "This section details the legislative timeline for the Courts (Civil and Criminal Justice) Reform Act 2021, specifying the dates of first reading (26 July 2021), second and third readings (14 September 2021), and commencement date (1 April 2022). The information is provided in a standardized format for tracking the bill's progression through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 26 July 2021",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Second and Third Readings: 14 September 2021",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of commencement: 1 April 2022",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Date of First Reading: 26 July 2021 (Bill /2021) Date of Second and Third Readings: 14 September 2021 Date of commencement: 1 April 2022"
+    },
+    {
+      "section": "2",
+      "heading": "Section 100(4)",
+      "title": "Banking (Amendment) Act 2020",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 182,
+      "page_end": 182,
+      "primary_category": "Other",
+      "summary": "This section references the Banking (Amendment) Act 2020, which amended banking regulations. It provides legislative history details for the Act, including dates of readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Act 1 of 2020—Banking (Amendment) Act 2020",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "2. Act 1 of 2020—Banking (Amendment) Act 2020"
+    },
+    {
+      "section": "1",
+      "heading": "Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019",
+      "title": "Supreme Court of Judicature (Amendment) Act 2019",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 182,
+      "page_end": 182,
+      "primary_category": "Other",
+      "summary": "This section references the Supreme Court of Judicature (Amendment) Act 2019, which amended the Supreme Court of Judicature Act. It provides legislative history details for the Act, including dates of readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "1. Act 40 of 2019—Supreme Court of Judicature (Amendment) Act 2019"
+    },
+    {
+      "section": "2",
+      "heading": "Act 1 of 2020—Banking (Amendment) Act 2020",
+      "title": "Banking (Amendment) Act 2020",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 182,
+      "page_end": 182,
+      "primary_category": "Other",
+      "summary": "This section references the Banking (Amendment) Act 2020, which amended banking regulations. It provides legislative history details for the Act, including dates of readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Act 1 of 2020—Banking (Amendment) Act 2020",
+          "obligation_type": "Reference"
+        }
+      ],
+      "source_quote": "2. Act 1 of 2020—Banking (Amendment) Act 2020"
+    },
+    {
+      "section": "4",
+      "heading": "Act 25 of 2021—Courts (Civil and Criminal Justice) Reform Act 2021",
+      "title": "Timeline for Court Reform Act 2021 legislative process",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 182,
+      "page_end": 182,
+      "primary_category": "Other",
+      "summary": "This section details the legislative timeline for the Courts (Civil and Criminal Justice) Reform Act 2021, specifying the dates of first reading (26 July 2021), second and third readings (14 September 2021), and commencement date (1 April 2022). The information is provided in a standardized format for tracking the bill's progression through the legislative process.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 26 July 2021",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Second and Third Readings: 14 September 2021",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of commencement: 1 April 2022",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Date of First Reading: 26 July 2021 (Bill /2021) Date of Second and Third Readings: 14 September 2021 Date of commencement: 1 April 2022"
+    },
+    {
+      "section": "5",
+      "heading": "Act 2 of 2019—Payment Services Act 2019",
+      "title": "Payment Services Act 2019 legislative timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 182,
+      "page_end": 183,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative timeline for the Payment Services Act 2019, including dates of first reading (19 November 2018), second and third readings (14 January 2019), and commencement dates for various parts of the Act. The commencement dates vary by section and part, with specific effective dates for different provisions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 19 November 2018 (Bill /2018)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Second and Third Readings: 14 January 2019",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement: 28 January 2020 (Parts 1 to 8, sections 109, 110, 112, 115 to 120, Part 10, the First and Second Schedules)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement: 30 July 2020 (Section 114)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement: 31 May 2021 (Section 111)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement: 30 June 2022 (Section 113)",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Date of First Reading: 19 November 2018 (Bill /2018) Date of Second and Third Readings: 14 January 2019 Date of commencement: 28 January 2020 (Parts 1 to 8, sections 109, 110, 112, 115 to 120, Part 10, the First and Second Schedules) 30 July 2020 (Section 114) 31 May 2021 (Section 111) 30 June 2022 (Section 113)"
+    },
+    {
+      "section": "6",
+      "heading": "Act 1 of 2021—Payment Services (Amendment) Act 2021",
+      "title": "Payment Services (Amendment) Act 2021 legislative timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 183,
+      "page_end": 183,
+      "primary_category": "Other",
+      "summary": "This section provides the legislative timeline for the Payment Services (Amendment) Act 2021, including dates of first reading (2 November 2020), second and third readings (4 January 2021), and commencement date (4 April 2024). The bill was published on 2 November 2020 and passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 2 November 2020 (Bill /2020 published on 2 November 2020)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings: 4 January 2021",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Commencement: 4 April 2024",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 1 of 2021—Payment Services (Amendment) Act 2021 (Amendments made by the above Act) Date of First Reading: 2 November 2020 (Bill /2020 published on 2 November 2020) Second and Third Readings: 4 January 2021 Date of Commencement: 4 April 2024"
+    },
+    {
+      "section": "7",
+      "heading": "Act 18 of 2022—Financial Services and Markets Act 2022",
+      "title": "Financial Services and Markets Act 2022 legislative timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 183,
+      "page_end": 183,
+      "primary_category": "Other",
+      "summary": "This section details the legislative timeline for the Financial Services and Markets Act 2022, specifying dates of first reading (14 February 2022), second and third readings (5 April 2022), and commencement dates for different sections (28 April 2023 for sections 207(2), (4) and (5); 31 July 2024 for sections 207(1) and (3)).",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 14 February 2022 (Bill /2022)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Second and Third Readings: 5 April 2022",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of commencement: 28 April 2023 (Section 207(2), (4) and (5))",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of commencement: 31 July 2024 (Section 207(1) and (3))",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 18 of 2022—Financial Services and Markets Act 2022 Date of First Reading: 14 February 2022 (Bill /2022) Date of Second and Third Readings: 5 April 2022 Date of commencement: 28 April 2023 (Section 207(2), (4) and (5)) 31 July 2024 (Section 207(1) and (3))"
+    },
+    {
+      "section": "8",
+      "heading": "Act 12 of 2024—Financial Institutions (Miscellaneous Amendments) Act 2024",
+      "title": "Financial Institutions (Miscellaneous Amendments) Act 2024 legislative timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 183,
+      "page_end": 183,
+      "primary_category": "Other",
+      "summary": "This section provides the legislative timeline for the Financial Institutions (Miscellaneous Amendments) Act 2024, including dates of first reading (10 January 2024), second and third readings (7 March 2024), and commencement date (24 January 2025). The bill was published on 10 January 2024 and passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Date of First Reading: 10 January 2024 (Bill /2024)",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of Second and Third Readings: 7 March 2024",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Date of commencement: 24 January 2025",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 12 of 2024—Financial Institutions (Miscellaneous Amendments) Act 2024 Date of First Reading: 10 January 2024 (Bill /2024) Date of Second and Third Readings: 7 March 2024 Date of commencement: 24 January 2025"
+    },
+    {
+      "section": "9",
+      "heading": "Act 5 of 2025—Electronic Gazette and Legislation Act 2025",
+      "title": "Electronic Gazette and Legislation Act 2025 legislative timeline",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 183,
+      "page_end": 184,
+      "primary_category": "Other",
+      "summary": "This section outlines the legislative timeline for the Electronic Gazette and Legislation Act 2025, including dates of first reading (11 November 2024), second and third readings (7 January 2025), and commencement date (9 March 2025). The bill was published on 11 November 2024 and passed through the legislative process with specific dates for readings and commencement.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Bill: 47/2024",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "First Reading: 11 November 2024",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Second and Third Readings: 7 January 2025",
+          "obligation_type": "Notification"
+        },
+        {
+          "text": "Commencement: 9 March 2025",
+          "obligation_type": "Notification"
+        }
+      ],
+      "source_quote": "Act 5 of 2025—Electronic Gazette and Legislation Act 2025 Bill: 47/2024 First Reading: 11 November 2024 Second and Third Readings: 7 January 2025 Commencement: 9 March 2025"
+    }
+  ]
+}

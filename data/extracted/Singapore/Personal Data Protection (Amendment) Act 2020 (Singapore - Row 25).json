@@ -1,0 +1,3153 @@
+{
+  "country": "Singapore",
+  "document": "Personal Data Protection (Amendment) Act 2020 (Singapore - Row 25)",
+  "generated": "2026-07-18T18:26:33",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "This Act is the Personal Data Protection (Amendment) Act 2020 and comes into",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "2",
+      "heading": "Section 2(1) of the Personal Data Protection Act 2012 (called in this Act the",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 5,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "3",
+      "heading": "Section 4 of the principal Act is amended —",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 5,
+      "page_end": 6,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "4",
+      "heading": "Part III of the principal Act is amended by inserting, immediately after the words",
+      "title": "Disclosure of personal data to law enforcement officers",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section permits disclosure of personal data to prescribed law enforcement officers when they provide written authorisation signed by their head or equivalent officer, certifying the data is necessary for their functions. The disclosure must be for law enforcement purposes and requires specific documentation to validate necessity.",
+      "dtia_summary": "This section establishes a legal mechanism for cross-border data transfers to law enforcement agencies with specific conditions on necessity and authorisation, relevant for DTIAs involving international law enforcement cooperation.",
+      "authority": "Singaporean law enforcement agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon production of written authorisation signed by the head or director of that prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certifying that the personal data is necessary for the purposes of the functions or duties of the officer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency, upon production of written authorisation signed by the head or director of that prescribed law enforcement agency or a person of a similar rank, certifying that the personal data is necessary for the purposes of the functions or duties of the officer."
+    },
+    {
+      "section": "5",
+      "heading": "Section 11 of the principal Act is amended by inserting, immediately after",
+      "title": "Data collection for legal services or credit reports",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 6,
+      "primary_category": "Data Collection",
+      "summary": "This section permits data collection for legal services or credit reporting purposes. It allows organisations to collect personal data when providing legal services to individuals or when credit bureaus prepare or provide credit reports for transactions between members and individuals.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is for the purpose of the preparation by a credit bureau of a credit report",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. The collection, use or disclosure (as the case may be) of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services. 6.—(1) Subject to sub-paragraph (2), the collection, use or disclosure (as the case may be) of personal data about an individual — (a) is for the purpose of the preparation by a credit bureau of a credit report; or (b) relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual. (2) Sub-paragraph (1) does not apply to a credit bureau that, being required to obtain a licence under any other written law, does not hold such a licence."
+    },
+    {
+      "section": "6",
+      "heading": "Section 15 of the principal Act is amended by inserting, immediately after",
+      "title": "Definitions for broadcasting services and news organizations",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 8,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms including 'broadcasting service', 'news activity', 'news organisation', 'newspaper', and 'relevant broadcasting service'. These definitions are critical for understanding the scope of broadcasting and news-related activities under Singapore's legal framework, particularly for entities operating in the media sector.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "broadcasting service has the meaning given by section 2(1) of the Broadcasting Act (Cap. 28)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news activity means the gathering of news or preparation of articles for dissemination to the public",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news activity means the dissemination of news, observations on news, or current affairs to the public",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news organisation means any organisation whose business consists of news activity",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news organisation means any organisation that provides a broadcasting service in Singapore with a licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "newspaper has the meaning given by section 2(1) of the Newspaper and Printing Presses Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air nationwide television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air localised television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air international television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription nationwide television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription localised television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription international television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means special interest television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air nationwide radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air localised radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air international radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription nationwide radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription localised radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription international radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means special interest radio services",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "6. In this Part — \"broadcasting service\" has the meaning given by section 2(1) of the Broadcasting Act (Cap. 28); \"news activity\" means — (a) the gathering of news, or the preparation or compilation of articles or programmes of or concerning news, observations on news, or current affairs, for the purposes of dissemination to the public or any section of the public; or (b) the dissemination, to the public or any section of the public, of any article or programme of or concerning — (i) news; (ii) observations on news; or (iii) current affairs; \"news organisation\" means — (a) any organisation — (i) the business of which consists, in whole or in part, of news activity carried out in relation to a relevant broadcasting service, a newswire service or the publication of a newspaper; and (ii) which, if the organisation publishes a newspaper in Singapore which is not exempted from the provisions of Part III of the Newspaper and Printing Presses Act (Cap. 206), is a newspaper company defined in section 2(1) of that Act; or (b) any organisation which provides a broadcasting service in or from Singapore and holds a broadcasting licence granted under section 8 of the Broadcasting Act; \"newspaper\" has the meaning given by section 2(1) of the Newspaper and Printing Presses Act; \"relevant broadcasting service\" means any of the following licensable broadcasting services within the meaning of the Broadcasting Act: (a) free-to-air nationwide television services; (b) free-to-air localised television services; (c) free-to-air international television services; (d) subscription nationwide television services; (e) subscription localised television services; (f) subscription international television services; (g) special interest television services; (h) free-to-air nationwide radio services; (i) free-to-air localised radio services; (j) free-to-air international radio services; (k) subscription nationwide radio services; (l) subscription localised radio services; (m) subscription international radio services; (n) special interest radio services."
+    },
+    {
+      "section": "7",
+      "heading": "The principal Act is amended by inserting, immediately after section 15, the",
+      "title": "Definition of 'appeal' in Eighth Schedule",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "This section defines 'appeal' as an appeal under either section 34 as it was before the commencement of section 15 of the Personal Data Protection (Amendment) Act 2020 or section 48Q.",
+      "dtia_summary": "This definition clarifies the scope of appeals in data processing, relevant for DTIAs involving dispute resolution procedures.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "7. In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q."
+    },
+    {
+      "section": "8",
+      "heading": "Section 17 of the principal Act is repealed and the following section substituted",
+      "title": "Personal data provided by individual for service purposes",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 10,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data provided by an individual to an organisation for the individual's personal or domestic purposes. The data must be collected, used or disclosed solely for that specific purpose. The organisation cannot use the data for any other purpose without explicit consent or a separate legal basis.",
+      "dtia_summary": "Defines when personal data can be collected from an individual without consent for specific purposes, relevant for DTIA when assessing data collection for service provision.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data provided by an individual to enable service for their personal or domestic purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data collected, used or disclosed solely for the purpose in sub-paragraph (a)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "8. The personal data about an individual — (a) is provided to the organisation by another individual to enable the organisation to provide a service for the personal or domestic purposes of that other individual; and (b) is collected, used or disclosed (as the case may be) by the organisation solely for the purpose in sub-paragraph (a)."
+    },
+    {
+      "section": "9",
+      "heading": "Section 20 of the principal Act is amended —",
+      "title": "Personal data in employment documents",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 11,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data included in documents produced for an individual's employment, business or profession. The data must be collected, used or disclosed solely for purposes consistent with the document's original purpose. This ensures data collected in employment contexts remains aligned with its intended use.",
+      "dtia_summary": "Clarifies data collection in employment contexts, relevant for DTIA when assessing data retention and use in employment-related documents.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data included in a document produced in the course of the individual's employment, business or profession",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data collected, used or disclosed solely for purposes consistent with the document's original purpose",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. The personal data about an individual — (a) is included in a document produced in the course, and for the purposes, of the individual's employment, business or profession; and (b) is collected, used or disclosed (as the case may be) for purposes consistent with the purpose for which the document was produced."
+    },
+    {
+      "section": "10",
+      "heading": "Section 21 of the principal Act is amended —",
+      "title": "Personal data for employment relationships",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 11,
+      "page_end": 12,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data collected for employment purposes, including entering or managing employment relationships. The data must be reasonable for the purpose of employment, ensuring it is directly related to the employment relationship without unnecessary collection.",
+      "dtia_summary": "Defines data collection for employment purposes, relevant for DTIA when assessing data retention and use in employment contexts.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data collected for entering into an employment relationship or appointing an individual to an office",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data collected for managing or terminating employment relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collection must be reasonable for the purpose of or in relation to the employment relationship",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. The personal data about an individual is collected, used or disclosed (as the case may be) by the organisation, and the collection, use or disclosure (as the case may be) of the personal data is reasonable for the purpose of or in relation to the organisation — (a) entering into an employment relationship with the individual or appointing the individual to any office; or (b) managing or terminating the employment relationship with or appointment of the individual."
+    },
+    {
+      "section": "11",
+      "heading": "Part V of the principal Act is amended by inserting, immediately after section 22,",
+      "title": "Preservation of refused data copies",
+      "chapter": null,
+      "part": "Part h",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 13,
+      "primary_category": "Data Storage",
+      "summary": "Organisations must preserve copies of personal data for at least the prescribed period when they refuse to provide requested data to individuals. These copies must be complete and accurate. This applies to data requests made on or after the commencement date of section 11 of the Act.",
+      "dtia_summary": "Requires organisations to retain copies of refused data requests, creating a safeguard for data storage and cross-border transfers involving data refusal scenarios.",
+      "authority": "Personal Data Protection Authority (PDPA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations must preserve copies of personal data for not less than prescribed period when refusing data requests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Preserved copies must be complete and accurate",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Preservation of copies of personal data 22A.—(1) Where — (a) an individual, on or after the date of commencement of section 11 of the Personal Data Protection (Amendment) Act 2020, makes a request under section 21(1)(a) to an organisation to provide personal data about the individual that is in the possession or under the control of the organisation; and (b) the organisation refuses to provide that personal data, the organisation must preserve, for not less than the prescribed period, a copy of the personal data concerned."
+    },
+    {
+      "section": "12",
+      "heading": "Section 24 of the principal Act is repealed and the following section substituted",
+      "title": "",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "24",
+      "heading": "An organisation must protect personal data in its possession or under its",
+      "title": "Amendment of financial penalty limits",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "This amendment sets maximum financial penalties for organizations and individuals based on turnover thresholds. Organizations with Singapore turnover exceeding $10 million face penalties up to 10% of turnover, while others face $1 million. Individuals face $200,000 or 5% of turnover (for large entities), with a $1 million cap.",
+      "dtia_summary": "This section defines maximum financial penalties for data breaches, directly impacting the financial risk assessment for data transfers and processing activities.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial penalty for organizations must not exceed 10% of Singapore turnover (for entities >$10m turnover)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for organizations must not exceed $1 million (for other cases)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed $200,000",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed 5% of Singapore turnover (for entities >$20m turnover)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed $1 million (for other cases)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A financial penalty imposed on an organisation under subsection (1)(a) must not exceed the maximum amount to be prescribed, which in no case may be more than the following: (a) in the case of a contravention on or after the date of commencement of section 24 of the Personal Data Protection (Amendment) Act 2020 by an organisation whose annual turnover in Singapore exceeds $10 million — 10% of the annual turnover in Singapore of the organisation;"
+    },
+    {
+      "section": "13",
+      "heading": "The principal Act is amended by inserting, immediately after section 26, the",
+      "title": "Amendment to insert Part VIA for data breach notifications",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 17,
+      "primary_category": "Breach Notification",
+      "summary": "This section amends the Act by inserting Part VIA, which establishes requirements for organisations to assess and notify data breaches to the Personal Data Protection Commission. It mandates that organisations conduct assessments to determine if a breach constitutes a notifiable data breach, and requires timely notification to the Commission and affected individuals where applicable. The rules also address data intermediary responsibilities and exceptions for certain breaches.",
+      "dtia_summary": "This section creates specific obligations for organisations to assess and report data breaches, which directly impacts data transfer and storage practices across borders by requiring breach notifications and assessments for cross-border data flows.",
+      "authority": "Personal Data Protection Commission (PDPC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification",
+        "Incident Reporting",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations must conduct a reasonable and expeditious assessment to determine if a data breach is a notifiable data breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must notify the Commission within 3 calendar days of assessing a notifiable data breach",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must notify affected individuals in a reasonable manner if a breach results in significant harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data intermediaries must notify other organisations of breaches they detect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations may exclude notification if actions taken render breach unlikely to cause harm",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Organisations may exclude notification if instructed by a law enforcement agency",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A data breach is a notifiable data breach if the data breach — (a) results in, or is likely to result in, significant harm to an affected individual; or (b) is, or is likely to be, of a significant scale."
+    },
+    {
+      "section": "14",
+      "heading": "The principal Act, as amended by section 13, is amended by inserting,",
+      "title": "Definitions for data protection sections",
+      "chapter": null,
+      "part": "Part V",
+      "condition": null,
+      "page_start": 17,
+      "page_end": 20,
+      "primary_category": "Definitions",
+      "summary": "This section provides definitions for key terms used in sections 14A, 14B, and 14C, including 'gain', 'generally available information', 'harm', 'loss', 'personal data', and 'prescribed circumstances' or 'prescribed purpose'. These definitions clarify the scope of obligations for handling information within the Monetary Authority.",
+      "dtia_summary": "These definitions are relevant for DTIA as they specify what constitutes personal data and other critical terms that impact data handling and transfer mechanisms.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "gain means — (a) a gain in property or a supply of services, whether temporary or permanent; or (b) an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "generally available information means information that consists of readily observable matter, including information that consists of deductions, conclusions or inferences made or drawn from readily observable matter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "harm, in relation to an individual, means — (a) any physical harm; or (b) harassment, alarm or distress caused to the individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "loss means — (a) a loss in property or a supply of services, whether temporary or permanent; or (b) a loss of an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration, but excludes, in relation to an individual, the loss of personal data about the individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "personal data has the meaning given by section 2(1) of the Personal Data Protection Act 2012 (Act 26 of 2012)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "prescribed circumstances or prescribed purpose means any circumstances or purpose prescribed in regulations made under section 14D",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In sections 14A, 14B and 14C — gain means — (a) a gain in property or a supply of services, whether temporary or permanent; or (b) an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration; generally available information means information that consists of readily observable matter, including information that consists of deductions, conclusions or inferences made or drawn from readily observable matter; harm, in relation to an individual, means — (a) any physical harm; or (b) harassment, alarm or distress caused to the individual; loss means — (a) a loss in property or a supply of services, whether temporary or permanent; or (b) a loss of an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration, but excludes, in relation to an individual, the loss of personal data about the individual; personal data has the meaning given by section 2(1) of the Personal Data Protection Act 2012 (Act 26 of 2012); prescribed circumstances or prescribed purpose means any circumstances or purpose prescribed in regulations made under section 14D."
+    },
+    {
+      "section": "15",
+      "heading": "Parts VII and VIII of the principal Act are repealed.",
+      "title": "Repeal of Parts VII and VIII",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 21,
+      "primary_category": "Exemptions",
+      "summary": "This section repeals Parts VII and VIII of the Act, which previously covered certain data protection provisions. The repeal removes these sections from the Act, effectively eliminating their obligations and provisions. This change may impact how data is handled in specific contexts, but the section itself does not create new obligations.",
+      "dtia_summary": "This section removes older provisions that may have affected data transfers, but does not directly impact current data transfer impact assessments as it is a repeal rather than an active obligation.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Parts VII and VIII of the principal Act are repealed."
+    },
+    {
+      "section": "16",
+      "heading": "Section 36(1) of the principal Act is amended —",
+      "title": "Amendment to voice call definition",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 21,
+      "primary_category": "Definitions",
+      "summary": "This section amends the Act by updating the definition of 'voice call' to include calls with recorded or synthetic voices and calls equivalent to voice calls for individuals with disabilities. The change aims to modernize the definition to accommodate new communication technologies and accessibility needs.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it is a definitional amendment with no operational requirements for data transfers.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "A voice call includes — (a) a call that involves a recorded or synthetic voice; or (b) in the case of a recipient with a disability (for example, a hearing impairment), a call that is equivalent to a voice call."
+    },
+    {
+      "section": "17",
+      "heading": "Section 37 of the principal Act is amended —",
+      "title": "Amendment to applicable purpose definition",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Definitions",
+      "summary": "This section amends the Act by updating the definition of 'applicable purpose' to specify that it refers to purposes listed in the Tenth Schedule. It also revises the criteria for determining if a message serves an applicable purpose, including content, presentation, and contact information.",
+      "dtia_summary": "This section does not directly impact data transfer impact assessments as it is a definitional amendment with no operational requirements for data transfers.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "In this section, 'applicable purpose' means a purpose specified in the Tenth Schedule."
+    },
+    {
+      "section": "18",
+      "heading": "Section 43 of the principal Act is repealed and the following section substituted",
+      "title": "Verification of Singapore phone numbers before sending messages",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Cross-border Transfer",
+      "summary": "A person must not send a message to a Singapore telephone number without valid confirmation that the number is not listed in the relevant register. Valid confirmation requires either a Commission application with confirmation that the number is not listed, or obtaining information from a checker that is accurate and not expired or false. The consent of the recipient must be clear and unambiguous and evidenced in writing for the message to be exempt from this rule.",
+      "dtia_summary": "Requires verification of Singapore phone numbers before cross-border messaging to prevent unauthorized use of numbers listed in registers. This affects data transfer mechanisms involving international SMS or calls.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person must not send a specified message to a Singapore telephone number without valid confirmation that the number is not listed in the relevant register",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Valid confirmation requires a Commission application with confirmation the number is not listed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Valid confirmation requires checker information that is accurate and not expired or false",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Recipient consent must be clear, unambiguous and evidenced in writing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 43(1) of the principal Act is repealed and the following section substituted: 'Duty to check register'"
+    },
+    {
+      "section": "19",
+      "heading": "The principal Act is amended by inserting, immediately after section 43, the",
+      "title": "Checker obligations for verifying Singapore phone numbers",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Checkers must ensure the information they provide about Singapore telephone numbers is accurate and comply with prescribed requirements. Checkers are deemed compliant if they provide information in accordance with Commission replies and before the prescribed period expires. Checkers are excluded from the scope if they are employees of the person using the service or their agents.",
+      "dtia_summary": "Defines responsibilities for third parties verifying Singapore phone numbers, critical for ensuring compliance in cross-border messaging systems.",
+      "authority": "Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A checker must ensure applicable information provided to P is accurate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A checker must provide applicable information to P in accordance with prescribed requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Checker is deemed compliant if information is in accordance with Commission reply",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Checker must provide information before the prescribed period expires",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Checkers are excluded if they are employees of P or their agents",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 43A(1) of the principal Act is amended by inserting: 'Duty of checkers'"
+    },
+    {
+      "section": "44",
+      "heading": "Subject to section 48(2), a person must not send a specified message",
+      "title": "Amendment to Healthcare Services Act for healthcare data provisions",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section amends the Healthcare Services Act 2020 by deleting subsection (8), which likely relates to healthcare data handling procedures. The amendment removes specific provisions that may have governed healthcare data disclosures or processing, though the exact scope is not detailed in the provided text.",
+      "dtia_summary": "This section has no direct relevance to data transfer impact assessments as it pertains to healthcare data within Singapore's domestic legal framework.",
+      "authority": "Healthcare Services Act 2020",
+      "financial_relevance": "None",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Section 59 of the Healthcare Services Act 2020 (Act 3 of 2020) is amended by deleting subsection (8)",
+          "obligation_type": "Deletion"
+        }
+      ],
+      "source_quote": "Section 59 of the Healthcare Services Act 2: 2020 (Act 3 of 2020) is amended by deleting subsection (8)."
+    },
+    {
+      "section": "45",
+      "heading": "Subject to section 48(3), a person that makes a voice call containing a",
+      "title": "Deletion of Schedule item for Supreme Court of Judicature",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "This section deletes Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019, which likely relates to procedural or jurisdictional provisions within Singapore's judicial framework. The deletion may affect how certain judicial processes interact with data handling procedures, though the specific impact is not detailed.",
+      "dtia_summary": "This section has no direct relevance to data transfer impact assessments as it pertains to judicial procedures rather than data flows.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019 (Act 40 of 2019) is deleted",
+          "obligation_type": "Deletion"
+        }
+      ],
+      "source_quote": "Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019 (Act 40 of 2019) is deleted."
+    },
+    {
+      "section": "21",
+      "heading": "Section 48 of the principal Act is amended by deleting subsections (2) and (3) and",
+      "title": "Exemptions for employees in cross-border messaging",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 26,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Employees are exempt from sections 43 and 44 if they send messages in good faith as part of their employment or as instructed by their employer. Employees are also exempt from section 45 if they make calls in good faith as part of their employment or as instructed by their employer.",
+      "dtia_summary": "Provides exemptions for employees in cross-border messaging activities, reducing compliance burden for staff engaged in business operations.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Employee Information"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Employees are exempt if sending messages in good faith as part of employment",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Employees are exempt if following employer instructions in good faith",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 21: 'Section 43(1) or 44 does not apply to an employee (X) who sends a specified message addressed to a Singapore telephone number in good faith — (a) in the course of X's employment; or (b) in accordance with instructions given to X by or on behalf of X's employer in the course of X's employment.'"
+    },
+    {
+      "section": "22",
+      "heading": "The principal Act is amended by inserting, immediately after section 48, the",
+      "title": "Prohibitions on dictionary attacks and address-harvesting software",
+      "chapter": null,
+      "part": "Part i",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 32,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Prohibits sending messages using dictionary attacks or address-harvesting software to obtain Singapore telephone numbers. Applicable messages are defined as messages with a Singapore link, and the sender must not use these methods to send messages to Singapore numbers.",
+      "dtia_summary": "Restricts methods used to harvest Singapore phone numbers, preventing unauthorized data collection in cross-border messaging.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Person must not send, cause to be sent or authorise sending of applicable messages",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Employees are exempt if sending messages in good faith as part of employment",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Officers or partners are exempt if they knew or ought to have known the number was applicable",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Section 48B(1): 'Subject to subsections (2) and (3), a person must not send, cause to be sent or authorise the sending of an applicable message.'"
+    },
+    {
+      "section": "22 (part 2)",
+      "heading": "The principal Act is amended by inserting, immediately after section 48, the (cont.)",
+      "title": "Unauthorised use of personal data: criminal penalties and defences",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "This section defines criminal offences for individuals who improperly use personal data without authorization. It specifies that an offence occurs when an individual uses personal data in the possession or control of an organisation or public agency without authorization, knowing or being reckless about the lack of authorization, and causes a gain, harm, or loss. The maximum penalty is a fine of $5,000 or imprisonment for two years. The defence allows proving the data was publicly available or the use was authorized by law, court order, or reasonable belief in legal right.",
+      "dtia_summary": "This section establishes criminal liability for unauthorized use of personal data, which impacts DTIAs by requiring assessments of data usage permissions and potential legal defences to avoid criminal penalties.",
+      "authority": "Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "If an individual uses personal data without authorization by an organisation or public agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The use must be known or reckless regarding lack of authorization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The use must cause a gain for the individual or another person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The use must cause harm to another individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The use must cause a loss to another person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The individual is liable to a fine of up to $5,000 or imprisonment for two years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The accused may prove the data was publicly available as a defence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The accused may prove the use was authorized by law, court order, or reasonable belief in legal right as a defence",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "If — (a) an individual makes use of personal data in the possession or under the control of an organisation or a public agency; (b) the use is not authorised by the organisation or public agency, as the case may be; (c) the individual does so — (i) knowing that the use is not authorised by the organisation or public agency, as the case may be; or (ii) reckless as to whether the use is or is not authorised by the organisation or public agency, as the case may be; and (d) the individual, as a result of that use — (i) obtains a gain for the individual or another person; (ii) causes harm to another individual; or (iii) causes a loss to another person, the individual shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $5,000 or to imprisonment for a term not exceeding 2 years or to both."
+    },
+    {
+      "section": "23",
+      "heading": "The principal Act is amended by inserting, immediately before Part X, the",
+      "title": "Enforcement mechanisms for data protection complaints",
+      "chapter": null,
+      "part": "part \nf",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 41,
+      "primary_category": "Other",
+      "summary": "This section outlines enforcement powers of the Commission for data protection complaints. It allows the Commission to refer complaints to mediation, direct resolution attempts, establish dispute resolution schemes, review refusals to provide data access or corrections, and impose financial penalties on non-compliance. The Commission may also direct organisations to stop data collection, destroy data, or comply with other directions. Financial penalties for organisations cap at $1 million and for individuals at $200,000.",
+      "dtia_summary": "This section provides enforcement mechanisms that impact DTIAs by requiring assessments of compliance with data handling practices and potential penalties for non-compliance, particularly for financial institutions.",
+      "authority": "Singapore",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commission may refer complaints to mediation without consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may direct resolution attempts with or without consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may establish dispute resolution schemes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may make regulations for dispute resolution schemes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may review refusals to provide data access or corrections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may review refusals to transmit data during porting",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may direct organisations to stop collecting, using or disclosing personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may direct organisations to destroy personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may impose financial penalties on organisations up to $1 million",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commission may impose financial penalties on individuals up to $200,000",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Commission may, if it is satisfied that an organisation has not complied or is not complying with any provision of Part III, IV, V, VI, VIA or VIB, give the organisation any direction that the Commission thinks fit in the circumstances to ensure compliance with that provision."
+    },
+    {
+      "section": "23 (part 2)",
+      "heading": "The principal Act is amended by inserting, immediately before Part X, the (cont.)",
+      "title": "Commission notice requirements for enforcement actions",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 46,
+      "primary_category": "Enforcement",
+      "summary": "The Commission must serve specific notices to organizations and complainants following financial penalties or directions. Notices must specify payment deadlines for penalties, allow extensions or installment payments, and calculate interest rates not exceeding court judgment debt rates. The Commission may also accept voluntary undertakings to address compliance issues.",
+      "dtia_summary": "This section establishes notice requirements for enforcement actions, including payment deadlines, extensions, and interest calculations that impact data transfer compliance timelines and financial penalties.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Commission must serve notice on organization concerned",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission must serve notice on complainant who resulted in penalty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty takes effect only after notice served on organization",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Written notice must specify payment deadline not earlier than 28 days",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may extend time for penalty payment",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Commission may allow penalty payment by instalments",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Interest rate must not exceed court judgment debt rate",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Commission must serve a notice of the decision on the following persons: (a) the organisation or person concerned; (b) the complainant whose complaint against the organisation or person concerned resulted in the giving of the direction or the imposition of the financial penalty (as the case may be), if any."
+    },
+    {
+      "section": "23 (part 3)",
+      "heading": "The principal Act is amended by inserting, immediately before Part X, the (cont.)",
+      "title": "Data Protection Appeal Panel establishment",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 46,
+      "page_end": 48,
+      "primary_category": "Other",
+      "summary": "The Act establishes a Data Protection Appeal Panel with a Chairman appointed by the Minister. The Panel may form committees to hear appeals against Commission decisions. The Seventh Schedule governs the Panel's procedures and members.",
+      "dtia_summary": "This section creates an appeal mechanism for organizations and individuals to challenge Commission decisions, affecting data transfer compliance through formal review processes.",
+      "authority": "Minister",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data Protection Appeal Panel is established",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Minister appoints Appeal Panel members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chairman of Appeal Panel appointed by Minister from members",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Chairman may nominate Data Protection Appeal Committee",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "There is established a Data Protection Appeal Panel."
+    },
+    {
+      "section": "24",
+      "heading": "Section 48J of the principal Act, as inserted by section 23, is amended —",
+      "title": "Amendment of financial penalty limits",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 49,
+      "primary_category": "Other",
+      "summary": "This amendment sets maximum financial penalties for organizations and individuals based on turnover thresholds. Organizations with Singapore turnover exceeding $10 million face penalties up to 10% of turnover, while others face $1 million. Individuals face $200,000 or 5% of turnover (for large entities), with a $1 million cap.",
+      "dtia_summary": "This section defines maximum financial penalties for data breaches, directly impacting the financial risk assessment for data transfers and processing activities.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Financial penalty for organizations must not exceed 10% of Singapore turnover (for entities >$10m turnover)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for organizations must not exceed $1 million (for other cases)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed $200,000",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed 5% of Singapore turnover (for entities >$20m turnover)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Financial penalty for individuals must not exceed $1 million (for other cases)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A financial penalty imposed on an organisation under subsection (1)(a) must not exceed the maximum amount to be prescribed, which in no case may be more than the following: (a) in the case of a contravention on or after the date of commencement of section 24 of the Personal Data Protection (Amendment) Act 2020 by an organisation whose annual turnover in Singapore exceeds $10 million — 10% of the annual turnover in Singapore of the organisation;"
+    },
+    {
+      "section": "25",
+      "heading": "Section 48R of the principal Act, as inserted by section 23, is amended —",
+      "title": "Amendment of court jurisdiction for appeals",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Other",
+      "summary": "This amendment changes court jurisdiction for appeals from the Data Protection Appeal Committee to the General Division of the High Court, removing references to 'High Court' in relevant sections. The amendment also deletes subsection (5) of section 48R.",
+      "dtia_summary": "This section modifies the judicial pathway for appeals, affecting the enforcement mechanisms for data transfer compliance decisions.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Appeals from Appeal Committee to General Division of High Court",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 48R of the principal Act, as inserted by section 23, is amended — (a) by deleting the words 'High Court' wherever they appear in subsections (1), (3) and (4) and substituting in each case the words 'General Division of the High Court';"
+    },
+    {
+      "section": "26",
+      "heading": "Section 50 of the principal Act is amended —",
+      "title": "Amendment of investigation scope for compliance",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 50,
+      "primary_category": "Enforcement",
+      "summary": "This amendment broadens the scope of investigations to include voluntary undertakings. The Commission may investigate organizations or individuals who fail to comply with voluntary undertakings, even after accepting them under section 48L(1).",
+      "dtia_summary": "This section extends the Commission's authority to investigate compliance with voluntary undertakings, impacting data transfer and processing activities through enforcement mechanisms.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commission may conduct or resume investigation if organization fails to comply with voluntary undertaking",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "To avoid doubt, despite subsection (3)(ca), the Commission may conduct or resume an investigation under this section at any time if an organisation or a person fails to comply with a voluntary undertaking given by the organisation or person under section 48L(1) in relation to any matter."
+    },
+    {
+      "section": "27",
+      "heading": "Section 51 of the principal Act is amended —",
+      "title": "Amendment of offences for unauthorized data access",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 51,
+      "primary_category": "Enforcement",
+      "summary": "This amendment defines new offences for unauthorized access to personal data, including requests for data access, changes, and data porting without authorization. It also sets fines for non-compliance with reporting requirements.",
+      "dtia_summary": "This section establishes specific offences for unauthorized data access and porting, directly impacting data transfer compliance through defined penalties and reporting obligations.",
+      "authority": "Personal Data Protection Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Person commits offence if they make unauthorized request for data access",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Person commits offence if they make unauthorized request for data changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Person commits offence if they give unauthorized data porting request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Individuals face fine up to $5,000 or imprisonment up to 6 months",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organizations face fine up to $10,000",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person shall be guilty of an offence if the person — (a) makes a request under section 21(1) to obtain access to personal data about another individual without the authority of that other individual; (b) makes a request under section 22(1) to change personal data about another individual without the authority of that other individual; or (c) subject to subsection (1A), gives a porting organisation a data porting request under section 26H(1) to transmit personal data about another individual to a receiving organisation without the authority of that other individual."
+    },
+    {
+      "section": "28",
+      "heading": "Section 52 of the principal Act is repealed and the following sections substituted",
+      "title": "Corporate liability for data breaches: state of mind evidence and personal liability",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 55,
+      "primary_category": "Other",
+      "summary": "This section establishes that a corporation's state of mind in relation to an offence can be proven by evidence of an officer, employee or agent's state of mind acting within their authority. It also defines when individuals involved in a corporation's conduct are liable for the corporation's offences, including consent, connivance, or failure to prevent offences. The section specifies that individuals may rely on corporate defences and bears the same burden of proof as the corporation. It explicitly excludes the Penal Code and Evidence Act from affecting this section's application and clarifies that the corporation's liability remains unaffected by the individual's conviction.",
+      "dtia_summary": "This section clarifies corporate liability for data breaches by defining when individuals are jointly liable with corporations, which impacts DTIA assessments by requiring explicit evidence of state of mind and specific conditions for individual liability.",
+      "authority": "Minister",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Evidence that an officer, employee or agent engaged in conduct within their authority had the state of mind is evidence the corporation had that state of mind",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person who is an officer, individual involved in management, or knowingly concerned in the offence shall be liable for the corporation's offence",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may rely on defences available to the corporation and bears the same burden of proof",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This section does not affect the application of Chapters V and VA of the Penal Code",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "This section does not affect the corporation's liability for offences",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The Minister may make regulations for application to corporations outside Singapore",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 52 of the principal Act is repealed and the following sections substituted therefor: 'Offences by corporations'"
+    },
+    {
+      "section": "29",
+      "heading": "Section 65(2) of the principal Act is amended —",
+      "title": "Amendment to data breach notification requirements",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "This section amends the principal Act by adding specific requirements for notifiable data breaches, including investigation steps, notification procedures to the Commission and affected individuals, and data porting requests. It mandates detailed information for porting requests, response timelines, data accessibility checks, and fee structures. The amendment also updates references to other sections to align with new provisions.",
+      "dtia_summary": "This section introduces specific requirements for data breach notifications and data porting, which are critical for DTIA assessments as they define the procedural safeguards and notification obligations for cross-border data transfers involving breaches.",
+      "authority": "Minister",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations must assess and notify notifiable data breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must provide steps for investigation and assessment of data breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must notify the Commission and affected individuals of notifiable data breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must specify the form and manner of notification for notifiable data breaches",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must define information and particulars for data porting requests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must specify response timelines for data porting requests",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Receiving organisations must confirm accessibility and completeness of data transmitted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Porting organisations may charge fees for data porting requests",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Section 65(2) of the principal Act is amended — (a) by inserting, immediately after paragraph (b), the following paragraphs: (ba) the assessment and notification of notifiable data breaches, including — (i) the steps and measures that an organisation must take in relation to the investigation and assessment of data breaches; and (ii) the form and manner in which the Commission and affected individuals must be notified of notifiable data breaches"
+    },
+    {
+      "section": "30",
+      "heading": "Section 66 of the principal Act is amended —",
+      "title": "Amendment to data processing references",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "This section amends the principal Act by updating references to sections 32 and 35 with new sections 48O and 48R, which likely relate to data processing and privacy provisions. The amendment ensures that the Act's references to specific sections are updated to align with the latest provisions.",
+      "dtia_summary": "This section updates section references for data processing, which may impact DTIA assessments by ensuring alignment with current regulatory frameworks for data handling and processing.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Section 32 is replaced with section 48O",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Section 35 is replaced with section 48R",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "Section 66 of the principal Act is amended — (a) by deleting the words 'section 32' and substituting the words 'section 48O'; and (b) by deleting the words 'section 35' and substituting the words 'section 48R'"
+    },
+    {
+      "section": "31",
+      "heading": "The principal Act is amended by inserting, immediately after section 68, the",
+      "title": "Vital interests exception for data collection without consent",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 57,
+      "primary_category": "Data Collection",
+      "summary": "This section establishes that personal data collection, use or disclosure is permissible without consent when necessary for an individual's vital interests, such as when consent cannot be obtained timely or the individual would not reasonably withhold consent. It requires organisations to notify individuals promptly of the collection, use or disclosure and its purpose.",
+      "dtia_summary": "This section provides a legal exception for data collection without consent when vital interests are at stake, which impacts DTIA assessments by allowing data transfers for critical purposes without consent, subject to immediate notification.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Collection, use or disclosure of personal data is necessary for vital interests of the individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent cannot be obtained in a timely way",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The individual would not reasonably be expected to withhold consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisation must notify individual of collection, use or disclosure and purpose as soon as practicable",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Section 17(1) and Fifth and Twelfth Schedules: 'The collection, use or disclosure (as the case may be) of personal data about an individual is necessary for any purpose which is clearly in the interests of the individual, and — (a) consent for the collection, use or disclosure (as the case may be) cannot be obtained in a timely way; or (b) the individual would not reasonably be expected to withhold consent.'"
+    },
+    {
+      "section": "2",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "3",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual,",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "4",
+      "heading": "The collection, use or disclosure of personal data is for the purpose of contacting the",
+      "title": "Disclosure of personal data to law enforcement officers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section permits disclosure of personal data to prescribed law enforcement officers when they provide written authorisation signed by their head or equivalent officer, certifying the data is necessary for their functions. The disclosure must be for law enforcement purposes and requires specific documentation to validate necessity.",
+      "dtia_summary": "This section establishes a legal mechanism for cross-border data transfers to law enforcement agencies with specific conditions on necessity and authorisation, relevant for DTIAs involving international law enforcement cooperation.",
+      "authority": "Singaporean law enforcement agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon production of written authorisation signed by the head or director of that prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certifying that the personal data is necessary for the purposes of the functions or duties of the officer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency, upon production of written authorisation signed by the head or director of that prescribed law enforcement agency or a person of a similar rank, certifying that the personal data is necessary for the purposes of the functions or duties of the officer."
+    },
+    {
+      "section": "1",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "2",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "3",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 57,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "4",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Disclosure of personal data to law enforcement officers",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 57,
+      "page_end": 58,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section permits disclosure of personal data to prescribed law enforcement officers when they provide written authorisation signed by their head or equivalent officer, certifying the data is necessary for their functions. The disclosure must be for law enforcement purposes and requires specific documentation to validate necessity.",
+      "dtia_summary": "This section establishes a legal mechanism for cross-border data transfers to law enforcement agencies with specific conditions on necessity and authorisation, relevant for DTIAs involving international law enforcement cooperation.",
+      "authority": "Singaporean law enforcement agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon production of written authorisation signed by the head or director of that prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certifying that the personal data is necessary for the purposes of the functions or duties of the officer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency, upon production of written authorisation signed by the head or director of that prescribed law enforcement agency or a person of a similar rank, certifying that the personal data is necessary for the purposes of the functions or duties of the officer."
+    },
+    {
+      "section": "5",
+      "heading": "The personal data about an individual is collected, used or disclosed (as the case may be)",
+      "title": "Data collection for legal services or credit reports",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 58,
+      "primary_category": "Data Collection",
+      "summary": "This section permits data collection for legal services or credit reporting purposes. It allows organisations to collect personal data when providing legal services to individuals or when credit bureaus prepare or provide credit reports for transactions between members and individuals.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is for the purpose of the preparation by a credit bureau of a credit report",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. The collection, use or disclosure (as the case may be) of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services. 6.—(1) Subject to sub-paragraph (2), the collection, use or disclosure (as the case may be) of personal data about an individual — (a) is for the purpose of the preparation by a credit bureau of a credit report; or (b) relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual. (2) Sub-paragraph (1) does not apply to a credit bureau that, being required to obtain a licence under any other written law, does not hold such a licence."
+    },
+    {
+      "section": "6",
+      "heading": "In this Part —",
+      "title": "Definitions for broadcasting services and news organizations",
+      "chapter": null,
+      "part": "PART I",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 60,
+      "primary_category": "Definitions",
+      "summary": "This section defines key terms including 'broadcasting service', 'news activity', 'news organisation', 'newspaper', and 'relevant broadcasting service'. These definitions are critical for understanding the scope of broadcasting and news-related activities under Singapore's legal framework, particularly for entities operating in the media sector.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "broadcasting service has the meaning given by section 2(1) of the Broadcasting Act (Cap. 28)",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news activity means the gathering of news or preparation of articles for dissemination to the public",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news activity means the dissemination of news, observations on news, or current affairs to the public",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news organisation means any organisation whose business consists of news activity",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "news organisation means any organisation that provides a broadcasting service in Singapore with a licence",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "newspaper has the meaning given by section 2(1) of the Newspaper and Printing Presses Act",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air nationwide television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air localised television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air international television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription nationwide television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription localised television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription international television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means special interest television services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air nationwide radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air localised radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means free-to-air international radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription nationwide radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription localised radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means subscription international radio services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "relevant broadcasting service means special interest radio services",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "6. In this Part — \"broadcasting service\" has the meaning given by section 2(1) of the Broadcasting Act (Cap. 28); \"news activity\" means — (a) the gathering of news, or the preparation or compilation of articles or programmes of or concerning news, observations on news, or current affairs, for the purposes of dissemination to the public or any section of the public; or (b) the dissemination, to the public or any section of the public, of any article or programme of or concerning — (i) news; (ii) observations on news; or (iii) current affairs; \"news organisation\" means — (a) any organisation — (i) the business of which consists, in whole or in part, of news activity carried out in relation to a relevant broadcasting service, a newswire service or the publication of a newspaper; and (ii) which, if the organisation publishes a newspaper in Singapore which is not exempted from the provisions of Part III of the Newspaper and Printing Presses Act (Cap. 206), is a newspaper company defined in section 2(1) of that Act; or (b) any organisation which provides a broadcasting service in or from Singapore and holds a broadcasting licence granted under section 8 of the Broadcasting Act; \"newspaper\" has the meaning given by section 2(1) of the Newspaper and Printing Presses Act; \"relevant broadcasting service\" means any of the following licensable broadcasting services within the meaning of the Broadcasting Act: (a) free-to-air nationwide television services; (b) free-to-air localised television services; (c) free-to-air international television services; (d) subscription nationwide television services; (e) subscription localised television services; (f) subscription international television services; (g) special interest television services; (h) free-to-air nationwide radio services; (i) free-to-air localised radio services; (j) free-to-air international radio services; (k) subscription nationwide radio services; (l) subscription localised radio services; (m) subscription international radio services; (n) special interest radio services."
+    },
+    {
+      "section": "2",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "3",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "4",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Disclosure of personal data to law enforcement officers",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section permits disclosure of personal data to prescribed law enforcement officers when they provide written authorisation signed by their head or equivalent officer, certifying the data is necessary for their functions. The disclosure must be for law enforcement purposes and requires specific documentation to validate necessity.",
+      "dtia_summary": "This section establishes a legal mechanism for cross-border data transfers to law enforcement agencies with specific conditions on necessity and authorisation, relevant for DTIAs involving international law enforcement cooperation.",
+      "authority": "Singaporean law enforcement agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon production of written authorisation signed by the head or director of that prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certifying that the personal data is necessary for the purposes of the functions or duties of the officer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency, upon production of written authorisation signed by the head or director of that prescribed law enforcement agency or a person of a similar rank, certifying that the personal data is necessary for the purposes of the functions or duties of the officer."
+    },
+    {
+      "section": "5",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Data collection for legal services or credit reports",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Data Collection",
+      "summary": "This section permits data collection for legal services or credit reporting purposes. It allows organisations to collect personal data when providing legal services to individuals or when credit bureaus prepare or provide credit reports for transactions between members and individuals.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual is for the purpose of the preparation by a credit bureau of a credit report",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The collection, use or disclosure of personal data about an individual relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "5. The collection, use or disclosure (as the case may be) of personal data about an individual is necessary for the provision of legal services by the organisation to another person, or for the organisation to obtain legal services. 6.—(1) Subject to sub-paragraph (2), the collection, use or disclosure (as the case may be) of personal data about an individual — (a) is for the purpose of the preparation by a credit bureau of a credit report; or (b) relates to a credit report provided by a credit bureau to a member of the credit bureau in relation to a transaction between the member and the individual. (2) Sub-paragraph (1) does not apply to a credit bureau that, being required to obtain a licence under any other written law, does not hold such a licence."
+    },
+    {
+      "section": "7",
+      "heading": "The collection, use or disclosure (as the case may be) of personal data about an individual",
+      "title": "Definition of 'appeal' in Eighth Schedule",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "This section defines 'appeal' as an appeal under either section 34 as it was before the commencement of section 15 of the Personal Data Protection (Amendment) Act 2020 or section 48Q.",
+      "dtia_summary": "This definition clarifies the scope of appeals in data processing, relevant for DTIAs involving dispute resolution procedures.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "7. In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q."
+    },
+    {
+      "section": "8",
+      "heading": "The personal data about an individual —",
+      "title": "Personal data provided by individual for service purposes",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 61,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data provided by an individual to an organisation for the individual's personal or domestic purposes. The data must be collected, used or disclosed solely for that specific purpose. The organisation cannot use the data for any other purpose without explicit consent or a separate legal basis.",
+      "dtia_summary": "Defines when personal data can be collected from an individual without consent for specific purposes, relevant for DTIA when assessing data collection for service provision.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data provided by an individual to enable service for their personal or domestic purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data collected, used or disclosed solely for the purpose in sub-paragraph (a)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "8. The personal data about an individual — (a) is provided to the organisation by another individual to enable the organisation to provide a service for the personal or domestic purposes of that other individual; and (b) is collected, used or disclosed (as the case may be) by the organisation solely for the purpose in sub-paragraph (a)."
+    },
+    {
+      "section": "9",
+      "heading": "The personal data about an individual —",
+      "title": "Personal data in employment documents",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 61,
+      "page_end": 61,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data included in documents produced for an individual's employment, business or profession. The data must be collected, used or disclosed solely for purposes consistent with the document's original purpose. This ensures data collected in employment contexts remains aligned with its intended use.",
+      "dtia_summary": "Clarifies data collection in employment contexts, relevant for DTIA when assessing data retention and use in employment-related documents.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data included in a document produced in the course of the individual's employment, business or profession",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data collected, used or disclosed solely for purposes consistent with the document's original purpose",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "9. The personal data about an individual — (a) is included in a document produced in the course, and for the purposes, of the individual's employment, business or profession; and (b) is collected, used or disclosed (as the case may be) for purposes consistent with the purpose for which the document was produced."
+    },
+    {
+      "section": "10",
+      "heading": "The personal data about an individual is collected, used or disclosed (as the case may be)",
+      "title": "Personal data for employment relationships",
+      "chapter": null,
+      "part": "Part I",
+      "condition": null,
+      "page_start": 61,
+      "page_end": 63,
+      "primary_category": "Data Collection",
+      "summary": "This section defines personal data collected for employment purposes, including entering or managing employment relationships. The data must be reasonable for the purpose of employment, ensuring it is directly related to the employment relationship without unnecessary collection.",
+      "dtia_summary": "Defines data collection for employment purposes, relevant for DTIA when assessing data retention and use in employment contexts.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Personal data collected for entering into an employment relationship or appointing an individual to an office",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data collected for managing or terminating employment relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Collection must be reasonable for the purpose of or in relation to the employment relationship",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "10. The personal data about an individual is collected, used or disclosed (as the case may be) by the organisation, and the collection, use or disclosure (as the case may be) of the personal data is reasonable for the purpose of or in relation to the organisation — (a) entering into an employment relationship with the individual or appointing the individual to any office; or (b) managing or terminating the employment relationship with or appointment of the individual."
+    },
+    {
+      "section": "3",
+      "heading": "In this Part —",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 63,
+      "page_end": 65,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "2",
+      "heading": "In this Part —",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 65,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "32",
+      "heading": "The Second, Third and Fourth Schedules to the principal Act are repealed and the",
+      "title": "Repeal of schedules and substitution of second schedule",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 66,
+      "primary_category": "Exemptions",
+      "summary": "This section repeals the Second, Third, and Fourth Schedules to the principal Act and substitutes the Second Schedule, which provides additional bases for the collection, use, and disclosure of personal data without consent. This change affects how data can be handled without explicit consent in specific contexts.",
+      "dtia_summary": "Repeals previous schedules and introduces new consent-free data handling bases, relevant for DTIA when assessing data collection without consent.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Second, Third, and Fourth Schedules to the principal Act are repealed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Second Schedule substituted with additional bases for collection, use, and disclosure of personal data without consent",
+          "obligation_type": ""
+        }
+      ],
+      "source_quote": "32. The Second, Third and Fourth Schedules to the principal Act are repealed and the following Schedule substituted therefor: \"SECOND SCHEDULE Sections 2(1) and 17(1) ADDITIONAL BASES FOR COLLECTION, USE AND DISCLOSURE OF PERSONAL DATA WITHOUT CONSENT\""
+    },
+    {
+      "section": "1",
+      "heading": "The collection of personal data about an individual, if —",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 66,
+      "page_end": 66,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "1",
+      "heading": "The use of personal data about an individual, if —",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 66,
+      "page_end": 67,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "1",
+      "heading": "The use of personal data about an individual for a research purpose (including historical or",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "1",
+      "heading": "The disclosure of personal data about an individual to a public agency, where the",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "2",
+      "heading": "The disclosure of personal data about an individual who is a current or former student of an",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "3",
+      "heading": "The disclosure of personal data about an individual who is a current or former patient of",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 67,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "4",
+      "heading": "The disclosure of personal data about any individual to any officer of a prescribed law",
+      "title": "Disclosure of personal data to law enforcement officers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 68,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section permits disclosure of personal data to prescribed law enforcement officers when they provide written authorisation signed by their head or equivalent officer, certifying the data is necessary for their functions. The disclosure must be for law enforcement purposes and requires specific documentation to validate necessity.",
+      "dtia_summary": "This section establishes a legal mechanism for cross-border data transfers to law enforcement agencies with specific conditions on necessity and authorisation, relevant for DTIAs involving international law enforcement cooperation.",
+      "authority": "Singaporean law enforcement agencies",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Upon production of written authorisation signed by the head or director of that prescribed law enforcement agency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certifying that the personal data is necessary for the purposes of the functions or duties of the officer",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "4. The disclosure of personal data about any individual to any officer of a prescribed law enforcement agency, upon production of written authorisation signed by the head or director of that prescribed law enforcement agency or a person of a similar rank, certifying that the personal data is necessary for the purposes of the functions or duties of the officer."
+    },
+    {
+      "section": "1",
+      "heading": "The disclosure of personal data about an individual for a research purpose (including",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 68,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "33",
+      "heading": "The Fifth Schedule to the principal Act is amended —",
+      "title": "Amendment to Fifth Schedule",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 68,
+      "primary_category": "Other",
+      "summary": "This section amends the Fifth Schedule by replacing references to specific schedules with a reference to Part 3 of the First Schedule and adding a new paragraph about considering the number and frequency of requests when determining if consent is needed for research purposes.",
+      "dtia_summary": "This amendment modifies the Fifth Schedule to adjust research disclosure conditions, potentially affecting how data transfers for research are evaluated in DTIAs.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "By deleting the words \"paragraph 1(e) of the Second Schedule, paragraph 1(e) of the Third Schedule or paragraph 1(f) of the Fourth Schedule, respectively\" in paragraph 1(h) and substituting the words \"paragraph 3 of Part 3 of the First Schedule\"",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By inserting, immediately after paragraph 1, the following paragraph: \"2. For the purposes of paragraph 1(j)(i), the organisation may have regard to the number and frequency of requests received.\"",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "33. The Fifth Schedule to the principal Act is amended — (a) by deleting the words \"paragraph 1(e) of the Second Schedule, paragraph 1(e) of the Third Schedule or paragraph 1(f) of the Fourth Schedule, respectively\" in paragraph 1(h) and substituting the words \"paragraph 3 of Part 3 of the First Schedule\"; and (b) by inserting, immediately after paragraph 1, the following paragraph: \"2. For the purposes of paragraph 1(j)(i), the organisation may have regard to the number and frequency of requests received.\""
+    },
+    {
+      "section": "34",
+      "heading": "Paragraph 1 of the Sixth Schedule to the principal Act is amended —",
+      "title": "Amendment to Sixth Schedule",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 68,
+      "primary_category": "Other",
+      "summary": "This section amends the Sixth Schedule by removing the word 'or' at the end of sub-paragraph (d) and adding a new sub-paragraph (f) for derived personal data.",
+      "dtia_summary": "This amendment clarifies the scope of derived personal data in data transfers, relevant for DTIAs involving data processing chains.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "By deleting the word \"or\" at the end of sub-paragraph (d)",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By deleting the full-stop at the end of sub-paragraph (e) and substituting the word \"; or\", and by inserting immediately thereafter the following sub-paragraph: \"(f) derived personal data.\"",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "34. Paragraph 1 of the Sixth Schedule to the principal Act is amended — (a) by deleting the word \"or\" at the end of sub-paragraph (d); and (b) by deleting the full-stop at the end of sub-paragraph (e) and substituting the word \"; or\", and by inserting immediately thereafter the following sub-paragraph: \"(f) derived personal data.\""
+    },
+    {
+      "section": "35",
+      "heading": "The Seventh Schedule to the principal Act is amended —",
+      "title": "Amendment to Seventh Schedule",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 69,
+      "primary_category": "Other",
+      "summary": "This section amends the Seventh Schedule by updating references to appeal proceedings, substituting terms for 'proceedings relating to appeals', and adding a new definition for 'appeal' in the context of the amendment.",
+      "dtia_summary": "This amendment adjusts terminology related to appeals in data processing, potentially impacting how DTIAs handle dispute resolution mechanisms.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "By deleting the Schedule reference and substituting the following Schedule reference: \"Section 48P(5)\"",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By deleting the words \"appeal proceedings under section 34\" in paragraph 2A(3)(a) and substituting the words \"proceedings relating to appeals\"",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By deleting the words \"under section 34\" in paragraphs 2A(3)(b), 2B(1) and 4(6)",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By deleting the words \"appeal proceeding\" in paragraph 6 and substituting the words \"proceedings relating to any appeal\"",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "By inserting, immediately after paragraph 6, the following paragraph: \"Definition\"",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "35. The Seventh Schedule to the principal Act is amended — (a) by deleting the Schedule reference and substituting the following Schedule reference: \"Section 48P(5)\"; (b) by deleting the words \"appeal proceedings under section 34\" in paragraph 2A(3)(a) and substituting the words \"proceedings relating to appeals\"; (c) by deleting the words \"under section 34\" in paragraphs 2A(3)(b), 2B(1) and 4(6); (d) by deleting the words \"appeal proceeding\" in paragraph 6 and substituting the words \"proceedings relating to any appeal\"; and (e) by inserting, immediately after paragraph 6, the following paragraph: \"Definition\""
+    },
+    {
+      "section": "7",
+      "heading": "In this Schedule, \"appeal\" means an appeal under —",
+      "title": "Definition of 'appeal' in Eighth Schedule",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 69,
+      "primary_category": "Other",
+      "summary": "This section defines 'appeal' as an appeal under either section 34 as it was before the commencement of section 15 of the Personal Data Protection (Amendment) Act 2020 or section 48Q.",
+      "dtia_summary": "This definition clarifies the scope of appeals in data processing, relevant for DTIAs involving dispute resolution procedures.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "7. In this Schedule, \"appeal\" means an appeal under — (a) section 34 as in force immediately before the date of commencement of section 15 of the Personal Data Protection (Amendment) Act 2020; or (b) section 48Q."
+    },
+    {
+      "section": "36",
+      "heading": "The Eighth Schedule to the principal Act is amended —",
+      "title": "Definition of ongoing relationship for cross-border data transfers",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 70,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section amends the Eighth Schedule to define 'ongoing relationship' for cross-border data transfers. It specifies that an ongoing relationship must exist between sender and recipient on an ongoing basis, arising from business or activity conduct by the sender. The definition excludes messages not related to such relationships or those with other purposes.",
+      "dtia_summary": "Clarifies what constitutes an ongoing relationship for cross-border data transfers under the PDPA, impacting how data transfers between entities in ongoing business relationships are evaluated.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Ongoing relationship means a relationship on an ongoing basis between sender and recipient arising from business or activity conduct by sender",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "In sub-paragraph (1)(e), \"ongoing relationship\" means a relationship, on an ongoing basis, between the sender and the recipient of the message, arising from the carrying on or conduct of a business or an activity (commercial or otherwise) by the sender."
+    },
+    {
+      "section": "37",
+      "heading": "The Ninth Schedule to the principal Act is amended by inserting, immediately",
+      "title": "Commission powers for investigation of data breaches",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 70,
+      "primary_category": "Incident Reporting",
+      "summary": "This section grants the Personal Data Protection Commission (PDPC) authority to conduct investigations into data breaches. It allows the Commission to require written notices for information or documents relevant to investigations, compel attendance of individuals, and examine them orally under specific conditions. The examined person must state facts truthfully but may refuse to disclose information that could expose them to criminal charges.",
+      "dtia_summary": "Provides mechanisms for the PDPC to investigate data breaches, relevant for DTIAs when assessing breach response capabilities and third-party data handling.",
+      "authority": "Personal Data Protection Commission (PDPC)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Commission may require written notice to provide information or documents relevant to investigation within specified time and manner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may require individuals within Singapore to attend before Commission or inspector",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Commission may examine orally any person acquainted with facts or circumstances of matter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Person examined must state facts truthfully except where disclosure might expose to criminal charge, penalty or forfeiture",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Statement must be reduced to writing, read over to person, interpreted if needed, and signed after correction",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purposes of an investigation under section 50, the Commission or an inspector may do all or any of the following: require, by written notice, any person whom the Commission or inspector reasonably believes has any information, or any document in the person's custody or control, that is relevant to the investigation, to provide that information or produce that document, within the time and in the manner specified in the written notice;"
+    },
+    {
+      "section": "3",
+      "heading": "Advertising or promoting a supplier, or prospective supplier, of goods or services.",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 71,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "1",
+      "heading": "Testing the effectiveness of the anonymisation of personal data in the possession or under",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 71,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "3",
+      "heading": "Assessing, testing or evaluating the systems and processes of an organisation or a public",
+      "title": "Assessing anonymised information systems",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 71,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that organizations or public agencies assess, test, or evaluate their systems and processes to ensure the integrity and confidentiality of anonymised information. It covers both data in their possession and information transmitted or received by the organization.",
+      "dtia_summary": "Relevant for DTIAs when evaluating data storage and anonymisation practices for compliance with PDPA.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Assessing, testing or evaluating systems and processes for ensuring integrity and confidentiality of anonymised information",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Assessing, testing or evaluating the systems and processes of an organisation or a public agency for ensuring or safeguarding the integrity and confidentiality of anonymised information —"
+    },
+    {
+      "section": "39",
+      "heading": "The principal Act, as amended by section 38, is amended by inserting,",
+      "title": "Exceptions to data portability",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 72,
+      "primary_category": "Data Sharing",
+      "summary": "This section amends the principal Act to insert exceptions to data portability, specifically excluding certain data types from portability requirements. It targets data that is not subject to portability under the PDPA, which may impact how organizations handle personal information transfers.",
+      "dtia_summary": "Defines exceptions to data portability, relevant for DTIAs when assessing data sharing practices and portability limitations.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Exceptions to data portability for specific data types",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "EXCEPTIONS TO DATA PORTABILITY"
+    },
+    {
+      "section": "1",
+      "heading": "A porting organisation is not required to transmit under section 26H(2) any of the following",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 72,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "1",
+      "heading": "A porting organisation is not required to transmit any applicable data under section 26H(2)",
+      "title": "Excluded circumstances for porting data transmission",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 72,
+      "primary_category": "Data Sharing",
+      "summary": "A porting organisation is exempt from transmitting applicable data under section 26H(2) in circumstances where data transmission would unreasonably interfere with operations due to repetitive requests, the burden or expense is unreasonable, the data does not exist or is trivial, or the request is frivolous or vexatious. These exclusions apply to the organisation's obligations regarding data porting requests.",
+      "dtia_summary": "This section outlines specific circumstances under which data transmission is not required, which is critical for DTIA assessments to determine when data porting obligations are waived without affecting cross-border data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "the data porting request is frivolous or vexatious",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "A porting organisation is not required to transmit any applicable data under section 26H(2) in any of the following circumstances: (a) transmitting the applicable data will unreasonably interfere with the operations of the porting organisation because of the repetitious or systematic nature of the data porting request; (b) the burden or expense of transmitting the applicable data is unreasonable to the porting organisation or disproportionate to the individual's interests; (c) the data porting request relates to applicable data that — (i) does not exist or cannot be found; or (ii) is trivial; (d) the data porting request is frivolous or vexatious."
+    },
+    {
+      "section": "2",
+      "heading": "For the purposes of paragraph 1(a), the organisation may have regard to the number and",
+      "title": "Consideration of data porting request frequency",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 72,
+      "primary_category": "Data Sharing",
+      "summary": "For determining whether data porting requests are excessive, an organisation may consider the number and frequency of such requests received for the applicable data. This provision addresses the assessment of request volume when evaluating exemptions under data porting mechanisms.",
+      "dtia_summary": "This section specifies that the frequency of data porting requests can be a factor in determining exemptions, which is relevant for DTIA assessments when evaluating the proportionality of data transmission obligations.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "For the purposes of paragraph 1(a), the organisation may have regard to the number and frequency of data porting requests received in respect of the applicable data."
+    },
+    {
+      "section": "40",
+      "heading": "Section 14 of the Monetary Authority of Singapore Act (Cap. 186, 1999 Ed.) is",
+      "title": "Repeal of section 14 of Monetary Authority Act",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 73,
+      "primary_category": "Other",
+      "summary": "Section 14 of the Monetary Authority of Singapore Act is repealed and replaced with new sections 14A, 14B, and 14C, which define specific obligations regarding confidentiality, misuse of information, and re-identification of anonymised data. These sections establish legal frameworks for handling sensitive information within the Authority.",
+      "dtia_summary": "This section is irrelevant to DTIA as it pertains to internal regulations of the Monetary Authority and does not address cross-border data transfers or international data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Section 14 of the Monetary Authority of Singapore Act (Cap. 186, 1999 Ed.) is repealed and the following sections substituted therefor: Interpretation of sections 14A, 14B and 14C"
+    },
+    {
+      "section": "14",
+      "heading": "In sections 14A, 14B and 14C —",
+      "title": "Definitions for data protection sections",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 73,
+      "page_end": 78,
+      "primary_category": "Definitions",
+      "summary": "This section provides definitions for key terms used in sections 14A, 14B, and 14C, including 'gain', 'generally available information', 'harm', 'loss', 'personal data', and 'prescribed circumstances' or 'prescribed purpose'. These definitions clarify the scope of obligations for handling information within the Monetary Authority.",
+      "dtia_summary": "These definitions are relevant for DTIA as they specify what constitutes personal data and other critical terms that impact data handling and transfer mechanisms.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "gain means — (a) a gain in property or a supply of services, whether temporary or permanent; or (b) an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "generally available information means information that consists of readily observable matter, including information that consists of deductions, conclusions or inferences made or drawn from readily observable matter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "harm, in relation to an individual, means — (a) any physical harm; or (b) harassment, alarm or distress caused to the individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "loss means — (a) a loss in property or a supply of services, whether temporary or permanent; or (b) a loss of an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration, but excludes, in relation to an individual, the loss of personal data about the individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "personal data has the meaning given by section 2(1) of the Personal Data Protection Act 2012 (Act 26 of 2012)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "prescribed circumstances or prescribed purpose means any circumstances or purpose prescribed in regulations made under section 14D",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In sections 14A, 14B and 14C — gain means — (a) a gain in property or a supply of services, whether temporary or permanent; or (b) an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration; generally available information means information that consists of readily observable matter, including information that consists of deductions, conclusions or inferences made or drawn from readily observable matter; harm, in relation to an individual, means — (a) any physical harm; or (b) harassment, alarm or distress caused to the individual; loss means — (a) a loss in property or a supply of services, whether temporary or permanent; or (b) a loss of an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration, but excludes, in relation to an individual, the loss of personal data about the individual; personal data has the meaning given by section 2(1) of the Personal Data Protection Act 2012 (Act 26 of 2012); prescribed circumstances or prescribed purpose means any circumstances or purpose prescribed in regulations made under section 14D."
+    },
+    {
+      "section": "41",
+      "heading": "The Spam Control Act (Cap. 311A, 2008 Ed.) is amended —",
+      "title": "Amendments to Spam Control Act",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 78,
+      "page_end": 79,
+      "primary_category": "Other",
+      "summary": "The Spam Control Act is amended to include instant messaging accounts as valid electronic addresses, define instant messaging services, and adjust the scope of the Act to exclude unsolicited commercial messages sent to instant messaging accounts. These changes impact how electronic communications are regulated.",
+      "dtia_summary": "This section is irrelevant to DTIA as it pertains to spam regulations and does not address cross-border data transfers or international data flows.",
+      "authority": "Monetary Authority of Singapore",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "The Spam Control Act (Cap. 311A, 2008 Ed.) is amended — (a) by inserting, immediately after the words \"electronic mail address\" in the definition of \"electronic address\" in section 2, the words \", an instant messaging account\"; (b) by inserting, immediately after the definition of \"electronic address\" in section 2, the following definitions: \"instant messaging account\" means an account of a user of an instant messaging service; \"instant messaging service\" means a messaging service that allows a user to exchange messages with other users who are using the service concurrently; (c) by inserting, immediately after section 4, the following section: \"Electronic messages sent to instant messaging accounts\"; (d) by deleting sub-paragraph (ii) of section 7(2)(b) and substituting the following sub-paragraph: (ii) an entity — (A) which is formed or recognised under the law of Singapore; or (B) which has an office or a place of business in Singapore; (e) by repealing section 8 and substituting the following section: \"Application of this Part\"; (f) by deleting the word \"Every\" in paragraph 3(1) of the Second Schedule and substituting the words \"Subject to sub-paragraph (3), every\"; and (g) by inserting, immediately after sub-paragraph (2) of paragraph 3 of the Second Schedule, the following sub-paragraph: (3) Sub-paragraph (1) does not apply to any unsolicited commercial electronic message that is sent to an instant messaging account."
+    },
+    {
+      "section": "42",
+      "heading": "The Sixth Schedule to the Supreme Court of Judicature Act (Cap. 322, 2007 Ed.),",
+      "title": "Amendment to Public Sector Governance Act for public sector data use defences",
+      "chapter": null,
+      "part": "Part d",
+      "condition": null,
+      "page_start": 79,
+      "page_end": 84,
+      "primary_category": "Other",
+      "summary": "This section amends the Public Sector (Governance) Act 2018 to define specific defences for individuals in public sector data misuse cases. It establishes conditions under which a defendant can claim immunity from prosecution, including proving that information was generally available, disclosed legally, or authorized by court order. The amendments also introduce precise definitions for 'harm', 'loss', and 'personal data' to clarify legal standards in public sector data handling.",
+      "dtia_summary": "This section clarifies defences for public sector data misuse but has limited direct relevance to cross-border data transfers as it focuses on internal public sector agency data handling rather than international data flows.",
+      "authority": "Public Sector (Governance) Act 2018",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "In proceedings for an offence under subsection (1), it is a defence for the defendant to prove, on a balance of probabilities, any of the following: the information under the control of the Singapore public sector agency was, at the time of its disclosure by the defendant, generally available information",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "In proceedings for an offence under subsection (1), it is a defence for the defendant to prove, on a balance of probabilities, any of the following: the defendant disclosed or caused the disclosure of information under the control of a Singapore public sector agency as permitted or required by or under an Act or other law (apart from this Act)",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "In proceedings for an offence under subsection (1), it is a defence for the defendant to prove, on a balance of probabilities, any of the following: the defendant disclosed or caused the disclosure of information under the control of a Singapore public sector agency as authorised or required by an order of court",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "In proceedings for an offence under subsection (1), it is a defence for the defendant to prove, on a balance of probabilities, any of the following: the defendant disclosed or caused the disclosure of information under the control of a Singapore public sector agency in any other circumstances, or for any other purpose, prescribed",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "If an individual makes use of information under the control of a Singapore public sector agency (A), the use is not authorised by any data sharing direction given to A, the individual is a relevant public official of A or another Singapore public sector agency at the time of the use, and the individual does so knowing that the use is not in accordance with such a data sharing direction or recklessly as to whether the use is in accordance with such a data sharing direction",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "If an individual makes use of information under the control of a Singapore public sector agency (A), the use is not authorised by A, the individual is a contractor supplying goods or services to A or to another Singapore public sector agency or an employee of a person who is a contractor supplying goods or services to A or to another Singapore public sector agency, and the individual does so knowing that the use is not authorised by A or recklessly as to whether the use is authorised by A",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "If an individual makes use of information under the control of a Singapore public sector agency (A), the use is not authorised by A, the individual is a contractor supplying goods or services to A or to another Singapore public sector agency or an employee of a person who is a contractor supplying goods or services to A or to another Singapore public sector agency, and the individual does so knowing that the use is not authorised by A or recklessly as to whether the use is authorised by A",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The individual shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $5,000 or to imprisonment for a term not exceeding 2 years or to both",
+          "obligation_type": "Penalty"
+        },
+        {
+          "text": "The individual shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $5,000 or to imprisonment for a term not exceeding 2 years or to both",
+          "obligation_type": "Penalty"
+        },
+        {
+          "text": "The definition of 'harm' means any physical harm or harassment, alarm or distress caused to the individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The definition of 'loss' means a loss in property or a supply of services, whether temporary or permanent, or a loss of an opportunity to earn remuneration or greater remuneration or to gain a financial advantage otherwise than by way of remuneration, but excludes the loss of personal data about the individual",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The definition of 'personal data' has the meaning given by section 2(1) of the Personal Data Protection Act 2012",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Section 7 of the Public Sector (Governance) Act 2018 (Act 5 of 2018) is amended — (a) by deleting subsection (2) and substituting the following subsection: (2) In proceedings for an offence under subsection (1), it is a defence for the defendant to prove, on a balance of probabilities, any of the following: ..."
+    },
+    {
+      "section": "44",
+      "heading": "Section 59 of the Healthcare Services Act 2020 (Act 3 of 2020) is amended by",
+      "title": "Amendment to Healthcare Services Act for healthcare data provisions",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 84,
+      "page_end": 84,
+      "primary_category": "Other",
+      "summary": "This section amends the Healthcare Services Act 2020 by deleting subsection (8), which likely relates to healthcare data handling procedures. The amendment removes specific provisions that may have governed healthcare data disclosures or processing, though the exact scope is not detailed in the provided text.",
+      "dtia_summary": "This section has no direct relevance to data transfer impact assessments as it pertains to healthcare data within Singapore's domestic legal framework.",
+      "authority": "Healthcare Services Act 2020",
+      "financial_relevance": "None",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Section 59 of the Healthcare Services Act 2020 (Act 3 of 2020) is amended by deleting subsection (8)",
+          "obligation_type": "Deletion"
+        }
+      ],
+      "source_quote": "Section 59 of the Healthcare Services Act 2: 2020 (Act 3 of 2020) is amended by deleting subsection (8)."
+    },
+    {
+      "section": "45",
+      "heading": "Item 115 of the Schedule to the Supreme Court of Judicature (Amendment)",
+      "title": "Deletion of Schedule item for Supreme Court of Judicature",
+      "chapter": null,
+      "part": "part f",
+      "condition": null,
+      "page_start": 84,
+      "page_end": 86,
+      "primary_category": "Other",
+      "summary": "This section deletes Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019, which likely relates to procedural or jurisdictional provisions within Singapore's judicial framework. The deletion may affect how certain judicial processes interact with data handling procedures, though the specific impact is not detailed.",
+      "dtia_summary": "This section has no direct relevance to data transfer impact assessments as it pertains to judicial procedures rather than data flows.",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019 (Act 40 of 2019) is deleted",
+          "obligation_type": "Deletion"
+        }
+      ],
+      "source_quote": "Item 115 of the Schedule to the Supreme Court of Judicature (Amendment) Act 2019 (Act 40 of 2019) is deleted."
+    }
+  ]
+}
