@@ -198,6 +198,18 @@ def _signal_score(row):
     ])
 
 
+# A section can carry no requirements/topics/authority yet still be worth
+# keeping as reference material — a definitions clause ("accountable
+# institution means…", CPS 234's infosec terms, "politically exposed
+# person") is exactly what a consultant queries.  A summary this long is
+# real content, not stray page text, so it survives the noise drop.
+_MIN_SUMMARY_KEEP = int(os.getenv("POST_MIN_SUMMARY", "80"))
+
+
+def _has_reference_value(row):
+    return len(str(row["Summary"]).strip()) >= _MIN_SUMMARY_KEEP
+
+
 class DataLoader:
 
     def __init__(self, extracted_folder="data/extracted"):
@@ -209,6 +221,8 @@ class DataLoader:
         self.data_types = {}
         self.countries = set()
         self.raw_rows = 0
+        self._seen_act_files = set()
+        self.skipped_duplicate_acts = []
 
     # -----------------------------------------------------------------
 
@@ -241,6 +255,18 @@ class DataLoader:
 
         country = document.get("country", "Unknown")
         act = document.get("document", path.stem)
+
+        # Skip a whole act that was ingested twice from different source
+        # rows (e.g. "...Financial-Sector-Regulation" and "... (1)"): within
+        # -act dedup can't catch it because the two carry different "Row N"
+        # labels.  Key on country + the act name minus its "(… Row N)" /
+        # "(N)" suffix so the second copy is dropped entirely.
+        key = (country, _norm_act_name(act))
+        if key in self._seen_act_files:
+            self.skipped_duplicate_acts.append(f"{country} / {act}")
+            return
+        self._seen_act_files.add(key)
+
         for section in document.get("sections", []):
             self._process_section(country, act, section)
 
@@ -296,7 +322,13 @@ class DataLoader:
             self.rows = kept
 
         if POST_DROP_NOISE:
-            self.rows = [r for r in self.rows if _signal_score(r) > 0]
+            # Drop only genuinely empty sections — no structured signal AND
+            # no substantive summary.  Keeps reference-value definition
+            # clauses that would otherwise vanish (see _has_reference_value).
+            self.rows = [
+                r for r in self.rows
+                if _signal_score(r) > 0 or _has_reference_value(r)
+            ]
 
     def _build_rollups(self):
         """Rebuild per-act / regulator / topic rollups from the *kept* rows
@@ -396,3 +428,12 @@ def _max_relevance(a, b):
 def _natural_key(value):
     """Zero-pad numbers so identifiers sort naturally (2 < 10 < 10A)."""
     return re.sub(r"\d+", lambda m: m.group().zfill(6), str(value))
+
+
+def _norm_act_name(act):
+    """Act name with its source-row / copy suffix stripped, for detecting
+    the same act ingested twice ("X (Country - Row 8)" == "X (… Row 13)"
+    == "X (1)")."""
+    name = re.sub(r"\s*\([^)]*Row[^)]*\)", "", str(act))   # "(Country - Row N)"
+    name = re.sub(r"\s*\(\d+\)\s*$", "", name)              # trailing "(N)"
+    return name.strip().lower()
