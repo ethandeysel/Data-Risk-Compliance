@@ -1,0 +1,1260 @@
+{
+  "country": "United Kingdom",
+  "document": "Cyber Security and Resilience bill  (United Kingdom - Row 4)",
+  "generated": "2026-07-19T04:22:31",
+  "sections": [
+    {
+      "section": "11",
+      "heading": "Digital or managed service providers: meaning of \"subject to public authority",
+      "title": "Digital or managed service providers: meaning of 'subject to public authority oversight'",
+      "chapter": "CHAPTER 1",
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'subject to public authority oversight' for digital or managed service providers. It specifies that a person is subject to public authority oversight if they are managed or controlled by one or more UK public authorities or a board where more than half the members are appointed by UK public authorities. This definition applies to persons providing digital services or managed services in the UK.",
+      "dtia_summary": "This definition clarifies which entities are subject to public authority oversight, impacting how data transfer impact assessments determine regulatory responsibilities for digital and managed service providers.",
+      "authority": "Information Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person is subject to public authority oversight if the person is subject to the management or control of one or more UK public authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person is subject to public authority oversight if the person is subject to the management or control of a board more than half of the members of which are appointed by one or more UK public authorities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In regulation 1 of the NIS Regulations, after paragraph (3D) (inserted by section 9(5)) insert—\"(3E) For the purposes of paragraph (3)(e) and (ea), a person is subject to public authority oversight if the person is subject to the management or control of— (a) one or more UK public authorities, or (b) a board more than half of the members of which are appointed by one or more UK public authorities.\""
+    },
+    {
+      "section": "14",
+      "heading": "Provision of information by providers of digital or managed services etc",
+      "title": "Provision of information by providers of digital or managed services",
+      "chapter": "CHAPTER 2",
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Other",
+      "summary": "This section mandates that regulated persons providing digital or managed services must report incidents to the relevant authorities. It specifies that incidents must be reported in accordance with the incident reporting requirements outlined in the NIS Regulations. The reporting obligations apply to entities that provide digital services or managed services in the UK.",
+      "dtia_summary": "This section requires incident reporting by digital and managed service providers, which impacts data transfer impact assessments by establishing reporting obligations for incidents affecting data systems.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Incident Reporting",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated persons providing digital or managed services must report incidents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "14 Provision of information by providers of digital or managed services etc Reporting of incidents by regulated persons"
+    },
+    {
+      "section": "15",
+      "heading": "Reporting of incidents by regulated persons",
+      "title": "Reporting of incidents by regulated persons",
+      "chapter": "CHAPTER 2",
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Incident Reporting",
+      "summary": "This section requires regulated persons to report incidents to the relevant authorities. It specifies that incidents must be reported in accordance with the incident reporting requirements outlined in the NIS Regulations. The reporting obligations apply to entities that provide digital services or managed services in the UK.",
+      "dtia_summary": "This section mandates incident reporting by regulated persons, which impacts data transfer impact assessments by establishing reporting obligations for incidents affecting data systems.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated persons must report incidents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "15 Reporting of incidents by regulated persons"
+    },
+    {
+      "section": "16",
+      "heading": "Notification of incidents to customers",
+      "title": "Notification of incidents to customers",
+      "chapter": "CHAPTER 2",
+      "part": null,
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Incident Reporting",
+      "summary": "This section requires regulated persons to notify customers of incidents that affect their data systems. It specifies that incidents must be reported to customers in a timely manner, ensuring transparency and accountability for data breaches or security incidents.",
+      "dtia_summary": "This section mandates notification of incidents to customers, which impacts data transfer impact assessments by establishing notification obligations for incidents affecting data systems.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated persons must notify customers of incidents",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "16 Notification of incidents to customers"
+    },
+    {
+      "section": "61",
+      "heading": "Short title",
+      "title": "Code of practice procedures for regulatory authorities",
+      "chapter": "Chapter 3",
+      "part": null,
+      "condition": null,
+      "page_start": 6,
+      "page_end": 14,
+      "primary_category": "Other",
+      "summary": "Regulatory authorities must follow specific procedures when issuing or revising codes of practice, including consulting relevant parties, publishing codes, and adhering to 40-day parliamentary approval timelines. Codes may include transitional provisions and savings clauses but do not constitute legal obligations.",
+      "dtia_summary": "Regulatory authorities must follow strict procedures for issuing codes of practice, including parliamentary approval within 40 days, to ensure transparency and compliance with national security requirements.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Secretary of State must lay draft code before Parliament for approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State may not issue code without 40-day parliamentary approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Code comes into force at publication unless specified otherwise",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulatory authorities must consider codes when determining compliance with requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Before issuing or reissuing a code under section 36, the Secretary of State must lay before Parliament a draft of the code as proposed to be issued or reissued."
+    },
+    {
+      "section": "61 (part 2)",
+      "heading": "Short title (cont.)",
+      "title": "",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 14,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "61 (part 3)",
+      "heading": "Short title (cont.)",
+      "title": "Designation of critical service providers for national resilience",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 23,
+      "primary_category": "Regulator Powers",
+      "summary": "This regulation designates persons who supply essential services to critical national infrastructure as 'OES', 'RDSP', or 'RMSP' to ensure resilience. Designation requires that the provider relies on network systems, potential disruption could significantly impact the UK economy or society, and the designation is not prevented by regulation 14I. The Information Commission or designated competent authorities must assess risks and consider alternative sources for services during disruptions.",
+      "dtia_summary": "Designation creates a framework for critical service providers to meet national resilience standards, requiring specific impact assessments for disruptions to essential services and digital infrastructure. This affects cross-border data transfers involving critical infrastructure providers.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A person may be designated under this regulation by more than one designated competent authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may be designated under this regulation by one or more designated competent authorities and the Information Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A designated competent authority or the Information Commission must consider whether risks could be adequately managed through duties imposed on OES, RDSP or RMSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A designated competent authority or the Information Commission must consider whether another person exercises regulatory functions in relation to P",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may be designated whether or not established in the United Kingdom",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "References to supply of goods or services include supply outside the United Kingdom",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A person may be designated under this regulation— (a) by more than one designated competent authority; (b) by one or more designated competent authorities and the Information Commission."
+    },
+    {
+      "section": "61 (part 4)",
+      "heading": "Short title (cont.)",
+      "title": "Coordination of critical service provider designations",
+      "chapter": "CHAPTER 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 28,
+      "primary_category": "Regulator Powers",
+      "summary": "This regulation establishes coordination requirements for designated competent authorities and the Information Commission to ensure consistent application of designations for critical service providers. It mandates coordination on whether persons meet designation requirements, whether they should be designated, and by which regulator the designation should be made. The regulation also includes provisions for information sharing and coordination of functions to prevent conflicts in regulatory oversight.",
+      "dtia_summary": "Requires coordination between regulators for critical service providers to ensure consistent designation and oversight, which impacts cross-border data transfers involving critical infrastructure providers and their compliance with national resilience standards.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A designated competent authority must co-ordinate functions with other designated competent authorities and the Information Commission",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Information Commission must co-ordinate functions with designated competent authorities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant regulators must co-ordinate functions in determining whether a person meets designation requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant regulators must co-ordinate functions in determining whether a person should be designated",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant regulators must co-ordinate functions in determining by which regulator designation should be made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A designated competent authority must request information from persons with whom it co-ordinates if relevant",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Co-ordination duties do not apply if compliance would impose disproportionate burden",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "A designated competent authority by which a person ("
+    },
+    {
+      "section": "61 (part 5)",
+      "heading": "Short title (cont.)",
+      "title": "RMSP registration and representative details",
+      "chapter": "CHAPTER 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 33,
+      "primary_category": "Other",
+      "summary": "An RMSP must notify the Information Commission of changes to its registered details within 7 days of any change. The 'proper address' is defined for bodies corporate, partnerships, and other cases. The 'registration date' is calculated based on when conditions for RMSP status are met. The Information Commission must send the RMSP register to GCHQ annually and within 4 months of the Act coming into force.",
+      "dtia_summary": "Requires RMSPs to maintain updated registration details with the Information Commission and provide GCHQ with the register for cross-border coordination. Relevant for DTIA when assessing RMSPs operating internationally.",
+      "authority": "Information Commission",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An RMSP must notify the Information Commission in writing of any change to the information listed in paragraph (2) as soon as reasonably practicable, and in any event before the end of the period of 7 days beginning with the day on which the change took effect.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of paragraph (2)(b), an RMSP's 'proper address' is where the RMSP is a body corporate, the address of the registered or principal office of that body.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of paragraph (2)(b), an RMSP's 'proper address' is where the RMSP is a partnership (including a Scottish partnership), the address of the principal office of the partnership.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For the purposes of paragraph (2)(b), an RMSP's 'proper address' is in any other case, the address where the RMSP will accept service of documents for the purposes of these Regulations.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The 'registration date' means where the conditions mentioned in regulation 1(3)(ea) are satisfied in respect of an RMSP on the day on which section 14 of the Cyber Security and Resilience (Network and Information Systems) Act 2.026 comes into force, the date on which the period of 3 months beginning with that day ends.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The 'registration date' means in any other case, the date on which the period of 3 months beginning with the day on which the conditions mentioned in regulation 1(3)(ea) are first satisfied in respect of the RMSP ends.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Information Commission must send a copy of the register maintained under paragraph (1) to GCHQ for the purpose of facilitating the exercise by GCHQ of any of its functions under or by virtue of these Regulations or any other enactment before the end of the period of 4 months beginning with the day on which section 14 of the Cyber Security and Resilience (Network and Information Systems) Act 2026 comes into force.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Information Commission must send a copy of the register maintained under paragraph (1) to GCHQ for the purpose of facilitating the exercise by GCHQ of any of its functions under or by virtue of these Regulations or any other enactment subsequently, at annual intervals.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An RMSP must notify the Information Commission in writing of any change to the information listed in paragraph (2) as soon as reasonably practicable, and in any event before the end of the period of 7 days beginning with the day on which the change took effect."
+    },
+    {
+      "section": "61 (part 6)",
+      "heading": "Short title (cont.)",
+      "title": "International incident reporting for RMSPs",
+      "chapter": "CHAPTER 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 33,
+      "page_end": 39,
+      "primary_category": "Incident Reporting",
+      "summary": "RMSPs must notify the Information Commission of incidents affecting their managed services within 24 hours of becoming aware of the incident. The Information Commission must send copies of these notifications to the CSIRT for cross-border incident coordination. The CSIRT may share incident details with foreign authorities if the incident impacts critical services abroad.",
+      "dtia_summary": "Requires RMSPs to report incidents internationally within 24 hours and share details with foreign authorities when incidents impact cross-border services. Critical for DTIA when assessing international incident response mechanisms.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Cross-border Transfer",
+        "International Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "If an RMSP is aware that an RMSP incident has occurred or is occurring, it must give the Information Commission the RMSP's name and the managed service to which the incident relates, and in relation to the incident, so far as known to the RMSP.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "An RMSP must send a copy of a notification under paragraph (1) to the CSIRT at the same time as sending the notification to the Information Commission.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The CSIRT may, after receiving a copy of a notification under regulation 14E in relation to an incident, notify a relevant authority in a country or territory outside the United Kingdom if the CSIRT considers that the incident has had or is likely to have an impact on the operation or security of network and information systems relied on for the provision of a managed service in that country or territory.",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "If an RMSP is aware that an RMSP incident has occurred or is occurring, it must give the Information Commission the RMSP's name and the managed service to which the incident relates, and in relation to the incident, so far as known to the RMSP."
+    },
+    {
+      "section": "61 (part 7)",
+      "heading": "Short title (cont.)",
+      "title": "Incident notifications to customers for managed services",
+      "chapter": "CHAPTER 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 39,
+      "page_end": 44,
+      "primary_category": "Incident Reporting",
+      "summary": "This regulation requires OES, RDSP, and RMSPs to notify UK customers affected by incidents in their managed services. The notification must specify the incident nature and why customers are likely adversely affected, considering service disruption, data confidentiality, and system impacts. These entities must identify affected customers promptly after full incident notification.",
+      "dtia_summary": "Requires timely notification of incidents affecting customers in managed services, with specific criteria for determining adverse impact. Critical for DTIA as it defines when and how data transfers must be disclosed to customers during incidents.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification",
+        "Customer Information",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "OES must take reasonable steps to identify UK customers likely affected by an incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "OES must notify affected customers as soon as reasonably practicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RDSP must take reasonable steps to identify UK customers likely affected by an incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RDSP must notify affected customers as soon as reasonably practicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RMSP must take reasonable steps to identify UK customers likely affected by an incident",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "RMSP must notify affected customers as soon as reasonably practicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "When assessing customer impact, consider service disruption extent, data confidentiality/integrity/availability compromise, and system impacts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Notification must detail incident nature and explain why customers are likely adversely affected",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "After regulation 14E (inserted by section 15(7)) insert—\"Incidents: notification of customers 14G.—(1) After an RMSP has given a full notification under regulation 14E(1)(b), the RMSP must, as soon as reasonably practicable—(a) take reasonable steps to establish which of its customers in the United Kingdom are likely to be adversely affected by the incident to which the notification relates, and (b) after those steps have been taken, notify those customers of the incident.\""
+    },
+    {
+      "section": "61 (part 8)",
+      "heading": "Short title (cont.)",
+      "title": "Periodic charges for NIS enforcement authorities",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 48,
+      "primary_category": "Financial Data",
+      "summary": "This regulation establishes rules for periodic charges imposed by NIS enforcement authorities on regulated entities. Charges must be specified in charging schemes, cover relevant costs, and be recoverable as civil debts. Authorities must publish statements detailing charges, outstanding amounts, and costs incurred, with specific timelines for publication.",
+      "dtia_summary": "Defines financial obligations for NIS enforcement authorities to charge regulated entities for costs related to cybersecurity compliance. Relevant for DTIA as it impacts financial data handling and reporting requirements across borders.",
+      "authority": "NIS enforcement authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "NIS enforcement authority may impose charges on regulated persons for relevant costs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Charging schemes must specify functions, chargeable periods, charge calculation, payment terms, and effective dates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Charges must be recoverable as civil debts",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Authority must publish statements detailing aggregate charges, outstanding amounts, and costs incurred",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Statements must be published within 14 days of the chargeable period end if charges are payable before that date",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "After regulation 20 of the NIS Regulations insert—\"PART 5A Powers to impose charges Periodic charges under charging schemes 20A.—(1) A NIS enforcement authority may impose a charge on a person in respect of the authority's relevant costs if—(a) a scheme made by the authority for the purposes of this regulation (a \"charging scheme\") has effect, (b) the charge relates to a period specified in the charging scheme (a \"chargeable period\"), (c) the person is or was regulated by the authority during the whole or part of the chargeable period, and (d) the charge is imposed in accordance with the charging scheme.\""
+    },
+    {
+      "section": "61 (part 9)",
+      "heading": "Short title (cont.)",
+      "title": "Information disclosure restrictions for critical infrastructure",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 53,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Relevant information disclosed under regulation 6 must not be further disclosed except to specified authorities or with consent. Disclosures to law enforcement, CSIRT, or UK public authorities require purpose alignment with regulation 6(1). Consent must be obtained from the data subject or business for identifiable individuals. Disclosures must be relevant and proportionate to the purpose and not breach confidentiality obligations or other restrictions. Disclosures prohibited by Investigatory Powers Act 2016 are explicitly excluded.",
+      "dtia_summary": "Restricts onward sharing of critical infrastructure data to authorized entities or with consent, requiring relevance and proportionality to prevent unauthorized cross-border data flows.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Relevant information disclosed under regulation 6 must not be further disclosed except in accordance with paragraph (2) or (4)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant information may be disclosed to the Secretary of State if disclosure is for a purpose mentioned in regulation 6(1) or the person considers sub-paragraphs (a) to (c) of regulation 6(4) apply",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Relevant information may be disclosed to law enforcement, CSIRT, or UK public authorities if disclosure is for a purpose mentioned in regulation 6(1)",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Relevant information may be disclosed with consent of the person from whom information was obtained",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Relevant information may be disclosed with consent of the individual or business if information relates to an identified or identifiable individual or business",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Disclosures must be limited to information relevant and proportionate to the purpose",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Disclosures must not breach any obligation of confidence owed by the person making the disclosure",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosures must not breach any other restriction on the disclosure of information",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Disclosures prohibited by Investigatory Powers Act 2016 are explicitly excluded",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Information disclosed to a person under regulation 6 ("
+    },
+    {
+      "section": "61 (part 10)",
+      "heading": "Short title (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "part f",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 58,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "61 (part 11)",
+      "heading": "Short title (cont.)",
+      "title": "Failure to notify security incidents or regulatory directions",
+      "chapter": "Chapter 1",
+      "part": "part f",
+      "condition": null,
+      "page_start": 58,
+      "page_end": 63,
+      "primary_category": "Incident Reporting",
+      "summary": "This section lists specific failures that constitute non-compliance with incident notification obligations. It covers failures to notify security incidents under regulation 12A(1), failures to comply with notification requirements under regulation 12A(5) and 5(6), failures to comply with Information Commission directions under regulation 12B(4)(b), failures to comply with regulation 12C(1)(b) and (3), failures to comply with regulatory directions under regulation 16(2)(c), and failures to comply with information notices. These failures apply to regulated entities that must report security incidents to the Information Commission or other regulatory authorities.",
+      "dtia_summary": "This section identifies specific notification failures that must be addressed in Data Transfer Impact Assessments to ensure timely reporting of security incidents across borders, particularly for entities handling critical infrastructure data.",
+      "authority": "Information Commission",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Failure to notify an incident under regulation 12A(1)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with regulation 12A(5) and 5(6) in relation to notification requirement under regulation 12A(1)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with a direction made by the Information Commission under regulation 12B(4)(b)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with regulation 12C(1)(b) and (3)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with a direction given under regulation 16(2)(c), or the requirements at regulation 16(3)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with regulation 14B(1)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to give a notification as required by regulation 14E(1)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with the requirements in regulation 14E(5) and (6) in relation to a notification under regulation 14E(1)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with a direction under regulation 14F(4)(b)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with regulation 14G(1)(b) and (3)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with a direction under regulation 16(2)(c)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with regulation 16(3)",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Failure to comply with information notice",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "sub-paragraph (b) (failure to notify an incident under regulation 12A(1)); sub-paragraph (c) (failure to comply with regulation 12A(5) and 5(6) in relation to notification requirement under regulation 12A(1)); sub-paragraph (d) (failure to comply with a direction made by the Information Commission under regulation 12B(4)(b)); sub-paragraph (dzb) (failure to comply with regulation 12C(1)(b) and (3)); sub-paragraph (f) (failure to comply with a direction given under regulation 16(2)(c), or the requirements at regulation 16(3))"
+    },
+    {
+      "section": "61 (part 12)",
+      "heading": "Short title (cont.)",
+      "title": "Definition of relevant network and information systems",
+      "chapter": "CHAPTER 3",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 63,
+      "page_end": 67,
+      "primary_category": "Definitions",
+      "summary": "This section defines what constitutes a 'relevant' network and information system for the purposes of the Cyber Security and Resilience Bill. A relevant system is one used or relied upon in connection with essential activities or activity-critical supplies, or associated with such a system. It also defines 'security or operational compromise' as anything that compromises security, availability, functionality, or reliability of the system, unauthorised access, interference, exploitation, or data compromise.",
+      "dtia_summary": "This section defines critical systems subject to security requirements, which impacts Data Transfer Impact Assessments by specifying which data transfers involving essential infrastructure must be assessed for security risks.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security",
+        "Data Storage",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A network and information system is 'relevant' if it is used or relied on in connection with the carrying on of an essential activity or the provision of an activity-critical supply",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A network and information system is 'associated' with a system to which subsection (3)(a) applies if the occurrence of a security or operational compromise in relation to either system would likely put the other at increased risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security or operational compromise means anything that compromises security, availability, functionality or reliability of the system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security or operational compromise means any unauthorised access to, interference with or exploitation of the system or anything that enables such access, interference or exploitation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security or operational compromise means anything that compromises confidentiality, authenticity, integrity or availability of data stored on or processed by the system",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Security or operational compromise means anything that causes data stored on or processed by the system to be lost",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Activity-critical supply means a supply of goods or services without which the carrying on of an essential activity would be at risk of disruption",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "For the purposes of this Chapter, a network and information system is 'relevant' if— (a) it is used or relied on in connection with the carrying on of an essential activity or the provision of an activity-critical supply, or (b) it is associated with a system to which paragraph (a) applies."
+    },
+    {
+      "section": "61 (part 13)",
+      "heading": "Short title (cont.)",
+      "title": "Regulatory authorities' information disclosure functions",
+      "chapter": "CHAPTER 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 69,
+      "primary_category": "Other",
+      "summary": "Regulations may grant regulatory authorities functions related to information disclosure between authorities, to other persons, and from other persons. These functions specify circumstances, purposes, and recipients for disclosures, types of information, restrictions on disclosure, and permissible uses of disclosed information. The regulations must not require disclosures prohibited by the Investigatory Powers Act 2016.",
+      "dtia_summary": "Regulatory authorities may disclose information across borders under specific conditions, but disclosures must comply with the Investigatory Powers Act 2016 to avoid prohibited activities.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulations may confer functions on regulatory authorities for disclosure of information between regulatory authorities",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may confer functions on regulatory authorities to disclose information to other persons",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may confer functions on regulatory authorities to receive information from other persons",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify circumstances for information disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify purposes for information disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify recipients for information disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify types of information that may be disclosed",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify restrictions on information disclosure",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may specify permissible uses of disclosed information",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may not require disclosures prohibited by Parts 1-7 or Chapter 1 of the Investigatory Powers Act 2016",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Regulations under section 29(1) may confer functions on regulatory authorities in connection with any of the following— (a) the disclosure of information— (i) between regulatory authorities; (ii) by regulatory authorities to other persons (including persons to regulatory authorities by other persons (including persons"
+    },
+    {
+      "section": "61",
+      "heading": "Chapter 4—Code of practice",
+      "title": "Code of practice procedures for regulatory authorities",
+      "chapter": "CHAPTER 4",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 69,
+      "page_end": 70,
+      "primary_category": "Other",
+      "summary": "Regulatory authorities must follow specific procedures when issuing or revising codes of practice, including consulting relevant parties, publishing codes, and adhering to 40-day parliamentary approval timelines. Codes may include transitional provisions and savings clauses but do not constitute legal obligations.",
+      "dtia_summary": "Regulatory authorities must follow strict procedures for issuing codes of practice, including parliamentary approval within 40 days, to ensure transparency and compliance with national security requirements.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Secretary of State must lay draft code before Parliament for approval",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State may not issue code without 40-day parliamentary approval",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Code comes into force at publication unless specified otherwise",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulatory authorities must consider codes when determining compliance with requirements",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Before issuing or reissuing a code under section 36, the Secretary of State must lay before Parliament a draft of the code as proposed to be issued or reissued."
+    },
+    {
+      "section": "62",
+      "heading": "Chapter 4—Code of practice",
+      "title": "Code of practice withdrawal procedures",
+      "chapter": "Chapter 3",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 71,
+      "primary_category": "Other",
+      "summary": "The Secretary of State may withdraw a code of practice after consulting relevant parties and notifying Parliament. Withdrawal takes effect after 40 days unless specified otherwise, and may include different timelines for different purposes.",
+      "dtia_summary": "Codes of practice can be withdrawn after consultation and parliamentary notification, with effect after 40 days unless otherwise specified.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Secretary of State must consult persons before withdrawing a code",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State must lay notice of withdrawal before Parliament",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Withdrawal takes effect after 40 days unless specified otherwise",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Secretary of State may withdraw a code issued under section 36."
+    },
+    {
+      "section": "63",
+      "heading": "Chapter 5—Report on network and information systems legislation",
+      "title": "Network and information systems legislation report",
+      "chapter": "CHAPTER 5",
+      "part": "Part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 72,
+      "primary_category": "Other",
+      "summary": "The Secretary of State must publish a report every 5 years on the operation of network and information systems legislation, assessing objectives achieved, their appropriateness, and potential alternatives. The report may include information from regulatory authorities.",
+      "dtia_summary": "Reports on network and information systems legislation must assess whether objectives are achieved and if alternatives exist with less regulatory burden.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Secretary of State must publish report on legislation operation every 5 years",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must assess objectives achieved",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must assess whether objectives remain appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report must assess alternatives with less regulatory burden",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Secretary of State must at least once every 5 years beginning with the day on which this Act is passed— (a) lay before Parliament a report on the operation of the legislation mentioned in subsection (3) during the review period, and (b) publish the report."
+    },
+    {
+      "section": "64",
+      "heading": "Chapter 6—Regulations under Part 3",
+      "title": "Regulations under Part 3 with flexibility provisions",
+      "chapter": "Chapter 3",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 73,
+      "primary_category": "Other",
+      "summary": "Regulations under Part 3 may make different provisions for different purposes, areas, or regulated persons, include exceptions, and provide for application to the Crown or relevant UK waters. Consequential provisions may amend or repeal primary legislation.",
+      "dtia_summary": "Regulations under Part 3 allow flexibility in applying to different contexts, including the Crown and UK waters, but must not conflict with primary legislation.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulations may make different provision for different purposes",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may make provision subject to exceptions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may make different provision for different areas",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may make provision about application to the Crown",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may make provision about application to relevant UK waters",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations may include consequential, supplementary, incidental, transitional or saving provisions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Consequential provisions may amend or repeal primary legislation",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Regulations under section 24 or Chapter 3 may— (a) make different provision for different purposes (including different provision for different descriptions of regulated person as defined by section 30(2));"
+    },
+    {
+      "section": "65",
+      "heading": "Chapter 6—Regulations under Part 3",
+      "title": "Consultation and procedure for regulations",
+      "chapter": "Chapter 6",
+      "part": "Part a",
+      "condition": null,
+      "page_start": 73,
+      "page_end": 75,
+      "primary_category": "Other",
+      "summary": "The Secretary of State must consult relevant parties before making regulations under specific sections, including those related to essential activities, regulatory authorities, and penalties. Regulations must be approved by Parliament or subject to annulment.",
+      "dtia_summary": "Regulations require consultation before implementation and must be approved by Parliament to ensure transparency and compliance.",
+      "authority": "Secretary of State",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Secretary of State must consult persons before making regulations under section 24(3)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State must consult persons before making regulations under section 24(6)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State must consult persons before making regulations under section 29(1)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations must be approved by Parliament",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations may be subject to annulment by Parliament",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "The Secretary of State must consult such persons as the Secretary of State considers appropriate before making— (a) regulations under section 24(3) (essential activities); (b) regulations under section 24(6) (designation of regulatory authorities);"
+    },
+    {
+      "section": "67",
+      "heading": "Compliance with directions under section 43 to take priority",
+      "title": "Priority of security directions over conflicting regulatory obligations",
+      "chapter": "Chapter 6",
+      "part": "Part i",
+      "condition": null,
+      "page_start": 75,
+      "page_end": 80,
+      "primary_category": "Enforcement",
+      "summary": "This section establishes that when a regulator determines it is not reasonably practicable for a regulated entity to comply with both a security direction and another regulatory requirement, the security direction takes precedence. The regulated entity is exempt from the conflicting requirement only if notified by the Secretary of State. The Secretary of State must inform relevant regulators of this exemption and may vary or revoke the direction. The section also defines 'relevant regulator' and includes provisions for Scottish legal contexts.",
+      "dtia_summary": "This section creates a priority mechanism for security directions over conflicting regulatory obligations, requiring explicit notification to relevant regulators when exemptions apply. This impacts DTIA by mandating assessment of conflicting obligations and ensuring regulatory alignment during security compliance.",
+      "authority": "Secretary of State",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Regulated person must comply with security direction if it is not reasonably practicable to comply with conflicting regulatory requirement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State must notify regulated person of exemption from conflicting requirement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Secretary of State must notify relevant regulators of exemption from conflicting requirement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Relevant regulator means a regulator with authority over the regulated person and conflicting requirement",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Secretary of State may vary or revoke security direction to remove conflicting requirement",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "Compliance with directions under section 43 to take priority (1) This section applies in a case where the Secretary of State— (a) considers (following representations or otherwise) that it is not reasonably practicable for a regulated person to comply with both— (i) a requirement imposed by a direction given to the person under section 43, and (ii) another requirement of a regulatory nature imposed under or by virtue of any enactment ("
+    },
+    {
+      "section": "67 (part 2)",
+      "heading": "Compliance with directions under section 43 to take priority (cont.)",
+      "title": "",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 80,
+      "page_end": 84,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "67 (part 3)",
+      "heading": "Compliance with directions under section 43 to take priority (cont.)",
+      "title": "Enforcement of notification decisions",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 84,
+      "page_end": 85,
+      "primary_category": "Enforcement",
+      "summary": "This section outlines the process for enforcement authorities to issue confirmation decisions after the deadline for responding to a notification expires. It requires the authority to either confirm requirements for compliance or inform the person no further action is needed. The authority must be satisfied the person contravened relevant requirements before issuing a confirmation decision. The decision must include reasons and may require immediate action, specified periods for compliance, or penalties based on representations and remedial steps taken.",
+      "dtia_summary": "This section establishes procedures for enforcing compliance with notifications after response deadlines expire, including confirmation decisions with specific requirements for immediate action, remediation, and penalties. It impacts DTIAs by defining how enforcement decisions are made and enforced across borders.",
+      "authority": "Enforcement authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The enforcement authority may give a confirmation decision confirming the imposition of requirements on the person in accordance with the notification",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The enforcement authority may inform the person that no further action will be taken",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The enforcement authority may not give a confirmation decision unless satisfied the person contravened relevant requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A confirmation decision must be given without delay and include reasons for the decision",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A confirmation decision may require immediate action to comply with requirements and remedy contraventions",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A confirmation decision may specify a period for compliance and remediation steps",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A confirmation decision may require payment of a penalty based on representations and remedial steps",
+          "obligation_type": "May"
+        },
+        {
+          "text": "A person must comply with any requirement imposed by a confirmation decision",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The enforcement authority may— (a) give the person a decision ("
+    },
+    {
+      "section": "77",
+      "heading": "Enforcement of penalty",
+      "title": "Enforcement of penalties and non-disclosure requirements",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 85,
+      "page_end": 91,
+      "primary_category": "Enforcement",
+      "summary": "This section details how penalties payable under section 50 are enforced across different jurisdictions. Penalties are recoverable in England and Wales as county court orders, enforceable in Scotland via sheriff courts, and recoverable in Northern Ireland as county court orders. The penalties are treated as judgments for enforcement purposes in relevant jurisdictions, allowing for specific remedies including injunctions and specific performance.",
+      "dtia_summary": "This section specifies enforcement mechanisms for penalties across UK jurisdictions, impacting DTIAs by defining how penalties are treated and enforced in different legal systems, particularly relevant for cross-border compliance.",
+      "authority": "Enforcement authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Penalties are recoverable in England and Wales as if payable under a county court order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalties may be enforced in Scotland as extract registered decrees arbitral bearing a warrant for execution",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalties are recoverable in Northern Ireland as if payable under a county court order",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Penalties are treated as judgments for enforcement purposes in relevant jurisdictions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The penalty— (a) is recoverable in England and Wales as if it were payable under an order of the county court"
+    },
+    {
+      "section": "77 (part 2)",
+      "heading": "Enforcement of penalty (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "Part m",
+      "condition": null,
+      "page_start": 91,
+      "page_end": 93,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "85",
+      "heading": "Part 5—General",
+      "title": "Amendments to enforcement powers and appeals for data protection",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 93,
+      "page_end": 99,
+      "primary_category": "Other",
+      "summary": "This section amends regulations related to enforcement powers and appeals. It modifies inspection powers to include RMSP (Regulated Market Service Providers) alongside RDSP (Regulated Digital Service Providers), adds requirements for notice before inspections, and restricts enforcement powers to UK-based premises while allowing access to information stored outside the UK. It also updates enforcement notices to include compliance with incident notifications and other regulatory obligations.",
+      "dtia_summary": "Amendments to enforcement powers require that inspectors provide notice before inspections and specify consequences of non-compliance. Enforcement notices must be served on RMSPs and other entities, with restrictions on accessing privileged communications and foreign premises.",
+      "authority": "Information Commission",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Incident Reporting"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "An inspector must give the OES, RDSP or RMSP notice before conducting inspections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A person may not be required to produce privileged communications",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Enforcement powers are not exercisable outside the UK for premises, material, or individuals",
+          "obligation_type": "Restriction"
+        },
+        {
+          "text": "Enforcement powers are exercisable for documents or information stored anywhere",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Enforcement notices must include compliance with incident notifications",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "An inspector must, before conducting all or any part of an inspection under paragraph (1) or (2), give the OES, RDSP or RMSP (as the case may be) a notice setting out information about the possible consequences of failure to comply with the duties imposed by paragraph (3)."
+    },
+    {
+      "section": "85 (part 2)",
+      "heading": "Part 5—General (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 99,
+      "page_end": 101,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "93",
+      "heading": "A",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 101,
+      "page_end": 102,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}

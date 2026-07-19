@@ -1,0 +1,1574 @@
+{
+  "country": "United Kingdom",
+  "document": "UK GDPR (retained EU law) (United Kingdom - Row 12)",
+  "generated": "2026-07-19T04:41:09",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "This Regulation lays down rules relating to the protection of natural persons with",
+      "title": "Scope of UK GDPR for personal data processing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 44,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "This section defines the material scope of the UK GDPR, specifying that it applies to both automated and structured processing of personal data, including certain activities that were outside EU law before the UK's exit. It also explicitly covers manual unstructured processing of personal data held by FOI public authorities. The regulation excludes purely personal activities, law enforcement purposes, and intelligence services processing.",
+      "dtia_summary": "This section establishes the baseline scope for data transfers under UK GDPR, clarifying when cross-border data processing activities fall within the regulation's jurisdiction. It is critical for determining whether data transfers involving UK entities require specific safeguards.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "This Regulation applies to the automated or structured processing of personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Regulation also applies to the manual unstructured processing of personal data held by an FOI public authority",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "This Regulation does not apply to the processing of personal data by an individual in the course of a purely personal or household activity",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Regulation does not apply to the processing of personal data by a competent authority for law enforcement purposes",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "This Regulation does not apply to the processing of personal data to which Part 4 of the 2018 Act (intelligence services processing) applies",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "This Regulation applies to the automated or structured processing of personal data, including—\n\na\nprocessing in the course of an activity which, immediately before IP completion day, fell outside the scope of EU law, and\n\nb\nprocessing in the course of an activity which, immediately before IP completion day, fell within the scope of Chapter 2 of Title 5 of the Treaty on European Union (common foreign and security policy activities)."
+    },
+    {
+      "section": "4",
+      "heading": "This Regulation shall be without prejudice to the application of [F7the Electronic",
+      "title": "Definition of profiling in data processing",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 47,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'profiling' as any form of automated processing of personal data used to evaluate aspects of a natural person, such as work performance, economic situation, health, preferences, reliability, behavior, location, or movements. It provides clarity on what constitutes profiling under the UK GDPR.",
+      "dtia_summary": "This definition is critical for identifying when data processing activities constitute profiling, which may require specific safeguards under the UK GDPR, particularly for cross-border data transfers involving sensitive data.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'profiling' means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'profiling' means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements;"
+    },
+    {
+      "section": "4",
+      "heading": "‘profiling' means any form of automated processing of personal data consisting of the",
+      "title": "Definition of profiling in data processing",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 47,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'profiling' as any form of automated processing of personal data used to evaluate aspects of a natural person, such as work performance, economic situation, health, preferences, reliability, behavior, location, or movements. It provides clarity on what constitutes profiling under the UK GDPR.",
+      "dtia_summary": "This definition is critical for identifying when data processing activities constitute profiling, which may require specific safeguards under the UK GDPR, particularly for cross-border data transfers involving sensitive data.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'profiling' means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'profiling' means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements;"
+    },
+    {
+      "section": "5",
+      "heading": "‘pseudonymisation' means the processing of personal data in such a manner that the",
+      "title": "Definition of pseudonymisation in data processing",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'pseudonymisation' as processing personal data in a way that it can no longer be attributed to a specific data subject without additional information, provided that such information is kept separately and protected by technical and organizational measures.",
+      "dtia_summary": "This definition is essential for understanding how data can be anonymized or pseudonymized to reduce the risk of re-identification, which is particularly relevant for cross-border data transfers where data minimization and security are critical.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'pseudonymisation' means the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'pseudonymisation' means the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person;"
+    },
+    {
+      "section": "6",
+      "heading": "‘filing system' means any structured set of personal data which are accessible according",
+      "title": "Definition of filing system in data processing",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'filing system' as any structured set of personal data accessible according to specific criteria, whether centralised, decentralised, or dispersed on a functional or geographical basis.",
+      "dtia_summary": "This definition is important for understanding how data is organized and stored, which has implications for data residency, cross-border transfers, and the application of data protection measures.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'filing system' means any structured set of personal data which are accessible according to specific criteria, whether centralised, decentralised or dispersed on a functional or geographical basis",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'filing system' means any structured set of personal data which are accessible according to specific criteria, whether centralised, decentralised or dispersed on a functional or geographical basis;"
+    },
+    {
+      "section": "7",
+      "heading": "‘controller' means the natural or legal person, public authority, agency or other body",
+      "title": "Definition of controller in data processing",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'controller' as the natural or legal person, public authority, agency, or other body that determines the purposes and means of processing personal data, with a reference to the 2018 Act for further clarification.",
+      "dtia_summary": "This definition is critical for identifying who is responsible for data processing activities, which is essential for determining the obligations of data controllers in cross-border data transfers.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'controller' means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'controller' means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data"
+    },
+    {
+      "section": "8",
+      "heading": "‘processor' means a natural or legal person, public authority, agency or other body",
+      "title": "Definition of processor in data processing context",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines a processor as any natural or legal person, public authority, agency, or body that processes personal data on behalf of a controller. The definition explicitly excludes the data subject and specifies that processors act under the controller's authority. This definition is critical for determining contractual relationships in data processing activities.",
+      "dtia_summary": "Defines who qualifies as a processor, which is essential for DTIAs to identify data processing responsibilities and contractual obligations when transferring data across borders.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A processor is a natural or legal person, public authority, agency or other body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A processor processes personal data on behalf of the controller",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "‘processor' means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;"
+    },
+    {
+      "section": "9",
+      "heading": "‘recipient' means a natural or legal person, public authority, agency or another body,",
+      "title": "Definition of recipient in data disclosure context",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines a recipient as any natural or legal person, public authority, agency, or body to which personal data is disclosed, including third parties. It explicitly excludes public authorities receiving data under domestic law from being considered recipients, with their processing deemed compliant with applicable data protection rules.",
+      "dtia_summary": "Clarifies who qualifies as a recipient for data transfers, which is crucial for DTIAs to assess whether third-party disclosures meet adequacy requirements under international data transfers.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A recipient is a natural or legal person, public authority, agency or another body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A recipient is to which personal data are disclosed, whether a third party or not",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public authorities receiving data under domestic law are not regarded as recipients",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Processing by public authorities under domestic law is compliant with data protection rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "‘recipient' means a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not."
+    },
+    {
+      "section": "10",
+      "heading": "‘third party' means a natural or legal person, public authority, agency or body other than",
+      "title": "Definition of third party in data processing context",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines a third party as any natural or legal person, public authority, agency, or body other than the data subject, controller, processor, or individuals directly authorized by the controller or processor to process personal data. It references the interpretation of 'public authority' and 'public body' under section 7 of the 2018 Act.",
+      "dtia_summary": "Defines third parties for DTIAs to identify which entities are excluded from being processors or controllers, ensuring accurate assessment of data transfer chains and responsibilities.",
+      "authority": "",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A third party is a natural or legal person, public authority, agency or body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A third party is other than the data subject, controller, processor",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A third party is other than persons authorized by the controller or processor to process personal data",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "‘third party' means a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data;"
+    },
+    {
+      "section": "11",
+      "heading": "‘consent' of the data subject means any freely given, specific, informed and",
+      "title": "Definition of valid consent for data processing",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines valid consent as any freely given, specific, informed, and unambiguous indication of the data subject's wishes by which they agree to the processing of their personal data through a statement or clear affirmative action. It references paragraphs 6 and 7 of the Article for further details.",
+      "dtia_summary": "Defines the criteria for valid consent, which is essential for DTIAs to assess whether consent mechanisms meet international data transfer requirements.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Consent of the data subject means any freely given, specific, informed and unambiguous indication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consent signifies agreement to the processing of personal data relating to the data subject",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "‘consent' of the data subject means any freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her"
+    },
+    {
+      "section": "12",
+      "heading": "‘personal data breach' means a breach of security leading to the accidental or unlawful",
+      "title": "Definition of personal data breach",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines a personal data breach as a security breach leading to accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access to personal data that is transmitted, stored, or processed.",
+      "dtia_summary": "Defines what constitutes a personal data breach, which is critical for DTIAs to assess breach notification obligations and security requirements when transferring data across borders.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A personal data breach is a breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Personal data is transmitted, stored or otherwise processed",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "‘personal data breach' means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed;"
+    },
+    {
+      "section": "13",
+      "heading": "‘genetic data' means personal data relating to the inherited or acquired genetic",
+      "title": "Definition of genetic data",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines genetic data as personal data relating to inherited or acquired genetic characteristics that provide unique information about a natural person's physiology or health, particularly through biological samples.",
+      "dtia_summary": "Defines genetic data, which is relevant for DTIAs when handling sensitive data types that require specific safeguards under international data transfers.",
+      "authority": "",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Special Personal Information"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Genetic data means personal data relating to inherited or acquired genetic characteristics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Genetic data provides unique information about the physiology or health of a natural person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Genetic data results from analysis of a biological sample from the natural person",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "‘genetic data' means personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question;"
+    },
+    {
+      "section": "14",
+      "heading": "‘biometric data' means personal data resulting from specific technical processing",
+      "title": "Definition of biometric data for identification purposes",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines biometric data as personal data derived from specific technical processing of physical, physiological, or behavioral characteristics that uniquely identify a natural person. It includes examples like facial images and fingerprints. The definition specifies that such data must enable or confirm unique identification.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Biometric Data"
+      ],
+      "requirements": [
+        {
+          "text": "Biometric data is personal data resulting from specific technical processing",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Relating to physical, physiological or behavioural characteristics of a natural person",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Which allow or confirm the unique identification of that natural person",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Such as facial images or dactyloscopic data",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘biometric data' means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic data;"
+    },
+    {
+      "section": "15",
+      "heading": "‘data concerning health' means personal data related to the physical or mental health of a",
+      "title": "Definition of health-related personal data",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 48,
+      "primary_category": "Definitions",
+      "summary": "This section defines health data as personal information related to a natural person's physical or mental health, including health care services. It specifies that health data reveals information about an individual's health status through the provision of health care services.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Health Data"
+      ],
+      "requirements": [
+        {
+          "text": "Data concerning health means personal data related to the physical or mental health of a natural person",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Including the provision of health care services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Which reveal information about his or her health status",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘data concerning health' means personal data related to the physical or mental health of a natural person, including the provision of health care services, which reveal information about his or her health status;"
+    },
+    {
+      "section": "17",
+      "heading": "‘representative' means a natural or legal person established in [F24the United Kingdom]",
+      "title": "Definition of representative for data protection obligations",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 48,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines a representative as a natural or legal person established in the United Kingdom who is designated by the controller or processor in writing under Article 27. The representative acts on behalf of the controller or processor to fulfill their obligations under the regulation.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Representative means a natural or legal person established in the United Kingdom",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Who, designated by the controller or processor in writing pursuant to Article 27",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Represents the controller or processor with regard to their respective obligations under this Regulation",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘representative' means a natural or legal person established in [F24the United Kingdom] who, designated by the controller or processor in writing pursuant to Article 27, represents the controller or processor with regard to their respective obligations under this Regulation;"
+    },
+    {
+      "section": "18",
+      "heading": "‘enterprise' means a natural or legal person engaged in an economic activity,",
+      "title": "Definition of enterprise for economic activities",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines an enterprise as a natural or legal person engaged in economic activity, regardless of legal form. It includes partnerships and associations regularly involved in economic activities.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Enterprise means a natural or legal person engaged in an economic activity",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Irrespective of its legal form",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Including partnerships or associations regularly engaged in an economic activity",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘enterprise' means a natural or legal person engaged in an economic activity, irrespective of its legal form, including partnerships or associations regularly engaged in an economic activity;"
+    },
+    {
+      "section": "20",
+      "heading": "‘binding corporate rules' means personal data protection policies which are adhered to",
+      "title": "Definition of binding corporate rules for data transfers",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines binding corporate rules as personal data protection policies adhered to by a controller or processor in the United Kingdom for transfers of personal data to third countries within a group of undertakings or enterprises engaged in joint economic activity.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Binding corporate rules means personal data protection policies which are adhered to by a controller or processor established in the United Kingdom",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "For transfers or a set of transfers of personal data to a controller or processor in one or more third countries",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Within a group of undertakings, or group of enterprises engaged in a joint economic activity",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘binding corporate rules' means personal data protection policies which are adhered to by a controller or processor established [F25in the United Kingdom] for transfers or a set of transfers of personal data to a controller or processor in one or more third countries within a group of undertakings, or group of enterprises engaged in a joint economic activity;"
+    },
+    {
+      "section": "25",
+      "heading": "‘information society service' means a service as defined in point (b) of Article 1(1) of",
+      "title": "Definition of information society service",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines an information society service as a service specified in point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council, as it has effect immediately before IP completion day.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Information society service means a service as defined in point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "As it has effect immediately before IP completion day",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘information society service' means a service as defined in point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council(19)[F29as it has effect immediately before IP completion day];"
+    },
+    {
+      "section": "26",
+      "heading": "‘international organisation' means an organisation and its subordinate bodies governed",
+      "title": "Definition of international organisation",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 49,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'international organisation' as an entity governed by public international law or established through intergovernmental agreements. The definition explicitly covers subordinate bodies and entities formed by multiple countries. The definition does not specify any operational requirements or restrictions.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "‘international organisation' means an organisation and its subordinate bodies governed by public international law",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "or any other body which is set up by, or on the basis of, an agreement between two or more countries",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "‘international organisation' means an organisation and its subordinate bodies governed by public international law, or any other body which is set up by, or on the basis of, an agreement between two or more countries."
+    },
+    {
+      "section": "30",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.]",
+      "title": "Definition of tribunal and research purposes",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 53,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any body where legal proceedings can be brought. It also clarifies references to scientific, historical, and statistical research purposes, specifying that scientific research includes technological development and fundamental research but excludes public health studies not conducted in the public interest. Historical research includes genealogical research, and statistical purposes require aggregate data without individual identification.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "'tribunal' means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "References to scientific research include processing for technological development, fundamental research, and applied research where activities can reasonably be described as scientific",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "References to scientific research exclude public health studies not conducted in the public interest",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "References to historical research include genealogical research",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "References to statistical purposes require aggregate data that is not personal data and no use of processed information for individual decisions",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "'tribunal' means any tribunal in which legal proceedings may be brought. References in this Regulation to the processing of personal data for the purposes of scientific research (including references to processing for 'scientific research purposes') are references to processing for the purposes of any research that can reasonably be described as scientific, whether publicly or privately funded and whether carried out as a commercial or non-commercial activity."
+    },
+    {
+      "section": "30 (part 2)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 53,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 3)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Definition of tribunal in legal proceedings",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 60,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any entity where legal proceedings can be brought. It clarifies that this definition does not affect general contract law principles, such as those governing contracts involving minors. The reference to information society services explicitly excludes preventive or counselling services. This section defines 'tribunal' as any body where legal proceedings can be initiated. It specifies that the definition applies to tribunals subject to professional secrecy obligations under domestic law or rules established by national competent authorities. The definition also clarifies that 'national competent bodies' refers to competent authorities within the United Kingdom or a part of the United Kingdom.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "Medium (merged from chunks)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Tribunal means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "‘tribunal’ means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "tribunal means any tribunal in which legal proceedings may be brought."
+    },
+    {
+      "section": "30 (part 4)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 64,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 5)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 64,
+      "page_end": 68,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 6)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Data subject access rights and information disclosure requirements",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 68,
+      "page_end": 72,
+      "primary_category": "Data Subject Rights",
+      "summary": "Controllers must provide data subjects with specific information about their personal data processing, including purposes, data categories, recipients, retention periods, and rights to rectification, erasure, or restriction. This information must be provided within one month of obtaining the data or at the time of first communication for data use purposes. Controllers may exclude data subjects from certain disclosures if they already have the information or if domestic law provides adequate safeguards.",
+      "dtia_summary": "Data transfer impact assessments must evaluate whether data subjects can access their information and whether disclosures to third parties comply with the right to access, particularly when data is transferred internationally.",
+      "authority": "UK Data Protection Act 1998 (as amended)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Controller must provide data subject with information on purposes of processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with categories of personal data concerned",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with recipients or categories of recipients to whom data have been or will be disclosed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with envisaged retention period or criteria for determining it",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with right to request rectification or erasure of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with right to object to processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with right to make complaint to controller under section 164A of the 2018 Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with right to make complaint to controller under section 164A of the 2018 Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller must provide data subject with information within one month of obtaining data or at time of first communication",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Controller may exclude data subject from disclosures if they already have the information",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Controller may exclude data subject from disclosures if domestic law provides adequate safeguards",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 7)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 76,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 8)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Automated decision-making and profiling restrictions",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 76,
+      "page_end": 81,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section establishes rules for automated decision-making and profiling. It defines when a decision is based solely on automated processing and when it is a significant decision. It prohibits significant decisions based entirely or partly on special category data without explicit consent, contractual necessity, or legal authorization. It also mandates specific safeguards for data subjects when automated decisions are made.",
+      "dtia_summary": "This section requires specific safeguards for automated decisions that impact individuals, including transparency, appeal mechanisms, and human intervention options. It directly affects data transfer impact assessments for systems using automated profiling or decision-making.",
+      "authority": "UK GDPR",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A decision is based solely on automated processing if there is no meaningful human involvement in the taking of the decision",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A decision is a significant decision if it produces a legal effect for the data subject or has a similarly significant effect for the data subject",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A significant decision based entirely or partly on special category data may not be taken based solely on automated processing without explicit consent",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A significant decision based entirely or partly on special category data may not be taken based solely on automated processing without contractual necessity",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "A significant decision based entirely or partly on special category data may not be taken based solely on automated processing without legal authorization",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The controller must ensure safeguards for data subjects' rights, freedoms and legitimate interests when automated decisions are made",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Safeguards must provide data subjects with information about automated decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Safeguards must enable data subjects to make representations about automated decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Safeguards must enable data subjects to obtain human intervention on automated decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Safeguards must enable data subjects to contest automated decisions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Article 22A(1)(a) and (b), Article 22B(1), Article 22C(1) and (2)"
+    },
+    {
+      "section": "30 (part 9)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 81,
+      "page_end": 85,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 10)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Records of processing activities for controllers and processors",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 85,
+      "page_end": 89,
+      "primary_category": "Record Keeping",
+      "summary": "Controllers and processors must maintain written records of processing activities. These records must include controller/contact details, processing purposes, data subject categories, personal data categories, recipients including third countries, data transfers with safeguards, and technical/organisational security measures. The records must be available upon request by the Commissioner and exempt for small businesses with fewer than 250 employees unless processing involves high risk, special categories, or criminal records.",
+      "dtia_summary": "Requires detailed documentation of processing activities to support data protection impact assessments and ensure compliance with risk-based security measures.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Record Keeping",
+        "Data Storage",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The record shall contain the name and contact details of the controller and, where applicable, the joint controller, the controller's representative and the data protection officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The record shall contain the purposes of the processing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The record shall contain a description of the categories of data subjects and of the categories of personal data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The record shall contain the categories of recipients to whom the personal data have been or will be disclosed including recipients in third countries or international organisations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where applicable, the record shall contain transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where possible, the record shall contain the envisaged time limits for erasure of the different categories of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Where possible, the record shall contain a general description of the technical and organisational security measures referred to in Article 32(1)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The records shall be in writing, including in electronic form",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The controller or the processor and, where applicable, the controller's or the processor's representative, shall make the record available to the Commissioner on request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The obligations shall not apply to an enterprise or organisation employing fewer than 250 persons unless the processing is likely to result in a risk to the rights and freedoms of data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in Article 9(1) or personal data relating to criminal convictions and offences",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility. That record shall contain all of the following information: a the name and contact details of the controller and, where applicable, the joint controller, the controller's representative and the data protection officer; b the purposes of the processing; c a description of the categories of data subjects and of the categories of personal data; d the categories of recipients to whom the personal data have been or will be disclosed including recipients in third countries or international organisations; e where applicable, transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards; f where possible, the envisaged time limits for erasure of the different categories of data; g where possible, a general description of the technical and organisational security measures referred to in Article 32(1)."
+    },
+    {
+      "section": "30 (part 11)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Tribunal definition for legal proceedings",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 89,
+      "page_end": 93,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any tribunal in which legal proceedings may be brought. The definition is part of the legal framework for data protection and does not impose operational obligations.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "tribunal means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "tribunal means any tribunal in which legal proceedings may be brought."
+    },
+    {
+      "section": "30 (part 12)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Data Protection Officer Appointment and Responsibilities",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 93,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "Controllers and processors must appoint a data protection officer with expertise in data protection law. The officer must be designated based on professional qualifications and must be independent from management. Controllers and processors must provide resources and access to data for the officer's tasks. The officer must not receive instructions or face dismissal for performing duties and must report directly to the highest management level. Data subjects may contact the officer regarding their data rights.",
+      "dtia_summary": "Requires a dedicated data protection officer with specific responsibilities to ensure compliance with data protection obligations during cross-border data transfers and processing activities.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The controller or processor may designate a data protection officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The data protection officer must have expert knowledge of data protection law and practices",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The data protection officer may be a staff member or fulfill tasks via service contract",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The controller or processor must publish the data protection officer's contact details",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The controller or processor must communicate the data protection officer's contact details to the Commissioner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The data protection officer must be involved in all issues related to data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The controller or processor must provide resources and access to data for the officer",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The data protection officer must not receive instructions regarding data protection tasks",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The data protection officer must not be dismissed or penalized for performing data protection tasks",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "The data protection officer must report directly to the highest management level",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Data subjects may contact the data protection officer regarding their data rights",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The data protection officer must maintain confidentiality regarding their tasks",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The data protection officer shall be designated on the basis of professional qualities and, in particular, expert knowledge of data protection law and practices and the ability to fulfil the tasks referred to in Article 39."
+    },
+    {
+      "section": "30 (part 13)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Certification Bodies and Accreditation",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 101,
+      "primary_category": "Other",
+      "summary": "Certification bodies must be accredited by the Commissioner or a UK national accreditation body to issue data protection certifications. Accredited bodies must demonstrate independence, expertise, and procedures for handling complaints. They must ensure certifications are valid and can be withdrawn if requirements are not met. Certifications must be transparent and publicly available.",
+      "dtia_summary": "Certification bodies must be accredited and follow strict procedures to ensure data protection certifications meet international standards for cross-border data transfers.",
+      "authority": "Commissioner",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Certification bodies must have expertise in data protection",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must inform the Commissioner before issuing certifications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies may only be accredited by the Commissioner or a UK national accreditation body",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must demonstrate independence and expertise to the Commissioner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must respect the criteria approved by the Commissioner",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must establish procedures for issuing, reviewing, and withdrawing certifications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must establish procedures for handling complaints about certification infringements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must ensure their tasks do not result in conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Certification bodies must provide reasons for granting or withdrawing certifications",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner or UK national accreditation body may revoke certification body accreditation",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Certification bodies which have an appropriate level of expertise in relation to data protection shall, after informing the Commissioner in order to allow it to exercise its powers pursuant to point (h) of Article 58(2) where necessary, issue and renew certification."
+    },
+    {
+      "section": "30 (part 14)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Definition of tribunal for legal proceedings",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 101,
+      "page_end": 106,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any entity where legal proceedings can be brought. The definition is provided for reference purposes and does not create any obligations or conditions for data transfers. It serves as a contextual term within the legal framework.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "tribunal means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "tribunal means any tribunal in which legal proceedings may be brought."
+    },
+    {
+      "section": "30 (part 15)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 106,
+      "page_end": 109,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 16)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Transfers subject to appropriate safeguards: further provisions",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 113,
+      "primary_category": "International Data Transfer Mechanisms",
+      "summary": "The Secretary of State may specify standard data protection clauses to ensure transfers meet the data protection test in Article 46. Regulations must be reviewed periodically and subject to negative resolution procedures. Further safeguards can be adopted through regulations, but only if they meet the data protection test. Regulations under this Article must follow specific procedures for adoption and amendment.",
+      "dtia_summary": "Regulations for additional safeguards must meet the data protection test in Article 46, ensuring transfers to third countries have adequate protection mechanisms. This section defines how further safeguards can be implemented through regulatory measures.",
+      "authority": "UK",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Secretary of State may by regulations specify standard data protection clauses capable of securing that the data protection test in Article 46 is met for transfers of personal data.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Secretary of State must keep under review standard data protection clauses specified in regulations.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulations under paragraph 1 are subject to the negative resolution procedure.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "The Secretary of State may by regulations make provision about further safeguards for transfers of personal data.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "The Secretary of State may only make regulations under paragraph 4 if they secure that the data protection test in Article 46 is met.",
+          "obligation_type": "Condition"
+        },
+        {
+          "text": "Regulations under paragraph 4 may adopt safeguards prepared or published by another person.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations under paragraph 4 may require authorisation from the Commissioner for safeguards.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Regulations under paragraph 4 which amend Article 46 must follow specific procedures.",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 17)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Commissioner's monitoring and enforcement duties",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 113,
+      "page_end": 118,
+      "primary_category": "Other",
+      "summary": "The Commissioner must monitor the application of data protection regulations to protect fundamental rights and freedoms. The Commissioner must act independently, remain free from external influence, and refrain from incompatible occupations. The Commissioner must also conduct investigations, provide advice, and maintain records of infringements.",
+      "dtia_summary": "The Commissioner is responsible for monitoring data protection compliance, conducting investigations, and ensuring the independence of the supervisory authority. This section outlines the Commissioner's key duties and operational requirements.",
+      "authority": "UK",
+      "financial_relevance": "Low",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Commissioner must monitor the application of this Regulation to protect fundamental rights and freedoms.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner must act with complete independence in performing tasks and exercising powers.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner must remain free from external influence in performing tasks and exercising powers.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner must refrain from any action incompatible with their duties.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner must not engage in any incompatible occupation while holding office.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 18)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Definition of tribunal for legal proceedings",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 118,
+      "page_end": 123,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any entity where legal proceedings can be brought. It specifies that this definition applies to the context of data protection law and regulatory enforcement. The definition is used to determine which entities are subject to the Commissioner's investigative and corrective powers under the Data Protection Act.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control"
+      ],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 19)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 123,
+      "page_end": 129,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 20)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Definition of tribunal for legal proceedings",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 129,
+      "page_end": 134,
+      "primary_category": "Definitions",
+      "summary": "This section defines 'tribunal' as any entity where legal proceedings can be initiated. The definition is limited to contexts involving legal proceedings and does not specify the types of tribunals or their jurisdictional scope.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "tribunal means any tribunal in which legal proceedings may be brought",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "tribunal means any tribunal in which legal proceedings may be brought."
+    },
+    {
+      "section": "30 (part 21)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 134,
+      "page_end": 140,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "30 (part 22)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Legitimate interests for data processing",
+      "chapter": "CHAPTER 9A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 140,
+      "page_end": 147,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines conditions under which processing personal data based on legitimate interests is lawful. It specifies that processing must be necessary for disclosures in response to requests from individuals, and the requests must state that the data is needed for processing with a legal basis satisfying Article 6(3). It also covers national security, public security, defence, emergencies, crime, safeguarding vulnerable individuals, and taxation purposes.",
+      "dtia_summary": "This section outlines specific legitimate interest categories that must be met for cross-border data transfers, requiring that the transfer purpose aligns with defined legal bases and objectives such as national security or crime prevention.",
+      "authority": "European Parliament and Council",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Processing is necessary for making a disclosure of personal data to another person in response to a request from the other person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The request states that the other person needs the personal data for the purposes of carrying out processing described in Article 6(1)(e) that has a legal basis satisfying Article 6(3)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for safeguarding national security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for protecting public security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for defence purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for responding to an emergency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for detecting, investigating or preventing crime",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for apprehending or prosecuting offenders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for safeguarding a vulnerable individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for protecting the vital interests of the data subject or another individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for the assessment or collection of a tax or duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for complying with an obligation of the controller under an enactment, a rule of law or an order of a court or tribunal",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Disclosure for purposes of processing described in Article 6(1)(e) This condition is met where— a the processing is necessary for the purposes of making a disclosure of personal data to another person in response to a request from the other person, and b the request states that the other person needs the personal data for the purposes of carrying out processing described in Article 6(1)(e) that has a legal basis that satisfies Article 6(3)."
+    },
+    {
+      "section": "30 (part 23)",
+      "heading": "\"tribunal\" means any tribunal in which legal proceedings may be brought.] (cont.)",
+      "title": "Legitimate interests for data processing",
+      "chapter": "CHAPTER 9A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 147,
+      "page_end": 149,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section defines conditions under which processing personal data based on legitimate interests is lawful. It specifies that processing must be necessary for disclosures in response to requests from individuals, and the requests must state that the data is needed for processing with a legal basis satisfying Article 6(3). It also covers national security, public security, defence, emergencies, crime, safeguarding vulnerable individuals, and taxation purposes.",
+      "dtia_summary": "This section outlines specific legitimate interest categories that must be met for cross-border data transfers, requiring that the transfer purpose aligns with defined legal bases and objectives such as national security or crime prevention.",
+      "authority": "European Parliament and Council",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Processing is necessary for making a disclosure of personal data to another person in response to a request from the other person",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The request states that the other person needs the personal data for the purposes of carrying out processing described in Article 6(1)(e) that has a legal basis satisfying Article 6(3)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for safeguarding national security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for protecting public security",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for defence purposes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for responding to an emergency",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for detecting, investigating or preventing crime",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for apprehending or prosecuting offenders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for safeguarding a vulnerable individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for protecting the vital interests of the data subject or another individual",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for the assessment or collection of a tax or duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Processing is necessary for complying with an obligation of the controller under an enactment, a rule of law or an order of a court or tribunal",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Disclosure for purposes of processing described in Article 6(1)(e) This condition is met where— a the processing is necessary for the purposes of making a disclosure of personal data to another person in response to a request from the other person, and b the request states that the other person needs the personal data for the purposes of carrying out processing described in Article 6(1)(e) that has a legal basis that satisfies Article 6(3)."
+    }
+  ]
+}

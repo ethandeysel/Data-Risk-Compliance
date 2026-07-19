@@ -1,0 +1,935 @@
+{
+  "country": "United Kingdom",
+  "document": "Variable Recurring Payments (VRPs) - Open Banking Standards (United Kingdom - Row 15)",
+  "generated": "2026-07-19T04:17:25",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Executive Summary",
+      "title": "Source Account Requirements for VRP",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 1,
+      "page_end": 2,
+      "primary_category": "Financial Data",
+      "summary": "This section specifies that the source account for VRP transactions must be a PCA (Payment Service Account) or BCA (Banking Customer Account), excluding joint accounts that require multi-authorisation.",
+      "dtia_summary": "This section defines account requirements for VRP transactions, which impacts data transfer assessments by specifying the types of accounts that can be used for VRP payments.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Source account must be a PCA or BCA",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The source account needs to be a PCA or BCA."
+    },
+    {
+      "section": "3",
+      "heading": "VRP Concepts",
+      "title": "VRP Consent Parameters and SCA Requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 2,
+      "page_end": 3,
+      "primary_category": "Consent",
+      "summary": "This section states that VRP Consent Parameters are included within the VRP Consent and are subject to SCA of the PSU by the ASPSP during the VRP Consent Setup. It defines two types of VRP: those with an SCA exemption (where payments do not require further authorization) and those with delegated SCA (where each payment requires individual SCA).",
+      "dtia_summary": "This section specifies SCA requirements for VRP Consents, which impacts data transfer assessments by defining when SCA is required for consent setup versus individual payments.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent",
+        "Security",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "VRP Consent Parameters are included within the VRP Consent and subject to SCA of the PSU by the ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "VRP Payments with an SCA exemption require no further authorization from the PSU after setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "VRP Payments with delegated SCA require individual SCA for each payment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "the VRP Consent Parameters are included within the VRP Consent and are therefore subject to SCA of the PSU by the ASPSP as part of the VRP Consent Setup."
+    },
+    {
+      "section": "1",
+      "heading": "the VRP Consent must be authorised by the Payment Service User (\"PSU\") via Strong Customer",
+      "title": "Source Account Requirements for VRP",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Financial Data",
+      "summary": "This section specifies that the source account for VRP transactions must be a PCA (Payment Service Account) or BCA (Banking Customer Account), excluding joint accounts that require multi-authorisation.",
+      "dtia_summary": "This section defines account requirements for VRP transactions, which impacts data transfer assessments by specifying the types of accounts that can be used for VRP payments.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Source account must be a PCA or BCA",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The source account needs to be a PCA or BCA."
+    },
+    {
+      "section": "2",
+      "heading": "the timing or amount of each payment need not be fixed during the VRP Consent Setup but is",
+      "title": "Sweeping access SCA exemption for payments",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 3,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that the 'Transfer to Self' SCA exemption applies to each sweeping payment within the same ASPSP. It specifies that Sweeping Consents must include VRP Consent Parameters such as payee account name and identification details, and that this standardized sweeping access is mandatory under the CMA Order for sweeping activities.",
+      "dtia_summary": "This section establishes specific SCA exemptions for sweeping payments, which is critical for DTIAs involving payment data storage and handling within the same financial institution.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The OBIE Solution(s) must require a Sweeping Consent includes the following VRP Consent Parameters: Payee Account Name, Payee Account Identification details",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE Solution(s) must require a Sweeping Consent includes the following VRP Consent Parameters: Payee Account Name, Payee Account Identification details"
+    },
+    {
+      "section": "3",
+      "heading": "the VRP Consent Parameters are included within the VRP Consent and are therefore subject to SCA",
+      "title": "VRP Consent Parameters and SCA Requirements",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 4,
+      "primary_category": "Consent",
+      "summary": "This section states that VRP Consent Parameters are included within the VRP Consent and are subject to SCA of the PSU by the ASPSP during the VRP Consent Setup. It defines two types of VRP: those with an SCA exemption (where payments do not require further authorization) and those with delegated SCA (where each payment requires individual SCA).",
+      "dtia_summary": "This section specifies SCA requirements for VRP Consents, which impacts data transfer assessments by defining when SCA is required for consent setup versus individual payments.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Consent",
+        "Security",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "VRP Consent Parameters are included within the VRP Consent and subject to SCA of the PSU by the ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "VRP Payments with an SCA exemption require no further authorization from the PSU after setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "VRP Payments with delegated SCA require individual SCA for each payment",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "the VRP Consent Parameters are included within the VRP Consent and are therefore subject to SCA of the PSU by the ASPSP as part of the VRP Consent Setup."
+    },
+    {
+      "section": "1",
+      "heading": "The source account needs to be a PCA or BCA.",
+      "title": "Source Account Requirements for VRP",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Financial Data",
+      "summary": "This section specifies that the source account for VRP transactions must be a PCA (Payment Service Account) or BCA (Banking Customer Account), excluding joint accounts that require multi-authorisation.",
+      "dtia_summary": "This section defines account requirements for VRP transactions, which impacts data transfer assessments by specifying the types of accounts that can be used for VRP payments.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Source account must be a PCA or BCA",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The source account needs to be a PCA or BCA."
+    },
+    {
+      "section": "5",
+      "heading": "The transaction is between two accounts belonging to the same person or legal entity.",
+      "title": "VRP use cases",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 4,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines specific use cases for VRPs, including automatic payments for utilities, subscription services, ride-hailing, online marketplaces, and financial management tools. These examples illustrate how VRPs can be applied across diverse scenarios while maintaining the core requirement of fixed payment parameters and explicit consent.",
+      "dtia_summary": "VRP use cases demonstrate practical applications where fixed payment parameters and explicit consent are maintained, reducing the need for repeated authentication but requiring careful risk management.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Cross-border Transfer",
+        "Customer Information",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "As a homeowner, I want to allow my electricity provider to automatically take payments from my bank account but only up to a maximum of £100 per month",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a new customer of a subscription service, I want to set up my subscription payments such that it expires after 6 months",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a ride-hailing app customer, I want to connect my bank account so that payment is made automatically on my behalf as I arrive at my destination with a maximum payment size of £45",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer using an online marketplace, I want to do a one-time payment setup for one-click payments",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer looking to earn more interest, I want to use a third-party smart saving app that moves money from my bank accounts to my own saving account",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer looking to avoid unnecessary fees, I want to use a third-party service that monitors my account to maintain a threshold balance",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer in financial difficulty, I want convenient short-term credit to avoid going overdrawn, and then to automate repayments",
+          "obligation_type": "Example"
+        }
+      ],
+      "source_quote": "As a homeowner, I want to allow my electricity provider to automatically take payments from my bank account but only up to a maximum of £100 per month."
+    },
+    {
+      "section": "4",
+      "heading": "Regulatory treatment of VRP",
+      "title": "Regulatory treatment of VRP payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 4,
+      "page_end": 6,
+      "primary_category": "Cross-border Transfer",
+      "summary": "VRPs are classified as a regulated PISP activity requiring explicit consent from the customer. The consent must be strongly authenticated via ASPSP during setup, with specific parameters like payee, payment frequency, and maximum amounts. The customer can cancel consent at any time through the PISP or ASPSP. The PISP must adhere to exemption rules for each payment without re-authentication.",
+      "dtia_summary": "VRPs require explicit consent with fixed parameters and exemption-based payment authorization, reducing the need for repeated authentication but introducing liability risks for payment deviations.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "VRP is a regulated PISP activity requiring explicit consent from the PSU",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSU consent must be strongly authenticated by ASPSP during VRP Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PSU can cancel VRP Consent at any time through PISP or ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISP may initiate VRP Payments within VRP Consent Parameters without re-authentication",
+          "obligation_type": "May"
+        },
+        {
+          "text": "VRP Payments must rely on an available exemption for each payment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payee must be fixed for VRP Payments",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Number and/or frequency of payments must be fixed (or capped)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Maximum individual payment amount and total value per period must be defined",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISP cannot change payee or transaction features after consent",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "VRP is a regulated PISP activity. A PISP is able to initiate VRP Payments provided that the PSU has given their ‘explicit consent'."
+    },
+    {
+      "section": "5",
+      "heading": "VRP Use Cases",
+      "title": "VRP use cases",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 6,
+      "page_end": 7,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section outlines specific use cases for VRPs, including automatic payments for utilities, subscription services, ride-hailing, online marketplaces, and financial management tools. These examples illustrate how VRPs can be applied across diverse scenarios while maintaining the core requirement of fixed payment parameters and explicit consent.",
+      "dtia_summary": "VRP use cases demonstrate practical applications where fixed payment parameters and explicit consent are maintained, reducing the need for repeated authentication but requiring careful risk management.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [
+        "Cross-border Transfer",
+        "Customer Information",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "As a homeowner, I want to allow my electricity provider to automatically take payments from my bank account but only up to a maximum of £100 per month",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a new customer of a subscription service, I want to set up my subscription payments such that it expires after 6 months",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a ride-hailing app customer, I want to connect my bank account so that payment is made automatically on my behalf as I arrive at my destination with a maximum payment size of £45",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer using an online marketplace, I want to do a one-time payment setup for one-click payments",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer looking to earn more interest, I want to use a third-party smart saving app that moves money from my bank accounts to my own saving account",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer looking to avoid unnecessary fees, I want to use a third-party service that monitors my account to maintain a threshold balance",
+          "obligation_type": "Example"
+        },
+        {
+          "text": "As a customer in financial difficulty, I want convenient short-term credit to avoid going overdrawn, and then to automate repayments",
+          "obligation_type": "Example"
+        }
+      ],
+      "source_quote": "As a homeowner, I want to allow my electricity provider to automatically take payments from my bank account but only up to a maximum of £100 per month."
+    },
+    {
+      "section": "6",
+      "heading": "Risks & Mitigations in VRP Activity",
+      "title": "Risks & mitigations for VRP activity",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 7,
+      "page_end": 8,
+      "primary_category": "Cross-border Transfer",
+      "summary": "VRPs are a regulated PISP activity subject to FCA oversight. PISPs must implement risk controls aligned with FCA Principles for Business to protect customers. Regulatory supervision ensures PISPs maintain adequate consumer protections and risk controls, with dispute resolution mechanisms like the FOS available to customers if protections are insufficient.",
+      "dtia_summary": "VRPs require PISPs to implement robust risk controls and regulatory oversight to ensure customer protection, mitigating cross-border data transfer risks through FCA supervision.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "PISPs must have appropriate risk controls for VRP activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISPs must adhere to FCA Principles for Business",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISPs must ensure consumer protections and risk controls are adequate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FCA supervision detects and corrects PISPs that fail to protect consumers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "As a regulated financial institution, PISPs are required to have appropriate risk controls in place for the activities they engage in, and this is assured to market through their regulatory supervision."
+    },
+    {
+      "section": "7",
+      "heading": "Communications",
+      "title": "Example customer journey for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides wireframes demonstrating how VRP could be applied to recurring bill payments, including customer journeys where the customer is not 'in session'. It outlines requirements for the OBIE solution to transmit VRP Consents, define consent parameters, and initiate payments. The requirements are marked as 'M' (must) for scope of the OBIE solution, with optional conditions for implementation by ASPSPs and TPPs.",
+      "dtia_summary": "This section details specific technical requirements for VRP transactions, including consent parameters and payment initiation, which are critical for DTIAs involving payment data sharing across systems.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The OBIE's Solution(s) must allow the PISP to transmit and confirm the PSU's VRP Consent to the ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must define identifiers and semantics for VRP Consent Parameters including payee account name, identification details, maximum payment amount, cumulative amount, expiry date, and consent reference",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must allow the PISPs to initiate domestic payments with the VRP Consent",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE's Solution(s) must allow the PISP to transmit and confirm the PSU's VRP Consent to the ASPSP."
+    },
+    {
+      "section": "9",
+      "heading": "Customers:",
+      "title": "Sweeping access requirements for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 8,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates specific technical and operational requirements for ASPSPs to enable sweeping access for Variable Recurring Payments (VRPs). It requires the ASPSP to inform the PSU when a payee is added to the Trusted Beneficiary list, add the payee to the list upon consent setup completion, apply Trusted Beneficiary SCA exemption during payments within consent parameters, and provide error indicators if the trusted beneficiary is removed. The requirements are conditional on the implementation of the OBIE solution.",
+      "dtia_summary": "Sweeping access for VRPs requires ASPSPs to implement specific technical safeguards including Trusted Beneficiary list management and SCA exemption application, which impact cross-border data transfers between payment service providers and users.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "ASPSP must inform PSU that payee will be added to Trusted Beneficiary list",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must add payee to PSU's Trusted Beneficiary list after Sweeping Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must apply Trusted Beneficiary SCA exemption when PISP initiates Sweeping Payment within Sweeping consent parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP may choose not to apply SCA exemption in exceptional circumstances with objective approach",
+          "obligation_type": "May"
+        },
+        {
+          "text": "ASPSP must provide specific error indicator to PISP if trusted beneficiary is removed from list",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide metrics and adoption data as per section 10.2",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISP must attest to ASPSP that VRP Consent is a Sweeping Consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide non-discriminatory access to Sweeping Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide non-discriminatory access to instruct Sweeping Payment within parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must enable functionality for Single & Joint accounts (excluding multi-authorisation accounts)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE's Solution(s) must ensure the ASPSP informs the PSU that the payee will be added to their Trusted Beneficiary list."
+    },
+    {
+      "section": "10",
+      "heading": "Clients' assets",
+      "title": "Measuring variable recurring payment usage metrics",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 8,
+      "page_end": 9,
+      "primary_category": "Data Collection",
+      "summary": "This section specifies mandatory metrics for measuring VRP usage, including the volume of Sweeping Consents set up, successful payments, failed authorisations, and cancellations. The metrics are required to be reported by ASPSPs to track implementation and compliance with sweeping access requirements.",
+      "dtia_summary": "Mandatory usage metrics for VRPs help assess the scale and compliance of sweeping access implementations, which is critical for DTIA to evaluate the scope of data transfers and potential risks.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Report total volume of Sweeping Consent set up through PISP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of successfully set up Sweeping Consent via PISP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of Sweeping VRPs failed to be authorised by PSU",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of Sweeping VRP access cancelled by PSU at ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of successful VRP payments for Sweeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of failed VRP payments for Sweeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report volume of VRP payments where Trusted Beneficiary Exemption could not be applied",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The total volume of Sweeping Consent set up through a PISP."
+    },
+    {
+      "section": "11",
+      "heading": "Relations with",
+      "title": "Identifier references for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 9,
+      "page_end": 13,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides definitions for identifiers used in VRP transactions, including EndToEndIdentification and InstructionIdentification. It specifies that the PISP generates a unique transaction ID for the ASPSP, which must be indefinitely unique and aligns with payment scheme rules.",
+      "dtia_summary": "Identifier definitions impact data transfer structures and interoperability, requiring clear specifications for transaction IDs to ensure accurate cross-border data mapping and processing.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "EndToEndIdentification must be a reference populated by debtor/merchant for transaction reconciliation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "InstructionIdentification must be a unique transaction ID generated by PISP and passed to ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "InstructionIdentification must be indefinitely unique across all time periods",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The PISP generates the InstructionIdentification which is a unique transaction Id and passes it to the ASPSP (this is mandatory)."
+    },
+    {
+      "section": "7",
+      "heading": "Example Customer Journey",
+      "title": "Example customer journey for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 15,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides wireframes demonstrating how VRP could be applied to recurring bill payments, including customer journeys where the customer is not 'in session'. It outlines requirements for the OBIE solution to transmit VRP Consents, define consent parameters, and initiate payments. The requirements are marked as 'M' (must) for scope of the OBIE solution, with optional conditions for implementation by ASPSPs and TPPs.",
+      "dtia_summary": "This section details specific technical requirements for VRP transactions, including consent parameters and payment initiation, which are critical for DTIAs involving payment data sharing across systems.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The OBIE's Solution(s) must allow the PISP to transmit and confirm the PSU's VRP Consent to the ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must define identifiers and semantics for VRP Consent Parameters including payee account name, identification details, maximum payment amount, cumulative amount, expiry date, and consent reference",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must allow the PISPs to initiate domestic payments with the VRP Consent",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE's Solution(s) must allow the PISP to transmit and confirm the PSU's VRP Consent to the ASPSP."
+    },
+    {
+      "section": "8",
+      "heading": "Requirements for the VRP Standards",
+      "title": "VRP standards requirements for implementation",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 15,
+      "page_end": 19,
+      "primary_category": "Data Sharing",
+      "summary": "This section lists technical requirements for VRP standards implementation, including SCA (Strong Customer Authentication) during consent setup, payment initiation within consent parameters, payment account selection, and transaction type indicators. It specifies that ASPSPs must reject payments exceeding consent parameters and provide structured error messages for breaches, with mandatory features for refunds and consent revocation.",
+      "dtia_summary": "This section details technical requirements for VRP transactions, including payment validation and error handling, which are critical for DTIAs involving payment data sharing across systems.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Consent",
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The OBIE's Solution(s) must allow the ASPSP to apply SCA during VRP Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OB: The OBIE's Solution(s) must enable the ASPSP to apply any relevant SCA exemption when the PISP initiates a VRP Payment within the VRP consent parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must enable the PSU to select the payment account directly with the ASPSP as part of the VRP consent setup process",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must enable the ASPSP to return to the PISP, as part of VRP Consent Setup, the payment account if the PSU has selected one with the ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must enable the PISP to transmit the following for each VRP Payment: Reference to identify the VRP consent, Instruction Identification, Amount.Currency, Reference (Remittance Information), Date, Type of transaction, Indicator to show whether the customer is in session or out of session",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must enable the PISP to indicate whether the customer is present in the session or out of session for each VRP payment initiated as part of a VRP Consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must require the ASPSP to reject a VRP Payment if the payment would exceed the VRP Consent Parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The OBIE's Solution(s) must require the ASPSPs to provide accurate and structured error message when payment initiated by PISP is outside the VRP consent parameters",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE's Solution(s) must allow the ASPSP to apply SCA during VRP Consent Setup."
+    },
+    {
+      "section": "2",
+      "heading": "the ‘Transfer to Self' SCA exemption by the ASPSP for each sweeping payment within the",
+      "title": "Sweeping access SCA exemption for payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 19,
+      "primary_category": "Data Storage",
+      "summary": "This section mandates that the 'Transfer to Self' SCA exemption applies to each sweeping payment within the same ASPSP. It specifies that Sweeping Consents must include VRP Consent Parameters such as payee account name and identification details, and that this standardized sweeping access is mandatory under the CMA Order for sweeping activities.",
+      "dtia_summary": "This section establishes specific SCA exemptions for sweeping payments, which is critical for DTIAs involving payment data storage and handling within the same financial institution.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The OBIE Solution(s) must require a Sweeping Consent includes the following VRP Consent Parameters: Payee Account Name, Payee Account Identification details",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE Solution(s) must require a Sweeping Consent includes the following VRP Consent Parameters: Payee Account Name, Payee Account Identification details"
+    },
+    {
+      "section": "9",
+      "heading": "Requirements for VRP Sweeping Access",
+      "title": "Sweeping access requirements for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 19,
+      "page_end": 21,
+      "primary_category": "Cross-border Transfer",
+      "summary": "This section mandates specific technical and operational requirements for ASPSPs to enable sweeping access for Variable Recurring Payments (VRPs). It requires the ASPSP to inform the PSU when a payee is added to the Trusted Beneficiary list, add the payee to the list upon consent setup completion, apply Trusted Beneficiary SCA exemption during payments within consent parameters, and provide error indicators if the trusted beneficiary is removed. The requirements are conditional on the implementation of the OBIE solution.",
+      "dtia_summary": "Sweeping access for VRPs requires ASPSPs to implement specific technical safeguards including Trusted Beneficiary list management and SCA exemption application, which impact cross-border data transfers between payment service providers and users.",
+      "authority": "Open Banking Implementation Entity (OBIE)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "ASPSP must inform PSU that payee will be added to Trusted Beneficiary list",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must add payee to PSU's Trusted Beneficiary list after Sweeping Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must apply Trusted Beneficiary SCA exemption when PISP initiates Sweeping Payment within Sweeping consent parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP may choose not to apply SCA exemption in exceptional circumstances with objective approach",
+          "obligation_type": "May"
+        },
+        {
+          "text": "ASPSP must provide specific error indicator to PISP if trusted beneficiary is removed from list",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide metrics and adoption data as per section 10.2",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "PISP must attest to ASPSP that VRP Consent is a Sweeping Consent",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide non-discriminatory access to Sweeping Consent Setup",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must provide non-discriminatory access to instruct Sweeping Payment within parameters",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ASPSP must enable functionality for Single & Joint accounts (excluding multi-authorisation accounts)",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The OBIE's Solution(s) must ensure the ASPSP informs the PSU that the payee will be added to their Trusted Beneficiary list."
+    },
+    {
+      "section": "10",
+      "heading": "Measuring VRP usage",
+      "title": "Measuring variable recurring payment usage metrics",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 21,
+      "page_end": 22,
+      "primary_category": "Data Collection",
+      "summary": "This section specifies mandatory metrics for measuring VRP usage, including the volume of Sweeping Consents set up, successful payments, failed authorisations, and cancellations. The metrics are required to be reported by ASPSPs to track implementation and compliance with sweeping access requirements.",
+      "dtia_summary": "Mandatory usage metrics for VRPs help assess the scale and compliance of sweeping access implementations, which is critical for DTIA to evaluate the scope of data transfers and potential risks.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Report total volume of Sweeping Consent set up through PISP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of successfully set up Sweeping Consent via PISP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of Sweeping VRPs failed to be authorised by PSU",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of Sweeping VRP access cancelled by PSU at ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of successful VRP payments for Sweeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report total volume of failed VRP payments for Sweeping",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Report volume of VRP payments where Trusted Beneficiary Exemption could not be applied",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The total volume of Sweeping Consent set up through a PISP."
+    },
+    {
+      "section": "11",
+      "heading": "Appendix",
+      "title": "Identifier references for variable recurring payments",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 22,
+      "page_end": 23,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides definitions for identifiers used in VRP transactions, including EndToEndIdentification and InstructionIdentification. It specifies that the PISP generates a unique transaction ID for the ASPSP, which must be indefinitely unique and aligns with payment scheme rules.",
+      "dtia_summary": "Identifier definitions impact data transfer structures and interoperability, requiring clear specifications for transaction IDs to ensure accurate cross-border data mapping and processing.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "EndToEndIdentification must be a reference populated by debtor/merchant for transaction reconciliation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "InstructionIdentification must be a unique transaction ID generated by PISP and passed to ASPSP",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "InstructionIdentification must be indefinitely unique across all time periods",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The PISP generates the InstructionIdentification which is a unique transaction Id and passes it to the ASPSP (this is mandatory)."
+    },
+    {
+      "section": "12",
+      "heading": "Version control",
+      "title": "Version control for variable recurring payments standards",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 23,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "This section details version control information for the VRP standards, including version history, dates, authors, and comments. It does not contain substantive operational requirements but provides context for standard evolution.",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "None",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": "Version control information for Variable Recurring Payments (VRPs) - Open Banking Standards"
+    }
+  ]
+}

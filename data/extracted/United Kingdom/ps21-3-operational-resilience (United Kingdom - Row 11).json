@@ -1,0 +1,703 @@
+{
+  "country": "United Kingdom",
+  "document": "ps21-3-operational-resilience (United Kingdom - Row 11)",
+  "generated": "2026-07-19T04:08:42",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Introduction",
+      "title": "Introduction to operational resilience policy framework",
+      "chapter": "Chapter 1",
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section introduces the UK's operational resilience policy framework, explaining the context of the consultation on operational resilience, the collaboration between the Bank of England and PRA, and the importance of operational resilience for financial sector stability. It outlines the scope of the policy, including firms affected by the rules, and provides background on the impact of the coronavirus pandemic on operational resilience.",
+      "dtia_summary": "This section establishes the policy context for operational resilience but does not directly specify data transfer requirements. It is not relevant for Data Transfer Impact Assessments.",
+      "authority": "Bank of England, PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must map important business services by identifying people, processes, technology, facilities, and information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify pivotal staff for important business services with contingency plans for incapacity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure operational resilience to prevent, adapt, respond to, recover from, and learn from disruptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must maintain impact tolerances to prevent intolerable harm to consumers or market integrity",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In December 2019, we consulted on proposed changes to how firms approach their operational resilience."
+    },
+    {
+      "section": "1 (part 2)",
+      "heading": "Introduction (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": null,
+      "condition": null,
+      "page_start": 7,
+      "page_end": 9,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2",
+      "heading": "2",
+      "title": "Identifying important business services for operational resilience",
+      "chapter": "Chapter 2",
+      "part": null,
+      "condition": null,
+      "page_start": 9,
+      "page_end": 13,
+      "primary_category": "Other",
+      "summary": "Firms must identify important business services—those whose disruption could cause intolerable harm to consumers or risk market integrity. These services must be clearly defined, separable from other services, and identifiable by user group. Firms must review these services annually or after material business changes, with specific examples provided for clarity.",
+      "dtia_summary": "This section requires firms to identify critical services that must be maintained for operational resilience, directly impacting cross-border data transfers if services involve international customers or data flows.",
+      "authority": "Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Processing",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must identify important business services that, if disrupted, could cause intolerable harm to consumers or risk market integrity.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Important business services must be clearly identifiable as separate services, not collections of services.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify users of important business services to assess disruption impacts.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must review important business services at least once per year or after material business changes.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must consider the size and nature of the consumer base when identifying important business services.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms must identify important business services—those whose disruption could cause intolerable harm to consumers or risk market integrity."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "2 (cont.)",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 13,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3",
+      "heading": "3",
+      "title": "Setting impact tolerances for business services",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 20,
+      "primary_category": "Other",
+      "summary": "Firms must set impact tolerances at the point where disruption causes intolerable harm to consumers or market integrity. They must review tolerances annually or after business changes. Firms must use time/duration as a mandatory metric and may add other metrics. Dual-regulated firms must set up to two tolerances: one for consumer harm and one for financial stability.",
+      "dtia_summary": "Impact tolerances define thresholds for acceptable disruption during operational resilience planning. They require firms to measure disruption against specific metrics to prevent intolerable harm, influencing cross-border data transfer by ensuring resilience in critical services.",
+      "authority": "FCA and PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must set impact tolerances at the point where disruption causes intolerable harm to consumers or risk to market integrity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must review impact tolerances at least once per year or after relevant business changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must use time/duration as a mandatory metric for impact tolerances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Dual-regulated firms must set up to two impact tolerances: one for consumer harm and one for financial stability",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We proposed firms should set their impact tolerances at the first point at which a disruption to an important business service would cause intolerable levels of harm to consumers or risk to market integrity."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "3 (cont.)",
+      "title": "",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 24,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "3 (part 3)",
+      "heading": "3 (cont.)",
+      "title": "Smaller firms' impact tolerance thresholds for financial stability",
+      "chapter": "Chapter 3",
+      "part": "part o",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 26,
+      "primary_category": "Other",
+      "summary": "This section clarifies that smaller firms do not need to consider financial stability when setting impact tolerances for operational resilience. Thresholds will be established to determine which firms fall within the scope of the rules. The PRA provides examples of how firms can set impact tolerances based on consumer harm, substitutability, and specific service disruptions.",
+      "dtia_summary": "This section defines how smaller firms can set impact tolerances without financial stability considerations, relevant for DTIAs involving smaller financial institutions.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Smaller firms do not need to consider financial stability when setting impact tolerances",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Thresholds will be set to determine which firms fall within the scope of the rules",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "To address the feedback on how small firms may find it challenging to set impact tolerances for financial stability, the PRA is narrowing the scope of its rules so that smaller firms will not need to consider financial stability when setting impact tolerances."
+    },
+    {
+      "section": "4",
+      "heading": "Transitional arrangements",
+      "title": "Transitional arrangements for operational resilience implementation",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 26,
+      "page_end": 28,
+      "primary_category": "Other",
+      "summary": "This section outlines transitional arrangements for firms to embed operational resilience requirements. Firms have a 1-year implementation period after rule publication before the rules take effect, with a requirement to remain within impact tolerances by 31 March 2025. The transitional period includes a 3-year window for firms to show they can stay within impact tolerances, with flexibility for firms to adjust their mapping and scenario testing over time.",
+      "dtia_summary": "This section details the transitional period for operational resilience, including a 4-year timeline for firms to meet impact tolerance requirements, relevant for DTIAs involving firms in transition.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms have a 1-year implementation period after rule publication before the rules take effect",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must remain within impact tolerances by 31 March 2025",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must complete mapping and scenario testing to a level of sophistication necessary to identify important business services and set impact tolerances by 31 March 2022",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms will have the significant period of 4 years from the date this PS publishes to be able to stay within their impact tolerances, made up of a 1-year implementation period and a 3-year transitional period."
+    },
+    {
+      "section": "5",
+      "heading": "Mapping and scenario testing",
+      "title": "Mapping and scenario testing for operational resilience",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 28,
+      "page_end": 32,
+      "primary_category": "Other",
+      "summary": "This section details requirements for firms to map resources supporting important business services and test their ability to remain within impact tolerances through disruption scenarios. Firms must map people, processes, technology, facilities, and information to identify vulnerabilities. Mapping must be updated for material changes and reviewed annually, with sign-off by senior management. Third-party providers must be mapped to ensure resilience.",
+      "dtia_summary": "This section specifies mapping and scenario testing requirements for operational resilience, critical for DTIAs involving third-party dependencies and service disruptions.",
+      "authority": "PRA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must map people, processes, technology, facilities, and information supporting important business services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must test ability to remain within impact tolerances through disruption scenarios",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must update mapping exercises for material changes or at least annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure third-party providers are mapped to identify vulnerabilities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "To enable firms to have a complete view of their resilience, we proposed they should identify and document the people, processes, technology, facilities and information (resources) necessary to deliver each of a firm's important business services."
+    },
+    {
+      "section": "5 (part 2)",
+      "heading": "Mapping and scenario testing (cont.)",
+      "title": "Data handling for regulatory mapping and external sharing",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 32,
+      "page_end": 36,
+      "primary_category": "Other",
+      "summary": "Firms must handle data provided to the FCA with utmost care, complying with GDPR and confidentiality under section 348 FSMA. Firms sharing data externally must adhere to existing data handling requirements, including specific provisions for payments firms under FSMA, EMRs 2011, and PSRs 2017. This section addresses data risk associated with external sharing and regulatory data handling practices.",
+      "dtia_summary": "Regulators require firms to handle data with utmost care, ensuring GDPR compliance and confidentiality under FSMA. This impacts DTIAs by emphasizing data handling protocols for external sharing and regulatory disclosures.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must handle data provided to the FCA with utmost care",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must comply with GDPR requirements for data handling",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must comply with confidentiality under section 348 FSMA",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms sharing data externally must comply with existing data handling requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Payments firms must comply with section 348 FSMA as applied and modified by EMRs 2011 and PSRs 2017",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Any data provided to us is, and will continue to be, handled with the utmost care. The FCA is subject to the onshored General Data Protection Regulation (GDPR) and complies with these requirements. We are also subject to confidentiality under section 348 FSMA."
+    },
+    {
+      "section": "5 (part 3)",
+      "heading": "Mapping and scenario testing (cont.)",
+      "title": "Collaborative scenario testing with third parties",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 36,
+      "page_end": 38,
+      "primary_category": "Other",
+      "summary": "Firms must collaborate with third parties to facilitate effective scenario testing, ensuring the quality and accuracy of testing outcomes. Firms are responsible for verifying third parties' methodologies, scenarios, and considerations. This section emphasizes risk-based testing approaches and the need for firms to maintain testing schedules without disrupting business operations.",
+      "dtia_summary": "Firms must ensure third parties' testing aligns with their own resilience requirements, impacting DTIAs through third-party risk assessments and collaborative testing protocols.",
+      "authority": "",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Firms should approach testing with third parties in the same way as they approach mapping exercises",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Firms must ensure third parties carry out testing with appropriate methodologies, scenarios, and considerations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms are ultimately responsible for the quality and accuracy of any testing",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms should approach testing with third parties in the same way as they approach the mapping exercise, working as effectively as possible with third parties to facilitate testing."
+    },
+    {
+      "section": "6",
+      "heading": "benefit analysis",
+      "title": "Firms must maintain internal and external communication strategies for operational resilience",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 38,
+      "page_end": 42,
+      "primary_category": "Other",
+      "summary": "Firms must develop internal and external communication strategies to respond effectively to operational disruptions. Internal strategies require defined escalation paths and decision makers, while external strategies must address consumer communications, including vulnerable groups and situations without direct contact. Firms must also compile a self-assessment document demonstrating compliance with operational resilience requirements, which boards must review regularly without submission to regulators.",
+      "dtia_summary": "Requires firms to establish communication protocols for operational disruptions, including vulnerable consumers, and maintain self-assessment documentation to prove compliance without regulatory submission.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must develop internal communication strategies with defined escalation paths and decision makers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must develop external communication strategies to provide warnings or advice to consumers and stakeholders",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must compile a self-assessment document showing compliance with operational resilience requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Boards must review and approve self-assessment documents regularly",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We proposed firms should have internal and external communication strategies in place to respond quickly and effectively to reduce the harm caused by operational disruptions."
+    },
+    {
+      "section": "6 (part 2)",
+      "heading": "benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 42,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 3)",
+      "heading": "benefit analysis (cont.)",
+      "title": "Benefit analysis for operational resilience policy",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 51,
+      "primary_category": "Other",
+      "summary": "The policy's cost-benefit analysis excludes certain firms' estimated costs as they overstate implementation expenses. The analysis confirms that average costs remain accurate after excluding firms with inflated cost projections. The policy provides flexibility for firms to implement requirements proportionally based on their size and complexity, with smaller firms facing lower costs. The analysis acknowledges pandemic-related financial pressures but maintains that costs and benefits remain substantively unchanged from original estimates.",
+      "dtia_summary": "This section clarifies that the policy's cost-benefit analysis excludes firms with inflated cost projections, ensuring average costs remain accurate. It emphasizes proportional implementation based on firm size and complexity, which impacts DTIA scope and resource allocation for smaller institutions.",
+      "authority": "Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Excluded firms with inflated cost projections from CBA estimates",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Costs remain accurate after excluding firms with inflated cost projections",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement requirements proportionally based on size and complexity",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Smaller firms face lower implementation costs than larger firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cost-benefit analysis remains unchanged despite pandemic-related financial pressures",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We have compared the estimated costs against the submissions of other firms of a similar size and complexity. Following this analysis, while we welcome the breadth and rigour of the firm's approach to operational resilience in general, we do not believe the size and scale of the programme envisaged is representative of the costs likely to be experienced by other similarly sized firms to meet the new requirements of the policy."
+    },
+    {
+      "section": "6 (part 4)",
+      "heading": "benefit analysis (cont.)",
+      "title": "Operational resilience framework interactions with existing requirements",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 51,
+      "page_end": 55,
+      "primary_category": "Other",
+      "summary": "The policy ensures alignment with existing regulatory frameworks, particularly the EBA Guidelines on ICT and security risk management and outsourcing arrangements. It distinguishes operational resilience from traditional risk management approaches by focusing on important business services rather than broader business functions. The framework avoids overlaps with existing requirements and provides flexibility for firms to implement without creating fragmented regulatory obligations across jurisdictions.",
+      "dtia_summary": "This section details how the operational resilience framework interacts with existing regulatory requirements, emphasizing alignment with EBA Guidelines and avoiding overlaps. It clarifies that the framework focuses on important business services rather than broader business functions, which impacts DTIA scope for cross-border and international firms.",
+      "authority": "Financial Conduct Authority (FCA) and Prudential Regulation Authority (PRA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Operational resilience framework distinguishes important business services from broader business functions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Framework avoids overlaps with existing regulatory requirements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement requirements proportionally without creating fragmented regulatory obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "EBA Guidelines on ICT and security risk management are aligned with operational resilience framework",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We consider our operational resilience framework can be distinguished from the Guidelines in the following key ways: 'business function' is a very common term in traditional risk management approach and is broadly understood in a similar way. We consider such business functions would cover the same services that we call 'important business services', but can also be broader by covering support functions, which of course we don't capture in our definition of 'important business services' (e.g. the HR function)."
+    },
+    {
+      "section": "6 (part 5)",
+      "heading": "benefit analysis (cont.)",
+      "title": "Benefit analysis for operational resilience requirements",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 65,
+      "primary_category": "Other",
+      "summary": "This section outlines the FCA's response to drafting suggestions for operational resilience rules. It specifies that SYSC 15A.2.2R and SYSC 15A.5.8R should reference 'material' changes in the context of important business services and their impact on the mapping exercise. The FCA also notes that adding 'materially' before 'operational disruption' at SYSC 15A.5.8R would limit disruptions captured by the rule. The section emphasizes that firms must follow up severe but plausible disruption scenarios with lessons-learned exercises to identify weaknesses and improve recovery capabilities.",
+      "dtia_summary": "This section clarifies how operational disruptions impact data transfer and system resilience requirements, emphasizing the need for firms to conduct lessons-learned exercises after severe disruptions to maintain data transfer integrity and system recovery capabilities.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data",
+        "Employee Data"
+      ],
+      "requirements": [
+        {
+          "text": "SYSC 15A.2.2R must reference 'material' changes in the context of important business services and knock-on impact on mapping exercise",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "SYSC 15A.5.8R should not add 'materially' before 'operational disruption' to avoid limiting disruptions captured",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Firms must follow up severe but plausible disruption scenarios with lessons-learned exercises to identify weaknesses and improve recovery capabilities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We agree with the drafting suggestions as set out in paragraph 9 above. We have changed both SYSC 15A.2.2R(1) and SYSC 15A.2.6R(1) to refer to a 'material' change in the context of important business services and the knock-on impact on the mapping exercise. We consider that adding 'materially' ahead of 'operational disruption' at SYSC 15A.5.8R would limit the sort of disruptions captured by this rule."
+    },
+    {
+      "section": "6 (part 6)",
+      "heading": "benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 15A",
+      "part": "part f",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 70,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "6 (part 7)",
+      "heading": "benefit analysis (cont.)",
+      "title": "Self-assessment and lessons learned documentation requirements",
+      "chapter": "Chapter 15A",
+      "part": "part o",
+      "condition": null,
+      "page_start": 70,
+      "page_end": 76,
+      "primary_category": "Governance",
+      "summary": "Firms must maintain written records of their operational resilience compliance, including important business services, impact tolerances, mapping approaches, testing plans, scenario testing details, lessons learned exercises, vulnerability assessments, communication strategies, and methodologies. These records must be updated regularly and retained for at least six years, with the governing body required to approve and review them periodically.",
+      "dtia_summary": "Requires firms to document operational resilience measures, including impact tolerances and vulnerability assessments, which are critical for assessing cross-border data transfer risks in financial services due to the need for robust incident response and recovery capabilities.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "A firm must make, and keep up to date, a written record of its assessment of its compliance with the requirements in this chapter",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of important business services identified by the firm and justification for determination",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of impact tolerances and justification for their level",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of its approach to mapping under SYSC 15A.4.1R",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of the firm's testing plan and justification for the plan",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of scenario testing details and justification of assumptions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of lessons learned exercises conducted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of vulnerabilities threatening business services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of communication strategy under SYSC 15A.8.1R",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must include a written record of methodologies used to undertake the above activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm must retain each version of the records for at least 6 years and provide to FCA on request",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "A firm's governing body must approve and regularly review the written records",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A firm must make, and keep up to date, a written record of its assessment of its compliance with the requirements in this chapter, including, but not limited to, a written record of: (1) important business services identified by the firm and the justification for the determination made; (2) the firm's impact tolerances and the justification for the level at which they have been set by the firm; (3) the firm's approach to mapping under SYSC 15A.4.1R, including how the firm has used mapping to: (a) identify the people, processes, technology, facilities and information necessary to deliver each of its important business services; (b) identify vulnerabilities; (c) support scenario testing; (4) the firm's testing plan and a justification for the plan adopted; (5) details of the scenario testing carried out as part of its obligations under SYSC 15A.5, including a description and justification of the assumptions made in relation to scenario design and any identified risks to the firm's ability to meet its impact tolerances; (6) any lessons learned exercise conducted under SYSC 15A.5.8R; (7) an identification of the vulnerabilities that threaten the firm's ability to deliver its important business services within the impact tolerances set, including the actions taken or planned and justifications for their completion time; (8) its communication strategy under SYSC 15A.8.1R and an explanation of how it will enable it to reduce the anticipated harm caused by operational disruptions; and (9) the methodologies used to undertake the above activities."
+    }
+  ]
+}

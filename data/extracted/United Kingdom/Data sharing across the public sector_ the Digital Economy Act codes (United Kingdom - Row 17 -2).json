@@ -1,0 +1,914 @@
+{
+  "country": "United Kingdom",
+  "document": "Data sharing across the public sector_ the Digital Economy Act codes (United Kingdom - Row 17 -2)",
+  "generated": "2026-07-19T04:11:43",
+  "sections": [
+    {
+      "section": "2021",
+      "heading": "1.0.2 | 17 October 2022",
+      "title": "Practical guidance for lawful data sharing under UK GDPR and DPA 2018",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 13,
+      "page_end": 19,
+      "primary_category": "Other",
+      "summary": "This section provides practical guidance for organisations on sharing personal data lawfully under the UK GDPR and DPA 2018. It clarifies that the code does not impose additional barriers to data sharing but helps meet accountability obligations. The Commissioner must consider this code when assessing compliance with data protection obligations, particularly regarding fairness, lawfulness, transparency, and accountability. The code also includes optional good practice recommendations that are not legally binding but aim to enhance compliance.",
+      "dtia_summary": "This code serves as a reference for assessing whether data sharing meets legal requirements under UK GDPR and DPA 2018, but does not impose specific transfer conditions. It emphasizes that data sharing can be lawful without consent and highlights the importance of proportionality and accountability.",
+      "authority": "Information Commissioner (ICO)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The code contains practical guidance on sharing data fairly and lawfully",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Commissioner must take the code into account when assessing compliance with data protection obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The code can be used in evidence in court proceedings",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The code contains practical guidance on how to share data fairly and lawfully, and how to meet your accountability obligations. It does not impose any additional barriers to data sharing, but will help you comply with your legal obligations under the UK GDPR and the DPA 2018."
+    },
+    {
+      "section": "2021 (part 2)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "",
+      "chapter": null,
+      "part": null,
+      "condition": null,
+      "page_start": 19,
+      "page_end": 25,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2021 (part 3)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Data sharing definitions and scope within public sector",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 31,
+      "primary_category": "Data Sharing",
+      "summary": "This section defines data sharing as the disclosure of personal data by transmission, dissemination, or making available. It specifies that data sharing within the same organisation by the controller to itself is excluded. The code covers third-party data sharing, joint participant arrangements, two-way transmission, and IT system access. It clarifies that pseudonymised data remains personal data if re-identification is possible. The section distinguishes between routine systematic sharing and ad hoc/one-off sharing scenarios, with different compliance approaches for each.",
+      "dtia_summary": "This section defines when data sharing falls under the code's scope and specifies that routine systematic sharing requires formal agreements and risk assessments, while ad hoc sharing requires individual risk evaluation. It clarifies that pseudonymised data remains personal data if re-identification is possible.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data sharing is defined as disclosure of personal data by transmission, dissemination or making available",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Data sharing within the same organisation by the controller to itself is excluded",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Data sharing includes providing personal data to third parties, receiving personal data as joint participant, two-way transmission, and IT system access",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Data sharing does not include providing data access to employees or contractors, or with processors",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Pseudonymised data remains personal data if re-identification is possible",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Routine data sharing occurs on regular basis for established purpose with standardised data structures",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Ad hoc data sharing occurs in one-off, exceptional or urgent situations",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "Data sharing within an organisation is not covered by the code. The code does not apply to the disclosure of data within the same organisation, where the controller is one and the same."
+    },
+    {
+      "section": "2021 (part 4)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Data Protection Impact Assessments for data sharing",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 37,
+      "primary_category": "Data Sharing",
+      "summary": "This section mandates that data sharing likely to result in high risk to individuals requires a Data Protection Impact Assessment (DPIA). It recommends DPIAs for routine data sharing and major projects involving personal data disclosure, even when not legally required. The DPIA process helps assess risks, mitigate threats, and ensure proportionality while maintaining public trust. It emphasizes that DPIAs are not mandatory for low-risk sharing but are encouraged as best practice.",
+      "dtia_summary": "This section requires DPIAs for high-risk data sharing and recommends them for routine sharing to assess risks, mitigate threats, and ensure proportionality. It clarifies that DPIAs are not mandatory for low-risk sharing but are encouraged as best practice.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Data sharing likely to result in high risk to individuals requires a Data Protection Impact Assessment",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "DPIAs are recommended for routine data sharing and major projects involving personal data disclosure",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "DPIAs help assess risks in data sharing and determine necessary safeguards",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "DPIAs promote public trust in data sharing plans",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "DPIAs are not legally required for data sharing unlikely to result in high risk",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "You are obliged to carry out a DPIA for data sharing that is likely to result in a high risk to individuals. This includes some specified types of processing."
+    },
+    {
+      "section": "2021 (part 5)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Data sharing agreements: requirements for effective governance",
+      "chapter": null,
+      "part": "part o",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 43,
+      "primary_category": "Data Sharing",
+      "summary": "Organisations sharing personal data must establish detailed governance arrangements including dataset scope validation, data accuracy assurance, standardized data formats, unified retention/deletion rules, technical security measures, staff training, access request procedures, effectiveness review timelines, and termination protocols. These arrangements must align with UK GDPR and DPA 2018 requirements for law enforcement processing where applicable.",
+      "dtia_summary": "Requires data sharing agreements to specify technical and organizational security measures, data retention/deletion procedures, and staff training to ensure cross-border data transfers comply with international standards and minimize breach risks.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Access Control",
+        "Retention",
+        "Deletion",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations must have detailed advice on datasets they can share to prevent irrelevant or excessive information disclosure",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must ensure shared data is accurate through periodic sampling and data quality analysis",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must record data in the same format using open standards where applicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must establish common rules for retention and deletion of shared data items",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must implement common technical and organizational security arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must have procedures for timely breach response in data sharing agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must ensure staff are properly trained on shared data responsibilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must establish procedures for handling public access requests and complaints",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must set timelines for assessing ongoing effectiveness of data sharing initiatives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Organisations must create procedures for terminating data sharing initiatives including data deletion or return",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Your agreement should also deal with the main practical problems that may arise when sharing personal data. This should ensure that all organisations involved in the sharing: have detailed advice about which datasets they can share, to prevent irrelevant or excessive information being disclosed; make sure that the data they are sharing is accurate, for example by requiring a periodic sampling exercise and data quality analysis; record data in the same format, abiding by open standards when applicable."
+    },
+    {
+      "section": "2021 (part 6)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 43,
+      "page_end": 50,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2021 (part 7)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Legal powers for data sharing across public and private sectors",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 55,
+      "primary_category": "Data Sharing",
+      "summary": "Public sector organisations must identify and document relevant legislation to determine legal powers for data sharing, which may derive from Acts of Parliament, Royal Charters, case law, or common law. They must ensure the power covers the specific disclosure or arrangement, with exceptions for overriding public interest. Private and social sector organisations generally have a general ability to share data without specific legal powers, provided they comply with data protection laws and other applicable regulations. They should check constitutional documents and legal agreements to avoid breaches.",
+      "dtia_summary": "This section clarifies legal bases for data sharing, emphasizing the need for public sector organisations to identify relevant legislation and ensure their powers cover specific disclosures, while private sector organisations must comply with data protection laws and other legal constraints.",
+      "authority": "UK GDPR",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Public sector organisations must identify and document the law relevant to data sharing.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector organisations must ensure their legal power covers the specific disclosure or data sharing arrangement.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Public sector organisations may rely on implied statutory powers derived from express provisions of legislation.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Private and social sector organisations have a general ability to share data provided it does not breach data protection legislation or other laws.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Private and social sector organisations must check constitutional documents and legal agreements for compliance.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Public sector organisations must check that they have the legal power to share data. When deciding whether you may proceed with any data sharing initiative, you should identify and document the law that is relevant to you."
+    },
+    {
+      "section": "2021 (part 8)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Lawful basis for data sharing operations",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 55,
+      "page_end": 62,
+      "primary_category": "Data Sharing",
+      "summary": "Organisations must identify at least one lawful basis for sharing data before starting any sharing operation. For public sector, this may be necessary in the public interest; for private sector, it could be performance of a contract or explicit consent. The lawful basis must be documented and considered before sharing data to satisfy accountability requirements under UK GDPR and DPA 2018.",
+      "dtia_summary": "This section specifies that organisations must have a lawful basis for data sharing, such as public interest or explicit consent, to ensure compliance with data protection laws and avoid breaches.",
+      "authority": "UK GDPR",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Organisations must identify at least one lawful basis for sharing data before starting any sharing operation.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For public sector, lawful basis may be necessary in the public interest.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "For private sector, lawful basis may be performance of a contract or explicit consent.",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Organisations must document the lawful basis to satisfy accountability requirements.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "You must identify at least one lawful basis for sharing data. The lawful bases are different for general processing under the UK GDPR and Part 2 of the DPA 2018; and law enforcement processing under Part 3 of the DPA 2018."
+    },
+    {
+      "section": "2021 (part 9)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Individual data rights in data sharing arrangements",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 62,
+      "page_end": 67,
+      "primary_category": "Data Subject Rights",
+      "summary": "This section outlines specific individual rights related to personal data sharing, including access, information, rectification, erasure, restriction, objection, portability, and protection from automated decisions. It mandates that data sharing agreements include clear procedures for exercising these rights, with particular emphasis on transparency and single points of contact for individuals. The section also addresses the impact of data sharing on rights like erasure and rectification, requiring notification to shared organizations unless impractical.",
+      "dtia_summary": "This section requires data sharing arrangements to implement clear procedures for individuals to exercise their rights, including a single point of contact and notification mechanisms for shared data. It impacts DTIAs by mandating specific safeguards for data sharing scenarios involving individual rights.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Must have policies and procedures allowing individuals to exercise rights easily and set them out in data sharing agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must provide details of how to exercise rights in privacy information",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must make exercise of rights as straightforward as possible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must inform individuals of shared organizations when data is rectified, erased or restricted",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must document lawful basis for automated decision-making",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must carry out DPIA for processing meeting Article 22 definition",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must provide specific information about processing involving automated decision-making",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must explain individual rights to challenge automated decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must ensure measures prevent errors, bias and discrimination in automated systems",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "You must have policies and procedures that allow individuals to exercise their rights easily, and you must set these out in your data sharing agreement."
+    },
+    {
+      "section": "2021 (part 10)",
+      "heading": "1.0.2 | 17 October 2022 (cont.)",
+      "title": "Law enforcement data sharing under Part 3 DPA 2018",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 72,
+      "primary_category": "Other",
+      "summary": "This section details the legal framework for data sharing by competent authorities for law enforcement purposes under Part 3 of the DPA 2018. It defines competent authorities, law enforcement purposes, and procedures for sharing data with other competent authorities or non-competent authorities. It emphasizes that processing must be for law enforcement purposes and requires determining lawful basis for non-law enforcement uses of shared data.",
+      "dtia_summary": "This section impacts DTIAs by defining specific requirements for law enforcement data sharing, including the need to determine lawful basis for non-law enforcement uses and ensuring compliance with additional safeguards for sensitive data.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Must be a person specified in Schedule 7 of DPA 2018 or have statutory functions for law enforcement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must process data for law enforcement purposes including prevention, investigation, detection or prosecution of criminal offences",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must determine if processing for non-law enforcement purposes is 'authorised by law'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Must identify lawful basis for sharing data with non-competent authorities",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A competent authority is: a person specified in Schedule 7 of the DPA 2018; or any other person if, and to the extent that, they have statutory functions to exercise public authority or public powers for law enforcement purposes."
+    },
+    {
+      "section": "2018",
+      "heading": "Example",
+      "title": "Enforcement powers for data protection violations",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 78,
+      "primary_category": "Regulator Powers",
+      "summary": "The ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles. For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed. The ICO takes a risk-based approach, focusing enforcement on reckless or deliberate harms while avoiding penalties for genuine compliance or good-faith mistakes.",
+      "dtia_summary": "This section defines the ICO's enforcement powers, including potential fines for serious breaches. It matters for DTIAs as it establishes the regulatory consequences of non-compliance and the risk-based approach to enforcement.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO takes a risk-based approach to enforcement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO focuses enforcement on cases involving reckless or deliberate harms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO will not take enforcement action against organisations genuinely seeking compliance",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "ICO will not penalise organisations where staff make good-faith mistakes in emergencies",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Tools at our disposal include assessment notices, warnings, reprimands, enforcement notices and penalty notices (administrative fines). For serious breaches of the data protection principles, we have the power to issue fines of up to £17.5 million or 4% of your annual worldwide turnover, whichever is higher."
+    },
+    {
+      "section": "2018 (part 2)",
+      "heading": "Example (cont.)",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 78,
+      "page_end": 85,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2018 (part 3)",
+      "heading": "Example (cont.)",
+      "title": "Data sharing decision form template for public sector",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 85,
+      "page_end": 92,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides a template for public sector organisations to document decisions on sharing personal data. It requires specifying the data controller relationship, lawful basis for sharing, necessity of sharing, special category data considerations, data sharing agreements, DPIA outcomes, DPO input, retention/deletion arrangements, security measures, and compliance with individual information rights. The template ensures transparency and accountability in data sharing processes.",
+      "dtia_summary": "This template mandates explicit documentation of data sharing decisions, including lawful basis, necessity, security measures, and individual rights compliance, which are critical for assessing cross-border or third-party data transfers in public sector contexts.",
+      "authority": "Data Protection Commissioner (DPC)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Specify name of organisation receiving and requesting data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify data controller relationship as joint or separate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate whether a data sharing agreement is in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "State purpose of sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide lawful basis for sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Explain why sharing is 'necessary'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Address additional conditions for special category data or criminal offence data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Meet additional provisions for Part 3 DPA 2018 data sharing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify applicable legal power for sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider a Data Protection Impact Assessment (DPIA)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document DPIA outcome if applicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Seek DPO (or equivalent) views if DPIA not done",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify arrangements for retention/deletion of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outline security considerations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure compliance with individuals' information rights",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data sharing decision form template for use by the organisation taking the decision to share data"
+    },
+    {
+      "section": "2018 (part 4)",
+      "heading": "Example (cont.)",
+      "title": "Public sector data sharing agreements for coordinated services",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 92,
+      "page_end": 93,
+      "primary_category": "Data Sharing",
+      "summary": "This section outlines templates and case studies for public sector data sharing agreements that facilitate coordinated services. It requires organisations to define lawful bases, data specifications, security measures, data subject rights handling, and regular reviews of agreements to ensure ongoing compliance and relevance. The agreements must be designed to balance transparency, accountability, and the protection of individual rights.",
+      "dtia_summary": "Public sector data sharing agreements must specify lawful bases, data scope, security measures, and mechanisms for handling individual rights, which are essential for assessing the risks and safeguards in cross-border or third-party data transfers.",
+      "authority": "Data Protection Commissioner (DPC)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Define purpose and lawful basis for data sharing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify information to be shared",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outline security measures for shared data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Include procedures for handling data subject rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update privacy notices to reflect data sharing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish a review schedule for data sharing agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure data sharing is proportionate and fair",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Public sector bodies sharing data to provide a co-ordinated approach: partners used a data sharing agreement to set out purpose, lawful bases, information to be shared, and security standards"
+    },
+    {
+      "section": "2018",
+      "heading": "We will always use our powers in a targeted and proportionate",
+      "title": "Enforcement powers for data protection violations",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 93,
+      "page_end": 94,
+      "primary_category": "Regulator Powers",
+      "summary": "The ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles. For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed. The ICO takes a risk-based approach, focusing enforcement on reckless or deliberate harms while avoiding penalties for genuine compliance or good-faith mistakes.",
+      "dtia_summary": "This section defines the ICO's enforcement powers, including potential fines for serious breaches. It matters for DTIAs as it establishes the regulatory consequences of non-compliance and the risk-based approach to enforcement.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO takes a risk-based approach to enforcement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO focuses enforcement on cases involving reckless or deliberate harms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO will not take enforcement action against organisations genuinely seeking compliance",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "ICO will not penalise organisations where staff make good-faith mistakes in emergencies",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Tools at our disposal include assessment notices, warnings, reprimands, enforcement notices and penalty notices (administrative fines). For serious breaches of the data protection principles, we have the power to issue fines of up to £17.5 million or 4% of your annual worldwide turnover, whichever is higher."
+    },
+    {
+      "section": "2018",
+      "heading": "Tools at our disposal include assessment notices, warnings, reprimands,",
+      "title": "Enforcement powers for data protection violations",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 94,
+      "page_end": 101,
+      "primary_category": "Regulator Powers",
+      "summary": "The ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles. For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed. The ICO takes a risk-based approach, focusing enforcement on reckless or deliberate harms while avoiding penalties for genuine compliance or good-faith mistakes.",
+      "dtia_summary": "This section defines the ICO's enforcement powers, including potential fines for serious breaches. It matters for DTIAs as it establishes the regulatory consequences of non-compliance and the risk-based approach to enforcement.",
+      "authority": "Information Commissioner's Office (ICO)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "ICO may issue assessment notices, warnings, reprimands, enforcement notices, and penalty notices for breaches of data protection principles",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "For serious breaches, fines up to £17.5 million or 4% of annual worldwide turnover (whichever is higher) may be imposed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO takes a risk-based approach to enforcement",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO focuses enforcement on cases involving reckless or deliberate harms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "ICO will not take enforcement action against organisations genuinely seeking compliance",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "ICO will not penalise organisations where staff make good-faith mistakes in emergencies",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "Tools at our disposal include assessment notices, warnings, reprimands, enforcement notices and penalty notices (administrative fines). For serious breaches of the data protection principles, we have the power to issue fines of up to £17.5 million or 4% of your annual worldwide turnover, whichever is higher."
+    },
+    {
+      "section": "2018 (part 2)",
+      "heading": "Tools at our disposal include assessment notices, warnings, reprimands, (cont.)",
+      "title": "",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 101,
+      "page_end": 109,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "2018 (part 3)",
+      "heading": "Tools at our disposal include assessment notices, warnings, reprimands, (cont.)",
+      "title": "Data sharing decision form template for public sector",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 109,
+      "page_end": 116,
+      "primary_category": "Data Sharing",
+      "summary": "This section provides a template for public sector organisations to document decisions on sharing personal data. It requires specifying the data controller relationship, lawful basis for sharing, necessity of sharing, special category data considerations, data sharing agreements, DPIA outcomes, DPO input, retention/deletion arrangements, security measures, and compliance with individual information rights. The template ensures transparency and accountability in data sharing processes.",
+      "dtia_summary": "This template mandates explicit documentation of data sharing decisions, including lawful basis, necessity, security measures, and individual rights compliance, which are critical for assessing cross-border or third-party data transfers in public sector contexts.",
+      "authority": "Data Protection Commissioner (DPC)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Specify name of organisation receiving and requesting data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify data controller relationship as joint or separate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Indicate whether a data sharing agreement is in place",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "State purpose of sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide lawful basis for sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Explain why sharing is 'necessary'",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Address additional conditions for special category data or criminal offence data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Meet additional provisions for Part 3 DPA 2018 data sharing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify applicable legal power for sharing data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider a Data Protection Impact Assessment (DPIA)",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Document DPIA outcome if applicable",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Seek DPO (or equivalent) views if DPIA not done",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify arrangements for retention/deletion of data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outline security considerations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure compliance with individuals' information rights",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Data sharing decision form template for use by the organisation taking the decision to share data"
+    },
+    {
+      "section": "2018 (part 4)",
+      "heading": "Tools at our disposal include assessment notices, warnings, reprimands, (cont.)",
+      "title": "Public sector data sharing agreements for coordinated services",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 116,
+      "page_end": 120,
+      "primary_category": "Data Sharing",
+      "summary": "This section outlines templates and case studies for public sector data sharing agreements that facilitate coordinated services. It requires organisations to define lawful bases, data specifications, security measures, data subject rights handling, and regular reviews of agreements to ensure ongoing compliance and relevance. The agreements must be designed to balance transparency, accountability, and the protection of individual rights.",
+      "dtia_summary": "Public sector data sharing agreements must specify lawful bases, data scope, security measures, and mechanisms for handling individual rights, which are essential for assessing the risks and safeguards in cross-border or third-party data transfers.",
+      "authority": "Data Protection Commissioner (DPC)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Sharing",
+        "Data Storage",
+        "Security",
+        "Consent"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Define purpose and lawful basis for data sharing",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Specify information to be shared",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Outline security measures for shared data",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Include procedures for handling data subject rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Update privacy notices to reflect data sharing arrangements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Establish a review schedule for data sharing agreements",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Ensure data sharing is proportionate and fair",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Public sector bodies sharing data to provide a co-ordinated approach: partners used a data sharing agreement to set out purpose, lawful bases, information to be shared, and security standards"
+    }
+  ]
+}

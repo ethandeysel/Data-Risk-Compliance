@@ -1,0 +1,1820 @@
+{
+  "country": "United Kingdom",
+  "document": "ps22-9 (United Kingdom - Row 3)",
+  "generated": "2026-07-19T04:33:13",
+  "sections": [
+    {
+      "section": "1",
+      "heading": "Summary",
+      "title": "Consumer Duty framework for financial services",
+      "chapter": "Chapter 1",
+      "part": null,
+      "condition": null,
+      "page_start": 3,
+      "page_end": 7,
+      "primary_category": "Other",
+      "summary": "This section establishes a new Consumer Duty requiring financial firms to deliver better outcomes for customers through higher standards of care. It mandates firms to assess and evidence their actions in providing suitable products, fair value, consumer understanding, and support. The duty aims to improve consumer protection in retail financial markets by focusing on outcomes rather than prescriptive rules, enabling firms to innovate while ensuring consumer benefits. It applies to regulated financial firms, consumers, industry groups, and regulatory bodies.",
+      "dtia_summary": "This section sets a framework for consumer-focused regulation that impacts data transfer practices by requiring firms to ensure products and services meet customer needs, which may affect how data is shared or processed across borders for financial services.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must assess and evidence the extent to which they act to deliver good outcomes for customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must act in good faith",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must avoid causing foreseeable harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must enable and support retail customers to pursue their financial objectives",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "In this policy statement, we set out the final rules and guidance for a new Consumer Duty (‘the Duty') that will set higher expectations for the standard of care firms give consumers."
+    },
+    {
+      "section": "1 (part 2)",
+      "heading": "Summary (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": null,
+      "condition": null,
+      "page_start": 7,
+      "page_end": 10,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "1 (part 3)",
+      "heading": "Summary (cont.)",
+      "title": "Mitigating unintended consequences of consumer duty implementation",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 10,
+      "page_end": 12,
+      "primary_category": "Other",
+      "summary": "The section addresses potential unintended consequences of the Consumer Duty, such as firms withdrawing products or services for higher-risk customers. It outlines mitigation steps including not attaching a Performance Obligation Assessment (PROA) initially, providing detailed rules and guidance, and collaborating with firms during implementation to prevent reduced access to fair products. The focus is on ensuring firms maintain appropriate product availability without compromising consumer protection objectives.",
+      "dtia_summary": "This section clarifies that firms must not withdraw products/services for higher-risk customers during implementation, requiring proactive collaboration to avoid unintended consequences that could impact data transfer decisions.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Do not attach a Performance Obligation Assessment (PROA) at this time",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Provide extensive rules and guidance on what the Duty requires and does not require",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Work collaboratively with firms during implementation to mitigate residual risk of unintended consequences",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We do not want to see firms reducing access to appropriate products and services that offer fair value to their target markets."
+    },
+    {
+      "section": "2",
+      "heading": "The scope of the Duty",
+      "title": "Scope of the Consumer Duty for retail financial services",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 12,
+      "page_end": 16,
+      "primary_category": "Other",
+      "summary": "The section defines the scope of the Consumer Duty, including which customers and firms are covered. It specifies that the Duty applies to all firms in the distribution chain influencing retail products/services, including SMEs where existing regulations apply. It addresses complexities such as products used by both retail and non-retail customers, and clarifies that firms must take responsibility for retail customer outcomes without direct client relationships.",
+      "dtia_summary": "This section establishes that firms must consider retail customer outcomes across the distribution chain, impacting data transfer decisions for cross-border financial services.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Apply the Duty to all firms in the distribution chain that can influence material aspects of retail product/service design, target market, or performance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Consider retail customers who ultimately use products/services, even if not direct clients",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take responsibility for retail customer outcomes regardless of direct client relationships",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms with limited roles (e.g., operating within mandates, providing factual information) are not covered",
+          "obligation_type": "Must Not"
+        }
+      ],
+      "source_quote": "We are maintaining the approach of applying the Duty in line with the approach in existing sourcebooks, including where we already regulate and apply protections to the provision of financial services to SMEs."
+    },
+    {
+      "section": "2 (part 2)",
+      "heading": "The scope of the Duty (cont.)",
+      "title": "Scope of Duty for Distribution Chain Firms",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 16,
+      "page_end": 20,
+      "primary_category": "Cross-border Transfer",
+      "summary": "FCA authorised firms must comply with the Duty if they determine or materially influence retail customer outcomes in distribution chains. The Duty applies to firms providing services to occupational pension scheme trustees where beneficiaries are treated as retail customers. It excludes group insurance distribution and wholesale products not designed for retail customers. Firms are responsible only for their own activities and not for other firms' actions in the chain, unless acting as a principal.",
+      "dtia_summary": "Firms must assess their role in distribution chains to determine if they influence retail outcomes; this affects cross-border data transfers involving third parties in international chains.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Third Party Processing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must comply with the Duty if they determine or materially influence retail customer outcomes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms are responsible only for their own activities and not for other firms' actions in the distribution chain",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must notify the FCA if they become aware another firm in the distribution chain is not complying with the Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must notify other firms in the distribution chain if they think they caused or contributed to harm to retail customers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms are responsible only for their own activities and do not need to oversee the actions of other firms in the distribution chain."
+    },
+    {
+      "section": "2 (part 3)",
+      "heading": "The scope of the Duty (cont.)",
+      "title": "Duty Scope for Non-UK Activities",
+      "chapter": "Chapter 2",
+      "part": "part o",
+      "condition": null,
+      "page_start": 20,
+      "page_end": 24,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Duty applies to firms conducting regulated activities in the UK, including firms in Gibraltar selling into the UK and those under temporary permissions post-Brexit. It applies to firms selling to non-UK customers where the distribution chain includes UK firms, but manufacturers may not gather full information from non-UK distributors. The Duty does not apply to unregulated activities ancillary to regulated activities, such as product design or customer support services.",
+      "dtia_summary": "Firms must determine if their non-UK distribution activities fall within the Duty scope, impacting cross-border data transfers with international partners.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Duty applies to firms conducting regulated activities in the UK",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms in Gibraltar selling into the UK are subject to the Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms under temporary permissions post-Brexit are subject to the Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms selling to non-UK customers are subject to the Duty if the distribution chain includes UK firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers may not gather full information from non-UK distributors",
+          "obligation_type": "Condition"
+        }
+      ],
+      "source_quote": "The Duty applies to firms conducting regulated activities in the UK."
+    },
+    {
+      "section": "2 (part 4)",
+      "heading": "The scope of the Duty (cont.)",
+      "title": "Duty Application to Investment Companies",
+      "chapter": "Chapter 2",
+      "part": "part i",
+      "condition": null,
+      "page_start": 24,
+      "page_end": 25,
+      "primary_category": "Cross-border Transfer",
+      "summary": "The Duty applies to the manufacture and distribution of investment companies, including investment trusts. FCA authorised firms working with these entities must take reasonable steps to address issues where they can, but cannot always ensure issues are resolved due to the company structure.",
+      "dtia_summary": "Investment companies must comply with the Duty, affecting cross-border data transfers involving investment trusts and related financial products.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data"
+      ],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "The Duty applies to the manufacture and distribution of investment companies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FCA authorised firms must take reasonable steps to address issues where they can",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Duty will apply to the manufacture and distribution of investment companies, including investment trusts."
+    },
+    {
+      "section": "3",
+      "heading": "Application to existing products and services",
+      "title": "Application of Consumer Duty to existing products and services",
+      "chapter": "Chapter 3",
+      "part": "part i",
+      "condition": null,
+      "page_start": 25,
+      "page_end": 29,
+      "primary_category": "Other",
+      "summary": "The Consumer Duty does not apply retrospectively to past business or actions. Most elements apply forward-looking to existing products or services still being sold or closed products not renewed. The duty avoids retrospective application by not requiring firms to amend past actions, focusing on standards prevailing at the time of the problem. Firms must assess fair value on an ongoing basis without amending vested contractual rights.",
+      "dtia_summary": "This section clarifies that the Consumer Duty applies forward-looking to existing products without retrospective retroactivity, ensuring firms do not need to amend past contractual terms. It specifies that fair value assessments must consider ongoing costs without altering vested rights.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Encryption",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "The Consumer Duty does not apply retrospectively to past business or actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Most elements apply forward-looking to existing products or services still being sold or closed products not renewed",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess fair value on an ongoing basis without amending vested contractual rights",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms do not need to amend past contractual terms to address new standards",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We do not consider that the application of the Duty to existing products and services, including those closed to new sales or renewal, amounts to retrospection."
+    },
+    {
+      "section": "3 (part 2)",
+      "heading": "Application to existing products and services (cont.)",
+      "title": "",
+      "chapter": "Chapter 12",
+      "part": "part o",
+      "condition": null,
+      "page_start": 29,
+      "page_end": 31,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "4",
+      "heading": "Principles 6 and 7",
+      "title": "Consumer Principle implementation and interpretation",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 31,
+      "page_end": 35,
+      "primary_category": "Other",
+      "summary": "This section details the Consumer Principle (Principle 12) replacing existing Principles 6 and 7. It explains the proposed wording 'a firm must act to deliver good outcomes for retail customers', addresses concerns about subjectivity of 'good outcomes', and clarifies the objective standard for reasonable application. The Consumer Duty applies proportionately to firms, with factors like product risk and customer capability influencing reasonableness. The section confirms disapplication of Principles 6 and 7 where the Duty applies, while retaining relevant Handbook guidance for firms outside the Duty scope.",
+      "dtia_summary": "This section establishes the Consumer Principle as a higher standard for cross-border data transfers involving financial services, requiring firms to deliver good outcomes for customers. It clarifies that 'good outcomes' is an objective standard defined by the Duty's rules and guidance, not subjective interpretations. The section emphasizes proportionate application to firms of varying sizes and risk profiles, which impacts data transfer obligations for financial institutions.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must act to deliver good outcomes for retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The Consumer Principle is a higher standard than existing Principles 6 and 7",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Good outcomes is an objective standard defined by the Duty's rules and guidance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Reasonableness is assessed based on product risk, customer capability, and firm's role",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Principles 6 and 7 are disapplied where the Consumer Duty applies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Handbook and non-Handbook material related to Principles 6 and 7 remain relevant for firms outside the Duty scope",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We are proceeding with our proposal to introduce a new Consumer Principle, based on the wording option 1 in CP21/13: 'a firm must act to deliver good outcomes for retail customers.'"
+    },
+    {
+      "section": "4 (part 2)",
+      "heading": "Principles 6 and 7 (cont.)",
+      "title": "",
+      "chapter": "Chapter 4",
+      "part": "part o",
+      "condition": null,
+      "page_start": 35,
+      "page_end": 37,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "5",
+      "heading": "The cross‑cutting rules",
+      "title": "Cross-cutting rules for retail customer conduct",
+      "chapter": "Chapter 5",
+      "part": "part o",
+      "condition": null,
+      "page_start": 37,
+      "page_end": 41,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Firms must act in good faith towards retail customers, avoid foreseeable harm, and enable customers to pursue financial objectives. The rules define good faith as honest, fair dealing consistent with customers' reasonable expectations. Firms must assess compliance with reasonable expectations based on product/service nature and past interactions. Foreseeable harm includes actions or inactions that could harm customers, but firms are not responsible for third-party activities. Firms must support customers' financial goals within their authority without overstepping.",
+      "dtia_summary": "These rules require firms to assess customer expectations and avoid foreseeable harm, impacting cross-border data transfers by mandating clear communication and risk management practices for international customers.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must act in good faith towards retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must avoid causing foreseeable harm to customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must enable and support retail customers to pursue their financial objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Good faith is defined as honest, fair dealing consistent with customers' reasonable expectations",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Firms must assess compliance with reasonable expectations based on product/service nature and past interactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Foreseeable harm includes actions or inactions that could harm customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms are not responsible for third-party activities in the distribution chain",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Firms must support customers' financial goals within their authority without overstepping",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Firms should determine whether they are acting consistently with customers' reasonable expectations according to the ordinary meaning."
+    },
+    {
+      "section": "6",
+      "heading": "The products and services outcome",
+      "title": "Products and services outcome for consumer protection",
+      "chapter": "Chapter 6",
+      "part": "part o",
+      "condition": null,
+      "page_start": 41,
+      "page_end": 45,
+      "primary_category": "Other",
+      "summary": "Firms must design products and services to meet target market needs and distribute them appropriately. The rules apply to services including those in regulated activities, payment services, and electronic money. Firms must consider customer vulnerability and low-risk scenarios when applying the rules. The rules do not require firms to follow inclusive design but suggest considering it. Firms must balance product design with consumer protection without causing unintended financial exclusion.",
+      "dtia_summary": "These rules impact data transfers by requiring firms to design products/services for specific target markets, affecting data storage and processing practices for international customers.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must design products and services to meet target market needs",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must distribute products and services appropriately",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The rules apply to services including regulated activities and payment services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must consider customer vulnerability when designing products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must apply rules proportionately based on product risk",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms may consider inclusive design principles but are not required to follow them",
+          "obligation_type": "May"
+        }
+      ],
+      "source_quote": "We want all products and services for consumers to be fit for purpose. We want them to be designed to meet the needs, characteristics and objectives of a target group of customers and distributed appropriately."
+    },
+    {
+      "section": "7",
+      "heading": "The price and value outcome",
+      "title": "Fair value assessment for products and services",
+      "chapter": "Chapter 7",
+      "part": "part o",
+      "condition": null,
+      "page_start": 45,
+      "page_end": 49,
+      "primary_category": "Other",
+      "summary": "This section outlines requirements for firms to assess whether the price paid by consumers for products or services aligns with the overall benefits received. It specifies that firms must consider both monetary and non-monetary costs and benefits, but does not require quantitative analysis. Firms providing free products or services must evaluate non-monetary costs, such as foregone interest or data usage. The rules explicitly exclude value assessments for products with no financial or non-financial costs to consumers. The section clarifies that differential pricing and cross-subsidies are not prohibited unless they result in poor value.",
+      "dtia_summary": "This section addresses fair value assessment for products and services, which may impact cross-border data transfers if value assessments involve international data flows or pricing models that affect consumer data processing across borders.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must consider non-monetary costs and benefits when assessing value, especially if significant to their business models.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms providing free products or services must evaluate non-monetary costs like foregone interest or data usage.",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Value assessments are not required for products with no financial or non-financial costs to consumers.",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Firms must ensure that distribution chain fees do not cause products to cease providing fair value.",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We do not necessarily expect firms to quantify non-monetary cost and benefits. But we do expect firms to at least provide qualitative consideration of these factors, especially if these are a significant part of their business models."
+    },
+    {
+      "section": "7 (part 2)",
+      "heading": "The price and value outcome (cont.)",
+      "title": "",
+      "chapter": "Chapter 7",
+      "part": "part o",
+      "condition": null,
+      "page_start": 49,
+      "page_end": 50,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "8",
+      "heading": "The consumer understanding outcome",
+      "title": "Consumer understanding in financial communications",
+      "chapter": "Chapter 8",
+      "part": "part o",
+      "condition": null,
+      "page_start": 50,
+      "page_end": 54,
+      "primary_category": "Other",
+      "summary": "Firms must ensure communications support consumer decision-making by providing necessary information at the right time and in understandable language. This outcome applies to all consumer communications, including verbal, digital, and written interactions. Firms should consider their communications as a whole and ensure they meet expectations for clarity and effectiveness, particularly for vulnerable customers. Firms must continue to comply with existing disclosure requirements while adapting communications to enhance understanding.",
+      "dtia_summary": "This section requires firms to design communications that are clear and accessible to consumers, which impacts how data is presented across borders for financial products. It emphasizes understanding over technical compliance, relevant for cross-border data transfers involving financial services.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Financial Data",
+        "Customer Information",
+        "Data Sharing"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must ensure communications are likely to be understood by customers to support effective, timely decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms should consider customer characteristics, including vulnerability, when designing communications",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Firms must tailor communications for one-to-one interactions where appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms should develop testing approaches to ensure communications support consumer understanding",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "We want firms' communications to support and enable consumers to make informed decisions about financial products and services. We want consumers to be given the information they need, at the right time, and presented in a way they can understand."
+    },
+    {
+      "section": "8 (part 2)",
+      "heading": "The consumer understanding outcome (cont.)",
+      "title": "",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 54,
+      "page_end": 56,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "9",
+      "heading": "The consumer support outcome",
+      "title": "Consumer support channels and vulnerability considerations",
+      "chapter": "Chapter 9",
+      "part": "part o",
+      "condition": null,
+      "page_start": 56,
+      "page_end": 60,
+      "primary_category": "Other",
+      "summary": "Firms must provide customer support channels that meet consumer needs, including vulnerable customers, without requiring multiple channels. Firms must monitor support effectiveness, adapt for vulnerable customers, and ensure products with limited channels communicate support availability clearly. Firms must address non-standard issues, maintain operational resilience, and accommodate protected characteristics like disabilities. Firms must also consider changing customer needs and provide support without causing harm.",
+      "dtia_summary": "This section requires firms to ensure support channels meet diverse customer needs, including vulnerable individuals, without mandating multiple channels. It impacts DTIAs by requiring assessments of channel adequacy for vulnerable customers and product design considerations for limited channels.",
+      "authority": "FCA",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must ensure channels of support meet customer needs, including vulnerable customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must monitor support effectiveness and address shortfalls",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide support through different channels or adapt approaches for vulnerable customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must communicate limited support channels clearly before product sale",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure limited channels enable customers to realize product benefits without unreasonable barriers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have exceptions processes for non-standard issues",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Firms must maintain operational resilience during service disruptions",
+          "obligation_type": "Should"
+        },
+        {
+          "text": "Firms must make reasonable adjustments for disabled customers under Equality Act 2010",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must support customers with changing needs, including exiting products if necessary",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "Firms should monitor the support they provide, take relevant feedback into account, and look for signs that may indicate their channel offering is not sufficient to meet the needs of their customers."
+    },
+    {
+      "section": "10",
+      "heading": "10\t Consumers in vulnerable circumstances",
+      "title": "Vulnerable consumers and inclusive design",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 60,
+      "page_end": 64,
+      "primary_category": "Other",
+      "summary": "Firms must consider diverse customer needs, including vulnerable individuals, without focusing on the average customer. Firms must provide inclusive design approaches where appropriate, avoid financial exclusion, and offer signposting when declining customers. Firms must monitor outcomes for vulnerable groups while balancing legal obligations under the Equality Act 2010.",
+      "dtia_summary": "This section requires firms to assess vulnerable customer needs and avoid financial exclusion, impacting DTIAs through requirements for inclusive design and signposting when declining customers.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must consider needs of customers in vulnerable circumstances and protected characteristics",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must avoid focusing on average customers when designing products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms may use inclusive design approaches to meet diverse needs",
+          "obligation_type": "May"
+        },
+        {
+          "text": "Firms must provide signposting when declining customers with vulnerabilities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must consider impact of product withdrawal on vulnerable customers",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "We want firms to focus on the customers they actually serve, not a hypothetical average."
+    },
+    {
+      "section": "10 (part 2)",
+      "heading": "10\t Consumers in vulnerable circumstances (cont.)",
+      "title": "Monitoring customer needs in vulnerable circumstances",
+      "chapter": "Chapter 10",
+      "part": "part o",
+      "condition": null,
+      "page_start": 64,
+      "page_end": 65,
+      "primary_category": "Data Collection",
+      "summary": "Firms must monitor customer outcomes using data about protected characteristics where possible, without collecting new data on protected characteristics. They must comply with Equality Act 2010 and data protection law. Firms should assess their monitoring practices for reasonableness based on firm size and customer relationship. The Duty does not require new data collection but encourages firms to use existing data for outcomes monitoring while ensuring legal compliance.",
+      "dtia_summary": "This section requires firms to monitor customer outcomes using existing data on protected characteristics without new collection, impacting how firms assess vulnerability in data transfer contexts. It emphasizes legal compliance with Equality Act 2010 and data protection law.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Data Storage",
+        "Data Sharing",
+        "Cross-border Transfer"
+      ],
+      "data_types": [
+        "Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must use data about customers' protected characteristics for outcomes monitoring where possible",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must not collect new data about customers' protected characteristics",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Firms must comply with Equality Act 2010 and data protection law",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must assess monitoring practices for reasonableness based on firm size and customer relationship",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "We expect firms to use this as part of outcomes monitoring, where possible, in accordance with data protection law."
+    },
+    {
+      "section": "11",
+      "heading": "11\t A private right of action",
+      "title": "Private right of action for Consumer Duty breaches",
+      "chapter": "Chapter 11",
+      "part": "part o",
+      "condition": null,
+      "page_start": 65,
+      "page_end": 67,
+      "primary_category": "Other",
+      "summary": "The FCA has decided not to attach a private right of action (PROA) to the Consumer Duty at this time. Firms will have 12 months to implement the Duty, with a phased approach to ensure compliance. The FCA will monitor firms' implementation progress and require restitution for breaches under Section 384 of FSMA. Consumer organizations have raised concerns about reduced redress access without a PROA.",
+      "dtia_summary": "This section clarifies the absence of a private right of action for Consumer Duty breaches, emphasizing the FCA's phased implementation approach and the requirement for firms to provide restitution for breaches under Section 384 of FSMA.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification",
+        "Incident Reporting"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "FCA will not attach a private right of action to any aspects of the Consumer Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "FCA will require restitution from firms in breach of the Duty under Section 384 of FSMA",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement the Duty within 12 months for new products and services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement the Duty fully by the end of July 2024 for closed products and services",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "We will not attach a private right of action to any aspect of the Duty at this time."
+    },
+    {
+      "section": "12",
+      "heading": "12\t Implementation timetable",
+      "title": "Implementation timetable for Consumer Duty",
+      "chapter": "Chapter 12",
+      "part": "part o",
+      "condition": null,
+      "page_start": 67,
+      "page_end": 71,
+      "primary_category": "Other",
+      "summary": "Firms must implement the Consumer Duty in two phases: new products and services by end of July 2023, and closed products by end of July 2024. Boards must agree implementation plans by end of October 2022, manufacturers must complete reviews by end of April 2023, and firms must alert regulators if they cannot meet deadlines. Firms must prioritize remedying issues causing immediate consumer harm.",
+      "dtia_summary": "This section outlines a phased implementation timeline for the Consumer Duty, requiring firms to complete compliance within 12 months for active products and 12 months for closed products, with specific milestones for board oversight and remediation of critical issues.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Breach Notification",
+        "Incident Reporting"
+      ],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Firms must implement the Duty for new products and services by end of July 2023",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must implement the Duty for closed products and services by end of July 2024",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms' boards must agree implementation plans by end of October 2022",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must complete reviews for existing open products by end of April 2023",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must alert regulators if they cannot meet implementation deadlines",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must prioritize remedying issues causing immediate consumer harm",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "From the end of July 2023 the Duty will apply to all new products and services, and all existing products and services that remain on sale or open for renewal."
+    },
+    {
+      "section": "12 (part 2)",
+      "heading": "12\t Implementation timetable (cont.)",
+      "title": "",
+      "chapter": "Chapter 14",
+      "part": "part o",
+      "condition": null,
+      "page_start": 71,
+      "page_end": 72,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "13",
+      "heading": "13\t Monitoring and governance",
+      "title": "Monitoring and governance requirements for customer outcomes",
+      "chapter": "Chapter 13",
+      "part": "part o",
+      "condition": null,
+      "page_start": 72,
+      "page_end": 76,
+      "primary_category": "Governance",
+      "summary": "This section mandates that firms establish annual monitoring and review processes to assess customer outcomes against the Duty, including specific oversight by boards or equivalent management bodies. It requires firms to integrate the Duty into their strategies, governance, leadership, and people policies, with senior managers accountable for delivering good consumer outcomes. The section also clarifies that firms must have arrangements with third parties to capture necessary data for monitoring and ensure their monitoring practices align with data protection laws.",
+      "dtia_summary": "Firms must implement robust monitoring mechanisms to evaluate customer outcomes, including annual board reviews and third-party data capture arrangements, which directly impact cross-border data transfers by requiring transparency in monitoring practices and data handling.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Governance"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must have their board or equivalent management body sign off on monitoring and actions at least annually",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must integrate the Duty into their strategies, governance, leadership, and people policies",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Senior managers must be accountable for delivering good consumer outcomes within their areas",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must have arrangements with third parties to capture data necessary for monitoring outcomes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must use existing monitoring capabilities to inform customer outcome assessments",
+          "obligation_type": "Should"
+        }
+      ],
+      "source_quote": "We have clarified in our rules and guidance that we expect firms' monitoring to identify whether distinct groups of customers, such as those with characteristics of vulnerability or those who share protected characteristics, are receiving worse outcomes."
+    },
+    {
+      "section": "13 (part 2)",
+      "heading": "13\t Monitoring and governance (cont.)",
+      "title": "",
+      "chapter": "Chapter 13",
+      "part": "part o",
+      "condition": null,
+      "page_start": 76,
+      "page_end": 79,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "14",
+      "heading": "14\t Our approach to the Consumer Duty",
+      "title": "Consumer Duty implementation strategy and oversight",
+      "chapter": "Chapter 14",
+      "part": "part o",
+      "condition": null,
+      "page_start": 79,
+      "page_end": 83,
+      "primary_category": "Other",
+      "summary": "The Consumer Duty sets higher care standards for firms to deliver positive customer outcomes. Firms must identify problems early and prevent escalation. Regulators will embed the Duty in supervision, enforcement, and authorisation processes. They will focus on high-impact areas, intervene swiftly for misconduct, and measure success through iterative reviews and data-driven actions. Firms must demonstrate robust implementation plans with executive oversight and embed the Duty across their operations.",
+      "dtia_summary": "This section outlines regulatory expectations for embedding the Consumer Duty, emphasizing customer outcomes and iterative oversight. It does not directly impact data transfers but informs how firms must structure their compliance to meet customer-focused obligations.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "Medium",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [],
+      "requirements": [
+        {
+          "text": "Firms must demonstrate they can meet the Duty standards at the gateway",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must embed the Duty throughout their organization",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must monitor customer outcomes in line with the Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take action if they fail to deliver good customer outcomes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will use data to identify outliers and poor practice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will intervene quickly where firms fail to deliver good outcomes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will require corrective action where necessary",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The Duty will set a higher standard of care that firms must provide to customers. Firms will need to focus on delivering good outcomes for customers, this will enable them to identify problems earlier, and prevent problems escalating or becoming widespread."
+    },
+    {
+      "section": "15",
+      "heading": "15\t Cost benefit analysis",
+      "title": "Cost-benefit analysis of Consumer Duty implementation",
+      "chapter": "Chapter 15",
+      "part": "part o",
+      "condition": null,
+      "page_start": 83,
+      "page_end": 88,
+      "primary_category": "Other",
+      "summary": "The Cost-Benefit Analysis (CBA) assesses the Duty's potential benefits and costs. Respondents noted benefits for industry and customers but concerns about quantifying monetary benefits. Regulators acknowledge the complexity of measuring benefits but believe the Duty will be net beneficial. They address concerns about unintended consequences, alternative options, and opportunity costs without altering their CBA approach.",
+      "dtia_summary": "This section addresses the financial implications of implementing the Consumer Duty, focusing on cost-benefit analysis and regulatory responses to industry feedback. It does not directly govern data transfers but informs the financial impact of compliance.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "Medium (minor interpretation)",
+      "topics": [],
+      "data_types": [
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Regulators do not believe it is practicable to quantify the benefits of the Duty",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will monitor the effectiveness of the Duty through implementation",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will use past interventions to estimate potential benefits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Regulators will not adjust their CBA if rules or guidance change",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Given the pre-emptive and broad nature of our interventions, we do not believe that it is reasonably practicable to quantify the benefits of the Duty."
+    },
+    {
+      "section": "15 (part 2)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Cost benefit analysis for financial services",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 88,
+      "page_end": 97,
+      "primary_category": "Other",
+      "summary": "This section details the cost benefit analysis framework for financial services under the Consumer Duty Instrument 2022. It specifies that the Financial Conduct Authority (FCA) may make instruments to amend the FCA's Handbook of rules and guidance, particularly focusing on the Principles for Businesses (PRIN) and Code of Conduct sourcebook (COCON). The analysis applies to financial products and services distributed to retail customers, with specific definitions for terms like 'retail customer', 'product', and 'non-retail financial instrument'.",
+      "dtia_summary": "This section establishes definitions critical for determining whether financial products qualify as retail or non-retail instruments, directly impacting data transfer assessments for financial services that handle retail customer data across borders.",
+      "authority": "Financial Conduct Authority",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Consent",
+        "Customer Information",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "The FCA makes instruments to amend the FCA's Handbook of rules and guidance",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The rule-making provisions listed above are specified for section 138G(2) of the Act",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "The instrument comes into force on 31 July 2:023",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "FCA 2022/31: This instrument comes into force on 31 July 2023."
+    },
+    {
+      "section": "15 (part 3)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 97,
+      "page_end": 103,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "15 (part 4)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Product definition for consumer duty obligations",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 103,
+      "page_end": 108,
+      "primary_category": "Other",
+      "summary": "This section defines who qualifies as a 'product' for the purpose of the Consumer Duty. It specifies that a product includes both products and services, and clarifies that the definition applies to retail market business. The obligations under Principle 12 and PRIN 2A only apply to retail customers and do not extend to clients where the relationship is not direct.",
+      "dtia_summary": "Defines what constitutes a product for consumer duty purposes, which impacts how data transfers related to retail products are assessed under the Consumer Duty framework.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A product for the purposes of Principle 12 and PRIN 2A includes both products and services",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "The definition of a retail customer for the purposes of Principle 12 and PRIN 2A includes a prospective customer",
+          "obligation_type": "Definition"
+        }
+      ],
+      "source_quote": "The definition of a product for the purposes of Principle 12 and PRIN 2A includes both products and services."
+    },
+    {
+      "section": "15 (part 5)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Good faith and avoiding foreseeable harm for retail customers",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 108,
+      "page_end": 112,
+      "primary_category": "Other",
+      "summary": "This section outlines the firm's obligations to act in good faith and avoid causing foreseeable harm to retail customers. It specifies that firms must act honestly, fairly, and consistently with reasonable expectations, and must take action to mitigate harm, including updating products, providing information, and ensuring customers can switch products without unreasonable barriers.",
+      "dtia_summary": "Requires firms to avoid foreseeable harm to retail customers through product design and support, which impacts data transfer assessments for financial products.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Data Residency",
+        "Security",
+        "Access Control",
+        "Processing",
+        "Collection",
+        "Retention",
+        "Deletion",
+        "Data Sharing",
+        "Third Party Processing",
+        "Outsourcing",
+        "Cloud Services",
+        "Incident Reporting",
+        "Breach Notification",
+        "Consent",
+        "Customer Information",
+        "Employee Information",
+        "Special Personal Information",
+        "Children",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Personal Information",
+        "Financial Data",
+        "Customer Data",
+        "Employee Data",
+        "Health Data",
+        "Children's Data",
+        "Biometric Data",
+        "Special Personal Information"
+      ],
+      "requirements": [
+        {
+          "text": "A firm must act in good faith towards retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Acting in good faith is characterized by honesty, fair and open dealing, and acting consistently with reasonable expectations of retail customers",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Firms must avoid causing foreseeable harm to retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Foreseeable harm may be caused by both acts and omissions, in direct relationships or through distribution chains",
+          "obligation_type": "Definition"
+        },
+        {
+          "text": "Firms must ensure product design, terms, marketing, sale, and support avoid causing foreseeable harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure no aspect of business involves unfairly exploiting behavioural biases or characteristics of vulnerability",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify potential harm if products are withdrawn, changed, or understanding of impact changes",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must respond to emerging trends that identify new sources of harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take appropriate action to mitigate risk of actual or foreseeable harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must update product design or distribution strategy to mitigate harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must update information about products or investment advice",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure retail customers do not face unreasonable barriers when switching products or providers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must allow time and support for retail customers to find alternatives when products are withdrawn",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must enable and support retail customers to pursue their financial objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure product design, terms, marketing, sale, and support meet and not frustrate retail customers' financial objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must provide information and support to retail customers when they need to make informed decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must enable retail customers to switch or exit products without unreasonable barriers or delay",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take account of retail customers' behavioural biases and characteristics of vulnerability in all interactions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A firm must act in good faith towards retail customers."
+    },
+    {
+      "section": "15 (part 6)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Product approval and review for retail customers",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 112,
+      "page_end": 116,
+      "primary_category": "Other",
+      "summary": "Firms must understand and apply cognitive and behavioral biases when designing products for retail customers. Cross-cutting obligations require firms to consider vulnerability characteristics and lack of knowledge in target markets. These obligations apply at both individual customer and target market levels depending on context. The rules define how firms should act to deliver good outcomes for retail customers while ensuring products meet target market needs without adverse effects.",
+      "dtia_summary": "Requires product governance processes that must be tailored to specific target markets, including vulnerability assessments and ongoing reviews to ensure products do not cause foreseeable harm. Critical for DTIA as it mandates granular market analysis and continuous monitoring.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must understand and take account of cognitive and behavioral biases and vulnerability characteristics in retail customer decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cross-cutting obligations apply at individual customer level for bespoke services",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cross-cutting obligations apply at target market level for product design and pricing decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cross-cutting obligations exhaust requirements under Principle 12",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Cross-cutting obligations define how firms should deliver good outcomes for retail customers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "The obligations in PRIN 2A.2 apply both at a target market and (where context requires) at an individual customer level, for example: Where a firm interacts with an individual retail customer or is providing a bespoke service the obligations in PRIN 2A.2 apply to those interactions and that service; Where a firm is not interacting with an individual retail customer, for example in the design of a product, when making pricing decisions or designing communications, the obligations in PRIN 2A.2 apply at the level of that target market."
+    },
+    {
+      "section": "15 (part 7)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Product distribution and review for retail customers",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 116,
+      "page_end": 121,
+      "primary_category": "Other",
+      "summary": "Distributors must maintain distribution arrangements that avoid foreseeable harm to retail customers, manage conflicts of interest, and consider target market needs. They must obtain sufficient information from manufacturers about products, implement consistent distribution strategies, and regularly review arrangements to ensure products are distributed only to the identified target market. Firms must take action to mitigate harm and inform the distribution chain when issues arise.",
+      "dtia_summary": "Requires distributors to implement distribution strategies that avoid harm to retail customers and ensure products reach only the intended target market. Critical for DTIA as it mandates specific distribution controls and ongoing review processes.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Distributors must maintain distribution arrangements that avoid causing foreseeable harm to retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must ensure distribution arrangements support proper management of conflicts of interest",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must ensure distribution arrangements take target market needs into account",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must obtain sufficient information from manufacturers about product characteristics and target markets",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must review distribution arrangements regularly to ensure they remain appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must verify that products are distributed only to the identified target market",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must take action to mitigate harm and inform the distribution chain when issues arise",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A distributor must maintain, operate and review product distribution arrangements for each product it distributes that: avoid causing and, where that is not practical, mitigates foreseeable harm to retail customers; support a proper management of conflicts of interest; and ensure the needs, characteristics and objectives of the target market are duly taken into account."
+    },
+    {
+      "section": "15 (part 8)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Fair value assessment for retail products and distribution chains",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 121,
+      "page_end": 126,
+      "primary_category": "Cross-border Transfer",
+      "summary": "Manufacturers and distributors must assess whether products provide fair value to retail customers by evaluating costs, benefits, and customer characteristics. This includes considering non-financial costs, vulnerability traits, pricing structures, and distribution arrangements. The assessment must be conducted at product design, target market identification, and distribution channel selection stages. Manufacturers must review the assessment throughout the product lifecycle and take corrective action if fair value is no longer maintained.",
+      "dtia_summary": "This section requires detailed fair value assessments for products distributed across borders, impacting how financial data is transferred and processed internationally. It mandates specific evaluations of costs, benefits, and customer vulnerability to ensure fair value, which affects cross-border data transfers involving financial products.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Storage",
+        "Security",
+        "Consent",
+        "Financial Data",
+        "KYC",
+        "AML",
+        "Incident Reporting",
+        "Breach Notification",
+        "Governance",
+        "Record Keeping"
+      ],
+      "data_types": [
+        "Financial Data",
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Manufacturers must consider costs incurred in manufacturing or distributing products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must consider market rates and charges for comparable products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must consider accrued costs and benefits for existing or closed products",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must consider whether products are priced significantly lower for similar benefits",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must not distribute products inconsistent with fair value to retail customers",
+          "obligation_type": "Must Not"
+        },
+        {
+          "text": "Distributors must obtain information on product benefits, target market characteristics, and pricing-service interactions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must review value assessments throughout product lifecycle",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must take action to mitigate harm if product no longer provides fair value",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must take action to mitigate harm if distribution arrangements no longer provide fair value",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must inform manufacturers and other distributors of issues and actions taken",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Manufacturers must ensure closed products meet fair value obligations",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Distributors must ensure distribution arrangements remain consistent with fair value",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Manufacturers must consider the fair value assessment at every stage of the product approval process, including in particular when designing the product, identifying retail customers in the target market for whom the product needs to provide fair value, and selecting distribution methods/channels."
+    },
+    {
+      "section": "15 (part 9)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 126,
+      "page_end": 131,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "15 (part 10)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Retail customer outcome monitoring and communication requirements",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 131,
+      "page_end": 136,
+      "primary_category": "Other",
+      "summary": "Firms must monitor retail customer outcomes from products, communications, and support. They must identify if customers receive fair value, adequate information, necessary support, and avoid disproportionate harm. Firms must notify other distribution chain members if communications fail to deliver good outcomes for vulnerable customers. This applies to all firms interacting directly with retail customers through customer services, including outsourced interactions.",
+      "dtia_summary": "Requires firms to monitor outcomes across customer interactions and communications to ensure good retail customer outcomes, with specific obligations for vulnerable groups and distribution chain coordination.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must monitor outcomes retail customers receive from products, communications, and customer support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must determine if customers are sold products meeting their needs, characteristics, and objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure products provide fair value and address issues if not",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must verify customers have right information for effective decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must confirm customers receive necessary support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify if any customer group experiences worse outcomes than others",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take action if customers don't receive outcomes or face disproportionate harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must notify other distribution chain members if communications fail to deliver good outcomes for vulnerable customers",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A firm must provide information in good time to another firm in the same distribution chain, where such information is: (1) requested by the other firm and is reasonably required; or (2) otherwise considered to be reasonably required by the firm, so that it can be communicated to retail customers."
+    },
+    {
+      "section": "15 (part 11)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Retail customer outcome monitoring and reporting requirements",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 136,
+      "page_end": 141,
+      "primary_category": "Other",
+      "summary": "Firms must monitor retail customer outcomes proportionally based on their role in the distribution chain. They must collect data on product performance, communications, and support to identify risks of poor outcomes. Firms must report findings to their governing body annually, including actions to address identified risks and ensure business strategy aligns with consumer outcomes.",
+      "dtia_summary": "Mandates systematic monitoring of retail customer outcomes across distribution chains with specific reporting obligations to governing bodies, ensuring timely corrective actions for vulnerable customer groups.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data",
+        "Financial Data"
+      ],
+      "requirements": [
+        {
+          "text": "Firms must monitor outcomes retail customers receive from products, communications, and customer support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must determine if customers are sold products meeting their needs, characteristics, and objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure products provide fair value and address issues if not",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must verify customers have right information for effective decisions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must confirm customers receive necessary support",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must identify if any customer group experiences worse outcomes than others",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must take action if customers don't receive outcomes or face disproportionate harm",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must prepare annual reports for governing bodies on monitoring outcomes and required actions",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Firms must ensure business strategy aligns with consumer outcome obligations",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "A firm must prepare a report for its governing body setting out the results of its monitoring under PRIN 2A.9 and any actions required as a result of the monitoring."
+    },
+    {
+      "section": "15 (part 12)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Cost benefit analysis for foreseeable harm identification",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 141,
+      "page_end": 146,
+      "primary_category": "Other",
+      "summary": "Firms must investigate circumstances leading to foreseeable harm competently, diligently and impartially. They must assess the harm, potential remedial actions, responsibility attribution, and offer redress when appropriate. Firms must explain decisions to retail customers clearly and promptly while ensuring compliance with any accepted remedial actions.",
+      "dtia_summary": "Requires firms to conduct thorough cost-benefit analysis when identifying foreseeable harm, including investigation, assessment, remedial action, and communication with retail customers. This impacts data transfer assessments by mandating detailed harm analysis before transferring customer data.",
+      "authority": "FCA",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "Investigate circumstances leading to foreseeable harm competently, diligently and impartially",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Assess harm fairly, consistently and promptly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Determine appropriate remedial action or redress",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Identify potential responsibility of other firms",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Offer redress when appropriate",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Explain harm identification and decisions to retail customers clearly and promptly",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Comply promptly with accepted remedial actions",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Once foreseeable harm has been identified by a firm, it must: (1) investigate the circumstances which led to the foreseeable harm competently, diligently and impartially, obtaining additional information as necessary; (2) assess fairly, consistently and promptly: (a) the subject matter of the foreseeable harm; (b) [does not apply]; (c) what remedial action or redress (or both) may be appropriate; (d) if appropriate, whether it has reasonable grounds to be satisfied that another firm may be solely or jointly responsible for causing the foreseeable harm; taking into account all relevant factors. (3) offer redress or remedial action when it decides this is appropriate; (4) explain to the retail customer promptly and in a way that is fair, clear and not misleading that harm has been identified, its assessment of the harm, its decision as to what action is appropriate and the fact that the retail customer has a right to make a complaint if it is not satisfied with that decision; (5) comply promptly with any offer of remedial action or redress accepted by the retail customer."
+    },
+    {
+      "section": "15 (part 13)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 146,
+      "page_end": 153,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    },
+    {
+      "section": "15 (part 14)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "Retail customer obligations under Consumer Duty",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 153,
+      "page_end": 158,
+      "primary_category": "Other",
+      "summary": "This section defines the obligations for conduct rules staff to act in good faith, avoid foreseeable harm, and enable retail customers to achieve financial objectives. It specifies that retail customers include individuals not directly related to the firm but affected by its activities. The obligations apply to all conduct rules staff regardless of direct customer contact, with special considerations for senior staff roles and their influence on customer outcomes.",
+      "dtia_summary": "This section establishes specific obligations for staff handling retail customers, requiring good faith, harm avoidance, and financial support. It impacts DTIAs by defining scope and responsibilities for cross-border data transfers involving retail customers.",
+      "authority": "Financial Conduct Authority (FCA)",
+      "financial_relevance": "High",
+      "confidence": "High (explicit)",
+      "topics": [
+        "Cross-border Transfer",
+        "International Processing",
+        "Data Sharing",
+        "Customer Information"
+      ],
+      "data_types": [
+        "Customer Data"
+      ],
+      "requirements": [
+        {
+          "text": "You must act in good faith towards retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "You must avoid causing foreseeable harm to retail customers",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "You must enable and support retail customers to pursue their financial objectives",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Retail customers include individuals not directly related to the firm but affected by its activities",
+          "obligation_type": "Must"
+        },
+        {
+          "text": "Rule 6 applies to all conduct rules staff regardless of direct customer contact",
+          "obligation_type": "Must"
+        }
+      ],
+      "source_quote": "Rule 6: You must act to deliver good outcomes for retail customers. A retail customer means, in relation to a member of the conduct rules staff of a firm, a retail customer of that firm for the purposes of PRIN."
+    },
+    {
+      "section": "15 (part 15)",
+      "heading": "15\t Cost benefit analysis (cont.)",
+      "title": "",
+      "chapter": "Chapter 1",
+      "part": "part o",
+      "condition": null,
+      "page_start": 158,
+      "page_end": 161,
+      "primary_category": "Other",
+      "summary": "",
+      "dtia_summary": "",
+      "authority": "",
+      "financial_relevance": "Unknown",
+      "confidence": "Low",
+      "topics": [],
+      "data_types": [],
+      "requirements": [],
+      "source_quote": ""
+    }
+  ]
+}
