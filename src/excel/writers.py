@@ -200,7 +200,7 @@ class ExcelWriter:
         ws.merge_cells("A1:D1")
 
         ws["A3"] = ("Choose filters (leave as 'All' to ignore), then read the "
-                    "results below.  Reset: clear cells B4:B10.")
+                    "results below.  Reset: clear cells B4:B11.")
         ws["A3"].font = Font(italic=True)
 
         # Filter label -> (input cell, Lists header or None for free text)
@@ -238,6 +238,17 @@ class ExcelWriter:
         dv.add(ws["B10"])
         ws["B10"].fill = HEADER_FILL
 
+        # Minimum relevance (0-3, from stage 06).  "All" keeps everything;
+        # a number hides sections scored below it.  Unscored rows (blank
+        # score) are treated as relevant so the filter is inert until the
+        # relevance pass has run.
+        ws.cell(11, 1, "Minimum relevance (0-3)").font = Font(bold=True)
+        ws["B11"] = "All"
+        dv = DataValidation(type="list", formula1='"All,1,2,3"', allow_blank=True)
+        ws.add_data_validation(dv)
+        dv.add(ws["B11"])
+        ws["B11"].fill = HEADER_FILL
+
         # Reset "button".  A real one-click button needs a macro (.xlsm),
         # which locked-down Excel installs often block; instead the engine
         # treats a blank filter as "All", so clearing B4:B10 shows
@@ -252,7 +263,7 @@ class ExcelWriter:
             ws[coord].border = THIN_BORDER
         ws.merge_cells("D6:E8")
         hint = ws["D6"]
-        hint.value = "Select cells B4:B10\nand press Delete"
+        hint.value = "Select cells B4:B11\nand press Delete"
         hint.font = Font(italic=True, size=9)
         hint.alignment = Alignment(
             horizontal="center", vertical="top", wrap_text=True)
@@ -320,9 +331,14 @@ class ExcelWriter:
                 )
             )
             # Filters: B4 Country, B5 Topic, B6 Data Type,
-            # B7 Financial Relevance, B8 Authority, B9 keyword.
+            # B7 Financial Relevance, B8 Authority, B9 keyword,
+            # B10 hide-non-financial, B11 minimum relevance.
             # Each exact-match filter passes when the cell is "All" OR blank
-            # (blank = ignored), so clearing B4:B10 resets to "show everything".
+            # (blank = ignored), so clearing B4:B11 resets to "show everything".
+            # Relevance: pass if B11 is All/blank, or the row's score is
+            # numeric and >= the (numeric) threshold; unscored rows pass so
+            # the filter is inert until stage 06 has run.
+            rel = f'{db}!${C("Relevance")}{i}'
             ws.cell(i, 1).value = (
                 "=IF(AND("
                 f'OR(Query!$B$4="All",Query!$B$4="",'
@@ -337,7 +353,9 @@ class ExcelWriter:
                 f'{db}!${C("Authority")}{i}=Query!$B$8),'
                 f'OR(Query!$B$9="",ISNUMBER(SEARCH(Query!$B$9,{keyword}))),'
                 f'OR(Query!$B$10<>"Yes",'
-                f'{db}!${C("Financial Relevance")}{i}<>"None")'
+                f'{db}!${C("Financial Relevance")}{i}<>"None"),'
+                f'OR(Query!$B$11="All",Query!$B$11="",NOT(ISNUMBER({rel})),'
+                f'{rel}>=VALUE(Query!$B$11))'
                 "),1,0)"
             )
             # Running rank of matches; C mirrors it as a number for MATCH.

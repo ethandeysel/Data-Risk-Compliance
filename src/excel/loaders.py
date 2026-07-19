@@ -40,13 +40,18 @@ POST_DROP_NOISE = os.getenv("POST_DROP_NOISE", "1") == "1"
 # dates and bare "this section applies…" scope text.  These are things the
 # 4b model dutifully transcribes but nobody DTIA-querying wants in a checklist.
 POST_CLEAN_REQS = os.getenv("POST_CLEAN_REQS", "1") == "1"
+# Optional HARD cut on the stage-06 relevance score: drop sections scored
+# below this (0 = keep everything and rely on the Query filter instead).
+# The score only flags by default; set e.g. POST_MIN_RELEVANCE=2 to also
+# remove the low-relevance rows from the workbook entirely.
+POST_MIN_RELEVANCE = int(os.getenv("POST_MIN_RELEVANCE", "0"))
 
 
 # Column order for the Compliance Database / Query result.  Kept
 # query-friendly: identity first, then the fields a DTIA answer cites.
 COLUMNS = [
     "Country", "Act", "Section", "Heading", "Pages",
-    "Financial Relevance", "Confidence", "Topics", "Data Types",
+    "Financial Relevance", "Confidence", "Relevance", "Topics", "Data Types",
     "Authority", "Summary", "DTIA Summary",
     "Requirements", "Requirements (2)",
     "Source Quote", "Source",
@@ -284,6 +289,8 @@ class DataLoader:
             "Pages": _pages(section),
             "Financial Relevance": section.get("financial_relevance", ""),
             "Confidence": section.get("confidence", ""),
+            # 0-3 relevance from stage 06 (blank until that pass has run).
+            "Relevance": section.get("relevance_score", ""),
             "Topics": ", ".join(topics),
             "Data Types": ", ".join(dtypes),
             "Authority": section.get("authority", ""),
@@ -328,6 +335,15 @@ class DataLoader:
             self.rows = [
                 r for r in self.rows
                 if _signal_score(r) > 0 or _has_reference_value(r)
+            ]
+
+        if POST_MIN_RELEVANCE > 0:
+            # Only cut rows that HAVE a score below the threshold; unscored
+            # rows (blank) are kept so a not-yet-run pass never empties the DB.
+            self.rows = [
+                r for r in self.rows
+                if not isinstance(r["Relevance"], int)
+                or r["Relevance"] >= POST_MIN_RELEVANCE
             ]
 
     def _build_rollups(self):
