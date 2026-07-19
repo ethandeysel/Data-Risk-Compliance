@@ -34,7 +34,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Only a bank incorporated in Singapore may issue covered bonds in Singapore. A bank incorporated outside Singapore must not issue any covered bonds through its branch in Singapore."
+      "source_quote": "Only a bank incorporated in Singapore may issue covered bonds in Singapore. A bank incorporated outside Singapore must not issue any covered bonds through its branch in Singapore.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "3",
@@ -65,7 +67,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "MAS Notice 628 on Securitisation shall not apply to a bank incorporated in Singapore in relation to its issuance of covered bonds in accordance with the requirements in this Notice. For the avoidance of doubt, all requirements of MAS Notice 628 shall continue to apply to such a bank incorporated in Singapore in respect of its other securitisation activities."
+      "source_quote": "MAS Notice 628 on Securitisation shall not apply to a bank incorporated in Singapore in relation to its issuance of covered bonds in accordance with the requirements in this Notice. For the avoidance of doubt, all requirements of MAS Notice 628 shall continue to apply to such a bank incorporated in Singapore in respect of its other securitisation activities.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics (covers bonds)"
     },
     {
       "section": "4",
@@ -112,7 +116,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "In this Notice— \"covered bonds\" means any bonds, notes or other debentures issued by a bank or an SPV where payment of the liabilities to the holders of such covered bonds and any liabilities arising from the enforcement of the rights of the holders of the covered bonds are: (a) secured by a cover pool; and (b) recoverable from the bank regardless of whether the cover pool is sufficient to pay off such liabilities; \"cover pool\" in relation to an issuance of covered bonds, means a pool of assets that are – (a) legally or beneficially owned or legally and beneficially owned by the bank or an SPV, (b) held by the bank as trustee, or a replacement trustee, on behalf of an SPV, or (c) both, for the purposes of securing the payment of: (i) the liabilities to the holders of the covered bonds; (ii) any liabilities arising from the enforcement of the rights of the holders of the covered bonds; and (iii) any liabilities to third party service providers appointed for the operation and administration of the covered bond programme; \"MAS Bills\" means any securities issued by the Monetary Authority of Singapore under the Monetary Authority of Singapore Act 1970; \"Memorandum of Compliance\" means a memorandum prepared by the bank setting out how it has complied with each of the requirements in paragraphs 6(a) to (i), and 8(a) of this Notice; \"Singapore Government Securities\" means any debt securities issued by the Singapore Government under any written law; and \"SPV\" means any special purpose vehicle incorporated or established in Singapore for the primary purpose of issuing covered bonds or holding the cover pool in relation to such covered bonds or both."
+      "source_quote": "In this Notice— \"covered bonds\" means any bonds, notes or other debentures issued by a bank or an SPV where payment of the liabilities to the holders of such covered bonds and any liabilities arising from the enforcement of the rights of the holders of the covered bonds are: (a) secured by a cover pool; and (b) recoverable from the bank regardless of whether the cover pool is sufficient to pay off such liabilities; \"cover pool\" in relation to an issuance of covered bonds, means a pool of assets that are – (a) legally or beneficially owned or legally and beneficially owned by the bank or an SPV, (b) held by the bank as trustee, or a replacement trustee, on behalf of an SPV, or (c) both, for the purposes of securing the payment of: (i) the liabilities to the holders of the covered bonds; (ii) any liabilities arising from the enforcement of the rights of the holders of the covered bonds; and (iii) any liabilities to third party service providers appointed for the operation and administration of the covered bond programme; \"MAS Bills\" means any securities issued by the Monetary Authority of Singapore under the Monetary Authority of Singapore Act 1970; \"Memorandum of Compliance\" means a memorandum prepared by the bank setting out how it has complied with each of the requirements in paragraphs 6(a) to (i), and 8(a) of this Notice; \"Singapore Government Securities\" means any debt securities issued by the Singapore Government under any written law; and \"SPV\" means any special purpose vehicle incorporated or established in Singapore for the primary purpose of issuing covered bonds or holding the cover pool in relation to such covered bonds or both.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial definitions for covered bonds"
     },
     {
       "section": "5",
@@ -196,7 +202,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A bank incorporated in Singapore must, when issuing covered bonds itself or through an SPV, comply with or ensure that the SPV complies with, as the case may be, the following requirements at all times: (a) the cover pool must comprise mortgage loans secured by residential property... (b) the aggregate value of assets referred to in paragraph 6(a)(v) to (vii) must not exceed 15% of the aggregate value of the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii) included in the cover pool; (c) the aggregate value of – (i) the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii) included in cover pools for all covered bonds issued by the bank, SPV, or both the bank and SPV, as the case may be; and (ii) the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii), not falling within sub-paragraph (i) transferred by the bank to the SPV, must not exceed 10% of the value of the total assets of the bank at all times."
+      "source_quote": "A bank incorporated in Singapore must, when issuing covered bonds itself or through an SPV, comply with or ensure that the SPV complies with, as the case may be, the following requirements at all times: (a) the cover pool must comprise mortgage loans secured by residential property... (b) the aggregate value of assets referred to in paragraph 6(a)(v) to (vii) must not exceed 15% of the aggregate value of the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii) included in the cover pool; (c) the aggregate value of – (i) the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii) included in cover pools for all covered bonds issued by the bank, SPV, or both the bank and SPV, as the case may be; and (ii) the residential mortgage loans and the assets referred to in paragraph 6(a)(i) to (vii), not falling within sub-paragraph (i) transferred by the bank to the SPV, must not exceed 10% of the value of the total assets of the bank at all times.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data privacy/security relevance"
     },
     {
       "section": "6A",
@@ -242,7 +250,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of determining the total assets of the bank under paragraph 6(c)(B) — (a) the bank incorporated in Singapore must comply with all of the following: (i) the bank must compute the assets which the bank uses to meet the regulatory requirements under section 38 of the Banking Act 1970 without applying any haircuts specified in MAS Notice 649; (ii) the bank must compute the assets which the bank uses to meet the regulatory requirements under section 40 of the Banking Act 1970 without applying any adjustment factors specified in any notice in writing issued under section 40(1) of the Banking Act 1970; (b) the bank incorporated in Singapore may do all of the following: (i) where the bank holds assets in excess of that which the bank is required to hold to meet the regulatory requirements mentioned in paragraph 6(c)(B), the bank need only exclude the minimum amount of assets the bank is required to hold to meet the regulatory requirements mentioned in paragraph 6(c)(B); (ii) where the bank holds more than one type of asset which can be used to meet the regulatory requirements under section 38 of the Banking Act 1970, for the purposes of computing the relevant assets, the bank may exclude assets with the lowest haircuts first, followed by assets with the next lowest haircut, and so on; (iii) where a bank holds more than one type of asset which can be used to meet the regulatory requirements under section 40 of the Banking Act 1970, for the purposes of computing the assets which the bank uses to meet the regulatory requirements under section 40 of the Banking Act 1970, the bank may exclude assets with the highest adjustment factor first, followed by assets with the next highest adjustment factor, and so on."
+      "source_quote": "For the purposes of determining the total assets of the bank under paragraph 6(c)(B) — (a) the bank incorporated in Singapore must comply with all of the following: (i) the bank must compute the assets which the bank uses to meet the regulatory requirements under section 38 of the Banking Act 1970 without applying any haircuts specified in MAS Notice 649; (ii) the bank must compute the assets which the bank uses to meet the regulatory requirements under section 40 of the Banking Act 1970 without applying any adjustment factors specified in any notice in writing issued under section 40(1) of the Banking Act 1970; (b) the bank incorporated in Singapore may do all of the following: (i) where the bank holds assets in excess of that which the bank is required to hold to meet the regulatory requirements mentioned in paragraph 6(c)(B), the bank need only exclude the minimum amount of assets the bank is required to hold to meet the regulatory requirements mentioned in paragraph 6(c)(B); (ii) where the bank holds more than one type of asset which can be used to meet the regulatory requirements under section 38 of the Banking Act 1970, for the purposes of computing the relevant assets, the bank may exclude assets with the lowest haircuts first, followed by assets with the next lowest haircut, and so on; (iii) where a bank holds more than one type of asset which can be used to meet the regulatory requirements under section 40 of the Banking Act 1970, for the purposes of computing the assets which the bank uses to meet the regulatory requirements under section 40 of the Banking Act 1970, the bank may exclude assets with the highest adjustment factor first, followed by assets with the next highest adjustment factor, and so on.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial computation rules not directly data compliance"
     },
     {
       "section": "7",
@@ -275,7 +285,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A bank incorporated in Singapore which issues covered bonds must only use its own assets, and not that of other entities in its banking group (as defined in MAS Notice 637) to form the cover pool and must ensure that every of its subsidiary which intends to issue covered bonds only uses the subsidiary's own assets, and not that of other entities in the banking group to form the cover pool."
+      "source_quote": "A bank incorporated in Singapore which issues covered bonds must only use its own assets, and not that of other entities in its banking group (as defined in MAS Notice 637) to form the cover pool and must ensure that every of its subsidiary which intends to issue covered bonds only uses the subsidiary's own assets, and not that of other entities in the banking group to form the cover pool.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data handling under banking group restrictions"
     },
     {
       "section": "8",
@@ -352,7 +364,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A bank incorporated in Singapore must, when issuing covered bonds itself or through an SPV, comply or ensure that the SPV complies with, as the case may be, the following conditions to manage the risks arising from the issuance of covered bonds: (a) the bank or SPV, as the case may be, must have in place appropriate governance arrangements (such as identifying the approval authority within the bank or SPV, where the bank uses an SPV to issue covered bonds, with respect to the covered bond programme), performing regular and in any case, on an annual basis at the minimum, asset coverage tests ("
+      "source_quote": "A bank incorporated in Singapore must, when issuing covered bonds itself or through an SPV, comply or ensure that the SPV complies with, as the case may be, the following conditions to manage the risks arising from the issuance of covered bonds: (a) the bank or SPV, as the case may be, must have in place appropriate governance arrangements (such as identifying the approval authority within the bank or SPV, where the bank uses an SPV to issue covered bonds, with respect to the covered bond programme), performing regular and in any case, on an annual basis at the minimum, asset coverage tests (",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for financial data"
     },
     {
       "section": "11",
@@ -372,7 +386,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "This Notice shall take immediate effect."
+      "source_quote": "This Notice shall take immediate effect.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement/assent dates"
     }
   ]
 }

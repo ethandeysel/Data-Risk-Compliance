@@ -54,7 +54,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "1.6 Before the policy comes into effect, firms are expected to conduct an initial self-assessment of their implemented MRM frameworks against these principles and, where relevant, to prepare remediation plans to address any identified shortcomings."
+      "source_quote": "1.6 Before the policy comes into effect, firms are expected to conduct an initial self-assessment of their implemented MRM frameworks against these principles and, where relevant, to prepare remediation plans to address any identified shortcomings.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general governance for financial data"
     },
     {
       "section": "2",
@@ -74,7 +76,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance for model risk"
     },
     {
       "section": "3",
@@ -115,7 +119,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The board of directors and senior management of firms are ultimately responsible for establishing a sound MRM framework to ensure key business decisions relevant to a firm's safety and soundness are supported by sound and appropriate model output"
+      "source_quote": "The board of directors and senior management of firms are ultimately responsible for establishing a sound MRM framework to ensure key business decisions relevant to a firm's safety and soundness are supported by sound and appropriate model output",
+      "relevance_score": 2,
+      "relevance_reason": "Board governance for financial models"
     },
     {
       "section": "3 (part 2)",
@@ -135,7 +141,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "3 (part 3)",
@@ -190,7 +198,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "data quality management procedures, including: the rules and standards for data quality, accuracy and relevance; and the specific risk controls and criteria applicable to reflect the higher level of uncertainty associated with use of alternative or unstructured data, or information sources"
+      "source_quote": "data quality management procedures, including: the rules and standards for data quality, accuracy and relevance; and the specific risk controls and criteria applicable to reflect the higher level of uncertainty associated with use of alternative or unstructured data, or information sources",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: focuses on financial model risk, not direct data privacy/security"
     },
     {
       "section": "3 (part 4)",
@@ -245,7 +255,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Firms should have comprehensive, and up-to-date documentation on the design, theory, and logic underlying the development of their models"
+      "source_quote": "Firms should have comprehensive, and up-to-date documentation on the design, theory, and logic underlying the development of their models",
+      "relevance_score": 2,
+      "relevance_reason": "Model documentation for financial data compliance"
     },
     {
       "section": "3 (part 5)",
@@ -428,7 +440,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The validation function should operate independently from the model development process and from model owners. Firms that have approval to use internal models for the purposes of calculating their capital requirements are expected to demonstrate independence through separate reporting lines for model validators and model developers and owners, applicable across the MRM framework."
+      "source_quote": "The validation function should operate independently from the model development process and from model owners. Firms that have approval to use internal models for the purposes of calculating their capital requirements are expected to demonstrate independence through separate reporting lines for model validators and model developers and owners, applicable across the MRM framework.",
+      "relevance_score": 2,
+      "relevance_reason": "Independent model validation for financial models"
     },
     {
       "section": "3 (part 6)",
@@ -448,7 +462,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     }
   ]
 }

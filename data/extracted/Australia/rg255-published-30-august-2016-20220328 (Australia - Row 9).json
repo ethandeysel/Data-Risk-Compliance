@@ -32,7 +32,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Digital advice (also known as robo-advice or automated advice) is the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser."
+      "source_quote": "Digital advice (also known as robo-advice or automated advice) is the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: defines digital advice scope but not core data compliance"
     },
     {
       "section": "p2",
@@ -81,7 +83,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Regulatory guides: give guidance to regulated entities by: explaining when and how ASIC will exercise specific powers under legislation (primarily the Corporations Act)..."
+      "source_quote": "Regulatory guides: give guidance to regulated entities by: explaining when and how ASIC will exercise specific powers under legislation (primarily the Corporations Act)...",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "p3",
@@ -130,7 +134,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "A Overview ........................................................................................... 4 Digital advice in Australia ................................................................... 4 Scope of this regulatory guide ........................................................... 5"
+      "source_quote": "A Overview ........................................................................................... 4 Digital advice in Australia ................................................................... 4 Scope of this regulatory guide ........................................................... 5",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: general governance"
     },
     {
       "section": "p4",
@@ -173,7 +179,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Digital advice (also known as 'robo-advice' or 'automated advice') is the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser."
+      "source_quote": "Digital advice (also known as 'robo-advice' or 'automated advice') is the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: market context for digital advice"
     },
     {
       "section": "p5",
@@ -226,7 +234,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "This regulatory guide generally builds on existing ASIC guidance and does not introduce new regulatory concepts."
+      "source_quote": "This regulatory guide generally builds on existing ASIC guidance and does not introduce new regulatory concepts.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for digital advice compliance"
     },
     {
       "section": "p6",
@@ -275,7 +285,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Generally, Australia's financial services regulatory regime is principles based and does not prescribe the steps that an AFS licensee needs to take to comply with the law."
+      "source_quote": "Generally, Australia's financial services regulatory regime is principles based and does not prescribe the steps that an AFS licensee needs to take to comply with the law.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory guidance on compliance expectations"
     },
     {
       "section": "p7",
@@ -310,7 +322,9 @@
           "obligation_type": "Should"
         }
       ],
-      "source_quote": "Communication in a digital context: RG 255.15"
+      "source_quote": "Communication in a digital context: RG 255.15",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: user-focused design not core data protection"
     },
     {
       "section": "p8",
@@ -345,7 +359,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Under the Corporations Act, you are required to hold an AFS licence, or to be an authorised representative of an AFS licensee, if you are carrying on a financial services business, unless an exemption applies."
+      "source_quote": "Under the Corporations Act, you are required to hold an AFS licence, or to be an authorised representative of an AFS licensee, if you are carrying on a financial services business, unless an exemption applies.",
+      "relevance_score": 2,
+      "relevance_reason": "AFS licensing for financial advice affects data handling"
     },
     {
       "section": "p9",
@@ -380,7 +396,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Under the Corporations Act, all financial product advice is either 'personal advice' or 'general advice'."
+      "source_quote": "Under the Corporations Act, all financial product advice is either 'personal advice' or 'general advice'.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for financial advice licensing"
     },
     {
       "section": "p10",
@@ -415,7 +433,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If a communication is a recommendation or a statement of opinion, or a report of either of these things, that is intended to, or can reasonably be regarded as being intended to, influence a client in making a decision about a particular financial product or class of financial product (or an interest in either of these), it is financial product advice: s766B (see RG 244.27)."
+      "source_quote": "If a communication is a recommendation or a statement of opinion, or a report of either of these things, that is intended to, or can reasonably be regarded as being intended to, influence a client in making a decision about a particular financial product or class of financial product (or an interest in either of these), it is financial product advice: s766B (see RG 244.27).",
+      "relevance_score": 2,
+      "relevance_reason": "AFS licensing and advice classification impact data handling"
     },
     {
       "section": "p11",
@@ -454,7 +474,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Depending on your circumstances, you may be exempt or have relief from the requirement to hold an AFS licence: see 911A(2) and RG 36.34."
+      "source_quote": "Depending on your circumstances, you may be exempt or have relief from the requirement to hold an AFS licence: see 911A(2) and RG 36.34.",
+      "relevance_score": 2,
+      "relevance_reason": "AFS licensing affects data handling but not direct data protection"
     },
     {
       "section": "p12",
@@ -493,7 +515,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If you would like to provide a financial service, such as digital advice, as an authorised representative on behalf of an AFS licensee, you must hold a written authorisation from that licensee: see s916A of the Corporations Act."
+      "source_quote": "If you would like to provide a financial service, such as digital advice, as an authorised representative on behalf of an AFS licensee, you must hold a written authorisation from that licensee: see s916A of the Corporations Act.",
+      "relevance_score": 2,
+      "relevance_reason": "regulator powers for financial services"
     },
     {
       "section": "p13",
@@ -575,7 +599,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Sample questions to ask prospective AFS licensees • What is your main financial services business? • Do you operate your own financial services business or do you only obtain your revenue by appointing authorised representatives? • Does your AFS licence include the authorisations that my business needs to provide digital advice and any related services? • What experience do you have with innovation and digital advice? • What monitoring and testing will you carry out in relation to my advice algorithms? • How many other authorised representatives do you have? • What compliance assistance will you provide? • Will you provide my business with any training? • Will you provide enough monitoring and supervision to ensure that my business is operating within the law? • Do you have compliance procedures for record keeping? • How many notifications of reportable situations have you lodged with ASIC in the past two years? • Have you been the subject of any ASIC or other regulatory agency's surveillance, investigation, enforceable undertaking or enforcement action?"
+      "source_quote": "Sample questions to ask prospective AFS licensees • What is your main financial services business? • Do you operate your own financial services business or do you only obtain your revenue by appointing authorised representatives? • Does your AFS licence include the authorisations that my business needs to provide digital advice and any related services? • What experience do you have with innovation and digital advice? • What monitoring and testing will you carry out in relation to my advice algorithms? • How many other authorised representatives do you have? • What compliance assistance will you provide? • Will you provide my business with any training? • Will you provide enough monitoring and supervision to ensure that my business is operating within the law? • Do you have compliance procedures for record keeping? • How many notifications of reportable situations have you lodged with ASIC in the past two years? • Have you been the subject of any ASIC or other regulatory agency's surveillance, investigation, enforceable undertaking or enforcement action?",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory assessment for digital advice compliance"
     },
     {
       "section": "p14",
@@ -641,7 +667,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.45: RG 2 explains what information you need to provide to ASIC as part of your AFS licence application. Depending on the nature, scale and complexity of your business, we may ask you for additional information about: (a) the human resources you will have with the technological knowledge and skills to: (i) generally understand the technology and algorithms used to provide the digital advice; and (ii) review the digital advice generated by algorithms (see RG 255.60–RG 255.64); (b) if you are providing personal advice, the level of human review that will be undertaken on the advice generated (see RG 255.109–RG 255.112); (c) if you outsource any functions, the measures you will put in place to ensure that: (i) due skill and care are taken in choosing suitable service providers; and (ii) you can and will monitor the ongoing performance of service providers (see RG 255.67–RG 255.68); (d) the procedures you have in place to monitor and test algorithms (see RG 255.72–RG 255.74); (e) the arrangements you will put in place to comply with your record-keeping obligations; (f) the risk management and security arrangements you will have in place to ensure that client information is stored and transmitted securely (see RG 255.70–RG 255.79); and (g) how you have determined that your professional indemnity (PI) insurance cover is adequate (see RG 255.80–RG 255.85)."
+      "source_quote": "RG 255.45: RG 2 explains what information you need to provide to ASIC as part of your AFS licence application. Depending on the nature, scale and complexity of your business, we may ask you for additional information about: (a) the human resources you will have with the technological knowledge and skills to: (i) generally understand the technology and algorithms used to provide the digital advice; and (ii) review the digital advice generated by algorithms (see RG 255.60–RG 255.64); (b) if you are providing personal advice, the level of human review that will be undertaken on the advice generated (see RG 255.109–RG 255.112); (c) if you outsource any functions, the measures you will put in place to ensure that: (i) due skill and care are taken in choosing suitable service providers; and (ii) you can and will monitor the ongoing performance of service providers (see RG 255.67–RG 255.68); (d) the procedures you have in place to monitor and test algorithms (see RG 255.72–RG 255.74); (e) the arrangements you will put in place to comply with your record-keeping obligations; (f) the risk management and security arrangements you will have in place to ensure that client information is stored and transmitted securely (see RG 255.70–RG 255.79); and (g) how you have determined that your professional indemnity (PI) insurance cover is adequate (see RG 255.80–RG 255.85).",
+      "relevance_score": 3,
+      "relevance_reason": "Core data security and cross-border compliance for financial services"
     },
     {
       "section": "p15",
@@ -699,7 +727,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.48: Under the Corporations Act, AFS licensees are required to: (a) maintain competence to provide the financial services covered by their licence (s912A(1)(e)); and (b) ensure that their representatives are adequately trained and competent to provide those financial services (s912A(1)(f))."
+      "source_quote": "RG 255.48: Under the Corporations Act, AFS licensees are required to: (a) maintain competence to provide the financial services covered by their licence (s912A(1)(e)); and (b) ensure that their representatives are adequately trained and competent to provide those financial services (s912A(1)(f)).",
+      "relevance_score": 2,
+      "relevance_reason": "Organisational competence for digital advice licensees"
     },
     {
       "section": "p16",
@@ -745,7 +775,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.54: In most cases, at least one responsible manager of an existing AFS licensee will meet the training and competence standards. In a small number of instances, however, a licensee may not have a responsible manager who meets these standards. This is because the responsible manager was previously able to demonstrate their competence under RG 105 by showing they had relevant experience over the previous 10 years."
+      "source_quote": "RG 255.54: In most cases, at least one responsible manager of an existing AFS licensee will meet the training and competence standards. In a small number of instances, however, a licensee may not have a responsible manager who meets these standards. This is because the responsible manager was previously able to demonstrate their competence under RG 105 by showing they had relevant experience over the previous 10 years.",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting: responsible manager competence for financial data"
     },
     {
       "section": "p17",
@@ -803,7 +835,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.55: If you are an AFS licensee, you have general obligations under s912A(1) of the Corporations Act to: (a) do all things necessary to ensure that the financial services covered by your licence are provided efficiently, honestly and fairly (s912A(1)(a)); (b) have adequate arrangements in place for managing conflicts of interest (s912A(1)(aa)); (c) comply with the conditions on your licence (s912A(1)(b)); (d) comply with the financial services laws (s912A(1)(c)); (e) take reasonable steps to ensure that your representatives comply with the financial services laws (s912A(1)(ca)); (f) have adequate financial, technological and human resources to provide the financial services covered by your licence and to carry out supervisory arrangements (s912A(1)(d)); (g) maintain the competence to provide the financial services covered by your licence (s912A(1)(e)); (h) ensure that your representatives are adequately trained and competent to provide those financial services (s912A(1)(f)); (i) if you provide financial services to retail clients, have a dispute resolution system (s912A(1)(g)); and (j) establish and maintain adequate risk management systems (s912A(1)(h))."
+      "source_quote": "RG 255.55: If you are an AFS licensee, you have general obligations under s912A(1) of the Corporations Act to: (a) do all things necessary to ensure that the financial services covered by your licence are provided efficiently, honestly and fairly (s912A(1)(a)); (b) have adequate arrangements in place for managing conflicts of interest (s912A(1)(aa)); (c) comply with the conditions on your licence (s912A(1)(b)); (d) comply with the financial services laws (s912A(1)(c)); (e) take reasonable steps to ensure that your representatives comply with the financial services laws (s912A(1)(ca)); (f) have adequate financial, technological and human resources to provide the financial services covered by your licence and to carry out supervisory arrangements (s912A(1)(d)); (g) maintain the competence to provide the financial services covered by your licence (s912A(1)(e)); (h) ensure that your representatives are adequately trained and competent to provide those financial services (s912A(1)(f)); (i) if you provide financial services to retail clients, have a dispute resolution system (s912A(1)(g)); and (j) establish and maintain adequate risk management systems (s912A(1)(h)).",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting: risk management systems, resources for compliance"
     },
     {
       "section": "p18",
@@ -845,7 +879,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.60: As a digital advice licensee, you should ensure that there are people within your business who: (a) have an understanding of the technology and algorithms used to provide digital advice; and (b) are able to review the digital advice generated by algorithms."
+      "source_quote": "RG 255.60: As a digital advice licensee, you should ensure that there are people within your business who: (a) have an understanding of the technology and algorithms used to provide digital advice; and (b) are able to review the digital advice generated by algorithms.",
+      "relevance_score": 2,
+      "relevance_reason": "Resource requirements for security compliance"
     },
     {
       "section": "p19",
@@ -876,7 +912,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.61: Digital advice is provided through technology... we expect digital advice licensees to have at least one person who has a general understanding of the technology and algorithms..."
+      "source_quote": "RG 255.61: Digital advice is provided through technology... we expect digital advice licensees to have at least one person who has a general understanding of the technology and algorithms...",
+      "relevance_score": 2,
+      "relevance_reason": "Staff understanding algorithms for financial data compliance"
     },
     {
       "section": "p20",
@@ -913,7 +951,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.67: We expect that you will have measures in place to ensure that due skill and care are taken in choosing suitable outsourced service providers; and you can and will monitor the ongoing performance of outsourced service providers."
+      "source_quote": "RG 255.67: We expect that you will have measures in place to ensure that due skill and care are taken in choosing suitable outsourced service providers; and you can and will monitor the ongoing performance of outsourced service providers.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-party monitoring for financial data compliance"
     },
     {
       "section": "p21",
@@ -968,7 +1008,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.72: As part of your risk management systems, you should regularly monitor and test the algorithms that underpin the advice."
+      "source_quote": "RG 255.72: As part of your risk management systems, you should regularly monitor and test the algorithms that underpin the advice.",
+      "relevance_score": 3,
+      "relevance_reason": "Algorithm monitoring for financial data compliance"
     },
     {
       "section": "p22",
@@ -1006,7 +1048,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.77: We expect digital advice licensees to assess their cyber security using recognised frameworks, such as the National Institute of Standards and Technology's Framework for improving critical infrastructure cybersecurity..."
+      "source_quote": "RG 255.77: We expect digital advice licensees to assess their cyber security using recognised frameworks, such as the National Institute of Standards and Technology's Framework for improving critical infrastructure cybersecurity...",
+      "relevance_score": 3,
+      "relevance_reason": "Cyber security frameworks for financial data"
     },
     {
       "section": "p23",
@@ -1049,7 +1093,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.80: Under s912B, AFS licensees that provide financial services to retail clients must have arrangements for compensating clients for loss they suffer as a result of a breach by the licensee or its representatives of their obligations in Ch 7 of the Corporations Act."
+      "source_quote": "RG 255.80: Under s912B, AFS licensees that provide financial services to retail clients must have arrangements for compensating clients for loss they suffer as a result of a breach by the licensee or its representatives of their obligations in Ch 7 of the Corporations Act.",
+      "relevance_score": 2,
+      "relevance_reason": "PI insurance for financial data compliance"
     },
     {
       "section": "p24",
@@ -1076,7 +1122,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.87: When providing personal advice to a retail client, advice providers must act in the best interests of the client in relation to that advice: s961B(1)."
+      "source_quote": "RG 255.87: When providing personal advice to a retail client, advice providers must act in the best interests of the client in relation to that advice: s961B(1).",
+      "relevance_score": 2,
+      "relevance_reason": "Best interests duty for financial advice"
     },
     {
       "section": "p25",
@@ -1115,7 +1163,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.90: A digital advice provider giving personal advice to a client also has related obligations in Div 2 of Pt 7.7A of the Corporations Act to provide appropriate advice, to warn the client if advice is based on incomplete or inaccurate information, and to prioritise the client's interests over its own interests or that of the advice provider's associates."
+      "source_quote": "RG 255.90: A digital advice provider giving personal advice to a client also has related obligations in Div 2 of Pt 7.7A of the Corporations Act to provide appropriate advice, to warn the client if advice is based on incomplete or inaccurate information, and to prioritise the client's interests over its own interests or that of the advice provider's associates.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial advice obligations with data implications"
     },
     {
       "section": "p26",
@@ -1178,7 +1228,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.98: As a minimum, you should: explain to the client from the outset what advice is being offered and what is not being offered (i.e. the scope of the advice); require the client to actively demonstrate that the advice they are seeking is within the scope of what is being offered by the digital advice model; at key points in the advice process, inform the client about the limitations and potential consequences of the scope of advice; throughout the advice process, inform the client about key concepts and the relevant risks and benefits associated with the advice being provided; filter out clients for whom the advice being offered is not appropriate, or who want advice on a topic outside the scope of advice being offered; inform the client about the upfront and ongoing costs of the advice before the advice is given or implemented; inform the client about how they can withdraw from the advice being provided, and any associated costs, before the advice is implemented; explain what dispute resolution processes are available to the client if they wish to make a complaint; and explain why the client is likely to be in a better position if they follow the advice."
+      "source_quote": "RG 255.98: As a minimum, you should: explain to the client from the outset what advice is being offered and what is not being offered (i.e. the scope of the advice); require the client to actively demonstrate that the advice they are seeking is within the scope of what is being offered by the digital advice model; at key points in the advice process, inform the client about the limitations and potential consequences of the scope of advice; throughout the advice process, inform the client about key concepts and the relevant risks and benefits associated with the advice being provided; filter out clients for whom the advice being offered is not appropriate, or who want advice on a topic outside the scope of advice being offered; inform the client about the upfront and ongoing costs of the advice before the advice is given or implemented; inform the client about how they can withdraw from the advice being provided, and any associated costs, before the advice is implemented; explain what dispute resolution processes are available to the client if they wish to make a complaint; and explain why the client is likely to be in a better position if they follow the advice.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data handling and client disclosures"
     },
     {
       "section": "p27",
@@ -1225,7 +1277,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.99: In Example 5, we consider that the digital advice provider provides scaled advice that is in the best interests of the client."
+      "source_quote": "RG 255.99: In Example 5, we consider that the digital advice provider provides scaled advice that is in the best interests of the client.",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting: consent, scope limitations, client reinforcement"
     },
     {
       "section": "p28",
@@ -1268,7 +1322,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.102: If a client seeks advice on an area outside the scope of the advice being offered, the client should be filtered out of the digital advice model."
+      "source_quote": "RG 255.102: If a client seeks advice on an area outside the scope of the advice being offered, the client should be filtered out of the digital advice model.",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting process for financial advice compliance"
     },
     {
       "section": "p29",
@@ -1311,7 +1367,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.106: In Example 6, a digital advice licensee provides a combined (or hybrid) financial product advice model. The licensee correctly filters the client out of the digital advice tool because the advice would not be appropriate for the client's more complex personal circumstances."
+      "source_quote": "RG 255.106: In Example 6, a digital advice licensee provides a combined (or hybrid) financial product advice model. The licensee correctly filters the client out of the digital advice tool because the advice would not be appropriate for the client's more complex personal circumstances.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data handling with compliance checks"
     },
     {
       "section": "p30",
@@ -1346,7 +1404,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 255.107: In a digital advice context, it may not always be clear when a client has finished inputting their data into the digital advice tool. This is because a client may 'play around' and change the variables of the tool."
+      "source_quote": "RG 255.107: In a digital advice context, it may not always be clear when a client has finished inputting their data into the digital advice tool. This is because a client may 'play around' and change the variables of the tool.",
+      "relevance_score": 3,
+      "relevance_reason": "Core financial data compliance with consent and SOA requirements"
     },
     {
       "section": "p31",
@@ -1393,7 +1453,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Frequent reviews of digital advice should be conducted initially, and with heightened scrutiny when any change to an algorithm is made. When changes are made, it would be prudent to run a number of test scenarios to test the quality of advice provided. Algorithms should be regularly monitored and tested through periodic and random advice reviews."
+      "source_quote": "Frequent reviews of digital advice should be conducted initially, and with heightened scrutiny when any change to an algorithm is made. When changes are made, it would be prudent to run a number of test scenarios to test the quality of advice provided. Algorithms should be regularly monitored and tested through periodic and random advice reviews.",
+      "relevance_score": 3,
+      "relevance_reason": "Algorithm monitoring for financial data compliance"
     },
     {
       "section": "p32",
@@ -1418,7 +1480,9 @@
           "obligation_type": "Should"
         }
       ],
-      "source_quote": "This regulatory guide should be read in conjunction with other relevant regulatory guides issued by ASIC."
+      "source_quote": "This regulatory guide should be read in conjunction with other relevant regulatory guides issued by ASIC.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general compliance guidance for financial services"
     },
     {
       "section": "p33",
@@ -1461,7 +1525,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "RG 175 Licensing: Financial product advisers—Conduct and disclosure: This is a guide for persons who provide financial product advice to retail clients, and their professional advisers (e.g. lawyers)."
+      "source_quote": "RG 175 Licensing: Financial product advisers—Conduct and disclosure: This is a guide for persons who provide financial product advice to retail clients, and their professional advisers (e.g. lawyers).",
+      "relevance_score": 2,
+      "relevance_reason": "financial product compliance guidance"
     },
     {
       "section": "p34",
@@ -1496,7 +1562,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "INFO 256 FAQs: Ongoing fee arrangements: This information sheet contains frequently asked questions (FAQs) that explain the obligations in Div 3 of Pt 7.7A and Pt 10.46 of the Corporations Act which apply to persons who provide personal advice to retail clients under an ongoing fee arrangement."
+      "source_quote": "INFO 256 FAQs: Ongoing fee arrangements: This information sheet contains frequently asked questions (FAQs) that explain the obligations in Div 3 of Pt 7.7A and Pt 10.46 of the Corporations Act which apply to persons who provide personal advice to retail clients under an ongoing fee arrangement.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data compliance with consent and disclosures"
     },
     {
       "section": "p35",
@@ -1529,7 +1597,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "digital advice: Also known as 'robo-advice' or 'automated advice'—the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser"
+      "source_quote": "digital advice: Also known as 'robo-advice' or 'automated advice'—the provision of automated financial product advice using algorithms and technology and without the direct involvement of a human adviser",
+      "relevance_score": 2,
+      "relevance_reason": "defines key terms for compliance"
     },
     {
       "section": "p36",
@@ -1562,7 +1632,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "client's relevant circumstances: The objectives, financial situation and needs of a client that would reasonably be considered relevant to the subject matter of advice sought by the client"
+      "source_quote": "client's relevant circumstances: The objectives, financial situation and needs of a client that would reasonably be considered relevant to the subject matter of advice sought by the client",
+      "relevance_score": 1,
+      "relevance_reason": "tangential definitions for financial advice"
     },
     {
       "section": "p37",
@@ -1602,7 +1674,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Term: general advice - Financial product advice that is not personal advice. Term: personal advice - Financial product advice given or directed to a person (including by electronic means) in circumstances where: the provider of the advice has considered one or more of the client's objectives, financial situation and needs; or a reasonable person might expect the provider to have considered one or more of these matters"
+      "source_quote": "Term: general advice - Financial product advice that is not personal advice. Term: personal advice - Financial product advice given or directed to a person (including by electronic means) in circumstances where: the provider of the advice has considered one or more of the client's objectives, financial situation and needs; or a reasonable person might expect the provider to have considered one or more of these matters",
+      "relevance_score": 3,
+      "relevance_reason": "Defines critical terms for financial advice compliance"
     },
     {
       "section": "p38",
@@ -1637,7 +1711,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Term: scaled advice - Personal advice that is limited in scope. Term: safe harbour for the best interests duty - The steps set out in s961B(2) of the Corporations Act. Term: SOA (Statement of Advice) - A document that must be given to a client for the provision of personal advice under Subdivs C and D of Div 3 of Pt 7.7 of the Corporations Act"
+      "source_quote": "Term: scaled advice - Personal advice that is limited in scope. Term: safe harbour for the best interests duty - The steps set out in s961B(2) of the Corporations Act. Term: SOA (Statement of Advice) - A document that must be given to a client for the provision of personal advice under Subdivs C and D of Div 3 of Pt 7.7 of the Corporations Act",
+      "relevance_score": 2,
+      "relevance_reason": "Definitions of financial advice terms"
     },
     {
       "section": "p39",
@@ -1672,7 +1748,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Headnotes and legislation: advisers, AFS licensees, algorithms, authorised representatives, automated advice, best interests duty, compensation arrangements, compliance, cyber security, digital advice, exchange-traded funds, factual information, financial product advice, fintech, general advice, licensing, managed discretionary account, monitoring and testing, organisational competence, outsourcing, personal advice, record-keeping obligations, responsible manager, retail client, robo-advice, scaled advice, start-up business, technology, training and competence standards, triage or filtering process"
+      "source_quote": "Headnotes and legislation: advisers, AFS licensees, algorithms, authorised representatives, automated advice, best interests duty, compensation arrangements, compliance, cyber security, digital advice, exchange-traded funds, factual information, financial product advice, fintech, general advice, licensing, managed discretionary account, monitoring and testing, organisational competence, outsourcing, personal advice, record-keeping obligations, responsible manager, retail client, robo-advice, scaled advice, start-up business, technology, training and competence standards, triage or filtering process",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory instruments and definitions for financial data compliance"
     },
     {
       "section": "p40",
@@ -1703,7 +1781,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Regulatory guides: RG 3 AFS Licensing Kit: Part 3—Preparing your additional proofs, RG 36 Licensing: Financial product advice and dealing, RG 78 Breach reporting by AFS licensees and credit licensees, RG 104 AFS licensing: Meeting the general obligations, RG 105 AFS licensing: Organisational competence, RG 126 Compensation and insurance arrangements for AFS licensees, RG 146 Licensing: Training of financial product advisers, RG 167 Licensing: Discretionary powers, RG 168 Disclosure: Product Disclosure Statements (and other disclosure obligations), RG 175 Licensing: Financial product advisers—Conduct and disclosure, RG 179 Managed discretionary account services, RG 221 Facilitating digital financial services disclosures, RG 244 Giving information, general advice and scaled advice"
+      "source_quote": "Regulatory guides: RG 3 AFS Licensing Kit: Part 3—Preparing your additional proofs, RG 36 Licensing: Financial product advice and dealing, RG 78 Breach reporting by AFS licensees and credit licensees, RG 104 AFS licensing: Meeting the general obligations, RG 105 AFS licensing: Organisational competence, RG 126 Compensation and insurance arrangements for AFS licensees, RG 146 Licensing: Training of financial product advisers, RG 167 Licensing: Discretionary powers, RG 168 Disclosure: Product Disclosure Statements (and other disclosure obligations), RG 175 Licensing: Financial product advisers—Conduct and disclosure, RG 179 Managed discretionary account services, RG 221 Facilitating digital financial services disclosures, RG 244 Giving information, general advice and scaled advice",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory guides for cyber resilience"
     }
   ]
 }

@@ -41,7 +41,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Financial Action Task Force (FATF) has developed a series of Recommendations that are recognised as the international standard for combating money laundering and the financing of terrorism and proliferation of weapons of mass destruction."
+      "source_quote": "The Financial Action Task Force (FATF) has developed a series of Recommendations that are recognised as the international standard for combating money laundering and the financing of terrorism and proliferation of weapons of mass destruction.",
+      "relevance_score": 3,
+      "relevance_reason": "Core AML financial data handling"
     },
     {
       "section": "2",
@@ -79,7 +81,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Bank of Mauritius (‘Bank') is the designated AML/CFT supervisory authority of financial institutions under its purview and is required to supervise financial institutions with respect to the AML/CFT requirements set out under the banking laws."
+      "source_quote": "The Bank of Mauritius (‘Bank') is the designated AML/CFT supervisory authority of financial institutions under its purview and is required to supervise financial institutions with respect to the AML/CFT requirements set out under the banking laws.",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT supervisory authority definition"
     },
     {
       "section": "2 (part 2)",
@@ -99,7 +103,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "regulator powers and authority"
     },
     {
       "section": "3",
@@ -154,7 +160,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Money laundering is the process by which criminals attempt to conceal the true origin and ownership of the proceeds of their criminal activities."
+      "source_quote": "Money laundering is the process by which criminals attempt to conceal the true origin and ownership of the proceeds of their criminal activities.",
+      "relevance_score": 3,
+      "relevance_reason": "Defines money laundering stages critical for financial data compliance"
     },
     {
       "section": "3 (part 2)",
@@ -174,7 +182,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "4",
@@ -230,7 +240,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Financial institutions are required to apply a risk-based approach to the implementation of the AML/CFT regime."
+      "source_quote": "Financial institutions are required to apply a risk-based approach to the implementation of the AML/CFT regime.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/CFT risk management directly impacts data compliance"
     },
     {
       "section": "4 (part 2)",
@@ -308,7 +320,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The first step in a risk-based approach is to conduct a risk assessment, that is, an analysis of potential threats and vulnerabilities to ML/TF to which the financial institution's business is exposed. The assessment should be commensurate with the nature, size and complexity of the financial institution's business."
+      "source_quote": "The first step in a risk-based approach is to conduct a risk assessment, that is, an analysis of potential threats and vulnerabilities to ML/TF to which the financial institution's business is exposed. The assessment should be commensurate with the nature, size and complexity of the financial institution's business.",
+      "relevance_score": 2,
+      "relevance_reason": "Risk-based ML/TF assessments require customer data handling"
     },
     {
       "section": "4 (part 3)",
@@ -328,7 +342,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "4 (part 4)",
@@ -401,7 +417,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Unjustified or abnormal changes in the activities of your client are documented – The financial institution should flag changes in activities that is contrary to normal transaction patterns or client activities."
+      "source_quote": "Unjustified or abnormal changes in the activities of your client are documented – The financial institution should flag changes in activities that is contrary to normal transaction patterns or client activities.",
+      "relevance_score": 3,
+      "relevance_reason": "Core AML financial data handling and suspicious transaction reporting"
     },
     {
       "section": "4 (part 5)",
@@ -460,7 +478,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "High Risk Situations Related To Geographical Risk May Include: A country against which the United Nations or other international institutions have imposed sanctions, embargo or other similar measures; A country which is known, based on the knowledge of relevant international organizations for a high degree of organized criminal, particularly corruption, arms trade, trafficking in human beings or for breaching human rights, production or organized and developed drug trade; A country which, according to the data of the international organization FATF or a FATF-style regional body, pertains to non-cooperative countries or territories or if it is about an offshore financial centre; Countries which are estimated by relevant international organizations as countries lacking the appropriate AML/CFT legislation, regulations and other measures; Countries in which the undertaking of terrorist activities is being supported or enabled; A country subject to Mauritius or other national sanctions, embargoes or similar measures; A jurisdiction identified by credible sources as providing support for terrorist activities; A jurisdiction not member of the FATF or a FATF Style Regional Body (FSRB); Regional or local geographical factors related to risk (e.g., Mauritius domestic risk based on urban vs. rural; known crime/gang areas, etc.)"
+      "source_quote": "High Risk Situations Related To Geographical Risk May Include: A country against which the United Nations or other international institutions have imposed sanctions, embargo or other similar measures; A country which is known, based on the knowledge of relevant international organizations for a high degree of organized criminal, particularly corruption, arms trade, trafficking in human beings or for breaching human rights, production or organized and developed drug trade; A country which, according to the data of the international organization FATF or a FATF-style regional body, pertains to non-cooperative countries or territories or if it is about an offshore financial centre; Countries which are estimated by relevant international organizations as countries lacking the appropriate AML/CFT legislation, regulations and other measures; Countries in which the undertaking of terrorist activities is being supported or enabled; A country subject to Mauritius or other national sanctions, embargoes or similar measures; A jurisdiction identified by credible sources as providing support for terrorist activities; A jurisdiction not member of the FATF or a FATF Style Regional Body (FSRB); Regional or local geographical factors related to risk (e.g., Mauritius domestic risk based on urban vs. rural; known crime/gang areas, etc.)",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT risk factors for financial institutions"
     },
     {
       "section": "5",
@@ -530,7 +550,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "As a general rule and for the purposes of AML/CFT, the business units, namely the front office, customer-facing activity, are the first line of defence in charge of identifying, assessing and controlling the risks of their business. They should be allotted sufficient resources to execute their duties effectively. The financial institution's policies, procedures and controls on AML/CFT should be clearly specified in writing, and communicated to all relevant employees in the business units. The financial institution should adequately train employees to implement the AML/CFT policies and procedures and to be aware of their obligations in ensuring compliance with prevailing AML/CFT laws, regulations and guidelines."
+      "source_quote": "As a general rule and for the purposes of AML/CFT, the business units, namely the front office, customer-facing activity, are the first line of defence in charge of identifying, assessing and controlling the risks of their business. They should be allotted sufficient resources to execute their duties effectively. The financial institution's policies, procedures and controls on AML/CFT should be clearly specified in writing, and communicated to all relevant employees in the business units. The financial institution should adequately train employees to implement the AML/CFT policies and procedures and to be aware of their obligations in ensuring compliance with prevailing AML/CFT laws, regulations and guidelines.",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT risk management requires data handling but focuses on financial controls, not direct data privacy."
     },
     {
       "section": "5 (part 2)",
@@ -583,7 +605,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Financial institutions operating in a group structure are required in terms of section 64A(2) of the Banking Act and Regulation 23 (1) of Financial Intelligence and Anti-Money Laundering Regulations 2018 shall implement group-wide programme against money laundering and terrorism financing, which shall be applicable, and appropriate to, all branches and subsidiaries of the group and which shall include —"
+      "source_quote": "Financial institutions operating in a group structure are required in terms of section 64A(2) of the Banking Act and Regulation 23 (1) of Financial Intelligence and Anti-Money Laundering Regulations 2018 shall implement group-wide programme against money laundering and terrorism financing, which shall be applicable, and appropriate to, all branches and subsidiaries of the group and which shall include —",
+      "relevance_score": 3,
+      "relevance_reason": "Group-wide AML/CFT program implementation for financial institutions"
     },
     {
       "section": "5 (part 3)",
@@ -603,7 +627,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Risk management for AML/CFT"
     },
     {
       "section": "5 (part 4)",
@@ -623,7 +649,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Risk management for AML/CFT"
     },
     {
       "section": "6",
@@ -709,7 +737,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Financial institutions must develop and implement risk based policies and procedures to mitigate the ML/TF risks identified in their business and customer risk assessments."
+      "source_quote": "Financial institutions must develop and implement risk based policies and procedures to mitigate the ML/TF risks identified in their business and customer risk assessments.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/CFT customer due diligence directly impacts data compliance"
     },
     {
       "section": "6 (part 2)",
@@ -729,7 +759,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT procedures for data handling"
     },
     {
       "section": "6 (part 3)",
@@ -773,7 +805,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Regulation 3(c) of the FIAML Regulation requires financial institutions to identify the beneficial owner and take reasonable measures... to verify the identity of the beneficial owner, using relevant information or data obtained from a reliable source such that the financial institution is able to justify his assessment to competent authorities"
+      "source_quote": "Regulation 3(c) of the FIAML Regulation requires financial institutions to identify the beneficial owner and take reasonable measures... to verify the identity of the beneficial owner, using relevant information or data obtained from a reliable source such that the financial institution is able to justify his assessment to competent authorities",
+      "relevance_score": 3,
+      "relevance_reason": "AML/KYC beneficial ownership verification"
     },
     {
       "section": "6 (part 4)",
@@ -821,7 +855,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Financial institutions should establish to its satisfaction that it is dealing with a real person or organisation, and verify the identity of the person or organisation accordingly."
+      "source_quote": "Financial institutions should establish to its satisfaction that it is dealing with a real person or organisation, and verify the identity of the person or organisation accordingly.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/CFT customer verification core to data compliance"
     },
     {
       "section": "6 (part 5)",
@@ -883,7 +919,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Financial institutions should also consider, on a risk-sensitive basis, whether the information regarding sources of wealth and funds or destination of funds should be corroborated."
+      "source_quote": "Financial institutions should also consider, on a risk-sensitive basis, whether the information regarding sources of wealth and funds or destination of funds should be corroborated.",
+      "relevance_score": 3,
+      "relevance_reason": "Risk-based verification for financial institutions"
     },
     {
       "section": "6 (part 6)",
@@ -903,7 +941,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT procedures for data handling"
     },
     {
       "section": "6 (part 7)",
@@ -955,7 +995,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6.127 When a professional intermediary opens a customer account on behalf of a single customer, the financial institution must identify the customer."
+      "source_quote": "6.127 When a professional intermediary opens a customer account on behalf of a single customer, the financial institution must identify the customer.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/KYC financial data identification"
     },
     {
       "section": "6 (part 8)",
@@ -1008,7 +1050,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "determine from publicly available information the reputation of the respondent institution and the quality of supervision, including whether it has been subject to a money laundering or terrorist financing investigation or regulatory action"
+      "source_quote": "determine from publicly available information the reputation of the respondent institution and the quality of supervision, including whether it has been subject to a money laundering or terrorist financing investigation or regulatory action",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer requirements"
     },
     {
       "section": "6 (part 9)",
@@ -1028,7 +1072,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "AML/CFT procedures for data handling"
     },
     {
       "section": "6 (part 10)",
@@ -1083,7 +1129,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6.176 The ordering relevant person shall not execute the wire transfer where it does not comply with the requirements specified in paragraphs (1) to (4)."
+      "source_quote": "6.176 The ordering relevant person shall not execute the wire transfer where it does not comply with the requirements specified in paragraphs (1) to (4).",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border wire transfer compliance with financial data"
     },
     {
       "section": "6 (part 11)",
@@ -1198,7 +1246,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "‘natural persons who are or have been entrusted with prominent public functions' shall include the following: Domestic PEPs 1. President/Vice President of Republic of Mauritius"
+      "source_quote": "‘natural persons who are or have been entrusted with prominent public functions' shall include the following: Domestic PEPs 1. President/Vice President of Republic of Mauritius",
+      "relevance_score": 2,
+      "relevance_reason": "Defines PEPs for AML/CFT purposes"
     },
     {
       "section": "7",
@@ -1346,7 +1396,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Ongoing monitoring is an essential aspect of effective KYC procedures. Every financial institution should conduct ongoing monitoring to, inter alia: detect suspicious transactions that are required to be reported to the FIU; keep client identification, beneficial ownership information, and the purpose and intended nature of the business relationship record up to date; re-assess the risk associated with a business relationship based on their transactions and activities; and determine whether the transactions or activities are consistent with the information and risk assessment of that client."
+      "source_quote": "Ongoing monitoring is an essential aspect of effective KYC procedures. Every financial institution should conduct ongoing monitoring to, inter alia: detect suspicious transactions that are required to be reported to the FIU; keep client identification, beneficial ownership information, and the purpose and intended nature of the business relationship record up to date; re-assess the risk associated with a business relationship based on their transactions and activities; and determine whether the transactions or activities are consistent with the information and risk assessment of that client.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/KYC financial data compliance core"
     },
     {
       "section": "7 (part 2)",
@@ -1366,7 +1418,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "8",
@@ -1425,7 +1479,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 23(1) of United Nations (Financial Prohibitions, Arms Embargo and Travel Ban) Sanctions Act 2019 provides that subject to this Act, no person shall deal with the funds or other assets of a designated party or listed party..."
+      "source_quote": "Section 23(1) of United Nations (Financial Prohibitions, Arms Embargo and Travel Ban) Sanctions Act 2019 provides that subject to this Act, no person shall deal with the funds or other assets of a designated party or listed party...",
+      "relevance_score": 3,
+      "relevance_reason": "Prohibits dealing with sanctioned funds, critical for AML compliance"
     },
     {
       "section": "8 (part 2)",
@@ -1445,7 +1501,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "8 (part 3)",
@@ -1481,7 +1539,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Financial institutions must adhere to the obligations set out under United Nations Sanctions Act regarding parties listed by the UNSC under Resolution 1518 (2003)."
+      "source_quote": "Financial institutions must adhere to the obligations set out under United Nations Sanctions Act regarding parties listed by the UNSC under Resolution 1518 (2003).",
+      "relevance_score": 3,
+      "relevance_reason": "AML/CFT obligations directly impact cross-border financial data compliance"
     },
     {
       "section": "9",
@@ -1532,7 +1592,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 14 of the FIAMLA stipulates that every financial institution should, as soon as practicable but not later than 15 working days from the day on which it becomes aware of a transaction which it has reason to believe may be a suspicious transaction, make a report to the FIU of such transaction."
+      "source_quote": "Section 14 of the FIAMLA stipulates that every financial institution should, as soon as practicable but not later than 15 working days from the day on which it becomes aware of a transaction which it has reason to believe may be a suspicious transaction, make a report to the FIU of such transaction.",
+      "relevance_score": 3,
+      "relevance_reason": "AML reporting obligations directly impact data compliance"
     },
     {
       "section": "9 (part 2)",
@@ -1572,7 +1634,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where the MLRO knows or has reason to believe that an internal disclosure may be suspicious, he must forthwith make a report in accordance with section 14 of the FIAMLA to the FIU."
+      "source_quote": "Where the MLRO knows or has reason to believe that an internal disclosure may be suspicious, he must forthwith make a report in accordance with section 14 of the FIAMLA to the FIU.",
+      "relevance_score": 3,
+      "relevance_reason": "AML/KYC financial data handling"
     },
     {
       "section": "9 (part 3)",
@@ -1592,7 +1656,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "9 (part 4)",
@@ -1631,7 +1697,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Under section 14A of the FIAMLA, every financial institution should report to the FIU, in such matter and within such time as may be specified, particulars of any cash transaction in excess of the prescribed amount."
+      "source_quote": "Under section 14A of the FIAMLA, every financial institution should report to the FIU, in such matter and within such time as may be specified, particulars of any cash transaction in excess of the prescribed amount.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer reporting"
     },
     {
       "section": "10",
@@ -1682,7 +1750,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 17F of the Financial Intelligence and Anti-Money Laundering Act requires financial institution to maintain, and keep for the specified period, all books and records with respect to his customers and transactions"
+      "source_quote": "Section 17F of the Financial Intelligence and Anti-Money Laundering Act requires financial institution to maintain, and keep for the specified period, all books and records with respect to his customers and transactions",
+      "relevance_score": 3,
+      "relevance_reason": "Financial data record-keeping for 7 years"
     },
     {
       "section": "10 (part 2)",
@@ -1729,7 +1799,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Records of electronic payments and messages must be treated in the same way as any other records and kept for the period mentioned in paragraph 10.10 above."
+      "source_quote": "Records of electronic payments and messages must be treated in the same way as any other records and kept for the period mentioned in paragraph 10.10 above.",
+      "relevance_score": 3,
+      "relevance_reason": "Financial data retention and record-keeping for compliance"
     },
     {
       "section": "11",
@@ -1781,7 +1853,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 11.01: Ongoing staff training is an integral element of an effective AML/CFT system to prevent and detect potential illicit transactions pertaining to money laundering, terrorist or proliferation financing activities."
+      "source_quote": "Section 11.01: Ongoing staff training is an integral element of an effective AML/CFT system to prevent and detect potential illicit transactions pertaining to money laundering, terrorist or proliferation financing activities.",
+      "relevance_score": 2,
+      "relevance_reason": "AML training requirements for staff"
     },
     {
       "section": "11 (part 2)",
@@ -1801,7 +1875,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     }
   ]
 }

@@ -137,7 +137,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "2. In this Act, unless the context otherwise requires —"
+      "source_quote": "2. In this Act, unless the context otherwise requires —",
+      "relevance_score": 2,
+      "relevance_reason": "Defines technical terms for digital signatures and encryption"
     },
     {
       "section": "3",
@@ -187,7 +189,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. This Act shall be construed consistently with what is commercially reasonable"
+      "source_quote": "3. This Act shall be construed consistently with what is commercially reasonable",
+      "relevance_score": 2,
+      "relevance_reason": "Commercially reasonable interpretation for data compliance"
     },
     {
       "section": "5",
@@ -217,7 +221,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "5. As between parties involved in generating, sending, receiving, storing or otherwise processing electronic records, any provision of Part II or IV may be varied by agreement."
+      "source_quote": "5. As between parties involved in generating, sending, receiving, storing or otherwise processing electronic records, any provision of Part II or IV may be varied by agreement.",
+      "relevance_score": 2,
+      "relevance_reason": "Allows flexible variation of electronic record provisions"
     },
     {
       "section": "7",
@@ -246,7 +252,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "7. Where a rule of law requires information to be written, in writing, to be presented in writing or provides for certain consequences if it is not, an electronic record satisfies that rule of law if the information contained therein is accessible so as to be usable for subsequent reference."
+      "source_quote": "7. Where a rule of law requires information to be written, in writing, to be presented in writing or provides for certain consequences if it is not, an electronic record satisfies that rule of law if the information contained therein is accessible so as to be usable for subsequent reference.",
+      "relevance_score": 3,
+      "relevance_reason": "Electronic records satisfy written requirements for data transfers"
     },
     {
       "section": "12",
@@ -318,7 +326,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "As between the originator and the addressee of an electronic record, a declaration of intent or other statement shall not be denied legal effect, validity or enforceability solely on the ground that it is in the form of an electronic record."
+      "source_quote": "As between the originator and the addressee of an electronic record, a declaration of intent or other statement shall not be denied legal effect, validity or enforceability solely on the ground that it is in the form of an electronic record.",
+      "relevance_score": 3,
+      "relevance_reason": "Electronic record validity for legal effect and originator attribution"
     },
     {
       "section": "17",
@@ -338,7 +348,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "security procedures for data protection"
     },
     {
       "section": "20",
@@ -358,7 +370,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "Digital signatures for electronic records"
     },
     {
       "section": "22",
@@ -378,7 +392,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "digital reliance for data transfers"
     },
     {
       "section": "27",
@@ -430,7 +446,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A certification authority must utilise trustworthy systems in performing its services."
+      "source_quote": "A certification authority must utilise trustworthy systems in performing its services.",
+      "relevance_score": 3,
+      "relevance_reason": "Certification authorities' trustworthy systems directly impact data security and cross-border transfers."
     },
     {
       "section": "32",
@@ -470,7 +488,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A certification authority shall revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber named in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist."
+      "source_quote": "A certification authority shall revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber named in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist.",
+      "relevance_score": 2,
+      "relevance_reason": "Certification revocation procedures for digital certificates"
     },
     {
       "section": "37",
@@ -508,7 +528,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "37. All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, shall be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority."
+      "source_quote": "37. All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, shall be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority.",
+      "relevance_score": 2,
+      "relevance_reason": "Certification accuracy for data compliance"
     },
     {
       "section": "40",
@@ -537,7 +559,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "40. A subscriber who has accepted a certificate shall as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised."
+      "source_quote": "40. A subscriber who has accepted a certificate shall as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised.",
+      "relevance_score": 3,
+      "relevance_reason": "Directly addresses key compromise and certificate revocation"
     },
     {
       "section": "46",
@@ -566,7 +590,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "46. The Minister may make regulations for the purpose of ensuring the quality of repositories and the services they provide including provisions for the standards, licensing or accreditation of repositories."
+      "source_quote": "46. The Minister may make regulations for the purpose of ensuring the quality of repositories and the services they provide including provisions for the standards, licensing or accreditation of repositories.",
+      "relevance_score": 2,
+      "relevance_reason": "Minister's regulations for repository quality standards"
     },
     {
       "section": "49",
@@ -593,7 +619,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "49. Where an offence under this Act or any regulations made thereunder is committed by a body corporate, and it is proved to have been committed with the consent or connivance of a director, manager, secretary or other officer, both the body corporate and the officer are liable for the offence."
+      "source_quote": "49. Where an offence under this Act or any regulations made thereunder is committed by a body corporate, and it is proved to have been committed with the consent or connivance of a director, manager, secretary or other officer, both the body corporate and the officer are liable for the offence.",
+      "relevance_score": 2,
+      "relevance_reason": "Corporate liability for offences"
     },
     {
       "section": "55",
@@ -613,7 +641,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "Controller duties for data transfers"
     },
     {
       "section": "63",
@@ -646,7 +676,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "63. The Interpretation Act (Cap 1) is amended — (a) by inserting, immediately after the words \"Gazette published\", in the definition of \"Gazette\" or \"words \"in electronic or other form\"; (b) by inserting immediately after subsection (4) of section 2, the following subsection: (5) Where a Gazette is published in more than one form, the date of publication of that Gazette shall be deemed to be the date that Gazette is first published in any form."
+      "source_quote": "63. The Interpretation Act (Cap 1) is amended — (a) by inserting, immediately after the words \"Gazette published\", in the definition of \"Gazette\" or \"words \"in electronic or other form\"; (b) by inserting immediately after subsection (4) of section 2, the following subsection: (5) Where a Gazette is published in more than one form, the date of publication of that Gazette shall be deemed to be the date that Gazette is first published in any form.",
+      "relevance_score": 0,
+      "relevance_reason": "Gazette publication mechanics irrelevant to data compliance"
     }
   ]
 }

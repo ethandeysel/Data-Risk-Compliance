@@ -56,7 +56,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "provide a suitable framework to assist in carrying out cyber resilience assessments."
+      "source_quote": "provide a suitable framework to assist in carrying out cyber resilience assessments.",
+      "relevance_score": 3,
+      "relevance_reason": "Cyber resilience assessments directly impact data security and cross-border compliance"
     },
     {
       "section": "2",
@@ -115,7 +117,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "maintain the outcome-focused approach of the NCSC cyber security and resilience principles and discourage assessments being carried out as tick-box exercises."
+      "source_quote": "maintain the outcome-focused approach of the NCSC cyber security and resilience principles and discourage assessments being carried out as tick-box exercises.",
+      "relevance_score": 3,
+      "relevance_reason": "Outcome-focused security assessments directly impact data protection and cross-border transfers"
     },
     {
       "section": "3",
@@ -170,7 +174,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "be compatible with the use of appropriate existing cyber security guidance and standards."
+      "source_quote": "be compatible with the use of appropriate existing cyber security guidance and standards.",
+      "relevance_score": 2,
+      "relevance_reason": "Compatibility with existing security guidance"
     },
     {
       "section": "4",
@@ -225,7 +231,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "enable the identification of effective cyber security and resilience improvement activities."
+      "source_quote": "enable the identification of effective cyber security and resilience improvement activities.",
+      "relevance_score": 3,
+      "relevance_reason": "Cyber resilience improvements directly impact data security and cross-border compliance"
     },
     {
       "section": "8",
@@ -280,7 +288,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "be as straightforward and cost-effective to apply as possible."
+      "source_quote": "be as straightforward and cost-effective to apply as possible.",
+      "relevance_score": 2,
+      "relevance_reason": "Cost-effective framework application for compliance"
     },
     {
       "section": "2",
@@ -339,7 +349,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "maintain the outcome-focused approach of the NCSC cyber security and resilience principles and discourage assessments being carried out as tick-box exercises."
+      "source_quote": "maintain the outcome-focused approach of the NCSC cyber security and resilience principles and discourage assessments being carried out as tick-box exercises.",
+      "relevance_score": 3,
+      "relevance_reason": "Outcome-focused security assessments directly impact data protection and cross-border transfers"
     },
     {
       "section": "2 (part 2)",
@@ -388,7 +400,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Your organisation has established roles and responsibilities for the security of network and information systems at all levels, with clear and well-understood channels for communicating and escalating risks."
+      "source_quote": "Your organisation has established roles and responsibilities for the security of network and information systems at all levels, with clear and well-understood channels for communicating and escalating risks.",
+      "relevance_score": 3,
+      "relevance_reason": "Core governance for security and risk management"
     },
     {
       "section": "2 (part 3)",
@@ -435,7 +449,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Everything required to deliver, maintain or support network and information systems necessary for the operation of essential functions is determined and understood."
+      "source_quote": "Everything required to deliver, maintain or support network and information systems necessary for the operation of essential functions is determined and understood.",
+      "relevance_score": 2,
+      "relevance_reason": "Supply chain security for essential functions"
     },
     {
       "section": "2 (part 4)",
@@ -477,7 +493,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Principle B1 Service Protection Policies, Processes and Procedures: The organisation defines, implements, communicates and enforces appropriate policies, processes and procedures that direct its overall approach to securing systems and data that support operation of essential functions."
+      "source_quote": "Principle B1 Service Protection Policies, Processes and Procedures: The organisation defines, implements, communicates and enforces appropriate policies, processes and procedures that direct its overall approach to securing systems and data that support operation of essential functions.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection and cyber-security duties"
     },
     {
       "section": "2 (part 5)",
@@ -519,7 +537,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "You use additional strong authentication mechanisms, such as multi-factor authentication (MFA), for privileged access to all network and information systems that operate or support your essential function(s)."
+      "source_quote": "You use additional strong authentication mechanisms, such as multi-factor authentication (MFA), for privileged access to all network and information systems that operate or support your essential function(s).",
+      "relevance_score": 3,
+      "relevance_reason": "Core identity management for data protection"
     },
     {
       "section": "2 (part 6)",
@@ -587,7 +607,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "You have not clearly articulated the impact of data compromise or lack of availability. You have identified all mobile devices and media that hold data important to the operation of network and information systems supporting your essential function(s)."
+      "source_quote": "You have not clearly articulated the impact of data compromise or lack of availability. You have identified all mobile devices and media that hold data important to the operation of network and information systems supporting your essential function(s).",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection and security requirements"
     },
     {
       "section": "2 (part 7)",
@@ -649,7 +671,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Network and information systems and technology critical for the operation of essential functions are protected from cyber attack."
+      "source_quote": "Network and information systems and technology critical for the operation of essential functions are protected from cyber attack.",
+      "relevance_score": 3,
+      "relevance_reason": "Core cyber-security for financial data systems"
     },
     {
       "section": "2 (part 8)",
@@ -688,7 +712,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "You have business continuity and disaster recovery plans that have been tested for practicality, effectiveness and completeness. Appropriate use is made of different test methods (e.g. manual fail-over, table-top exercises, or red-teaming)."
+      "source_quote": "You have business continuity and disaster recovery plans that have been tested for practicality, effectiveness and completeness. Appropriate use is made of different test methods (e.g. manual fail-over, table-top exercises, or red-teaming).",
+      "relevance_score": 3,
+      "relevance_reason": "Resilience for critical functions impacts data security and continuity"
     },
     {
       "section": "2 (part 9)",
@@ -723,7 +749,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "All people in your organisation, from the most senior to the most junior, follow appropriate cyber security training paths. Each individual's cyber security training is tracked and refreshed at suitable intervals."
+      "source_quote": "All people in your organisation, from the most senior to the most junior, follow appropriate cyber security training paths. Each individual's cyber security training is tracked and refreshed at suitable intervals.",
+      "relevance_score": 3,
+      "relevance_reason": "Cyber security training directly impacts data protection and breach prevention"
     },
     {
       "section": "2 (part 10)",
@@ -766,7 +794,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "You contextualise alerts with knowledge of the threat and your systems, to identify security incidents as well as responding to all alerts appropriately."
+      "source_quote": "You contextualise alerts with knowledge of the threat and your systems, to identify security incidents as well as responding to all alerts appropriately.",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response directly impacts data protection and breach handling"
     },
     {
       "section": "2 (part 11)",
@@ -809,7 +839,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The organisation proactively seeks to detect, within networks and information systems, adverse activity affecting, or with the potential to affect, the operation of essential functions even when the activity evades standard security prevent / detect solutions"
+      "source_quote": "The organisation proactively seeks to detect, within networks and information systems, adverse activity affecting, or with the potential to affect, the operation of essential functions even when the activity evades standard security prevent / detect solutions",
+      "relevance_score": 3,
+      "relevance_reason": "Cyber incident response for critical functions"
     },
     {
       "section": "2 (part 12)",
@@ -848,7 +880,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "When an incident occurs, steps are taken to understand its causes and to ensure remediating action is taken to protect against future incidents."
+      "source_quote": "When an incident occurs, steps are taken to understand its causes and to ensure remediating action is taken to protect against future incidents.",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response and security improvements directly impact data protection"
     }
   ]
 }

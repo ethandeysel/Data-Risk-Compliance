@@ -180,7 +180,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "Definitions of financial terms, not directly data-specific"
     },
     {
       "section": "16 (part 2)",
@@ -200,7 +202,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "16 (part 3)",
@@ -256,7 +260,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Reserve Bank may have regard to any or all of the following: (i) Any failure to comply with any condition to which the designation is subject; (ii) whether or not the designated clearing system participant has knowingly furnished information or documents which are false or misleading in any material respect to the Reserve Bank in connection with the designation; (iii) whether or not it is in the public interest to revoke the designation; (iv) No variation of the conditions to which a designation is subject or revocation of designation shall have retroactive effect."
+      "source_quote": "The Reserve Bank may have regard to any or all of the following: (i) Any failure to comply with any condition to which the designation is subject; (ii) whether or not the designated clearing system participant has knowingly furnished information or documents which are false or misleading in any material respect to the Reserve Bank in connection with the designation; (iii) whether or not it is in the public interest to revoke the designation; (iv) No variation of the conditions to which a designation is subject or revocation of designation shall have retroactive effect.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for financial data compliance"
     },
     {
       "section": "16 (part 4)",
@@ -311,7 +317,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Reserve Bank has access to any information relating to a payment system and the Reserve Bank settlement system, and any person must on request provide such information to the Reserve Bank in such form and at such times as the Reserve Bank may require."
+      "source_quote": "The Reserve Bank has access to any information relating to a payment system and the Reserve Bank settlement system, and any person must on request provide such information to the Reserve Bank in such form and at such times as the Reserve Bank may require.",
+      "relevance_score": 3,
+      "relevance_reason": "Reserve Bank confidentiality and financial data handling"
     }
   ]
 }

@@ -46,7 +46,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Take our website user survey\nWe're making improvements to our website and we'd love to hear your thoughts.\nPlease take five minutes to complete this survey to give your feedback."
+      "source_quote": "Take our website user survey\nWe're making improvements to our website and we'd love to hear your thoughts.\nPlease take five minutes to complete this survey to give your feedback.",
+      "relevance_score": 0,
+      "relevance_reason": "No legal obligations or permissions established"
     },
     {
       "section": "p2",
@@ -147,7 +149,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The guidance on this page is suitable for large businesses in the public, private and third sectors."
+      "source_quote": "The guidance on this page is suitable for large businesses in the public, private and third sectors.",
+      "relevance_score": 3,
+      "relevance_reason": "Core accountability/governance for data compliance"
     },
     {
       "section": "p3",
@@ -184,7 +188,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Sample DPIA Template\nWas this page helpful? (optional)\nSend\nHelp us improve our website"
+      "source_quote": "Sample DPIA Template\nWas this page helpful? (optional)\nSend\nHelp us improve our website",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential website feedback mechanism"
     }
   ]
 }

@@ -26,7 +26,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Taking investment instrument or intermediated security free"
+      "source_quote": "Taking investment instrument or intermediated security free",
+      "relevance_score": 0,
+      "relevance_reason": "Purely financial instruments, no data privacy link"
     },
     {
       "section": "74",
@@ -51,7 +53,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Execution creditor has priority over unperfected security"
+      "source_quote": "Execution creditor has priority over unperfected security",
+      "relevance_score": 0,
+      "relevance_reason": "Unrelated to data compliance"
     },
     {
       "section": "81",
@@ -76,7 +80,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Rights on transfer of account or chattel paper—contractual"
+      "source_quote": "Rights on transfer of account or chattel paper—contractual",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "103",
@@ -101,7 +107,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Priority of purchase money security interest in processed or"
+      "source_quote": "Priority of purchase money security interest in processed or",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "345",
@@ -141,7 +149,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Act applies to a security interest in goods or financial property if: (a) the location of the goods or property is in Australia; or (b) the grantor is an Australian entity."
+      "source_quote": "This Act applies to a security interest in goods or financial property if: (a) the location of the goods or property is in Australia; or (b) the grantor is an Australian entity.",
+      "relevance_score": 2,
+      "relevance_reason": "Applies to financial data under Australian jurisdiction"
     },
     {
       "section": "345 (part 2)",
@@ -161,7 +171,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 3)",
@@ -289,7 +301,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 10: A security interest is an interest in personal property provided for by a transaction that secures payment or the performance of an obligation. The form of the transaction and the identity of the person who has title to the property do not affect whether an interest is a security interest. Certain transactions that do not secure payment or the performance of an obligation may also give rise to a security interest: transfers of accounts, consignments and certain long-term leases and bailments (called PPS leases)."
+      "source_quote": "Section 10: A security interest is an interest in personal property provided for by a transaction that secures payment or the performance of an obligation. The form of the transaction and the identity of the person who has title to the property do not affect whether an interest is a security interest. Certain transactions that do not secure payment or the performance of an obligation may also give rise to a security interest: transfers of accounts, consignments and certain long-term leases and bailments (called PPS leases).",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial definitions"
     },
     {
       "section": "345 (part 4)",
@@ -309,7 +323,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 5)",
@@ -382,7 +398,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Section 12: A security interest means an interest in personal property provided for by a transaction that, in substance, secures payment or performance of an obligation (without regard to the form of the transaction or the identity of the person who has title to the property)."
+      "source_quote": "Section 12: A security interest means an interest in personal property provided for by a transaction that, in substance, secures payment or performance of an obligation (without regard to the form of the transaction or the identity of the person who has title to the property).",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: security interests not directly related to data protection"
     },
     {
       "section": "345 (part 6)",
@@ -402,7 +420,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 7)",
@@ -455,7 +475,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 15(4) to (7) of the Act: An intermediary (including a central securities depository) is an intermediary only while acting in the capacity of an intermediary. A person is not an intermediary for the purposes of paragraph (2)(a) or (c) merely because the person maintains a securities account on behalf of the issuer of the financial products to which the account relates. A securities account means: (a) an account to which interests in financial products may be credited or debited; or (b) in the case of an intermediary mentioned in paragraph 15(2)(b)—a record of holdings and transfers of interests in financial products."
+      "source_quote": "Section 15(4) to (7) of the Act: An intermediary (including a central securities depository) is an intermediary only while acting in the capacity of an intermediary. A person is not an intermediary for the purposes of paragraph (2)(a) or (c) merely because the person maintains a securities account on behalf of the issuer of the financial products to which the account relates. A securities account means: (a) an account to which interests in financial products may be credited or debited; or (b) in the case of an intermediary mentioned in paragraph 15(2)(b)—a record of holdings and transfers of interests in financial products.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines intermediary and securities account for financial data"
     },
     {
       "section": "345 (part 8)",
@@ -513,7 +535,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 21(1) to (4) of the Act: A security interest in particular collateral is perfected if: (a) the security interest is temporarily perfected, or otherwise perfected, by force of this Act; or (b) all of the following apply: (i) the security interest is attached to the collateral; (ii) the security interest is enforceable against a third party; (iii) subsection (2) applies. A security interest in particular collateral is perfected if the secured party has possession of the collateral (other than possession as a result of seizure or repossession)."
+      "source_quote": "Section 21(1) to (4) of the Act: A security interest in particular collateral is perfected if: (a) the security interest is temporarily perfected, or otherwise perfected, by force of this Act; or (b) all of the following apply: (i) the security interest is attached to the collateral; (ii) the security interest is enforceable against a third party; (iii) subsection (2) applies. A security interest in particular collateral is perfected if the secured party has possession of the collateral (other than possession as a result of seizure or repossession).",
+      "relevance_score": 0,
+      "relevance_reason": "Pure security interest perfection rules, no data compliance relevance"
     },
     {
       "section": "345 (part 9)",
@@ -557,7 +581,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 27(2): A person, other than the debtor or grantor, has control of an investment instrument if the issuer of the instrument registers the person as the registered owner of the instrument."
+      "source_quote": "Section 27(2): A person, other than the debtor or grantor, has control of an investment instrument if the issuer of the instrument registers the person as the registered owner of the instrument.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines control conditions for financial instruments"
     },
     {
       "section": "345 (part 10)",
@@ -597,7 +623,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 35(1): A security interest in goods that is perfected by possession... is temporarily perfected for the period covered by subsection (2) if possession... is given to the grantor or the debtor at a particular time for the purpose of sale, exchange, or other actions."
+      "source_quote": "Section 35(1): A security interest in goods that is perfected by possession... is temporarily perfected for the period covered by subsection (2) if possession... is given to the grantor or the debtor at a particular time for the purpose of sale, exchange, or other actions.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial security interest mechanics, no data handling"
     },
     {
       "section": "345 (part 11)",
@@ -650,7 +678,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If a sale or lease of goods creates an account or chattel paper, and the account or chattel paper is transferred to another person, the transferee is taken to have a security interest in the goods if, at a particular time (the repossession time) the goods come into the possession of the transferor, or of the transferee, in any of the following circumstances: (a) in the case of a sale—the contract of sale is rescinded; (b) in the case of a lease—the lease expires or is rescinded; (c) the transferee seizes the goods in the exercise of a right in enforcing a security agreement; (d) the transferor repossesses the goods in the exercise of a right in enforcing the contract of sale or the lease; (e) any other circumstances prescribed by the regulations."
+      "source_quote": "If a sale or lease of goods creates an account or chattel paper, and the account or chattel paper is transferred to another person, the transferee is taken to have a security interest in the goods if, at a particular time (the repossession time) the goods come into the possession of the transferor, or of the transferee, in any of the following circumstances: (a) in the case of a sale—the contract of sale is rescinded; (b) in the case of a lease—the lease expires or is rescinded; (c) the transferee seizes the goods in the exercise of a right in enforcing a security agreement; (d) the transferor repossesses the goods in the exercise of a right in enforcing the contract of sale or the lease; (e) any other circumstances prescribed by the regulations.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "345 (part 12)",
@@ -699,7 +729,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A buyer or lessee of personal property, for value, takes the personal property free of an unperfected security interest in the property."
+      "source_quote": "A buyer or lessee of personal property, for value, takes the personal property free of an unperfected security interest in the property.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "345 (part 13)",
@@ -754,7 +786,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 55(3): A perfected security interest in collateral has priority over an unperfected security interest in the same collateral."
+      "source_quote": "Section 55(3): A perfected security interest in collateral has priority over an unperfected security interest in the same collateral.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial governance, not direct data privacy/security"
     },
     {
       "section": "345 (part 14)",
@@ -774,7 +808,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 15)",
@@ -838,7 +874,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 66: The transferor-granted interest has priority if it was perfected immediately before the transfer and has been continuously perfected since the transfer."
+      "source_quote": "Section 66: The transferor-granted interest has priority if it was perfected immediately before the transfer and has been continuously perfected since the transfer.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial collateral security rules, no data privacy/cross-border transfer relevance"
     },
     {
       "section": "345 (part 16)",
@@ -858,7 +896,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 17)",
@@ -901,7 +941,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Rights of transferee subject to: (a) terms of contract between account debtor and transferor; (b) any other equity, defence or claim of account debtor against transferor."
+      "source_quote": "Rights of transferee subject to: (a) terms of contract between account debtor and transferor; (b) any other equity, defence or claim of account debtor against transferor.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial collateral transfer mechanics, no data protection angle"
     },
     {
       "section": "345 (part 18)",
@@ -948,7 +990,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A security interest may attach to crops while they are growing."
+      "source_quote": "A security interest may attach to crops while they are growing.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "345 (part 19)",
@@ -996,7 +1040,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any priority that a security interest continuing in the product or mass has over another security interest in the product or mass is limited to the value of the goods on the day on which they became part of the product or mass."
+      "source_quote": "Any priority that a security interest continuing in the product or mass has over another security interest in the product or mass is limited to the value of the goods on the day on which they became part of the product or mass.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "345 (part 20)",
@@ -1048,7 +1094,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In exercising rights and remedies provided by this Chapter, a secured party may deal with collateral only to the same extent as the grantor would be entitled to so deal with the collateral."
+      "source_quote": "In exercising rights and remedies provided by this Chapter, a secured party may deal with collateral only to the same extent as the grantor would be entitled to so deal with the collateral.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure enforcement of security interests, no data handling"
     },
     {
       "section": "345 (part 21)",
@@ -1097,7 +1145,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The secured party may enforce the security interest in the same way, with any necessary modification, as the interest in the land may be enforced under the land law."
+      "source_quote": "The secured party may enforce the security interest in the same way, with any necessary modification, as the interest in the land may be enforced under the land law.",
+      "relevance_score": 0,
+      "relevance_reason": "Security interests not data protection"
     },
     {
       "section": "345 (part 22)",
@@ -1117,7 +1167,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 23)",
@@ -1156,7 +1208,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A secured party who disposes of collateral under section 128 (other than by purchasing the collateral) owes a duty, to any other person with a security interest in the collateral, and to the grantor, immediately before the disposal, to exercise all reasonable care: (a) if the collateral has a market value at the time of disposal—to obtain at least that market value; or (b) otherwise—to obtain the best price that is reasonably obtainable at the time of disposal, having regard to the circumstances existing at that time."
+      "source_quote": "A secured party who disposes of collateral under section 128 (other than by purchasing the collateral) owes a duty, to any other person with a security interest in the collateral, and to the grantor, immediately before the disposal, to exercise all reasonable care: (a) if the collateral has a market value at the time of disposal—to obtain at least that market value; or (b) otherwise—to obtain the best price that is reasonably obtainable at the time of disposal, having regard to the circumstances existing at that time.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial collateral disposal rule, no data handling"
     },
     {
       "section": "345 (part 24)",
@@ -1206,7 +1260,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A secured party must, on request by any other person with a security interest in the collateral, or the grantor, give the person (or grantor) a written statement of account, if the first-mentioned secured party disposes of collateral under section 128 (including by purchasing the collateral in accordance with section 129)."
+      "source_quote": "A secured party must, on request by any other person with a security interest in the collateral, or the grantor, give the person (or grantor) a written statement of account, if the first-mentioned secured party disposes of collateral under section 128 (including by purchasing the collateral in accordance with section 129).",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial data procedure"
     },
     {
       "section": "345 (part 25)",
@@ -1251,7 +1307,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Part 4.4 Rules applying after enforcement: (a) by paying the amounts required to discharge the obligations, or by performing the obligations, secured by security interests in the collateral; and (b) by paying the amount of any expenses in relation to the enforcement of the security interest, the payment of which is secured by the security interest."
+      "source_quote": "Part 4.4 Rules applying after enforcement: (a) by paying the amounts required to discharge the obligations, or by performing the obligations, secured by security interests in the collateral; and (b) by paying the amount of any expenses in relation to the enforcement of the security interest, the payment of which is secured by the security interest.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance"
     },
     {
       "section": "345 (part 26)",
@@ -1297,7 +1355,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 152: A financing statement, or a financing change statement, may be registered whether or not: (a) the personal property to which the statement relates is located in Australia; or (b) any person who owns or has rights in that property is located in Australia."
+      "source_quote": "Section 152: A financing statement, or a financing change statement, may be registered whether or not: (a) the personal property to which the statement relates is located in Australia; or (b) any person who owns or has rights in that property is located in Australia.",
+      "relevance_score": 2,
+      "relevance_reason": "Security registration rules for cross-border financial data"
     },
     {
       "section": "345 (part 27)",
@@ -1353,7 +1413,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Registrar must ensure that a verification statement in relation to a registration event is given to the following persons: (a) a person registered as a secured party in the registration immediately before the time of the registration event; (b) a person registered as a secured party in the registration immediately after the time of the registration event."
+      "source_quote": "The Registrar must ensure that a verification statement in relation to a registration event is given to the following persons: (a) a person registered as a secured party in the registration immediately before the time of the registration event; (b) a person registered as a secured party in the registration immediately after the time of the registration event.",
+      "relevance_score": 2,
+      "relevance_reason": "Third-party data handling and privacy interference"
     },
     {
       "section": "345 (part 28)",
@@ -1397,7 +1459,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A registration with respect to a security interest that describes particular collateral, in relation to a secured party, is effective with respect to that collateral from the registration time for the description of the collateral until the earliest of the following times: (a) the end time (if any) registered for the collateral; (b) if the registration is amended to omit the collateral description—the amendment time; (c) the time when the description of the collateral in the registration stops being available for search in the register (by reference to that time) in respect of the secured party."
+      "source_quote": "A registration with respect to a security interest that describes particular collateral, in relation to a secured party, is effective with respect to that collateral from the registration time for the description of the collateral until the earliest of the following times: (a) the end time (if any) registered for the collateral; (b) if the registration is amended to omit the collateral description—the amendment time; (c) the time when the description of the collateral in the registration stops being available for search in the register (by reference to that time) in respect of the secured party.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential security registration timing"
     },
     {
       "section": "345 (part 29)",
@@ -1432,7 +1496,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Search otherwise than for authorised purpose (3) A searcher mentioned in an item in the table in subsection (2) must not, otherwise than for the purpose specified in the item: (a) access the register to search for data; or (b) use data obtained as a result of accessing the register, unless the searcher has also obtained the data lawfully from another source."
+      "source_quote": "Search otherwise than for authorised purpose (3) A searcher mentioned in an item in the table in subsection (2) must not, otherwise than for the purpose specified in the item: (a) access the register to search for data; or (b) use data obtained as a result of accessing the register, unless the searcher has also obtained the data lawfully from another source.",
+      "relevance_score": 3,
+      "relevance_reason": "Financial data access with strict purpose limits"
     },
     {
       "section": "345 (part 30)",
@@ -1468,7 +1534,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Third party data does not include personal information, within the meaning of the Privacy Act 1988, about an individual."
+      "source_quote": "Third party data does not include personal information, within the meaning of the Privacy Act 1988, about an individual.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-party data access in financial registries with privacy compliance"
     },
     {
       "section": "345 (part 31)",
@@ -1538,7 +1606,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 180(1): The Registrar may give the secured party a notice (an amendment notice) of the amendment demanded."
+      "source_quote": "Section 180(1): The Registrar may give the secured party a notice (an amendment notice) of the amendment demanded.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for data compliance"
     },
     {
       "section": "345 (part 32)",
@@ -1604,7 +1674,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 192(1): The Registrar must prepare and give to the Minister an annual report on the operation of this Act as soon as practicable after the end of each financial year."
+      "source_quote": "Section 192(1): The Registrar must prepare and give to the Minister an annual report on the operation of this Act as soon as practicable after the end of each financial year.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: fee structures, annual reports, registration"
     },
     {
       "section": "345 (part 33)",
@@ -1648,7 +1720,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Section 202(1) and (2): A Deputy Registrar may resign by writing signed by him or her and given to the Minister. The resignation takes effect on the day it is received by the Minister or, if a later day is specified in the resignation, on that later day."
+      "source_quote": "Section 202(1) and (2): A Deputy Registrar may resign by writing signed by him or her and given to the Minister. The resignation takes effect on the day it is received by the Minister or, if a later day is specified in the resignation, on that later day.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant administrative procedure"
     },
     {
       "section": "345 (part 34)",
@@ -1696,7 +1770,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 205: Jurisdiction is conferred on the Federal Court, the Federal Circuit and Family Court of Australia (Division 1), the Federal Circuit and Family Court of Australia (Division 2), and courts of States and Territories for PPS matters. The Registrar may intervene in judicial proceedings."
+      "source_quote": "Section 205: Jurisdiction is conferred on the Federal Court, the Federal Circuit and Family Court of Australia (Division 1), the Federal Circuit and Family Court of Australia (Division 2), and courts of States and Territories for PPS matters. The Registrar may intervene in judicial proceedings.",
+      "relevance_score": 2,
+      "relevance_reason": "Court procedures for cross-border data transfers"
     },
     {
       "section": "345 (part 35)",
@@ -1751,7 +1827,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 239: The validity of a security interest in intangible property is governed by the law of the jurisdiction (other than the law relating to conflict of laws) in which the grantor is located when the security interest attaches, under that law, to the property."
+      "source_quote": "Section 239: The validity of a security interest in intangible property is governed by the law of the jurisdiction (other than the law relating to conflict of laws) in which the grantor is located when the security interest attaches, under that law, to the property.",
+      "relevance_score": 2,
+      "relevance_reason": "Security interest law determination for financial data"
     },
     {
       "section": "345 (part 36)",
@@ -1771,7 +1849,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 37)",
@@ -1851,7 +1931,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Section 244(2) of the Personal Property Securities Act 2009: A State is a referring State even if the State's referral law provides that: (a) the reference to the Commonwealth of a matter covered by subsection (3) or (4) is to terminate in particular circumstances; or (b) the adoption of the relevant version of this Act is to terminate in particular circumstances; or (c) any or all of the State's amendment references have not commenced in relation to a particular kind (or kinds) of personal property (or so commence at or after the registration commencement time); or (d) the reference to the Commonwealth Parliament of a matter covered by subsection (3) or (4) has effect only: (i) if, and to the extent that, the matter is not otherwise included in the legislative powers of the Commonwealth Parliament (otherwise than by a reference under paragraph 51(xxxvii) of the Constitution); or (ii) if and to the extent that the matter is included in the legislative powers of the Parliament of the State."
+      "source_quote": "Section 244(2) of the Personal Property Securities Act 2009: A State is a referring State even if the State's referral law provides that: (a) the reference to the Commonwealth of a matter covered by subsection (3) or (4) is to terminate in particular circumstances; or (b) the adoption of the relevant version of this Act is to terminate in particular circumstances; or (c) any or all of the State's amendment references have not commenced in relation to a particular kind (or kinds) of personal property (or so commence at or after the registration commencement time); or (d) the reference to the Commonwealth Parliament of a matter covered by subsection (3) or (4) has effect only: (i) if, and to the extent that, the matter is not otherwise included in the legislative powers of the Commonwealth Parliament (otherwise than by a reference under paragraph 51(xxxvii) of the Constitution); or (ii) if and to the extent that the matter is included in the legislative powers of the Parliament of the State.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "345 (part 38)",
@@ -1871,7 +1953,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 39)",
@@ -1910,7 +1994,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "If there is any inconsistency between this Act and one of the following Acts (the other Act), the other Act prevails to the extent of the inconsistency: (a) the Payment Systems and Netting Act 1998; (b) the Cheques Act 1986; (c) the Bills of Exchange Act 1909; (d) the International Interests in Mobile Equipment (Cape Town Convention) Act 2013."
+      "source_quote": "If there is any inconsistency between this Act and one of the following Acts (the other Act), the other Act prevails to the extent of the inconsistency: (a) the Payment Systems and Netting Act 1998; (b) the Cheques Act 1986; (c) the Bills of Exchange Act 1909; (d) the International Interests in Mobile Equipment (Cape Town Convention) Act 2013.",
+      "relevance_score": 2,
+      "relevance_reason": "Security laws override data compliance"
     },
     {
       "section": "345 (part 40)",
@@ -1949,7 +2035,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "In the event of the bankruptcy of an individual grantor, or the winding up or the entry into administration of a body corporate grantor, a secured party's unperfected security interest vests in the grantor."
+      "source_quote": "In the event of the bankruptcy of an individual grantor, or the winding up or the entry into administration of a body corporate grantor, a secured party's unperfected security interest vests in the grantor.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: bankruptcy procedures, not data compliance"
     },
     {
       "section": "345 (part 41)",
@@ -2004,7 +2092,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Security interests to which vesting rule does not apply (1) Subsection 267(2) and section 267A (security interests vested in grantor) do not apply to the following security interests: (a) a security interest provided for by any of the following transactions, if the interest does not secure the payment or performance of an obligation: (i) a transfer of an account or chattel paper; (iii) a commercial consignment; (aa) a security interest for which perfection, and the effect of perfection or non-perfection, is governed by the law of a foreign jurisdiction at the time mentioned in paragraph 267(1)(b); (b) a security interest covered by subsection (2) of this section."
+      "source_quote": "Security interests to which vesting rule does not apply (1) Subsection 267(2) and section 267A (security interests vested in grantor) do not apply to the following security interests: (a) a security interest provided for by any of the following transactions, if the interest does not secure the payment or performance of an obligation: (i) a transfer of an account or chattel paper; (iii) a commercial consignment; (aa) a security interest for which perfection, and the effect of perfection or non-perfection, is governed by the law of a foreign jurisdiction at the time mentioned in paragraph 267(1)(b); (b) a security interest covered by subsection (2) of this section.",
+      "relevance_score": 2,
+      "relevance_reason": "Security interests and cross-border aspects"
     },
     {
       "section": "345 (part 42)",
@@ -2059,7 +2149,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Secured party to provide certain information relating to security interest (1) An interested person mentioned in subsection (9) may request a secured party who holds a security interest in collateral to send or make available to the interested person, or any other person, any of the following: (a) a copy of the security agreement that provides for the security interest; (b) a statement in writing setting out the amount or the obligation that is secured by the security interest and the terms of payment or performance of the obligation, as at the day specified in the request; (c) a written approval or correction of an itemised list of personal property attached to the request indicating in which items of property the security interest is granted, as at the day specified in the request; (d) a written approval or correction of the following attached to the request, as at the day specified in the request: (i) the amount or the obligation that is secured by the security interest; (ii) the terms of payment or performance of the obligation."
+      "source_quote": "Secured party to provide certain information relating to security interest (1) An interested person mentioned in subsection (9) may request a secured party who holds a security interest in collateral to send or make available to the interested person, or any other person, any of the following: (a) a copy of the security agreement that provides for the security interest; (b) a statement in writing setting out the amount or the obligation that is secured by the security interest and the terms of payment or performance of the obligation, as at the day specified in the request; (c) a written approval or correction of an itemised list of personal property attached to the request indicating in which items of property the security interest is granted, as at the day specified in the request; (d) a written approval or correction of the following attached to the request, as at the day specified in the request: (i) the amount or the obligation that is secured by the security interest; (ii) the terms of payment or performance of the obligation.",
+      "relevance_score": 2,
+      "relevance_reason": "Security disclosure obligations with timeframes"
     },
     {
       "section": "345 (part 43)",
@@ -2098,7 +2190,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Part 8.5  Notices and timing\nSection 288\n(a) a registration includes 2 or more secured parties; and\n(b) a notice or document is required or permitted to be given to each of the secured parties."
+      "source_quote": "Part 8.5  Notices and timing\nSection 288\n(a) a registration includes 2 or more secured parties; and\n(b) a notice or document is required or permitted to be given to each of the secured parties.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for notices"
     },
     {
       "section": "345 (part 44)",
@@ -2137,7 +2231,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Part 8.6—Onus of proof and knowledge\nSection 295\nThis Part provides that the onus of proving certain facts lies with the person asserting those facts."
+      "source_quote": "Part 8.6—Onus of proof and knowledge\nSection 295\nThis Part provides that the onus of proving certain facts lies with the person asserting those facts.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure legal definition of secured transactions, no data protection link"
     },
     {
       "section": "345 (part 45)",
@@ -2222,7 +2318,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Part 9.3—Initial application of this Act. This Act starts to apply to the following at the registration commencement time (26 months after the Act is given the Royal Assent, or another time determined by the Minister): (a) new security agreements; (b) security interests arising after commencement; (c) transitional security agreements and interests; (d) new interests in personal property; (e) prescribed personal property; (f) migrated personal property data from Commonwealth, State and Territory registers."
+      "source_quote": "Part 9.3—Initial application of this Act. This Act starts to apply to the following at the registration commencement time (26 months after the Act is given the Royal Assent, or another time determined by the Minister): (a) new security agreements; (b) security interests arising after commencement; (c) transitional security agreements and interests; (d) new interests in personal property; (e) prescribed personal property; (f) migrated personal property data from Commonwealth, State and Territory registers.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: security interests, not data protection"
     },
     {
       "section": "345 (part 46)",
@@ -2242,7 +2340,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer"
     },
     {
       "section": "345 (part 47)",
@@ -2310,7 +2410,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 334(1): If data is registered with respect to personal property in a financing statement under subsection 333(2) on the basis that the property is in a class determined under subsection 333(1), but the personal property is not, in fact, in the determined class, this Act applies as if the data is not, and never has been, included in the register."
+      "source_quote": "Section 334(1): If data is registered with respect to personal property in a financing statement under subsection 333(2) on the basis that the property is in a class determined under subsection 333(1), but the personal property is not, in fact, in the determined class, this Act applies as if the data is not, and never has been, included in the register.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: security registration rules not directly data compliance"
     },
     {
       "section": "345 (part 48)",
@@ -2357,7 +2459,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 340(1): For the purposes of this Act, if a grantor grants a security interest in personal property to a secured party, the personal property is a circulating asset if: (a) the personal property is covered by subsection (5) (unless subsection (2) or (3) applies); or (b) in any other case—the secured party has given the grantor express or implied authority for any transfer of the personal property to be made, in the ordinary course of the grantor's business, free of the security interest."
+      "source_quote": "Section 340(1): For the purposes of this Act, if a grantor grants a security interest in personal property to a secured party, the personal property is a circulating asset if: (a) the personal property is covered by subsection (5) (unless subsection (2) or (3) applies); or (b) in any other case—the secured party has given the grantor express or implied authority for any transfer of the personal property to be made, in the ordinary course of the grantor's business, free of the security interest.",
+      "relevance_score": 2,
+      "relevance_reason": "Security interests and control mechanisms for financial assets"
     },
     {
       "section": "347",
@@ -2377,7 +2481,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "commencement/assent dates"
     }
   ]
 }

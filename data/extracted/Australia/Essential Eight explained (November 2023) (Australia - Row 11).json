@@ -58,7 +58,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Essential Eight mitigation strategies are: patch applications, patch operating systems, multi-factor authentication, restrict administrative privileges, application control, restrict Microsoft Office macros, user application hardening, regular backups."
+      "source_quote": "The Essential Eight mitigation strategies are: patch applications, patch operating systems, multi-factor authentication, restrict administrative privileges, application control, restrict Microsoft Office macros, user application hardening, regular backups.",
+      "relevance_score": 3,
+      "relevance_reason": "Core cybersecurity mitigation for data protection"
     },
     {
       "section": "p2",
@@ -87,7 +89,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Assessments against the Essential Eight should be conducted using the Essential Eight assessment process guide."
+      "source_quote": "Assessments against the Essential Eight should be conducted using the Essential Eight assessment process guide.",
+      "relevance_score": 2,
+      "relevance_reason": "Assessment process for security standards"
     },
     {
       "section": "p3",
@@ -107,7 +111,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "The material in this guide is of a general nature and should not be regarded as legal advice or relied on for assistance in any particular circumstance or emergency situation."
+      "source_quote": "The material in this guide is of a general nature and should not be regarded as legal advice or relied on for assistance in any particular circumstance or emergency situation.",
+      "relevance_score": 0,
+      "relevance_reason": "Disclaimer/copyright not relevant to compliance"
     }
   ]
 }

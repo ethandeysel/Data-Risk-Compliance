@@ -44,7 +44,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act); (d) section 92 of the Private Health Insurance (Prudential Supervision) Act 2015 (PHIPS Act); and (e) section 34C of the Superannuation Industry (Supervision) Act 1993 (SIS Act)."
+      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act); (d) section 92 of the Private Health Insurance (Prudential Supervision) Act 2015 (PHIPS Act); and (e) section 34C of the Superannuation Industry (Supervision) Act 1993 (SIS Act).",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance, not data compliance"
     },
     {
       "section": "2",
@@ -87,7 +89,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard applies to all 'APRA-regulated entities' defined as: (a) authorized deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorized under the Banking Act (authorized banking NOHCs); (b) general insurers, including Category C insurers, non-operating holding companies authorized under the Insurance Act (authorised insurance NOHCs), and parent entities of Level 2 insurance groups; (c) life companies, including friendly societies, eligible foreign life insurance companies (EFLICs) and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs); (d) private health insurers registered under the PHIPS Act; and (e) RSE licensees under the SIS Act in respect of their business operations."
+      "source_quote": "This Prudential Standard applies to all 'APRA-regulated entities' defined as: (a) authorized deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorized under the Banking Act (authorized banking NOHCs); (b) general insurers, including Category C insurers, non-operating holding companies authorized under the Insurance Act (authorised insurance NOHCs), and parent entities of Level 2 insurance groups; (c) life companies, including friendly societies, eligible foreign life insurance companies (EFLICs) and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs); (d) private health insurers registered under the PHIPS Act; and (e) RSE licensees under the SIS Act in respect of their business operations.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines entities subject to data compliance"
     },
     {
       "section": "3",
@@ -114,7 +118,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The obligations imposed by this Prudential Standard on, or in relation to, a foreign ADI, a Category C insurer or an EFLIC apply only in relation to the Australian branch operations of that entity."
+      "source_quote": "The obligations imposed by this Prudential Standard on, or in relation to, a foreign ADI, a Category C insurer or an EFLIC apply only in relation to the Australian branch operations of that entity.",
+      "relevance_score": 2,
+      "relevance_reason": "Applies to foreign entities' branch operations scope for data compliance"
     },
     {
       "section": "4",
@@ -157,7 +163,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an APRA-regulated entity is the 'Head of a group', it must comply with a requirement of this Prudential Standard: (a) in its capacity as an APRA-regulated entity; (b) by ensuring that the requirement is applied appropriately throughout the group, including in relation to entities that are not APRA-regulated; and (c) on a group basis."
+      "source_quote": "Where an APRA-regulated entity is the 'Head of a group', it must comply with a requirement of this Prudential Standard: (a) in its capacity as an APRA-regulated entity; (b) by ensuring that the requirement is applied appropriately throughout the group, including in relation to entities that are not APRA-regulated; and (c) on a group basis.",
+      "relevance_score": 2,
+      "relevance_reason": "Group compliance for APRA-regulated entities"
     },
     {
       "section": "6",
@@ -184,7 +192,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an APRA-regulated entity's information assets are managed by a third party, the requirements in this Prudential Standard will apply in relation to those information assets from the earlier of the next renewal date of the contract with the third party or 1 July 2020."
+      "source_quote": "Where an APRA-regulated entity's information assets are managed by a third party, the requirements in this Prudential Standard will apply in relation to those information assets from the earlier of the next renewal date of the contract with the third party or 1 July 2020.",
+      "relevance_score": 2,
+      "relevance_reason": "Third-party compliance timeline for data management"
     },
     {
       "section": "7",
@@ -211,7 +221,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Terms that are defined in Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001), Prudential Standard LPS 001 Definitions, Prudential Standard HPS 001 Definitions or Prudential Standard 3PS 001 Definitions appear in bold the first time they are used in this Prudential Standard."
+      "source_quote": "Terms that are defined in Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001), Prudential Standard LPS 001 Definitions, Prudential Standard HPS 001 Definitions or Prudential Standard 3PS 001 Definitions appear in bold the first time they are used in this Prudential Standard.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance terminology consistency"
     },
     {
       "section": "8",
@@ -236,7 +248,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "In this Prudential Standard, unless the contrary intention appears, a reference to an Act, Regulation or Prudential Standard is a reference to the Act, Regulation or Prudential Standard as in force from time to time."
+      "source_quote": "In this Prudential Standard, unless the contrary intention appears, a reference to an Act, Regulation or Prudential Standard is a reference to the Act, Regulation or Prudential Standard as in force from time to time.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement/assent dates"
     },
     {
       "section": "10",
@@ -273,7 +287,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "For the purposes of this Prudential Standard: ‘group' means a Level 2 group or a Level 3 group, as relevant; ‘Head of a group' means a Level 2 Head or Level 3 Head, as relevant; ‘Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; ‘Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001."
+      "source_quote": "For the purposes of this Prudential Standard: ‘group' means a Level 2 group or a Level 3 group, as relevant; ‘Head of a group' means a Level 2 Head or Level 3 Head, as relevant; ‘Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; ‘Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001.",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: organizational structure definitions"
     },
     {
       "section": "12",
@@ -346,7 +362,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "The following definitions are used in this Prudential Standard: (a) availability refers to accessibility and usability when required; (b) confidentiality refers to access being restricted only to those authorised; (c) criticality refers to the potential impact of a loss of availability; (d) information asset means information and information technology, including software, hardware and data (both soft and hard copy); (e) information security means the preservation of an information asset's confidentiality, integrity and availability; (f) information security capability means the totality of resources, skills and controls which provide the ability and capacity to maintain information security; (g) information security control means a prevention, detection or response measure to reduce the likelihood or impact of an information security incident; (h) information security incident means an actual or potential compromise of information security; (i) information security policy framework means the totality of policies, standards, guidelines and procedures pertaining to information security; (j) information security threat (threat) is a circumstance or event that has the potential to exploit an information security vulnerability; (k) information security vulnerability (vulnerability) is a weakness in an information asset or information security control that could be exploited to compromise information security; (l) integrity refers to completeness, accuracy and freedom from unauthorised change or usage; and (m) sensitivity means the potential impact of a loss of confidentiality or integrity."
+      "source_quote": "The following definitions are used in this Prudential Standard: (a) availability refers to accessibility and usability when required; (b) confidentiality refers to access being restricted only to those authorised; (c) criticality refers to the potential impact of a loss of availability; (d) information asset means information and information technology, including software, hardware and data (both soft and hard copy); (e) information security means the preservation of an information asset's confidentiality, integrity and availability; (f) information security capability means the totality of resources, skills and controls which provide the ability and capacity to maintain information security; (g) information security control means a prevention, detection or response measure to reduce the likelihood or impact of an information security incident; (h) information security incident means an actual or potential compromise of information security; (i) information security policy framework means the totality of policies, standards, guidelines and procedures pertaining to information security; (j) information security threat (threat) is a circumstance or event that has the potential to exploit an information security vulnerability; (k) information security vulnerability (vulnerability) is a weakness in an information asset or information security control that could be exploited to compromise information security; (l) integrity refers to completeness, accuracy and freedom from unauthorised change or usage; and (m) sensitivity means the potential impact of a loss of confidentiality or integrity.",
+      "relevance_score": 3,
+      "relevance_reason": "Core definitions for data security and compliance"
     },
     {
       "section": "13",
@@ -381,7 +399,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Board4 of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity. The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity."
+      "source_quote": "The Board4 of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity. The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity.",
+      "relevance_score": 3,
+      "relevance_reason": "Board info security responsibility for APRA entities"
     },
     {
       "section": "14",
@@ -412,7 +432,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must clearly define the information security-related roles and responsibilities of the Board, senior management, governing bodies and individuals with responsibility for decision-making, approval, oversight, operations and other information security functions."
+      "source_quote": "An APRA-regulated entity must clearly define the information security-related roles and responsibilities of the Board, senior management, governing bodies and individuals with responsibility for decision-making, approval, oversight, operations and other information security functions.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA governance roles for data security oversight"
     },
     {
       "section": "15",
@@ -443,7 +465,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must maintain an information security capability commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity."
+      "source_quote": "An APRA-regulated entity must maintain an information security capability commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity.",
+      "relevance_score": 3,
+      "relevance_reason": "Information security capability for APRA entities"
     },
     {
       "section": "16",
@@ -477,7 +501,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where information assets are managed by a related party or third party, the APRA-regulated entity must assess the information security capability of that party, commensurate with the potential consequences of an information security incident affecting those assets."
+      "source_quote": "Where information assets are managed by a related party or third party, the APRA-regulated entity must assess the information security capability of that party, commensurate with the potential consequences of an information security incident affecting those assets.",
+      "relevance_score": 3,
+      "relevance_reason": "APRA requires security assessments for third parties handling personal data"
     },
     {
       "section": "17",
@@ -510,7 +536,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must actively maintain its information security capability with respect to changes in vulnerabilities and threats, including those resulting from changes to information assets or its business environment."
+      "source_quote": "An APRA-regulated entity must actively maintain its information security capability with respect to changes in vulnerabilities and threats, including those resulting from changes to information assets or its business environment.",
+      "relevance_score": 3,
+      "relevance_reason": "APRA security requirements for personal data"
     },
     {
       "section": "18",
@@ -543,7 +571,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must maintain an information security policy framework commensurate with its exposures to vulnerabilities and threats."
+      "source_quote": "An APRA-regulated entity must maintain an information security policy framework commensurate with its exposures to vulnerabilities and threats.",
+      "relevance_score": 3,
+      "relevance_reason": "Core security policy for data protection"
     },
     {
       "section": "19",
@@ -573,7 +603,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity's information security policy framework must provide direction on the responsibilities of all parties who have an obligation to maintain information security."
+      "source_quote": "An APRA-regulated entity's information security policy framework must provide direction on the responsibilities of all parties who have an obligation to maintain information security.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data security responsibilities for regulated entities"
     },
     {
       "section": "20",
@@ -606,7 +638,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must classify its information assets, including those managed by related parties and third parties, by criticality and sensitivity. This classification must reflect the degree to which an information security incident affecting an information asset has the potential to affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers."
+      "source_quote": "An APRA-regulated entity must classify its information assets, including those managed by related parties and third parties, by criticality and sensitivity. This classification must reflect the degree to which an information security incident affecting an information asset has the potential to affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA classification for security incidents impacts data handling"
     },
     {
       "section": "21",
@@ -655,7 +689,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must have information security controls to protect its information assets, including those managed by related parties and third parties, that are implemented in a timely manner and that are commensurate with: (a) vulnerabilities and threats to the information assets; (b) the criticality and sensitivity of the information assets; (c) the stage at which the information assets are within their life-cycle; and (d) the potential consequences of an information security incident."
+      "source_quote": "An APRA-regulated entity must have information security controls to protect its information assets, including those managed by related parties and third parties, that are implemented in a timely manner and that are commensurate with: (a) vulnerabilities and threats to the information assets; (b) the criticality and sensitivity of the information assets; (c) the stage at which the information assets are within their life-cycle; and (d) the potential consequences of an information security incident.",
+      "relevance_score": 3,
+      "relevance_reason": "Core security controls for data protection"
     },
     {
       "section": "22",
@@ -685,7 +721,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an APRA-regulated entity's information assets are managed by a related party or third party, the APRA-regulated entity must evaluate the design of that party's information security controls that protects the information assets of the APRA-regulated entity."
+      "source_quote": "Where an APRA-regulated entity's information assets are managed by a related party or third party, the APRA-regulated entity must evaluate the design of that party's information security controls that protects the information assets of the APRA-regulated entity.",
+      "relevance_score": 3,
+      "relevance_reason": "APRA-regulated entities must evaluate security controls for third parties handling personal data"
     },
     {
       "section": "23",
@@ -716,7 +754,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must have robust mechanisms in place to detect and respond to information security incidents in a timely manner."
+      "source_quote": "An APRA-regulated entity must have robust mechanisms in place to detect and respond to information security incidents in a timely manner.",
+      "relevance_score": 3,
+      "relevance_reason": "APRA requires timely incident detection/response for breaches"
     },
     {
       "section": "24",
@@ -747,7 +787,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must maintain plans to respond to information security incidents that the entity considers could plausibly occur (information security response plans)."
+      "source_quote": "An APRA-regulated entity must maintain plans to respond to information security incidents that the entity considers could plausibly occur (information security response plans).",
+      "relevance_score": 3,
+      "relevance_reason": "core breach notification requirement"
     },
     {
       "section": "25",
@@ -782,7 +824,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity's information security response plans must include the mechanisms in place for: (a) managing all relevant stages of an incident, from detection to post-incident review; and (b) escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate."
+      "source_quote": "An APRA-regulated entity's information security response plans must include the mechanisms in place for: (a) managing all relevant stages of an incident, from detection to post-incident review; and (b) escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate.",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response for breaches and APRA oversight"
     },
     {
       "section": "26",
@@ -813,7 +857,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must annually review and test its information security response plans to ensure they remain effective and fit-for-purpose."
+      "source_quote": "An APRA-regulated entity must annually review and test its information security response plans to ensure they remain effective and fit-for-purpose.",
+      "relevance_score": 3,
+      "relevance_reason": "Annual security response plan testing ensures breach readiness"
     },
     {
       "section": "27",
@@ -862,7 +908,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must test the effectiveness of its information security controls through a systematic testing program. The nature and frequency of the systematic testing must be commensurate with: (a) the rate at which the vulnerabilities and threats change; (b) the criticality and sensitivity of the information asset; (c) the consequences of an information security incident; (d) the risks associated with exposure to environments where the APRA-regulated entity is unable to enforce its information security policies; and (e) the materiality and frequency of change to information assets."
+      "source_quote": "An APRA-regulated entity must test the effectiveness of its information security controls through a systematic testing program. The nature and frequency of the systematic testing must be commensurate with: (a) the rate at which the vulnerabilities and threats change; (b) the criticality and sensitivity of the information asset; (c) the consequences of an information security incident; (d) the risks associated with exposure to environments where the APRA-regulated entity is unable to enforce its information security policies; and (e) the materiality and frequency of change to information assets.",
+      "relevance_score": 3,
+      "relevance_reason": "Systematic testing of security controls ensures data protection and security compliance"
     },
     {
       "section": "28",
@@ -891,7 +939,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an APRA-regulated entity's information assets are managed by a related party or a third party, and the APRA-regulated entity is reliant on that party's information security control testing, the APRA-regulated entity must assess whether the nature and frequency of testing of controls in respect of those information assets is commensurate with paragraphs 27(a) to 27(e) of this Prudential Standard."
+      "source_quote": "Where an APRA-regulated entity's information assets are managed by a related party or a third party, and the APRA-regulated entity is reliant on that party's information security control testing, the APRA-regulated entity must assess whether the nature and frequency of testing of controls in respect of those information assets is commensurate with paragraphs 27(a) to 27(e) of this Prudential Standard.",
+      "relevance_score": 3,
+      "relevance_reason": "APRA security testing for related parties"
     },
     {
       "section": "29",
@@ -921,7 +971,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must escalate and report to the Board or senior management any testing results that identify information security control deficiencies that cannot be remediated in a timely manner."
+      "source_quote": "An APRA-regulated entity must escalate and report to the Board or senior management any testing results that identify information security control deficiencies that cannot be remediated in a timely manner.",
+      "relevance_score": 3,
+      "relevance_reason": "Critical security control deficiencies impact data protection and breach response"
     },
     {
       "section": "31",
@@ -950,7 +1002,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must review the sufficiency of the testing program at least annually or when there is a material change to information assets or the business environment."
+      "source_quote": "An APRA-regulated entity must review the sufficiency of the testing program at least annually or when there is a material change to information assets or the business environment.",
+      "relevance_score": 3,
+      "relevance_reason": "Annual security testing review for data transfers"
     },
     {
       "section": "32",
@@ -979,7 +1033,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity's internal audit activities must include a review of the design and operating effectiveness of information security controls, including those maintained by related parties and third parties (information security control assurance)."
+      "source_quote": "An APRA-regulated entity's internal audit activities must include a review of the design and operating effectiveness of information security controls, including those maintained by related parties and third parties (information security control assurance).",
+      "relevance_score": 2,
+      "relevance_reason": "Internal audit of third-party security controls"
     },
     {
       "section": "33",
@@ -1008,7 +1064,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must ensure that the information security control assurance is provided by personnel appropriately skilled in providing such assurance."
+      "source_quote": "An APRA-regulated entity must ensure that the information security control assurance is provided by personnel appropriately skilled in providing such assurance.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA security assurance for personnel"
     },
     {
       "section": "34",
@@ -1037,7 +1095,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity's internal audit function must assess the information security control assurance provided by a related party or third party where: (a) an information security incident affecting the information assets has the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; and (b) internal audit intends to rely on the information security control assurance provided by the related party or third party."
+      "source_quote": "An APRA-regulated entity's internal audit function must assess the information security control assurance provided by a related party or third party where: (a) an information security incident affecting the information assets has the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; and (b) internal audit intends to rely on the information security control assurance provided by the related party or third party.",
+      "relevance_score": 2,
+      "relevance_reason": "Internal audit for third-party security incidents"
     },
     {
       "section": "35",
@@ -1075,7 +1135,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 72 hours, after becoming aware of an information security incident that: (a) materially affected, or had the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; or (b) has been notified to other regulators, either in Australia or other jurisdictions."
+      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 72 hours, after becoming aware of an information security incident that: (a) materially affected, or had the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; or (b) has been notified to other regulators, either in Australia or other jurisdictions.",
+      "relevance_score": 3,
+      "relevance_reason": "Breach notification for financial data"
     },
     {
       "section": "36",
@@ -1113,7 +1175,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 10 business days, after it becomes aware of a material information security control weakness which the entity expects it will not be able to remediate in a timely manner."
+      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 10 business days, after it becomes aware of a material information security control weakness which the entity expects it will not be able to remediate in a timely manner.",
+      "relevance_score": 3,
+      "relevance_reason": "core breach notification for APRA-regulated entities"
     }
   ]
 }

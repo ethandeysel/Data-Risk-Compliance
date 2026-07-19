@@ -116,7 +116,9 @@
           "obligation_type": "[]"
         }
       ],
-      "source_quote": "1.  Digital signatures, as defined in the Third Schedule."
+      "source_quote": "1.  Digital signatures, as defined in the Third Schedule.",
+      "relevance_score": 2,
+      "relevance_reason": "Definitions of digital signature terms"
     },
     {
       "section": "3",
@@ -167,7 +169,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+      "relevance_score": 2,
+      "relevance_reason": "Certification authority requirements for secure signatures"
     },
     {
       "section": "8",
@@ -206,7 +210,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Where a rule of law requires a signature, or provides for certain consequences if a document or record is not signed, that requirement is satisfied in relation to an electronic record if — (a) a method is used to identify the person and to indicate that person's intention in respect of the information contained in the electronic record; and (b) the method used is either — (i) as reliable as appropriate for the purpose for which the electronic record was generated or communicated, in the light of all the circumstances, including any relevant agreement; or (ii) proven in fact to have fulfilled the functions described in paragraph (a), by itself or together with further evidence."
+      "source_quote": "Where a rule of law requires a signature, or provides for certain consequences if a document or record is not signed, that requirement is satisfied in relation to an electronic record if — (a) a method is used to identify the person and to indicate that person's intention in respect of the information contained in the electronic record; and (b) the method used is either — (i) as reliable as appropriate for the purpose for which the electronic record was generated or communicated, in the light of all the circumstances, including any relevant agreement; or (ii) proven in fact to have fulfilled the functions described in paragraph (a), by itself or together with further evidence.",
+      "relevance_score": 3,
+      "relevance_reason": "Signature requirements for electronic records"
     },
     {
       "section": "15",
@@ -249,7 +255,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "15.—(1) By issuing a certificate, a certification authority represents to any person who reasonably relies on the certificate or a digital signature verifiable by the public key listed in the certificate that the certification authority has issued the certificate in accordance with any applicable certification practice statement incorporated by reference in the certificate, or of which the relying person has notice."
+      "source_quote": "15.—(1) By issuing a certificate, a certification authority represents to any person who reasonably relies on the certificate or a digital signature verifiable by the public key listed in the certificate that the certification authority has issued the certificate in accordance with any applicable certification practice statement incorporated by reference in the certificate, or of which the relying person has notice.",
+      "relevance_score": 3,
+      "relevance_reason": "Certification for secure digital identity"
     },
     {
       "section": "15 (part 2)",
@@ -269,7 +277,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Automated message system contracts"
     },
     {
       "section": "15 (part 3)",
@@ -314,7 +324,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "If a specified security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specific point in time, such record is treated as a secure electronic record from such specific point in time to the time of verification."
+      "source_quote": "If a specified security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specific point in time, such record is treated as a secure electronic record from such specific point in time to the time of verification.",
+      "relevance_score": 3,
+      "relevance_reason": "Secure electronic records/signatures directly impact data protection and cross-border transfers"
     },
     {
       "section": "15 (part 4)",
@@ -353,7 +365,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Minister may make regulations to provide for the cross-border recognition of specified security procedure providers or specified security procedures or any processes or records related thereto."
+      "source_quote": "The Minister may make regulations to provide for the cross-border recognition of specified security procedure providers or specified security procedures or any processes or records related thereto.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border security procedures for data transfers"
     },
     {
       "section": "38",
@@ -373,7 +387,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "1",
@@ -488,7 +504,9 @@
           "obligation_type": "[]"
         }
       ],
-      "source_quote": "1.  Digital signatures, as defined in the Third Schedule."
+      "source_quote": "1.  Digital signatures, as defined in the Third Schedule.",
+      "relevance_score": 2,
+      "relevance_reason": "Definitions of digital signature terms"
     },
     {
       "section": "3",
@@ -539,7 +557,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+      "relevance_score": 2,
+      "relevance_reason": "Certification authority requirements for secure signatures"
     },
     {
       "section": "4",
@@ -566,7 +586,9 @@
           "obligation_type": "Presumption"
         }
       ],
-      "source_quote": "4.  It is presumed, unless evidence to the contrary is adduced, that the information (except for information identified as subscriber information which has not been verified) listed in a certificate issued by an accredited certification authority, a public certification authority or a recognised certification authority, or in a recognised certificate, is correct if the certificate was accepted by the subscriber."
+      "source_quote": "4.  It is presumed, unless evidence to the contrary is adduced, that the information (except for information identified as subscriber information which has not been verified) listed in a certificate issued by an accredited certification authority, a public certification authority or a recognised certification authority, or in a recognised certificate, is correct if the certificate was accepted by the subscriber.",
+      "relevance_score": 2,
+      "relevance_reason": "Presumption of certificate accuracy affects data reliability"
     },
     {
       "section": "5",
@@ -609,7 +631,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "5.  Unless otherwise provided by law or contract, a person relying on a digitally signed electronic record assumes the risk that the digital signature is invalid as a signature or an authentication of the signed electronic record, if reliance on the digital signature is not reasonable under the circumstances having regard to the following factors:"
+      "source_quote": "5.  Unless otherwise provided by law or contract, a person relying on a digitally signed electronic record assumes the risk that the digital signature is invalid as a signature or an authentication of the signed electronic record, if reliance on the digital signature is not reasonable under the circumstances having regard to the following factors:",
+      "relevance_score": 2,
+      "relevance_reason": "Risks of digital signature validity in data reliance"
     },
     {
       "section": "9",
@@ -636,7 +660,9 @@
           "obligation_type": "Penalty"
         }
       ],
-      "source_quote": "9.  Any person who knowingly misrepresents to a certification authority the person's identity or authorisation for the purpose of requesting for a certificate or for suspension or revocation of a certificate shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 6 months or to both."
+      "source_quote": "9.  Any person who knowingly misrepresents to a certification authority the person's identity or authorisation for the purpose of requesting for a certificate or for suspension or revocation of a certificate shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 6 months or to both.",
+      "relevance_score": 2,
+      "relevance_reason": "Penalty for misrepresentation in certificate applications"
     },
     {
       "section": "11",
@@ -679,7 +705,9 @@
           "obligation_type": "Exemption"
         }
       ],
-      "source_quote": "11.  Unless an accredited certification authority, a public certification authority or a recognised certification authority waives the application of this paragraph, an accredited certification authority, a public certification authority or a recognised certification authority shall not be liable —"
+      "source_quote": "11.  Unless an accredited certification authority, a public certification authority or a recognised certification authority waives the application of this paragraph, an accredited certification authority, a public certification authority or a recognised certification authority shall not be liable —",
+      "relevance_score": 3,
+      "relevance_reason": "Liability exemptions for digital signatures"
     },
     {
       "section": "12",
@@ -730,7 +758,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "12. A certification authority must utilise trustworthy systems in performing its services."
+      "source_quote": "12. A certification authority must utilise trustworthy systems in performing its services.",
+      "relevance_score": 3,
+      "relevance_reason": "Certification systems for digital trust and breach notification"
     },
     {
       "section": "17",
@@ -801,7 +831,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "17. A certification authority must revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber listed in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist."
+      "source_quote": "17. A certification authority must revoke a certificate that it issued — (a) after receiving a request for revocation by the subscriber listed in the certificate; and confirming that the person requesting the revocation is the subscriber, or is an agent of the subscriber with authority to request the revocation; (b) after receiving a certified copy of the subscriber's death certificate, or upon confirming by other evidence that the subscriber is dead; or (c) upon presentation of documents effecting a dissolution of the subscriber, or upon confirming by other evidence that the subscriber has been dissolved or has ceased to exist.",
+      "relevance_score": 2,
+      "relevance_reason": "Certification revocation for data security"
     },
     {
       "section": "22",
@@ -844,7 +876,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, must be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority."
+      "source_quote": "All material representations made by the subscriber to a certification authority for purposes of obtaining a certificate, including all information known to the subscriber and represented in the certificate, must be accurate and complete to the best of the subscriber's knowledge and belief, regardless of whether such representations are confirmed by the certification authority.",
+      "relevance_score": 3,
+      "relevance_reason": "Data accuracy and certificate obligations"
     },
     {
       "section": "25",
@@ -874,7 +908,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A subscriber who has accepted a certificate must as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised."
+      "source_quote": "A subscriber who has accepted a certificate must as soon as possible request the issuing certification authority to suspend or revoke the certificate if the private key corresponding to the public key listed in the certificate has been compromised.",
+      "relevance_score": 3,
+      "relevance_reason": "Key compromise breach response"
     },
     {
       "section": "3",
@@ -925,7 +961,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —"
+      "source_quote": "3.  When any portion of an electronic record is signed with a digital signature, the digital signature is to be treated as a secure electronic signature with respect to such portion of the record, if —",
+      "relevance_score": 2,
+      "relevance_reason": "Certification authority requirements for secure signatures"
     }
   ]
 }

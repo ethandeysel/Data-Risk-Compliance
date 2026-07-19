@@ -42,7 +42,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act); (d) section 92 of the Private Health Insurance (Prudential Supervision) Act 2015 (PHIPS Act); and (e) section 34C of the Superannuation Industry (Supervision) Act 1993 (SIS Act)."
+      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act); (d) section 92 of the Private Health Insurance (Prudential Supervision) Act 2015 (PHIPS Act); and (e) section 34C of the Superannuation Industry (Supervision) Act 1993 (SIS Act).",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: commencement dates, legal basis"
     },
     {
       "section": "2",
@@ -83,7 +85,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard applies to all APRA-regulated entities defined as: (a) authorized deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorized under the Banking Act (authorized banking NOHCs); (b) general insurers, including Category C insurers, non-operating holding companies authorized under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; (c) life companies, including friendly societies, eligible foreign life insurance companies (EFLICs) and registered NOHCs; (d) private health insurers registered under the PHIPS Act; and (e) registrable superannuation entity licensees (RSE licensees) under the SIS Act in respect of their business operations."
+      "source_quote": "This Prudential Standard applies to all APRA-regulated entities defined as: (a) authorized deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorized under the Banking Act (authorized banking NOHCs); (b) general insurers, including Category C insurers, non-operating holding companies authorized under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; (c) life companies, including friendly societies, eligible foreign life insurance companies (EFLICs) and registered NOHCs; (d) private health insurers registered under the PHIPS Act; and (e) registrable superannuation entity licensees (RSE licensees) under the SIS Act in respect of their business operations.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: defines entities covered by standard, not data-specific"
     },
     {
       "section": "11",
@@ -118,7 +122,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must: (a) effectively manage its operational risks, and set and maintain appropriate standards for conduct and compliance; (b) maintain its critical operations within tolerance levels through severe disruptions; and (c) manage the risks associated with the use of service providers."
+      "source_quote": "An APRA-regulated entity must: (a) effectively manage its operational risks, and set and maintain appropriate standards for conduct and compliance; (b) maintain its critical operations within tolerance levels through severe disruptions; and (c) manage the risks associated with the use of service providers.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA operational risk management for financial entities"
     },
     {
       "section": "15",
@@ -165,7 +171,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "As part of its risk management framework required under Prudential Standard CPS 220 Risk Management (CPS 220) and Prudential Standard SPS 220 Risk Management (SPS 220), an APRA-regulated entity must develop and maintain: (a) governance arrangements for the oversight of operational risk; (b) an assessment of its operational risk profile, with a defined risk appetite supported by indicators, limits and tolerance levels; (c) internal controls that are designed and operating effectively for the management of operational risks; (d) appropriate monitoring, analysis and reporting of operational risks and escalation processes for operational incidents and events; (e) business continuity plan(s) (BCPs) that set out how the entity would identify, manage and respond to a disruption within tolerance levels and are regularly tested with severe but plausible scenarios; and (f) processes for the management of service provider arrangements."
+      "source_quote": "As part of its risk management framework required under Prudential Standard CPS 220 Risk Management (CPS 220) and Prudential Standard SPS 220 Risk Management (SPS 220), an APRA-regulated entity must develop and maintain: (a) governance arrangements for the oversight of operational risk; (b) an assessment of its operational risk profile, with a defined risk appetite supported by indicators, limits and tolerance levels; (c) internal controls that are designed and operating effectively for the management of operational risks; (d) appropriate monitoring, analysis and reporting of operational risks and escalation processes for operational incidents and events; (e) business continuity plan(s) (BCPs) that set out how the entity would identify, manage and respond to a disruption within tolerance levels and are regularly tested with severe but plausible scenarios; and (f) processes for the management of service provider arrangements.",
+      "relevance_score": 2,
+      "relevance_reason": "Operational risk framework for financial data"
     },
     {
       "section": "21",
@@ -212,7 +220,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Board must: (a) oversee operational risk management and the effectiveness of key internal controls in maintaining the entity's operational risk profile within risk appetite. The Board must be provided with regular updates on the APRA-regulated entity's operational risk profile and ensure senior management takes action as required to address any areas of concern; (b) approve the BCP and tolerance levels for disruptions to critical operations, review the results of testing and oversee the execution of any findings; and (c) approve the service provider management policy, and review risk and performance reporting on material service providers."
+      "source_quote": "The Board must: (a) oversee operational risk management and the effectiveness of key internal controls in maintaining the entity's operational risk profile within risk appetite. The Board must be provided with regular updates on the APRA-regulated entity's operational risk profile and ensure senior management takes action as required to address any areas of concern; (b) approve the BCP and tolerance levels for disruptions to critical operations, review the results of testing and oversee the execution of any findings; and (c) approve the service provider management policy, and review risk and performance reporting on material service providers.",
+      "relevance_score": 2,
+      "relevance_reason": "Board oversight of operational risk management"
     },
     {
       "section": "23",
@@ -243,7 +253,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must manage its full range of operational risks, including but not limited to legal risk, regulatory risk, compliance risk, conduct risk, technology risk, data risk and change management risk. Senior management are responsible for operational risk management across the end-to-end process for all business operations."
+      "source_quote": "An APRA-regulated entity must manage its full range of operational risks, including but not limited to legal risk, regulatory risk, compliance risk, conduct risk, technology risk, data risk and change management risk. Senior management are responsible for operational risk management across the end-to-end process for all business operations.",
+      "relevance_score": 2,
+      "relevance_reason": "Operational risk scope includes data risks"
     },
     {
       "section": "24",
@@ -282,7 +294,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must maintain appropriate and sound information and information technology (IT) capability to meet its current and projected business requirements and to support its critical operations and risk management."
+      "source_quote": "An APRA-regulated entity must maintain appropriate and sound information and information technology (IT) capability to meet its current and projected business requirements and to support its critical operations and risk management.",
+      "relevance_score": 3,
+      "relevance_reason": "Core operational risk management for data security"
     },
     {
       "section": "26",
@@ -319,7 +333,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must maintain a comprehensive assessment of its operational risk profile. As part of this, an APRA-regulated entity must: (a) maintain appropriate and effective information systems to monitor operational risk, compile and analyse operational risk data and facilitate reporting to the Board and senior management; (b) identify and document the processes and resources needed to deliver critical operations, including people, technology, information, facilities and service providers, the interdependencies across them, and the associated risks, obligations, key data and controls; and (c) undertake scenario analysis to identify and assess the potential impact of severe operational risk events, test its operational resilience and identify the need for new or amended controls and other mitigation strategies."
+      "source_quote": "An APRA-regulated entity must maintain a comprehensive assessment of its operational risk profile. As part of this, an APRA-regulated entity must: (a) maintain appropriate and effective information systems to monitor operational risk, compile and analyse operational risk data and facilitate reporting to the Board and senior management; (b) identify and document the processes and resources needed to deliver critical operations, including people, technology, information, facilities and service providers, the interdependencies across them, and the associated risks, obligations, key data and controls; and (c) undertake scenario analysis to identify and assess the potential impact of severe operational risk events, test its operational resilience and identify the need for new or amended controls and other mitigation strategies.",
+      "relevance_score": 2,
+      "relevance_reason": "Operational risk management for financial data"
     },
     {
       "section": "30",
@@ -360,7 +376,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must remediate material weaknesses in its operational risk management, including control gaps, weaknesses and failures. This remediation must be supported by clear accountabilities and assurance and address the root causes of weaknesses in a timely manner. An APRA-regulated entity must include identified control gaps, weaknesses and failures in its operational risk profile until such matters are remediated."
+      "source_quote": "An APRA-regulated entity must remediate material weaknesses in its operational risk management, including control gaps, weaknesses and failures. This remediation must be supported by clear accountabilities and assurance and address the root causes of weaknesses in a timely manner. An APRA-regulated entity must include identified control gaps, weaknesses and failures in its operational risk profile until such matters are remediated.",
+      "relevance_score": 2,
+      "relevance_reason": "Operational risk remediation impacts data security controls"
     },
     {
       "section": "31",
@@ -393,7 +411,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must ensure that operational risk incidents and near misses are identified, escalated, recorded and addressed in a timely manner. An APRA-regulated entity must take incidents and near misses into account in its assessment of its operational risk profile and control effectiveness in a timely manner."
+      "source_quote": "An APRA-regulated entity must ensure that operational risk incidents and near misses are identified, escalated, recorded and addressed in a timely manner. An APRA-regulated entity must take incidents and near misses into account in its assessment of its operational risk profile and control effectiveness in a timely manner.",
+      "relevance_score": 2,
+      "relevance_reason": "Operational risk reporting for financial data"
     },
     {
       "section": "32",
@@ -422,7 +442,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible, and not later than 72 hours, after becoming aware of an operational risk incident that it determines to be likely to have a material financial impact or a material impact on the ability of the entity to maintain its critical operations."
+      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible, and not later than 72 hours, after becoming aware of an operational risk incident that it determines to be likely to have a material financial impact or a material impact on the ability of the entity to maintain its critical operations.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA breach notification for financial data"
     },
     {
       "section": "33",
@@ -465,7 +487,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must: (a) define, identify and maintain a register of its critical operations; (b) take reasonable steps to minimise the likelihood and impact of disruptions to its critical operations; (c) maintain a credible BCP that sets out how it would maintain its critical operations within tolerance levels through disruptions, including disaster recovery planning for critical information assets; (d) activate its BCP if needed in the event of a disruption; and (e) return to normal operations promptly after a disruption is over."
+      "source_quote": "An APRA-regulated entity must: (a) define, identify and maintain a register of its critical operations; (b) take reasonable steps to minimise the likelihood and impact of disruptions to its critical operations; (c) maintain a credible BCP that sets out how it would maintain its critical operations within tolerance levels through disruptions, including disaster recovery planning for critical information assets; (d) activate its BCP if needed in the event of a disruption; and (e) return to normal operations promptly after a disruption is over.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA-regulated entities must maintain business continuity plans for critical operations"
     },
     {
       "section": "34",
@@ -500,7 +524,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Critical operations are processes undertaken by an APRA-regulated entity or its service provider which, if disrupted beyond tolerance levels, would have a material adverse impact on its depositors, policyholders, beneficiaries or other customers, or its role in the financial system."
+      "source_quote": "Critical operations are processes undertaken by an APRA-regulated entity or its service provider which, if disrupted beyond tolerance levels, would have a material adverse impact on its depositors, policyholders, beneficiaries or other customers, or its role in the financial system.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines critical operations impacting financial data"
     },
     {
       "section": "35",
@@ -543,7 +569,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must, at a minimum, classify the following business operations as critical operations, unless it can justify otherwise: (a) for an ADI: payments, deposit-taking and management, custody, settlements and clearing; (b) for an insurer (general, life, private health): claims processing; (c) for an RSE licensee: investment management and fund administration; and (d) for all APRA-regulated entities: customer enquiries and the systems and infrastructure needed to support critical operations."
+      "source_quote": "An APRA-regulated entity must, at a minimum, classify the following business operations as critical operations, unless it can justify otherwise: (a) for an ADI: payments, deposit-taking and management, custody, settlements and clearing; (b) for an insurer (general, life, private health): claims processing; (c) for an RSE licensee: investment management and fund administration; and (d) for all APRA-regulated entities: customer enquiries and the systems and infrastructure needed to support critical operations.",
+      "relevance_score": 2,
+      "relevance_reason": "Critical operations classification for financial entities"
     },
     {
       "section": "41",
@@ -589,7 +617,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible, and not later than 24 hours after, if it has suffered a disruption to a critical operation outside tolerance. The notification must cover the nature of the disruption, the action taken, the likely impact on the entity's business operations and the timeframe for returning to normal operations."
+      "source_quote": "An APRA-regulated entity must notify APRA as soon as possible, and not later than 24 hours after, if it has suffered a disruption to a critical operation outside tolerance. The notification must cover the nature of the disruption, the action taken, the likely impact on the entity's business operations and the timeframe for returning to normal operations.",
+      "relevance_score": 2,
+      "relevance_reason": "Breach Notification requirement"
     },
     {
       "section": "49",
@@ -632,7 +662,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated entity must, at a minimum, classify a provider of the following services as a material service provider, unless it can justify otherwise: (a) for an ADI: credit assessment, funding and liquidity management and mortgage brokerage; (b) for an insurer (general, life, private health): underwriting, claims management, insurance brokerage and reinsurance; (c) for an RSE licensee: fund administration, custodial services, investment management and arrangements with promoters and financial planners; and (d) for all APRA-regulated entities: risk management, core technology services and internal audit."
+      "source_quote": "An APRA-regulated entity must, at a minimum, classify a provider of the following services as a material service provider, unless it can justify otherwise: (a) for an ADI: credit assessment, funding and liquidity management and mortgage brokerage; (b) for an insurer (general, life, private health): underwriting, claims management, insurance brokerage and reinsurance; (c) for an RSE licensee: fund administration, custodial services, investment management and arrangements with promoters and financial planners; and (d) for all APRA-regulated entities: risk management, core technology services and internal audit.",
+      "relevance_score": 2,
+      "relevance_reason": "Material service providers for financial entities"
     },
     {
       "section": "52",
@@ -667,7 +699,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before entering into or materially modifying a material arrangement, an APRA-regulated entity must: (a) undertake appropriate due diligence, including an appropriate selection process and an assessment of the ability of the service provider to provide the service on an ongoing basis; and (b) assess the financial and non-financial risks from reliance on the service provider, including risks associated with geographic location or concentration of the service provider(s) or parties the service provider relies on in providing the service."
+      "source_quote": "Before entering into or materially modifying a material arrangement, an APRA-regulated entity must: (a) undertake appropriate due diligence, including an appropriate selection process and an assessment of the ability of the service provider to provide the service on an ongoing basis; and (b) assess the financial and non-financial risks from reliance on the service provider, including risks associated with geographic location or concentration of the service provider(s) or parties the service provider relies on in providing the service.",
+      "relevance_score": 2,
+      "relevance_reason": "Assesses service provider risks for data transfers"
     },
     {
       "section": "53",
@@ -726,7 +760,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For all material arrangements, an APRA-regulated entity must maintain a formal legally binding agreement (formal agreement). The formal agreement must, at a minimum: (a) specify the services covered by the agreement and associated service levels; (b) set out the rights, responsibilities and expectations of each party to the agreement, including in relation to the ownership of assets, ownership and control of data, dispute resolution, audit access, liability and indemnity; (c) include provisions to ensure the ability of the entity to meet its legal and compliance obligations; (d) require notification by the service provider of its use of other material service providers that it materially relies upon in providing the service to the APRA-regulated entity through sub-contracting or other arrangements; (e) require the liability for any failure on the part of any sub-contractor to be the responsibility of the service provider; (f) include a force majeure provision indicating those parts of the contract that would continue in the case of a force majeure event; and (g) termination provisions including, but not limited to, the right to terminate both the arrangement in its entirety or parts of the arrangement."
+      "source_quote": "For all material arrangements, an APRA-regulated entity must maintain a formal legally binding agreement (formal agreement). The formal agreement must, at a minimum: (a) specify the services covered by the agreement and associated service levels; (b) set out the rights, responsibilities and expectations of each party to the agreement, including in relation to the ownership of assets, ownership and control of data, dispute resolution, audit access, liability and indemnity; (c) include provisions to ensure the ability of the entity to meet its legal and compliance obligations; (d) require notification by the service provider of its use of other material service providers that it materially relies upon in providing the service to the APRA-regulated entity through sub-contracting or other arrangements; (e) require the liability for any failure on the part of any sub-contractor to be the responsibility of the service provider; (f) include a force majeure provision indicating those parts of the contract that would continue in the case of a force majeure event; and (g) termination provisions including, but not limited to, the right to terminate both the arrangement in its entirety or parts of the arrangement.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA agreements cover data control and third-party risks"
     },
     {
       "section": "61",
@@ -761,7 +797,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "61. An APRA-regulated entity's internal audit function must review any proposed material arrangement involving the outsourcing of a critical operation. The internal audit function must regularly report to the Board or Board Audit Committee on compliance of such arrangements with the entity's service provider management policy."
+      "source_quote": "61. An APRA-regulated entity's internal audit function must review any proposed material arrangement involving the outsourcing of a critical operation. The internal audit function must regularly report to the Board or Board Audit Committee on compliance of such arrangements with the entity's service provider management policy.",
+      "relevance_score": 2,
+      "relevance_reason": "Third-party outsourcing audit for critical operations"
     }
   ]
 }

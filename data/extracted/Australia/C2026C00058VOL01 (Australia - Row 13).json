@@ -41,7 +41,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A company has a separate legal existence that is distinct from that of its owners, managers, operators, employees and agents. A company has its own property, its own rights and its own obligations."
+      "source_quote": "A company has a separate legal existence that is distinct from that of its owners, managers, operators, employees and agents. A company has its own property, its own rights and its own obligations.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant to data compliance"
     },
     {
       "section": "3",
@@ -81,7 +83,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A proprietary company limited by shares must have at least 1 shareholder. To obtain registration, a person must lodge a properly completed application form with ASIC."
+      "source_quote": "A proprietary company limited by shares must have at least 1 shareholder. To obtain registration, a person must lodge a properly completed application form with ASIC.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: company registration basics"
     },
     {
       "section": "4",
@@ -119,7 +123,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Each year, ASIC issues each company with an extract of particulars within 2 weeks of the company's review date."
+      "source_quote": "Each year, ASIC issues each company with an extract of particulars within 2 weeks of the company's review date.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general record-keeping for company registration"
     },
     {
       "section": "5",
@@ -154,7 +160,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Directors must act in good faith, act in the best interests of the company, avoid conflicts between the interests of the company and the director's interests."
+      "source_quote": "Directors must act in good faith, act in the best interests of the company, avoid conflicts between the interests of the company and the director's interests.",
+      "relevance_score": 2,
+      "relevance_reason": "Directors' duties relate to data governance but not core data protection"
     },
     {
       "section": "6",
@@ -191,7 +199,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "A person may become a shareholder of a company in several ways, including the following: the person being listed as a shareholder of the company in the application for registration of the company, the company issuing shares to the person, the person buying shares in the company from an existing shareholder and the company registering the transfer."
+      "source_quote": "A person may become a shareholder of a company in several ways, including the following: the person being listed as a shareholder of the company in the application for registration of the company, the company issuing shares to the person, the person buying shares in the company from an existing shareholder and the company registering the transfer.",
+      "relevance_score": 0,
+      "relevance_reason": "Shareholder registration unrelated to data compliance"
     },
     {
       "section": "6 (part 2)",
@@ -211,7 +221,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "data transfer rules"
     },
     {
       "section": "6 (part 3)",
@@ -260,7 +272,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 112(2) states: A company may be registered as a no liability company only if: (a) the company has a share capital; and (b) the company's constitution states that its sole objects are mining purposes; and (c) the company has no contractual right under its constitution to recover calls made on its shares from a shareholder who fails to pay them."
+      "source_quote": "Section 112(2) states: A company may be registered as a no liability company only if: (a) the company has a share capital; and (b) the company's constitution states that its sole objects are mining purposes; and (c) the company has no contractual right under its constitution to recover calls made on its shares from a shareholder who fails to pay them.",
+      "relevance_score": 0,
+      "relevance_reason": "No data compliance relevance"
     },
     {
       "section": "6 (part 4)",
@@ -309,7 +323,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 117(2) requires: The application must state: (a) the type of company; (b) the company's proposed name; (c) the name and address of each person who consents to become a member; (d) the present given and family name, all former given and family names and date and place of birth of each person who consents to become a director; etc."
+      "source_quote": "Section 117(2) requires: The application must state: (a) the type of company; (b) the company's proposed name; (c) the name and address of each person who consents to become a member; (d) the present given and family name, all former given and family names and date and place of birth of each person who consents to become a director; etc.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure company registration requirements, no data compliance relevance"
     },
     {
       "section": "6 (part 6)",
@@ -369,7 +385,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Section 131(1): If a person enters into, or purports to enter into, a contract on behalf of, or for the benefit of, a company before it is registered, the company becomes bound by the contract and entitled to its benefit if the company, or a company that is reasonably identifiable with it, is registered and ratifies the contract: (a) within the time agreed to by the parties to the contract; or (b) if there is no agreed time—within a reasonable time after the contract is entered into."
+      "source_quote": "Section 131(1): If a person enters into, or purports to enter into, a contract on behalf of, or for the benefit of, a company before it is registered, the company becomes bound by the contract and entitled to its benefit if the company, or a company that is reasonably identifiable with it, is registered and ratifies the contract: (a) within the time agreed to by the parties to the contract; or (b) if there is no agreed time—within a reasonable time after the contract is entered into.",
+      "relevance_score": 2,
+      "relevance_reason": "Contracts affect data processing obligations"
     },
     {
       "section": "6 (part 7)",
@@ -421,7 +439,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 141: The following table sets out the provisions of this Act that apply as replaceable rules. These rules govern company operations and have effect as contracts between the company and its members, directors, and other members."
+      "source_quote": "Section 141: The following table sets out the provisions of this Act that apply as replaceable rules. These rules govern company operations and have effect as contracts between the company and its members, directors, and other members.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance rules for company operations"
     },
     {
       "section": "6 (part 8)",
@@ -500,7 +520,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 148: A company may have as its name: (a) an available name; or (b) the expression 'Australian Company Number' followed by the company's ACN."
+      "source_quote": "Section 148: A company may have as its name: (a) an available name; or (b) the expression 'Australian Company Number' followed by the company's ACN.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure company naming rules, no data handling"
     },
     {
       "section": "6 (part 9)",
@@ -520,7 +542,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer rules"
     },
     {
       "section": "6 (part 10)",
@@ -577,7 +601,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 163: To change its type, a company must lodge an application with ASIC."
+      "source_quote": "Section 163: To change its type, a company must lodge an application with ASIC.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "6 (part 11)",
@@ -614,7 +640,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 165: ASIC may direct a proprietary company in writing to change to a public company within 2 months if it is satisfied that the company has contravened section 113."
+      "source_quote": "Section 165: ASIC may direct a proprietary company in writing to change to a public company within 2 months if it is satisfied that the company has contravened section 113.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: company type change, legal entity"
     },
     {
       "section": "6 (part 12)",
@@ -670,7 +698,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 167A(1) This Chapter covers: (a) all companies; and (b) all registered schemes."
+      "source_quote": "Section 167A(1) This Chapter covers: (a) all companies; and (b) all registered schemes.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential record-keeping for members"
     },
     {
       "section": "6 (part 13)",
@@ -690,7 +720,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer rules"
     },
     {
       "section": "6 (part 14)",
@@ -741,7 +773,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The company must notify ASIC within this time... within 28 days after the day on which it adds or alters the particular in the register"
+      "source_quote": "The company must notify ASIC within this time... within 28 days after the day on which it adds or alters the particular in the register",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for company records"
     },
     {
       "section": "6 (part 15)",
@@ -792,7 +826,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A director or other officer of a corporation must exercise their powers and discharge their duties with the degree of care and diligence that a reasonable person would exercise if they: (a) were a director or officer of a corporation in the corporation's circumstances; and (b) occupied the office held by, and had the same responsibilities within the corporation as, the director or officer."
+      "source_quote": "A director or other officer of a corporation must exercise their powers and discharge their duties with the degree of care and diligence that a reasonable person would exercise if they: (a) were a director or officer of a corporation in the corporation's circumstances; and (b) occupied the office held by, and had the same responsibilities within the corporation as, the director or officer.",
+      "relevance_score": 2,
+      "relevance_reason": "Directors' duties relate to data handling but not core data protection"
     },
     {
       "section": "6 (part 16)",
@@ -884,7 +920,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 192(3): If the standing notice is given to the other directors individually in writing, it must be tabled at the next directors' meeting after it is given."
+      "source_quote": "Section 192(3): If the standing notice is given to the other directors individually in writing, it must be tabled at the next directors' meeting after it is given.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for director disclosures"
     },
     {
       "section": "6 (part 17)",
@@ -952,7 +990,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 198A(1): The business of a company is to be managed by or under the direction of the directors."
+      "source_quote": "Section 198A(1): The business of a company is to be managed by or under the direction of the directors.",
+      "relevance_score": 2,
+      "relevance_reason": "Directors' powers affect data handling but not core privacy/cross-border rules"
     },
     {
       "section": "6 (part 18)",
@@ -1000,7 +1040,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "A company or related body corporate must not indemnify a person against legal costs incurred in defending an action for a liability incurred as an officer or auditor of the company if the costs are incurred: (a) in defending or resisting proceedings in which the person is found to have a liability for which they could not be indemnified under subsection (2); or (b) in defending or resisting criminal proceedings in which the person is found guilty; or (c) in defending or resisting proceedings brought by ASIC or a liquidator for a court order if the grounds for making the order are found by the court to have been established; or (d) in connection with proceedings for relief to the person under this Act in which the Court denies the relief."
+      "source_quote": "A company or related body corporate must not indemnify a person against legal costs incurred in defending an action for a liability incurred as an officer or auditor of the company if the costs are incurred: (a) in defending or resisting proceedings in which the person is found to have a liability for which they could not be indemnified under subsection (2); or (b) in defending or resisting criminal proceedings in which the person is found guilty; or (c) in defending or resisting proceedings brought by ASIC or a liquidator for a court order if the grounds for making the order are found by the court to have been established; or (d) in connection with proceedings for relief to the person under this Act in which the Court denies the relief.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "6 (part 19)",
@@ -1020,7 +1062,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer rules"
     },
     {
       "section": "6 (part 20)",
@@ -1067,7 +1111,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Section 200G: (1) Subsection 200B(1) does not apply to a benefit if: (a) the benefit is a payment in connection with a person's retirement from an office or position in a company or a related body corporate; and (b) the payment is for past services the person rendered to: (i) the company; or (ii) a related body corporate; or (iii) a body that was a related body corporate of the company when the past services were rendered; and (c) the value of the benefit, when added to the value of all other benefits (if any) already given in connection with the person's retirement from offices or positions in the company and related bodies corporate does not exceed the amount worked out under whichever of subsections (2) and (3) is applicable."
+      "source_quote": "Section 200G: (1) Subsection 200B(1) does not apply to a benefit if: (a) the benefit is a payment in connection with a person's retirement from an office or position in a company or a related body corporate; and (b) the payment is for past services the person rendered to: (i) the company; or (ii) a related body corporate; or (iii) a body that was a related body corporate of the company when the past services were rendered; and (c) the value of the benefit, when added to the value of all other benefits (if any) already given in connection with the person's retirement from offices or positions in the company and related bodies corporate does not exceed the amount worked out under whichever of subsections (2) and (3) is applicable.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial calculation rules, no data protection/privacy relevance"
     },
     {
       "section": "6 (part 21)",
@@ -1116,7 +1162,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 201G: A company may appoint a person as a director by resolution passed in general meeting. Section 201H: The directors of a company may appoint a person as a director. A person can be appointed as a director in order to make up a quorum for a directors' meeting even if the total number of directors of the company is not enough to make up that quorum."
+      "source_quote": "Section 201G: A company may appoint a person as a director by resolution passed in general meeting. Section 201H: The directors of a company may appoint a person as a director. A person can be appointed as a director in order to make up a quorum for a directors' meeting even if the total number of directors of the company is not enough to make up that quorum.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "6 (part 22)",
@@ -1151,7 +1199,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company."
+      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: director resignation mechanics"
     },
     {
       "section": "6 (part 23)",
@@ -1186,7 +1236,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company."
+      "source_quote": "A person's resignation as a director of a company takes effect on: (a) if, within 28 days after the day the person stopped being a director of the company, ASIC is notified of that fact under subsection 205A(1) or 205B(5)—the day the person stopped being a director of the company; or (b) in any other case—the day written notice is lodged with ASIC stating that the person has stopped being a director of the company.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: director resignation, ASIC, no data impact"
     },
     {
       "section": "6 (part 24)",
@@ -1233,7 +1285,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 205E(2) - A person who takes advantage of subsection (2) must: (a) before or at the same time as the alternative address is first included in a notice or application, lodge with ASIC notice of the person's usual residential address; and (b) lodge with ASIC notice of any change in the person's usual residential address within 14 days after the change."
+      "source_quote": "Section 205E(2) - A person who takes advantage of subsection (2) must: (a) before or at the same time as the alternative address is first included in a notice or application, lodge with ASIC notice of the person's usual residential address; and (b) lodge with ASIC notice of any change in the person's usual residential address within 14 days after the change.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for service addresses"
     },
     {
       "section": "6 (part 25)",
@@ -1267,7 +1321,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 206E(3) - Courts may disqualify persons who have at least twice been officers of a body corporate that has contravened this Act or the Corporations Act, failed to take reasonable steps to prevent contraventions, or have repeated contraventions while in office."
+      "source_quote": "Section 206E(3) - Courts may disqualify persons who have at least twice been officers of a body corporate that has contravened this Act or the Corporations Act, failed to take reasonable steps to prevent contraventions, or have repeated contraventions while in office.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: disqualification for contraventions not data-specific"
     },
     {
       "section": "6 (part 26)",
@@ -1318,7 +1374,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A person is disqualified from managing corporations if a court order disqualifying the person from managing corporations is in force under: (a) section 86E of the Competition and Consumer Act 2010; or (b) section 248 of Schedule 2 to that Act, as that section applies as a law of the Commonwealth, a State or a Territory."
+      "source_quote": "A person is disqualified from managing corporations if a court order disqualifying the person from managing corporations is in force under: (a) section 86E of the Competition and Consumer Act 2010; or (b) section 248 of Schedule 2 to that Act, as that section applies as a law of the Commonwealth, a State or a Territory.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "6 (part 27)",
@@ -1357,7 +1415,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A member of the key management personnel for a company that is a disclosing entity, or a closely related party of such a member, must not enter into an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock."
+      "source_quote": "A member of the key management personnel for a company that is a disclosing entity, or a closely related party of such a member, must not enter into an arrangement (with anyone) if the arrangement would have the effect of limiting the exposure of the member to risk relating to an element of the member's remuneration that: (a) has not vested in the member; or (b) has vested in the member but remains subject to a holding lock.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data protection link"
     },
     {
       "section": "6 (part 28)",
@@ -1447,7 +1507,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member approval is not needed to give a financial benefit if: (a) the benefit is for a related party who is an officer of the public company or entity; and (b) the benefit is an indemnity, exemption or insurance premium in respect of a liability incurred as an officer of the public company or entity; and (c) to give the benefit would be reasonable in the circumstances of the public company or entity giving the benefit."
+      "source_quote": "Member approval is not needed to give a financial benefit if: (a) the benefit is for a related party who is an officer of the public company or entity; and (b) the benefit is an indemnity, exemption or insurance premium in respect of a liability incurred as an officer of the public company or entity; and (c) to give the benefit would be reasonable in the circumstances of the public company or entity giving the benefit.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial benefits to related parties with specific conditions"
     },
     {
       "section": "6 (part 29)",
@@ -1467,7 +1529,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "data breach notification"
     },
     {
       "section": "6 (part 30)",
@@ -1552,7 +1616,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 231: A person is a member of a company if they: (a) are a member of the company on its registration; or (b) agree to become a member of the company after its registration and their name is entered on the register of members; or (c) become a member of the company under section 167 (membership arising from conversion of a company from one limited by guarantee to one limited by shares)."
+      "source_quote": "Section 231: A person is a member of a company if they: (a) are a member of the company on its registration; or (b) agree to become a member of the company after its registration and their name is entered on the register of members; or (c) become a member of the company under section 167 (membership arising from conversion of a company from one limited by guarantee to one limited by shares).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: company governance, not data compliance"
     },
     {
       "section": "6 (part 31)",
@@ -1572,7 +1638,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "data breach notification"
     },
     {
       "section": "6 (part 32)",
@@ -1611,7 +1679,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 246F(1): A company must lodge with ASIC a notice in the prescribed form setting out particulars of any of the following: (a) a division of shares in the company into classes if the shares were not previously so divided; (b) a conversion of shares in a class of shares in the company into shares in another class. Note: (2) The notice must be lodged within 14 days after the division or conversion."
+      "source_quote": "Section 246F(1): A company must lodge with ASIC a notice in the prescribed form setting out particulars of any of the following: (a) a division of shares in the company into classes if the shares were not previously so divided; (b) a conversion of shares in a class of shares in the company into shares in another class. Note: (2) The notice must be lodged within 14 days after the division or conversion.",
+      "relevance_score": 0,
+      "relevance_reason": "Share division/ASIC compliance unrelated to data protection"
     },
     {
       "section": "6 (part 34)",
@@ -1648,7 +1718,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Section 249P(1): Members may request a company to give to all its members a statement provided by the members making the request about: (a) a resolution that is proposed to be moved at a general meeting; or (b) any other matter that may be properly considered at a general meeting."
+      "source_quote": "Section 249P(1): Members may request a company to give to all its members a statement provided by the members making the request about: (a) a resolution that is proposed to be moved at a general meeting; or (b) any other matter that may be properly considered at a general meeting.",
+      "relevance_score": 0,
+      "relevance_reason": "pure company governance, no data compliance relevance"
     },
     {
       "section": "6 (part 35)",
@@ -1693,7 +1765,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 249S(1): A company that holds a meeting of its members must give the members entitled to attend the meeting, as a whole, a reasonable opportunity to participate in the meeting."
+      "source_quote": "Section 249S(1): A company that holds a meeting of its members must give the members entitled to attend the meeting, as a whole, a reasonable opportunity to participate in the meeting.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure company governance, no data compliance relevance"
     },
     {
       "section": "6 (part 36)",
@@ -1713,7 +1787,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "data transfer restrictions"
     },
     {
       "section": "6 (part 37)",
@@ -1758,7 +1834,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 250C(1): A proxy who is not entitled to vote on a resolution as a member may vote as a proxy for another member who can vote if their appointment specifies the way they are to vote on the resolution and they vote that way."
+      "source_quote": "Section 250C(1): A proxy who is not entitled to vote on a resolution as a member may vote as a proxy for another member who can vote if their appointment specifies the way they are to vote on the resolution and they vote that way.",
+      "relevance_score": 0,
+      "relevance_reason": "No data privacy, security, or cross-border transfer relevance"
     },
     {
       "section": "6 (part 38)",
@@ -1795,7 +1873,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 250N(1): A public company must hold an annual general meeting (AGM) within 18 months after its registration."
+      "source_quote": "Section 250N(1): A public company must hold an annual general meeting (AGM) within 18 months after its registration.",
+      "relevance_score": 0,
+      "relevance_reason": "No data compliance relevance"
     },
     {
       "section": "6 (part 39)",
@@ -1838,7 +1918,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 250V(1) requires a resolution to hold fresh elections for directors at special meeting to be put to vote at AGM within 90 days."
+      "source_quote": "Section 250V(1) requires a resolution to hold fresh elections for directors at special meeting to be put to vote at AGM within 90 days.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant to data compliance"
     },
     {
       "section": "6 (part 40)",
@@ -1881,7 +1963,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 251A(1) requires a company to keep minute books recording proceedings and resolutions of meetings within 1 month."
+      "source_quote": "Section 251A(1) requires a company to keep minute books recording proceedings and resolutions of meetings within 1 month.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for minutes access"
     },
     {
       "section": "6 (part 41)",
@@ -1922,7 +2006,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Unless the scheme's constitution provides otherwise, a notice of meeting is taken to be given: (a) if it is sent by post—3 days after it is posted; or (aa) if it is sent by sending the member information in accordance with paragraph 110D(1)(b) by post—3 days after the information is posted; or (b) if it is sent by means of an electronic communication in accordance with paragraph 110D(1)(c)—on the business day after it is sent; or (c) if it is sent by giving the member information in accordance with paragraph 110D(1)(d)—on the business day after the day on which the information is sent to the member."
+      "source_quote": "Unless the scheme's constitution provides otherwise, a notice of meeting is taken to be given: (a) if it is sent by post—3 days after it is posted; or (aa) if it is sent by sending the member information in accordance with paragraph 110D(1)(b) by post—3 days after the information is posted; or (b) if it is sent by means of an electronic communication in accordance with paragraph 110D(1)(c)—on the business day after it is sent; or (c) if it is sent by giving the member information in accordance with paragraph 110D(1)(d)—on the business day after the day on which the information is sent to the member.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: member notices, proxy arrangements, postal/electronic communications"
     },
     {
       "section": "6 (part 43)",
@@ -1955,7 +2041,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Unless the responsible entity has received written notice of the matter before the start or resumption of the meeting at which a proxy votes, a vote cast by the proxy will be valid even if, before the proxy votes: (a) the appointing member dies; or (b) the member is mentally incapacitated; or (c) the member revokes the proxy's appointment; or (d) the member revokes the authority under which the proxy was appointed by a third party; or (e) the member transfers the interest in respect of which the proxy was given."
+      "source_quote": "Unless the responsible entity has received written notice of the matter before the start or resumption of the meeting at which a proxy votes, a vote cast by the proxy will be valid even if, before the proxy votes: (a) the appointing member dies; or (b) the member is mentally incapacitated; or (c) the member revokes the proxy's appointment; or (d) the member revokes the authority under which the proxy was appointed by a third party; or (e) the member transfers the interest in respect of which the proxy was given.",
+      "relevance_score": 0,
+      "relevance_reason": "No data privacy, security, or cross-border transfer relevance"
     },
     {
       "section": "6 (part 44)",
@@ -2006,7 +2094,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 253S(1): If information is required to be recorded in a minute book, the information may be recorded in electronic form if, at the time of the recording of the information, it was reasonable to expect that the information would be readily accessible so as to be useable for subsequent reference."
+      "source_quote": "Section 253S(1): If information is required to be recorded in a minute book, the information may be recorded in electronic form if, at the time of the recording of the information, it was reasonable to expect that the information would be readily accessible so as to be useable for subsequent reference.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for shareholder meetings"
     },
     {
       "section": "6 (part 45)",
@@ -2049,7 +2139,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 253TA(1): An entity may hold a meeting of its members, using virtual meeting technology only (even if this is not required or permitted by the entity's constitution expressly), if: (a) the entity is specified in a determination under subsection (2); or (b) the entity is in a class of entities specified in a determination under subsection (2)."
+      "source_quote": "Section 253TA(1): An entity may hold a meeting of its members, using virtual meeting technology only (even if this is not required or permitted by the entity's constitution expressly), if: (a) the entity is specified in a determination under subsection (2); or (b) the entity is in a class of entities specified in a determination under subsection (2).",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for shareholder meetings"
     },
     {
       "section": "6 (part 46)",
@@ -2112,7 +2204,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Section 254G(1): A company may: (a) convert an ordinary share into a preference share; and (b) convert a preference share into an ordinary share."
+      "source_quote": "Section 254G(1): A company may: (a) convert an ordinary share into a preference share; and (b) convert a preference share into an ordinary share.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial governance, no data protection link"
     },
     {
       "section": "6 (part 47)",
@@ -2132,7 +2226,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "cross-border data transfer rules"
     },
     {
       "section": "6 (part 48)",
@@ -2193,7 +2289,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 256B(1): A company may reduce its share capital in a way that is not otherwise authorised by law if the reduction: (a) is fair and reasonable to the company's shareholders as a whole; and (b) does not materially prejudice the company's ability to pay its creditors; and (c) is approved by shareholders under section 256C."
+      "source_quote": "Section 256B(1): A company may reduce its share capital in a way that is not otherwise authorised by law if the reduction: (a) is fair and reasonable to the company's shareholders as a whole; and (b) does not materially prejudice the company's ability to pay its creditors; and (c) is approved by shareholders under section 256C.",
+      "relevance_score": 0,
+      "relevance_reason": "Share capital rules unrelated to data compliance"
     },
     {
       "section": "6 (part 49)",
@@ -2242,7 +2340,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 257A(1): A company may buy back its own shares if: (a) the buy-back does not materially prejudice the company's ability to pay its creditors; and (b) the company follows the procedures laid down in this Division."
+      "source_quote": "Section 257A(1): A company may buy back its own shares if: (a) the buy-back does not materially prejudice the company's ability to pay its creditors; and (b) the company follows the procedures laid down in this Division.",
+      "relevance_score": 0,
+      "relevance_reason": "Share buy-back procedures unrelated to data compliance"
     },
     {
       "section": "6 (part 50)",
@@ -2293,7 +2393,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Any reduction in share capital involved in: (a) the redemption of redeemable preference shares out of the proceeds of a new issue of shares made for the purpose of the redemption (see section 254K); or (b) a company's buying-back of its own shares under sections 257A to 257J if the shares are paid for out of share capital."
+      "source_quote": "Any reduction in share capital involved in: (a) the redemption of redeemable preference shares out of the proceeds of a new issue of shares made for the purpose of the redemption (see section 254K); or (b) a company's buying-back of its own shares under sections 257A to 257J if the shares are paid for out of share capital.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure share capital mechanics, no data handling"
     },
     {
       "section": "6 (part 51)",
@@ -2348,7 +2450,9 @@
           "obligation_type": "Exemption"
         }
       ],
-      "source_quote": "A company may financially assist a person to acquire shares (or units of shares) in the company or a holding company of the company only if: (a) giving the assistance does not materially prejudice: (i) the interests of the company or its shareholders; or (ii) the company's ability to pay its creditors; or (b) the assistance is approved by shareholders under section 260B (that section also requires advance notice to ASIC); or (c) the assistance is exempted under section 2: 260C."
+      "source_quote": "A company may financially assist a person to acquire shares (or units of shares) in the company or a holding company of the company only if: (a) giving the assistance does not materially prejudice: (i) the interests of the company or its shareholders; or (ii) the company's ability to pay its creditors; or (b) the assistance is approved by shareholders under section 260B (that section also requires advance notice to ASIC); or (c) the assistance is exempted under section 2: 260C.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data handling"
     }
   ]
 }

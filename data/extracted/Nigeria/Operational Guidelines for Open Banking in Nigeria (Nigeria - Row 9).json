@@ -32,7 +32,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "ANTI-MONEY LAUNDERING (AML) AND COMBATING THE FINANCING OF TERRORISM (CFT) .. 23"
+      "source_quote": "ANTI-MONEY LAUNDERING (AML) AND COMBATING THE FINANCING OF TERRORISM (CFT) .. 23",
+      "relevance_score": 3,
+      "relevance_reason": "AML/KYC financial data handling"
     },
     {
       "section": "12",
@@ -67,7 +69,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Central Bank of Nigeria (CBN) shall provide and maintain an Open Banking Registry (OBR) for the industry."
+      "source_quote": "The Central Bank of Nigeria (CBN) shall provide and maintain an Open Banking Registry (OBR) for the industry.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data governance for open banking"
     },
     {
       "section": "12 (part 2)",
@@ -87,7 +91,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "third-party data handling"
     },
     {
       "section": "12 (part 3)",
@@ -160,7 +166,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "APs/ACs shall collate change requirements and plan the changes for the next month except in cases where the change is expected to resolve a critical incident or problem. All changes, either pre-empted or responsive, shall be: reported with sufficient details; accompanied with notifications to stakeholders that could be affected by the change; 24 hours before the intended change; 1 hour before the intended change; immediately the change has been completed and services have been confirmed restored; 30 minutes after the change should have been completed but has been prolonged or the change failed; at the point of commencing a change rollback; and when services have been restored."
+      "source_quote": "APs/ACs shall collate change requirements and plan the changes for the next month except in cases where the change is expected to resolve a critical incident or problem. All changes, either pre-empted or responsive, shall be: reported with sufficient details; accompanied with notifications to stakeholders that could be affected by the change; 24 hours before the intended change; 1 hour before the intended change; immediately the change has been completed and services have been confirmed restored; 30 minutes after the change should have been completed but has been prolonged or the change failed; at the point of commencing a change rollback; and when services have been restored.",
+      "relevance_score": 3,
+      "relevance_reason": "Critical incident management for financial data"
     },
     {
       "section": "12 (part 4)",
@@ -246,7 +254,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "APs shall only share information of a customer with an AC, upon presentation of a valid proof of consent by the customer, and shall authenticate such consent to ensure it emanates from its customer."
+      "source_quote": "APs shall only share information of a customer with an AC, upon presentation of a valid proof of consent by the customer, and shall authenticate such consent to ensure it emanates from its customer.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data sharing with consent requirements"
     },
     {
       "section": "12 (part 5)",
@@ -309,7 +319,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Participants shall notify the CBN and other stakeholders without undue delay of incidents and remediation measures"
+      "source_quote": "Participants shall notify the CBN and other stakeholders without undue delay of incidents and remediation measures",
+      "relevance_score": 3,
+      "relevance_reason": "Cybersecurity incident reporting and breach management"
     },
     {
       "section": "12 (part 6)",
@@ -428,7 +440,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Participants shall develop and implement a data breach policy and procedure as part of information security management system"
+      "source_quote": "Participants shall develop and implement a data breach policy and procedure as part of information security management system",
+      "relevance_score": 3,
+      "relevance_reason": "Core data breach, consent, and security requirements"
     },
     {
       "section": "12 (part 7)",
@@ -504,7 +518,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Sponsors shall ensure that Tier 0 participants, at the minimum, have competence and capacity to carry out the activity, and provide evidence of good risk management practices."
+      "source_quote": "Sponsors shall ensure that Tier 0 participants, at the minimum, have competence and capacity to carry out the activity, and provide evidence of good risk management practices.",
+      "relevance_score": 3,
+      "relevance_reason": "Tier 2 security/governance mandates directly address data protection and cross-border transfers"
     },
     {
       "section": "12 (part 8)",
@@ -635,7 +651,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Participants shall implement zero-trust architecture."
+      "source_quote": "Participants shall implement zero-trust architecture.",
+      "relevance_score": 3,
+      "relevance_reason": "Core security and data protection requirements"
     },
     {
       "section": "12 (part 9)",
@@ -822,7 +840,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Participants shall ensure that customers shall be provided with the right tools and clarity of information at the right time that will enable them to make informed decision."
+      "source_quote": "Participants shall ensure that customers shall be provided with the right tools and clarity of information at the right time that will enable them to make informed decision.",
+      "relevance_score": 3,
+      "relevance_reason": "Physical security directly impacts data protection and cross-border transfers"
     },
     {
       "section": "12 (part 10)",
@@ -842,7 +862,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "third-party data handling"
     }
   ]
 }

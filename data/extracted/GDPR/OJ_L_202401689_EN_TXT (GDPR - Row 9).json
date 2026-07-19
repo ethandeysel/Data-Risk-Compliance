@@ -58,7 +58,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Given the rapid pace of technological advancements and adoption of general-purpose AI models, obligations for providers of general-purpose AI models should apply from 2 August 2025. Codes of practice should be ready by 2 May 2025 in view of enabling providers to demonstrate compliance on time."
+      "source_quote": "Given the rapid pace of technological advancements and adoption of general-purpose AI models, obligations for providers of general-purpose AI models should apply from 2 August 2025. Codes of practice should be ready by 2 May 2025 in view of enabling providers to demonstrate compliance on time.",
+      "relevance_score": 2,
+      "relevance_reason": "AI regulation compliance requires cross-border data transfer and security measures"
     },
     {
       "section": "2",
@@ -93,7 +95,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements for GDPR compliance"
     },
     {
       "section": "7",
@@ -125,7 +129,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "12",
@@ -196,7 +202,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein."
+      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein.",
+      "relevance_score": 2,
+      "relevance_reason": "Sectoral harmonisation considerations for data compliance"
     },
     {
       "section": "12 (part 2)",
@@ -216,7 +224,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "AI systems exception under GDPR"
     },
     {
       "section": "1",
@@ -274,7 +284,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -309,7 +321,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -336,7 +350,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -407,7 +423,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -434,7 +452,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "6",
@@ -461,7 +481,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "2",
@@ -496,7 +518,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "2",
@@ -531,7 +555,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "10",
@@ -565,7 +591,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred."
+      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred.",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting under GDPR"
     },
     {
       "section": "2",
@@ -600,7 +628,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "5",
@@ -627,7 +657,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "3",
@@ -654,7 +686,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "5",
@@ -681,7 +715,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "1",
@@ -739,7 +775,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "5",
@@ -766,7 +804,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "1",
@@ -824,7 +864,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -895,7 +937,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "3",
@@ -922,7 +966,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "2",
@@ -957,7 +1003,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -984,7 +1032,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -1055,7 +1105,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -1082,7 +1134,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "6",
@@ -1109,7 +1163,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "9",
@@ -1139,7 +1195,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c)."
+      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c).",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting for special personal data"
     },
     {
       "section": "10",
@@ -1173,7 +1231,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred."
+      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred.",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting under GDPR"
     },
     {
       "section": "1",
@@ -1231,7 +1291,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "3",
@@ -1258,7 +1320,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -1329,7 +1393,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -1387,7 +1453,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -1458,7 +1526,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "6",
@@ -1485,7 +1555,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "7",
@@ -1517,7 +1589,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "1",
@@ -1575,7 +1649,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -1610,7 +1686,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -1637,7 +1715,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -1708,7 +1788,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "2",
@@ -1743,7 +1825,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -1770,7 +1854,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -1841,7 +1927,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "2",
@@ -1876,7 +1964,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "7",
@@ -1908,7 +1998,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "1",
@@ -1966,7 +2058,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -2037,7 +2131,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "3",
@@ -2064,7 +2160,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "1",
@@ -2122,7 +2220,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "3",
@@ -2149,7 +2249,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -2220,7 +2322,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "6",
@@ -2247,7 +2351,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "7",
@@ -2279,7 +2385,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "8",
@@ -2354,7 +2462,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "2",
@@ -2389,7 +2499,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "4",
@@ -2460,7 +2572,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "2",
@@ -2495,7 +2609,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "2",
@@ -2530,7 +2646,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -2557,7 +2675,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "2",
@@ -2592,7 +2712,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "6",
@@ -2619,7 +2741,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "1",
@@ -2677,7 +2801,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -2748,7 +2874,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -2806,7 +2934,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "5",
@@ -2833,7 +2963,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "1",
@@ -2891,7 +3023,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "3",
@@ -2918,7 +3052,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -2989,7 +3125,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -3047,7 +3185,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "1",
@@ -3105,7 +3245,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "7",
@@ -3137,7 +3279,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "1",
@@ -3195,7 +3339,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "3",
@@ -3222,7 +3368,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "3",
@@ -3249,7 +3397,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "5",
@@ -3276,7 +3426,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "7",
@@ -3308,7 +3460,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "8",
@@ -3383,7 +3537,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "9",
@@ -3413,7 +3569,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c)."
+      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c).",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting for special personal data"
     },
     {
       "section": "10",
@@ -3447,7 +3605,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred."
+      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred.",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting under GDPR"
     },
     {
       "section": "11",
@@ -3485,7 +3645,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "National competent authorities shall immediately notify the Commission of any serious incident, whether or not they have taken action on it, in accordance with Article 20 of Regulation (EU) 2019/1020."
+      "source_quote": "National competent authorities shall immediately notify the Commission of any serious incident, whether or not they have taken action on it, in accordance with Article 20 of Regulation (EU) 2019/1020.",
+      "relevance_score": 3,
+      "relevance_reason": "Core breach notification duty for national authorities"
     },
     {
       "section": "12",
@@ -3556,7 +3718,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein."
+      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein.",
+      "relevance_score": 2,
+      "relevance_reason": "Sectoral harmonisation considerations for data compliance"
     },
     {
       "section": "13",
@@ -3627,7 +3791,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By 2 August 2031, the Commission shall carry out an assessment of the enforcement of this Regulation and shall report on it to the European Parliament, the Council and the European Economic and Social Committee, taking into account the first years of application of this Regulation."
+      "source_quote": "By 2 August 2031, the Commission shall carry out an assessment of the enforcement of this Regulation and shall report on it to the European Parliament, the Council and the European Economic and Social Committee, taking into account the first years of application of this Regulation.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and enforcement timeline"
     },
     {
       "section": "15",
@@ -3667,7 +3833,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "National competent authorities shall inform the AI Office and the Board of the establishment of a sandbox, and may ask them for support and guidance. The AI Office shall make publicly available a list of planned and existing sandboxes and keep it up to date in order to encourage more interaction in the AI regulatory sandboxes and cross-border cooperation."
+      "source_quote": "National competent authorities shall inform the AI Office and the Board of the establishment of a sandbox, and may ask them for support and guidance. The AI Office shall make publicly available a list of planned and existing sandboxes and keep it up to date in order to encourage more interaction in the AI regulatory sandboxes and cross-border cooperation.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and cross-border cooperation"
     },
     {
       "section": "16",
@@ -3711,7 +3879,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "National competent authorities shall submit annual reports to the AI Office and to the Board, from one year after the establishment of the AI regulatory sandbox and every year thereafter until its termination, and a final report. Those reports shall provide information on the progress and results of the implementation of those sandboxes, including best practices, incidents, lessons learnt and recommendations on their setup and, where relevant, on the application and possible revision of this Regulation, including its delegated and implementing acts, and on the application of other Union law supervised by the competent authorities within the sandbox. The national competent authorities shall make those annual reports or abstracts thereof available to the public, online. The Commission shall, where appropriate, take the annual reports into account when exercising its tasks under this Regulation."
+      "source_quote": "National competent authorities shall submit annual reports to the AI Office and to the Board, from one year after the establishment of the AI regulatory sandbox and every year thereafter until its termination, and a final report. Those reports shall provide information on the progress and results of the implementation of those sandboxes, including best practices, incidents, lessons learnt and recommendations on their setup and, where relevant, on the application and possible revision of this Regulation, including its delegated and implementing acts, and on the application of other Union law supervised by the competent authorities within the sandbox. The national competent authorities shall make those annual reports or abstracts thereof available to the public, online. The Commission shall, where appropriate, take the annual reports into account when exercising its tasks under this Regulation.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for AI sandboxes"
     },
     {
       "section": "1",
@@ -3769,7 +3939,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -3804,7 +3976,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "4",
@@ -3875,7 +4049,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -3933,7 +4109,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -3968,7 +4146,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -3995,7 +4175,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -4066,7 +4248,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -4093,7 +4277,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "7",
@@ -4125,7 +4311,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "8",
@@ -4200,7 +4388,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "9",
@@ -4230,7 +4420,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c)."
+      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c).",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting for special personal data"
     },
     {
       "section": "1",
@@ -4288,7 +4480,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -4323,7 +4517,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "2",
@@ -4358,7 +4554,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "4",
@@ -4429,7 +4627,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "8",
@@ -4504,7 +4704,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "3",
@@ -4531,7 +4733,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -4602,7 +4806,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -4660,7 +4866,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -4695,7 +4903,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -4722,7 +4932,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -4793,7 +5005,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -4820,7 +5034,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "6",
@@ -4847,7 +5063,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "5",
@@ -4874,7 +5092,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "4",
@@ -4945,7 +5165,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -5003,7 +5225,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -5038,7 +5262,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -5065,7 +5291,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -5136,7 +5364,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "6",
@@ -5163,7 +5393,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "7",
@@ -5195,7 +5427,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "8",
@@ -5270,7 +5504,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "9",
@@ -5300,7 +5536,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c)."
+      "source_quote": "For high-risk AI systems referred to in Annex III that are placed on the market or put into service by providers that are subject to Union legislative instruments laying down reporting obligations equivalent to those set out in this Regulation, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c).",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting for special personal data"
     },
     {
       "section": "10",
@@ -5334,7 +5572,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred."
+      "source_quote": "For high-risk AI systems which are safety components of devices, or are themselves devices, covered by Regulations (EU) 2017/745 and (EU) 2017/746, the notification of serious incidents shall be limited to those referred to in Article 3, point (49)(c) of this Regulation, and shall be made to the national competent authority chosen for that purpose by the Member States where the incident occurred.",
+      "relevance_score": 3,
+      "relevance_reason": "High-risk AI incident reporting under GDPR"
     },
     {
       "section": "11",
@@ -5372,7 +5612,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "National competent authorities shall immediately notify the Commission of any serious incident, whether or not they have taken action on it, in accordance with Article 20 of Regulation (EU) 2019/1020."
+      "source_quote": "National competent authorities shall immediately notify the Commission of any serious incident, whether or not they have taken action on it, in accordance with Article 20 of Regulation (EU) 2019/1020.",
+      "relevance_score": 3,
+      "relevance_reason": "Core breach notification duty for national authorities"
     },
     {
       "section": "6",
@@ -5399,7 +5641,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "7",
@@ -5431,7 +5675,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "8",
@@ -5506,7 +5752,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "14",
@@ -5533,7 +5781,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any information or documentation obtained by market surveillance authorities shall be treated in accordance with the confidentiality obligations set out in Article 78."
+      "source_quote": "Any information or documentation obtained by market surveillance authorities shall be treated in accordance with the confidentiality obligations set out in Article 78.",
+      "relevance_score": 3,
+      "relevance_reason": "Confidentiality for market surveillance under GDPR"
     },
     {
       "section": "3",
@@ -5560,7 +5810,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "2",
@@ -5595,7 +5847,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -5622,7 +5876,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -5693,7 +5949,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "1",
@@ -5751,7 +6009,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -5786,7 +6046,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -5813,7 +6075,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -5884,7 +6148,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -5911,7 +6177,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "2",
@@ -5946,7 +6214,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "3",
@@ -5973,7 +6243,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "5",
@@ -6000,7 +6272,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "6",
@@ -6027,7 +6301,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "8",
@@ -6102,7 +6378,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "1",
@@ -6160,7 +6438,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "1",
@@ -6218,7 +6498,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "2",
@@ -6253,7 +6535,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "2",
@@ -6288,7 +6572,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "1",
@@ -6346,7 +6632,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "1",
@@ -6404,7 +6692,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -6475,7 +6765,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "7",
@@ -6507,7 +6799,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "1",
@@ -6565,7 +6859,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "4",
@@ -6636,7 +6932,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -6663,7 +6961,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "7",
@@ -6695,7 +6995,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated."
+      "source_quote": "The European Data Protection Supervisor shall, on an annual basis, notify the Commission of the administrative fines it has imposed pursuant to this Article and of any litigation or judicial proceedings it has initiated.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting fines and litigation to Commission"
     },
     {
       "section": "1",
@@ -6753,7 +7055,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;"
+      "source_quote": "The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93;",
+      "relevance_score": 3,
+      "relevance_reason": "Fines for AI model providers under GDPR"
     },
     {
       "section": "6",
@@ -6780,7 +7084,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "2",
@@ -6815,7 +7121,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "4",
@@ -6886,7 +7194,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "12",
@@ -6957,7 +7267,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein."
+      "source_quote": "Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein.",
+      "relevance_score": 2,
+      "relevance_reason": "Sectoral harmonisation considerations for data compliance"
     },
     {
       "section": "13",
@@ -7028,7 +7340,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By 2 August 2031, the Commission shall carry out an assessment of the enforcement of this Regulation and shall report on it to the European Parliament, the Council and the European Economic and Social Committee, taking into account the first years of application of this Regulation."
+      "source_quote": "By 2 August 2031, the Commission shall carry out an assessment of the enforcement of this Regulation and shall report on it to the European Parliament, the Council and the European Economic and Social Committee, taking into account the first years of application of this Regulation.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and enforcement timeline"
     },
     {
       "section": "5",
@@ -7055,7 +7369,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "8",
@@ -7130,7 +7446,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view."
+      "source_quote": "Administration of justice and democratic processes: (a) AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution; (b) AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.",
+      "relevance_score": 3,
+      "relevance_reason": "AI systems in judicial processes directly impact data privacy and cross-border transfers"
     },
     {
       "section": "2",
@@ -7165,7 +7483,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     },
     {
       "section": "5",
@@ -7192,7 +7512,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "3",
@@ -7219,7 +7541,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "4",
@@ -7290,7 +7614,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3."
+      "source_quote": "4.1 In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.",
+      "relevance_score": 3,
+      "relevance_reason": "AI technical documentation for GDPR compliance"
     },
     {
       "section": "5",
@@ -7317,7 +7643,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable."
+      "source_quote": "5. A summary of the data protection impact assessment carried out in accordance with Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.",
+      "relevance_score": 3,
+      "relevance_reason": "AI data protection impact assessment for high-risk systems"
     },
     {
       "section": "6",
@@ -7344,7 +7672,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1)."
+      "source_quote": "6. European Criminal Records Information System on third-country nationals and stateless persons Regulation (EU) 2019/816 of the European Parliament and of the Council of 17 April 2019 establishing a centralised system for the identification of Member States holding conviction information on third-country nationals and stateless persons (ECRIS-TCN) to supplement the European Criminal Records Information System and amending Regulation (EU) 2018/1726 (OJ L 135, 22.5.2019, p. 1).",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "3",
@@ -7371,7 +7701,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing."
+      "source_quote": "3. Where applicable, a detailed description of the system architecture explaining how software components build or feed into each other and integrate into the overall processing.",
+      "relevance_score": 3,
+      "relevance_reason": "AI system transparency for special data"
     },
     {
       "section": "2",
@@ -7406,7 +7738,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies."
+      "source_quote": "2. A description of the elements of the model and of the process for its development, including: (a) the technical means (e.g. instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems; (b) the modality (e.g. text, image, etc.) and format of the inputs and outputs and their maximum size (e.g. context window length, etc.); (c) information on the data used for training, testing and validation, where applicable, including the type and provenance of data and curation methodologies.",
+      "relevance_score": 3,
+      "relevance_reason": "AI model data requirements critical for GDPR compliance"
     }
   ]
 }

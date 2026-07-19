@@ -34,7 +34,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Act may be cited as the Telecommunications Act 1997. Sections 52 to 55 (inclusive) commence on 5 June 1997. The remaining provisions of this Act commence on 1 July 1997."
+      "source_quote": "This Act may be cited as the Telecommunications Act 1997. Sections 52 to 55 (inclusive) commence on 5 June 1997. The remaining provisions of this Act commence on 1 July 1997.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, no data compliance relevance"
     },
     {
       "section": "3",
@@ -63,7 +65,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The Parliament intends that telecommunications be regulated in a manner that: (a) promotes the greatest practicable use of industry self-regulation; and (b) does not impose undue financial and administrative burdens on participants in the Australian telecommunications industry; but does not compromise the effectiveness of regulation in achieving the objects mentioned in section 3."
+      "source_quote": "The Parliament intends that telecommunications be regulated in a manner that: (a) promotes the greatest practicable use of industry self-regulation; and (b) does not impose undue financial and administrative burdens on participants in the Australian telecommunications industry; but does not compromise the effectiveness of regulation in achieving the objects mentioned in section 3.",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance"
     },
     {
       "section": "5",
@@ -104,7 +108,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The ACMA is to monitor, and report each year to the Minister on, significant matters relating to the performance of carriers and carriage service providers. The ACMA must ensure that the SMS Sender ID Register is established and maintained."
+      "source_quote": "The ACMA is to monitor, and report each year to the Minister on, significant matters relating to the performance of carriers and carriage service providers. The ACMA must ensure that the SMS Sender ID Register is established and maintained.",
+      "relevance_score": 2,
+      "relevance_reason": "ACMA's monitoring and SMS registry relate to data handling"
     },
     {
       "section": "32",
@@ -145,7 +151,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In this Act, unless the contrary intention appears: ACCC means the Australian Competition and Consumer Commission. ACMA means the Australian Communications and Media Authority. Carriage service means a service for carrying communications by means of guided and/or unguided electromagnetic energy."
+      "source_quote": "In this Act, unless the contrary intention appears: ACCC means the Australian Competition and Consumer Commission. ACMA means the Australian Communications and Media Authority. Carriage service means a service for carrying communications by means of guided and/or unguided electromagnetic energy.",
+      "relevance_score": 1,
+      "relevance_reason": "Definitions of telecom terms, not directly data compliance"
     },
     {
       "section": "32 (part 2)",
@@ -186,7 +194,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 7: exempt network-user means: (a) a person who is entitled to use a network unit to supply a carriage service; and whose entitlement derives, directly or indirectly, from rights granted to a carrier; or (b) if a police force or service uses a network unit for communication between members or with other forces..."
+      "source_quote": "Section 7: exempt network-user means: (a) a person who is entitled to use a network unit to supply a carriage service; and whose entitlement derives, directly or indirectly, from rights granted to a carrier; or (b) if a police force or service uses a network unit for communication between members or with other forces...",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: telecom definitions not directly data-focused"
     },
     {
       "section": "32 (part 3)",
@@ -219,7 +229,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 7: telecommunications network means a system, or series of systems, that carries, or is capable of carrying, communications by means of guided and/or unguided electromagnetic energy."
+      "source_quote": "Section 7: telecommunications network means a system, or series of systems, that carries, or is capable of carrying, communications by means of guided and/or unguided electromagnetic energy.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential technical definitions for telecom services"
     },
     {
       "section": "32 (part 4)",
@@ -254,7 +266,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 20: For the purposes of this Act, customer cabling means a line that, under the regulations, is treated as customer cabling. Section 21: For the purposes of this Act, customer equipment means: (a) any equipment, apparatus, tower, mast, antenna or other structure or thing; or (b) any system (whether software-based or otherwise); that: (c) is used, installed ready for use or intended for use in connection with a carriage service; and (d) under the regulations, is treated as customer equipment; but does not include a line."
+      "source_quote": "Section 20: For the purposes of this Act, customer cabling means a line that, under the regulations, is treated as customer cabling. Section 21: For the purposes of this Act, customer equipment means: (a) any equipment, apparatus, tower, mast, antenna or other structure or thing; or (b) any system (whether software-based or otherwise); that: (c) is used, installed ready for use or intended for use in connection with a carriage service; and (d) under the regulations, is treated as customer equipment; but does not include a line.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: defines network infrastructure terms"
     },
     {
       "section": "33",
@@ -289,7 +303,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 22: For the purposes of sections 20, 21, 30, 349, 372B, 372C and 372V, the boundary of a telecommunications network is to be ascertained in accordance with the regulations. Section 22: In a case where a telecommunications network is used to supply a carriage service to an end-user in a building by means of a line that enters the building—the point agreed between the customer and the carrier or carriage service provider who operates the telecommunications network, or, failing agreement: (i) if there is a main distribution frame in the building and the line is connected to the frame—the side of the frame nearest to the end-user; or (ii) if subparagraph (i) does not apply but the line is connected to a network termination device located in, on or within close proximity to, the building—the side of the device nearest to the end-user; or (iii) if neither subparagraph (i) nor (ii) applies but the line is connected to one or more sockets in the building—the side nearest to the end-user of the first socket after the building entry point; or (b) in a case where a telecommunications network is used to supply a carriage service to an end-user by means of a satellite-based facility that transmits to, or receives transmissions from, the point where the end user is located—the outer surface of the satellite-based facility"
+      "source_quote": "Section 22: For the purposes of sections 20, 21, 30, 349, 372B, 372C and 372V, the boundary of a telecommunications network is to be ascertained in accordance with the regulations. Section 22: In a case where a telecommunications network is used to supply a carriage service to an end-user in a building by means of a line that enters the building—the point agreed between the customer and the carrier or carriage service provider who operates the telecommunications network, or, failing agreement: (i) if there is a main distribution frame in the building and the line is connected to the frame—the side of the frame nearest to the end-user; or (ii) if subparagraph (i) does not apply but the line is connected to a network termination device located in, on or within close proximity to, the building—the side of the device nearest to the end-user; or (iii) if neither subparagraph (i) nor (ii) applies but the line is connected to one or more sockets in the building—the side nearest to the end-user of the first socket after the building entry point; or (b) in a case where a telecommunications network is used to supply a carriage service to an end-user by means of a satellite-based facility that transmits to, or receives transmissions from, the point where the end user is located—the outer surface of the satellite-based facility",
+      "relevance_score": 0,
+      "relevance_reason": "Pure technical definition, no data compliance relevance"
     },
     {
       "section": "37",
@@ -324,7 +340,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Section 23: In this section: core function, in relation to an authority or institution, means a function of the authority or institution other than a secondary or incidental function. director includes a constituent member of a body corporate incorporated for a public purpose by a law of the Commonwealth, a State or a Territory."
+      "source_quote": "Section 23: In this section: core function, in relation to an authority or institution, means a function of the authority or institution other than a secondary or incidental function. director includes a constituent member of a body corporate incorporated for a public purpose by a law of the Commonwealth, a State or a Territory.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential definitions for governance roles"
     },
     {
       "section": "58",
@@ -371,7 +389,9 @@
           "obligation_type": "Exemption"
         }
       ],
-      "source_quote": "Section 46: Section 42 does not apply to a network unit that is used wholly or principally: (a) by the Australian Secret Intelligence Service; or (b) by the Australian Security Intelligence Organisation; or (c) by the Australian Signals Directorate. Section 47: Section 42 does not apply to a network unit if the sole use of the unit is use by Airservices Australia to carry communications necessary or desirable for the workings of aviation services."
+      "source_quote": "Section 46: Section 42 does not apply to a network unit that is used wholly or principally: (a) by the Australian Secret Intelligence Service; or (b) by the Australian Security Intelligence Organisation; or (c) by the Australian Signals Directorate. Section 47: Section 42 does not apply to a network unit if the sole use of the unit is use by Airservices Australia to carry communications necessary or desirable for the workings of aviation services.",
+      "relevance_score": 2,
+      "relevance_reason": "Exemptions for intelligence/transport data"
     },
     {
       "section": "82",
@@ -406,7 +426,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Section 82: (8) As soon as practicable after the Minister makes an instrument under subsection (3) that relates to a licence, the Minister must give the applicant for the licence a copy of the instrument."
+      "source_quote": "Section 82: (8) As soon as practicable after the Minister makes an instrument under subsection (3) that relates to a licence, the Minister must give the applicant for the licence a copy of the instrument.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: carrier licences, notifications, instruments"
     },
     {
       "section": "94",
@@ -441,7 +463,9 @@
           "obligation_type": "Notification"
         }
       ],
-      "source_quote": "Section 94: (6) The ACMA must not cancel a carrier licence under subsection (1), (2), (3) or (4) unless the ACMA has first: (a) given the carrier a written notice: (i) setting out a proposal to cancel the licence; and (ii) inviting the carrier to make a submission to the ACMA on the proposal; and (b) considered any submission that was received within the time limit."
+      "source_quote": "Section 94: (6) The ACMA must not cancel a carrier licence under subsection (1), (2), (3) or (4) unless the ACMA has first: (a) given the carrier a written notice: (i) setting out a proposal to cancel the licence; and (ii) inviting the carrier to make a submission to the ACMA on the proposal; and (b) considered any submission that was received within the time limit.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: licence cancellation process, no data handling"
     },
     {
       "section": "96",
@@ -476,7 +500,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "Annual charge, application charge and late payment penalty may be recovered by the ACMA, on behalf of the Commonwealth, as debts due to the Commonwealth. Amounts received by way of annual charge, application charge or late payment penalty must be paid to the Commonwealth."
+      "source_quote": "Annual charge, application charge and late payment penalty may be recovered by the ACMA, on behalf of the Commonwealth, as debts due to the Commonwealth. Amounts received by way of annual charge, application charge or late payment penalty must be paid to the Commonwealth.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial penalties and recovery mechanisms"
     },
     {
       "section": "97",
@@ -507,7 +533,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "This section cancels the effect of a provision of another Act that would have the effect of exempting a person from liability to pay charge imposed by the Telecommunications (Carrier Licence Charges) Act 1997."
+      "source_quote": "This section cancels the effect of a provision of another Act that would have the effect of exempting a person from liability to pay charge imposed by the Telecommunications (Carrier Licence Charges) Act 1997.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics, tax administration"
     },
     {
       "section": "98",
@@ -552,7 +580,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A carrier may apply to the ACMA for a nominated carrier declaration in relation to one or more specified network units."
+      "source_quote": "A carrier may apply to the ACMA for a nominated carrier declaration in relation to one or more specified network units.",
+      "relevance_score": 2,
+      "relevance_reason": "Consent and financial data handling"
     },
     {
       "section": "100",
@@ -583,7 +613,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If the ACMA refuses to make a nominated carrier declaration, the ACMA must give written notice of the refusal to: (a) the applicant; and (b) the owner, or each of the owners, of the network units."
+      "source_quote": "If the ACMA refuses to make a nominated carrier declaration, the ACMA must give written notice of the refusal to: (a) the applicant; and (b) the owner, or each of the owners, of the network units.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure amendment mechanics"
     },
     {
       "section": "102",
@@ -638,7 +670,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The ACMA is to maintain a Register in which the ACMA includes: (a) all nominated carrier declarations currently in force; and (b) all carrier licences currently in force; and (c) all conditions of such licences."
+      "source_quote": "The ACMA is to maintain a Register in which the ACMA includes: (a) all nominated carrier declarations currently in force; and (b) all carrier licences currently in force; and (c) all conditions of such licences.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and record-keeping for financial data"
     },
     {
       "section": "109",
@@ -667,7 +701,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "defence organisation means: (a) the Defence Department; or (b) the Australian Defence Force; or (c) an organisation of a foreign country, so far as the organisation: (i) has functions corresponding to functions of, or of a part of, the Defence Department or the Australian Defence Force; and (ii) is authorised by the Commonwealth to operate or train in Australia or an external Territory; or (d) a part of such an organisation or body."
+      "source_quote": "defence organisation means: (a) the Defence Department; or (b) the Australian Defence Force; or (c) an organisation of a foreign country, so far as the organisation: (i) has functions corresponding to functions of, or of a part of, the Defence Department or the Australian Defence Force; and (ii) is authorised by the Commonwealth to operate or train in Australia or an external Territory; or (d) a part of such an organisation or body.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure definition of a term not directly related to data compliance"
     },
     {
       "section": "111",
@@ -702,7 +738,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "broadcasting transmitter means a radiocommunications transmitter used, or for use, to deliver a broadcasting service. head end of a cable transmission system means a facility that: (a) is connected to a line link; and (b) is used, or for use, in connection with the delivery of the service; (c) processes signals for delivery by the line link to end-users having equipment appropriate for receiving the service."
+      "source_quote": "broadcasting transmitter means a radiocommunications transmitter used, or for use, to deliver a broadcasting service. head end of a cable transmission system means a facility that: (a) is connected to a line link; and (b) is used, or for use, in connection with the delivery of the service; (c) processes signals for delivery by the line link to end-users having equipment appropriate for receiving the service.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure definitions of telecom terms, no data compliance relevance"
     },
     {
       "section": "121",
@@ -747,7 +785,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The ACCC may issue a formal warning if a person contravenes the service provider rule set out in subsection 152BED(2) of the Telecommunications Act."
+      "source_quote": "The ACCC may issue a formal warning if a person contravenes the service provider rule set out in subsection 152BED(2) of the Telecommunications Act.",
+      "relevance_score": 2,
+      "relevance_reason": "ACCC warnings for telecom rule violations"
     },
     {
       "section": "123",
@@ -767,7 +807,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Compilation is irrelevant to data compliance"
     },
     {
       "section": "134",
@@ -787,7 +829,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Compilation is irrelevant to data compliance"
     },
     {
       "section": "135",
@@ -807,7 +851,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Compilation is irrelevant to data compliance"
     },
     {
       "section": "136",
@@ -827,7 +873,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Compilation is irrelevant to data compliance"
     },
     {
       "section": "137",
@@ -860,7 +908,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "administrative burdens on participants in sections of the fax marketing industry, the ACMA must have regard to: (a) the number of persons who would be likely to benefit from (b) the extent to which those persons are householders or small business operators; and (c) the legitimate business interests of participants in sections of the fax marketing industry."
+      "source_quote": "administrative burdens on participants in sections of the fax marketing industry, the ACMA must have regard to: (a) the number of persons who would be likely to benefit from (b) the extent to which those persons are householders or small business operators; and (c) the legitimate business interests of participants in sections of the fax marketing industry.",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: industry codes not directly data compliance"
     },
     {
       "section": "138",
@@ -991,7 +1041,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Examples of matters that may be dealt with by industry codes and industry standards: (a) telling customers about: (i) goods or services on offer; (ii) the prices of those goods or services; (iii) the other terms and conditions on which those goods or services are offered; (b) giving customers information about performance indicators customers can use to evaluate the quality of services; (c) regular reporting to customers about performance against those performance indicators; (d) the internal handling of customer complaints; (e) reporting about customer complaints; (f) privacy and, in particular: (i) the protection of personal information; and"
+      "source_quote": "Examples of matters that may be dealt with by industry codes and industry standards: (a) telling customers about: (i) goods or services on offer; (ii) the prices of those goods or services; (iii) the other terms and conditions on which those goods or services are offered; (b) giving customers information about performance indicators customers can use to evaluate the quality of services; (c) regular reporting to customers about performance against those performance indicators; (d) the internal handling of customer complaints; (e) reporting about customer complaints; (f) privacy and, in particular: (i) the protection of personal information; and",
+      "relevance_score": 2,
+      "relevance_reason": "Industry codes may cover privacy protections"
     },
     {
       "section": "139",
@@ -1038,7 +1090,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "action to be taken to minimize or prevent the sending or delivery of unsolicited commercial electronic messages, including: (i) the configuration of servers so as to minimise or prevent the sending or delivery of unsolicited commercial electronic messages; and (ii) the shutdown of open relay servers;"
+      "source_quote": "action to be taken to minimize or prevent the sending or delivery of unsolicited commercial electronic messages, including: (i) the configuration of servers so as to minimise or prevent the sending or delivery of unsolicited commercial electronic messages; and (ii) the shutdown of open relay servers;",
+      "relevance_score": 3,
+      "relevance_reason": "Consent procedures for electronic messages"
     },
     {
       "section": "140",
@@ -1071,7 +1125,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "action to be taken to limit the total number of telemarketing calls made, or attempted to be made, by a particular participant in a section of the telemarketing industry, during a particular period to a particular Australian number;"
+      "source_quote": "action to be taken to limit the total number of telemarketing calls made, or attempted to be made, by a particular participant in a section of the telemarketing industry, during a particular period to a particular Australian number;",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: telemarketing limits not directly data protection"
     },
     {
       "section": "168",
@@ -1134,7 +1190,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The ACMA is to maintain a Register in which the ACMA includes: (a) all industry codes required to be registered under this Part, as those codes are in force from time to time; and (b) all industry standards; and (c) all requests made under section 118; and (d) all notices under section 119; and (e) all directions given under section 121."
+      "source_quote": "The ACMA is to maintain a Register in which the ACMA includes: (a) all industry codes required to be registered under this Part, as those codes are in force from time to time; and (b) all industry standards; and (c) all requests made under section 118; and (d) all notices under section 119; and (e) all directions given under section 121.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential record-keeping for ACMA"
     },
     {
       "section": "170",
@@ -1163,7 +1221,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The ACMA may, within 20 business days after an application is made, request the applicant to give the ACMA, within the period specified in the request, further information about the application."
+      "source_quote": "The ACMA may, within 20 business days after an application is made, request the applicant to give the ACMA, within the period specified in the request, further information about the application.",
+      "relevance_score": 1,
+      "relevance_reason": "ACMA information requests for industry codes"
     },
     {
       "section": "171",
@@ -1206,7 +1266,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If the ACMA is not satisfied as to the matters set out in subsection (2A), the ACMA must, by written notice given to the applicant, refuse to make the declaration."
+      "source_quote": "If the ACMA is not satisfied as to the matters set out in subsection (2A), the ACMA must, by written notice given to the applicant, refuse to make the declaration.",
+      "relevance_score": 2,
+      "relevance_reason": "ACMA approval conditions for telecom industry codes"
     },
     {
       "section": "172",
@@ -1253,7 +1315,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If: (a) a section 136B declaration was made... (b) when the section 136B declaration was in force, the body or association gave a copy of the code to the ACMA..."
+      "source_quote": "If: (a) a section 136B declaration was made... (b) when the section 136B declaration was in force, the body or association gave a copy of the code to the ACMA...",
+      "relevance_score": 0,
+      "relevance_reason": "Reimbursement for industry codes not relevant to data compliance"
     },
     {
       "section": "173",
@@ -1300,7 +1364,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If: (a) a section 136B declaration was made in relation to the variation of an industry code by a body or association; and (b) when the section 136B declaration was in force, the body or association gave a copy of the variation to the ACMA under section 119A;"
+      "source_quote": "If: (a) a section 136B declaration was made in relation to the variation of an industry code by a body or association; and (b) when the section 136B declaration was in force, the body or association gave a copy of the variation to the ACMA under section 119A;",
+      "relevance_score": 0,
+      "relevance_reason": "Reimbursement for industry codes not directly related to data compliance"
     },
     {
       "section": "174",
@@ -1335,7 +1401,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The ACMA must, by written notice given to the body or association, determine that the body or association is entitled to be paid a specified amount."
+      "source_quote": "The ACMA must, by written notice given to the body or association, determine that the body or association is entitled to be paid a specified amount.",
+      "relevance_score": 0,
+      "relevance_reason": "Reimbursement for industry codes not related to data protection"
     },
     {
       "section": "181",
@@ -1392,7 +1460,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "retailer, when used in relation to a joint functional separation undertaking, means a person identified in the undertaking as the retailer, or one of the retailers, for the purposes of the undertaking."
+      "source_quote": "retailer, when used in relation to a joint functional separation undertaking, means a person identified in the undertaking as the retailer, or one of the retailers, for the purposes of the undertaking.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential industry definitions"
     },
     {
       "section": "183",
@@ -1429,7 +1499,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of this Part: (a) a notional contract (however described) between a corporation's business units is to be treated as if it were an actual contract; and (b) any terms and conditions (whether or not relating to price or a method of ascertaining price) in such a notional contract are to be treated as if they were actual terms and conditions."
+      "source_quote": "For the purposes of this Part: (a) a notional contract (however described) between a corporation's business units is to be treated as if it were an actual contract; and (b) any terms and conditions (whether or not relating to price or a method of ascertaining price) in such a notional contract are to be treated as if they were actual terms and conditions.",
+      "relevance_score": 2,
+      "relevance_reason": "Functional separation for data governance"
     },
     {
       "section": "192",
@@ -1513,7 +1585,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "192 Compilation (iv) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (v) an activity that is preparatory to the supply of an eligible service; (vi) an activity that is ancillary or incidental to the supply of an eligible service; (vii) giving information to service providers about any of the above activities; (e) the person must not discriminate in favour of itself in relation to the carrying on of any of the following activities: (i) developing a new eligible service; (ii) enhancing an eligible service; (iii) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (iv) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (v) an activity that is preparatory to the supply of an eligible service; (vi) an activity that is ancillary or incidental to the supply of an eligible service; (vii) giving information to service providers about any of the above activities;"
+      "source_quote": "192 Compilation (iv) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (v) an activity that is preparatory to the supply of an eligible service; (vi) an activity that is ancillary or incidental to the supply of an eligible service; (vii) giving information to service providers about any of the above activities; (e) the person must not discriminate in favour of itself in relation to the carrying on of any of the following activities: (i) developing a new eligible service; (ii) enhancing an eligible service; (iii) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (iv) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (v) an activity that is preparatory to the supply of an eligible service; (vi) an activity that is ancillary or incidental to the supply of an eligible service; (vii) giving information to service providers about any of the above activities;",
+      "relevance_score": 2,
+      "relevance_reason": "Prohibits self-discrimination in service activities"
     },
     {
       "section": "193",
@@ -1577,7 +1651,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "193 Compilation material extent, to comply with the terms and conditions on which the person supplies designated carriage services. (5) Examples of grounds for believing as mentioned in subsection (4) include: (a) evidence that the wholesale customer or prospective wholesale customer is not creditworthy; and (b) repeated failures by the wholesale customer or prospective wholesale customer to comply with the terms and conditions on which the person supplied eligible services (whether or not using the line)."
+      "source_quote": "193 Compilation material extent, to comply with the terms and conditions on which the person supplies designated carriage services. (5) Examples of grounds for believing as mentioned in subsection (4) include: (a) evidence that the wholesale customer or prospective wholesale customer is not creditworthy; and (b) repeated failures by the wholesale customer or prospective wholesale customer to comply with the terms and conditions on which the person supplied eligible services (whether or not using the line).",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: creditworthiness checks not directly data compliance"
     },
     {
       "section": "214",
@@ -1641,7 +1717,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "214 Compilation (a) this Act does not prevent the corporation, together with one or more other persons, from giving the ACCC a joint functional separation undertaking; (b) if the joint functional separation undertaking comes into force—the corporation is taken to have cancelled the election immediately before the joint functional separation undertaking comes into force."
+      "source_quote": "214 Compilation (a) this Act does not prevent the corporation, together with one or more other persons, from giving the ACCC a joint functional separation undertaking; (b) if the joint functional separation undertaking comes into force—the corporation is taken to have cancelled the election immediately before the joint functional separation undertaking comes into force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: ACCC is competition regulator, not data protection"
     },
     {
       "section": "216",
@@ -1733,7 +1811,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "216 Compilation (h) provide that a wholesaler will ensure that no director of the wholesaler is a director of a retailer; and (i) provide that a retailer will ensure that no director of the retailer is a director of a wholesaler; and (j) provide that: (i) the wholesaler or wholesalers; and (ii) the retailer or retailers; will, to the extent specified in the undertaking, have separate: (iii) operational support systems; (iv) business systems; (v) communications systems; (vi) accounts; and (k) provide that a wholesaler will publish on the wholesaler's website: on which the wholesaler offers to supply local access line services to the following: (iii) a retailer; (iv) its wholesale customers or prospective wholesale customers; and (l) provide that a wholesaler will: (i) if requested to do so by a wholesale customer or prospective wholesale customer, supply a local access line service to the wholesale customer or prospective wholesale customer; and (ii) do so on the terms and conditions that were published on the wholesaler's website at the time when the request was made; and (m) provide that a wholesaler will ensure that information provided by its wholesale customers (other than the retailer or retailers) is not disclosed to any of the retailers;"
+      "source_quote": "216 Compilation (h) provide that a wholesaler will ensure that no director of the wholesaler is a director of a retailer; and (i) provide that a retailer will ensure that no director of the retailer is a director of a wholesaler; and (j) provide that: (i) the wholesaler or wholesalers; and (ii) the retailer or retailers; will, to the extent specified in the undertaking, have separate: (iii) operational support systems; (iv) business systems; (v) communications systems; (vi) accounts; and (k) provide that a wholesaler will publish on the wholesaler's website: on which the wholesaler offers to supply local access line services to the following: (iii) a retailer; (iv) its wholesale customers or prospective wholesale customers; and (l) provide that a wholesaler will: (i) if requested to do so by a wholesale customer or prospective wholesale customer, supply a local access line service to the wholesale customer or prospective wholesale customer; and (ii) do so on the terms and conditions that were published on the wholesaler's website at the time when the request was made; and (m) provide that a wholesaler will ensure that information provided by its wholesale customers (other than the retailer or retailers) is not disclosed to any of the retailers;",
+      "relevance_score": 2,
+      "relevance_reason": "Separation of entities affects data handling but not direct data protection."
     },
     {
       "section": "238",
@@ -1813,7 +1893,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "238 Compilation (b) any of those persons has: (i) breached a fundamental provision of the undertaking; or (ii) contravened section 151ZF or 151ZG; the ACCC may, by written notice given to each of those persons, revoke the undertaking."
+      "source_quote": "238 Compilation (b) any of those persons has: (i) breached a fundamental provision of the undertaking; or (ii) contravened section 151ZF or 151ZG; the ACCC may, by written notice given to each of those persons, revoke the undertaking.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for revocation of functional separation"
     },
     {
       "section": "239",
@@ -1881,7 +1963,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "239 Compilation (1) Before making a decision under subsection 151W(1) or (2) to revoke a standard functional separation undertaking given by a person, the ACCC must: (a) give the person a written notice: (i) stating that the ACCC proposes to revoke the [undertaking]; (ii) inviting the person to make a submission to the ACCC about the revocation within the time limit specified in the notice; and (b) consider any submission received within the time limit"
+      "source_quote": "239 Compilation (1) Before making a decision under subsection 151W(1) or (2) to revoke a standard functional separation undertaking given by a person, the ACCC must: (a) give the person a written notice: (i) stating that the ACCC proposes to revoke the [undertaking]; (ii) inviting the person to make a submission to the ACCC about the revocation within the time limit specified in the notice; and (b) consider any submission received within the time limit",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: ACCC revocation process for functional separation undertakings"
     },
     {
       "section": "240",
@@ -1910,7 +1994,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "240 (a) give each of those persons a written notice: (i) stating that the ACCC proposes to revoke the (ii) inviting those persons to make submissions to the ACCC about the revocation within the time limit"
+      "source_quote": "240 (a) give each of those persons a written notice: (i) stating that the ACCC proposes to revoke the (ii) inviting those persons to make submissions to the ACCC about the revocation within the time limit",
+      "relevance_score": 0,
+      "relevance_reason": "Not related to data protection or cross-border transfers"
     },
     {
       "section": "244",
@@ -1935,7 +2021,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "244 (3) A person must comply with a direction under subsection (1) or (2)."
+      "source_quote": "244 (3) A person must comply with a direction under subsection (1) or (2).",
+      "relevance_score": 2,
+      "relevance_reason": "regulator powers, penalties for non-compliance"
     },
     {
       "section": "245",
@@ -1964,7 +2052,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "245 (c) notify the ACCC, in writing, of that event; and (d) do so as soon as practicable, but not later than 10 business days, after becoming so aware."
+      "source_quote": "245 (c) notify the ACCC, in writing, of that event; and (d) do so as soon as practicable, but not later than 10 business days, after becoming so aware.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: control changes not directly data-related"
     },
     {
       "section": "247",
@@ -2009,7 +2099,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "247 (1) If: (a) a functional separation undertaking given by a person is in force; and (b) the Federal Court is satisfied, on the application of: (i) the ACCC; or (ii) a carrier; or (iii) a carriage service provider; that the person has breached the undertaking; the Court may make any or all of the following orders: (c) an order directing the person to comply with the undertaking; (d) an order directing the disposal of network units, lines, shares or other assets; (e) an order restraining the exercise of any rights attached to shares; (f) an order prohibiting or deferring the payment of any sums due to a person in respect of shares held by the person; (g) an order that any exercise of rights attached to shares be disregarded; (h) an order directing the person to pay to the Commonwealth an amount up to the amount of any financial benefit that the person has obtained directly or indirectly and that is reasonably attributable to the breach;"
+      "source_quote": "247 (1) If: (a) a functional separation undertaking given by a person is in force; and (b) the Federal Court is satisfied, on the application of: (i) the ACCC; or (ii) a carrier; or (iii) a carriage service provider; that the person has breached the undertaking; the Court may make any or all of the following orders: (c) an order directing the person to comply with the undertaking; (d) an order directing the disposal of network units, lines, shares or other assets; (e) an order restraining the exercise of any rights attached to shares; (f) an order prohibiting or deferring the payment of any sums due to a person in respect of shares held by the person; (g) an order that any exercise of rights attached to shares be disregarded; (h) an order directing the person to pay to the Commonwealth an amount up to the amount of any financial benefit that the person has obtained directly or indirectly and that is reasonably attributable to the breach;",
+      "relevance_score": 2,
+      "relevance_reason": "enforcement of functional separation undertakings"
     },
     {
       "section": "249",
@@ -2038,7 +2130,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "249 (1) If: (a) an eligible service is supplied, or proposed to be supplied, by a person using a local access line; and [the person must not, on or after the designated commencement date, discriminate between the person's wholesale customers, or the person's prospective wholesale customers, in relation to the supply of eligible services using the line.]"
+      "source_quote": "249 (1) If: (a) an eligible service is supplied, or proposed to be supplied, by a person using a local access line; and [the person must not, on or after the designated commencement date, discriminate between the person's wholesale customers, or the person's prospective wholesale customers, in relation to the supply of eligible services using the line.]",
+      "relevance_score": 0,
+      "relevance_reason": "Non-discrimination in wholesale services unrelated to data compliance"
     },
     {
       "section": "251",
@@ -2087,7 +2181,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "251 (2) The person must not, in carrying on any of the following activities, discriminate between the person's wholesale customers or the person's prospective wholesale customers: (a) developing a new eligible service; (b) enhancing an eligible service; (c) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (d) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (e) an activity that is preparatory to the supply of an eligible service; (f) an activity that is ancillary or incidental to the supply of an eligible service; (g) giving information to service providers about any of the above activities."
+      "source_quote": "251 (2) The person must not, in carrying on any of the following activities, discriminate between the person's wholesale customers or the person's prospective wholesale customers: (a) developing a new eligible service; (b) enhancing an eligible service; (c) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (d) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (e) an activity that is preparatory to the supply of an eligible service; (f) an activity that is ancillary or incidental to the supply of an eligible service; (g) giving information to service providers about any of the above activities.",
+      "relevance_score": 0,
+      "relevance_reason": "No data privacy or cross-border transfer relevance"
     },
     {
       "section": "252",
@@ -2173,7 +2269,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No discrimination by a person in favour of itself in relation to the carrying on of any of the following activities: (a) developing a new eligible service; (b) enhancing an eligible service; (c) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (d) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (e) an activity that is preparatory to the supply of an eligible service; (f) an activity that is ancillary or incidental to the supply of an eligible service; (g) giving information to service providers about any of the above activities."
+      "source_quote": "No discrimination by a person in favour of itself in relation to the carrying on of any of the following activities: (a) developing a new eligible service; (b) enhancing an eligible service; (c) extending or enhancing the capability of a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (d) planning for a facility or telecommunications network by means of which an eligible service is, or is to be, supplied; (e) an activity that is preparatory to the supply of an eligible service; (f) an activity that is ancillary or incidental to the supply of an eligible service; (g) giving information to service providers about any of the above activities.",
+      "relevance_score": 0,
+      "relevance_reason": "Self-discrimination rule unrelated to data protection or transfers"
     },
     {
       "section": "276",
@@ -2255,7 +2353,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Carriers, carriage service providers, number-database operators, emergency call persons and their respective associates must protect the confidentiality of information that relates to: (a) the contents of communications that have been, or are being, carried by carriers or carriage service providers; and (b) carriage services supplied by carriers and carriage service providers; and (c) the affairs or personal particulars of other persons."
+      "source_quote": "Carriers, carriage service providers, number-database operators, emergency call persons and their respective associates must protect the confidentiality of information that relates to: (a) the contents of communications that have been, or are being, carried by carriers or carriage service providers; and (b) carriage services supplied by carriers and carriage service providers; and (c) the affairs or personal particulars of other persons.",
+      "relevance_score": 3,
+      "relevance_reason": "Directly addresses data protection for carriers and service providers"
     },
     {
       "section": "278",
@@ -2321,7 +2421,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of this Part, information about the location of: (a) a mobile telephone handset; or (b) any other mobile communications device; is taken to be information that relates to the affairs of the customer responsible for the handset or device."
+      "source_quote": "For the purposes of this Part, information about the location of: (a) a mobile telephone handset; or (b) any other mobile communications device; is taken to be information that relates to the affairs of the customer responsible for the handset or device.",
+      "relevance_score": 3,
+      "relevance_reason": "Defines location data as personal information relevant to customer affairs"
     },
     {
       "section": "282",
@@ -2383,7 +2485,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subparagraphs (1)(a)(i) and (ii) do not apply to a communication that is or has been carried by a carrier or carriage service provider unless the carriage was by means of, is by means of, or is proposed to be delivered by means of, guided and/or unguided electromagnetic energy."
+      "source_quote": "Subparagraphs (1)(a)(i) and (ii) do not apply to a communication that is or has been carried by a carrier or carriage service provider unless the carriage was by means of, is by means of, or is proposed to be delivered by means of, guided and/or unguided electromagnetic energy.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "286",
@@ -2469,7 +2573,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Section 276 does not prohibit a disclosure or use by a person of (a) the person is an employee of: (i) a carrier; or (ii) a carriage service provider; or (iii) a telecommunications contractor; and (b) the disclosure or use is made in the performance of the person's duties as such an employee."
+      "source_quote": "Section 276 does not prohibit a disclosure or use by a person of (a) the person is an employee of: (i) a carrier; or (ii) a carriage service provider; or (iii) a telecommunications contractor; and (b) the disclosure or use is made in the performance of the person's duties as such an employee.",
+      "relevance_score": 3,
+      "relevance_reason": "Core exception for employee data handling in telecom contexts"
     },
     {
       "section": "288",
@@ -2535,7 +2641,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The information or document is kept, by a service provider (within the meaning of the Telecommunications (Interception and Access) Act 1979), solely for the purpose of complying with Part 5-1A of that Act; and the information or document is not used or disclosed by the service provider for any purpose other than one or more of the following purposes: (i) complying with Part  5-1A of that Act; (ii) complying with the requirements of warrants under Chapters 2 and 3 of that Act or authorisations under Chapter 4 of that Act; (iii) complying with requests or requirements to make disclosures provided for by sections 284 to 288 of this Act; (iv) providing persons with access to their personal information in accordance with the Privacy Act 1988; (v) a purpose prescribed by the regulations; (vi) a purpose incidental to any of the purposes referred to in subparagraphs (i) to (v)."
+      "source_quote": "The information or document is kept, by a service provider (within the meaning of the Telecommunications (Interception and Access) Act 1979), solely for the purpose of complying with Part 5-1A of that Act; and the information or document is not used or disclosed by the service provider for any purpose other than one or more of the following purposes: (i) complying with Part  5-1A of that Act; (ii) complying with the requirements of warrants under Chapters 2 and 3 of that Act or authorisations under Chapter 4 of that Act; (iii) complying with requests or requirements to make disclosures provided for by sections 284 to 288 of this Act; (iv) providing persons with access to their personal information in accordance with the Privacy Act 1988; (v) a purpose prescribed by the regulations; (vi) a purpose incidental to any of the purposes referred to in subparagraphs (i) to (v).",
+      "relevance_score": 2,
+      "relevance_reason": "Telecom interception exceptions for law enforcement"
     },
     {
       "section": "289",
@@ -2575,7 +2683,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "281 (1) Division 2 does not prohibit a disclosure by a person of information or a document if the person makes the disclosure as a witness summoned to give evidence or to produce documents."
+      "source_quote": "281 (1) Division 2 does not prohibit a disclosure by a person of information or a document if the person makes the disclosure as a witness summoned to give evidence or to produce documents.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer exemption for witness disclosures"
     },
     {
       "section": "292",
@@ -2621,7 +2731,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "292 (c) the disclosure is made to another person for purposes connected with: (i) the provision of directory assistance services by or on behalf of a carriage service provider; (ii) the publication and maintenance of a public number directory; (iv) the conduct of research of a kind specified in an instrument under subsection (3); and (d) if the disclosure to the other person is for a purpose covered by subparagraph (c)(ii) or (iv)—the other person holds an authorisation in force under the integrated public number database scheme permitting the other person to use and disclose the information or document."
+      "source_quote": "292 (c) the disclosure is made to another person for purposes connected with: (i) the provision of directory assistance services by or on behalf of a carriage service provider; (ii) the publication and maintenance of a public number directory; (iv) the conduct of research of a kind specified in an instrument under subsection (3); and (d) if the disclosure to the other person is for a purpose covered by subparagraph (c)(ii) or (iv)—the other person holds an authorisation in force under the integrated public number database scheme permitting the other person to use and disclose the information or document.",
+      "relevance_score": 3,
+      "relevance_reason": "Permitted disclosures for directory services and emergency calls"
     },
     {
       "section": "297",
@@ -2652,7 +2764,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "287 Division 2 does not prohibit a disclosure or use by a person (the first person) of information or a document if: (a) the information or document relates to the affairs or personal particulars (including any unlisted telephone number or any address) of another person; and (ab) it is unreasonable or impracticable to obtain the other person's consent to the disclosure or use; and (b) the first person believes on reasonable grounds that the disclosure or use is reasonably necessary to prevent or lessen a serious threat to the life or health of a person."
+      "source_quote": "287 Division 2 does not prohibit a disclosure or use by a person (the first person) of information or a document if: (a) the information or document relates to the affairs or personal particulars (including any unlisted telephone number or any address) of another person; and (ab) it is unreasonable or impracticable to obtain the other person's consent to the disclosure or use; and (b) the first person believes on reasonable grounds that the disclosure or use is reasonably necessary to prevent or lessen a serious threat to the life or health of a person.",
+      "relevance_score": 3,
+      "relevance_reason": "Emergency threat disclosures exempt from privacy prohibitions"
     },
     {
       "section": "298",
@@ -2682,7 +2796,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "290 Section 276 does not prohibit a disclosure or use by a person if: (a) the information or document relates to the contents or substance of a communication made by another person; and (b) having regard to all the relevant circumstances, it might reasonably be expected that the sender and the recipient of the communication would have consented to the disclosure or use, if they had been aware of the disclosure or use."
+      "source_quote": "290 Section 276 does not prohibit a disclosure or use by a person if: (a) the information or document relates to the contents or substance of a communication made by another person; and (b) having regard to all the relevant circumstances, it might reasonably be expected that the sender and the recipient of the communication would have consented to the disclosure or use, if they had been aware of the disclosure or use.",
+      "relevance_score": 3,
+      "relevance_reason": "Explicit consent exemption for data sharing"
     },
     {
       "section": "299",
@@ -2720,7 +2836,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "291 (1) Section 276 does not prohibit a disclosure or use by a person of (a) the disclosure or use is made by or on behalf of: (i) a carrier (the first carrier); or (ii) a carriage service provider (the first provider); and with, any other carrier or service provider carrying on its business as such a carrier or provider; and (c) the information or document relates to a person (the third person) who is a customer or former customer of: (i) the first carrier or the first provider; or (ii) the other carrier or the other provider; and with: (i) the supply, or proposed supply, by the other carrier or other provider to the third person of a carriage service or a content service; or (ii) the supply, or proposed supply, by the other carrier or other provider to the third person of goods or services for use in connection with the supply of a carriage service or a content service."
+      "source_quote": "291 (1) Section 276 does not prohibit a disclosure or use by a person of (a) the disclosure or use is made by or on behalf of: (i) a carrier (the first carrier); or (ii) a carriage service provider (the first provider); and with, any other carrier or service provider carrying on its business as such a carrier or provider; and (c) the information or document relates to a person (the third person) who is a customer or former customer of: (i) the first carrier or the first provider; or (ii) the other carrier or the other provider; and with: (i) the supply, or proposed supply, by the other carrier or other provider to the third person of a carriage service or a content service; or (ii) the supply, or proposed supply, by the other carrier or other provider to the third person of goods or services for use in connection with the supply of a carriage service or a content service.",
+      "relevance_score": 3,
+      "relevance_reason": "Carriage service provider disclosures exempt from privacy prohibitions for business purposes"
     },
     {
       "section": "300",
@@ -2759,7 +2877,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "300 (b) the information or the contents of the document relate to the affairs or personal particulars (including any unlisted telephone number or any address) of another person. (2) The first person must not disclose or use the information or document unless: (a) it is unreasonable or impracticable to obtain the other person's consent to the disclosure or use; and (b) either of the following apply: (i) the disclosure or use is for the purpose of, or in connection with, preventing or lessening a serious threat to the life or health of a person; (ii) the first person believes on reasonable grounds that the disclosure or use is reasonably necessary to prevent or lessen a serious threat to the life or health of a person."
+      "source_quote": "300 (b) the information or the contents of the document relate to the affairs or personal particulars (including any unlisted telephone number or any address) of another person. (2) The first person must not disclose or use the information or document unless: (a) it is unreasonable or impracticable to obtain the other person's consent to the disclosure or use; and (b) either of the following apply: (i) the disclosure or use is for the purpose of, or in connection with, preventing or lessening a serious threat to the life or health of a person; (ii) the first person believes on reasonable grounds that the disclosure or use is reasonably necessary to prevent or lessen a serious threat to the life or health of a person.",
+      "relevance_score": 3,
+      "relevance_reason": "Prevents life/threats - core exception"
     },
     {
       "section": "301",
@@ -2797,7 +2917,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "301 (a) the information or document relates to information (other than information relating to an unlisted telephone number) contained in an integrated public number database; and (b) the disclosure is to a carrier or a carriage service provider; and (c) the disclosure is made for a purpose of, or is connected with, the supply, or proposed supply, by a person of a location dependent carriage service."
+      "source_quote": "301 (a) the information or document relates to information (other than information relating to an unlisted telephone number) contained in an integrated public number database; and (b) the disclosure is to a carrier or a carriage service provider; and (c) the disclosure is made for a purpose of, or is connected with, the supply, or proposed supply, by a person of a location dependent carriage service.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer conditions"
     },
     {
       "section": "304",
@@ -2843,7 +2965,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "295B (1) The scheme must make provision for and in relation to the following matters: (a) the making of applications for authorisations; (b) the assessment of applications; (c) the period for which authorisations are to be in force; (d) the notification of decisions under the scheme (including to the person who maintains the integrated public number database referred to in paragraph 285(1A)(a)). (2) The scheme must require an applicant for an authorisation to specify the purpose for which the authorisation is sought."
+      "source_quote": "295B (1) The scheme must make provision for and in relation to the following matters: (a) the making of applications for authorisations; (b) the assessment of applications; (c) the period for which authorisations are to be in force; (d) the notification of decisions under the scheme (including to the person who maintains the integrated public number database referred to in paragraph 285(1A)(a)). (2) The scheme must require an applicant for an authorisation to specify the purpose for which the authorisation is sought.",
+      "relevance_score": 2,
+      "relevance_reason": "ACMA scheme for public number database authorisations"
     },
     {
       "section": "306",
@@ -2876,7 +3000,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "295H The scheme may make provision for or in relation to a particular matter by empowering the ACMA to make decisions of an administrative character. 295J The scheme may contain such ancillary or incidental provisions as the ACMA considers appropriate."
+      "source_quote": "295H The scheme may make provision for or in relation to a particular matter by empowering the ACMA to make decisions of an administrative character. 295J The scheme may contain such ancillary or incidental provisions as the ACMA considers appropriate.",
+      "relevance_score": 2,
+      "relevance_reason": "ACMA powers under public number database scheme"
     },
     {
       "section": "309",
@@ -2913,7 +3039,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "309 (3) A person must not contravene a direction under subsection (2). (4) Subsection (3) is a civil penalty provision. Note: provisions."
+      "source_quote": "309 (3) A person must not contravene a direction under subsection (2). (4) Subsection (3) is a civil penalty provision. Note: provisions.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border transfer compliance"
     },
     {
       "section": "313",
@@ -2942,7 +3070,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "313 (b) the person uses or discloses the information; and (c) the use or disclosure referred to in paragraph (b) of this subsection is not for a purpose connected with persons being alerted to an emergency or a likely emergency."
+      "source_quote": "313 (b) the person uses or discloses the information; and (c) the use or disclosure referred to in paragraph (b) of this subsection is not for a purpose connected with persons being alerted to an emergency or a likely emergency.",
+      "relevance_score": 3,
+      "relevance_reason": "Emergency disclosure restrictions on public data"
     },
     {
       "section": "314",
@@ -2983,7 +3113,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "295ZB (1) If an emergency management person discloses relevant information, the person must give a written report to the AFP Minister and to the ACMA that covers the following matters: (a) if the disclosure occurred under subsection 295V(1) or (2)—a description of the emergency or likely emergency concerned and its location; (b) in any case—the number of telephone numbers that were disclosed and the day that disclosure occurred; (c) in any case—the number of persons to whom the emergency management person disclosed those numbers and the purpose of each disclosure."
+      "source_quote": "295ZB (1) If an emergency management person discloses relevant information, the person must give a written report to the AFP Minister and to the ACMA that covers the following matters: (a) if the disclosure occurred under subsection 295V(1) or (2)—a description of the emergency or likely emergency concerned and its location; (b) in any case—the number of telephone numbers that were disclosed and the day that disclosure occurred; (c) in any case—the number of persons to whom the emergency management person disclosed those numbers and the purpose of each disclosure.",
+      "relevance_score": 3,
+      "relevance_reason": "Emergency disclosure reporting for public numbers"
     },
     {
       "section": "317",
@@ -3018,7 +3150,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "317 (b) the disclosure is for a purpose covered by subparagraph 285(1A)(c)(iv); then: (c) during the period the person holds an authorisation in force under the integrated public number database scheme in relation to the information or document—the person must not disclose or use the information or document except for that purpose; and (d) if the person does not hold such an authorisation—the person must not disclose or use the information or document."
+      "source_quote": "317 (b) the disclosure is for a purpose covered by subparagraph 285(1A)(c)(iv); then: (c) during the period the person holds an authorisation in force under the integrated public number database scheme in relation to the information or document—the person must not disclose or use the information or document except for that purpose; and (d) if the person does not hold such an authorisation—the person must not disclose or use the information or document.",
+      "relevance_score": 3,
+      "relevance_reason": "Restricts disclosure of personal information under authorisation"
     },
     {
       "section": "319",
@@ -3049,7 +3183,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "319 (1) If information or a document is disclosed to a person as permitted by section 291A or this subsection, a person must not disclose or use the information or document except for the purpose of, or in connection with, the supply, or proposed supply, by a person of a location dependent carriage service."
+      "source_quote": "319 (1) If information or a document is disclosed to a person as permitted by section 291A or this subsection, a person must not disclose or use the information or document except for the purpose of, or in connection with, the supply, or proposed supply, by a person of a location dependent carriage service.",
+      "relevance_score": 3,
+      "relevance_reason": "Restricts cross-border data use for location-dependent services"
     },
     {
       "section": "321",
@@ -3092,7 +3228,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "305 (2) The carrier, carriage service provider or number-database operator must retain the notification for 3 years. 306 (2) If the person is a carrier, carriage service provider or number-database operator, the carrier, provider or operator must: (a) make a record of the disclosure as soon as practicable after the disclosure and, in any event, within 5 days after the disclosure; and (b) retain that record for 3 years."
+      "source_quote": "305 (2) The carrier, carriage service provider or number-database operator must retain the notification for 3 years. 306 (2) If the person is a carrier, carriage service provider or number-database operator, the carrier, provider or operator must: (a) make a record of the disclosure as soon as practicable after the disclosure and, in any event, within 5 days after the disclosure; and (b) retain that record for 3 years.",
+      "relevance_score": 3,
+      "relevance_reason": "Record-keeping for disclosures"
     },
     {
       "section": "322",
@@ -3135,7 +3273,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "306 (5) A record made under subsection (2) or (3) must set out: (a) the name of the person who disclosed the information or document concerned; (b) the date of the disclosure; (c) a statement of the grounds for the disclosure; and (d) if the disclosure is made on the grounds of an authorisation under the Telecommunications (Interception and Access) Act 1979: (i) the name of the person who made the authorisation; (ii) the date of the making of the authorisation;"
+      "source_quote": "306 (5) A record made under subsection (2) or (3) must set out: (a) the name of the person who disclosed the information or document concerned; (b) the date of the disclosure; (c) a statement of the grounds for the disclosure; and (d) if the disclosure is made on the grounds of an authorisation under the Telecommunications (Interception and Access) Act 1979: (i) the name of the person who made the authorisation; (ii) the date of the making of the authorisation;",
+      "relevance_score": 3,
+      "relevance_reason": "Detailed record-keeping for data disclosures"
     },
     {
       "section": "323",
@@ -3174,7 +3314,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "306 (5) (d) if the disclosure is made on the grounds of an authorisation under the Telecommunications (Interception and Access) Act 1979: (i) the name of the person who made the authorisation; (ii) the date of the making of the authorisation; (e) if paragraph (d) does not apply and the disclosure was at the request of another body or person: (i) the name of the body or person; (ii) the date of the request;"
+      "source_quote": "306 (5) (d) if the disclosure is made on the grounds of an authorisation under the Telecommunications (Interception and Access) Act 1979: (i) the name of the person who made the authorisation; (ii) the date of the making of the authorisation; (e) if paragraph (d) does not apply and the disclosure was at the request of another body or person: (i) the name of the body or person; (ii) the date of the request;",
+      "relevance_score": 3,
+      "relevance_reason": "Records must include specific authorisation details for data sharing"
     },
     {
       "section": "324",
@@ -3194,7 +3336,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Compilation is irrelevant to data compliance"
     },
     {
       "section": "325",
@@ -3241,7 +3385,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "325 (a) the name of the person or persons who made the disclosure or disclosures; and (b) one of the following: (i) if only 1 disclosure is made because of the authorisation—the date of the disclosure; (ii) if more than 1 disclosure is made because of the authorisation—the date of the first disclosure and the date of the last disclosure; and (c) a statement of the grounds for the disclosure or disclosures; and (d) the name of the person who made the authorisation and the date of the making of the authorisation."
+      "source_quote": "325 (a) the name of the person or persons who made the disclosure or disclosures; and (b) one of the following: (i) if only 1 disclosure is made because of the authorisation—the date of the disclosure; (ii) if more than 1 disclosure is made because of the authorisation—the date of the first disclosure and the date of the last disclosure; and (c) a statement of the grounds for the disclosure or disclosures; and (d) the name of the person who made the authorisation and the date of the making of the authorisation.",
+      "relevance_score": 3,
+      "relevance_reason": "Record keeping for disclosures"
     },
     {
       "section": "326",
@@ -3276,7 +3422,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "326 (1) If: information or a document is disclosed during a financial year; and either: (i) under section 306 or 306A, a carrier, carriage service provider or number-database operator makes a record of the disclosure; or (ii) under section 306 or 306A, a carrier, carriage service provider or number-database operator is given a copy of a record of the disclosure; the carrier, carriage service provider or number-database operator must, within 2 months after the end of the financial year, give the ACMA a written report relating to the disclosure."
+      "source_quote": "326 (1) If: information or a document is disclosed during a financial year; and either: (i) under section 306 or 306A, a carrier, carriage service provider or number-database operator makes a record of the disclosure; or (ii) under section 306 or 306A, a carrier, carriage service provider or number-database operator is given a copy of a record of the disclosure; the carrier, carriage service provider or number-database operator must, within 2 months after the end of the financial year, give the ACMA a written report relating to the disclosure.",
+      "relevance_score": 2,
+      "relevance_reason": "Record keeping for disclosures to regulator"
     }
   ]
 }

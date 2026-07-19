@@ -160,7 +160,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "Definitions of telecom terms, not directly data-specific"
     },
     {
       "section": "4",
@@ -215,7 +217,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "4 (part 2)",
@@ -286,7 +290,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "8",
@@ -321,7 +327,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "8. The Authority may, with the approval of the Minister, designate any person who has been granted a licence under section 5 as a public telecommunication licensee to perform all or any of the functions relating to the operation and provision of telecommunication systems and services in Singapore within the exclusive privilege of the Authority under this Act."
+      "source_quote": "8. The Authority may, with the approval of the Minister, designate any person who has been granted a licence under section 5 as a public telecommunication licensee to perform all or any of the functions relating to the operation and provision of telecommunication systems and services in Singapore within the exclusive privilege of the Authority under this Act.",
+      "relevance_score": 0,
+      "relevance_reason": "No data transfer or privacy provisions"
     },
     {
       "section": "8 (part 2)",
@@ -341,7 +349,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "designated entities under authority"
     },
     {
       "section": "19",
@@ -381,7 +391,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subsections (1) and (6) of section 17 do not — (a) affect the right of a public telecommunication licensee to enter into an agreement, commonly known as a wayleave agreement, with the owner or occupier of any land for the purpose of laying, placing, carrying or erecting any installation or plant used for telecommunications on the land; (b) affect any such wayleave agreement subsisting immediately before 1 December 1999; or (c) affect the right of a public telecommunication licensee to negotiate the use of land or facilities belonging to the State or any other person."
+      "source_quote": "Subsections (1) and (6) of section 17 do not — (a) affect the right of a public telecommunication licensee to enter into an agreement, commonly known as a wayleave agreement, with the owner or occupier of any land for the purpose of laying, placing, carrying or erecting any installation or plant used for telecommunications on the land; (b) affect any such wayleave agreement subsisting immediately before 1 December 1999; or (c) affect the right of a public telecommunication licensee to negotiate the use of land or facilities belonging to the State or any other person.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "2017",
@@ -460,7 +472,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done"
+      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done",
+      "relevance_score": 2,
+      "relevance_reason": "Dispute resolution for infrastructure disputes"
     },
     {
       "section": "2017 (part 2)",
@@ -539,7 +553,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done for the purpose of paragraph (a), (b) or (c), as the case may be."
+      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done for the purpose of paragraph (a), (b) or (c), as the case may be.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential dispute resolution for infrastructure"
     },
     {
       "section": "2017",
@@ -618,7 +634,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done"
+      "source_quote": "the licensee must give 14 days' notice to the developer or owner of that land or building, stating as fully and accurately as possible the nature and extent of the acts intended to be done",
+      "relevance_score": 2,
+      "relevance_reason": "Dispute resolution for infrastructure disputes"
     },
     {
       "section": "28",
@@ -648,7 +666,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The execution of any work by a public telecommunication licensee under this Act which may affect any street, railway, river, canal, or other waterway or any system of irrigation, drainage or water supply or any telecommunications, harbour works or any other public or private works, and the erection of any installation or plant used for telecommunications whether over, on or under the ground must be carried out in a lawful manner having regard to the safety of any person or property."
+      "source_quote": "The execution of any work by a public telecommunication licensee under this Act which may affect any street, railway, river, canal, or other waterway or any system of irrigation, drainage or water supply or any telecommunications, harbour works or any other public or private works, and the erection of any installation or plant used for telecommunications whether over, on or under the ground must be carried out in a lawful manner having regard to the safety of any person or property.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "34",
@@ -668,7 +688,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Authority powers for data compliance"
     },
     {
       "section": "36",
@@ -708,7 +730,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Any person who digs, bores, trenches, grades, excavates or breaks any ground with any mechanical equipment or explosive or allows employee or agent of the person to do so without first ascertaining the location of any telecommunication cable belonging to or under the management or control of any telecommunication system licensee that may be interfered with shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $100,000 or to imprisonment for a term not exceeding 3 years or to both."
+      "source_quote": "Any person who digs, bores, trenches, grades, excavates or breaks any ground with any mechanical equipment or explosive or allows employee or agent of the person to do so without first ascertaining the location of any telecommunication cable belonging to or under the management or control of any telecommunication system licensee that may be interfered with shall be guilty of an offence and shall be liable on conviction to a fine not exceeding $100,000 or to imprisonment for a term not exceeding 3 years or to both.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "36 (part 4)",
@@ -728,7 +752,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: physical infrastructure, not data"
     },
     {
       "section": "36 (part 5)",
@@ -761,7 +787,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "no equity interests in the designated trust are to be issued or offered (whether by way of rights, bonus or otherwise) in respect of the specified equity interests, unless the Authority expressly permits such issue or offer; and except in a winding up of the designated trust, no amount is to be paid (whether by way of profits, income or otherwise) in respect of the specified equity interests, unless the Authority expressly authorises such payment."
+      "source_quote": "no equity interests in the designated trust are to be issued or offered (whether by way of rights, bonus or otherwise) in respect of the specified equity interests, unless the Authority expressly permits such issue or offer; and except in a winding up of the designated trust, no amount is to be paid (whether by way of profits, income or otherwise) in respect of the specified equity interests, unless the Authority expressly authorises such payment.",
+      "relevance_score": 0,
+      "relevance_reason": "No data processing or cross-border transfer mentioned"
     },
     {
       "section": "44",
@@ -781,7 +809,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "commencement/assent dates"
     },
     {
       "section": "44 (part 2)",
@@ -801,7 +831,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: commencement dates"
     },
     {
       "section": "50",
@@ -840,7 +872,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "50. In this Part, unless the context otherwise requires — \"declared telecommunication licensee\" means a telecommunication licensee — (a) that is declared by the Authority to be a telecommunication licensee subject to this Part; or (b) that is within a class of telecommunication licensees declared by the Authority to be a class of telecommunication licensees subject to this Part, and the declaration must be notified in the Gazette; \"dispute resolution scheme\" means a dispute resolution scheme established or approved by the Authority under section 51(1); \"subscriber\" means an end user that subscribes to a telecommunication service from a telecommunication licensee."
+      "source_quote": "50. In this Part, unless the context otherwise requires — \"declared telecommunication licensee\" means a telecommunication licensee — (a) that is declared by the Authority to be a telecommunication licensee subject to this Part; or (b) that is within a class of telecommunication licensees declared by the Authority to be a class of telecommunication licensees subject to this Part, and the declaration must be notified in the Gazette; \"dispute resolution scheme\" means a dispute resolution scheme established or approved by the Authority under section 51(1); \"subscriber\" means an end user that subscribes to a telecommunication service from a telecommunication licensee.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential definitions for telecom licenses"
     },
     {
       "section": "52",
@@ -885,7 +919,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "52. The Authority may, with the approval of the Minister, make regulations under section 97 to provide for matters relating to the operations of an operator of a dispute resolution scheme, including — (a) the standards or requirements of the services provided under the dispute resolution scheme; (b) the fees that the operator may charge for the services provided under the dispute resolution scheme; (c) the records that the operator must keep and the period of retention of such records; (d) the reports that the operator must submit to the Authority, and the manner and time for such submission; (e) matters relating to the administration of the dispute resolution scheme; and (f) generally to give effect to or for carrying out the purposes of this Part."
+      "source_quote": "52. The Authority may, with the approval of the Minister, make regulations under section 97 to provide for matters relating to the operations of an operator of a dispute resolution scheme, including — (a) the standards or requirements of the services provided under the dispute resolution scheme; (b) the fees that the operator may charge for the services provided under the dispute resolution scheme; (c) the records that the operator must keep and the period of retention of such records; (d) the reports that the operator must submit to the Authority, and the manner and time for such submission; (e) matters relating to the administration of the dispute resolution scheme; and (f) generally to give effect to or for carrying out the purposes of this Part.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulations define record-keeping and reporting for dispute resolution"
     },
     {
       "section": "56",
@@ -905,7 +941,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Conditions for data transfers"
     },
     {
       "section": "59",
@@ -925,7 +963,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "knowing or having reason to believe about data"
     },
     {
       "section": "65",
@@ -956,7 +996,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "65. Any person who — (a) fraudulently retains or wilfully divulges, makes away with or detains a message or record of a message which ought to have been delivered to some other person; or (b) being required by a public telecommunication licensee to deliver up any such message or record of such message neglects or refuses to do so, shall be guilty of an offence."
+      "source_quote": "65. Any person who — (a) fraudulently retains or wilfully divulges, makes away with or detains a message or record of a message which ought to have been delivered to some other person; or (b) being required by a public telecommunication licensee to deliver up any such message or record of such message neglects or refuses to do so, shall be guilty of an offence.",
+      "relevance_score": 2,
+      "relevance_reason": "Fraudulent retention of telecom messages relates to data handling but focuses on telecom-specific fraud, not general dat"
     },
     {
       "section": "67",
@@ -983,7 +1025,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "67. Any person who, without the permission of a public telecommunication licensee, places or maintains in or on any house or place, belonging to or under the control of the person, any word, letter or mark which signifies or implies or may reasonably lead the public to believe that the house or place is part of a public telecommunication licensee's installation or plant shall be guilty of an offence."
+      "source_quote": "67. Any person who, without the permission of a public telecommunication licensee, places or maintains in or on any house or place, belonging to or under the control of the person, any word, letter or mark which signifies or implies or may reasonably lead the public to believe that the house or place is part of a public telecommunication licensee's installation or plant shall be guilty of an offence.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "72",
@@ -1028,7 +1072,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "72. For the purposes of the conduct of any international telecommunication service by a public telecommunication licensee, and subject to this Act, the licensee may enter into direct communication, arrangement and agreement with the lawfully constituted telecommunication authority of any country or with any duly authorised international agency or organisation concerned with telecommunication matters —"
+      "source_quote": "72. For the purposes of the conduct of any international telecommunication service by a public telecommunication licensee, and subject to this Act, the licensee may enter into direct communication, arrangement and agreement with the lawfully constituted telecommunication authority of any country or with any duly authorised international agency or organisation concerned with telecommunication matters —",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border telecommunication service agreements"
     },
     {
       "section": "74",
@@ -1062,7 +1108,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "74. A public telecommunication licensee is fully responsible for meeting all financial obligations arising from the operation of any international telecommunication service and must settle accounts with other telecommunication authorities."
+      "source_quote": "74. A public telecommunication licensee is fully responsible for meeting all financial obligations arising from the operation of any international telecommunication service and must settle accounts with other telecommunication authorities.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial accountability for cross-border transactions"
     },
     {
       "section": "75",
@@ -1096,7 +1144,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "75. Where the Government considers it necessary that any telecommunication service of an exceptional nature should be provided, and where a public telecommunication licensee considers it uneconomic to provide the service without contribution from the Government, the Government may make such contribution towards the capital outlay necessary to provide any such service as may be estimated by the licensee and agreed to by the Government."
+      "source_quote": "75. Where the Government considers it necessary that any telecommunication service of an exceptional nature should be provided, and where a public telecommunication licensee considers it uneconomic to provide the service without contribution from the Government, the Government may make such contribution towards the capital outlay necessary to provide any such service as may be estimated by the licensee and agreed to by the Government.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial contribution mechanism, no data handling"
     },
     {
       "section": "75 (part 2)",
@@ -1116,7 +1166,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "Government powers for data transfers"
     },
     {
       "section": "83",
@@ -1143,7 +1195,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "83. In any proceedings before any court in respect of any equipment, article, book or document seized in the exercise or the purported exercise of any power conferred under this Act, a person is not entitled to the costs of the proceedings or to any damages or other relief other than an order for the return of the equipment, article, book or document or the payment of their value unless the seizure was made without reasonable or probable cause."
+      "source_quote": "83. In any proceedings before any court in respect of any equipment, article, book or document seized in the exercise or the purported exercise of any power conferred under this Act, a person is not entitled to the costs of the proceedings or to any damages or other relief other than an order for the return of the equipment, article, book or document or the payment of their value unless the seizure was made without reasonable or probable cause.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant to data compliance"
     },
     {
       "section": "88",
@@ -1182,7 +1236,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an offence under this Act or any regulations made under this Act has been committed by a company, firm, society or other body of persons, any person who at the time of the commission of the offence was a director, manager, secretary or other similar officer or a partner of the company, firm, society or other body of persons or was purporting to act in such capacity shall be guilty of that offence and shall be liable to be proceeded against and punished accordingly unless he or she proves that — (a) the offence was committed without his or her consent or connivance; and (b) he or she exercised all such diligence to prevent the commission of the offence as he or she ought to have exercised, having regard to the nature of his or her functions in that capacity and to all the circumstances."
+      "source_quote": "Where an offence under this Act or any regulations made under this Act has been committed by a company, firm, society or other body of persons, any person who at the time of the commission of the offence was a director, manager, secretary or other similar officer or a partner of the company, firm, society or other body of persons or was purporting to act in such capacity shall be guilty of that offence and shall be liable to be proceeded against and punished accordingly unless he or she proves that — (a) the offence was committed without his or her consent or connivance; and (b) he or she exercised all such diligence to prevent the commission of the offence as he or she ought to have exercised, having regard to the nature of his or her functions in that capacity and to all the circumstances.",
+      "relevance_score": 1,
+      "relevance_reason": "Governance for data compliance"
     },
     {
       "section": "90",
@@ -1202,7 +1258,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "90 (part 2)",
@@ -1255,7 +1313,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The separation order may — (a) direct the relevant telecommunication licensee to transfer to a separate entity or an independent entity either or both of the following: (i) the whole or any part of any business of the relevant telecommunication licensee that is conducted pursuant to a telecommunication licence granted under section 5; (ii) the whole or any part of any property of the relevant telecommunication licensee that is used by it to provide any telecommunication services, and any rights, obligations and liabilities relating to that property"
+      "source_quote": "The separation order may — (a) direct the relevant telecommunication licensee to transfer to a separate entity or an independent entity either or both of the following: (i) the whole or any part of any business of the relevant telecommunication licensee that is conducted pursuant to a telecommunication licence granted under section 5; (ii) the whole or any part of any property of the relevant telecommunication licensee that is used by it to provide any telecommunication services, and any rights, obligations and liabilities relating to that property",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for telecom structure"
     },
     {
       "section": "93",
@@ -1294,7 +1354,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "A public telecommunication licensee is not liable in respect of any injury, loss or damage suffered by any person by reason of — (a) any failure to provide or delay in providing any telecommunication services or any equipment associated therewith or service ancillary thereto; (b) any failure, interruption, suspension or restriction of any telecommunication service or service ancillary thereto or delay of, or fault in, any communication by means of telecommunications; (c) any error in, or omission of, any information transmitted through telecommunications; or (d) any loss of secrecy in communication arising from the use of any telecommunication service, which is due to the act or default of another person, or an accident or some other cause beyond the public telecommunication licensee's control."
+      "source_quote": "A public telecommunication licensee is not liable in respect of any injury, loss or damage suffered by any person by reason of — (a) any failure to provide or delay in providing any telecommunication services or any equipment associated therewith or service ancillary thereto; (b) any failure, interruption, suspension or restriction of any telecommunication service or service ancillary thereto or delay of, or fault in, any communication by means of telecommunications; (c) any error in, or omission of, any information transmitted through telecommunications; or (d) any loss of secrecy in communication arising from the use of any telecommunication service, which is due to the act or default of another person, or an accident or some other cause beyond the public telecommunication licensee's control.",
+      "relevance_score": 2,
+      "relevance_reason": "Liability exemption for service failures"
     },
     {
       "section": "16",
@@ -1314,7 +1376,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Building Control Act amendment"
     }
   ]
 }

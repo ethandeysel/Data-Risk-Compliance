@@ -40,7 +40,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "1. Understand Controls Start by reviewing the latest Customer Security Controls Framework (CSCF). Identify which mandatory and advisory controls apply to your Swi\\n infrastructure, and familiarise yourself with the objectives, scope, and risk drivers defined in the documentation."
+      "source_quote": "1. Understand Controls Start by reviewing the latest Customer Security Controls Framework (CSCF). Identify which mandatory and advisory controls apply to your Swi\\n infrastructure, and familiarise yourself with the objectives, scope, and risk drivers defined in the documentation.",
+      "relevance_score": 3,
+      "relevance_reason": "Mandatory security controls for Swift infrastructure"
     },
     {
       "section": "2",
@@ -87,7 +89,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "2. Implement Controls Once you've identified the applicable CSCF controls, the next step is to put them into practice. This may involve, as examples, updating your Swi\\n environments, enhancing access management, and strengthening your technical infrastructure and incident response capabilities."
+      "source_quote": "2. Implement Controls Once you've identified the applicable CSCF controls, the next step is to put them into practice. This may involve, as examples, updating your Swi\\n environments, enhancing access management, and strengthening your technical infrastructure and incident response capabilities.",
+      "relevance_score": 3,
+      "relevance_reason": "Security controls for data protection"
     },
     {
       "section": "3",
@@ -124,7 +128,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "3. Perform Independent Assessment Validate the e\\n effectiveness of the design and an implementation of your controls through an independent assessment. This can be performed internally by a second or third line of defence (e.g. risk, compliance, internal audit) or externally by an independent assessor."
+      "source_quote": "3. Perform Independent Assessment Validate the e\\n effectiveness of the design and an implementation of your controls through an independent assessment. This can be performed internally by a second or third line of defence (e.g. risk, compliance, internal audit) or externally by an independent assessor.",
+      "relevance_score": 3,
+      "relevance_reason": "Independent security assessment ensures robust security controls for customer data"
     },
     {
       "section": "4",
@@ -165,7 +171,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4. Submit A\\nestation Complete your a\\nestation in the KYC-SA application, indicating your level of compliance compliance for each applicable control. If any control is not yet met, provide a remediation date and update your a\\nestation once compliant."
+      "source_quote": "4. Submit A\\nestation Complete your a\\nestation in the KYC-SA application, indicating your level of compliance compliance for each applicable control. If any control is not yet met, provide a remediation date and update your a\\nestation once compliant.",
+      "relevance_score": 3,
+      "relevance_reason": "Mandates compliance status for security controls"
     },
     {
       "section": "5",
@@ -203,7 +211,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "5. Leverage & Share CSP Data Once your a\\nestation is published in KYC-SA, it becomes visible to counterparties—supporting transparency, trust, and streamlined third-party risk management. You can also use the ISAC portal to share threat intelligence and stay informed about emerging risks, helping strengthen the resilience of the wider financial community."
+      "source_quote": "5. Leverage & Share CSP Data Once your a\\nestation is published in KYC-SA, it becomes visible to counterparties—supporting transparency, trust, and streamlined third-party risk management. You can also use the ISAC portal to share threat intelligence and stay informed about emerging risks, helping strengthen the resilience of the wider financial community.",
+      "relevance_score": 2,
+      "relevance_reason": "Shares security data with counterparties via ISAC portal"
     }
   ]
 }

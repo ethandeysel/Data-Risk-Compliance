@@ -32,7 +32,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "All applicants desirous of seeking registration as an Alternative Investment Fund (‘AIF') are required to submit their applications only online, through the SEBI Intermediary Portal at https://siportal.sebi.gov.in. Further, all SEBI registered AIFs are required to file their compliance reports and submit applications for any request under the provisions of AIF Regulations and circulars issued thereunder, only through the SEBI Intermediary Portal."
+      "source_quote": "All applicants desirous of seeking registration as an Alternative Investment Fund (‘AIF') are required to submit their applications only online, through the SEBI Intermediary Portal at https://siportal.sebi.gov.in. Further, all SEBI registered AIFs are required to file their compliance reports and submit applications for any request under the provisions of AIF Regulations and circulars issued thereunder, only through the SEBI Intermediary Portal.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: online filing procedure for AIFs"
     },
     {
       "section": "2",
@@ -88,7 +90,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Private Placement Memorandum (‘PPM') is a primary document in which all the necessary information about the AIF is disclosed to prospective investors. To ensure that a minimum standard of disclosure is made available in the PPM, a template has been mandated for the PPM, providing certain minimum level of information in a simple and comparable format."
+      "source_quote": "Private Placement Memorandum (‘PPM') is a primary document in which all the necessary information about the AIF is disclosed to prospective investors. To ensure that a minimum standard of disclosure is made available in the PPM, a template has been mandated for the PPM, providing certain minimum level of information in a simple and comparable format.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: governance for financial disclosures"
     },
     {
       "section": "2 (part 2)",
@@ -108,7 +112,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance for fund compliance"
     },
     {
       "section": "3",
@@ -128,7 +134,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance for fund registration"
     },
     {
       "section": "4",
@@ -148,7 +156,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "5",
@@ -196,7 +206,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "All Category III AIFs shall disclose the basis for calculation of investment concentration norm in the PPM of their schemes."
+      "source_quote": "All Category III AIFs shall disclose the basis for calculation of investment concentration norm in the PPM of their schemes.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data handling norms with strict rules"
     },
     {
       "section": "6",
@@ -244,7 +256,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Each scheme of SSF shall have a corpus of at least one hundred crore rupees."
+      "source_quote": "Each scheme of SSF shall have a corpus of at least one hundred crore rupees.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data KYC/AML requirements"
     },
     {
       "section": "7",
@@ -292,7 +306,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "AIFs may invest in equity and equity linked instruments only of off-shore venture capital undertakings, subject to overall limit of USD 1500 million"
+      "source_quote": "AIFs may invest in equity and equity linked instruments only of off-shore venture capital undertakings, subject to overall limit of USD 1500 million",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border investment restrictions with AML/FATF compliance"
     },
     {
       "section": "8",
@@ -348,7 +364,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "AIFs may invest in an investee company up to a specified limit, directly or through investment in the units of other AIFs."
+      "source_quote": "AIFs may invest in an investee company up to a specified limit, directly or through investment in the units of other AIFs.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: AIF investment rules not directly data protection"
     },
     {
       "section": "9",
@@ -430,7 +448,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "9.1.1. Category I AIFs and Category II AIFs may buy CDS on underlying investment in debt securities, only for the purpose of hedging."
+      "source_quote": "9.1.1. Category I AIFs and Category II AIFs may buy CDS on underlying investment in debt securities, only for the purpose of hedging.",
+      "relevance_score": 2,
+      "relevance_reason": "Custodians monitor leverage/exposure limits for financial data"
     },
     {
       "section": "10",
@@ -469,7 +489,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "10.1. AIFs shall undertake at least 10% of their total secondary market trades in Corporate Bonds by value in a month by placing/seeking quotes on the RFQ platform."
+      "source_quote": "10.1. AIFs shall undertake at least 10% of their total secondary market trades in Corporate Bonds by value in a month by placing/seeking quotes on the RFQ platform.",
+      "relevance_score": 2,
+      "relevance_reason": "[scoring failed: TypeError]"
     },
     {
       "section": "11",
@@ -522,7 +544,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "11.1.1. With respect to investment by the sponsor/manager in the AIF, the sharing of loss by the sponsor/manager shall not be less than pro rata to their holding in the AIF vis-à-vis other unit holders."
+      "source_quote": "11.1.1. With respect to investment by the sponsor/manager in the AIF, the sharing of loss by the sponsor/manager shall not be less than pro rata to their holding in the AIF vis-à-vis other unit holders.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "12",
@@ -567,7 +591,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "12.2. Under the aforesaid framework, AIs may avail flexibility in minimum investment amount or concessions from specific regulatory requirements applicable to investment products, subject to conditions applicable for specific products/services under SEBI (Alternative Investment Funds) Regulations, 2012, SEBI (Portfolio Managers) Regulations, 2.2020 and SEBI (Investment Advisers) Regulations, 2013."
+      "source_quote": "12.2. Under the aforesaid framework, AIs may avail flexibility in minimum investment amount or concessions from specific regulatory requirements applicable to investment products, subject to conditions applicable for specific products/services under SEBI (Alternative Investment Funds) Regulations, 2012, SEBI (Portfolio Managers) Regulations, 2.2020 and SEBI (Investment Advisers) Regulations, 2013.",
+      "relevance_score": 2,
+      "relevance_reason": "KYC verification and financial data handling"
     },
     {
       "section": "13",
@@ -639,7 +665,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 13 – Obligations of manager, sponsor and trustee of AIFs"
+      "source_quote": "Chapter 13 – Obligations of manager, sponsor and trustee of AIFs",
+      "relevance_score": 2,
+      "relevance_reason": "Compliance officer roles and custodian appointments"
     },
     {
       "section": "14",
@@ -691,7 +719,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 14 – Constitution of investment committee"
+      "source_quote": "Chapter 14 – Constitution of investment committee",
+      "relevance_score": 2,
+      "relevance_reason": "SEBI clarification on cross-border members"
     },
     {
       "section": "15",
@@ -751,7 +781,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 15 – Reporting by AIFs"
+      "source_quote": "Chapter 15 – Reporting by AIFs",
+      "relevance_score": 2,
+      "relevance_reason": "Record keeping and compliance testing for financial data"
     },
     {
       "section": "16",
@@ -795,7 +827,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 16 – Performance Benchmarking of AIFs"
+      "source_quote": "Chapter 16 – Performance Benchmarking of AIFs",
+      "relevance_score": 2,
+      "relevance_reason": "Benchmarking data reporting for financial compliance"
     },
     {
       "section": "17",
@@ -842,7 +876,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 17 – Investor Charter and Disclosure of complaints by AIFs"
+      "source_quote": "Chapter 17 – Investor Charter and Disclosure of complaints by AIFs",
+      "relevance_score": 2,
+      "relevance_reason": "Complaint data record-keeping for 7 days"
     },
     {
       "section": "18",
@@ -881,7 +917,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Chapter 18 – Collection of stamp duty on issue, transfer and sale of units of AIFs"
+      "source_quote": "Chapter 18 – Collection of stamp duty on issue, transfer and sale of units of AIFs",
+      "relevance_score": 0,
+      "relevance_reason": "Stamp duty collection not directly related to data compliance"
     },
     {
       "section": "19",
@@ -940,7 +978,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In terms of Regulation 20(13) of AIF Regulations, in case of change of Sponsor or Manager, or change in control of the AIF, Sponsor or Manager, prior approval from the Board shall be taken by the AIF, subject to levy of fees and any other conditions as may be specified by SEBI from time to time."
+      "source_quote": "In terms of Regulation 20(13) of AIF Regulations, in case of change of Sponsor or Manager, or change in control of the AIF, Sponsor or Manager, prior approval from the Board shall be taken by the AIF, subject to levy of fees and any other conditions as may be specified by SEBI from time to time.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: governance for financial entities, not direct data privacy"
     },
     {
       "section": "20",
@@ -1003,7 +1043,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "All schemes of AIFs shall dematerialise their units in the following time frame: Schemes of AIFs with corpus ≥ INR 500 Crore - dematerialise all units by October 31, 2023."
+      "source_quote": "All schemes of AIFs shall dematerialise their units in the following time frame: Schemes of AIFs with corpus ≥ INR 500 Crore - dematerialise all units by October 31, 2023.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial data handling without direct privacy/security focus"
     },
     {
       "section": "21",
@@ -1054,7 +1096,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Any investment made by an AIF on or after October 01, 2024 shall be held in dematerialised form only, irrespective of whether the investment is made directly in the investee company or is acquired from another entity."
+      "source_quote": "Any investment made by an AIF on or after October 01, 2024 shall be held in dematerialised form only, irrespective of whether the investment is made directly in the investee company or is acquired from another entity.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial data handling"
     },
     {
       "section": "22",
@@ -1113,7 +1157,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In terms of Regulation 23(1), AIFs are inter-alia required to carry out valuation of their investments in the manner specified by SEBI from time to time."
+      "source_quote": "In terms of Regulation 23(1), AIFs are inter-alia required to carry out valuation of their investments in the manner specified by SEBI from time to time.",
+      "relevance_score": 2,
+      "relevance_reason": "SEBI valuation rules impact financial data handling but not direct data protection"
     },
     {
       "section": "23",
@@ -1185,7 +1231,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "23.1.1. During the Liquidation Period of a scheme of an AIF (‘Original Scheme'), if the AIF decides to launch Liquidation Scheme, the AIF shall obtain consent of 75% of investors by value of their investment in the Original Scheme."
+      "source_quote": "23.1.1. During the Liquidation Period of a scheme of an AIF (‘Original Scheme'), if the AIF decides to launch Liquidation Scheme, the AIF shall obtain consent of 75% of investors by value of their investment in the Original Scheme.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "24",
@@ -1230,7 +1278,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "24.1.1. If the investor, based on the opinion of a legal professional/legal advisor, confirms that its participation in the investment opportunity would be in violation of an applicable law or regulation"
+      "source_quote": "24.1.1. If the investor, based on the opinion of a legal professional/legal advisor, confirms that its participation in the investment opportunity would be in violation of an applicable law or regulation",
+      "relevance_score": 2,
+      "relevance_reason": "Manager record-keeping for exclusions"
     },
     {
       "section": "25",
@@ -1276,7 +1326,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "25.1.1. Schemes of AIFs shall have an option of 'Direct Plan' for investors. Such Direct Plan shall not entail any distribution fee/placement fee."
+      "source_quote": "25.1.1. Schemes of AIFs shall have an option of 'Direct Plan' for investors. Such Direct Plan shall not entail any distribution fee/placement fee.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial data handling without direct privacy impact"
     },
     {
       "section": "25 (part 2)",
@@ -1357,7 +1409,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Whether the list of commercial and non-commercial terms, on which differential rights may be offered through side letter arrangement or issuance of additional class of units, is disclosed"
+      "source_quote": "Whether the list of commercial and non-commercial terms, on which differential rights may be offered through side letter arrangement or issuance of additional class of units, is disclosed",
+      "relevance_score": 2,
+      "relevance_reason": "Disclosures impact data handling but not core data protection"
     },
     {
       "section": "25 (part 3)",
@@ -1442,7 +1496,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The manager has exercised due diligence with respect to the investment decision."
+      "source_quote": "The manager has exercised due diligence with respect to the investment decision.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory compliance for cross-border investments"
     },
     {
       "section": "25 (part 4)",
@@ -1489,7 +1545,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An investor who withdraws ‘Consent' after availing the benefit of lower ticket size shall be required to increase the investment to the minimum amount that is stipulated under the applicable regulatory framework for the particular investment product, within the timeframe specified in the client agreement."
+      "source_quote": "An investor who withdraws ‘Consent' after availing the benefit of lower ticket size shall be required to increase the investment to the minimum amount that is stipulated under the applicable regulatory framework for the particular investment product, within the timeframe specified in the client agreement.",
+      "relevance_score": 2,
+      "relevance_reason": "Consent withdrawal rules with financial data implications"
     },
     {
       "section": "25 (part 5)",
@@ -1509,7 +1567,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "25 (part 6)",
@@ -1589,7 +1649,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "20(12) AIF to inform SEBI in case of any material change in information provided at the time of application. 20(13) AIF to obtain prior approval from SEBI in case of change in control of AIF Sponsor or Manager or change of Sponsor or Manager. 20(14) The books of accounts of AIF to be audited annually by a qualified auditor"
+      "source_quote": "20(12) AIF to inform SEBI in case of any material change in information provided at the time of application. 20(13) AIF to obtain prior approval from SEBI in case of change in control of AIF Sponsor or Manager or change of Sponsor or Manager. 20(14) The books of accounts of AIF to be audited annually by a qualified auditor",
+      "relevance_score": 2,
+      "relevance_reason": "SEBI audit and reporting requirements for financial data"
     },
     {
       "section": "25 (part 7)",
@@ -1609,7 +1671,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "25 (part 8)",
@@ -1676,7 +1740,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Institutional investors shall report to their clients/ beneficiaries periodically on how they have fulfilled their stewardship responsibilities as per their policy in an easy-to-understand format."
+      "source_quote": "Institutional investors shall report to their clients/ beneficiaries periodically on how they have fulfilled their stewardship responsibilities as per their policy in an easy-to-understand format.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for financial data"
     },
     {
       "section": "25 (part 9)",
@@ -1719,7 +1785,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Compliance with respect to: Risk management and compliance, redemption norms, prudential requirements"
+      "source_quote": "Compliance with respect to: Risk management and compliance, redemption norms, prudential requirements",
+      "relevance_score": 2,
+      "relevance_reason": "SEBI circulars for financial data compliance"
     },
     {
       "section": "25 (part 10)",
@@ -1785,7 +1853,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3. Dissemination of financial information of Fund. 3.1. Net Asset Value of Fund/ Scheme. 3.2. Financial information of investee companies. 3.3. Information on performance of scheme/fund."
+      "source_quote": "3. Dissemination of financial information of Fund. 3.1. Net Asset Value of Fund/ Scheme. 3.2. Financial information of investee companies. 3.3. Information on performance of scheme/fund.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory disclosures for financial data"
     }
   ]
 }

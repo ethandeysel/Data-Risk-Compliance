@@ -40,7 +40,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction."
+      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction.",
+      "relevance_score": 3,
+      "relevance_reason": "Electronic records, transaction applicability"
     },
     {
       "section": "5",
@@ -67,7 +69,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form."
+      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form.",
+      "relevance_score": 3,
+      "relevance_reason": "Legal recognition of electronic records"
     },
     {
       "section": "7",
@@ -115,7 +119,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section."
+      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section.",
+      "relevance_score": 3,
+      "relevance_reason": "retention, format, origin, consent, third-party"
     },
     {
       "section": "14",
@@ -158,7 +164,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator."
+      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines time/place for electronic records"
     },
     {
       "section": "15",
@@ -196,7 +204,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification."
+      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification.",
+      "relevance_score": 3,
+      "relevance_reason": "Security procedures for record integrity"
     },
     {
       "section": "16",
@@ -238,7 +248,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature."
+      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature.",
+      "relevance_score": 3,
+      "relevance_reason": "Secure electronic signatures for personal data"
     },
     {
       "section": "18",
@@ -267,7 +279,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record."
+      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record.",
+      "relevance_score": 3,
+      "relevance_reason": "Digital signatures ensure record integrity for personal data"
     },
     {
       "section": "39",
@@ -300,7 +314,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate."
+      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate.",
+      "relevance_score": 2,
+      "relevance_reason": "Liability limits for digital signatures"
     },
     {
       "section": "41",
@@ -342,7 +358,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers."
+      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers.",
+      "relevance_score": 3,
+      "relevance_reason": "Confidentiality of electronic records directly impacts data protection and cross-border transfers"
     },
     {
       "section": "53",
@@ -362,7 +380,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "Commencement\nAn Act\nTo provide for an appropriate legal framework to facilitate electronic transactions and communications by regulating electronic records and electronic signatures and the security thereof"
+      "source_quote": "Commencement\nAn Act\nTo provide for an appropriate legal framework to facilitate electronic transactions and communications by regulating electronic records and electronic signatures and the security thereof",
+      "relevance_score": 0,
+      "relevance_reason": "commencement date irrelevant"
     },
     {
       "section": "2",
@@ -382,7 +402,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "Interpretation\nIn this Act -"
+      "source_quote": "Interpretation\nIn this Act -",
+      "relevance_score": 2,
+      "relevance_reason": "Definitions of key terms for data compliance"
     },
     {
       "section": "3",
@@ -402,7 +424,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": "Objects of the Act\nThe objects of this Act are to -"
+      "source_quote": "Objects of the Act\nThe objects of this Act are to -",
+      "relevance_score": 1,
+      "relevance_reason": "General governance purpose"
     },
     {
       "section": "4",
@@ -441,7 +465,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction."
+      "source_quote": "4. (1) Subject to subsections (2) and (3), this Act shall apply to electronic records and electronic signatures relating to a transaction or an automated transaction.",
+      "relevance_score": 3,
+      "relevance_reason": "Electronic records and signatures covered by Act"
     },
     {
       "section": "5",
@@ -468,7 +494,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form."
+      "source_quote": "5. No record or signature shall be denied legal effect, validity or enforceability solely on the ground that it is in electronic form.",
+      "relevance_score": 3,
+      "relevance_reason": "Legal recognition of electronic records"
     },
     {
       "section": "7",
@@ -516,7 +544,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section."
+      "source_quote": "7. (1) Where an enactment requires that records, documents or information be kept, that requirement shall be satisfied where the records, documents of information are kept in the form of an electronic record in accordance with this section.",
+      "relevance_score": 3,
+      "relevance_reason": "retention, format, origin, consent, third-party"
     },
     {
       "section": "9",
@@ -556,7 +586,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "9. (1) Subject to subsection (2), a network service provider shall not be subject to any civil or criminal liability in respect of third-party material in the form of an electronic record to which he merely provides access where such liability is limited to - (a) the making, publication, dissemination or distribution of such materials or any statement made in such material; or (b) the infringement of any right subsisting in or in relation to such material."
+      "source_quote": "9. (1) Subject to subsection (2), a network service provider shall not be subject to any civil or criminal liability in respect of third-party material in the form of an electronic record to which he merely provides access where such liability is limited to - (a) the making, publication, dissemination or distribution of such materials or any statement made in such material; or (b) the infringement of any right subsisting in or in relation to such material.",
+      "relevance_score": 3,
+      "relevance_reason": "Network provider liability limits directly impact data transfers and security"
     },
     {
       "section": "12",
@@ -604,7 +636,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "12. (1) An electronic record or electronic signature shall be attributable to a person where it was the act of that person."
+      "source_quote": "12. (1) An electronic record or electronic signature shall be attributable to a person where it was the act of that person.",
+      "relevance_score": 2,
+      "relevance_reason": "Security procedures for electronic records"
     },
     {
       "section": "14",
@@ -647,7 +681,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator."
+      "source_quote": "14. (1) Unless otherwise agreed between the originator and the addressee, an electronic record is sent when it enters an information processing system outside the control of the originator or the person who sent the electronic record on behalf of the originator.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines time/place for electronic records"
     },
     {
       "section": "15",
@@ -685,7 +721,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification."
+      "source_quote": "Where a prescribed security procedure, or a commercially reasonable security procedure agreed to by the parties involved, has been properly applied to an electronic record to verify that the electronic record has not been altered since a specified point in time, the record shall be treated as a secure electronic record from such specified point in time to the time of verification.",
+      "relevance_score": 3,
+      "relevance_reason": "Security procedures for record integrity"
     },
     {
       "section": "16",
@@ -727,7 +765,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature."
+      "source_quote": "Where, in the application of a prescribed security procedure or a commercially reasonable security procedure agreed to by the parties involved, it can be verified that an electronic signature was, at the time it was made - (a) unique to the person using it; (b) capable of identifying such person; (c) created in a manner or using a means under the sole control of the person using it; and (d) linked to the electronic record to which it relates in a manner such that had the record been changed, the electronic signature would be invalidated, the signature shall be treated as a secure electronic signature.",
+      "relevance_score": 3,
+      "relevance_reason": "Secure electronic signatures for personal data"
     },
     {
       "section": "17",
@@ -764,7 +804,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "In any proceedings involving a secure electronic record, it shall be presumed, unless evidence to the contrary is adduced, that the secure electronic record has not been altered since the specific point in time to which the secure status relates."
+      "source_quote": "In any proceedings involving a secure electronic record, it shall be presumed, unless evidence to the contrary is adduced, that the secure electronic record has not been altered since the specific point in time to which the secure status relates.",
+      "relevance_score": 2,
+      "relevance_reason": "Presumptions for secure electronic records/signatures in legal proceedings"
     },
     {
       "section": "18",
@@ -793,7 +835,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record."
+      "source_quote": "Where a digital signature is a secure electronic signature by virtue of section 19, the portion of an electronic record that is signed with a digital signature shall be treated as a secure electronic record.",
+      "relevance_score": 3,
+      "relevance_reason": "Digital signatures ensure record integrity for personal data"
     },
     {
       "section": "19",
@@ -826,7 +870,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where any portion of an electronic record is signed with a digital signature, the digital signature shall be treated as a secure electronic signature with respect to such portion of the record, where - (a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate; and (b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity on grounds that - (i) the certificate was issued by a licensed certification authority; (ii) the certificate was issued by a certification authority outside Mauritius recognised forth is purpose by the Controller; (iii) the certificate was issued by a public sector agency approved by the Minister to act as a certification authority on such conditions as he may impose; or (iv) the originator and the addressee have expressly agreed to use a digital signature as a security procedure, and the digital signature was properly verified by reference to the public key of the originator."
+      "source_quote": "Where any portion of an electronic record is signed with a digital signature, the digital signature shall be treated as a secure electronic signature with respect to such portion of the record, where - (a) the digital signature was created during the operational period of a valid certificate and is verified by reference to the public key listed in such certificate; and (b) the certificate is considered trustworthy, in that it is an accurate binding of a public key to a person's identity on grounds that - (i) the certificate was issued by a licensed certification authority; (ii) the certificate was issued by a certification authority outside Mauritius recognised forth is purpose by the Controller; (iii) the certificate was issued by a public sector agency approved by the Minister to act as a certification authority on such conditions as he may impose; or (iv) the originator and the addressee have expressly agreed to use a digital signature as a security procedure, and the digital signature was properly verified by reference to the public key of the originator.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines secure digital signatures for data protection"
     },
     {
       "section": "21",
@@ -859,7 +905,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Unless otherwise provided for in any enactment or agreement, a person relying on a digitally signed electronic record shall assume the risk that the digital signature is invalid as a signature or authentication of the signed electronic record, where reliance on the digital signature is not reasonable under the circumstances having regard to (a) any fact which the person relying on the digitally signed electronic record knows or has notice of, including a fact set out in the certificate or, incorporated in it by reference; (b) the value or importance of the digitally signed electronic record, if known; (c) the course of dealing between the person relying on the digitally signed electronic record and the subscriber and any available indication of reliability or unreliability other than the digital signature; and (d) any usage of trade, particularly trade conducted by trustworthy systems or other electronic means."
+      "source_quote": "Unless otherwise provided for in any enactment or agreement, a person relying on a digitally signed electronic record shall assume the risk that the digital signature is invalid as a signature or authentication of the signed electronic record, where reliance on the digital signature is not reasonable under the circumstances having regard to (a) any fact which the person relying on the digitally signed electronic record knows or has notice of, including a fact set out in the certificate or, incorporated in it by reference; (b) the value or importance of the digitally signed electronic record, if known; (c) the course of dealing between the person relying on the digitally signed electronic record and the subscriber and any available indication of reliability or unreliability other than the digital signature; and (d) any usage of trade, particularly trade conducted by trustworthy systems or other electronic means.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border digital signature risks directly impact data transfer compliance"
     },
     {
       "section": "25",
@@ -900,7 +948,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "25. A certification authority shall disclose- (a) its certificate that contains the public key corresponding to the private key used by that certification authority to digitally sign another certificate, hereafter referred to as a certification authority certificate; (b) any certification practice statement; (c) notice of the revocation or suspension of its certification authority certificate; and (d) any other fact that materially and adversely affects either the reliability of a certificate that the authority has issued, or the authority's ability to carry out its obligations."
+      "source_quote": "25. A certification authority shall disclose- (a) its certificate that contains the public key corresponding to the private key used by that certification authority to digitally sign another certificate, hereafter referred to as a certification authority certificate; (b) any certification practice statement; (c) notice of the revocation or suspension of its certification authority certificate; and (d) any other fact that materially and adversely affects either the reliability of a certificate that the authority has issued, or the authority's ability to carry out its obligations.",
+      "relevance_score": 2,
+      "relevance_reason": "Certification authority disclosure obligations"
     },
     {
       "section": "30",
@@ -945,7 +995,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "30. A certification authority shall, without the consent of the subscriber, revoke a certificate where - (a) a material fact represented in the certificate is false; (b) a requirement for the issue of the certificate was not satisfied; (c) the certification authority's private key or trustworthy system is compromised in a manner materially affecting the certificate's reliability; (d) an individual subscriber is dead; or (e) a subscriber is dissolved, wound-up or otherwise ceases to exist."
+      "source_quote": "30. A certification authority shall, without the consent of the subscriber, revoke a certificate where - (a) a material fact represented in the certificate is false; (b) a requirement for the issue of the certificate was not satisfied; (c) the certification authority's private key or trustworthy system is compromised in a manner materially affecting the certificate's reliability; (d) an individual subscriber is dead; or (e) a subscriber is dissolved, wound-up or otherwise ceases to exist.",
+      "relevance_score": 3,
+      "relevance_reason": "Certificate revocation for security and compliance"
     },
     {
       "section": "35",
@@ -974,7 +1026,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "35. A subscriber identified in a certificate shall, on accepting a certificate - (a) exercise reasonable care to retain control of the private key corresponding to the public key referred to in the certificate; and (c) prevent its disclosure to create his digital signature."
+      "source_quote": "35. A subscriber identified in a certificate shall, on accepting a certificate - (a) exercise reasonable care to retain control of the private key corresponding to the public key referred to in the certificate; and (c) prevent its disclosure to create his digital signature.",
+      "relevance_score": 2,
+      "relevance_reason": "Key management for digital signatures"
     },
     {
       "section": "36",
@@ -999,7 +1053,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "36. Where the private key corresponding to the public key referred to in a certificate has been compromised or otherwise becomes unreliable, a subscriber who has accepted the certificate shall forthwith request the relevant certification authority to suspend or revoke the certificate."
+      "source_quote": "36. Where the private key corresponding to the public key referred to in a certificate has been compromised or otherwise becomes unreliable, a subscriber who has accepted the certificate shall forthwith request the relevant certification authority to suspend or revoke the certificate.",
+      "relevance_score": 2,
+      "relevance_reason": "Certification authority actions for compromised keys"
     },
     {
       "section": "37",
@@ -1032,7 +1088,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "37. Controller of Certification Authorities (1) There shall be, for the purposes of this Act, a Controller of Certification Authorities. (2) For the purposes of this Act, the ICT Authority shall be the Controller and may be assisted by such of its officers and other members of its staff as may be necessary."
+      "source_quote": "37. Controller of Certification Authorities (1) There shall be, for the purposes of this Act, a Controller of Certification Authorities. (2) For the purposes of this Act, the ICT Authority shall be the Controller and may be assisted by such of its officers and other members of its staff as may be necessary.",
+      "relevance_score": 3,
+      "relevance_reason": "Controller of Certification Authorities for digital signatures"
     },
     {
       "section": "39",
@@ -1065,7 +1123,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate."
+      "source_quote": "39. A licensed certification authority shall not be liable - (a) for any loss caused by reliance on a false or forged digital signature of a subscriber, where it has acted in compliance with the requirements of this Act relating thereto; (b) in excess of the amount specified in the certificate as its recommended reliance limit for either - (i) a loss caused by reliance on a misrepresentation in the certificate of any fact that the licensed certification authority is required to confirm; or (ii) failure to comply with sections 26 and 27 in issuing the certificate.",
+      "relevance_score": 2,
+      "relevance_reason": "Liability limits for digital signatures in certification authorities"
     },
     {
       "section": "40",
@@ -1116,7 +1176,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A public sector agency which, pursuant to any enactment- (a) accepts the filing of documents, or requires that documents be created, kept or issued (b) issues any notice, claim, licence permit or authorisation or approval; (c) provides for any payment and the method and manner of such payment; or (d) has to keep records, may, notwithstanding anything to the contrary in the enactment- (i) accept the filing of such documents, or the creation or keeping of such documents in electronic form; (ii) issue such notice, claim, licence, permit, authorisation or approval in electronic form; (iii) make and receive such payment in electronic form; or (iv) convert written records into electronic records."
+      "source_quote": "A public sector agency which, pursuant to any enactment- (a) accepts the filing of documents, or requires that documents be created, kept or issued (b) issues any notice, claim, licence permit or authorisation or approval; (c) provides for any payment and the method and manner of such payment; or (d) has to keep records, may, notwithstanding anything to the contrary in the enactment- (i) accept the filing of such documents, or the creation or keeping of such documents in electronic form; (ii) issue such notice, claim, licence, permit, authorisation or approval in electronic form; (iii) make and receive such payment in electronic form; or (iv) convert written records into electronic records.",
+      "relevance_score": 3,
+      "relevance_reason": "Public sector electronic records handling with security requirements"
     },
     {
       "section": "41",
@@ -1158,7 +1220,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers."
+      "source_quote": "No person who has, pursuant to any power conferred under this Part, obtained access to an electronic record, book, register, correspondence, information, document or other material shall disclose such electronic record, book, register, correspondence, information, document or other material to any other person except for the purposes of this Act or pursuant to an order made by the Judge in Chambers.",
+      "relevance_score": 3,
+      "relevance_reason": "Confidentiality of electronic records directly impacts data protection and cross-border transfers"
     },
     {
       "section": "44",
@@ -1199,7 +1263,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Controller or an authorised officer may - (a) require the production of records, accounts, data and documents kept by a certification authority and inspect, examine and take copies of any of them; (b) require the production of an identification document from any person in relation to any offence under this Act; (c) make such inquiry as may be necessary to ascertain whether this Act has been complied with; (d) retain, for such period as he considers necessary, any record, account, data or document specified in paragraph (a) or (b)."
+      "source_quote": "The Controller or an authorised officer may - (a) require the production of records, accounts, data and documents kept by a certification authority and inspect, examine and take copies of any of them; (b) require the production of an identification document from any person in relation to any offence under this Act; (c) make such inquiry as may be necessary to ascertain whether this Act has been complied with; (d) retain, for such period as he considers necessary, any record, account, data or document specified in paragraph (a) or (b).",
+      "relevance_score": 2,
+      "relevance_reason": "Controller powers for data inspection and compliance checks"
     },
     {
       "section": "45",
@@ -1241,7 +1307,9 @@
           "obligation_type": "Restriction"
         }
       ],
-      "source_quote": "The Controller or an authorised officer may, at all reasonable times, enter any business premises or place where any business is carried on or anything is done in connection with the business and - (a) have access to and inspect and check the operation of any computer system and any associated apparatus or material which he has reasonable cause to suspect is or has been in use; (b) use or cause to be used any such computer system to search any data contained in or available to such computer system; or (c) require - (i) the person by whom or on whose behalf the Controller or authorised officer has reasonable cause to suspect the computer system is or has been so used; or (ii) any person having charge of, or otherwise concerned with the operation of, the computer system, apparatus or material, to provide him with such reasonable technical and other assistance as he may require for the purposes of paragraph (a)."
+      "source_quote": "The Controller or an authorised officer may, at all reasonable times, enter any business premises or place where any business is carried on or anything is done in connection with the business and - (a) have access to and inspect and check the operation of any computer system and any associated apparatus or material which he has reasonable cause to suspect is or has been in use; (b) use or cause to be used any such computer system to search any data contained in or available to such computer system; or (c) require - (i) the person by whom or on whose behalf the Controller or authorised officer has reasonable cause to suspect the computer system is or has been so used; or (ii) any person having charge of, or otherwise concerned with the operation of, the computer system, apparatus or material, to provide him with such reasonable technical and other assistance as he may require for the purposes of paragraph (a).",
+      "relevance_score": 3,
+      "relevance_reason": "Computer access powers for data inspection"
     },
     {
       "section": "47",
@@ -1294,7 +1362,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Any person who knowingly and with intent to defraud, creates, publishes or otherwise make available a certificate in breach of section 23, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 100,000 rupees and to imprisonment for a term not exceeding 5 years."
+      "source_quote": "Any person who knowingly and with intent to defraud, creates, publishes or otherwise make available a certificate in breach of section 23, shall commit an offence and shall, on conviction, be liable to a fine not exceeding 100,000 rupees and to imprisonment for a term not exceeding 5 years.",
+      "relevance_score": 3,
+      "relevance_reason": "Offenses directly relate to data protection and electronic records"
     },
     {
       "section": "50",
@@ -1391,7 +1461,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Minister may make such regulations as he thinks fit for the purpose of this Act."
+      "source_quote": "The Minister may make such regulations as he thinks fit for the purpose of this Act.",
+      "relevance_score": 3,
+      "relevance_reason": "certification authorities, digital signatures, international treaties"
     }
   ]
 }

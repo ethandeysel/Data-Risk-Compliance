@@ -31,7 +31,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The administrator, conservator and special administrator or any person acting on their behalf shall not be liable to any proceedings, whether civil or criminal, for, or on account of, or in respect of, an act done or statement made, or omitted to be done or made, in the bona fide performance of a function under his appointment."
+      "source_quote": "The administrator, conservator and special administrator or any person acting on their behalf shall not be liable to any proceedings, whether civil or criminal, for, or on account of, or in respect of, an act done or statement made, or omitted to be done or made, in the bona fide performance of a function under his appointment.",
+      "relevance_score": 0,
+      "relevance_reason": "Immunity for administrators not relevant to data compliance"
     },
     {
       "section": "2",
@@ -311,7 +313,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "2. Interpretation In this Act -"
+      "source_quote": "2. Interpretation In this Act -",
+      "relevance_score": 1,
+      "relevance_reason": "Definitions of terms not directly related to data protection"
     },
     {
       "section": "2 (part 2)",
@@ -331,7 +335,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "pure amendment mechanics"
     },
     {
       "section": "3",
@@ -362,7 +368,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An existing insurance intermediary or manager shall, until 1 January 2008, be deemed to be licensed or registered under this Act as an insurance manager, agent, broker or salesperson, as the case may be unless the licence or registration is earlier cancelled or revoked under this Act."
+      "source_quote": "An existing insurance intermediary or manager shall, until 1 January 2008, be deemed to be licensed or registered under this Act as an insurance manager, agent, broker or salesperson, as the case may be unless the licence or registration is earlier cancelled or revoked under this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Deemed licensing affects financial data handling"
     },
     {
       "section": "4",
@@ -391,7 +399,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any register held by the Commission relating to existing insurers, insurance managers and intermediaries shall be deemed to have been established and maintained under section 6 of this Act."
+      "source_quote": "Any register held by the Commission relating to existing insurers, insurance managers and intermediaries shall be deemed to have been established and maintained under section 6 of this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory continuity for financial data registers"
     },
     {
       "section": "5",
@@ -438,7 +448,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5. Application of Act (1) Nothing in this Act shall affect the status and the operation of the Sugar Insurance Fund set up under the Sugar Insurance Fund Act."
+      "source_quote": "5. Application of Act (1) Nothing in this Act shall affect the status and the operation of the Sugar Insurance Fund set up under the Sugar Insurance Fund Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Minister's regulatory powers over insurance scope"
     },
     {
       "section": "6",
@@ -489,7 +501,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "6. The Commission shall establish and maintain a register containing such particulars and details of licensees and registered persons, and in such form, manner and medium as it thinks appropriate."
+      "source_quote": "6. The Commission shall establish and maintain a register containing such particulars and details of licensees and registered persons, and in such form, manner and medium as it thinks appropriate.",
+      "relevance_score": 2,
+      "relevance_reason": "Record keeping for licensees"
     },
     {
       "section": "7",
@@ -546,7 +560,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "7. No person shall carry on, or hold himself out as carrying on, insurance business of any category or class, in or from within Mauritius except under the authority of a licence issued by the Commission under section 11 in respect of that category or class of insurance business."
+      "source_quote": "7. No person shall carry on, or hold himself out as carrying on, insurance business of any category or class, in or from within Mauritius except under the authority of a licence issued by the Commission under section 11 in respect of that category or class of insurance business.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and penalties for cross-border insurance business"
     },
     {
       "section": "8",
@@ -595,7 +611,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "8. Subject to the other provisions of this section, no insurer other than a professional reinsurer shall carry on both long term and general insurance business."
+      "source_quote": "8. Subject to the other provisions of this section, no insurer other than a professional reinsurer shall carry on both long term and general insurance business.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: insurance business separation not directly data compliance"
     },
     {
       "section": "9",
@@ -651,7 +669,9 @@
           "obligation_type": "Authority"
         }
       ],
-      "source_quote": "An insurer licensed under this Part shall not underwrite or reinsure risks from another insurer or otherwise carry on reinsurance business except where – (a) it is licensed as a professional reinsurer to carry on solely reinsurance business; or (b) it is otherwise authorised expressly by the Commission on such conditions as it may deem fit."
+      "source_quote": "An insurer licensed under this Part shall not underwrite or reinsure risks from another insurer or otherwise carry on reinsurance business except where – (a) it is licensed as a professional reinsurer to carry on solely reinsurance business; or (b) it is otherwise authorised expressly by the Commission on such conditions as it may deem fit.",
+      "relevance_score": 2,
+      "relevance_reason": "Reinsurance licensing conditions for cross-border data transfers"
     },
     {
       "section": "10",
@@ -723,7 +743,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "An application for a licence under this Part shall be made in such form, manner and medium as the Commission may determine and shall be accompanied by – (a) a statement of the applicant's proposed insurance business, including details on the class of insurance business to be carried on; (b) particulars of any substantial shareholder, or of any person being proposed to act as officer of the proposed insurer; (c) a business plan together with a feasibility study conducted certified by an actuary; (d) such other information and documents as may be required by the Commission; and (e) the prescribed fee."
+      "source_quote": "An application for a licence under this Part shall be made in such form, manner and medium as the Commission may determine and shall be accompanied by – (a) a statement of the applicant's proposed insurance business, including details on the class of insurance business to be carried on; (b) particulars of any substantial shareholder, or of any person being proposed to act as officer of the proposed insurer; (c) a business plan together with a feasibility study conducted certified by an actuary; (d) such other information and documents as may be required by the Commission; and (e) the prescribed fee.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and financial data requirements"
     },
     {
       "section": "11",
@@ -796,7 +818,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Where the Commission is satisfied that an application under section 10 ought to be granted, it shall grant the application and on payment of the prescribed fee, issue a licence authorising the applicant to carry on such category of insurance business in respect of such class of insurance policies as may be specified in the licence."
+      "source_quote": "Where the Commission is satisfied that an application under section 10 ought to be granted, it shall grant the application and on payment of the prescribed fee, issue a licence authorising the applicant to carry on such category of insurance business in respect of such class of insurance policies as may be specified in the licence.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data and record-keeping requirements"
     },
     {
       "section": "12",
@@ -835,7 +859,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission may, on issuing a licence under this Part, impose such conditions, restrictions and limitations as it deems fit. Subject to Part XIII, the Commission may, by notice in writing to the insurer, add, delete, vary or determine any condition, restrictions and limitations in the licence and the licence shall be deemed to have been issued with such addition, deletion, variation or determination. Where an insurer fails to comply with a condition, restriction and limitation imposed under subsection (1), it shall commit an offence and shall, on conviction, be liable to a fine not exceeding 2 million rupees and to imprisonment for a term not exceeding 8 years."
+      "source_quote": "The Commission may, on issuing a licence under this Part, impose such conditions, restrictions and limitations as it deems fit. Subject to Part XIII, the Commission may, by notice in writing to the insurer, add, delete, vary or determine any condition, restrictions and limitations in the licence and the licence shall be deemed to have been issued with such addition, deletion, variation or determination. Where an insurer fails to comply with a condition, restriction and limitation imposed under subsection (1), it shall commit an offence and shall, on conviction, be liable to a fine not exceeding 2 million rupees and to imprisonment for a term not exceeding 8 years.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and penalties for non-compliance"
     },
     {
       "section": "13",
@@ -884,7 +910,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A person licensed to carry on insurance business under this Part – shall not without prior written notification to the Commission – open a branch in Mauritius; open a branch, agency or set up or acquire any subsidiary in any country outside Mauritius. shall keep its licence, at all times, at its principal place of business in Mauritius and a copy thereof in every branch or office that it may have; ensure that the licence kept in accordance with paragraph (i) contains the up-to-date conditions attached to the licence; display, on request made by any person on or before entering into a business transaction with that insurer, the licence together with the up-to-date conditions to the licence."
+      "source_quote": "A person licensed to carry on insurance business under this Part – shall not without prior written notification to the Commission – open a branch in Mauritius; open a branch, agency or set up or acquire any subsidiary in any country outside Mauritius. shall keep its licence, at all times, at its principal place of business in Mauritius and a copy thereof in every branch or office that it may have; ensure that the licence kept in accordance with paragraph (i) contains the up-to-date conditions attached to the licence; display, on request made by any person on or before entering into a business transaction with that insurer, the licence together with the up-to-date conditions to the licence.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: branch licensing not directly data-related"
     },
     {
       "section": "14",
@@ -925,7 +953,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall maintain its business in a financially sound condition by generally conducting its affairs so as to be in a position at all times to – meet its liabilities as they arise; and keep the solvency margin required under this Part. An insurer shall, notwithstanding the circumstances which prevent it from maintaining a financially sound condition, be deemed to contravene subsection (1) where it fails to meet any requirement under this Act or any solvency rule relating to – the solvency margin and the method of its valuation and calculation; the maintenance of any technical provisions and reserves; and the kinds and spread of investment of assets."
+      "source_quote": "An insurer shall maintain its business in a financially sound condition by generally conducting its affairs so as to be in a position at all times to – meet its liabilities as they arise; and keep the solvency margin required under this Part. An insurer shall, notwithstanding the circumstances which prevent it from maintaining a financially sound condition, be deemed to contravene subsection (1) where it fails to meet any requirement under this Act or any solvency rule relating to – the solvency margin and the method of its valuation and calculation; the maintenance of any technical provisions and reserves; and the kinds and spread of investment of assets.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data privacy aspects"
     },
     {
       "section": "15",
@@ -958,7 +988,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall – at all times maintain a solvency margin of such value as may be specified in solvency rules; furnish to the Commission a return on its solvency margin in such form, manner and medium, and within such time of its balance sheet date, as may be specified in solvency rules."
+      "source_quote": "An insurer shall – at all times maintain a solvency margin of such value as may be specified in solvency rules; furnish to the Commission a return on its solvency margin in such form, manner and medium, and within such time of its balance sheet date, as may be specified in solvency rules.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data reporting requirements"
     },
     {
       "section": "16",
@@ -995,7 +1027,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall make adequate technical provisions in its accounts for its underwriting liabilities in respect of its insurance policies, whether long term or general, as the case may be, including liabilities for unexpired risks, outstanding and incurred claims, provisions for claims incurred but not reported, and liabilities for policy benefits which have not become claimable, computed in accordance with a method specified in solvency rules. An insurer shall at all times hold unencumbered assets to the value of its technical provisions and after making adequate provisions for all its other liabilities."
+      "source_quote": "An insurer shall make adequate technical provisions in its accounts for its underwriting liabilities in respect of its insurance policies, whether long term or general, as the case may be, including liabilities for unexpired risks, outstanding and incurred claims, provisions for claims incurred but not reported, and liabilities for policy benefits which have not become claimable, computed in accordance with a method specified in solvency rules. An insurer shall at all times hold unencumbered assets to the value of its technical provisions and after making adequate provisions for all its other liabilities.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance for insurers"
     },
     {
       "section": "17",
@@ -1044,7 +1078,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subject to subsection (2), an insurer shall, regardless of the category of its insurance business, set up and maintain for so long as it is under liability in respect of an insurance policy or claim relating to that fund, separate insurance funds for its Mauritian policies and for its non-Mauritian policies. The Commission may having regard to the small number of insurance policies and their relative value in any one of the insurance fund, allow the insurer to maintain only one insurance fund for both the Mauritian and the non-Mauritian policies. An insurer shall – maintain the solvency margin, make such technical provisions and establish such reserve or fund, invest assets and apply the solvency rules in respect of each insurance fund as if they were separate businesses; pay into the corresponding insurance fund all money received by it in respect of policies to which the insurance fund relates; carry to the insurance fund all income and gains arising from the investment of the assets of that insurance fund."
+      "source_quote": "Subject to subsection (2), an insurer shall, regardless of the category of its insurance business, set up and maintain for so long as it is under liability in respect of an insurance policy or claim relating to that fund, separate insurance funds for its Mauritian policies and for its non-Mauritian policies. The Commission may having regard to the small number of insurance policies and their relative value in any one of the insurance fund, allow the insurer to maintain only one insurance fund for both the Mauritian and the non-Mauritian policies. An insurer shall – maintain the solvency margin, make such technical provisions and establish such reserve or fund, invest assets and apply the solvency rules in respect of each insurance fund as if they were separate businesses; pay into the corresponding insurance fund all money received by it in respect of policies to which the insurance fund relates; carry to the insurance fund all income and gains arising from the investment of the assets of that insurance fund.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial governance, not direct data compliance"
     },
     {
       "section": "18",
@@ -1115,7 +1151,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "A long term insurer shall keep within its corresponding insurance fund set up under section 17, an appropriately designated fund in respect of each class of long term insurance business carried on, into which shall be paid – (a) all money received by the insurer in respect of policies of that class which are issued by it or under which it has undertaken liability; (b) all income and gains arising from the investment of the assets of that designated fund."
+      "source_quote": "A long term insurer shall keep within its corresponding insurance fund set up under section 17, an appropriately designated fund in respect of each class of long term insurance business carried on, into which shall be paid – (a) all money received by the insurer in respect of policies of that class which are issued by it or under which it has undertaken liability; (b) all income and gains arising from the investment of the assets of that designated fund.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data privacy or cross-border transfer relevance"
     },
     {
       "section": "20",
@@ -1162,7 +1200,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "An insurer shall not, without the approval of the Commission, mortgage, charge or otherwise encumber its assets; directly or indirectly borrow any asset; or by means of any surety, give any security in relation to obligations between other persons except where the security is provided under a guarantee policy which the insurer is authorised to issue under its licence."
+      "source_quote": "An insurer shall not, without the approval of the Commission, mortgage, charge or otherwise encumber its assets; directly or indirectly borrow any asset; or by means of any surety, give any security in relation to obligations between other persons except where the security is provided under a guarantee policy which the insurer is authorised to issue under its licence.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial governance, not direct data compliance"
     },
     {
       "section": "21",
@@ -1221,7 +1261,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "An insurer shall enter into reinsurance treaties in respect of risks insured or to be insured in the course of its insurance business which are consistent with sound insurance business principles."
+      "source_quote": "An insurer shall enter into reinsurance treaties in respect of risks insured or to be insured in the course of its insurance business which are consistent with sound insurance business principles.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers over reinsurance treaties"
     },
     {
       "section": "22",
@@ -1276,7 +1318,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Where the solvency margin of an insurer is less than that required to be maintained, the insurer shall not – (a) without the written approval of the Commission, assume any new risks of any kind, or underwrite or renew any insurance policy; (b) declare or distribute any bonus or dividend to its shareholders; (c) in the case of an insurer organised as a foreign company, remit any money out of Mauritius in the form of profits."
+      "source_quote": "Where the solvency margin of an insurer is less than that required to be maintained, the insurer shall not – (a) without the written approval of the Commission, assume any new risks of any kind, or underwrite or renew any insurance policy; (b) declare or distribute any bonus or dividend to its shareholders; (c) in the case of an insurer organised as a foreign company, remit any money out of Mauritius in the form of profits.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance for solvency"
     },
     {
       "section": "23",
@@ -1327,7 +1371,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Commission may make solvency rules as are required for the purpose of this Part."
+      "source_quote": "The Commission may make solvency rules as are required for the purpose of this Part.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial regulation, no data privacy aspects"
     },
     {
       "section": "24",
@@ -1382,7 +1428,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "An insurer shall in respect of its insurance business at all times have and maintain such stated capital as may be prescribed; and make and maintain a deposit in such amount, and with such custodian as may be prescribed."
+      "source_quote": "An insurer shall in respect of its insurance business at all times have and maintain such stated capital as may be prescribed; and make and maintain a deposit in such amount, and with such custodian as may be prescribed.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance"
     },
     {
       "section": "25",
@@ -1428,7 +1476,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall not, without the approval of the Commission or otherwise than in accordance with the conditions determined by the Commission –"
+      "source_quote": "An insurer shall not, without the approval of the Commission or otherwise than in accordance with the conditions determined by the Commission –",
+      "relevance_score": 1,
+      "relevance_reason": "Financial governance, not data-specific"
     },
     {
       "section": "26",
@@ -1474,7 +1524,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Subject to subsection (2), an insurer shall not, except with the approval of the Commission, issue, allot or register any of its shares in the name of a person other than the intended beneficial shareholder."
+      "source_quote": "Subject to subsection (2), an insurer shall not, except with the approval of the Commission, issue, allot or register any of its shares in the name of a person other than the intended beneficial shareholder.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: share ownership governance"
     },
     {
       "section": "27",
@@ -1524,7 +1576,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "No person shall, without the approval of the Commission, acquire or hold such number of shares in an insurer so as to make him a significant shareholder in that insurer."
+      "source_quote": "No person shall, without the approval of the Commission, acquire or hold such number of shares in an insurer so as to make him a significant shareholder in that insurer.",
+      "relevance_score": 1,
+      "relevance_reason": "Shareholding limits affect insurer governance but not direct data compliance"
     },
     {
       "section": "28",
@@ -1562,7 +1616,9 @@
           "obligation_type": "Notification"
         }
       ],
-      "source_quote": "No person shall – either personally or by proxy granted to another person, cast a vote attached to; receive, or be entitled to receive, a dividend payable in respect of; be allotted any share by way of a bonus issue in respect of; a share in an insurer acquired or held in contravention of section 27."
+      "source_quote": "No person shall – either personally or by proxy granted to another person, cast a vote attached to; receive, or be entitled to receive, a dividend payable in respect of; be allotted any share by way of a bonus issue in respect of; a share in an insurer acquired or held in contravention of section 27.",
+      "relevance_score": 0,
+      "relevance_reason": "No data compliance relevance"
     },
     {
       "section": "29",
@@ -1600,7 +1656,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The Commission may require an insurer to furnish it, in the form, manner and medium as it may determine, with particulars and information concerning its shareholders; the nominee of a shareholder; any person according to whose instructions and directions a shareholder exercises, or normally exercises, his rights as a shareholder."
+      "source_quote": "The Commission may require an insurer to furnish it, in the form, manner and medium as it may determine, with particulars and information concerning its shareholders; the nominee of a shareholder; any person according to whose instructions and directions a shareholder exercises, or normally exercises, his rights as a shareholder.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and penalties for disclosure"
     },
     {
       "section": "30",
@@ -1643,7 +1701,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "No insurer shall be managed by any person other than – in the case of an insurer established under the laws of Mauritius, by the persons appointed in accordance with the constitutive documents under which the insurer is set up; in the case of an insurer established as a foreign company, managed by an authorised agent who is appointed by the parent insurer with the approval of the Commission; an insurance manager licensed under Part VIII, with the approval of the Commission."
+      "source_quote": "No insurer shall be managed by any person other than – in the case of an insurer established under the laws of Mauritius, by the persons appointed in accordance with the constitutive documents under which the insurer is set up; in the case of an insurer established as a foreign company, managed by an authorised agent who is appointed by the parent insurer with the approval of the Commission; an insurance manager licensed under Part VIII, with the approval of the Commission.",
+      "relevance_score": 2,
+      "relevance_reason": "Governance requirements for insurers"
     },
     {
       "section": "31",
@@ -1716,7 +1776,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Duties of directors (1) Without limiting their duties in managing the affairs of an insurer, the directors shall – (a) have regard to the interests of its stakeholders, including its policyholders; (b) establish adequate internal controls and adopt strategies, policies, processes and procedures in accordance with principles of sound corporate governance and risk management; (c) monitor compliance with the laws, rules, directions and guidelines of the Commission, and with the policies adopted; (d) set up such committees as they deem necessary to discharge their responsibilities effectively; (e) approve policies regarding the maintenance of the undertaking in a sound financial situation in accordance with section 14; (f) establish and maintain proper policies for – (i) identifying and resolving situations of, or potential situations of, conflict of interest; (ii) restricting the use of confidential information; (iii) the disclosure of relevant information to clients so as to allow them to make informed decisions; (iv) dealing with complaints from policyholders or members of the public in general; and (v) such other matters as to ensure sound and sustainable conduct of business."
+      "source_quote": "Duties of directors (1) Without limiting their duties in managing the affairs of an insurer, the directors shall – (a) have regard to the interests of its stakeholders, including its policyholders; (b) establish adequate internal controls and adopt strategies, policies, processes and procedures in accordance with principles of sound corporate governance and risk management; (c) monitor compliance with the laws, rules, directions and guidelines of the Commission, and with the policies adopted; (d) set up such committees as they deem necessary to discharge their responsibilities effectively; (e) approve policies regarding the maintenance of the undertaking in a sound financial situation in accordance with section 14; (f) establish and maintain proper policies for – (i) identifying and resolving situations of, or potential situations of, conflict of interest; (ii) restricting the use of confidential information; (iii) the disclosure of relevant information to clients so as to allow them to make informed decisions; (iv) dealing with complaints from policyholders or members of the public in general; and (v) such other matters as to ensure sound and sustainable conduct of business.",
+      "relevance_score": 2,
+      "relevance_reason": "Directors' duties include financial data handling and governance"
     },
     {
       "section": "32",
@@ -1771,7 +1833,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Avoiding conflict of interest (1) Subject to subsections (2) and (3), an officer of an insurer who – (a) is a party to a major contract or proposed major contract with the insurer; (b) is an officer or a substantial shareholder of any entity that is a party to a major contract or proposed major contract with the insurer; or (c) has a material interest in any person who is a party to a major contract or proposed major contract with the insurer, shall, immediately after becoming aware of the contract or proposed contract, disclose in writing or cause to be entered in a record kept for that purpose by the insurer the nature and extent of that interest in accordance with the other provisions of this section."
+      "source_quote": "Avoiding conflict of interest (1) Subject to subsections (2) and (3), an officer of an insurer who – (a) is a party to a major contract or proposed major contract with the insurer; (b) is an officer or a substantial shareholder of any entity that is a party to a major contract or proposed major contract with the insurer; or (c) has a material interest in any person who is a party to a major contract or proposed major contract with the insurer, shall, immediately after becoming aware of the contract or proposed contract, disclose in writing or cause to be entered in a record kept for that purpose by the insurer the nature and extent of that interest in accordance with the other provisions of this section.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: governance for financial compliance"
     },
     {
       "section": "33",
@@ -1818,7 +1882,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Requirement to abstain (1) Where section 32 applies to a director in respect of a major contract, the director shall not be present at any meeting of directors while the contract is being considered at the meeting or vote on any resolution to approve the contract unless the contract is – (a) an arrangement by way of security for money lent to, or obligations undertaken by the director for the benefit of, the insurer or a subsidiary of the insurer; (b) a contract relating primarily to the director's remuneration as a director or an officer, employee or agent of the insurer or a subsidiary of the insurer or an entity controlled by the insurer or an entity in which the insurer has a material investment; or (c) a contract with an affiliate of the insurer."
+      "source_quote": "Requirement to abstain (1) Where section 32 applies to a director in respect of a major contract, the director shall not be present at any meeting of directors while the contract is being considered at the meeting or vote on any resolution to approve the contract unless the contract is – (a) an arrangement by way of security for money lent to, or obligations undertaken by the director for the benefit of, the insurer or a subsidiary of the insurer; (b) a contract relating primarily to the director's remuneration as a director or an officer, employee or agent of the insurer or a subsidiary of the insurer or an entity controlled by the insurer or an entity in which the insurer has a material investment; or (c) a contract with an affiliate of the insurer.",
+      "relevance_score": 2,
+      "relevance_reason": "Directors' conflict of interest rules for financial contracts"
     },
     {
       "section": "34",
@@ -1861,7 +1927,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Consequences of conflict of interest (1) Notwithstanding sections 32 and 33, and subject to subsection (2), a contract between an insurer and one or more of its officers, or between an insurer and another entity of which an officer of the insurer is a director or an officer or between an insurer and a person in which the officer has a material interest, shall not be void – (a) by reason only of that relationship; or (b) by reason only that a director with an interest in the contract is present at or is counted to determine the presence of a quorum at the meeting of directors or the committee of directors that authorised the contract."
+      "source_quote": "Consequences of conflict of interest (1) Notwithstanding sections 32 and 33, and subject to subsection (2), a contract between an insurer and one or more of its officers, or between an insurer and another entity of which an officer of the insurer is a director or an officer or between an insurer and a person in which the officer has a material interest, shall not be void – (a) by reason only of that relationship; or (b) by reason only that a director with an interest in the contract is present at or is counted to determine the presence of a quorum at the meeting of directors or the committee of directors that authorised the contract.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: conflict of interest in financial contracts"
     },
     {
       "section": "35",
@@ -1888,7 +1956,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Shareholder action Where an officer of an insurer fails to disclose an interest in a major contract in accordance with section 32, the Court may, on the application of the insurer, or shareholders of the insurer in accordance with section 146(1)(a) of the Companies Act, set aside the contract on such terms as the Court thinks fit."
+      "source_quote": "Shareholder action Where an officer of an insurer fails to disclose an interest in a major contract in accordance with section 32, the Court may, on the application of the insurer, or shareholders of the insurer in accordance with section 146(1)(a) of the Companies Act, set aside the contract on such terms as the Court thinks fit.",
+      "relevance_score": 2,
+      "relevance_reason": "Court intervention for conflicts of interest"
     },
     {
       "section": "36",
@@ -1921,7 +1991,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Appointments of officers (1) No appointment of an officer by an insurer shall take effect without the prior approval of the Commission. (2) An insurer shall ensure and demonstrate to the Commission at the time of an application for approval in accordance with subsection (1) that the person is a fit and proper person to be appointed officer."
+      "source_quote": "Appointments of officers (1) No appointment of an officer by an insurer shall take effect without the prior approval of the Commission. (2) An insurer shall ensure and demonstrate to the Commission at the time of an application for approval in accordance with subsection (1) that the person is a fit and proper person to be appointed officer.",
+      "relevance_score": 2,
+      "relevance_reason": "Requires fit and proper persons for officer appointments"
     },
     {
       "section": "37",
@@ -1964,7 +2036,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Commission shall be deemed to have approved the appointment of a person under section 36 where it has not objected to such appointment within 15 days after having been notified in writing of the proposed appointment."
+      "source_quote": "The Commission shall be deemed to have approved the appointment of a person under section 36 where it has not objected to such appointment within 15 days after having been notified in writing of the proposed appointment.",
+      "relevance_score": 0,
+      "relevance_reason": "Governance, no data compliance relevance"
     },
     {
       "section": "38",
@@ -1999,7 +2073,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The board of directors shall set up such sub-committees as it may deem appropriate in order to ensure that the business of the insurer is being conducted according to sound corporate governance principles."
+      "source_quote": "The board of directors shall set up such sub-committees as it may deem appropriate in order to ensure that the business of the insurer is being conducted according to sound corporate governance principles.",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance for insurers"
     },
     {
       "section": "39",
@@ -2042,7 +2118,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall maintain adequate internal control systems, commensurate with the nature and volume of its activities and various types of risks to which it is exposed, regarding – (a) operations and internal procedures; (b) the organisation of accounting and information processing systems; (c) risk and result measurement systems; (d) documentation and information systems; and (e) transactions monitoring systems."
+      "source_quote": "An insurer shall maintain adequate internal control systems, commensurate with the nature and volume of its activities and various types of risks to which it is exposed, regarding – (a) operations and internal procedures; (b) the organisation of accounting and information processing systems; (c) risk and result measurement systems; (d) documentation and information systems; and (e) transactions monitoring systems.",
+      "relevance_score": 2,
+      "relevance_reason": "Internal controls for financial data processing"
     },
     {
       "section": "40",
@@ -2115,7 +2193,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subject to this section and FSC Rules, an insurer shall appoint and have at all times – (a) an auditor; and (b) an actuary."
+      "source_quote": "Subject to this section and FSC Rules, an insurer shall appoint and have at all times – (a) an auditor; and (b) an actuary.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator approval for financial data auditors"
     },
     {
       "section": "41",
@@ -2150,7 +2230,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "An insurer shall give to the Commission written notice of the termination of appointment or resignation of its auditor or actuary within 15 days of the termination or resignation."
+      "source_quote": "An insurer shall give to the Commission written notice of the termination of appointment or resignation of its auditor or actuary within 15 days of the termination or resignation.",
+      "relevance_score": 1,
+      "relevance_reason": "Governance requirement for auditor/actuary notification"
     },
     {
       "section": "42",
@@ -2185,7 +2267,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subject to subsection (2), the Commission may require an insurer to terminate the appointment of an auditor or actuary of an insurer, where it has reason to believe that the person or firm concerned is not fit and proper to hold the office concerned."
+      "source_quote": "Subject to subsection (2), the Commission may require an insurer to terminate the appointment of an auditor or actuary of an insurer, where it has reason to believe that the person or firm concerned is not fit and proper to hold the office concerned.",
+      "relevance_score": 1,
+      "relevance_reason": "Governance only, no data-specific duties"
     },
     {
       "section": "43",
@@ -2253,7 +2337,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Auditor's and actuary's duty to report (1) The auditor or the actuary of an insurer shall – (a) where a report or return is made to the insurer or to any public authority, provide a copy to the Commission; (b) where, but for a termination of appointment or resignation, there would have been reason to submit to the insurer a report containing unfavourable or critical remarks, submit such a report or draft report to the Commission."
+      "source_quote": "Auditor's and actuary's duty to report (1) The auditor or the actuary of an insurer shall – (a) where a report or return is made to the insurer or to any public authority, provide a copy to the Commission; (b) where, but for a termination of appointment or resignation, there would have been reason to submit to the insurer a report containing unfavourable or critical remarks, submit such a report or draft report to the Commission.",
+      "relevance_score": 2,
+      "relevance_reason": "AML reporting obligations to Commission"
     },
     {
       "section": "44",
@@ -2290,7 +2376,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Auditor's report (a) in his report, state whether the financial statements of the insurer have been prepared in the manner and meet the requirements specified by the Commission; (b) provide the Commission with a certified copy of the report together with the audited financial statements and the corresponding notes within such time as the Commission may specify and in any case not later than one month after it was made"
+      "source_quote": "Auditor's report (a) in his report, state whether the financial statements of the insurer have been prepared in the manner and meet the requirements specified by the Commission; (b) provide the Commission with a certified copy of the report together with the audited financial statements and the corresponding notes within such time as the Commission may specify and in any case not later than one month after it was made",
+      "relevance_score": 2,
+      "relevance_reason": "Auditor's report obligations for financial data compliance"
     },
     {
       "section": "45",
@@ -2339,7 +2427,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Commission may require the auditor at the costs of the insurer, in addition to any other duties, to – (a) carry out an extended scope audit or other examination and make any necessary comments and recommendations; (b) submit to the Commission such additional information in relation to the audit, extended scope audit or other examination as the Commission considers necessary; (c) submit to the Commission a report on any matter specified in paragraphs (a) and (b); (d) submit to the Commission a report on the financial and accounting systems and internal controls of the insurer; and (e) submit to the Commission a report as to whether, in his opinion, the manner of provisioning against liabilities and the maintenance of assets is being done in compliance with this Act and rules the FSC Rules."
+      "source_quote": "The Commission may require the auditor at the costs of the insurer, in addition to any other duties, to – (a) carry out an extended scope audit or other examination and make any necessary comments and recommendations; (b) submit to the Commission such additional information in relation to the audit, extended scope audit or other examination as the Commission considers necessary; (c) submit to the Commission a report on any matter specified in paragraphs (a) and (b); (d) submit to the Commission a report on the financial and accounting systems and internal controls of the insurer; and (e) submit to the Commission a report as to whether, in his opinion, the manner of provisioning against liabilities and the maintenance of assets is being done in compliance with this Act and rules the FSC Rules.",
+      "relevance_score": 2,
+      "relevance_reason": "Auditor duties for financial data compliance"
     },
     {
       "section": "46",
@@ -2370,7 +2460,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Audit committee (1) Subject to subsection (2), every insurer shall by resolution of the board set up an audit committee consisting of such members and having such duties and functions as the board may, in accordance with guidelines issued by the Commission, determine."
+      "source_quote": "Audit committee (1) Subject to subsection (2), every insurer shall by resolution of the board set up an audit committee consisting of such members and having such duties and functions as the board may, in accordance with guidelines issued by the Commission, determine.",
+      "relevance_score": 1,
+      "relevance_reason": "tangential governance for data compliance"
     },
     {
       "section": "47",
@@ -2443,7 +2535,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Actuarial investigation (1) An insurer shall cause an investigation into its financial condition to be made by the insurer's actuary at such time and at such regular intervals as may be prescribed."
+      "source_quote": "Actuarial investigation (1) An insurer shall cause an investigation into its financial condition to be made by the insurer's actuary at such time and at such regular intervals as may be prescribed.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance for insurers"
     },
     {
       "section": "48",
@@ -2484,7 +2578,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Separation of accounts (1) An insurer carrying on more than one class of policies in any category of insurance business shall keep separate accounts of all receipts and payments in respect of each class of business."
+      "source_quote": "Separation of accounts (1) An insurer carrying on more than one class of policies in any category of insurance business shall keep separate accounts of all receipts and payments in respect of each class of business.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance for data compliance"
     },
     {
       "section": "49",
@@ -2539,7 +2635,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "An insurer shall, at the expiration of each balance sheet date, prepare with reference to that year – (a) a balance sheet; (b) a profit and loss account or a revenue account, or both, as may be applicable; and (c) in respect of each class of insurance business, or part thereof, for which the insurer is required by section 48 to keep a separate account of receipts and payments, a revenue account."
+      "source_quote": "An insurer shall, at the expiration of each balance sheet date, prepare with reference to that year – (a) a balance sheet; (b) a profit and loss account or a revenue account, or both, as may be applicable; and (c) in respect of each class of insurance business, or part thereof, for which the insurer is required by section 48 to keep a separate account of receipts and payments, a revenue account.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial reporting requirements for insurers"
     },
     {
       "section": "50",
@@ -2597,7 +2695,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The auditor shall, in a certificate relating to the accounts and statements in respect of a balance sheet date of an insurer, state whether – (a) the accounts and statements to which it relates appear to him to be in accordance with the requirements of this Act, rules the FSC Rules, guidelines and give particulars of any matters that do not appear to him to be in accordance with those requirements;"
+      "source_quote": "The auditor shall, in a certificate relating to the accounts and statements in respect of a balance sheet date of an insurer, state whether – (a) the accounts and statements to which it relates appear to him to be in accordance with the requirements of this Act, rules the FSC Rules, guidelines and give particulars of any matters that do not appear to him to be in accordance with those requirements;",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial record keeping only"
     },
     {
       "section": "51",
@@ -2644,7 +2744,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "A copy of every account, balance sheet, certificate, report, return or statement required to be prepared under sections 47, 49 or 50 shall be signed by two directors and, in the case of a foreign company, the authorised agent of the insurer, and by the auditor who made the audit or the actuary who made the valuation (as the case may be) and shall be submitted to the Commission within 3 months after the end of the period to which they relate."
+      "source_quote": "A copy of every account, balance sheet, certificate, report, return or statement required to be prepared under sections 47, 49 or 50 shall be signed by two directors and, in the case of a foreign company, the authorised agent of the insurer, and by the auditor who made the audit or the actuary who made the valuation (as the case may be) and shall be submitted to the Commission within 3 months after the end of the period to which they relate.",
+      "relevance_score": 2,
+      "relevance_reason": "Record keeping for financial data"
     },
     {
       "section": "52",
@@ -2691,7 +2793,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where it appears to the Commission that any return or report furnished to it under this Part is inaccurate or incomplete in any respect, the Commission may – (a) require further information, which shall be certified if it so directs, from the insurer or from such auditor, actuary or other person as it may consider necessary;"
+      "source_quote": "Where it appears to the Commission that any return or report furnished to it under this Part is inaccurate or incomplete in any respect, the Commission may – (a) require further information, which shall be certified if it so directs, from the insurer or from such auditor, actuary or other person as it may consider necessary;",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and penalties for financial data"
     },
     {
       "section": "53",
@@ -2734,7 +2838,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In addition to the requirements of the Companies Act, an insurer shall, for the purposes of this Act, keep in relation to its business activities, a full and true written record, whether electronically or otherwise, in English or French language of every transaction it makes."
+      "source_quote": "In addition to the requirements of the Companies Act, an insurer shall, for the purposes of this Act, keep in relation to its business activities, a full and true written record, whether electronically or otherwise, in English or French language of every transaction it makes.",
+      "relevance_score": 3,
+      "relevance_reason": "Records for financial data compliance"
     },
     {
       "section": "54",
@@ -2776,7 +2882,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No transaction to which an insurer is a party and which constitutes an agreement by which all or any part of the business of an insurer is transferred to another person, or by which an amalgamation is effected, shall have effect without the approval of the Commission."
+      "source_quote": "No transaction to which an insurer is a party and which constitutes an agreement by which all or any part of the business of an insurer is transferred to another person, or by which an amalgamation is effected, shall have effect without the approval of the Commission.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border insurance transfers require Commission approval"
     },
     {
       "section": "55",
@@ -2842,7 +2950,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "55. Application for approval of transfer or amalgamation (1) Subject to this section, an application for a transfer or amalgamation referred to in section 54 shall be made jointly by the parties to the transaction in such form, manner and medium and by giving such notices as may be prescribed."
+      "source_quote": "55. Application for approval of transfer or amalgamation (1) Subject to this section, an application for a transfer or amalgamation referred to in section 54 shall be made jointly by the parties to the transaction in such form, manner and medium and by giving such notices as may be prescribed.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and transaction oversight"
     },
     {
       "section": "56",
@@ -2899,7 +3009,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "56. Approval of transfer or amalgamation (1) The Commission shall not approve a transfer or an amalgamation referred to in section 54 except where it is satisfied that – (a) the provisions of this Part have been complied with; (b) the transaction is consistent with this Act and in the interests of the policyholders of the insurer concerned; (c) payment of the expenses referred to in section 55(4) has been made or secured; (d) the transferee or amalgamated insurer, as the case may be, is or immediately after the approval will be licensed under this Act to carry on insurance business or the appropriate class or classes of insurance business; and (e) the transferee's or amalgamated insurer's financial resources and the other circumstances of the case justify the giving of its approval."
+      "source_quote": "56. Approval of transfer or amalgamation (1) The Commission shall not approve a transfer or an amalgamation referred to in section 54 except where it is satisfied that – (a) the provisions of this Part have been complied with; (b) the transaction is consistent with this Act and in the interests of the policyholders of the insurer concerned; (c) payment of the expenses referred to in section 55(4) has been made or secured; (d) the transferee or amalgamated insurer, as the case may be, is or immediately after the approval will be licensed under this Act to carry on insurance business or the appropriate class or classes of insurance business; and (e) the transferee's or amalgamated insurer's financial resources and the other circumstances of the case justify the giving of its approval.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator approval conditions for cross-border insurance transfers"
     },
     {
       "section": "57",
@@ -2952,7 +3064,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "57. Effect of approval (1) Subject to subsection (2), notwithstanding the absence of any agreement or consent which would otherwise be necessary for it to be effectual in law, an instrument giving effect to a transfer or amalgamation approved under section 56 shall be effectual in law – (a) to transfer to the transferee or amalgamated insurer all the rights and obligations under the policies included in the instruments of the parties to the transfer or amalgamation; and (b) where the instrument so provides, to secure the continuation by or against the transferee or the amalgamated insurer of any legal proceedings by or against the transferor or any party to the amalgamation which relate to those rights or obligations."
+      "source_quote": "57. Effect of approval (1) Subject to subsection (2), notwithstanding the absence of any agreement or consent which would otherwise be necessary for it to be effectual in law, an instrument giving effect to a transfer or amalgamation approved under section 56 shall be effectual in law – (a) to transfer to the transferee or amalgamated insurer all the rights and obligations under the policies included in the instruments of the parties to the transfer or amalgamation; and (b) where the instrument so provides, to secure the continuation by or against the transferee or the amalgamated insurer of any legal proceedings by or against the transferor or any party to the amalgamation which relate to those rights or obligations.",
+      "relevance_score": 2,
+      "relevance_reason": "Requires balance sheet and compliance declarations"
     },
     {
       "section": "58",
@@ -2979,7 +3093,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "58. Application to Court for directions The Commission may apply to the Court for directions in relation to any particular matter arising under a transfer or amalgamation under this Part."
+      "source_quote": "58. Application to Court for directions The Commission may apply to the Court for directions in relation to any particular matter arising under a transfer or amalgamation under this Part.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "59",
@@ -3019,7 +3135,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "59. General provisions on winding up (1) Subject to this Part and such regulations as may be prescribed, Sub-Part II of Part III, Parts IV and VII of the Insolvency Act 2.009 or such other specific enactment relating to winding up of companies shall apply to the winding up of an insurer so far as these provisions are applicable and provided further that where there is any inconsistency between those provisions and the provisions of this Part, the provisions of this Part shall prevail."
+      "source_quote": "59. General provisions on winding up (1) Subject to this Part and such regulations as may be prescribed, Sub-Part II of Part III, Parts IV and VII of the Insolvency Act 2.009 or such other specific enactment relating to winding up of companies shall apply to the winding up of an insurer so far as these provisions are applicable and provided further that where there is any inconsistency between those provisions and the provisions of this Part, the provisions of this Part shall prevail.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for winding up"
     },
     {
       "section": "60",
@@ -3063,7 +3181,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "60. Continuation of business by liquidator (1) A liquidator who is in charge of liquidation proceedings in respect of an insurer shall, so far as it may be possible and subject to the direction of the Commission or the order of the Court, carry on the insurance business of the insurer during the liquidation proceedings, but shall not effect any new contracts of insurance including renewals of existing policies of general insurance."
+      "source_quote": "60. Continuation of business by liquidator (1) A liquidator who is in charge of liquidation proceedings in respect of an insurer shall, so far as it may be possible and subject to the direction of the Commission or the order of the Court, carry on the insurance business of the insurer during the liquidation proceedings, but shall not effect any new contracts of insurance including renewals of existing policies of general insurance.",
+      "relevance_score": 2,
+      "relevance_reason": "Liquidator's asset transfers and court oversight for policyholder protection"
     },
     {
       "section": "61",
@@ -3094,7 +3214,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where it appears to the liquidator in charge of liquidation proceedings in respect of an insurer that by reason of the insufficiency of its documents or any other circumstances, hardship would be caused if he requires strict proof of debt, he may act on such evidence as he thinks appropriate and payment of a debt made by the liquidator in good faith to any person as being the person entitled to it shall discharge the liquidator from all liabilities in respect of that debt."
+      "source_quote": "Where it appears to the liquidator in charge of liquidation proceedings in respect of an insurer that by reason of the insufficiency of its documents or any other circumstances, hardship would be caused if he requires strict proof of debt, he may act on such evidence as he thinks appropriate and payment of a debt made by the liquidator in good faith to any person as being the person entitled to it shall discharge the liquidator from all liabilities in respect of that debt.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "62",
@@ -3133,7 +3255,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "the value of the assets of the insurer shall be ascertained in such manner and upon such basis as may be determined by the liquidator in consultation with the Commission; the liabilities of the insurer in respect of the current policies of long term insurance business shall, as far as practicable, be calculated by the method and upon such basis as may be determined by an actuary appointed by the Commission; and the liabilities of the insurer in respect of general insurance business shall be determined by the liquidator in consultation with the Commission."
+      "source_quote": "the value of the assets of the insurer shall be ascertained in such manner and upon such basis as may be determined by the liquidator in consultation with the Commission; the liabilities of the insurer in respect of the current policies of long term insurance business shall, as far as practicable, be calculated by the method and upon such basis as may be determined by an actuary appointed by the Commission; and the liabilities of the insurer in respect of general insurance business shall be determined by the liquidator in consultation with the Commission.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial governance for insurance assets"
     },
     {
       "section": "63",
@@ -3172,7 +3296,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "the assets representing the insurance fund maintained by the insurer with respect to policy liabilities in Mauritius or with respect to policy liabilities outside Mauritius shall be applied only for meeting the liabilities of the fund to which it relates; where the assets representing an insurance fund exceed the liabilities of that fund, the surplus assets may be applied to meet the liabilities of the other insurance fund which is deficient; any deficiency subsisting after application of the assets of the insurance funds under paragraphs (a) and (b) shall be met out of the other assets of the insurer, and any unsatisfied liabilities to a policy shall have priority over any other claim or liabilities."
+      "source_quote": "the assets representing the insurance fund maintained by the insurer with respect to policy liabilities in Mauritius or with respect to policy liabilities outside Mauritius shall be applied only for meeting the liabilities of the fund to which it relates; where the assets representing an insurance fund exceed the liabilities of that fund, the surplus assets may be applied to meet the liabilities of the other insurance fund which is deficient; any deficiency subsisting after application of the assets of the insurance funds under paragraphs (a) and (b) shall be met out of the other assets of the insurer, and any unsatisfied liabilities to a policy shall have priority over any other claim or liabilities.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure financial governance, no data privacy or cross-border transfer relevance"
     },
     {
       "section": "64",
@@ -3215,7 +3341,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No insurer shall be wound up voluntarily without the prior written authority of the Commission. The Commission may authorise an insurer to wind up where the insurer is solvent and submits a declaration to the effect that arrangements satisfactory to the Commission have been made by the insurer to meet all its liabilities under the insurance policies entered into by it prior to the winding up."
+      "source_quote": "No insurer shall be wound up voluntarily without the prior written authority of the Commission. The Commission may authorise an insurer to wind up where the insurer is solvent and submits a declaration to the effect that arrangements satisfactory to the Commission have been made by the insurer to meet all its liabilities under the insurance policies entered into by it prior to the winding up.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and winding up procedures"
     },
     {
       "section": "65",
@@ -3250,7 +3378,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The authorisation under section 64(2) to wind up an insurer shall not prejudice the rights of a policyholder or other creditor to payment in full of his claim nor the right of an owner of funds or other property held by the insurer to the return thereof. All lawful claims shall be paid promptly and all funds and other property held by the insurer shall be returned to their rightful owners within such maximum period as the Commission may determine."
+      "source_quote": "The authorisation under section 64(2) to wind up an insurer shall not prejudice the rights of a policyholder or other creditor to payment in full of his claim nor the right of an owner of funds or other property held by the insurer to the return thereof. All lawful claims shall be paid promptly and all funds and other property held by the insurer shall be returned to their rightful owners within such maximum period as the Commission may determine.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "66",
@@ -3293,7 +3423,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where, in the opinion of the Commission, the insurer has discharged all of its obligations, its licence shall be cancelled and the remainder of its assets shall be distributed among its shareholders in proportion to their respective rights. No distribution shall be made before all claims of policyholders and other creditors have been paid or, in the case of a disputed claim, before the insurer has turned over to the Commission, or to any other person proposed by the insurer and approved by the Commission, sufficient funds to meet any liability that may be judicially determined."
+      "source_quote": "Where, in the opinion of the Commission, the insurer has discharged all of its obligations, its licence shall be cancelled and the remainder of its assets shall be distributed among its shareholders in proportion to their respective rights. No distribution shall be made before all claims of policyholders and other creditors have been paid or, in the case of a disputed claim, before the insurer has turned over to the Commission, or to any other person proposed by the insurer and approved by the Commission, sufficient funds to meet any liability that may be judicially determined.",
+      "relevance_score": 0,
+      "relevance_reason": "Unrelated to data privacy or security"
     },
     {
       "section": "67",
@@ -3322,7 +3454,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where the Commission finds that the assets of an insurer whose voluntary winding up has been authorised shall not be sufficient for the full discharge of all its obligations or that completion of the voluntary winding up is unduly delayed, it may petition the Court for a winding up of the insurer under section 68 and for the appointment of liquidator."
+      "source_quote": "Where the Commission finds that the assets of an insurer whose voluntary winding up has been authorised shall not be sufficient for the full discharge of all its obligations or that completion of the voluntary winding up is unduly delayed, it may petition the Court for a winding up of the insurer under section 68 and for the appointment of liquidator.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant to data compliance"
     },
     {
       "section": "68",
@@ -3375,7 +3509,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an application to the Court for the winding up of an insurer is presented by a person other than the Commission, a copy of the application shall, at the same time, be served on the Commission who shall be entitled to be heard on the petition."
+      "source_quote": "Where an application to the Court for the winding up of an insurer is presented by a person other than the Commission, a copy of the application shall, at the same time, be served on the Commission who shall be entitled to be heard on the petition.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "69",
@@ -3404,7 +3540,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an insurer is unable to pay its debts, the Court may, instead of making an order for winding up, order the reduction of the amount of the current policies of the insurer upon such terms and subject to such conditions as the Court considers appropriate."
+      "source_quote": "Where an insurer is unable to pay its debts, the Court may, instead of making an order for winding up, order the reduction of the amount of the current policies of the insurer upon such terms and subject to such conditions as the Court considers appropriate.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant to data compliance"
     },
     {
       "section": "70",
@@ -3461,7 +3599,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No person shall act as or hold himself out as – an insurance manager; an insurance agent; or an insurance broker."
+      "source_quote": "No person shall act as or hold himself out as – an insurance manager; an insurance agent; or an insurance broker.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "71",
@@ -3502,7 +3642,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An insurer shall maintain at its principal place of business and display in a conspicuous place to which the public has access, a list of all its insurance agents, and provide the Commission on demand with a copy of such list."
+      "source_quote": "An insurer shall maintain at its principal place of business and display in a conspicuous place to which the public has access, a list of all its insurance agents, and provide the Commission on demand with a copy of such list.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator oversight and reporting duties"
     },
     {
       "section": "72",
@@ -3541,7 +3683,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No licensee under this Part shall change its balance sheet date without the approval of the Commission."
+      "source_quote": "No licensee under this Part shall change its balance sheet date without the approval of the Commission.",
+      "relevance_score": 1,
+      "relevance_reason": "Record keeping for financial reporting"
     },
     {
       "section": "73",
@@ -3581,7 +3725,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No insurance manager, insurance agent or insurance broker, as the case may be, shall receive, hold, or in any other manner deal with, or shall be allowed by an insurer to receive, hold and deal with, premiums payable under an insurance policy, other than a reinsurance treaty entered into or to be entered into with an insurer, otherwise than in accordance with this Act, the FSC Rules or guidelines issued under this Act."
+      "source_quote": "No insurance manager, insurance agent or insurance broker, as the case may be, shall receive, hold, or in any other manner deal with, or shall be allowed by an insurer to receive, hold and deal with, premiums payable under an insurance policy, other than a reinsurance treaty entered into or to be entered into with an insurer, otherwise than in accordance with this Act, the FSC Rules or guidelines issued under this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial data handling and payment timelines"
     },
     {
       "section": "74",
@@ -3616,7 +3762,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No insurance broker shall provide its services in relation to an insurance policy where to do so would result or be likely to result in a conflict of interest between the broker and an insurer or a policyholder."
+      "source_quote": "No insurance broker shall provide its services in relation to an insurance policy where to do so would result or be likely to result in a conflict of interest between the broker and an insurer or a policyholder.",
+      "relevance_score": 2,
+      "relevance_reason": "Conflicts of interest disclosure for financial data"
     },
     {
       "section": "75",
@@ -3668,7 +3816,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "No person other than a natural person shall act as insurance salesperson for an insurer or insurance agent unless that person is registered with the Commission to act as such for that particular insurer or insurance agent."
+      "source_quote": "No person other than a natural person shall act as insurance salesperson for an insurer or insurance agent unless that person is registered with the Commission to act as such for that particular insurer or insurance agent.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and registration requirements"
     },
     {
       "section": "76",
@@ -3712,7 +3862,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "There shall be prescribed an annual fee to be paid in respect of every insurance salesperson."
+      "source_quote": "There shall be prescribed an annual fee to be paid in respect of every insurance salesperson.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general compliance with registration and fees"
     },
     {
       "section": "76",
@@ -3756,7 +3908,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "There shall be prescribed an annual fee to be paid in respect of every insurance salesperson."
+      "source_quote": "There shall be prescribed an annual fee to be paid in respect of every insurance salesperson.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial data governance without direct privacy/security focus"
     },
     {
       "section": "77",
@@ -3776,7 +3930,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: salesperson obligations"
     },
     {
       "section": "78",
@@ -3803,7 +3959,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "78. The Minister may by regulations provide for the registration of claim professionals and the conduct of their business."
+      "source_quote": "78. The Minister may by regulations provide for the registration of claim professionals and the conduct of their business.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory framework for claims professionals"
     },
     {
       "section": "79",
@@ -3842,7 +4000,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "79. A provision of an agreement shall be void, where the purport of the provision is that- (a) an insurer is exempted from liability for the actions, omissions or representations of a person acting on its behalf in relation to an insurance policy; (b) the person who has entered into the insurance policy declares or admits that a person who acted on behalf of the insurer in connection with an offer of that person to do so, or with the negotiations preceding the entering into it, was in fact appointed to act on behalf of the first-mentioned person; (c) the obligation of an insurer under an insurance policy is dependent upon the discharging of an obligation of another person under a reinsurance treaty; (d) the person who has entered into an insurance policy, or the life insured, or any beneficiary, under an insurance policy, waives a right to which he is, by or under this Act, entitled."
+      "source_quote": "79. A provision of an agreement shall be void, where the purport of the provision is that- (a) an insurer is exempted from liability for the actions, omissions or representations of a person acting on its behalf in relation to an insurance policy; (b) the person who has entered into the insurance policy declares or admits that a person who acted on behalf of the insurer in connection with an offer of that person to do so, or with the negotiations preceding the entering into it, was in fact appointed to act on behalf of the first-mentioned person; (c) the obligation of an insurer under an insurance policy is dependent upon the discharging of an obligation of another person under a reinsurance treaty; (d) the person who has entered into an insurance policy, or the life insured, or any beneficiary, under an insurance policy, waives a right to which he is, by or under this Act, entitled.",
+      "relevance_score": 2,
+      "relevance_reason": "void clauses protect policyholders from unfair terms"
     },
     {
       "section": "80",
@@ -3883,7 +4043,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "80. Where an insurance policy, other than a reinsurance treaty, is entered into or varied, the insurer, or the insurance agent, shall, not later than 30 days after the policy has been entered into, provide for the purpose of the policyholder written information, in the form of a summary, relating to at least the following matters, namely - (a) those of the representations made by or on behalf of the policyholder to the insurer which were regarded by that insurer as material to its assessment of the risks under the policy; (b) the premiums payable and the policy benefits to be provided under the policy; (c) the disclosure of fees, commissions and other costs on the policy; (d) the events in respect of which the policy benefits are to be provided and the circumstances, if any, in which those benefits are not to be provided."
+      "source_quote": "80. Where an insurance policy, other than a reinsurance treaty, is entered into or varied, the insurer, or the insurance agent, shall, not later than 30 days after the policy has been entered into, provide for the purpose of the policyholder written information, in the form of a summary, relating to at least the following matters, namely - (a) those of the representations made by or on behalf of the policyholder to the insurer which were regarded by that insurer as material to its assessment of the risks under the policy; (b) the premiums payable and the policy benefits to be provided under the policy; (c) the disclosure of fees, commissions and other costs on the policy; (d) the events in respect of which the policy benefits are to be provided and the circumstances, if any, in which those benefits are not to be provided.",
+      "relevance_score": 3,
+      "relevance_reason": "Policyholder transparency and data disclosure"
     },
     {
       "section": "81",
@@ -3938,7 +4100,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "81. Where a party to a contract in terms of which money is loaned, goods are leased or credit is granted requires, whether as a condition thereof or otherwise, that an insurance policy or its policy benefits be made available and used for the purpose of protecting the interests of a creditor, the person who is so required to make that policy or those policy benefits available shall have a free choice - (a) as to whether he wishes to enter into a new policy and make it available for that purpose, or wishes to make available an existing policy of the appropriate value for that purpose, or wishes to utilize a combination of those options; (b) where a new policy is to be entered into – (i) as to the insurer with which the policy is entered into and as to the insurance agent, if any; (ii) as to whether or not the policy benefits concerned are to be provided in an event other than the death or disability of the life insured; (iii) as to whether or not the value of the policy benefits to be provided thereunder, when taken in the aggregate with the value of the policy benefits provided under any other policy which is also to be made available and used for that purpose, shall exceed the value of that debt or other obligation; (c) where an existing policy is to be made available, as to whether or not a variation of the policy required for that purpose shall be such as to cause – (i) policy benefits to be provided in an event other than the death or disability of the life insured; (ii) the value of the policy benefits to be provided thereunder, when taken in the aggregate with the value of the policy benefits provided under any other policy which is also to be made available and used for that purpose, to exceed the value of that debt or other obligation."
+      "source_quote": "81. Where a party to a contract in terms of which money is loaned, goods are leased or credit is granted requires, whether as a condition thereof or otherwise, that an insurance policy or its policy benefits be made available and used for the purpose of protecting the interests of a creditor, the person who is so required to make that policy or those policy benefits available shall have a free choice - (a) as to whether he wishes to enter into a new policy and make it available for that purpose, or wishes to make available an existing policy of the appropriate value for that purpose, or wishes to utilize a combination of those options; (b) where a new policy is to be entered into – (i) as to the insurer with which the policy is entered into and as to the insurance agent, if any; (ii) as to whether or not the policy benefits concerned are to be provided in an event other than the death or disability of the life insured; (iii) as to whether or not the value of the policy benefits to be provided thereunder, when taken in the aggregate with the value of the policy benefits provided under any other policy which is also to be made available and used for that purpose, shall exceed the value of that debt or other obligation; (c) where an existing policy is to be made available, as to whether or not a variation of the policy required for that purpose shall be such as to cause – (i) policy benefits to be provided in an event other than the death or disability of the life insured; (ii) the value of the policy benefits to be provided thereunder, when taken in the aggregate with the value of the policy benefits provided under any other policy which is also to be made available and used for that purpose, to exceed the value of that debt or other obligation.",
+      "relevance_score": 2,
+      "relevance_reason": "policyholder consent and debt security terms"
     },
     {
       "section": "82",
@@ -3965,7 +4129,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "82. Where a policyholder has invested in a \"with profit\" life insurance product which entitles him to a bonus at the discretion of the insurer or in an investment linked policy, the insurer shall provide the policyholder with a report of the performance of the investment in such products, regularly and in any case not less than once every year."
+      "source_quote": "82. Where a policyholder has invested in a \"with profit\" life insurance product which entitles him to a bonus at the discretion of the insurer or in an investment linked policy, the insurer shall provide the policyholder with a report of the performance of the investment in such products, regularly and in any case not less than once every year.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator's role in report format"
     },
     {
       "section": "83",
@@ -4008,7 +4174,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "83. Notwithstanding anything to the contrary in any enactment, the Commission may declare a particular insurance business practice to be undesirable for - (a) all or a particular class of insurance policies; or (b) all or a particular category of persons who render services in respect of insurance policies."
+      "source_quote": "83. Notwithstanding anything to the contrary in any enactment, the Commission may declare a particular insurance business practice to be undesirable for - (a) all or a particular class of insurance policies; or (b) all or a particular category of persons who render services in respect of insurance policies.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and penalties for data practices"
     },
     {
       "section": "84",
@@ -4050,7 +4218,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "84. Abandoned funds (1) Notwithstanding anything in any agreement between an insurer and a policyholder, and irrespective of the amount, where a policyholder's entitlement to receive money under an insurance policy has been left untouched and not claimed for 10 years or more, the insurer shall - (a) send by registered post a notice to that effect to the last known address of the policyholder or the beneficiary under the policy; (b) cause the notice to be published in the Gazette and in two daily newspapers."
+      "source_quote": "84. Abandoned funds (1) Notwithstanding anything in any agreement between an insurer and a policyholder, and irrespective of the amount, where a policyholder's entitlement to receive money under an insurance policy has been left untouched and not claimed for 10 years or more, the insurer shall - (a) send by registered post a notice to that effect to the last known address of the policyholder or the beneficiary under the policy; (b) cause the notice to be published in the Gazette and in two daily newspapers.",
+      "relevance_score": 2,
+      "relevance_reason": "Publishes notice in media, affects data retention"
     },
     {
       "section": "85",
@@ -4093,7 +4263,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "85. Protection of policyholders (1) Without prejudice to the provisions of Livre Troisième, Titre Douzième, Chapitre Troisième of the Code Civil Mauricien, the Commission may provide in the FSC Rules and guidelines for sound insurance principles and practice."
+      "source_quote": "85. Protection of policyholders (1) Without prejudice to the provisions of Livre Troisième, Titre Douzième, Chapitre Troisième of the Code Civil Mauricien, the Commission may provide in the FSC Rules and guidelines for sound insurance principles and practice.",
+      "relevance_score": 2,
+      "relevance_reason": "FSC rules on disclosure and contracts affect data sharing"
     },
     {
       "section": "86",
@@ -4138,7 +4310,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "86. Assumption of risk by general insurer (1) No general insurer shall assume any risk in respect of such general insurance policy as may be prescribed except where the premium payable is received by the insurer in such manner and within such time as may be prescribed."
+      "source_quote": "86. Assumption of risk by general insurer (1) No general insurer shall assume any risk in respect of such general insurance policy as may be prescribed except where the premium payable is received by the insurer in such manner and within such time as may be prescribed.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential financial procedure for premiums"
     },
     {
       "section": "87",
@@ -4192,7 +4366,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "87. Premium rate under long term policy (1) A long term insurer shall not issue a long term insurance policy except where the premium rate chargeable under that class of policy has been certified by the actuary as being prudentially sound."
+      "source_quote": "87. Premium rate under long term policy (1) A long term insurer shall not issue a long term insurance policy except where the premium rate chargeable under that class of policy has been certified by the actuary as being prudentially sound.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers and financial data handling"
     },
     {
       "section": "88",
@@ -4238,7 +4414,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "88. Compensation Fund (1) There shall be established, under regulations made by the Minister, a fund to be known as the Insurance Industry Compensation Fund which shall have all the powers of a natural person- (a) for the payment of any claims, in respect of risks situated in Mauritius as may be prescribed, against an insurer licensed under this Act, remaining unpaid by reason of insolvency of such insurer, subject to such limitations, restrictions, exclusions, and conditions as may be prescribed; and (b) for the payment of compensation to persons suffering personal injury in traffic accidents where the tortfeasor or the vehicle which caused the injury is untraceable, subject to such limitations and restrictions as may be prescribed."
+      "source_quote": "88. Compensation Fund (1) There shall be established, under regulations made by the Minister, a fund to be known as the Insurance Industry Compensation Fund which shall have all the powers of a natural person- (a) for the payment of any claims, in respect of risks situated in Mauritius as may be prescribed, against an insurer licensed under this Act, remaining unpaid by reason of insolvency of such insurer, subject to such limitations, restrictions, exclusions, and conditions as may be prescribed; and (b) for the payment of compensation to persons suffering personal injury in traffic accidents where the tortfeasor or the vehicle which caused the injury is untraceable, subject to such limitations and restrictions as may be prescribed.",
+      "relevance_score": 2,
+      "relevance_reason": "Compensation fund structure for financial claims"
     },
     {
       "section": "89",
@@ -4280,7 +4458,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "89. Contribution to the Compensation Fund (1) An insurer shall, to the extent of its insurance business relating to Mauritian policies, contribute to the Compensation Fund in such amounts payable at such time as may be prescribed and different amounts may be prescribed with respect to different categories of insurance business or different classes or part classes of policies, or in view of different circumstances."
+      "source_quote": "89. Contribution to the Compensation Fund (1) An insurer shall, to the extent of its insurance business relating to Mauritian policies, contribute to the Compensation Fund in such amounts payable at such time as may be prescribed and different amounts may be prescribed with respect to different categories of insurance business or different classes or part classes of policies, or in view of different circumstances.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory contributions with financial data restrictions"
     },
     {
       "section": "90",
@@ -4317,7 +4497,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "90. Management of the Compensation Fund (1) The Compensation Fund shall be managed by a managing committee consisting of not more than 7 persons appointed by the Minister."
+      "source_quote": "90. Management of the Compensation Fund (1) The Compensation Fund shall be managed by a managing committee consisting of not more than 7 persons appointed by the Minister.",
+      "relevance_score": 1,
+      "relevance_reason": "Financial governance, not direct data compliance"
     },
     {
       "section": "91",
@@ -4350,7 +4532,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "91. Prescription of claims No claim for payment of compensation shall be made out of the Compensation Fund except where the claim is made – (a) in the case of claims made by persons suffering personal injury in traffic accidents where the tortfeasor or the vehicle which caused the injury is untraceable, within 2 years from the date of the occurrence of the accident relating to that claim; (b) in any other case, within 2 years from the date the name of the insurer is removed from the register or the insurer is definitely wound up."
+      "source_quote": "91. Prescription of claims No claim for payment of compensation shall be made out of the Compensation Fund except where the claim is made – (a) in the case of claims made by persons suffering personal injury in traffic accidents where the tortfeasor or the vehicle which caused the injury is untraceable, within 2 years from the date of the occurrence of the accident relating to that claim; (b) in any other case, within 2 years from the date the name of the insurer is removed from the register or the insurer is definitely wound up.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "92",
@@ -4407,7 +4591,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "92. Regulations on Compensation Fund Subject to this Act, regulations made under this Act may provide for - (a) the levying of contributions from licensees and other means of financing the Compensation Fund; (b) the power to subscribe to insurance policies; (c) the mode of determining the right to compensation payable under the Compensation Fund and the circumstances in which such right may be excluded or modified; (d) the power to settle claims; (e) specifications as to the quantum of the compensation; (f) the right of subrogation to the Compensation Fund in order to recover from any person whose liability is extinguished or reduced by the payment of the compensation; (g) the terms and conditions on which compensation is to be payable; and (h) accounts to be kept in respect of the Compensation Fund."
+      "source_quote": "92. Regulations on Compensation Fund Subject to this Act, regulations made under this Act may provide for - (a) the levying of contributions from licensees and other means of financing the Compensation Fund; (b) the power to subscribe to insurance policies; (c) the mode of determining the right to compensation payable under the Compensation Fund and the circumstances in which such right may be excluded or modified; (d) the power to settle claims; (e) specifications as to the quantum of the compensation; (f) the right of subrogation to the Compensation Fund in order to recover from any person whose liability is extinguished or reduced by the payment of the compensation; (g) the terms and conditions on which compensation is to be payable; and (h) accounts to be kept in respect of the Compensation Fund.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: financial data handling without direct data protection focus"
     },
     {
       "section": "93",
@@ -4438,7 +4624,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "93. Power of Commission to issue direction (1) Without prejudice to the powers of the Commission under the Financial Services Act 2007, where the Commission is of the view that a licensee or registered person is not complying with any provision of this Act, FSC Rule or guideline, it may direct the licensee or registered person to comply with such provision, FSC Rule or guideline. (2) A licensee or registered person who fails to comply with a direction issued under subsection (1) shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 3 years."
+      "source_quote": "93. Power of Commission to issue direction (1) Without prejudice to the powers of the Commission under the Financial Services Act 2007, where the Commission is of the view that a licensee or registered person is not complying with any provision of this Act, FSC Rule or guideline, it may direct the licensee or registered person to comply with such provision, FSC Rule or guideline. (2) A licensee or registered person who fails to comply with a direction issued under subsection (1) shall commit an offence and shall, on conviction, be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 3 years.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for compliance enforcement"
     },
     {
       "section": "94",
@@ -4487,7 +4675,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "94. Request of information (1) Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, the Chief Executive may, for the purpose of carrying out the functions of the Commission under this Act or any FSC Rules, by notice in writing, require a licensee or registered person to provide to the Commission – (a) at such times or intervals, at such place and in respect of such periods with such information or document as may be specified in the notice; (c) with a report, in such form as may be specified in the notice, by a person who has relevant professional skill and who is nominated or approved by the Commission on, or on any aspect of, any matter in relation to which the Chief Executive may require information under paragraph (a). (2) The notice under subsection (1) may require the information or document to be verified in a manner or by a person referred to in subsection (1) (b). (3) The power to require production of information and document under subsection (1) shall extend to any person who, in the opinion of the Chief Executive, appears to be in possession of such information and document. (4) Where documents are produced, the Chief Executive may take copies of or extracts from them and require – (a) any person who is a present or past officer, controller, partner, manager or employee of that licensee; (b) the person producing the document; (c) in the case of an insurer, any insurance agent, broker, manager or insurance salesperson who acts, or has acted for that insurer, to provide explanation on the document produced. (5) Where the information or document requested is not in the possession of the person who was required to produce it, that person shall state, to the best of his knowledge and belief, where the document can be found. (6) Any person who, without reasonable excuse, fails to comply with any requirement of this section shall commit an offence and shall on conviction be liable to a fine not exceeding 500,000 rupees and to imprisonment for a term not exceeding 2 years."
+      "source_quote": "94. Request of information (1) Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, the Chief Executive may, for the purpose of carrying out the functions of the Commission under this Act or any FSC Rules, by notice in writing, require a licensee or registered person to provide to the Commission – (a) at such times or intervals, at such place and in respect of such periods with such information or document as may be specified in the notice; (c) with a report, in such form as may be specified in the notice, by a person who has relevant professional skill and who is nominated or approved by the Commission on, or on any aspect of, any matter in relation to which the Chief Executive may require information under paragraph (a). (2) The notice under subsection (1) may require the information or document to be verified in a manner or by a person referred to in subsection (1) (b). (3) The power to require production of information and document under subsection (1) shall extend to any person who, in the opinion of the Chief Executive, appears to be in possession of such information and document. (4) Where documents are produced, the Chief Executive may take copies of or extracts from them and require – (a) any person who is a present or past officer, controller, partner, manager or employee of that licensee; (b) the person producing the document; (c) in the case of an insurer, any insurance agent, broker, manager or insurance salesperson who acts, or has acted for that insurer, to provide explanation on the document produced. (5) Where the information or document requested is not in the possession of the person who was required to produce it, that person shall state, to the best of his knowledge and belief, where the document can be found. (6) Any person who, without reasonable excuse, fails to comply with any requirement of this section shall commit an offence and shall on conviction be liable to a fine not exceeding 500,000 rupees and to imprisonment for a term not exceeding 2 years.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for data requests"
     },
     {
       "section": "95",
@@ -4536,7 +4726,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "95. On-site inspection (1) Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, the Chief Executive may, at any time, inspect the affairs or any part of the affairs of a licensee or registered person in order to verify whether the licensee or registered person, as the case may be, is conducting its business according to sound insurance principles (2) For the purpose of carrying out an inspection under subsection (1), the Chief Executive may appoint as inspector any person, whether or not a member of staff of the Commission, who is an auditor, actuary or any person of required competence. (3) An inspection may take place at the head office and any branch offices or any premises where business of the licensee or registered person is conducted or records are maintained by the licensee, registered person or any associated party. (4) For the purpose of the inspection, the inspector may – (a) request such information and documents in such form and medium, put such questions and require such explanations as the inspector thinks necessary; (b) enter any premises used or apparently used by the licensee for business purposes; (c) examine, and make copies of or take extracts from documents; (d) record any information or make copy of any information kept in electronic form; (e) seek information, explanation or clarification about any document or information; and (f) make such request as would assist him in the inspection. (5) A licensee, registered person or associated party shall, for the purpose of an inspection under this Part, provide the inspector with such facility and assistance as may be necessary for him to carry out the inspection in an efficient and effective manner."
+      "source_quote": "95. On-site inspection (1) Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, the Chief Executive may, at any time, inspect the affairs or any part of the affairs of a licensee or registered person in order to verify whether the licensee or registered person, as the case may be, is conducting its business according to sound insurance principles (2) For the purpose of carrying out an inspection under subsection (1), the Chief Executive may appoint as inspector any person, whether or not a member of staff of the Commission, who is an auditor, actuary or any person of required competence. (3) An inspection may take place at the head office and any branch offices or any premises where business of the licensee or registered person is conducted or records are maintained by the licensee, registered person or any associated party. (4) For the purpose of the inspection, the inspector may – (a) request such information and documents in such form and medium, put such questions and require such explanations as the inspector thinks necessary; (b) enter any premises used or apparently used by the licensee for business purposes; (c) examine, and make copies of or take extracts from documents; (d) record any information or make copy of any information kept in electronic form; (e) seek information, explanation or clarification about any document or information; and (f) make such request as would assist him in the inspection. (5) A licensee, registered person or associated party shall, for the purpose of an inspection under this Part, provide the inspector with such facility and assistance as may be necessary for him to carry out the inspection in an efficient and effective manner.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for inspections"
     },
     {
       "section": "96",
@@ -4603,7 +4795,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, where the Chief Executive has reason to believe that a licensee or registered person – (a) has failed, is failing or is likely to fail, to comply with any direction issued by the Commission under section 93(1); (b) has committed, is committing or is likely to commit a fraud, any financial crime or a serious misconduct; (c) has carried on, is carrying or is likely to carry out any activity which may cause serious prejudice to its customers, or to the soundness, stability and integrity of the financial services sector; (d) in the case of an insurer, has failed, is failing or is likely to fail to maintain a financially sound position in accordance with Part III; (e) has failed to provide any information or document requested by the Commission, he may make an investigation into the business or any part of the business of the licensee or registered person."
+      "source_quote": "Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, where the Chief Executive has reason to believe that a licensee or registered person – (a) has failed, is failing or is likely to fail, to comply with any direction issued by the Commission under section 93(1); (b) has committed, is committing or is likely to commit a fraud, any financial crime or a serious misconduct; (c) has carried on, is carrying or is likely to carry out any activity which may cause serious prejudice to its customers, or to the soundness, stability and integrity of the financial services sector; (d) in the case of an insurer, has failed, is failing or is likely to fail to maintain a financially sound position in accordance with Part III; (e) has failed to provide any information or document requested by the Commission, he may make an investigation into the business or any part of the business of the licensee or registered person.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for data access and investigations"
     },
     {
       "section": "97",
@@ -4650,7 +4844,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, where, at any time it appears to the Chief Executive that – (a) he has grounds under section 96 to carry out an investigation into the business of a licensee; or (b) there are grounds under section 112 for the revocation of a licence or under section 106 for the appointment of a conservator, he may, by notice in writing, suspend wholly or in part, the licence of a licensee."
+      "source_quote": "Without prejudice to the powers of the Chief Executive under the Financial Services Act 2007, where, at any time it appears to the Chief Executive that – (a) he has grounds under section 96 to carry out an investigation into the business of a licensee; or (b) there are grounds under section 112 for the revocation of a licence or under section 106 for the appointment of a conservator, he may, by notice in writing, suspend wholly or in part, the licence of a licensee.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general governance, not direct data compliance"
     },
     {
       "section": "98",
@@ -4685,7 +4881,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A suspension of licence under section 97 shall not prevent a licensee from – (a) continuing to carry on business in relation to an insurance policy issued before the date on which it was notified, in accordance with section 97(1), of the suspension; or (b) issuing or dealing with an insurance policy in pursuance of a term in an insurance policy subsisting at that time, and for the purpose of doing so the licensee shall be deemed to be licensed."
+      "source_quote": "A suspension of licence under section 97 shall not prevent a licensee from – (a) continuing to carry on business in relation to an insurance policy issued before the date on which it was notified, in accordance with section 97(1), of the suspension; or (b) issuing or dealing with an insurance policy in pursuance of a term in an insurance policy subsisting at that time, and for the purpose of doing so the licensee shall be deemed to be licensed.",
+      "relevance_score": 2,
+      "relevance_reason": "license suspension affects data processing continuity"
     },
     {
       "section": "100",
@@ -4728,7 +4926,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purpose of carrying out an inspection under section 95 or an investigation under section 96, the inspector or investigator, as the case may be, may at any time during normal business hours enter the premises of a licensee or registered person or associated party in order to - (a) inspect, take possession or make copies of or take extracts from any documents, books or records; or (b) have access to or take possession of any computer, disc, cassette, microfilm, or any mechanical or electronic device used to store or preserve information."
+      "source_quote": "For the purpose of carrying out an inspection under section 95 or an investigation under section 96, the inspector or investigator, as the case may be, may at any time during normal business hours enter the premises of a licensee or registered person or associated party in order to - (a) inspect, take possession or make copies of or take extracts from any documents, books or records; or (b) have access to or take possession of any computer, disc, cassette, microfilm, or any mechanical or electronic device used to store or preserve information.",
+      "relevance_score": 2,
+      "relevance_reason": "Inspector powers for data access and penalties"
     },
     {
       "section": "101",
@@ -4759,7 +4959,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any person who – (a) destroys, falsifies, conceals or disposes of; or (b) causes or permits the destruction, falsification, concealment or disposal of, any document, information stored on a computer or other device or other thing, which the person knows, or ought reasonably to have known, to be relevant to an inspection or investigation under this Part shall commit an offence and shall on conviction be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 3 years."
+      "source_quote": "Any person who – (a) destroys, falsifies, conceals or disposes of; or (b) causes or permits the destruction, falsification, concealment or disposal of, any document, information stored on a computer or other device or other thing, which the person knows, or ought reasonably to have known, to be relevant to an inspection or investigation under this Part shall commit an offence and shall on conviction be liable to a fine not exceeding one million rupees and to imprisonment for a term not exceeding 3 years.",
+      "relevance_score": 3,
+      "relevance_reason": "Tampering with evidence directly impacts data integrity and investigations"
     },
     {
       "section": "102",
@@ -4806,7 +5008,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of this Part – (a) any reference to a \"licensee\" shall, save and except for sections 97 and 98, include – (i) a registered person who acts or has acted on behalf of that licensee or any past or present employee of that registered person; (ii) any person who is a past or present officer, partner, manager, employee or controller of that licensee; (iii) an associated party of that licensee; (iv) a corporation whose licence has expired, or has been cancelled, revoked, suspended or surrendered; (v) a person who has carried out or is carrying out any activity in the insurance sector without the appropriate licence under this Act."
+      "source_quote": "For the purposes of this Part – (a) any reference to a \"licensee\" shall, save and except for sections 97 and 98, include – (i) a registered person who acts or has acted on behalf of that licensee or any past or present employee of that registered person; (ii) any person who is a past or present officer, partner, manager, employee or controller of that licensee; (iii) an associated party of that licensee; (iv) a corporation whose licence has expired, or has been cancelled, revoked, suspended or surrendered; (v) a person who has carried out or is carrying out any activity in the insurance sector without the appropriate licence under this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Defines key terms for data compliance"
     },
     {
       "section": "104",
@@ -4840,7 +5044,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where an administrator is appointed by the Commission pursuant to its powers under the Financial Services Act 2007, he shall – (a) have the powers, and shall carry out the duties, of an administrator under the Financial Services Act 2007; and (b) carry out the activities of a licensee in accordance with section 98."
+      "source_quote": "Where an administrator is appointed by the Commission pursuant to its powers under the Financial Services Act 2007, he shall – (a) have the powers, and shall carry out the duties, of an administrator under the Financial Services Act 2007; and (b) carry out the activities of a licensee in accordance with section 98.",
+      "relevance_score": 2,
+      "relevance_reason": "Governance and record-keeping for financial data"
     },
     {
       "section": "106",
@@ -4888,7 +5094,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Where the Commission has reasonable cause to believe that - (a) the stated capital of the insurer is impaired or there is a threat of such impairment; or (b) the insurer has, or its directors have - (i) engaged in practices detrimental to the interests of its policyholders and creditors; (ii) knowingly or negligently permitted its chief executive officer, any of its other managers, officers, employees, insurance agents or salesperson to contravene any provision of this Act, or any FSC Rule, or any enactment relating to anti-money laundering or prevention of terrorism or guidelines and directions issued by the Commission; (c) contraventions referred to in paragraph (b)(ii) are likely to occur; (d) the assets of the insurer are not being maintained in accordance with solvency rules, or is not sufficient to give adequate protection to its policyholders or creditors; (e) the solvency margin of the insurer is or is likely to be deficient"
+      "source_quote": "Where the Commission has reasonable cause to believe that - (a) the stated capital of the insurer is impaired or there is a threat of such impairment; or (b) the insurer has, or its directors have - (i) engaged in practices detrimental to the interests of its policyholders and creditors; (ii) knowingly or negligently permitted its chief executive officer, any of its other managers, officers, employees, insurance agents or salesperson to contravene any provision of this Act, or any FSC Rule, or any enactment relating to anti-money laundering or prevention of terrorism or guidelines and directions issued by the Commission; (c) contraventions referred to in paragraph (b)(ii) are likely to occur; (d) the assets of the insurer are not being maintained in accordance with solvency rules, or is not sufficient to give adequate protection to its policyholders or creditors; (e) the solvency margin of the insurer is or is likely to be deficient",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for financial data protection"
     },
     {
       "section": "107",
@@ -4963,7 +5171,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The conservator shall take charge of the business of the insurer and all of its property, books, records and effects and shall exercise all powers necessary to preserve, protect and recover any of the assets of the insurer, collect all monies and debts due to it, assert causes of action belonging to the insurer and file, sue and defend suits on its behalf."
+      "source_quote": "The conservator shall take charge of the business of the insurer and all of its property, books, records and effects and shall exercise all powers necessary to preserve, protect and recover any of the assets of the insurer, collect all monies and debts due to it, assert causes of action belonging to the insurer and file, sue and defend suits on its behalf.",
+      "relevance_score": 2,
+      "relevance_reason": "Governance and record-keeping for financial data"
     },
     {
       "section": "108",
@@ -5005,7 +5215,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The term of office of the conservator shall continue, unless replaced by a successor, until such time as the Commission finds that - (a) the insurer is rehabilitated or reorganised, so that it may be returned to management or a new management under such conditions as are necessary to prevent recurrence of the conditions that gave rise to the conservatorship; or (b) the insurer is in such condition that its continuance in business would not involve probable loss to its policyholders and other creditors."
+      "source_quote": "The term of office of the conservator shall continue, unless replaced by a successor, until such time as the Commission finds that - (a) the insurer is rehabilitated or reorganised, so that it may be returned to management or a new management under such conditions as are necessary to prevent recurrence of the conditions that gave rise to the conservatorship; or (b) the insurer is in such condition that its continuance in business would not involve probable loss to its policyholders and other creditors.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for financial data"
     },
     {
       "section": "109",
@@ -5047,7 +5259,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The conservator shall seek authority from the Commission to - (a) rehabilitate the insurer and return it to management; or (b) reorganise the insurer in accordance with the other provisions of this section."
+      "source_quote": "The conservator shall seek authority from the Commission to - (a) rehabilitate the insurer and return it to management; or (b) reorganise the insurer in accordance with the other provisions of this section.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure governance, no data protection/privacy aspects"
     },
     {
       "section": "110",
@@ -5077,7 +5291,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The administrator, conservator and special administrator or any person acting on their behalf shall not be liable to any proceedings, whether civil or criminal, for, or on account of, or in respect of, an act done or statement made, or omitted to be done or made, in the bona fide performance of a function under his appointment."
+      "source_quote": "The administrator, conservator and special administrator or any person acting on their behalf shall not be liable to any proceedings, whether civil or criminal, for, or on account of, or in respect of, an act done or statement made, or omitted to be done or made, in the bona fide performance of a function under his appointment.",
+      "relevance_score": 0,
+      "relevance_reason": "Immunity for administrators not relevant to data compliance"
     },
     {
       "section": "111",
@@ -5147,7 +5363,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A licensee may surrender its licence after giving the Commission notice of at least one month – (a) before adopting a resolution for the voluntary winding up; (b) prior to the cessation of business."
+      "source_quote": "A licensee may surrender its licence after giving the Commission notice of at least one month – (a) before adopting a resolution for the voluntary winding up; (b) prior to the cessation of business.",
+      "relevance_score": 2,
+      "relevance_reason": "Surrender conditions affect data handling obligations"
     },
     {
       "section": "112",
@@ -5241,7 +5459,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Where it appears to the Chief Executive that - (a) the licensee has ceased the business for which it was licensed; (b) the licensee has failed to commence business within 6 months from the date on which it was licensed; (c) there exists a ground which, under any provision of this Act and FSC Rules would have prevented the licensee from being licensed; (d) the licensee has failed to satisfy an obligation to which it is subject by virtue of this Act and FSC Rules; (e) the licensee is unable to meet its financial obligation or the solvency margin; (f) the business of the license is not being carried on in accordance with sound insurance principles; (g) the licensee is contravening or has contravened any of the provisions of this Act or any conditions imposed on its licence or any directions given by the Commission under this Act, regardless that there has been no conviction for an offence in respect of such contravention; (h) the licensee, or any of its officers responsible for its management has furnished false or misleading information or has concealed, or failed to disclose material facts in its application for a licence or in any returns filed under this Act or FSC Rules; (i) the licensee, or any of its directors or officers responsible for its management has been convicted of an offence under this Act or an offence relating to a financial crime under any other enactment whether in Mauritius or elsewhere; (j) the licensee proposes to make or has made a composition or arrangement with its creditors or goes into receivership or liquidation, is wound up or is dissolved; or (k) an insurer, being a foreign company, has ceased to be authorised to issue insurance policies, or contracts of a particular description, in the country where it has its head office, the Chief Executive shall forthwith refer the matter to the Enforcement Committee to determine whether the license should be revoked."
+      "source_quote": "Where it appears to the Chief Executive that - (a) the licensee has ceased the business for which it was licensed; (b) the licensee has failed to commence business within 6 months from the date on which it was licensed; (c) there exists a ground which, under any provision of this Act and FSC Rules would have prevented the licensee from being licensed; (d) the licensee has failed to satisfy an obligation to which it is subject by virtue of this Act and FSC Rules; (e) the licensee is unable to meet its financial obligation or the solvency margin; (f) the business of the license is not being carried on in accordance with sound insurance principles; (g) the licensee is contravening or has contravened any of the provisions of this Act or any conditions imposed on its licence or any directions given by the Commission under this Act, regardless that there has been no conviction for an offence in respect of such contravention; (h) the licensee, or any of its officers responsible for its management has furnished false or misleading information or has concealed, or failed to disclose material facts in its application for a licence or in any returns filed under this Act or FSC Rules; (i) the licensee, or any of its directors or officers responsible for its management has been convicted of an offence under this Act or an offence relating to a financial crime under any other enactment whether in Mauritius or elsewhere; (j) the licensee proposes to make or has made a composition or arrangement with its creditors or goes into receivership or liquidation, is wound up or is dissolved; or (k) an insurer, being a foreign company, has ceased to be authorised to issue insurance policies, or contracts of a particular description, in the country where it has its head office, the Chief Executive shall forthwith refer the matter to the Enforcement Committee to determine whether the license should be revoked.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory procedures for revocation"
     },
     {
       "section": "113",
@@ -5303,7 +5523,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "A licensee who is dissatisfied with a decision to revoke its licence may apply to the Review Panel for review of the decision in accordance with section 53(4) of the Financial Services Act 2007."
+      "source_quote": "A licensee who is dissatisfied with a decision to revoke its licence may apply to the Review Panel for review of the decision in accordance with section 53(4) of the Financial Services Act 2007.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance for license revocation"
     },
     {
       "section": "114",
@@ -5369,7 +5591,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "A person whose licence has been revoked shall not, unless otherwise directed by the Commission, be allowed to underwrite new insurance polices or renew any existing insurance policy, but shall continue to be subject to this Act and the FSC Rules to the same extent as a licensee and shall continue to discharge its obligations for so long as its liabilities remain unsatisfied."
+      "source_quote": "A person whose licence has been revoked shall not, unless otherwise directed by the Commission, be allowed to underwrite new insurance polices or renew any existing insurance policy, but shall continue to be subject to this Act and the FSC Rules to the same extent as a licensee and shall continue to discharge its obligations for so long as its liabilities remain unsatisfied.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for orderly winding up"
     },
     {
       "section": "116",
@@ -5447,7 +5671,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Unless otherwise provided under this Act, or under any FSC Rule, the Commission shall give notice of and publish its decisions in such form, manner and medium as it thinks fit."
+      "source_quote": "Unless otherwise provided under this Act, or under any FSC Rule, the Commission shall give notice of and publish its decisions in such form, manner and medium as it thinks fit.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory publication requirements for decisions"
     },
     {
       "section": "120",
@@ -5521,7 +5747,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "No person shall without the approval of the Commission apply to his business or undertaking a name or description which includes the word 'insure' 'reinsure' 'assure' or 'underwrite' or any derivative thereof."
+      "source_quote": "No person shall without the approval of the Commission apply to his business or undertaking a name or description which includes the word 'insure' 'reinsure' 'assure' or 'underwrite' or any derivative thereof.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "121",
@@ -5557,7 +5785,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where any advertisement, brochure or similar document which relates to the business of a licensee or registered person, or to an insurance policy and which is being, or is to be, published by a person, is misleading or contrary to the public interest or contains an incorrect statement of fact, the Commission may by notice direct that person not to publish it or to cease publishing it or to effect the changes to it which the Commission deems fit."
+      "source_quote": "Where any advertisement, brochure or similar document which relates to the business of a licensee or registered person, or to an insurance policy and which is being, or is to be, published by a person, is misleading or contrary to the public interest or contains an incorrect statement of fact, the Commission may by notice direct that person not to publish it or to cease publishing it or to effect the changes to it which the Commission deems fit.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "122",
@@ -5592,7 +5822,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where the Commission is satisfied that failure by a person to comply with the provisions of this Act, rules the FSC Rules and guidelines within the prescribed time limit was due to a just or reasonable cause, it may, upon written application being made by the person, by notice to the person, extend the time limit to such time and on such conditions as it may determine."
+      "source_quote": "Where the Commission is satisfied that failure by a person to comply with the provisions of this Act, rules the FSC Rules and guidelines within the prescribed time limit was due to a just or reasonable cause, it may, upon written application being made by the person, by notice to the person, extend the time limit to such time and on such conditions as it may determine.",
+      "relevance_score": 2,
+      "relevance_reason": "Extension deadlines for compliance with rules"
     },
     {
       "section": "123",
@@ -5624,7 +5856,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a person has contravened or is contravening section 7, the Commission may by notice direct that person to make arrangements satisfactory to the Commission to discharge all or any part of the obligations under insurance policies already entered into by that person."
+      "source_quote": "Where a person has contravened or is contravening section 7, the Commission may by notice direct that person to make arrangements satisfactory to the Commission to discharge all or any part of the obligations under insurance policies already entered into by that person.",
+      "relevance_score": 2,
+      "relevance_reason": "enforcement for policy breaches"
     },
     {
       "section": "125",
@@ -5653,7 +5887,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a body corporate carries on business in contravention of sections 7 or 70 every officer of the body corporate who has knowledge of the fact or is concerned in the management of the body corporate shall be jointly and severally liable for the payment and discharge of every debt and liability incurred by the body corporate in so carrying on business."
+      "source_quote": "Where a body corporate carries on business in contravention of sections 7 or 70 every officer of the body corporate who has knowledge of the fact or is concerned in the management of the body corporate shall be jointly and severally liable for the payment and discharge of every debt and liability incurred by the body corporate in so carrying on business.",
+      "relevance_score": 2,
+      "relevance_reason": "Financial liability for non-compliance with data regulations"
     },
     {
       "section": "126",
@@ -5686,7 +5922,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any person who contravenes any provision of this Act or any FSC Rule shall commit an offence, and shall on conviction be liable, where no other penalty is specifically provided, to a fine of 500,000 rupees or to imprisonment for a term not exceeding 2 years."
+      "source_quote": "Any person who contravenes any provision of this Act or any FSC Rule shall commit an offence, and shall on conviction be liable, where no other penalty is specifically provided, to a fine of 500,000 rupees or to imprisonment for a term not exceeding 2 years.",
+      "relevance_score": 2,
+      "relevance_reason": "Penalties for financial data breaches"
     },
     {
       "section": "127",
@@ -5717,7 +5955,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Notwithstanding section 114(2) of the Courts Act and section 72(5) of the District and Intermediate Courts (Criminal Jurisdiction) Act, a Magistrate shall have jurisdiction to try an offence under this Act and may impose any penalty provided under this Act."
+      "source_quote": "Notwithstanding section 114(2) of the Courts Act and section 72(5) of the District and Intermediate Courts (Criminal Jurisdiction) Act, a Magistrate shall have jurisdiction to try an offence under this Act and may impose any penalty provided under this Act.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer relevance"
     },
     {
       "section": "128",
@@ -5752,7 +5992,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Commission may, having regard to the interest of the public and of the policyholders or potential policyholders, and to the reputation of Mauritius, give public notice of the fact that a particular person has ceased to be a licensee, has had its licence suspended, has been sanctioned, is not a licensee, or has been granted or refused a licence."
+      "source_quote": "The Commission may, having regard to the interest of the public and of the policyholders or potential policyholders, and to the reputation of Mauritius, give public notice of the fact that a particular person has ceased to be a licensee, has had its licence suspended, has been sanctioned, is not a licensee, or has been granted or refused a licence.",
+      "relevance_score": 1,
+      "relevance_reason": "Public notice of license status affects data subjects but not directly core data protection"
     },
     {
       "section": "129",
@@ -5803,7 +6045,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Minister may make such regulations as he thinks fit for the purposes of this Act."
+      "source_quote": "The Minister may make such regulations as he thinks fit for the purposes of this Act.",
+      "relevance_score": 0,
+      "relevance_reason": "No data protection or cross-border transfer elements"
     },
     {
       "section": "130",
@@ -5850,7 +6094,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The Commission may, for the purposes of this Act, make rules to be known as the FSC Rules not inconsistent with any regulations to give effect to this Act."
+      "source_quote": "The Commission may, for the purposes of this Act, make rules to be known as the FSC Rules not inconsistent with any regulations to give effect to this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for financial data rules"
     },
     {
       "section": "131",
@@ -5905,7 +6151,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "In this section – 'Category 1 Global Business Licence' has the same meaning as in the Financial Services Act 2007; 'existing insurance intermediary' means an insurance agent, an insurance broker and an insurance salesman registered under the repealed Act; 'existing insurance manager' means a captive management company holding a Category 1 Global Business Licence issued under the Financial Services Act 2007 immediately before the coming into operation of this Act; 'existing insurer' means an insurer or reinsurer registered under the repealed Act, and includes an insurer or reinsurer holding a Category 1 Global Business Licence issued immediately before the coming into operation of this Act."
+      "source_quote": "In this section – 'Category 1 Global Business Licence' has the same meaning as in the Financial Services Act 2007; 'existing insurance intermediary' means an insurance agent, an insurance broker and an insurance salesman registered under the repealed Act; 'existing insurance manager' means a captive management company holding a Category 1 Global Business Licence issued under the Financial Services Act 2007 immediately before the coming into operation of this Act; 'existing insurer' means an insurer or reinsurer registered under the repealed Act, and includes an insurer or reinsurer holding a Category 1 Global Business Licence issued immediately before the coming into operation of this Act.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: tax exemptions, winding-up, licenses"
     },
     {
       "section": "132",
@@ -5944,7 +6192,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This section amends the Code Civil Mauricien, Non-Citizens (Property Restriction) Act, Protected Cell Companies Act, and Road Traffic Act to incorporate insurance regulations."
+      "source_quote": "This section amends the Code Civil Mauricien, Non-Citizens (Property Restriction) Act, Protected Cell Companies Act, and Road Traffic Act to incorporate insurance regulations.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: defines structures for insurance activities"
     },
     {
       "section": "134",
@@ -5975,7 +6225,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation."
+      "source_quote": "Subject to subsection (2), this Act shall come into operation on a date to be fixed by Proclamation.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement date irrelevant to compliance"
     },
     {
       "section": "2011",
@@ -6030,7 +6282,9 @@
           "obligation_type": "Authority"
         }
       ],
-      "source_quote": "An existing insurer shall, until the effective date, be deemed to hold a licence issued under this Act in respect of any category or class of insurance business for which it was registered under the repealed Act or licensed under the repealed Financial Services Development Act 2001 immediately before the coming into operation of this Act or unless the licence is earlier cancelled or revoked under Part XII."
+      "source_quote": "An existing insurer shall, until the effective date, be deemed to hold a licence issued under this Act in respect of any category or class of insurance business for which it was registered under the repealed Act or licensed under the repealed Financial Services Development Act 2001 immediately before the coming into operation of this Act or unless the licence is earlier cancelled or revoked under Part XII.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator powers for solvency compliance during transition"
     },
     {
       "section": "3",
@@ -6061,7 +6315,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An existing insurance intermediary or manager shall, until 1 January 2008, be deemed to be licensed or registered under this Act as an insurance manager, agent, broker or salesperson, as the case may be unless the licence or registration is earlier cancelled or revoked under this Act."
+      "source_quote": "An existing insurance intermediary or manager shall, until 1 January 2008, be deemed to be licensed or registered under this Act as an insurance manager, agent, broker or salesperson, as the case may be unless the licence or registration is earlier cancelled or revoked under this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Deemed licensing affects financial data handling"
     },
     {
       "section": "4",
@@ -6090,7 +6346,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Any register held by the Commission relating to existing insurers, insurance managers and intermediaries shall be deemed to have been established and maintained under section 6 of this Act."
+      "source_quote": "Any register held by the Commission relating to existing insurers, insurance managers and intermediaries shall be deemed to have been established and maintained under section 6 of this Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulatory continuity for financial data registers"
     }
   ]
 }

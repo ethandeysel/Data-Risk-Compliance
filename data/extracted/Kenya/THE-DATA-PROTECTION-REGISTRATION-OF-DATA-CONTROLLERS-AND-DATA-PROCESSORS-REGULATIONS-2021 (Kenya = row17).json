@@ -26,7 +26,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "These Regulations may be cited as the Data Protection (Registration of Data Controllers and Data Processors) Regulations, 2021"
+      "source_quote": "These Regulations may be cited as the Data Protection (Registration of Data Controllers and Data Processors) Regulations, 2021",
+      "relevance_score": 0,
+      "relevance_reason": "Regulation citation is irrelevant"
     },
     {
       "section": "2",
@@ -51,7 +53,9 @@
           "obligation_type": "Definition"
         }
       ],
-      "source_quote": "establishment means (a) a Statute, Charter or statutory instrument in which a body is established; (b) registration certificate; (c) trust deeds in which a trust has been established; and (d) other instruments by which a body is established including its governing and administrative structure"
+      "source_quote": "establishment means (a) a Statute, Charter or statutory instrument in which a body is established; (b) registration certificate; (c) trust deeds in which a trust has been established; and (d) other instruments by which a body is established including its governing and administrative structure",
+      "relevance_score": 1,
+      "relevance_reason": "tangential: defines establishment for registration"
     },
     {
       "section": "3",
@@ -80,7 +84,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "These Regulations provide for the procedure for registration of data controllers and data processors as provided under section 18 of the Act. These Regulations shall not apply to civil registration entities specified under the Data Protection (Civil Registration) Regulations"
+      "source_quote": "These Regulations provide for the procedure for registration of data controllers and data processors as provided under section 18 of the Act. These Regulations shall not apply to civil registration entities specified under the Data Protection (Civil Registration) Regulations",
+      "relevance_score": 2,
+      "relevance_reason": "Excludes civil registration entities from registration"
     },
     {
       "section": "4",
@@ -121,7 +127,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Subject to regulation 13 (1), every data controller and data processor shall be required to register in accordance with the provisions of the Act and these Regulations. For purposes of registration, a person shall register as a data controller, where the person determines the purpose and means for processing personal data; or a data processor, where the person processes personal data on behalf of the data controller but excludes employees of the data controller and has (i) a contractual relationship with the data controller; and (ii) no decision making power on the purpose and means of processing personal data."
+      "source_quote": "Subject to regulation 13 (1), every data controller and data processor shall be required to register in accordance with the provisions of the Act and these Regulations. For purposes of registration, a person shall register as a data controller, where the person determines the purpose and means for processing personal data; or a data processor, where the person processes personal data on behalf of the data controller but excludes employees of the data controller and has (i) a contractual relationship with the data controller; and (ii) no decision making power on the purpose and means of processing personal data.",
+      "relevance_score": 3,
+      "relevance_reason": "Core registration requirements for data controllers/processors"
     },
     {
       "section": "5",
@@ -166,7 +174,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An application for registration of a data controller or data processor shall be in Form DPR1 set out in the First Schedule; and be accompanied by the registration fees specified in the Second Schedule. An application for registration under sub-regulation (1) shall be accompanied by (a) a copy of the establishment documents; (b) particulars of the data controllers or data processors including name and contact details; (c) a description of the purpose for which personal data is processed; and (d) a description of categories of personal data being processed."
+      "source_quote": "An application for registration of a data controller or data processor shall be in Form DPR1 set out in the First Schedule; and be accompanied by the registration fees specified in the Second Schedule. An application for registration under sub-regulation (1) shall be accompanied by (a) a copy of the establishment documents; (b) particulars of the data controllers or data processors including name and contact details; (c) a description of the purpose for which personal data is processed; and (d) a description of categories of personal data being processed.",
+      "relevance_score": 3,
+      "relevance_reason": "Registration requirements for data controllers/processors"
     },
     {
       "section": "6",
@@ -203,7 +213,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A state department or county department shall register and pay the fees on behalf of their respective entities. The entities referred to under sub-regulation (1) shall be the public entities at national or county government which operates within a state department or county department; is wholly funded from the Consolidated Fund; and provides a public service. The fees paid by the state department or county department under sub-regulation (1) shall cater for the specified entities registered under the concerned state department or county department. Despite this regulation, a State Corporation or a County Corporation shall be required to register as a data controller or a data processor in respect of their processing activity, in the manner specified under these Regulations."
+      "source_quote": "A state department or county department shall register and pay the fees on behalf of their respective entities. The entities referred to under sub-regulation (1) shall be the public entities at national or county government which operates within a state department or county department; is wholly funded from the Consolidated Fund; and provides a public service. The fees paid by the state department or county department under sub-regulation (1) shall cater for the specified entities registered under the concerned state department or county department. Despite this regulation, a State Corporation or a County Corporation shall be required to register as a data controller or a data processor in respect of their processing activity, in the manner specified under these Regulations.",
+      "relevance_score": 2,
+      "relevance_reason": "Public entities registration for data controllers/processors"
     },
     {
       "section": "8",
@@ -234,7 +246,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where the Data Commissioner is satisfied that the applicant fulfills the requirements for registration under these Regulations, the Data Commissioner shall, within fourteen days (a) issue the applicant with a certificate of registration for the duration specified under regulation 9; and (b) enter the particulars of the successful applicant in the register."
+      "source_quote": "Where the Data Commissioner is satisfied that the applicant fulfills the requirements for registration under these Regulations, the Data Commissioner shall, within fourteen days (a) issue the applicant with a certificate of registration for the duration specified under regulation 9; and (b) enter the particulars of the successful applicant in the register.",
+      "relevance_score": 3,
+      "relevance_reason": "Registration approval is core data protection process"
     },
     {
       "section": "9",
@@ -261,7 +275,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A certificate of registration issued under regulation 8 (a) shall be valid for a period of twenty-four months from the date of issuance."
+      "source_quote": "A certificate of registration issued under regulation 8 (a) shall be valid for a period of twenty-four months from the date of issuance.",
+      "relevance_score": 2,
+      "relevance_reason": "certificate validity period for registration"
     },
     {
       "section": "10",
@@ -308,7 +324,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "(1) Where the Data Commissioner declines to approve an application for registration, the Data Commissioner shall within twenty-one days from the date of such decision (a) notify, in writing, the applicant of the refusal; and (b) provide reasons for such refusal."
+      "source_quote": "(1) Where the Data Commissioner declines to approve an application for registration, the Data Commissioner shall within twenty-one days from the date of such decision (a) notify, in writing, the applicant of the refusal; and (b) provide reasons for such refusal.",
+      "relevance_score": 3,
+      "relevance_reason": "core refusal procedures for data controller registration"
     },
     {
       "section": "11",
@@ -347,7 +365,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Pursuant to section 20 of the Act, a registered data controller or data processor shall apply for a renewal of registration as a data controller or data processor, after the expiry of the certificate of registration."
+      "source_quote": "Pursuant to section 20 of the Act, a registered data controller or data processor shall apply for a renewal of registration as a data controller or data processor, after the expiry of the certificate of registration.",
+      "relevance_score": 2,
+      "relevance_reason": "Renewal process for data controllers/processors"
     },
     {
       "section": "12",
@@ -374,7 +394,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "12. Businesses that process genetic data."
+      "source_quote": "12. Businesses that process genetic data.",
+      "relevance_score": 3,
+      "relevance_reason": "Genetic data is special personal information requiring registration"
     },
     {
       "section": "13",
@@ -409,7 +431,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A data controller or data processor is exempt from mandatory registration under these Regulations where the data controller or data processor (a) has an annual turnover of below five million shillings or annual revenue of below five million shillings; and (b) has less than ten employees."
+      "source_quote": "A data controller or data processor is exempt from mandatory registration under these Regulations where the data controller or data processor (a) has an annual turnover of below five million shillings or annual revenue of below five million shillings; and (b) has less than ten employees.",
+      "relevance_score": 3,
+      "relevance_reason": "Exemptions from registration impact data compliance directly"
     },
     {
       "section": "14",
@@ -459,7 +483,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "14. (1) Subject to section 21 of the Act, the Data Commissioner shall keep and maintain an up to date register which shall contain (a) the names and particulars of registered data controllers and data processors; (b) categories of personal data being processed by the data controllers and data processors; (c) the address of the principal places of business of the data controllers and data processors; (d) where applicable, details of data protection officers; and (e) any other relevant particular. (2) The Office shall, once every thirty days, publish on the official website a list of registered data controllers or data processors."
+      "source_quote": "14. (1) Subject to section 21 of the Act, the Data Commissioner shall keep and maintain an up to date register which shall contain (a) the names and particulars of registered data controllers and data processors; (b) categories of personal data being processed by the data controllers and data processors; (c) the address of the principal places of business of the data controllers and data processors; (d) where applicable, details of data protection officers; and (e) any other relevant particular. (2) The Office shall, once every thirty days, publish on the official website a list of registered data controllers or data processors.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data registration and transparency requirements"
     },
     {
       "section": "15",
@@ -500,7 +526,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "15. (1) Subject to section 19(2) of the Act, a data controller or data processor shall, within fourteen days of the occurrence of any changes in the particulars of a data controller or a data processor, notify the Data Commissioner in writing. (2) The Data Commissioner shall, on receiving the notification make the necessary changes on the register, where necessary. (3) The Data Commissioner may prior to making any change on the register, request for any necessary documents or proof thereof. (4) A data controller or data processor who contravenes this regulation commits an offence and shall, on conviction, be liable to the penalty specified under section 73 of the Act."
+      "source_quote": "15. (1) Subject to section 19(2) of the Act, a data controller or data processor shall, within fourteen days of the occurrence of any changes in the particulars of a data controller or a data processor, notify the Data Commissioner in writing. (2) The Data Commissioner shall, on receiving the notification make the necessary changes on the register, where necessary. (3) The Data Commissioner may prior to making any change on the register, request for any necessary documents or proof thereof. (4) A data controller or data processor who contravenes this regulation commits an offence and shall, on conviction, be liable to the penalty specified under section 73 of the Act.",
+      "relevance_score": 3,
+      "relevance_reason": "Registration compliance with data protection"
     },
     {
       "section": "16",
@@ -545,7 +573,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "16. (1) Subject to section 22 of the Act, the Data Commissioner may cancel a certificate of registration or vary the conditions for registration, where (a) the data controller or data processor applies for cancellation or variation; (b) the Data Commissioner establishes that the data controller or data processor provided false or misleading information in relation to any registration particulars; or (c) the data controller or data processor willfully or negligently, fails to comply with provisions of the Act and any Regulations made thereunder. (2) The Data Commissioner shall, before cancelling or varying the conditions of registration, be guided by the provisions of the Fair Administrative Actions Act, 2015."
+      "source_quote": "16. (1) Subject to section 22 of the Act, the Data Commissioner may cancel a certificate of registration or vary the conditions for registration, where (a) the data controller or data processor applies for cancellation or variation; (b) the Data Commissioner establishes that the data controller or data processor provided false or misleading information in relation to any registration particulars; or (c) the data controller or data processor willfully or negligently, fails to comply with provisions of the Act and any Regulations made thereunder. (2) The Data Commissioner shall, before cancelling or varying the conditions of registration, be guided by the provisions of the Fair Administrative Actions Act, 2015.",
+      "relevance_score": 3,
+      "relevance_reason": "Data controller/processor registration cancellation"
     },
     {
       "section": "18",
@@ -586,7 +616,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "18. A data controller or a data processor who (a) processes personal data without registering in accordance with these Regulations; (b) provides false or misleading information for the purpose of registration; or (c) fails to renew a certificate of registration and continues to process personal data after the expiry of the certificate, commits an offence and shall, upon conviction, be liable to penalty specified under section 73 of the Act."
+      "source_quote": "18. A data controller or a data processor who (a) processes personal data without registering in accordance with these Regulations; (b) provides false or misleading information for the purpose of registration; or (c) fails to renew a certificate of registration and continues to process personal data after the expiry of the certificate, commits an offence and shall, upon conviction, be liable to penalty specified under section 73 of the Act.",
+      "relevance_score": 3,
+      "relevance_reason": "Registration offences directly impact data compliance"
     },
     {
       "section": "12",
@@ -613,7 +645,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "12. Businesses that process genetic data."
+      "source_quote": "12. Businesses that process genetic data.",
+      "relevance_score": 3,
+      "relevance_reason": "Genetic data is special personal information requiring registration"
     }
   ]
 }

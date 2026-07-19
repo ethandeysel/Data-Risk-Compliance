@@ -49,7 +49,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Commission proposed establishing domain-specific common European data spaces for data sharing and data pooling. As proposed in the European strategy for data, such common European data spaces could cover areas such as health, mobility, manufacturing, financial services, energy or agriculture, or a combination of such areas, for example energy and climate, as well as thematic areas such as the European Green Deal or European data spaces for public administration or skills."
+      "source_quote": "The Commission proposed establishing domain-specific common European data spaces for data sharing and data pooling. As proposed in the European strategy for data, such common European data spaces could cover areas such as health, mobility, manufacturing, financial services, energy or agriculture, or a combination of such areas, for example energy and climate, as well as thematic areas such as the European Green Deal or European data spaces for public administration or skills.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data sharing framework with security mandates"
     },
     {
       "section": "2022 (part 2)",
@@ -69,7 +71,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: micro-enterprise definition"
     },
     {
       "section": "2022 (part 3)",
@@ -129,7 +133,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The re-use regime provided for in this Regulation should apply to data the supply of which forms part of the public tasks of the public sector bodies concerned under law or other binding rules in the Member States."
+      "source_quote": "The re-use regime provided for in this Regulation should apply to data the supply of which forms part of the public tasks of the public sector bodies concerned under law or other binding rules in the Member States.",
+      "relevance_score": 2,
+      "relevance_reason": "Exclusions for public sector data re-use"
     },
     {
       "section": "2022 (part 4)",
@@ -188,7 +194,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Public sector bodies should comply with competition law when establishing the principles for re-use of data they hold, avoiding the conclusion of agreements which might have as their objective or effect the creation of exclusive rights for the re-use of certain data."
+      "source_quote": "Public sector bodies should comply with competition law when establishing the principles for re-use of data they hold, avoiding the conclusion of agreements which might have as their objective or effect the creation of exclusive rights for the re-use of certain data.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer safeguards"
     },
     {
       "section": "2022 (part 5)",
@@ -240,7 +248,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Member States should establish a single information point to act as an interface for re-users that seek to re-use that data. It should have a cross-sector remit, and should complement, if necessary, arrangements at the sectoral level."
+      "source_quote": "Member States should establish a single information point to act as an interface for re-users that seek to re-use that data. It should have a cross-sector remit, and should complement, if necessary, arrangements at the sectoral level.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data intermediation definition and scope for public sector data re-use"
     },
     {
       "section": "2022 (part 6)",
@@ -292,7 +302,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Data intermediation services providers should act only as intermediaries in the transactions, and do not use the data exchanged for any other purpose."
+      "source_quote": "Data intermediation services providers should act only as intermediaries in the transactions, and do not use the data exchanged for any other purpose.",
+      "relevance_score": 3,
+      "relevance_reason": "Data intermediation operational requirements directly impact cross-border data transfers and privacy compliance."
     },
     {
       "section": "2022 (part 7)",
@@ -340,7 +352,9 @@
           "obligation_type": "Should"
         }
       ],
-      "source_quote": "In order to ensure the compliance of data intermediation services providers with this Regulation, they should have their main establishment in the Union. Where a data intermediation services provider not established in the Union offers services within the Union, it should designate a legal representative."
+      "source_quote": "In order to ensure the compliance of data intermediation services providers with this Regulation, they should have their main establishment in the Union. Where a data intermediation services provider not established in the Union offers services within the Union, it should designate a legal representative.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data transfer oversight for intermediaries"
     },
     {
       "section": "2022 (part 8)",
@@ -389,7 +403,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Recognised data altruism organisations should be able to collect relevant data directly from natural and legal persons or to process data collected by others."
+      "source_quote": "Recognised data altruism organisations should be able to collect relevant data directly from natural and legal persons or to process data collected by others.",
+      "relevance_score": 2,
+      "relevance_reason": "Consent frameworks and data altruism specifics"
     },
     {
       "section": "1",
@@ -422,7 +438,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -463,7 +481,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -496,7 +516,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "5",
@@ -528,7 +550,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "1",
@@ -561,7 +585,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -602,7 +628,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -635,7 +663,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "1",
@@ -668,7 +698,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -709,7 +741,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -742,7 +776,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -767,7 +803,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -799,7 +837,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -828,7 +868,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -861,7 +903,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -902,7 +946,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -935,7 +981,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -960,7 +1008,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -992,7 +1042,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -1021,7 +1073,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "7",
@@ -1058,7 +1112,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change."
+      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: registration updates, not direct compliance"
     },
     {
       "section": "8",
@@ -1087,7 +1143,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall, within one week of a duly and fully completed notification, issue a standardised declaration, confirming that the data intermediation services provider has submitted the notification referred to in paragraph 1 and that the notification contains the information referred to in paragraph 6."
+      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall, within one week of a duly and fully completed notification, issue a standardised declaration, confirming that the data intermediation services provider has submitted the notification referred to in paragraph 1 and that the notification contains the information referred to in paragraph 6.",
+      "relevance_score": 2,
+      "relevance_reason": "Competent authority declaration for cross-border transfers"
     },
     {
       "section": "9",
@@ -1124,7 +1182,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall confirm that the data intermediation services provider complies with this Article and Article 12. Upon receipt of such a confirmation, that data intermediation services provider may use the label ‘data intermediation services provider recognised in the Union' in its written and spoken communication, as well as a common logo."
+      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall confirm that the data intermediation services provider complies with this Article and Article 12. Upon receipt of such a confirmation, that data intermediation services provider may use the label ‘data intermediation services provider recognised in the Union' in its written and spoken communication, as well as a common logo.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: logo/label requirements for data intermediation"
     },
     {
       "section": "10",
@@ -1157,7 +1217,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each new notification by electronic means without delay. The Commission shall keep and regularly update a public register of all data intermediation services providers providing their services in the Union."
+      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each new notification by electronic means without delay. The Commission shall keep and regularly update a public register of all data intermediation services providers providing their services in the Union.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator's public register for data intermediation services"
     },
     {
       "section": "11",
@@ -1190,7 +1252,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services may charge fees for the notification in accordance with national law. Such fees shall be proportionate and objective and be based on the administrative costs related to the monitoring of compliance and other market control activities of the competent authority for data intermediation services in relation to notifications of data intermediation services providers. In the case of SMEs and start-ups, the competent authority for data intermediation services may charge a discounted fee or waive the fee."
+      "source_quote": "The competent authority for data intermediation services may charge fees for the notification in accordance with national law. Such fees shall be proportionate and objective and be based on the administrative costs related to the monitoring of compliance and other market control activities of the competent authority for data intermediation services in relation to notifications of data intermediation services providers. In the case of SMEs and start-ups, the competent authority for data intermediation services may charge a discounted fee or waive the fee.",
+      "relevance_score": 2,
+      "relevance_reason": "Fees for notifications under GDPR"
     },
     {
       "section": "12",
@@ -1215,7 +1279,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Data intermediation services providers shall notify the competent authority for data intermediation services of any changes to the information provided pursuant to paragraph 6 within 14 days of the date of the change."
+      "source_quote": "Data intermediation services providers shall notify the competent authority for data intermediation services of any changes to the information provided pursuant to paragraph 6 within 14 days of the date of the change.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting changes to data intermediation services"
     },
     {
       "section": "13",
@@ -1240,7 +1306,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a data intermediation services provider ceases its activities, it shall notify the relevant competent authority for data intermediation services determined pursuant to paragraphs 1, 2 and 3 within 15 days."
+      "source_quote": "Where a data intermediation services provider ceases its activities, it shall notify the relevant competent authority for data intermediation services determined pursuant to paragraphs 1, 2 and 3 within 15 days.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting cessation to authority"
     },
     {
       "section": "14",
@@ -1269,7 +1337,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each notification referred to in paragraphs 12 and 13 by electronic means without delay. The Commission shall update the public register of the data intermediation services providers in the Union accordingly."
+      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each notification referred to in paragraphs 12 and 13 by electronic means without delay. The Commission shall update the public register of the data intermediation services providers in the Union accordingly.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator's role in data transfers"
     },
     {
       "section": "3",
@@ -1302,7 +1372,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -1327,7 +1399,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -1359,7 +1433,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -1388,7 +1464,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -1421,7 +1499,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -1462,7 +1542,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -1495,7 +1577,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -1520,7 +1604,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -1552,7 +1638,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "1",
@@ -1585,7 +1673,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -1626,7 +1716,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -1659,7 +1751,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -1684,7 +1778,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "1",
@@ -1717,7 +1813,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -1758,7 +1856,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "1",
@@ -1791,7 +1891,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -1832,7 +1934,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -1865,7 +1969,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -1890,7 +1996,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "6",
@@ -1919,7 +2027,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "7",
@@ -1956,7 +2066,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change."
+      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: registration updates, not direct compliance"
     },
     {
       "section": "8",
@@ -1985,7 +2097,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall, within one week of a duly and fully completed notification, issue a standardised declaration, confirming that the data intermediation services provider has submitted the notification referred to in paragraph 1 and that the notification contains the information referred to in paragraph 6."
+      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall, within one week of a duly and fully completed notification, issue a standardised declaration, confirming that the data intermediation services provider has submitted the notification referred to in paragraph 1 and that the notification contains the information referred to in paragraph 6.",
+      "relevance_score": 2,
+      "relevance_reason": "Competent authority declaration for cross-border transfers"
     },
     {
       "section": "9",
@@ -2022,7 +2136,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall confirm that the data intermediation services provider complies with this Article and Article 12. Upon receipt of such a confirmation, that data intermediation services provider may use the label ‘data intermediation services provider recognised in the Union' in its written and spoken communication, as well as a common logo."
+      "source_quote": "At the request of the data intermediation services provider, the competent authority for data intermediation services shall confirm that the data intermediation services provider complies with this Article and Article 12. Upon receipt of such a confirmation, that data intermediation services provider may use the label ‘data intermediation services provider recognised in the Union' in its written and spoken communication, as well as a common logo.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: logo/label requirements for data intermediation"
     },
     {
       "section": "10",
@@ -2055,7 +2171,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each new notification by electronic means without delay. The Commission shall keep and regularly update a public register of all data intermediation services providers providing their services in the Union."
+      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each new notification by electronic means without delay. The Commission shall keep and regularly update a public register of all data intermediation services providers providing their services in the Union.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator's public register for data intermediation services"
     },
     {
       "section": "11",
@@ -2088,7 +2206,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services may charge fees for the notification in accordance with national law. Such fees shall be proportionate and objective and be based on the administrative costs related to the monitoring of compliance and other market control activities of the competent authority for data intermediation services in relation to notifications of data intermediation services providers. In the case of SMEs and start-ups, the competent authority for data intermediation services may charge a discounted fee or waive the fee."
+      "source_quote": "The competent authority for data intermediation services may charge fees for the notification in accordance with national law. Such fees shall be proportionate and objective and be based on the administrative costs related to the monitoring of compliance and other market control activities of the competent authority for data intermediation services in relation to notifications of data intermediation services providers. In the case of SMEs and start-ups, the competent authority for data intermediation services may charge a discounted fee or waive the fee.",
+      "relevance_score": 2,
+      "relevance_reason": "Fees for notifications under GDPR"
     },
     {
       "section": "12",
@@ -2113,7 +2233,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Data intermediation services providers shall notify the competent authority for data intermediation services of any changes to the information provided pursuant to paragraph 6 within 14 days of the date of the change."
+      "source_quote": "Data intermediation services providers shall notify the competent authority for data intermediation services of any changes to the information provided pursuant to paragraph 6 within 14 days of the date of the change.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting changes to data intermediation services"
     },
     {
       "section": "13",
@@ -2138,7 +2260,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where a data intermediation services provider ceases its activities, it shall notify the relevant competent authority for data intermediation services determined pursuant to paragraphs 1, 2 and 3 within 15 days."
+      "source_quote": "Where a data intermediation services provider ceases its activities, it shall notify the relevant competent authority for data intermediation services determined pursuant to paragraphs 1, 2 and 3 within 15 days.",
+      "relevance_score": 2,
+      "relevance_reason": "reporting cessation to authority"
     },
     {
       "section": "14",
@@ -2167,7 +2291,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each notification referred to in paragraphs 12 and 13 by electronic means without delay. The Commission shall update the public register of the data intermediation services providers in the Union accordingly."
+      "source_quote": "The competent authority for data intermediation services shall notify the Commission of each notification referred to in paragraphs 12 and 13 by electronic means without delay. The Commission shall update the public register of the data intermediation services providers in the Union accordingly.",
+      "relevance_score": 2,
+      "relevance_reason": "Regulator's role in data transfers"
     },
     {
       "section": "1",
@@ -2200,7 +2326,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "3",
@@ -2233,7 +2361,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "1",
@@ -2266,7 +2396,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -2307,7 +2439,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -2340,7 +2474,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -2365,7 +2501,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -2397,7 +2535,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -2426,7 +2566,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "7",
@@ -2463,7 +2605,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change."
+      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: registration updates, not direct compliance"
     },
     {
       "section": "1",
@@ -2496,7 +2640,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -2537,7 +2683,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "1",
@@ -2570,7 +2718,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -2611,7 +2761,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -2644,7 +2796,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -2669,7 +2823,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -2701,7 +2857,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -2730,7 +2888,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "7",
@@ -2767,7 +2927,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change."
+      "source_quote": "A recognised data altruism organisation shall notify the relevant competent authority for the registration of data altruism organisations of any changes to the information provided pursuant to paragraph 4 within 14 days of the date of the change.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: registration updates, not direct compliance"
     },
     {
       "section": "1",
@@ -2800,7 +2962,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -2841,7 +3005,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "1",
@@ -2874,7 +3040,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -2915,7 +3083,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -2948,7 +3118,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -2973,7 +3145,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -3005,7 +3179,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -3034,7 +3210,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -3067,7 +3245,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3108,7 +3288,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "1",
@@ -3141,7 +3323,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3182,7 +3366,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -3215,7 +3401,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "1",
@@ -3248,7 +3436,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3289,7 +3479,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -3322,7 +3514,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -3347,7 +3541,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -3379,7 +3575,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -3408,7 +3606,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -3441,7 +3641,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "3",
@@ -3474,7 +3676,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -3499,7 +3703,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "1",
@@ -3532,7 +3738,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3573,7 +3781,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -3606,7 +3816,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -3631,7 +3843,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -3663,7 +3877,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "6",
@@ -3692,7 +3908,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -3725,7 +3943,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3766,7 +3986,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "1",
@@ -3799,7 +4021,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3840,7 +4064,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -3873,7 +4099,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "1",
@@ -3906,7 +4134,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -3947,7 +4177,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "4",
@@ -3972,7 +4204,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "1",
@@ -4005,7 +4239,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -4046,7 +4282,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     },
     {
       "section": "3",
@@ -4079,7 +4317,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -4104,7 +4344,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "5",
@@ -4136,7 +4378,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity."
+      "source_quote": "The public sector body, the natural or legal person to which the right to re-use data was granted under Chapter II, the data intermediation services provider and the recognised data altruism organisation shall inform the data holder about the existence of a request of a third-country administrative authority to access its data before complying with that request, except where the request serves law enforcement purposes and for as long as this is necessary to preserve the effectiveness of the law enforcement activity.",
+      "relevance_score": 3,
+      "relevance_reason": "Third-country data access requests and law enforcement exceptions"
     },
     {
       "section": "3",
@@ -4169,7 +4413,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of power referred to in Article 5(13) and Article 22(1) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation mechanics, not data compliance"
     },
     {
       "section": "4",
@@ -4194,7 +4440,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: consultation process for delegated acts"
     },
     {
       "section": "6",
@@ -4223,7 +4471,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 5(13) or Article 22(1) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: legislative process mechanics"
     },
     {
       "section": "1",
@@ -4256,7 +4506,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "1",
@@ -4289,7 +4541,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented."
+      "source_quote": "Member States shall lay down the rules on penalties applicable to infringements of the obligations regarding transfers of non-personal data to third countries pursuant to Article 5(14) and Article 31, the notification obligation of data intermediation services providers pursuant to Article 11, the conditions for providing data intermediation services pursuant to Article 12 and the conditions for the registration as a recognised data altruism organisation pursuant to Articles 18, 20, 21 and 22, and shall take all measures necessary to ensure that they are implemented.",
+      "relevance_score": 3,
+      "relevance_reason": "Member States' penalties for data transfers"
     },
     {
       "section": "2",
@@ -4330,7 +4584,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case."
+      "source_quote": "Member States shall take into account the following non-exhaustive and indicative criteria for the imposition of penalties on data intermediation services providers and recognised data altruism organisations for infringements of this Regulation, where appropriate: (a) the nature, gravity, scale and duration of the infringement; (b) any action taken by the data intermediation services provider or recognised data altruism organisation to mitigate or remedy the damage caused by the infringement; (c) any previous infringements by the data intermediation services provider or recognised data altruism organisation; (d) the financial benefits gained or losses avoided by the data intermediation services provider or recognised data altruism organisation due to the infringement, insofar as such benefits or losses can be reliably established; (e) any other aggravating or mitigating factors applicable to the circumstances of the case.",
+      "relevance_score": 3,
+      "relevance_reason": "Penalty criteria for data intermediation services"
     }
   ]
 }

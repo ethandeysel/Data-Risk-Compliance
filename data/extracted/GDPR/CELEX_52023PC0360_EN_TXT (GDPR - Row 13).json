@@ -52,7 +52,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -87,7 +89,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -120,7 +124,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "3 (part 2)",
@@ -161,7 +167,9 @@
           "obligation_type": "Information"
         }
       ],
-      "source_quote": "According to this macroeconomic assessment, the total annual benefits for the EU economy produced by enhanced access to and sharing of data in the EU financial sector ranges between EUR 4.6 billion and EUR 12.4 billion, including the direct impact on the EU financial data economy in the range of EUR 663 million to EUR 2 billion per year."
+      "source_quote": "According to this macroeconomic assessment, the total annual benefits for the EU economy produced by enhanced access to and sharing of data in the EU financial sector ranges between EUR 4.6 billion and EUR 12.4 billion, including the direct impact on the EU financial data economy in the range of EUR 663 million to EUR 2 billion per year.",
+      "relevance_score": 0,
+      "relevance_reason": "Pure economic impact assessment, no data compliance elements"
     },
     {
       "section": "4",
@@ -188,7 +196,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -218,7 +228,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "5 (part 2)",
@@ -275,7 +287,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Ensuring customer control and trust is imperative to build a well-functioning and effective data sharing framework in the financial sector. Ensuring effective customers' control over data sharing contributes to innovation as well as customer confidence and trust in data sharing."
+      "source_quote": "Ensuring customer control and trust is imperative to build a well-functioning and effective data sharing framework in the financial sector. Ensuring effective customers' control over data sharing contributes to innovation as well as customer confidence and trust in data sharing.",
+      "relevance_score": 3,
+      "relevance_reason": "Core financial data sharing with GDPR compliance"
     },
     {
       "section": "5 (part 3)",
@@ -336,7 +350,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "Customers must have effective control over their data and confidence in managing permissions they have granted in accordance with this Regulation."
+      "source_quote": "Customers must have effective control over their data and confidence in managing permissions they have granted in accordance with this Regulation.",
+      "relevance_score": 3,
+      "relevance_reason": "Financial data consent management core to GDPR compliance"
     },
     {
       "section": "5 (part 4)",
@@ -404,7 +420,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Data holders and data users should be required to be part of financial data sharing schemes."
+      "source_quote": "Data holders and data users should be required to be part of financial data sharing schemes.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border financial data sharing with compliance mandates"
     },
     {
       "section": "5 (part 5)",
@@ -456,7 +474,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Member States should lay down specific rules and effective mechanisms regarding the application of periodic penalty payments. Competent authorities should be empowered to impose periodic penalty payments on financial information service providers and on those members of their management body who are identified as responsible for an ongoing infringement or who are required to comply with an order from an investigating competent authority."
+      "source_quote": "Member States should lay down specific rules and effective mechanisms regarding the application of periodic penalty payments. Competent authorities should be empowered to impose periodic penalty payments on financial information service providers and on those members of their management body who are identified as responsible for an ongoing infringement or who are required to comply with an order from an investigating competent authority.",
+      "relevance_score": 3,
+      "relevance_reason": "Financial data breach penalties and enforcement"
     },
     {
       "section": "5 (part 6)",
@@ -491,7 +511,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A financial information service provider wishing to have access to data held by a data holder in another Member State, should notify its intention to its competent authority, providing information on the type of data it wishes to access, the financial data sharing scheme of which it is a member and the Member States in which it intends to access the data."
+      "source_quote": "A financial information service provider wishing to have access to data held by a data holder in another Member State, should notify its intention to its competent authority, providing information on the type of data it wishes to access, the financial data sharing scheme of which it is a member and the Member States in which it intends to access the data.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border financial data access oversight"
     },
     {
       "section": "1",
@@ -542,7 +564,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -577,7 +601,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "4",
@@ -604,7 +630,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -655,7 +683,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -690,7 +720,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "11",
@@ -737,7 +769,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "When making data available pursuant to paragraph 1, the data holder shall: (a) make customer data available to the data user in a format based on generally recognised standards and at least in the same quality available to the data holder; (b) communicate securely with the data user by ensuring an appropriate level of security for the processing and transmission of customer data; (c) request data users to demonstrate that they have obtained the permission of the customer to access the customer data held by the data holder; (d) provide the customer with a permission dashboard to monitor and manage permissions in accordance with Article 8. (e) respect the confidentiality of trade secrets and intellectual property rights when customer data is accessed in accordance with Article 5(1)."
+      "source_quote": "When making data available pursuant to paragraph 1, the data holder shall: (a) make customer data available to the data user in a format based on generally recognised standards and at least in the same quality available to the data holder; (b) communicate securely with the data user by ensuring an appropriate level of security for the processing and transmission of customer data; (c) request data users to demonstrate that they have obtained the permission of the customer to access the customer data held by the data holder; (d) provide the customer with a permission dashboard to monitor and manage permissions in accordance with Article 8. (e) respect the confidentiality of trade secrets and intellectual property rights when customer data is accessed in accordance with Article 5(1).",
+      "relevance_score": 3,
+      "relevance_reason": "Data sharing security requirements for GDPR"
     },
     {
       "section": "1",
@@ -788,7 +822,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -823,7 +859,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -856,7 +894,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -883,7 +923,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -934,7 +976,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -969,7 +1013,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -1002,7 +1048,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1029,7 +1077,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "2",
@@ -1064,7 +1114,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -1097,7 +1149,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1124,7 +1178,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -1175,7 +1231,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -1210,7 +1268,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "1",
@@ -1261,7 +1321,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "3",
@@ -1294,7 +1356,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1321,7 +1385,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -1351,7 +1417,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "6",
@@ -1382,7 +1450,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "procedural safeguard for legislative adoption"
     },
     {
       "section": "2",
@@ -1417,7 +1487,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -1450,7 +1522,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1477,7 +1551,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -1528,7 +1604,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -1563,7 +1641,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -1596,7 +1676,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1623,7 +1705,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -1653,7 +1737,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "1",
@@ -1704,7 +1790,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -1739,7 +1827,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -1772,7 +1862,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -1799,7 +1891,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -1829,7 +1923,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "6",
@@ -1860,7 +1956,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "procedural safeguard for legislative adoption"
     },
     {
       "section": "7",
@@ -1927,7 +2025,9 @@
           "obligation_type": "Notification"
         }
       ],
-      "source_quote": "The competent authority may withdraw an authorisation issued to a financial information service provider only if the provider: (a) does not make use of the authorisation within 12 months, expressly renounces the authorisation or has ceased to engage in business for more than 6 months; (b) has obtained the authorisation through false statements or any other irregular means; (c) no longer meets the conditions for granting the authorisation or fails to inform the competent authority on major developments in this respect; (d) would constitute a risk to consumer protection and the security of data. The competent authority shall give reasons for any withdrawal of an authorisation and shall inform those concerned accordingly. The competent authority shall make public the withdrawal of an authorisation, in an anonymised version."
+      "source_quote": "The competent authority may withdraw an authorisation issued to a financial information service provider only if the provider: (a) does not make use of the authorisation within 12 months, expressly renounces the authorisation or has ceased to engage in business for more than 6 months; (b) has obtained the authorisation through false statements or any other irregular means; (c) no longer meets the conditions for granting the authorisation or fails to inform the competent authority on major developments in this respect; (d) would constitute a risk to consumer protection and the security of data. The competent authority shall give reasons for any withdrawal of an authorisation and shall inform those concerned accordingly. The competent authority shall make public the withdrawal of an authorisation, in an anonymised version.",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting: financial authorization conditions"
     },
     {
       "section": "1",
@@ -1978,7 +2078,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "4",
@@ -2005,7 +2107,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -2035,7 +2139,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "1",
@@ -2086,7 +2192,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2121,7 +2229,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -2154,7 +2264,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -2181,7 +2293,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -2232,7 +2346,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2267,7 +2383,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -2300,7 +2418,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "1",
@@ -2351,7 +2471,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2386,7 +2508,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -2419,7 +2543,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "1",
@@ -2470,7 +2596,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2505,7 +2633,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -2538,7 +2668,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -2565,7 +2697,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -2595,7 +2729,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "1",
@@ -2646,7 +2782,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "3",
@@ -2679,7 +2817,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "1",
@@ -2730,7 +2870,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2765,7 +2907,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "1",
@@ -2816,7 +2960,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2851,7 +2997,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "1",
@@ -2902,7 +3050,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -2937,7 +3087,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -2970,7 +3122,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -2997,7 +3151,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "1",
@@ -3048,7 +3204,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -3083,7 +3241,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -3116,7 +3276,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -3143,7 +3305,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "5",
@@ -3173,7 +3337,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679."
+      "source_quote": "Where obligations under this Regulation concern the processing of personal data, competent authorities shall cooperate with the supervisory authorities established pursuant to Regulation (EU) 2016/679.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer compliance"
     },
     {
       "section": "1",
@@ -3224,7 +3390,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -3259,7 +3427,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "1",
@@ -3310,7 +3480,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -3345,7 +3517,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -3378,7 +3552,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -3405,7 +3581,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "2",
@@ -3440,7 +3618,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     },
     {
       "section": "3",
@@ -3473,7 +3653,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force."
+      "source_quote": "The delegation of powers referred to in Article 11, may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: revocation of delegation authority"
     },
     {
       "section": "4",
@@ -3500,7 +3682,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making."
+      "source_quote": "Before adopting a delegated act, the Commission shall consult experts signated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "relevance_score": 0,
+      "relevance_reason": "irrelevant: governance process, not data compliance"
     },
     {
       "section": "6",
@@ -3531,7 +3715,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object."
+      "source_quote": "A delegated act adopted pursuant to Article 11, shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of three months of notification of that act to the European Parliament and to the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object.",
+      "relevance_score": 0,
+      "relevance_reason": "procedural safeguard for legislative adoption"
     },
     {
       "section": "1",
@@ -3582,7 +3768,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into application of this Regulation, the Commission shall carry out an evaluation of this Regulation and submit a report on its main findings to the European Parliament and to the Council as well as to the European Economic and Social Committee.",
+      "relevance_score": 0,
+      "relevance_reason": "commencement dates, evaluation mechanics"
     },
     {
       "section": "2",
@@ -3617,7 +3805,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366."
+      "source_quote": "By [OP please insert the date = 4 years after the date of entry into force of this Regulation, the Commission shall submit a report to the European Parliament and the Council assessing the conditions for access to financial data applicable to account information service providers under this Regulation and under Directive (EU) 2015/2366.",
+      "relevance_score": 0,
+      "relevance_reason": "Irrelevant: Commission report timeline, not client-facing data compliance"
     }
   ]
 }

@@ -36,7 +36,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); and (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act)."
+      "source_quote": "This Prudential Standard is made under: (a) section 11AF of the Banking Act 1959 (Banking Act); (b) section 32 of the Insurance Act 1973 (Insurance Act); and (c) section 230A of the Life Insurance Act 1995 (Life Insurance Act).",
+      "relevance_score": 0,
+      "relevance_reason": "commencement/assent dates, pure amendment mechanics"
     },
     {
       "section": "2",
@@ -71,7 +73,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Prudential Standard applies to all 'APRA-regulated institutions', defined as: (a) all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act (authorised banking NOHCs); (b) all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; and (c) all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs)."
+      "source_quote": "This Prudential Standard applies to all 'APRA-regulated institutions', defined as: (a) all authorised deposit-taking institutions (ADIs), including foreign ADIs, and non-operating holding companies authorised under the Banking Act (authorised banking NOHCs); (b) all general insurers, including Category C insurers, non-operating holding companies authorised under the Insurance Act (authorised insurance NOHCs) and parent entities of Level 2 insurance groups; and (c) all life companies, including friendly societies and eligible foreign life insurance companies (EFLICs), and non-operating holding companies registered under the Life Insurance Act (registered life NOHCs).",
+      "relevance_score": 2,
+      "relevance_reason": "Defines scope of APRA-regulated institutions for data compliance"
     },
     {
       "section": "8",
@@ -98,7 +102,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001) or Prudential Standard LPS 001 Definitions appear in bold the first time they are used in this Prudential Standard."
+      "source_quote": "Terms that are defined in Prudential Standard 3PS 001 Definitions, Prudential Standard APS 001 Definitions (APS 001), Prudential Standard GPS 001 Definitions (GPS 001) or Prudential Standard LPS 001 Definitions appear in bold the first time they are used in this Prudential Standard.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential governance terminology consistency"
     },
     {
       "section": "10",
@@ -137,7 +143,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purposes of this Prudential Standard: 'group' means a Level 2 group or a Level 3 group, as relevant; 'Head of a group' means a Level 2 Head or Level 3 Head, as relevant; 'Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; 'Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001."
+      "source_quote": "For the purposes of this Prudential Standard: 'group' means a Level 2 group or a Level 3 group, as relevant; 'Head of a group' means a Level 2 Head or Level 3 Head, as relevant; 'Level 2 group' means the entities that comprise: (a) Level 2 as defined in APS 001; or (b) a Level 2 insurance group as defined in GPS 001; 'Level 2 Head' means: (a) where an ADI that is a member of a Level 2 group is not a subsidiary of an authorised banking NOHC or another ADI, that ADI; (b) where an ADI that is a member of a Level 2 group is a subsidiary of an authorised banking NOHC, that authorised banking NOHC; or (c) the parent entity of a Level 2 insurance group as defined in GPS 001.",
+      "relevance_score": 1,
+      "relevance_reason": "Governance definitions for group structures"
     },
     {
       "section": "14",
@@ -168,7 +176,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness, except where an APRA-regulated institution within the group has otherwise notified APRA of that information."
+      "source_quote": "The Head of a group must notify APRA in accordance with paragraph 36 if the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness, except where an APRA-regulated institution within the group has otherwise notified APRA of that information.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA incident reporting for financial stability"
     },
     {
       "section": "17",
@@ -197,7 +207,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated institution must identify, assess, manage, mitigate and report on potential business continuity risks to ensure that the institution is able to meet its financial and service obligations to its depositors, policyholders and other stakeholders."
+      "source_quote": "An APRA-regulated institution must identify, assess, manage, mitigate and report on potential business continuity risks to ensure that the institution is able to meet its financial and service obligations to its depositors, policyholders and other stakeholders.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: general risk management not specific to data"
     },
     {
       "section": "19",
@@ -228,7 +240,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The Board must ensure that the business continuity risks and controls are taken into account as part of the institution's risk management strategy and when completing a risk management declaration required to be provided to APRA."
+      "source_quote": "The Board must ensure that the business continuity risks and controls are taken into account as part of the institution's risk management strategy and when completing a risk management declaration required to be provided to APRA.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA risk management for financial institutions"
     },
     {
       "section": "20",
@@ -259,7 +273,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "BCM is a whole-of-business approach that includes policies, standards and procedures for ensuring that critical business operations can be maintained or recovered in a timely fashion, in the event of a disruption. Its purpose is to minimise the financial, legal, regulatory, reputational and other material consequences arising from a disruption."
+      "source_quote": "BCM is a whole-of-business approach that includes policies, standards and procedures for ensuring that critical business operations can be maintained or recovered in a timely fashion, in the event of a disruption. Its purpose is to minimise the financial, legal, regulatory, reputational and other material consequences arising from a disruption.",
+      "relevance_score": 2,
+      "relevance_reason": "Supporting: BCM policies for financial data continuity"
     },
     {
       "section": "27",
@@ -298,7 +314,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "When conducting the BIA, the APRA-regulated institution must consider: (a) plausible disruption scenarios over varying periods of time; (b) the period of time for which the institution could not operate without each of its critical business operations; (c) the extent to which a disruption to the critical business operations might have a material impact on the interests of depositors and/or policyholders of the institution; and (d) the financial, legal, regulatory and reputational impact of a disruption to the institution's critical business operations over varying periods of time."
+      "source_quote": "When conducting the BIA, the APRA-regulated institution must consider: (a) plausible disruption scenarios over varying periods of time; (b) the period of time for which the institution could not operate without each of its critical business operations; (c) the extent to which a disruption to the critical business operations might have a material impact on the interests of depositors and/or policyholders of the institution; and (d) the financial, legal, regulatory and reputational impact of a disruption to the institution's critical business operations over varying periods of time.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA-regulated financial data impact assessment"
     },
     {
       "section": "36",
@@ -333,7 +351,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APRA-regulated institution must notify APRA as soon as possible and no later than 24 hours after the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness."
+      "source_quote": "An APRA-regulated institution must notify APRA as soon as possible and no later than 24 hours after the institution experiences a major disruption that has the potential to have a material impact on the institution's risk profile, or affect its financial soundness.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA notification for financial disruptions"
     },
     {
       "section": "40",
@@ -360,7 +380,9 @@
           "obligation_type": "May"
         }
       ],
-      "source_quote": "APRA may adjust or exclude a specific requirement in this Prudential Standard in relation to an APRA-regulated institution."
+      "source_quote": "APRA may adjust or exclude a specific requirement in this Prudential Standard in relation to an APRA-regulated institution.",
+      "relevance_score": 2,
+      "relevance_reason": "APRA's authority to adjust standards for financial institutions"
     }
   ]
 }

@@ -38,7 +38,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The purpose of this guideline is to provide the basis for the creation of incident response policies, plans, procedures, and teams to handle incidents within an organisation."
+      "source_quote": "The purpose of this guideline is to provide the basis for the creation of incident response policies, plans, procedures, and teams to handle incidents within an organisation.",
+      "relevance_score": 3,
+      "relevance_reason": "Core incident response for data protection"
     },
     {
       "section": "2",
@@ -95,7 +97,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An incident is defined as an attempted or successful unauthorised access, use, disclosure, modification or destruction of information; interference with information technology operation; or violation of explicit or implied acceptable usage policy."
+      "source_quote": "An incident is defined as an attempted or successful unauthorised access, use, disclosure, modification or destruction of information; interference with information technology operation; or violation of explicit or implied acceptable usage policy.",
+      "relevance_score": 3,
+      "relevance_reason": "Defines critical incident types for data breach reporting"
     },
     {
       "section": "3",
@@ -145,7 +149,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Organisations should have a formal, focused, and coordinated approach to responding to incidents, including an incident response plan that provides the roadmap for implementing the incident response capability."
+      "source_quote": "Organisations should have a formal, focused, and coordinated approach to responding to incidents, including an incident response plan that provides the roadmap for implementing the incident response capability.",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response and third-party communication for data protection"
     },
     {
       "section": "3 (part 2)",
@@ -165,7 +171,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "Incident handling and breach reporting"
     },
     {
       "section": "4",
@@ -235,7 +243,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "The incident handling process has several phases. The initial phase involves establishing and training an incident response team, and acquiring the necessary tools and resources."
+      "source_quote": "The incident handling process has several phases. The initial phase involves establishing and training an incident response team, and acquiring the necessary tools and resources.",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response lifecycle for breaches"
     },
     {
       "section": "4 (part 2)",
@@ -255,7 +265,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 3,
+      "relevance_reason": "Incident handling and breach reporting"
     },
     {
       "section": "5",
@@ -393,7 +405,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5.0 Incident Handler's Checklist: 1. Preparation a) Are all members aware of the security policies of the organisation? b) Do all members of the Computer Security Incident Response Team know whom to contact? c) Do all incident responders have access to journals and access to incident response toolkits to perform the actual incident response process? d) Have all members participated in incident response drills to practice the incident response process and to improve overall proficiency on a regularly established basis? 2. Detection and Analysis a) Where did the incident occur? b) Who reported or discovered the incident? c) How was it discovered? d) Are there any other areas that have been compromised by the incident? If so what are they and when were they discovered? e) What is the scope of the impact? f) What is the business impact? g) Have the source(s) of the incident been located? If so, where, when, and what are they? 3. Containment a) Short-term containment i. Can the problem be isolated? 1. If so, then proceed to isolate the affected systems. 2. If not, then work with system owners and/or managers to determine further action necessary to contain the problem. ii. Are all affected systems isolated from non-affected systems? 1. If so, then continue to the next step. 2. If not, then continue to isolate affected systems until short-term containment has been accomplished to prevent the incident from escalating any further. b) System-backup"
+      "source_quote": "5.0 Incident Handler's Checklist: 1. Preparation a) Are all members aware of the security policies of the organisation? b) Do all members of the Computer Security Incident Response Team know whom to contact? c) Do all incident responders have access to journals and access to incident response toolkits to perform the actual incident response process? d) Have all members participated in incident response drills to practice the incident response process and to improve overall proficiency on a regularly established basis? 2. Detection and Analysis a) Where did the incident occur? b) Who reported or discovered the incident? c) How was it discovered? d) Are there any other areas that have been compromised by the incident? If so what are they and when were they discovered? e) What is the scope of the impact? f) What is the business impact? g) Have the source(s) of the incident been located? If so, where, when, and what are they? 3. Containment a) Short-term containment i. Can the problem be isolated? 1. If so, then proceed to isolate the affected systems. 2. If not, then work with system owners and/or managers to determine further action necessary to contain the problem. ii. Are all affected systems isolated from non-affected systems? 1. If so, then continue to the next step. 2. If not, then continue to isolate affected systems until short-term containment has been accomplished to prevent the incident from escalating any further. b) System-backup",
+      "relevance_score": 3,
+      "relevance_reason": "Incident response for breaches"
     },
     {
       "section": "6",
@@ -431,7 +445,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "6.0 Conclusion: Organisations should always be concerned about \"when\", and not \"if\" an incident will occur. Incidents can sometimes have serious impact or very low effect on organisations. In any case, it is imperative that we have realistic incident response policies, plans and procedures in place to ensure that each of the incident handling steps are being followed during an incident to prevent further disruption to an organisation's operations. Thus, a dedicated incident response team should be trained to deal with incidents as and when they occur and proper documentation should be in place for any interactions with third parties."
+      "source_quote": "6.0 Conclusion: Organisations should always be concerned about \"when\", and not \"if\" an incident will occur. Incidents can sometimes have serious impact or very low effect on organisations. In any case, it is imperative that we have realistic incident response policies, plans and procedures in place to ensure that each of the incident handling steps are being followed during an incident to prevent further disruption to an organisation's operations. Thus, a dedicated incident response team should be trained to deal with incidents as and when they occur and proper documentation should be in place for any interactions with third parties.",
+      "relevance_score": 3,
+      "relevance_reason": "Financial breach response policy for data protection"
     },
     {
       "section": "7",
@@ -497,7 +513,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "7.0 References: SANS, The Incident Handler's Handbook; The University of Arizona, Incident Response Standard; NIST, Computer Security Incident Handling Guide"
+      "source_quote": "7.0 References: SANS, The Incident Handler's Handbook; The University of Arizona, Incident Response Standard; NIST, Computer Security Incident Handling Guide",
+      "relevance_score": 3,
+      "relevance_reason": "Phishing incident response directly addresses breach notification and cyber-security duties"
     }
   ]
 }

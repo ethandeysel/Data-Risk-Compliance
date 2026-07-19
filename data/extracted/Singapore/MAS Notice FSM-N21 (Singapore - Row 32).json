@@ -74,7 +74,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "This Notice is issued pursuant to section 29(1) of the Financial Services and Markets Act 2022 (the \"Act\") and applies to all the following financial institutions: (a) approved exchanges under the Securities and Futures Act 2001 (\"SFA\"); (b) licensed trade repositories under the SFA; (c) approved clearing houses under the SFA; (d) recognised clearing houses under the SFA which are incorporated in Singapore; (e) holders of a capital markets services licence under the SFA; (f) recognised market operators under the SFA which are incorporated in Singapore; (g) trustees for a collective investment scheme authorised under section 286 of the SFA, that are approved under the SFA; (h) authorised benchmark administrators under the SFA; (i) authorised benchmark submitters under the SFA; (j) designated benchmark submitters under the SFA; (k) the Depository as defined in section 81SF of the SFA, (each a \"specified financial institution\")."
+      "source_quote": "This Notice is issued pursuant to section 29(1) of the Financial Services and Markets Act 2022 (the \"Act\") and applies to all the following financial institutions: (a) approved exchanges under the Securities and Futures Act 2001 (\"SFA\"); (b) licensed trade repositories under the SFA; (c) approved clearing houses under the SFA; (d) recognised clearing houses under the SFA which are incorporated in Singapore; (e) holders of a capital markets services licence under the SFA; (f) recognised market operators under the SFA which are incorporated in Singapore; (g) trustees for a collective investment scheme authorised under section 286 of the SFA, that are approved under the SFA; (h) authorised benchmark administrators under the SFA; (i) authorised benchmark submitters under the SFA; (j) designated benchmark submitters under the SFA; (k) the Depository as defined in section 81SF of the SFA, (each a \"specified financial institution\").",
+      "relevance_score": 3,
+      "relevance_reason": "Defines scope of financial institutions under data compliance"
     },
     {
       "section": "2",
@@ -124,7 +126,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "For the purpose of this Notice — \"critical system\" in relation to a specified financial institution, means a system, the failure of which will cause significant disruption to the operations of the specified financial institution or materially impact the specified financial institution's service to its customers, such as a system which — (a) processes transactions that are time critical; or (b) provides essential services to customers; \"customer\" – (a) in relation to a holder of a capital markets services licence, has the meaning given by paragraph (a)(i) of the definition of \"customer\" in section 2(1) of the SFA; and (b) in relation to an approved clearing house or a recognised clearing house, has the meaning given by paragraph (b) of the definition of \"customer\" in section 2(1) of the SFA; \"IT security incident\" means an event that involves a security breach, such as hacking of, intrusion into, or denial of service attack on, a critical system, or a system which compromises the security, integrity or confidentiality of customer information; \"relevant incident\" means a system malfunction or IT security incident, which has a severe and widespread impact on the specified financial institution's operations or materially impacts the specified financial institution's service to its customers; \"system\" means any hardware, software, network, or other information technology (\"IT\") component which is part of an IT infrastructure; and \"system malfunction\" means a failure of any of the specified financial institution's critical systems."
+      "source_quote": "For the purpose of this Notice — \"critical system\" in relation to a specified financial institution, means a system, the failure of which will cause significant disruption to the operations of the specified financial institution or materially impact the specified financial institution's service to its customers, such as a system which — (a) processes transactions that are time critical; or (b) provides essential services to customers; \"customer\" – (a) in relation to a holder of a capital markets services licence, has the meaning given by paragraph (a)(i) of the definition of \"customer\" in section 2(1) of the SFA; and (b) in relation to an approved clearing house or a recognised clearing house, has the meaning given by paragraph (b) of the definition of \"customer\" in section 2(1) of the SFA; \"IT security incident\" means an event that involves a security breach, such as hacking of, intrusion into, or denial of service attack on, a critical system, or a system which compromises the security, integrity or confidentiality of customer information; \"relevant incident\" means a system malfunction or IT security incident, which has a severe and widespread impact on the specified financial institution's operations or materially impacts the specified financial institution's service to its customers; \"system\" means any hardware, software, network, or other information technology (\"IT\") component which is part of an IT infrastructure; and \"system malfunction\" means a failure of any of the specified financial institution's critical systems.",
+      "relevance_score": 3,
+      "relevance_reason": "Critical systems, incidents, breaches defined for financial data"
     },
     {
       "section": "3",
@@ -149,7 +153,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "Except where defined in this Notice or if the context otherwise requires, the expressions used in this Notice have the same meanings as in the Act."
+      "source_quote": "Except where defined in this Notice or if the context otherwise requires, the expressions used in this Notice have the same meanings as in the Act.",
+      "relevance_score": 2,
+      "relevance_reason": "Default definitions for data terms"
     },
     {
       "section": "5",
@@ -188,7 +194,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A specified financial institution must make all reasonable effort to maintain high availability for critical systems. The specified financial institution must ensure that the maximum unscheduled downtime for each critical system that affects the specified financial institution's operations or service to its customers does not exceed a total of 4 hours within any period of 12 months. A specified financial institution must establish a recovery time objective (\"RTO\") of not more than 4 hours for each critical system. The RTO is the duration of time, from the point of disruption, within which a system must be restored. The specified financial institution must validate and document at least once every 12 months, how it performs its system recovery testing and when the RTO is validated during the system recovery testing."
+      "source_quote": "A specified financial institution must make all reasonable effort to maintain high availability for critical systems. The specified financial institution must ensure that the maximum unscheduled downtime for each critical system that affects the specified financial institution's operations or service to its customers does not exceed a total of 4 hours within any period of 12 months. A specified financial institution must establish a recovery time objective (\"RTO\") of not more than 4 hours for each critical system. The RTO is the duration of time, from the point of disruption, within which a system must be restored. The specified financial institution must validate and document at least once every 12 months, how it performs its system recovery testing and when the RTO is validated during the system recovery testing.",
+      "relevance_score": 2,
+      "relevance_reason": "Recovery testing and RTO for critical systems"
     },
     {
       "section": "7",
@@ -222,7 +230,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "A specified financial institution must notify the Authority as soon as possible, but not later than 1 hour, upon the discovery of a relevant incident, other than a relevant incident arising from the circumstances set out in regulations 8(2)(a) and (b), and 21(d) of the Securities and Futures (Organised Markets) Regulations 2018 (\"Markets Regulations\"), regulation 9(1) of the Securities and Futures (Trade Repositories) Regulations 2013, regulation 11(1) of the Securities and Futures (Clearing Facilities) Regulations 2013, and regulations 11(1)(e) and 19(2)(b) of the Securities and Futures (Financial Benchmarks) Regulations 2018 (\"Financial Benchmarks Regulations\")."
+      "source_quote": "A specified financial institution must notify the Authority as soon as possible, but not later than 1 hour, upon the discovery of a relevant incident, other than a relevant incident arising from the circumstances set out in regulations 8(2)(a) and (b), and 21(d) of the Securities and Futures (Organised Markets) Regulations 2018 (\"Markets Regulations\"), regulation 9(1) of the Securities and Futures (Trade Repositories) Regulations 2013, regulation 11(1) of the Securities and Futures (Clearing Facilities) Regulations 2013, and regulations 11(1)(e) and 19(2)(b) of the Securities and Futures (Financial Benchmarks) Regulations 2018 (\"Financial Benchmarks Regulations\").",
+      "relevance_score": 3,
+      "relevance_reason": "breach notification for financial data"
     },
     {
       "section": "8",
@@ -276,7 +286,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A specified financial institution must, within 14 days or such longer period as the Authority may allow, from the discovery of the relevant incident as described in paragraph 7 or a relevant incident arising from the circumstances set out in regulation 21(d) of the Markets Regulations, as the case may be, submit a root cause and impact analysis report to the Authority. The report must contain — (a) an executive summary of the relevant incident; (b) an analysis of the root cause which triggered the relevant incident; (c) a description of the impact of the relevant incident on the specified financial institution's – i. compliance with laws and regulations applicable to the specified financial institution; ii. operations; and iii. service to its customers; and (d) a description of the remedial measures taken to address the root cause and consequences of the relevant incident."
+      "source_quote": "A specified financial institution must, within 14 days or such longer period as the Authority may allow, from the discovery of the relevant incident as described in paragraph 7 or a relevant incident arising from the circumstances set out in regulation 21(d) of the Markets Regulations, as the case may be, submit a root cause and impact analysis report to the Authority. The report must contain — (a) an executive summary of the relevant incident; (b) an analysis of the root cause which triggered the relevant incident; (c) a description of the impact of the relevant incident on the specified financial institution's – i. compliance with laws and regulations applicable to the specified financial institution; ii. operations; and iii. service to its customers; and (d) a description of the remedial measures taken to address the root cause and consequences of the relevant incident.",
+      "relevance_score": 3,
+      "relevance_reason": "Breach notification for financial data"
     },
     {
       "section": "9",
@@ -305,7 +317,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "A specified financial institution must implement IT controls to protect customer information from unauthorised access or disclosure."
+      "source_quote": "A specified financial institution must implement IT controls to protect customer information from unauthorised access or disclosure.",
+      "relevance_score": 3,
+      "relevance_reason": "IT controls for customer data protection"
     }
   ]
 }

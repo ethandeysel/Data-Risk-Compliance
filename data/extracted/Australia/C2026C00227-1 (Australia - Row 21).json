@@ -76,7 +76,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "management of personal information\n1.1 The object of this principle is to ensure that APP entities manage personal information in an open and transparent way. Compliance with the Australian Privacy Principles etc."
+      "source_quote": "management of personal information\n1.1 The object of this principle is to ensure that APP entities manage personal information in an open and transparent way. Compliance with the Australian Privacy Principles etc.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection and privacy requirements"
     },
     {
       "section": "2",
@@ -111,7 +113,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "2.1 Individuals must have the option of not identifying themselves, or of using a pseudonym, when dealing with an APP entity in relation to a particular matter."
+      "source_quote": "2.1 Individuals must have the option of not identifying themselves, or of using a pseudonym, when dealing with an APP entity in relation to a particular matter.",
+      "relevance_score": 3,
+      "relevance_reason": "Individual anonymity and pseudonymity directly impacts data privacy and user rights"
     },
     {
       "section": "3",
@@ -176,7 +180,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "3.1 If an APP entity is an agency, the entity must not collect personal information (other than sensitive information) unless the information is reasonably necessary for, or directly related to, one or more of the entity's functions or activities."
+      "source_quote": "3.1 If an APP entity is an agency, the entity must not collect personal information (other than sensitive information) unless the information is reasonably necessary for, or directly related to, one or more of the entity's functions or activities.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection requirement for sensitive info collection"
     },
     {
       "section": "4",
@@ -211,7 +217,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "4.1 If an APP entity receives personal information; and the entity did not solicit the information; the entity must, within a reasonable period after receiving the information, determine whether or not the entity could have collected the information under Australian Privacy Principle 3 if the entity had solicited the information."
+      "source_quote": "4.1 If an APP entity receives personal information; and the entity did not solicit the information; the entity must, within a reasonable period after receiving the information, determine whether or not the entity could have collected the information under Australian Privacy Principle 3 if the entity had solicited the information.",
+      "relevance_score": 3,
+      "relevance_reason": "Unsolicited personal info handling under privacy principles"
     },
     {
       "section": "5",
@@ -272,7 +280,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "5.1 At or before the time or, if that is not practicable, as soon as practicable after, an APP entity collects personal information about an individual, the entity must take such steps (if any) as are reasonable in the circumstances: to notify the individual of such matters referred to in subclause 5.2 as are reasonable in the circumstances."
+      "source_quote": "5.1 At or before the time or, if that is not practicable, as soon as practicable after, an APP entity collects personal information about an individual, the entity must take such steps (if any) as are reasonable in the circumstances: to notify the individual of such matters referred to in subclause 5.2 as are reasonable in the circumstances.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection notification requirements"
     },
     {
       "section": "6",
@@ -342,7 +352,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "6.1 If an APP entity holds personal information about an individual that was collected for a particular purpose (the primary purpose), the entity must not use or disclose the information for another purpose (the secondary purpose) unless: the individual has consented to the use or disclosure of the information or subclause 6.2 or 6.3 applies in relation to the use or disclosure of the information."
+      "source_quote": "6.1 If an APP entity holds personal information about an individual that was collected for a particular purpose (the primary purpose), the entity must not use or disclose the information for another purpose (the secondary purpose) unless: the individual has consented to the use or disclosure of the information or subclause 6.2 or 6.3 applies in relation to the use or disclosure of the information.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data protection rules on use/disclosure"
     },
     {
       "section": "7",
@@ -392,7 +404,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "Direct marketing: If an organisation holds personal information about an individual, the organisation must not use or disclose the information for the purpose of direct marketing."
+      "source_quote": "Direct marketing: If an organisation holds personal information about an individual, the organisation must not use or disclose the information for the purpose of direct marketing.",
+      "relevance_score": 3,
+      "relevance_reason": "Direct marketing consent and opt-out requirements"
     },
     {
       "section": "8",
@@ -439,7 +453,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Before an APP entity discloses personal information about an individual to a person (the overseas recipient) who is not in Australia or an external Territory and who is not the entity or the individual, the entity must ensure the overseas recipient does not breach the Australian Privacy Principles."
+      "source_quote": "Before an APP entity discloses personal information about an individual to a person (the overseas recipient) who is not in Australia or an external Territory and who is not the entity or the individual, the entity must ensure the overseas recipient does not breach the Australian Privacy Principles.",
+      "relevance_score": 3,
+      "relevance_reason": "Cross-border data transfer safeguards"
     },
     {
       "section": "9",
@@ -481,7 +497,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "An organisation must not adopt a government related identifier of an individual as its own identifier of the individual unless the adoption is required or authorised by or under an Australian law."
+      "source_quote": "An organisation must not adopt a government related identifier of an individual as its own identifier of the individual unless the adoption is required or authorised by or under an Australian law.",
+      "relevance_score": 3,
+      "relevance_reason": "Restricts government identifiers usage for compliance"
     },
     {
       "section": "10",
@@ -512,7 +530,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "An APP entity must take such steps as are reasonable in the circumstances to ensure that the personal information that the entity collects is accurate, up-to-date and complete."
+      "source_quote": "An APP entity must take such steps as are reasonable in the circumstances to ensure that the personal information that the entity collects is accurate, up-to-date and complete.",
+      "relevance_score": 3,
+      "relevance_reason": "Accuracy/completeness directly impacts privacy compliance"
     },
     {
       "section": "11",
@@ -545,7 +565,9 @@
           "obligation_type": "Must"
         }
       ],
-      "source_quote": "If an APP entity holds personal information, the entity must take such steps as are reasonable in the circumstances to protect the information."
+      "source_quote": "If an APP entity holds personal information, the entity must take such steps as are reasonable in the circumstances to protect the information.",
+      "relevance_score": 3,
+      "relevance_reason": "Core data security requirements for personal information"
     },
     {
       "section": "12",
@@ -584,7 +606,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "If an APP entity holds personal information about an individual, the entity must, on request by the individual, give the individual access to the information."
+      "source_quote": "If an APP entity holds personal information about an individual, the entity must, on request by the individual, give the individual access to the information.",
+      "relevance_score": 3,
+      "relevance_reason": "Individual access to personal information"
     },
     {
       "section": "13",
@@ -634,7 +658,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "13.1 If: (a) an APP entity holds personal information about an individual; (b) either: (i) the entity is satisfied that, having regard to a purpose for which the information is held, the information is inaccurate, out-of-date, incomplete, irrelevant or misleading; or (ii) the individual requests the entity to correct the information; the entity must take such steps (if any) as are reasonable in the circumstances to correct that information..."
+      "source_quote": "13.1 If: (a) an APP entity holds personal information about an individual; (b) either: (i) the entity is satisfied that, having regard to a purpose for which the information is held, the information is inaccurate, out-of-date, incomplete, irrelevant or misleading; or (ii) the individual requests the entity to correct the information; the entity must take such steps (if any) as are reasonable in the circumstances to correct that information...",
+      "relevance_score": 3,
+      "relevance_reason": "Corrects personal information per data subject rights"
     },
     {
       "section": "13 (part 2)",
@@ -654,7 +680,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "correction procedures for data"
     },
     {
       "section": "13 (part 3)",
@@ -689,7 +717,9 @@
           "obligation_type": "Must Not"
         }
       ],
-      "source_quote": "For the purposes of this Schedule, an apology made by or on behalf of the defendant in connection with the invasion of privacy: (a) does not constitute an express or implied admission of fault or liability by the defendant in connection with the invasion of privacy; and (b) is not relevant to the determination of fault or liability in connection with the invasion of privacy."
+      "source_quote": "For the purposes of this Schedule, an apology made by or on behalf of the defendant in connection with the invasion of privacy: (a) does not constitute an express or implied admission of fault or liability by the defendant in connection with the invasion of privacy; and (b) is not relevant to the determination of fault or liability in connection with the invasion of privacy.",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: privacy apology not directly related to data transfers or breaches"
     },
     {
       "section": "13 (part 4)",
@@ -709,7 +739,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 2,
+      "relevance_reason": "correction procedures for data"
     },
     {
       "section": "13 (part 5)",
@@ -729,7 +761,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: correction procedures"
     },
     {
       "section": "13 (part 6)",
@@ -749,7 +783,9 @@
       "topics": [],
       "data_types": [],
       "requirements": [],
-      "source_quote": ""
+      "source_quote": "",
+      "relevance_score": 1,
+      "relevance_reason": "Tangential: correction procedures"
     },
     {
       "section": "13 (part 7)",
@@ -810,7 +846,9 @@
           "obligation_type": "Condition"
         }
       ],
-      "source_quote": "Endnotes: Compilation of amendments and repeals affecting previous provisions."
+      "source_quote": "Endnotes: Compilation of amendments and repeals affecting previous provisions.",
+      "relevance_score": 0,
+      "relevance_reason": "Only legislative tracking, no compliance obligations"
     }
   ]
 }
