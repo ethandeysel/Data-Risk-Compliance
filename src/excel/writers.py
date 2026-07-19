@@ -199,7 +199,8 @@ class ExcelWriter:
         ws["A1"].fill = TITLE_FILL
         ws.merge_cells("A1:D1")
 
-        ws["A3"] = "Choose filters (leave as 'All' to ignore), then read the results below."
+        ws["A3"] = ("Choose filters (leave as 'All' to ignore), then read the "
+                    "results below.  Reset: clear cells B4:B10.")
         ws["A3"].font = Font(italic=True)
 
         # Filter label -> (input cell, Lists header or None for free text)
@@ -236,6 +237,25 @@ class ExcelWriter:
         ws.add_data_validation(dv)
         dv.add(ws["B10"])
         ws["B10"].fill = HEADER_FILL
+
+        # Reset "button".  A real one-click button needs a macro (.xlsm),
+        # which locked-down Excel installs often block; instead the engine
+        # treats a blank filter as "All", so clearing B4:B10 shows
+        # everything.  This labelled box makes that gesture discoverable.
+        ws.merge_cells("D4:E5")
+        reset = ws["D4"]
+        reset.value = "↺  Reset filters"
+        reset.font = Font(bold=True, color="FFFFFF")
+        reset.fill = TITLE_FILL
+        reset.alignment = Alignment(horizontal="center", vertical="center")
+        for coord in ("D4", "E4", "D5", "E5"):
+            ws[coord].border = THIN_BORDER
+        ws.merge_cells("D6:E8")
+        hint = ws["D6"]
+        hint.value = "Select cells B4:B10\nand press Delete"
+        hint.font = Font(italic=True, size=9)
+        hint.alignment = Alignment(
+            horizontal="center", vertical="top", wrap_text=True)
 
         # Results: classic INDEX/MATCH pulled from the hidden Engine sheet
         # (works in every Excel version — no dynamic arrays).
@@ -301,16 +321,20 @@ class ExcelWriter:
             )
             # Filters: B4 Country, B5 Topic, B6 Data Type,
             # B7 Financial Relevance, B8 Authority, B9 keyword.
+            # Each exact-match filter passes when the cell is "All" OR blank
+            # (blank = ignored), so clearing B4:B10 resets to "show everything".
             ws.cell(i, 1).value = (
                 "=IF(AND("
-                f'OR(Query!$B$4="All",{db}!${C("Country")}{i}=Query!$B$4),'
+                f'OR(Query!$B$4="All",Query!$B$4="",'
+                f'{db}!${C("Country")}{i}=Query!$B$4),'
                 f'OR(Query!$B$5="All",ISNUMBER(SEARCH(Query!$B$5,'
                 f'{db}!${C("Topics")}{i}))),'
                 f'OR(Query!$B$6="All",ISNUMBER(SEARCH(Query!$B$6,'
                 f'{db}!${C("Data Types")}{i}))),'
-                f'OR(Query!$B$7="All",'
+                f'OR(Query!$B$7="All",Query!$B$7="",'
                 f'{db}!${C("Financial Relevance")}{i}=Query!$B$7),'
-                f'OR(Query!$B$8="All",{db}!${C("Authority")}{i}=Query!$B$8),'
+                f'OR(Query!$B$8="All",Query!$B$8="",'
+                f'{db}!${C("Authority")}{i}=Query!$B$8),'
                 f'OR(Query!$B$9="",ISNUMBER(SEARCH(Query!$B$9,{keyword}))),'
                 f'OR(Query!$B$10<>"Yes",'
                 f'{db}!${C("Financial Relevance")}{i}<>"None")'

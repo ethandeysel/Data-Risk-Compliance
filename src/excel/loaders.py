@@ -35,6 +35,11 @@ PDF_BASE_URL = os.getenv(
 POST_FIN_FLOOR = os.getenv("POST_FIN_FLOOR", "1") == "1"
 POST_DEDUP = os.getenv("POST_DEDUP", "1") == "1"
 POST_DROP_NOISE = os.getenv("POST_DROP_NOISE", "1") == "1"
+# Strip requirement bullets that aren't real obligations — definitions,
+# legislative-drafting mechanics ("Omit '5', substitute '7'"), commencement
+# dates and bare "this section applies…" scope text.  These are things the
+# 4b model dutifully transcribes but nobody DTIA-querying wants in a checklist.
+POST_CLEAN_REQS = os.getenv("POST_CLEAN_REQS", "1") == "1"
 
 
 # Column order for the Compliance Database / Query result.  Kept
@@ -57,6 +62,55 @@ _FIN_KEYWORDS = re.compile(
     r"\b(bank|insur|payment|financ|invest|securit|taxation|credit|"
     r"monetary|deposit|lending)", re.IGNORECASE,
 )
+
+# --- requirement-noise detection (see POST_CLEAN_REQS) -----------------
+# obligation_type values the model uses for things that are not obligations.
+_META_REQ_TYPES = {
+    "definition", "example", "fact", "reference", "statement",
+    "clarification", "substitution", "insertion", "omission", "repeal",
+    "amendment", "deletion", "renumbering", "modification", "revocation",
+    "substitute", "insert", "omit", "preservation",
+}
+# Any real obligation verb — its presence rescues a "means/refers to" line
+# that is actually imposing a duty rather than defining a term.
+_OBLIG_VERB = re.compile(
+    r"\b(must|shall|require|ensure|may not|shall not|must not|prohibit|"
+    r"obliged|responsible|need to|has to|have to|entitled|liable|comply|"
+    r"notify|report|register|retain|obtain|provide|maintain|keep|submit|"
+    r"appoint|implement|restrict|delete|erase|disclose|consent)\b", re.I)
+# Legislative-drafting mechanics: "Omit '5', substitute '7'", "is amended".
+_AMEND_REQ = re.compile(
+    r"^\s*(omit|insert|substitute|repeal|renumber|add|delete)\b"
+    r"|\bis\s+(hereby\s+)?(omitted|inserted|substituted|repealed|amended|"
+    r"deleted|renumbered)\b"
+    r"|\bsubstitute[sd]?\s+['\"]", re.I)
+# Commencement / short-title boilerplate.
+_COMMENCE_REQ = re.compile(
+    r"\b(commenc\w+|comes?\s+into\s+(force|operation)|come\s+into\s+"
+    r"operation|royal\s+assent|short\s+title)\b", re.I)
+# A defined term at the very start: "X means …", "Y refers to …".
+_DEFN_REQ = re.compile(
+    r"^\s*['\"]?[A-Za-z][^.]{0,70}?\b(means|refers to)\b", re.I)
+# Bare self-referential scope: "This section applies / does not apply …".
+_APPLIES_REQ = re.compile(
+    r"^\s*(this|that|the)\s+(section|subsection|part|division|chapter|"
+    r"schedule|paragraph|regulation|article|act|code)\b[^.]*?"
+    r"\b(applies|does not apply|do not apply|has effect|is amended)\b", re.I)
+
+
+def _is_noise_requirement(otype, text):
+    """True for 'requirements' that are not real obligations: definitions,
+    amendment instructions, commencement/short-title text and bare scope
+    statements about the document itself."""
+    if (otype or "").strip().lower() in _META_REQ_TYPES:
+        return True
+    if _AMEND_REQ.search(text) or _COMMENCE_REQ.search(text):
+        return True
+    if _APPLIES_REQ.search(text):
+        return True
+    if _DEFN_REQ.search(text) and not _OBLIG_VERB.search(text):
+        return True
+    return False
 
 
 def _pages(section):
@@ -82,7 +136,12 @@ def _one_line(text):
 
 
 def _requirement_bullets(section):
-    """One '• …' line per requirement (truncated to keep rows manageable)."""
+    """One '• …' line per requirement (truncated to keep rows manageable).
+
+    With POST_CLEAN_REQS on, non-obligation bullets (definitions, amendment
+    mechanics, commencement text, bare scope statements) are dropped here so
+    the cleaned checklist also drives dedup and the noise-drop signal score.
+    """
     parts = []
     for req in section.get("requirements", []):
         if isinstance(req, dict):
@@ -90,10 +149,15 @@ def _requirement_bullets(section):
             otype = req.get("obligation_type", "").strip()
             if not text:
                 continue
+            if POST_CLEAN_REQS and _is_noise_requirement(otype, text):
+                continue
             prefix = f"• [{otype}] " if otype else "• "
             parts.append(prefix + _one_line(text))
         elif str(req).strip():
-            parts.append("• " + _one_line(str(req).strip()))
+            text = str(req).strip()
+            if POST_CLEAN_REQS and _is_noise_requirement("", text):
+                continue
+            parts.append("• " + _one_line(text))
     return parts
 
 
